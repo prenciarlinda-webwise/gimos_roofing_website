@@ -1,0 +1,311 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const location = "Jacksonville Beach";
+const county = "Duval County";
+const phone = "(904) 606-5313";
+const estimateUrl = 'https://app.roofr.com/instant-estimator/9ef814fe-1efa-4e6b-aaed-45ff7eda2015/GimosRoofing/welcome-question';
+
+const nearbyAreas = [
+  { name: "Atlantic Beach", href: "/roofing-atlantic-beach-fl" },
+  { name: "Neptune Beach", href: "/roofing-neptune-beach-fl" },
+  { name: "Ponte Vedra Beach", href: "/roofing-ponte-vedra-beach-fl" },
+  { name: "Jacksonville", href: "/roofing-jacksonville-fl" },
+  { name: "St. Augustine", href: "/roofing-st-augustine-fl" }
+];
+
+const faqs = [
+  { q: `How much does roof replacement cost in ${location}?`, a: `Coastal roof replacement in ${location} ranges from $8,500 to $32,000+ depending on size and materials. Oceanfront properties require salt-resistant materials. Financing available from $99/month.` },
+  { q: `What's the best roofing for beachfront homes?`, a: `For ${location}'s beach environment, we recommend aluminum standing seam metal (best salt resistance), impact-resistant shingles with algae protection, or concrete tile for classic Florida style.` },
+  { q: `How long do roofs last near the beach?`, a: `Standard shingles may only last 15-20 years near the ocean due to salt exposure. With proper coastal materials and maintenance, expect 25-50+ years depending on material choice.` },
+  { q: `Do you provide hurricane damage repair?`, a: `Yes! We offer 24/7 emergency storm response for ${location}. Call ${phone} for immediate tarping, damage assessment, and insurance claim assistance.` },
+  { q: `Are you familiar with ${location} building codes?`, a: `Absolutely. We're experts in Florida's High Velocity Hurricane Zone requirements and ensure all installations meet or exceed ${location}'s coastal building codes.` },
+  { q: `How do I protect my roof from salt damage?`, a: `Regular inspections, prompt repairs, and using salt-resistant materials are key. We recommend annual inspections for ${location} coastal properties and can advise on the best protective options.` }
+];
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "name": "Gimo's Roofing - Jacksonville Beach",
+  "url": "https://gimosroofing.com/roofing-jacksonville-beach-fl",
+  "telephone": phone,
+  "address": { "@type": "PostalAddress", "addressLocality": "Jacksonville Beach", "addressRegion": "FL", "addressCountry": "US" },
+  "areaServed": { "@type": "City", "name": "Jacksonville Beach", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County" } },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "78" },
+  "priceRange": "$$"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.q, "acceptedAnswer": { "@type": "Answer", "text": faq.a } }))
+};
+---
+
+<Layout
+  title={`Roofing Company ${location} FL | Beach Home Roof Repair & Replacement | Gimo's`}
+  description={`Living at ${location} means salt air and storms constantly testing your roof. We use coastal-grade materials that actually hold up to beach conditions. Free estimates: ${phone}.`}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <!-- Hero -->
+  <section class="bg-secondary py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center text-white">
+      <p class="text-primary font-semibold mb-3">Serving {location} & The Beaches</p>
+      <h1 class="text-4xl md:text-5xl font-bold mb-5">Roofing Company in {location}, FL</h1>
+      <p class="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
+        Beach home roofing specialists. Salt-resistant materials, hurricane-rated installation, protecting Jax Beach properties.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4 mb-6">
+        <a href={estimateUrl} target="_blank" rel="noopener" class="btn btn-primary px-6 py-3 font-semibold">Get Free Estimate</a>
+        <a href={`tel:+1${phone.replace(/\D/g, '')}`} class="btn bg-white text-secondary hover:bg-gray-100 px-6 py-3 font-semibold">{phone}</a>
+      </div>
+      <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-300">
+        <span>✓ Licensed & Insured</span>
+        <span>✓ 5-Star Rated</span>
+        <span>✓ Beach Specialists</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="bg-primary py-5">
+    <div class="max-w-4xl mx-auto px-4">
+      <div class="flex flex-wrap justify-center gap-10 text-secondary">
+        <div class="text-center">
+          <span class="text-3xl font-bold">500+</span>
+          <span class="text-sm ml-2">Roofs</span>
+        </div>
+        <div class="text-center">
+          <span class="text-3xl font-bold">15+</span>
+          <span class="text-sm ml-2">Years</span>
+        </div>
+        <div class="text-center">
+          <span class="text-3xl font-bold">5.0</span>
+          <span class="text-sm ml-2">Star Rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="py-14">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-secondary mb-4">Your {location} Roofing Experts</h2>
+      <p class="text-gray-600 mb-4">
+        {location} is one of Northeast Florida's most vibrant beach communities, but living near the ocean means your roof faces relentless salt air, intense UV exposure, and hurricane threats. At Gimo's Roofing, we specialize in protecting Jax Beach homes with materials and techniques designed for coastal conditions.
+      </p>
+      <p class="text-gray-600">
+        From the bustling downtown area to quieter residential streets, we've completed roofing projects throughout {location}. Our team understands what it takes to make a roof last in this challenging environment—and we deliver results that stand up to everything Florida weather throws at them.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="py-14 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Our Beach Home Services</h2>
+
+      <!-- Roofing Services -->
+      <div class="mb-10">
+        <div class="flex items-center gap-3 mb-5">
+          <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+            <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-secondary">Roofing Services</h3>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div class="bg-white p-5 rounded-lg shadow-sm">
+            <h4 class="font-bold text-secondary mb-2">Beach Roof Replacement</h4>
+            <p class="text-gray-600 text-sm">Complete tear-off with coastal-grade materials. Shingles, metal, or tile. Starting at $8,500.</p>
+          </div>
+          <div class="bg-white p-5 rounded-lg shadow-sm">
+            <h4 class="font-bold text-secondary mb-2">Storm Damage Repair</h4>
+            <p class="text-gray-600 text-sm">24/7 emergency response for hurricane and storm damage. Fast tarping, repairs, and insurance assistance.</p>
+          </div>
+          <div class="bg-white p-5 rounded-lg shadow-sm">
+            <h4 class="font-bold text-secondary mb-2">Roof Repair</h4>
+            <p class="text-gray-600 text-sm">Fix leaks, replace damaged shingles, repair flashing. Addressing salt damage and weather wear.</p>
+          </div>
+          <div class="bg-white p-5 rounded-lg shadow-sm">
+            <h4 class="font-bold text-secondary mb-2">Coastal Inspections</h4>
+            <p class="text-gray-600 text-sm">Annual inspections to catch salt damage and wear early. Free for {location} homeowners.</p>
+          </div>
+          <div class="bg-white p-5 rounded-lg shadow-sm">
+            <h4 class="font-bold text-secondary mb-2">New Construction</h4>
+            <p class="text-gray-600 text-sm">Quality roofing for new beach homes. We work with builders throughout the Beaches area.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Siding Services -->
+      <div>
+        <div class="flex items-center gap-3 mb-5">
+          <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+            <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-secondary">Siding Services</h3>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-5">
+          <div class="bg-white p-5 rounded-lg shadow-sm">
+            <h4 class="font-bold text-secondary mb-2">Siding Installation</h4>
+            <p class="text-gray-600 text-sm">Salt-resistant Hardie board, vinyl, and fiber cement siding for complete coastal protection.</p>
+          </div>
+          <div class="bg-white p-5 rounded-lg shadow-sm">
+            <h4 class="font-bold text-secondary mb-2">Siding Repair</h4>
+            <p class="text-gray-600 text-sm">Expert repairs for salt damage, storm impact, and weather wear on your home's exterior.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="py-14">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Why {location} Homeowners Choose Us</h2>
+      <div class="space-y-6">
+        <div class="flex gap-4">
+          <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-secondary">Beach Community Experts</h3>
+            <p class="text-gray-600 text-sm">We've served {location} and the Beaches for years. We know the unique challenges coastal homes face and how to address them.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-secondary">Hurricane-Ready Installation</h3>
+            <p class="text-gray-600 text-sm">Enhanced fastening, premium underlayment, and wind-rated materials. All work meets Florida's coastal building codes.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-secondary">24/7 Storm Response</h3>
+            <p class="text-gray-600 text-sm">When storms hit, we're ready. Emergency tarping and repairs to minimize damage to your {location} home.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-secondary">Honest Pricing</h3>
+            <p class="text-gray-600 text-sm">Detailed estimates with no hidden fees. We explain what coastal materials cost and why they're worth the investment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Materials -->
+  <section class="py-14 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Beach Home Roofing Materials</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="text-center">
+          <div class="text-3xl font-bold text-primary mb-2">$8,500+</div>
+          <h3 class="font-bold text-secondary mb-2">Coastal Shingles</h3>
+          <p class="text-gray-600 text-sm">Impact-resistant with algae protection. Wind rated to 130mph. 25-50 year warranties available.</p>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-bold text-primary mb-2">$14,500+</div>
+          <h3 class="font-bold text-secondary mb-2">Metal Roofing</h3>
+          <p class="text-gray-600 text-sm">Aluminum or Galvalume for salt resistance. 40-70 year lifespan. Standing seam or exposed fastener options.</p>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-bold text-primary mb-2">$17,000+</div>
+          <h3 class="font-bold text-secondary mb-2">Tile Roofing</h3>
+          <p class="text-gray-600 text-sm">Concrete or clay for classic beach style. Salt and weather resistant. 50+ year lifespan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Climate Section -->
+  <section class="py-14">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-secondary mb-6 text-center">Built for {location}'s Beach Climate</h2>
+      <div class="grid sm:grid-cols-2 gap-6">
+        <div>
+          <h3 class="font-bold text-secondary text-sm">Salt Resistance</h3>
+          <p class="text-gray-600 text-sm">Aluminum components and salt-resistant fasteners prevent corrosion from constant ocean air exposure.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-secondary text-sm">UV Protection</h3>
+          <p class="text-gray-600 text-sm">Enhanced UV-resistant materials stand up to intense beach sun and reflection from sand and water.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-secondary text-sm">Hurricane Rated</h3>
+          <p class="text-gray-600 text-sm">All installations meet Florida's coastal wind codes. Impact-resistant options for maximum storm protection.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-secondary text-sm">Algae Resistant</h3>
+          <p class="text-gray-600 text-sm">Copper-infused shingles and proper ventilation prevent unsightly algae streaks in humid beach conditions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-14 bg-gray-50">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Common Questions</h2>
+      <div class="space-y-3">
+        {faqs.map((faq, index) => (
+          <div class="border border-gray-200 rounded-xl overflow-hidden bg-white">
+            <button class="faq-btn w-full px-5 py-4 text-left flex justify-between items-center hover:bg-gray-50" data-index={index}>
+              <span class="font-semibold text-secondary text-sm pr-4">{faq.q}</span>
+              <svg class="w-4 h-4 text-primary faq-icon transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-answer hidden px-5 pb-4">
+              <p class="text-gray-600 text-sm">{faq.a}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Neighborhoods -->
+  <section class="py-14">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-secondary mb-4">Serving All {location} Areas</h2>
+      <p class="text-gray-600 mb-6">
+        From the Town Center and historic downtown to South Beach and the residential neighborhoods, we've completed roofing projects throughout {location} and the entire Beaches community.
+      </p>
+    </div>
+  </section>
+
+  <!-- Nearby Areas -->
+  <section class="py-10 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="font-bold text-secondary mb-4">Also Serving Nearby Areas</h3>
+      <div class="flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm">
+        {nearbyAreas.map((area) => (
+          <a href={area.href} class="text-primary hover:underline">{area.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-14 bg-primary">
+    <div class="max-w-2xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold text-secondary mb-4">Protect Your Beach Home</h2>
+      <p class="text-secondary/80 mb-6">Get a free estimate from {location}'s trusted roofing experts. We'll recommend the right materials for your coastal property.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href={estimateUrl} target="_blank" rel="noopener" class="btn bg-secondary text-white hover:bg-secondary/90 px-8 py-3 font-semibold">Free Estimate</a>
+        <a href={`tel:+1${phone.replace(/\D/g, '')}`} class="btn bg-white text-secondary hover:bg-gray-100 px-8 py-3 font-semibold">{phone}</a>
+      </div>
+    </div>
+  </section>
+</Layout>

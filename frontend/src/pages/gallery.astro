@@ -1,0 +1,215 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const estimateUrl = 'https://app.roofr.com/instant-estimator/9ef814fe-1efa-4e6b-aaed-45ff7eda2015/GimosRoofing/welcome-question';
+
+// Project gallery items with real images
+const projects = [
+  { id: 1, title: "Roof Replacement - Riverside", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/completed-roof-project-jacksonville.jpg" },
+  { id: 2, title: "New Roof Installation - Nocatee", type: "Roof Installation", location: "Nocatee, FL", image: "/images/new-roof-installation-blue-house-florida.jpg" },
+  { id: 3, title: "Shingle Roof Aerial View", type: "Roof Installation", location: "Atlantic Beach, FL", image: "/images/architectural-shingle-roof-aerial-view.jpg" },
+  { id: 4, title: "Commercial Roofing Project", type: "Commercial", location: "Jacksonville, FL", image: "/images/commercial-gray-shingle-roof.jpg" },
+  { id: 5, title: "Siding Installation", type: "Siding", location: "Jacksonville Beach, FL", image: "/images/siding-installation-jacksonville-home.jpg" },
+  { id: 6, title: "Metal Roof Installation", type: "Roof Installation", location: "Ponte Vedra Beach, FL", image: "/images/flat-metal-roof-installation.jpg" },
+  { id: 7, title: "Roof Replacement - San Marco", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/two-story-home-roof-replacement.jpg" },
+  { id: 8, title: "Home Siding Renovation", type: "Siding", location: "Orange Park, FL", image: "/images/yellow-siding-home-renovation.jpg" },
+  { id: 9, title: "Blue House Roof Project", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/blue-house-roof-project-aerial.jpg" },
+  { id: 10, title: "Brick Home Shingle Roof", type: "Roof Installation", location: "Middleburg, FL", image: "/images/brick-home-gray-shingle-roof.jpg" },
+  { id: 11, title: "Modern Home Roof", type: "Roof Replacement", location: "Ponte Vedra Beach, FL", image: "/images/modern-home-new-shingle-roof.jpg" },
+  { id: 12, title: "Residential Roof with Pool", type: "Roof Installation", location: "Fernandina Beach, FL", image: "/images/residential-roof-with-pool-aerial.jpg" }
+];
+
+const categories = ["All", "Roof Installation", "Roof Replacement", "Roof Repair", "Commercial", "Siding"];
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  "name": "Gimo's Roofing Project Gallery",
+  "description": "View completed roofing and siding projects by Gimo's Roofing in Jacksonville, FL.",
+  "publisher": {
+    "@type": "RoofingContractor",
+    "name": "Gimo's Roofing",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jacksonville",
+      "addressRegion": "FL"
+    }
+  }
+};
+---
+
+<Layout
+  title="Project Gallery | Roofing & Siding Work | Gimo's Roofing Jacksonville"
+  description="View our completed roofing and siding projects in Jacksonville FL. See the quality craftsmanship that makes Gimo's Roofing Jacksonville's trusted contractor."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-secondary to-secondary/90 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center max-w-3xl mx-auto">
+        <h1 class="text-3xl md:text-4xl font-bold mb-4">
+          Our Work
+        </h1>
+        <p class="text-lg text-gray-200">
+          Browse our gallery of completed roofing and siding projects throughout Jacksonville and Northeast Florida.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter Tabs -->
+  <section class="py-8 bg-gray-50 sticky top-20 md:top-28 z-40">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex flex-wrap gap-2 justify-center" id="filter-tabs">
+        {categories.map((category, index) => (
+          <button
+            class={`px-4 py-2 rounded-full text-sm font-medium transition-colors filter-btn ${index === 0 ? 'bg-primary text-secondary' : 'bg-white text-gray-600 hover:bg-gray-100'}`}
+            data-category={category}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Grid -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="gallery-grid">
+        {projects.map((project) => (
+          <div class="group relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all gallery-item" data-type={project.type}>
+            <div class="aspect-[4/3] overflow-hidden">
+              <img src={project.image} alt={project.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end">
+              <div class="p-4 text-white">
+                <span class="text-xs text-primary font-medium">{project.type}</span>
+                <h3 class="font-bold">{project.title}</h3>
+                <p class="text-sm text-gray-300">{project.location}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Empty State -->
+      <div class="hidden text-center py-12" id="empty-state">
+        <svg class="w-16 h-16 text-gray-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+        <p class="text-gray-500">No projects found in this category.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Before/After Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl md:text-3xl font-bold text-secondary mb-3">Before & After</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          See the transformations we've made for Jacksonville homeowners.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <div class="grid grid-cols-2">
+            <div class="aspect-square overflow-hidden relative">
+              <img src="/images/roof-replacement-debris-removal.jpg" alt="Roof before replacement" class="w-full h-full object-cover" />
+              <span class="absolute bottom-2 left-2 bg-secondary/80 text-white text-xs px-2 py-1 rounded">Before</span>
+            </div>
+            <div class="aspect-square overflow-hidden relative">
+              <img src="/images/completed-roof-project-jacksonville.jpg" alt="Roof after replacement" class="w-full h-full object-cover" />
+              <span class="absolute bottom-2 left-2 bg-primary text-secondary text-xs px-2 py-1 rounded font-semibold">After</span>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="font-bold text-secondary">Complete Roof Replacement</h3>
+            <p class="text-gray-600 text-sm">Mandarin, Jacksonville</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <div class="grid grid-cols-2">
+            <div class="aspect-square overflow-hidden relative">
+              <img src="/images/siding-project-closeup.jpg" alt="Siding before installation" class="w-full h-full object-cover" />
+              <span class="absolute bottom-2 left-2 bg-secondary/80 text-white text-xs px-2 py-1 rounded">Before</span>
+            </div>
+            <div class="aspect-square overflow-hidden relative">
+              <img src="/images/siding-installation-jacksonville-home.jpg" alt="Siding after installation" class="w-full h-full object-cover" />
+              <span class="absolute bottom-2 left-2 bg-primary text-secondary text-xs px-2 py-1 rounded font-semibold">After</span>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="font-bold text-secondary">Siding Transformation</h3>
+            <p class="text-gray-600 text-sm">St. Augustine, FL</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-primary">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-secondary mb-3">
+        Ready to Transform Your Home?
+      </h2>
+      <p class="text-secondary/80 mb-6">
+        Your home could be our next showcase project. Get a free estimate today.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href={estimateUrl} target="_blank" rel="noopener noreferrer" class="btn bg-secondary text-white hover:bg-secondary/90">
+          Get Your Free Estimate
+        </a>
+        <a href="tel:+19046065313" class="btn bg-white text-secondary hover:bg-gray-100">
+          Call (904) 606-5313
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  // Gallery filter functionality
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  const emptyState = document.getElementById('empty-state');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Update active button
+      filterBtns.forEach(b => {
+        b.classList.remove('bg-primary', 'text-secondary');
+        b.classList.add('bg-white', 'text-gray-600');
+      });
+      btn.classList.remove('bg-white', 'text-gray-600');
+      btn.classList.add('bg-primary', 'text-secondary');
+
+      // Filter gallery
+      const category = btn.dataset.category;
+      let visibleCount = 0;
+
+      galleryItems.forEach(item => {
+        const type = item.dataset.type;
+        if (category === 'All' || type === category) {
+          item.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+
+      // Show/hide empty state
+      if (emptyState) {
+        if (visibleCount === 0) {
+          emptyState.classList.remove('hidden');
+        } else {
+          emptyState.classList.add('hidden');
+        }
+      }
+    });
+  });
+</script>

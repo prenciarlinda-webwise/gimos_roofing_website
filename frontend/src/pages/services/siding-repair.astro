@@ -1,0 +1,269 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const estimateUrl = 'https://app.roofr.com/instant-estimator/9ef814fe-1efa-4e6b-aaed-45ff7eda2015/GimosRoofing/welcome-question';
+const financingUrl = 'https://application.enerbank.com/#/link?spnum=8007747598&cid=118584&promo=DEL2625&loamt=';
+
+const repairTypes = [
+  {
+    title: "Storm Damage Repair",
+    description: "Fast repairs for siding damaged by hurricanes, hail, wind, and severe weather events.",
+    icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>`
+  },
+  {
+    title: "Crack & Hole Repair",
+    description: "Fix cracks, holes, and punctures in your siding before they lead to bigger problems.",
+    icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" /></svg>`
+  },
+  {
+    title: "Section Replacement",
+    description: "Replace damaged siding sections with matching materials for a seamless repair.",
+    icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>`
+  },
+  {
+    title: "Warped Siding Repair",
+    description: "Fix buckling, warping, and bulging siding caused by heat, moisture, or improper installation.",
+    icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" /></svg>`
+  },
+  {
+    title: "Rot & Water Damage",
+    description: "Address water damage and rot in wood siding before it spreads to your home's structure.",
+    icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>`
+  },
+  {
+    title: "Loose Siding Repair",
+    description: "Re-secure loose panels and fasteners to prevent further damage and improve appearance.",
+    icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>`
+  }
+];
+
+const signs = [
+  "Cracks, holes, or punctures in siding",
+  "Warping, buckling, or bulging panels",
+  "Faded or peeling paint",
+  "Loose or missing siding pieces",
+  "Water stains on interior walls",
+  "Increased energy bills",
+  "Mold or mildew growth",
+  "Visible rot on wood siding"
+];
+
+const faqs = [
+  {
+    question: "Can you match my existing siding color?",
+    answer: "In most cases, yes. We carry a wide range of siding colors and can often find exact or very close matches. For older siding, we may source from specialty suppliers or recommend replacing larger sections for uniformity."
+  },
+  {
+    question: "How quickly can you repair storm damage?",
+    answer: "For emergency storm damage, we offer priority scheduling. We can typically assess damage within 24-48 hours and begin repairs as soon as materials are available."
+  },
+  {
+    question: "Is it better to repair or replace my siding?",
+    answer: "It depends on the extent of damage and siding age. Small areas of damage on newer siding are worth repairing. Extensive damage or aging siding may be more cost-effective to replace entirely."
+  },
+  {
+    question: "Do you work with insurance for siding repairs?",
+    answer: "Yes, we regularly work with insurance companies on storm damage claims. We can document damage and provide detailed estimates for your insurance claim."
+  }
+];
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Siding Repair Jacksonville FL",
+  "description": "Professional siding repair services in Jacksonville, Florida. Storm damage repair, section replacement, and more.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Gimo's Roofing",
+    "telephone": "+1-904-606-5313"
+  }
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+  }))
+};
+---
+
+<Layout
+  title="Siding Repair Jacksonville FL | Siding Repair Near Me | Vinyl Siding Repair | Gimo's Roofing"
+  description="Expert siding repair near you in Jacksonville FL. Vinyl siding repair, storm damage repair, section replacement & exterior home repair. Free estimates. Call (904) 606-5313."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-secondary to-secondary/90 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <nav class="text-sm mb-4">
+            <a href="/" class="text-gray-300 hover:text-primary">Home</a>
+            <span class="mx-2 text-gray-400">/</span>
+            <a href="/services" class="text-gray-300 hover:text-primary">Services</a>
+            <span class="mx-2 text-gray-400">/</span>
+            <span class="text-primary">Siding Repair</span>
+          </nav>
+          <h1 class="text-3xl md:text-4xl font-bold mb-4">
+            Siding Repair in Jacksonville, FL
+          </h1>
+          <p class="text-lg text-gray-200 mb-6">
+            Expert siding repairs to restore your home's protection and curb appeal. We fix damage from storms, age, and everyday wear with quality materials and craftsmanship.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href={estimateUrl} target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Get Free Estimate
+            </a>
+            <a href="tel:+19046065313" class="btn bg-white text-secondary hover:bg-gray-100">
+              (904) 606-5313
+            </a>
+          </div>
+        </div>
+        <div class="rounded-2xl aspect-video overflow-hidden shadow-xl">
+          <img src="/images/siding-project-closeup.jpg" alt="Siding repair project in Jacksonville FL" class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Repair Types -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl md:text-3xl font-bold text-secondary mb-3">Siding Repair Services</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          We handle all types of siding repairs, from minor fixes to major damage restoration.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {repairTypes.map((type) => (
+          <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+            <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-4">
+              <Fragment set:html={type.icon} />
+            </div>
+            <h3 class="font-bold text-secondary mb-2">{type.title}</h3>
+            <p class="text-gray-600 text-sm">{type.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Signs You Need Repair -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold text-secondary mb-4">
+            Signs Your Siding Needs Repair
+          </h2>
+          <p class="text-gray-600 mb-6">
+            Don't ignore these warning signs. Early repair prevents more extensive and costly damage.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {signs.map((sign) => (
+              <div class="flex items-center gap-2">
+                <svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                </svg>
+                <span class="text-gray-700 text-sm">{sign}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div class="rounded-2xl aspect-video overflow-hidden shadow-xl">
+          <img src="/images/yellow-siding-home-renovation.jpg" alt="Siding repair work in progress" class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Repair Matters -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl md:text-3xl font-bold text-secondary mb-3">Why Timely Repairs Matter</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl shadow-md p-6 text-center">
+          <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            </svg>
+          </div>
+          <h3 class="font-bold text-secondary mb-2">Protect Your Home</h3>
+          <p class="text-gray-600 text-sm">Damaged siding allows water, pests, and air into your home's structure.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-6 text-center">
+          <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="font-bold text-secondary mb-2">Save Money</h3>
+          <p class="text-gray-600 text-sm">Small repairs now prevent expensive full replacement later.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-6 text-center">
+          <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+            </svg>
+          </div>
+          <h3 class="font-bold text-secondary mb-2">Maintain Value</h3>
+          <p class="text-gray-600 text-sm">Keep your home's curb appeal and resale value intact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-3xl mx-auto px-4">
+      <div class="text-center mb-10">
+        <h2 class="text-2xl md:text-3xl font-bold text-secondary mb-3">Frequently Asked Questions</h2>
+        <p class="text-gray-600">Common questions about siding repair in Jacksonville.</p>
+      </div>
+
+      <div class="space-y-3">
+        {faqs.map((faq, index) => (
+          <div class="border border-gray-200 rounded-xl overflow-hidden bg-white">
+            <button class="faq-btn w-full px-5 py-4 text-left flex justify-between items-center hover:bg-gray-50" data-index={index}>
+              <span class="font-semibold text-secondary text-sm pr-4">{faq.question}</span>
+              <svg class="w-4 h-4 text-primary faq-icon transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-answer hidden px-5 pb-4">
+              <p class="text-gray-600 text-sm">{faq.answer}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-primary">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-secondary mb-3">
+        Need Siding Repairs?
+      </h2>
+      <p class="text-secondary/80 mb-6">
+        Don't let damaged siding compromise your home. Get a free inspection and estimate today.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href={estimateUrl} target="_blank" rel="noopener noreferrer" class="btn bg-secondary text-white hover:bg-secondary/90">
+          Get Your Free Estimate
+        </a>
+        <a href="tel:+19046065313" class="btn bg-white text-secondary hover:bg-gray-100">
+          Call (904) 606-5313
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

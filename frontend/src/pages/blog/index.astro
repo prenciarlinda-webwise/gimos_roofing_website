@@ -1,0 +1,280 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const estimateUrl = 'https://app.roofr.com/instant-estimator/9ef814fe-1efa-4e6b-aaed-45ff7eda2015/GimosRoofing/welcome-question';
+
+// Blog posts - Replace with data from your CMS/backend
+const blogPosts = [
+  {
+    title: "How to Tell If a Florida Roofer Is Actually Legal (Before You Give Them a Dime)",
+    slug: "how-to-check-florida-roofing-license",
+    excerpt: "Don't get stuck with a bad roof or a lawsuit. Here's exactly how to check a Florida roofing contractor's license and insurance in under 5 minutes.",
+    image: "/images/gimos-roofing-company-van-jobsite.jpg",
+    category: "Homeowner Tips",
+    date: "2024-12-18",
+    readTime: "6 min read"
+  },
+  {
+    title: "Can't Pay for a New Roof Upfront? Here's How Our Financing Actually Works",
+    slug: "roofing-financing-options-jacksonville",
+    excerpt: "A leaky roof doesn't wait for payday. See which roofing contractors that offer financing are right for you and how to get a new roof with monthly payments.",
+    image: "/images/completed-roof-project-jacksonville.jpg",
+    category: "Financing",
+    date: "2024-12-16",
+    readTime: "5 min read"
+  },
+  {
+    title: "The 10 Questions I Wish Every Homeowner Would Ask Me During an Estimate",
+    slug: "questions-to-ask-roofing-contractor",
+    excerpt: "Don't hire a roofer based on price alone. Use these critical questions to ask a roofing contractor to make sure your home is in the right hands.",
+    image: "/images/residential-roof-inspection-aerial.jpg",
+    category: "Hiring Guide",
+    date: "2024-12-14",
+    readTime: "8 min read"
+  },
+  {
+    title: "Flat Roofing Contractor: Why Flat Roofs Leak More Than Shingles",
+    slug: "flat-roof-repair-jacksonville",
+    excerpt: "Flat roofs are tricky. Find out why you need a specialized flat roofing contractor for your Florida home and the best materials to use.",
+    image: "/images/flat-metal-roof-installation.jpg",
+    category: "Flat Roofing",
+    date: "2024-12-12",
+    readTime: "7 min read"
+  },
+  {
+    title: "How to Know When Your Roof Needs Replacement",
+    slug: "when-roof-needs-replacement",
+    excerpt: "Learn the key signs that indicate it's time for a new roof, from missing shingles to water damage and age-related wear.",
+    image: "/images/residential-roof-inspection-aerial.jpg",
+    category: "Roof Replacement",
+    date: "2024-12-10",
+    readTime: "5 min read"
+  },
+  {
+    title: "The Benefits of Metal Roofing in Florida",
+    slug: "benefits-metal-roofing-florida",
+    excerpt: "Discover why more Jacksonville homeowners are choosing metal roofing for its durability, energy efficiency, and hurricane resistance.",
+    image: "/images/green-metal-roof-residential.png",
+    category: "Roofing Materials",
+    date: "2024-12-08",
+    readTime: "4 min read"
+  },
+  {
+    title: "Tile Roofing Contractor: Why Your Mediterranean Home Needs a Specialist",
+    slug: "tile-roofing-contractor-jacksonville",
+    excerpt: "San Marco and St. Augustine homes weren't built for shingles. Learn why you need a specialist tile roofing contractor for Mediterranean-style homes.",
+    image: "/images/brown-tile-roof-aerial-view.jpg",
+    category: "Roofing Materials",
+    date: "2024-12-06",
+    readTime: "7 min read"
+  },
+  {
+    title: "What Your Insurance Adjuster Isn't Telling You About Roof Storm Damage",
+    slug: "storm-damage-roofing-insurance",
+    excerpt: "What your adjuster isn't telling you about wind damage. A guide by a top-rated storm damage roofing contractor.",
+    image: "/images/roof-repair-in-progress-jacksonville.jpg",
+    category: "Insurance",
+    date: "2024-12-04",
+    readTime: "8 min read"
+  }
+];
+
+const categories = ["All", "Homeowner Tips", "Financing", "Hiring Guide", "Flat Roofing", "Roof Replacement", "Roofing Materials", "Insurance"];
+
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+};
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Gimo's Roofing Blog",
+  "description": "Expert roofing tips, guides, and news from Jacksonville's trusted roofing contractor.",
+  "url": "https://gimosroofing.com/blog",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gimo's Roofing",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gimosroofing.com/gimos-roofing-logo.png"
+    }
+  }
+};
+---
+
+<Layout
+  title="Roofing Blog | Tips & Guides | Gimo's Roofing Jacksonville FL"
+  description="Expert roofing tips, maintenance guides, and industry news from Jacksonville's trusted roofing contractor. Learn how to protect and maintain your roof."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-secondary to-secondary/90 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center max-w-3xl mx-auto">
+        <h1 class="text-3xl md:text-4xl font-bold mb-4">
+          Roofing Tips & Guides
+        </h1>
+        <p class="text-lg text-gray-200">
+          Expert advice to help you protect your home and make informed decisions about your roof.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Filter -->
+  <section class="py-6 bg-gray-50 border-b">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex flex-wrap justify-center gap-2" id="category-filters">
+        {categories.map((category, index) => (
+          <button
+            class={`category-btn px-4 py-2 rounded-full text-sm font-medium transition-colors ${index === 0 ? 'bg-primary text-secondary active' : 'bg-white text-gray-600 hover:bg-primary/10 hover:text-primary'}`}
+            data-category={category}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Posts Grid -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      {blogPosts.length > 0 ? (
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {blogPosts.map((post) => (
+            <article class="blog-post bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow group" data-category={post.category}>
+              <a href={`/blog/${post.slug}`} class="block">
+                <div class="aspect-video overflow-hidden">
+                  <img
+                    src={post.image}
+                    alt={post.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div class="p-6">
+                  <div class="flex items-center gap-3 mb-3">
+                    <span class="px-3 py-1 bg-primary/10 text-primary text-xs font-semibold rounded-full">
+                      {post.category}
+                    </span>
+                    <span class="text-gray-400 text-xs">{post.readTime}</span>
+                  </div>
+                  <h2 class="text-lg font-bold text-secondary mb-2 group-hover:text-primary transition-colors">
+                    {post.title}
+                  </h2>
+                  <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+                    {post.excerpt}
+                  </p>
+                  <div class="flex items-center justify-between">
+                    <time class="text-gray-400 text-xs" datetime={post.date}>
+                      {formatDate(post.date)}
+                    </time>
+                    <span class="text-primary font-semibold text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
+                      Read More
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </article>
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-16">
+          <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+            </svg>
+          </div>
+          <h2 class="text-2xl font-bold text-secondary mb-3">Coming Soon</h2>
+          <p class="text-gray-600 max-w-md mx-auto">
+            We're working on bringing you helpful roofing tips and guides. Check back soon!
+          </p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-secondary mb-3">Stay Updated</h2>
+      <p class="text-gray-600 mb-6">
+        Get the latest roofing tips and seasonal maintenance reminders delivered to your inbox.
+      </p>
+      <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+        <input
+          type="email"
+          placeholder="Enter your email"
+          class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-primary outline-none"
+        />
+        <button type="submit" class="btn btn-primary px-6 py-3">
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-primary">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-secondary mb-3">
+        Need Help With Your Roof?
+      </h2>
+      <p class="text-secondary/80 mb-6">
+        Our team is ready to answer your questions and provide a free estimate.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href={estimateUrl} target="_blank" rel="noopener noreferrer" class="btn bg-secondary text-white hover:bg-secondary/90">
+          Get Your Free Estimate
+        </a>
+        <a href="tel:+19046065313" class="btn bg-white text-secondary hover:bg-gray-100">
+          Call (904) 606-5313
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>
+
+<script>
+  // Category filtering functionality
+  const categoryButtons = document.querySelectorAll('.category-btn');
+  const blogPosts = document.querySelectorAll('.blog-post');
+
+  categoryButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const selectedCategory = button.getAttribute('data-category');
+
+      // Update active button styles
+      categoryButtons.forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-secondary', 'active');
+        btn.classList.add('bg-white', 'text-gray-600');
+      });
+      button.classList.remove('bg-white', 'text-gray-600');
+      button.classList.add('bg-primary', 'text-secondary', 'active');
+
+      // Filter posts
+      blogPosts.forEach(post => {
+        const postCategory = post.getAttribute('data-category');
+        if (selectedCategory === 'All' || postCategory === selectedCategory) {
+          post.style.display = 'block';
+        } else {
+          post.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>

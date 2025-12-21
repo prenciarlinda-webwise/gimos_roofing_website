@@ -1,0 +1,389 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const estimateUrl = 'https://app.roofr.com/instant-estimator/9ef814fe-1efa-4e6b-aaed-45ff7eda2015/GimosRoofing/welcome-question';
+
+const serviceAreas = [
+  // Duval County
+  {
+    name: "Jacksonville Beach",
+    slug: "roofing-jacksonville-beach-fl",
+    county: "Duval County",
+    description: "Coastal roofing specialists protecting beach homes from salt air and hurricane conditions."
+  },
+  {
+    name: "Atlantic Beach",
+    slug: "roofing-atlantic-beach-fl",
+    county: "Duval County",
+    description: "Expert oceanfront roofing for Atlantic Beach's unique coastal properties."
+  },
+  {
+    name: "Neptune Beach",
+    slug: "roofing-neptune-beach-fl",
+    county: "Duval County",
+    description: "Coastal roofing experts for Neptune Beach's beach bungalows and family homes."
+  },
+  {
+    name: "Arlington",
+    slug: "roofing-arlington-fl",
+    county: "Duval County",
+    description: "Affordable quality roofing for Arlington's established neighborhoods."
+  },
+  {
+    name: "Riverside",
+    slug: "roofing-riverside-fl",
+    county: "Duval County",
+    description: "Historic home roofing specialists for Riverside and Avondale's architectural gems."
+  },
+  {
+    name: "San Marco",
+    slug: "roofing-san-marco-fl",
+    county: "Duval County",
+    description: "Tile roof experts serving San Marco's distinctive Mediterranean homes."
+  },
+  {
+    name: "Mandarin",
+    slug: "roofing-mandarin-fl",
+    county: "Duval County",
+    description: "Quality roofing for Mandarin's large residential community along the St. Johns River."
+  },
+  {
+    name: "Southside",
+    slug: "roofing-southside-jax-fl",
+    county: "Duval County",
+    description: "Residential and commercial roofing for Southside's diverse properties."
+  },
+  // St. Johns County
+  {
+    name: "Ponte Vedra Beach",
+    slug: "roofing-ponte-vedra-beach-fl",
+    county: "St. Johns County",
+    description: "Premium roofing services for Ponte Vedra's luxury homes and golf communities."
+  },
+  {
+    name: "St. Augustine",
+    slug: "roofing-st-augustine-fl",
+    county: "St. Johns County",
+    description: "Historic home roofing experts serving America's oldest city."
+  },
+  {
+    name: "Nocatee",
+    slug: "roofing-nocatee-fl",
+    county: "St. Johns County",
+    description: "HOA-compliant roofing for Nocatee's master-planned communities."
+  },
+  {
+    name: "St. Johns",
+    slug: "roofing-st-johns-fl",
+    county: "St. Johns County",
+    description: "Serving St. Johns County's master-planned communities with quality roofing."
+  },
+  {
+    name: "Fruit Cove",
+    slug: "roofing-fruit-cove-fl",
+    county: "St. Johns County",
+    description: "Expert roofing for Fruit Cove and Julington Creek Plantation families."
+  },
+  {
+    name: "Julington Creek",
+    slug: "roofing-julington-creek-fl",
+    county: "St. Johns County",
+    description: "HOA-experienced roofing for Julington Creek Plantation's beautiful homes."
+  },
+  // Clay County
+  {
+    name: "Orange Park",
+    slug: "roofing-orange-park-fl",
+    county: "Clay County",
+    description: "Quality roofing for Orange Park families and surrounding communities."
+  },
+  {
+    name: "Fleming Island",
+    slug: "roofing-fleming-island-fl",
+    county: "Clay County",
+    description: "Premium roofing for Fleming Island's upscale HOA communities."
+  },
+  {
+    name: "Middleburg",
+    slug: "roofing-middleburg-fl",
+    county: "Clay County",
+    description: "Rural and acreage property roofing specialists in Clay County."
+  },
+  {
+    name: "Green Cove Springs",
+    slug: "roofing-green-cove-springs-fl",
+    county: "Clay County",
+    description: "Roofing services for Green Cove Springs' historic downtown and surrounding areas."
+  },
+  {
+    name: "Oakleaf Plantation",
+    slug: "roofing-oakleaf-plantation-fl",
+    county: "Clay County",
+    description: "HOA-compliant roofing for Oakleaf Plantation's master-planned community."
+  },
+  // Nassau County
+  {
+    name: "Fernandina Beach",
+    slug: "roofing-fernandina-beach-fl",
+    county: "Nassau County",
+    description: "Amelia Island's trusted roofer for coastal and historic Victorian homes."
+  },
+  {
+    name: "Yulee",
+    slug: "roofing-yulee-fl",
+    county: "Nassau County",
+    description: "Serving Yulee's growing community including Wildlight and Tributary."
+  },
+  {
+    name: "Callahan",
+    slug: "roofing-callahan-fl",
+    county: "Nassau County",
+    description: "Quality roofing for Callahan and western Nassau County homes."
+  }
+];
+
+const counties = [
+  { name: "Duval County", areas: ["Jacksonville Beach", "Atlantic Beach", "Neptune Beach", "Arlington", "Riverside", "San Marco", "Mandarin", "Southside"] },
+  { name: "St. Johns County", areas: ["Ponte Vedra Beach", "St. Augustine", "Nocatee", "St. Johns", "Fruit Cove", "Julington Creek"] },
+  { name: "Clay County", areas: ["Orange Park", "Fleming Island", "Middleburg", "Green Cove Springs", "Oakleaf Plantation"] },
+  { name: "Nassau County", areas: ["Fernandina Beach", "Yulee", "Callahan"] }
+];
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "name": "Gimo's Roofing",
+  "description": "Professional roofing services throughout Northeast Florida including Duval, St. Johns, Clay, and Nassau counties.",
+  "url": "https://gimosroofing.com/service-areas",
+  "telephone": "(904) 606-5313",
+  "areaServed": serviceAreas.map(area => ({
+    "@type": "City",
+    "name": area.name + ", FL"
+  })),
+  "priceRange": "$$"
+};
+---
+
+<Layout
+  title="Service Areas | Roofing Company Jacksonville FL & Northeast Florida | Gimo's Roofing"
+  description="Gimo's Roofing serves Jacksonville, Ponte Vedra, St. Augustine, Orange Park, Fernandina Beach & all of Northeast Florida. Find a trusted roofing contractor near you. Call (904) 606-5313."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+
+  <!-- Hero Section -->
+  <section class="relative py-20 overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="/images/architectural-shingle-roof-aerial-view.jpg" alt="Roofing service areas in Northeast Florida" class="w-full h-full object-cover" loading="eager" />
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
+    <div class="relative max-w-7xl mx-auto px-4">
+      <nav class="text-sm mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center">
+          <li><a href="/" class="text-gray-300 hover:text-primary">Home</a></li>
+          <li><span class="mx-2 text-gray-400">/</span></li>
+          <li><span class="text-primary">Service Areas</span></li>
+        </ol>
+      </nav>
+      <div class="max-w-3xl text-white">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">
+          Roofing Service Areas in Northeast Florida
+        </h1>
+        <p class="text-xl text-gray-200 mb-4">
+          Gimo's Roofing proudly serves homeowners throughout Jacksonville and the surrounding Northeast Florida region. From the beaches to the suburbs, we deliver quality roofing services to every community we serve.
+        </p>
+        <p class="text-lg text-gray-300 mb-8">
+          Select your city below to learn more about our services in your area, or call us directly for immediate assistance.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href={estimateUrl} target="_blank" rel="noopener noreferrer" class="btn btn-primary text-lg px-8 py-3">
+            Get Your Free Estimate
+          </a>
+          <a href="tel:+19046065313" class="btn bg-white text-secondary hover:bg-gray-100 text-lg px-8 py-3">
+            (904) 606-5313
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Areas Grid -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Find a Roofing Contractor Near You</h2>
+        <p class="text-gray-600 max-w-3xl mx-auto text-lg">
+          We provide professional roofing services across four counties in Northeast Florida. Click your city to learn more about our local services.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {serviceAreas.map((area) => (
+          <a href={`/${area.slug}`} class="group bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all border-2 border-transparent hover:border-primary">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-primary transition-colors">
+                <svg class="w-6 h-6 text-primary group-hover:text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-secondary group-hover:text-primary transition-colors mb-1">{area.name}, FL</h3>
+                <p class="text-sm text-primary font-medium mb-2">{area.county}</p>
+                <p class="text-gray-600 text-sm">{area.description}</p>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Counties Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Counties We Serve</h2>
+        <p class="text-gray-600 max-w-3xl mx-auto text-lg">
+          Our roofing services extend throughout four counties in the greater Jacksonville metropolitan area.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {counties.map((county) => (
+          <div class="bg-white rounded-xl p-6 shadow-md">
+            <h3 class="text-xl font-bold text-secondary mb-4">{county.name}</h3>
+            <ul class="space-y-2">
+              {county.areas.map((area) => (
+                <li>
+                  <a href={`/roofing-${area.toLowerCase().replace(/\s+/g, '-')}-fl`} class="text-gray-600 hover:text-primary transition-colors flex items-center gap-2">
+                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                    {area}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Overview -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Roofing Services Available in All Areas</h2>
+        <p class="text-gray-600 max-w-3xl mx-auto text-lg">
+          No matter where you're located in Northeast Florida, we offer the same comprehensive roofing services.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <a href="/services/roof-replacement" class="group bg-gray-50 rounded-xl p-6 hover:bg-primary/5 transition-colors">
+          <h3 class="text-lg font-bold text-secondary group-hover:text-primary mb-2">Roof Replacement</h3>
+          <p class="text-gray-600 text-sm">Complete roof replacement with quality materials and expert installation. Starting at $7,000.</p>
+        </a>
+        <a href="/services/roof-repair" class="group bg-gray-50 rounded-xl p-6 hover:bg-primary/5 transition-colors">
+          <h3 class="text-lg font-bold text-secondary group-hover:text-primary mb-2">Roof Repair</h3>
+          <p class="text-gray-600 text-sm">Fast, reliable repairs for leaks, storm damage, and general wear. 24/7 emergency service.</p>
+        </a>
+        <a href="/services/new-construction-roofing" class="group bg-gray-50 rounded-xl p-6 hover:bg-primary/5 transition-colors">
+          <h3 class="text-lg font-bold text-secondary group-hover:text-primary mb-2">New Construction Roofing</h3>
+          <p class="text-gray-600 text-sm">Expert roofing for new home builds and construction projects.</p>
+        </a>
+        <a href="/services/commercial-roofing" class="group bg-gray-50 rounded-xl p-6 hover:bg-primary/5 transition-colors">
+          <h3 class="text-lg font-bold text-secondary group-hover:text-primary mb-2">Commercial Roofing</h3>
+          <p class="text-gray-600 text-sm">Professional commercial roofing for businesses of all sizes.</p>
+        </a>
+        <a href="/services/siding-installation" class="group bg-gray-50 rounded-xl p-6 hover:bg-primary/5 transition-colors">
+          <h3 class="text-lg font-bold text-secondary group-hover:text-primary mb-2">Siding Installation</h3>
+          <p class="text-gray-600 text-sm">Quality siding installation including vinyl and James Hardie fiber cement.</p>
+        </a>
+        <a href="/services/siding-repair" class="group bg-gray-50 rounded-xl p-6 hover:bg-primary/5 transition-colors">
+          <h3 class="text-lg font-bold text-secondary group-hover:text-primary mb-2">Siding Repair</h3>
+          <p class="text-gray-600 text-sm">Expert siding repairs to restore and protect your home's exterior.</p>
+        </a>
+      </div>
+
+      <div class="text-center mt-8">
+        <a href="/services" class="text-primary font-semibold hover:underline">View All Services &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="py-16 bg-secondary text-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Northeast Florida Chooses Gimo's Roofing</h2>
+        <p class="text-gray-300 max-w-3xl mx-auto text-lg">
+          We're the local roofing experts trusted by homeowners across the region.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+          </div>
+          <h3 class="font-bold mb-2">Licensed & Insured</h3>
+          <p class="text-gray-300 text-sm">Fully licensed Florida contractor with comprehensive insurance coverage.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            </svg>
+          </div>
+          <h3 class="font-bold mb-2">Local Expertise</h3>
+          <p class="text-gray-300 text-sm">We know Northeast Florida's climate, building codes, and HOA requirements.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="font-bold mb-2">Financing Available</h3>
+          <p class="text-gray-300 text-sm">Affordable payment options with payments as low as $99/month.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-secondary" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold mb-2">5-Star Rated</h3>
+          <p class="text-gray-300 text-sm">Consistently rated 5 stars on Google, Yelp, and Thumbtack.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-primary">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">
+        Ready to Get Started?
+      </h2>
+      <p class="text-secondary/80 text-lg mb-8">
+        Contact us today for a free estimate on your roofing project. We serve all of Northeast Florida with quality workmanship and honest service.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href={estimateUrl} target="_blank" rel="noopener noreferrer" class="btn bg-secondary text-white hover:bg-secondary/90 text-lg px-8 py-3">
+          Get Your Free Estimate
+        </a>
+        <a href="/contact" class="btn bg-white text-secondary hover:bg-gray-100 text-lg px-8 py-3">
+          Contact Us
+        </a>
+      </div>
+      <p class="mt-6 text-secondary/70">
+        Or call us directly: <a href="tel:+19046065313" class="text-secondary font-bold hover:underline">(904) 606-5313</a>
+      </p>
+    </div>
+  </section>
+</Layout>
