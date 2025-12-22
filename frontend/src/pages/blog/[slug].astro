@@ -474,7 +474,7 @@ const blogPosts: Record<string, {
     title: "Tile Roofing Contractor: Why Your Mediterranean Home Needs a Specialist",
     metaTitle: "Tile Roofing Contractor Jacksonville FL | San Marco & St. Augustine Specialists",
     excerpt: "San Marco and St. Augustine homes weren't built for shingles. Learn why you need a specialist tile roofing contractor for Mediterranean-style homes.",
-    content: \`
+    content: `
       <p class="text-lg text-gray-700 mb-6">Drive through San Marco, St. Augustine, or any of Jacksonville's historic neighborhoods, and you'll see something shingle contractors don't know how to handle: tile roofs. Those beautiful terracotta, clay, and concrete tiles that give Florida homes their distinctive Mediterranean character.</p>
 
       <p class="text-gray-600 mb-8">Here's the problem: most roofing companies treat tile like oversized shingles. They walk on them wrong, crack them during installation, and use the wrong underlayment. That's why finding a genuine <strong>tile roofing contractor</strong> matters so much.</p>
@@ -543,7 +543,7 @@ const blogPosts: Record<string, {
       <p class="text-gray-600 mb-6">Your tile roof is an investment that can last a century with proper care. Don't trust it to a contractor who primarily does shingles. The installation techniques, materials, and knowledge required are completely different.</p>
 
       <p class="text-gray-600 mb-6">At Gimo's Roofing, we work with tile roofs regularly throughout San Marco, St. Augustine, and Jacksonville's historic neighborhoods. We're happy to inspect your tile roof and give you an honest assessment. <a href="/services/roof-replacement" class="text-primary hover:underline font-semibold">Learn about our roof replacement services</a> including tile roofing options.</p>
-    \`,
+    `,
     image: "/images/brown-tile-roof-aerial-view.jpg",
     category: "Roofing Materials",
     date: "2024-12-06",
@@ -555,7 +555,7 @@ const blogPosts: Record<string, {
     title: "What Your Insurance Adjuster Isn't Telling You About Roof Storm Damage",
     metaTitle: "Storm Damage Roofing Contractor Insurance Guide | Jacksonville FL",
     excerpt: "What your adjuster isn't telling you about wind damage. A guide by a top-rated storm damage roofing contractor.",
-    content: \`
+    content: `
       <p class="text-lg text-gray-700 mb-6">After every hurricane or major storm in Jacksonville, the phone starts ringing. Homeowners are confused, frustrated, and getting different stories from their insurance company than what they're seeing on their roof.</p>
 
       <p class="text-gray-600 mb-8">As a <strong>storm damage roofing contractor</strong>, we've worked through countless insurance claims. Here's what we wish every homeowner knew before their adjuster shows up.</p>
@@ -635,7 +635,7 @@ const blogPosts: Record<string, {
       <p class="text-gray-600 mb-6">You pay for insurance to protect your home. When storm damage happens, you deserve fair compensation for proper repairs. Don't accept less because you didn't know the process or had the wrong contractor.</p>
 
       <p class="text-gray-600 mb-6">At Gimo's Roofing, we've helped hundreds of Jacksonville homeowners navigate storm damage claims. We're happy to inspect your roof after a storm and help you understand your options, whether or not you hire us. <a href="/services/roof-repair" class="text-primary hover:underline font-semibold">Learn about our emergency roof repair services</a>.</p>
-    \`,
+    `,
     image: "/images/roof-repair-in-progress-jacksonville.jpg",
     category: "Insurance",
     date: "2024-12-04",
@@ -667,18 +667,55 @@ const schemaData = {
   "description": post.excerpt,
   "image": `https://gimosroofing.com${post.image}`,
   "datePublished": post.date,
+  "dateModified": post.date,
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `https://gimosroofing.com/blog/${slug}`
+  },
   "author": {
     "@type": "Organization",
-    "name": post.author
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Gimo's Roofing",
+    "@id": "https://gimosroofing.com/#organization",
+    "name": "Gimo's Renovation & Roofing",
+    "url": "https://gimosroofing.com",
     "logo": {
       "@type": "ImageObject",
       "url": "https://gimosroofing.com/gimos-roofing-logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/gimosrenovation/",
+      "https://www.instagram.com/gimosroofing/",
+      "https://www.yelp.com/biz/gimos-roofing-jacksonville",
+      "https://www.linkedin.com/company/gimo-s-renovation-roofing/"
+    ],
+    "knowsAbout": [
+      "Roofing",
+      "Storm Damage Repair",
+      "Roof Replacement",
+      "Florida Building Codes",
+      "Hurricane-Resistant Roofing"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://gimosroofing.com/#organization",
+    "name": "Gimo's Renovation & Roofing",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gimosroofing.com/gimos-roofing-logo.png",
+      "width": 400,
+      "height": 100
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "33 24th Street East",
+      "addressLocality": "Jacksonville",
+      "addressRegion": "FL",
+      "postalCode": "32206"
     }
-  }
+  },
+  "articleSection": post.category,
+  "wordCount": post.content.split(/\s+/).length,
+  "inLanguage": "en-US"
 };
 
 export async function getStaticPaths() {

@@ -58,15 +58,31 @@ const faqs = [
 
 const schemaData = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Roof Repair Jacksonville FL",
-  "description": "Professional roof repair services in Jacksonville, Florida. Fast, reliable repairs for leaks, storm damage, and general wear.",
-  "provider": {
-    "@type": "RoofingContractor",
-    "name": "Gimo's Roofing",
-    "telephone": "+1-904-606-5313"
-  }
+  "@type": "RoofingContractor",
+  "name": "Gimo's Roofing",
+  "url": "https://gimosroofing.com",
+  "telephone": "+1-904-606-5313",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "33 24th Street East",
+    "addressLocality": "Jacksonville",
+    "addressRegion": "FL",
+    "postalCode": "32206"
+  },
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Service",
+      "name": "Roof Repair Jacksonville FL",
+      "description": "Professional roof repair services in Jacksonville, Florida. Fast, reliable repairs for leaks, storm damage, and general wear.",
+      "url": "https://gimosroofing.com/services/roof-repair",
+      "areaServed": { "@type": "City", "name": "Jacksonville, FL" },
+      "serviceType": "Roof Repair"
+    }
+  },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "50" }
 };
+
 
 const faqSchema = {
   "@context": "https://schema.org",

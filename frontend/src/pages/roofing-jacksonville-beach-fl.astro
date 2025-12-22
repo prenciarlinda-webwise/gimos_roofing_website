@@ -7,11 +7,11 @@ const phone = "(904) 606-5313";
 const estimateUrl = 'https://app.roofr.com/instant-estimator/9ef814fe-1efa-4e6b-aaed-45ff7eda2015/GimosRoofing/welcome-question';
 
 const nearbyAreas = [
-  { name: "Atlantic Beach", href: "/roofing-atlantic-beach-fl" },
-  { name: "Neptune Beach", href: "/roofing-neptune-beach-fl" },
   { name: "Ponte Vedra Beach", href: "/roofing-ponte-vedra-beach-fl" },
-  { name: "Jacksonville", href: "/roofing-jacksonville-fl" },
-  { name: "St. Augustine", href: "/roofing-st-augustine-fl" }
+  { name: "St. Augustine", href: "/roofing-st-augustine-fl" },
+  { name: "Nocatee", href: "/roofing-nocatee-fl" },
+  { name: "San Marco", href: "/roofing-san-marco-fl" },
+  { name: "Fernandina Beach", href: "/roofing-fernandina-beach-fl" }
 ];
 
 const faqs = [
@@ -26,13 +26,97 @@ const faqs = [
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
+  "@id": "https://gimosroofing.com/roofing-jacksonville-beach-fl#business",
   "name": "Gimo's Roofing - Jacksonville Beach",
   "url": "https://gimosroofing.com/roofing-jacksonville-beach-fl",
   "telephone": phone,
-  "address": { "@type": "PostalAddress", "addressLocality": "Jacksonville Beach", "addressRegion": "FL", "addressCountry": "US" },
-  "areaServed": { "@type": "City", "name": "Jacksonville Beach", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County" } },
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "78" },
-  "priceRange": "$$"
+  "image": "https://gimosroofing.com/gimos-roofing-logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "33 24th Street East",
+    "addressLocality": "Jacksonville",
+    "addressRegion": "FL",
+    "postalCode": "32206",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 30.2947,
+    "longitude": -81.3931
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Jacksonville Beach",
+    "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, Florida" },
+    "geo": { "@type": "GeoCoordinates", "latitude": 30.2947, "longitude": -81.3931 }
+  },
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Roof Replacement in Jacksonville Beach",
+        "description": "Complete roof replacement with coastal-grade materials for Jacksonville Beach homes. Salt-resistant fasteners and hurricane-rated installation.",
+        "areaServed": { "@type": "City", "name": "Jacksonville Beach, FL" },
+        "provider": { "@id": "https://gimosroofing.com/roofing-jacksonville-beach-fl#business" }
+      },
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": "8500",
+        "priceCurrency": "USD",
+        "minPrice": "8500"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Roof Repair in Jacksonville Beach",
+        "description": "Expert roof repair for salt damage, storm damage, and general wear on Jacksonville Beach coastal properties.",
+        "areaServed": { "@type": "City", "name": "Jacksonville Beach, FL" },
+        "provider": { "@id": "https://gimosroofing.com/roofing-jacksonville-beach-fl#business" }
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Storm Damage Repair in Jacksonville Beach",
+        "description": "24/7 emergency storm and hurricane damage repair for Jacksonville Beach homes. Fast tarping and insurance claim assistance.",
+        "areaServed": { "@type": "City", "name": "Jacksonville Beach, FL" },
+        "provider": { "@id": "https://gimosroofing.com/roofing-jacksonville-beach-fl#business" }
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Metal Roofing Installation in Jacksonville Beach",
+        "description": "Aluminum and Galvalume metal roofing for maximum salt resistance in Jacksonville Beach's coastal environment.",
+        "areaServed": { "@type": "City", "name": "Jacksonville Beach, FL" },
+        "provider": { "@id": "https://gimosroofing.com/roofing-jacksonville-beach-fl#business" }
+      },
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": "14500",
+        "priceCurrency": "USD",
+        "minPrice": "14500"
+      }
+    }
+  ],
+  "knowsAbout": [
+    { "@type": "Thing", "name": "Coastal roofing", "description": "Specialized roofing techniques for salt air environments" },
+    { "@type": "Thing", "name": "Hurricane-resistant roofing", "sameAs": "https://en.wikipedia.org/wiki/Hurricane-resistant_construction" },
+    { "@type": "Thing", "name": "Jacksonville Beach, Florida", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" }
+  ],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "78", "bestRating": "5" },
+  "priceRange": "$$",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "opens": "08:00",
+    "closes": "17:30"
+  }
 };
 
 const faqSchema = {
@@ -99,6 +183,41 @@ const faqSchema = {
       <p class="text-gray-600">
         From the bustling downtown area to quieter residential streets, we've completed roofing projects throughout {location}. Our team understands what it takes to make a roof last in this challenging environment—and we deliver results that stand up to everything Florida weather throws at them.
       </p>
+    </div>
+  </section>
+
+  <!-- Local Evidence Section -->
+  <section class="py-14 bg-secondary/5">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-secondary mb-6 text-center">Roofing Throughout Jacksonville Beach</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="font-bold text-secondary mb-3">Neighborhoods We Serve</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            From oceanfront properties along <strong>1st Street</strong> to established neighborhoods near <strong>South Beach Park</strong> and the <strong>Sea Walk Pavilion</strong>, we know every corner of Jax Beach. We've re-roofed homes within sight of <strong>The Pier</strong>, along <strong>Beach Boulevard</strong>, and throughout the <strong>Town Center</strong> area.
+          </p>
+          <p class="text-gray-600 text-sm">
+            Whether you're in the historic district near <strong>Pablo Historical Park</strong> or in newer developments off <strong>Penman Road</strong>, our crews understand the specific challenges each area faces—and which materials hold up best.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-bold text-secondary mb-3">Why Jax Beach Roofs Fail Faster</h3>
+          <ul class="space-y-3 text-sm text-gray-600">
+            <li class="flex gap-2">
+              <span class="text-primary font-bold">→</span>
+              <span><strong>Salt Spray Zone:</strong> Properties within 1 mile of the ocean face accelerated corrosion. Standard fasteners and flashing fail in 5-7 years. We use stainless steel and aluminum exclusively.</span>
+            </li>
+            <li class="flex gap-2">
+              <span class="text-primary font-bold">→</span>
+              <span><strong>Direct Hurricane Path:</strong> Jax Beach takes the first hit from Atlantic storms. Every installation includes enhanced wind strapping and 6-nail patterns.</span>
+            </li>
+            <li class="flex gap-2">
+              <span class="text-primary font-bold">→</span>
+              <span><strong>Sand Reflection:</strong> UV exposure is 15-20% higher near the beach due to sand and water reflection. We use premium UV-resistant materials rated for coastal conditions.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 

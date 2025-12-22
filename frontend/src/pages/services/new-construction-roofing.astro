@@ -78,28 +78,29 @@ const faqs = [
 
 const schemaData = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "New Construction Roofing Jacksonville FL",
-  "description": "Professional new construction roofing services in Jacksonville, Florida. Expert roofing installation for new home builds and construction projects.",
-  "provider": {
-    "@type": "RoofingContractor",
-    "name": "Gimo's Roofing",
-    "telephone": "+1-904-606-5313",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "33 24th Street East",
-      "addressLocality": "Jacksonville",
-      "addressRegion": "FL"
+  "@type": "RoofingContractor",
+  "name": "Gimo's Roofing",
+  "url": "https://gimosroofing.com",
+  "telephone": "+1-904-606-5313",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "33 24th Street East",
+    "addressLocality": "Jacksonville",
+    "addressRegion": "FL",
+    "postalCode": "32206"
+  },
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Service",
+      "name": "New Construction Roofing Jacksonville FL",
+      "description": "Professional new construction roofing services in Jacksonville, Florida. Expert roofing installation for new home builds and construction projects.",
+      "url": "https://gimosroofing.com/services/new-construction-roofing",
+      "areaServed": { "@type": "City", "name": "Jacksonville, FL" },
+      "serviceType": "New Construction Roofing"
     }
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "Jacksonville",
-    "containedInPlace": {
-      "@type": "State",
-      "name": "Florida"
-    }
-  }
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "50" }
 };
 
 const faqSchema = {

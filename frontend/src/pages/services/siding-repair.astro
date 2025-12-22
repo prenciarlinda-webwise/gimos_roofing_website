@@ -69,14 +69,29 @@ const faqs = [
 
 const schemaData = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Siding Repair Jacksonville FL",
-  "description": "Professional siding repair services in Jacksonville, Florida. Storm damage repair, section replacement, and more.",
-  "provider": {
-    "@type": "HomeAndConstructionBusiness",
-    "name": "Gimo's Roofing",
-    "telephone": "+1-904-606-5313"
-  }
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Gimo's Roofing",
+  "url": "https://gimosroofing.com",
+  "telephone": "+1-904-606-5313",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "33 24th Street East",
+    "addressLocality": "Jacksonville",
+    "addressRegion": "FL",
+    "postalCode": "32206"
+  },
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Service",
+      "name": "Siding Repair Jacksonville FL",
+      "description": "Professional siding repair services in Jacksonville, Florida. Storm damage repair, section replacement, and more.",
+      "url": "https://gimosroofing.com/services/siding-repair",
+      "areaServed": { "@type": "City", "name": "Jacksonville, FL" },
+      "serviceType": "Siding Repair"
+    }
+  },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "50" }
 };
 
 const faqSchema = {

@@ -48,8 +48,8 @@ const fullTitle = title === "Home" ? "Gimo's Roofing | Jacksonville's Trusted Ro
     <meta name="twitter:image" content={image} />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="/gimos-roofing-logo.png" />
+    <link rel="apple-touch-icon" href="/gimos-roofing-logo.png" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -60,11 +60,19 @@ const fullTitle = title === "Home" ? "Gimo's Roofing | Jacksonville's Trusted Ro
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "RoofingContractor",
+      "@id": `${siteUrl}/#organization`,
       "name": "Gimo's Renovation & Roofing",
-      "image": `${siteUrl}/logo.png`,
+      "alternateName": "Gimo's Roofing",
+      "image": `${siteUrl}/gimos-roofing-logo.png`,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${siteUrl}/gimos-roofing-logo.png`,
+        "width": 400,
+        "height": 100
+      },
       "url": siteUrl,
       "telephone": "(904) 606-5313",
-      "email": "contact@gimosroofing.com",
+      "email": "management@gimosroofing.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "33 24th Street East",
@@ -84,24 +92,103 @@ const fullTitle = title === "Home" ? "Gimo's Roofing | Jacksonville's Trusted Ro
         "opens": "08:00",
         "closes": "17:30"
       },
-      "areaServed": [
-        "Jacksonville, FL",
-        "Jacksonville Beach, FL",
-        "Atlantic Beach, FL",
-        "Middleburg, FL",
-        "Fernandina Beach, FL",
-        "Ponte Vedra Beach, FL",
-        "St. Augustine, FL",
-        "Yulee, FL",
-        "Nocatee, FL",
-        "Orange Park, FL"
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 30.3322,
+          "longitude": -81.6557
+        },
+        "geoRadius": "80467"
+      },
+      "serviceArea": [
+        {
+          "@type": "City",
+          "name": "Jacksonville",
+          "containedInPlace": { "@type": "State", "name": "Florida" },
+          "geo": { "@type": "GeoCoordinates", "latitude": 30.3322, "longitude": -81.6557 }
+        },
+        {
+          "@type": "City",
+          "name": "Jacksonville Beach",
+          "containedInPlace": { "@type": "State", "name": "Florida" },
+          "geo": { "@type": "GeoCoordinates", "latitude": 30.2947, "longitude": -81.3931 }
+        },
+        {
+          "@type": "City",
+          "name": "Ponte Vedra Beach",
+          "containedInPlace": { "@type": "State", "name": "Florida" },
+          "geo": { "@type": "GeoCoordinates", "latitude": 30.2397, "longitude": -81.3856 }
+        },
+        {
+          "@type": "City",
+          "name": "St. Augustine",
+          "containedInPlace": { "@type": "State", "name": "Florida" },
+          "geo": { "@type": "GeoCoordinates", "latitude": 29.8947, "longitude": -81.3145 }
+        },
+        {
+          "@type": "City",
+          "name": "Orange Park",
+          "containedInPlace": { "@type": "State", "name": "Florida" },
+          "geo": { "@type": "GeoCoordinates", "latitude": 30.1663, "longitude": -81.7065 }
+        },
+        {
+          "@type": "City",
+          "name": "Fernandina Beach",
+          "containedInPlace": { "@type": "State", "name": "Florida" },
+          "geo": { "@type": "GeoCoordinates", "latitude": 30.6699, "longitude": -81.4626 }
+        },
+        {
+          "@type": "City",
+          "name": "Nocatee",
+          "containedInPlace": { "@type": "State", "name": "Florida" },
+          "geo": { "@type": "GeoCoordinates", "latitude": 30.0883, "longitude": -81.4106 }
+        }
+      ],
+      "knowsAbout": [
+        {
+          "@type": "Thing",
+          "name": "Roofing",
+          "sameAs": "https://en.wikipedia.org/wiki/Roof"
+        },
+        {
+          "@type": "Thing",
+          "name": "Hurricane-resistant construction",
+          "sameAs": "https://en.wikipedia.org/wiki/Hurricane-resistant_construction"
+        },
+        {
+          "@type": "Thing",
+          "name": "Siding",
+          "sameAs": "https://en.wikipedia.org/wiki/Siding"
+        },
+        {
+          "@type": "Place",
+          "name": "Jacksonville, Florida",
+          "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida"
+        }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "License",
+          "name": "Florida State Roofing Contractor License"
+        }
       ],
       "priceRange": "$$",
+      "paymentAccepted": ["Cash", "Credit Card", "Financing Available"],
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
-        "reviewCount": "50"
-      }
+        "reviewCount": "50",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "sameAs": [
+        "https://www.facebook.com/gimosrenovation/",
+        "https://www.instagram.com/gimosroofing/",
+        "https://www.yelp.com/biz/gimos-roofing-jacksonville",
+        "https://www.linkedin.com/company/gimo-s-renovation-roofing/"
+      ]
     })} />
 
     <title>{fullTitle}</title>

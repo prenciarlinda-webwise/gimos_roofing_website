@@ -59,14 +59,29 @@ const faqs = [
 
 const schemaData = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Commercial Roofing Jacksonville FL",
-  "description": "Professional commercial roofing services in Jacksonville, Florida. TPO, EPDM, metal roofing and more for businesses.",
-  "provider": {
-    "@type": "RoofingContractor",
-    "name": "Gimo's Roofing",
-    "telephone": "+1-904-606-5313"
-  }
+  "@type": "RoofingContractor",
+  "name": "Gimo's Roofing",
+  "url": "https://gimosroofing.com",
+  "telephone": "+1-904-606-5313",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "33 24th Street East",
+    "addressLocality": "Jacksonville",
+    "addressRegion": "FL",
+    "postalCode": "32206"
+  },
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Service",
+      "name": "Commercial Roofing Jacksonville FL",
+      "description": "Professional commercial roofing services in Jacksonville, Florida. TPO, EPDM, metal roofing and more for businesses.",
+      "url": "https://gimosroofing.com/services/commercial-roofing",
+      "areaServed": { "@type": "City", "name": "Jacksonville, FL" },
+      "serviceType": "Commercial Roofing"
+    }
+  },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "50" }
 };
 
 const faqSchema = {
