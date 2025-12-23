@@ -1,0 +1,283 @@
+---
+// Projects data - completed roofing projects
+// Images should be placed in /public/images/projects/
+const projects = [
+  {
+    title: "Roof Project - Hovington Circle",
+    address: "2109 Hovington Cir W, Jacksonville, FL",
+    lat: 30.1897,
+    lng: -81.5456,
+    images: [
+      "/images/projects/hovington-1.webp"
+    ]
+  },
+  {
+    title: "Roof Project - Citron Court",
+    address: "11013 Citron Ct, Jacksonville, FL",
+    lat: 30.2134,
+    lng: -81.5678,
+    images: [
+      "/images/projects/citron-1.webp"
+    ]
+  },
+  {
+    title: "Roof Project - Gloucestershire",
+    address: "9092 Gloucestershire Rd, Jacksonville, FL",
+    lat: 30.2456,
+    lng: -81.5234,
+    images: [
+      "/images/projects/gloucestershire-1.webp"
+    ]
+  },
+  {
+    title: "Roof Project - Slappy Drive",
+    address: "307 NW Slappy Dr, Lake City, FL",
+    lat: 30.1923,
+    lng: -82.6398,
+    images: [
+      "/images/projects/slappy-1.webp"
+    ]
+  }
+];
+
+// Center map on Jacksonville
+const mapCenter = { lat: 30.3322, lng: -81.6557 };
+const defaultZoom = 10;
+---
+
+<div class="projects-map-container">
+  <div id="projects-map" class="w-full h-[500px] md:h-[600px] rounded-xl shadow-lg"></div>
+</div>
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+<style>
+  .leaflet-popup-content {
+    margin: 0;
+    padding: 0;
+  }
+
+  .project-popup {
+    min-width: 280px;
+    max-width: 320px;
+  }
+
+  .project-popup-title {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #1a1a2e;
+    padding: 12px 12px 8px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .project-popup-address {
+    font-size: 0.85rem;
+    color: #666;
+    padding: 0 12px 8px;
+  }
+
+  .project-popup-images {
+    display: flex;
+    gap: 4px;
+    padding: 8px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .project-popup-images img {
+    width: 140px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    scroll-snap-align: start;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  .project-popup-images img:hover {
+    transform: scale(1.02);
+  }
+
+  .project-popup-single img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0 0 8px 8px;
+  }
+
+  /* Custom marker style */
+  .custom-marker {
+    background: #dab627;
+    border: 3px solid #1a1a2e;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .custom-marker::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #1a1a2e;
+  }
+
+  /* Image lightbox */
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+
+  .lightbox.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .lightbox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+
+  .lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background: rgba(0,0,0,0.5);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+
+<!-- Lightbox for full-size images -->
+<div class="lightbox" id="lightbox">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" src="" alt="Project image" />
+</div>
+
+<!-- Leaflet JS -->
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<script is:inline define:vars={{ projects, mapCenter, defaultZoom }}>
+  // Wait for DOM to load
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initialize the map
+    const map = L.map('projects-map').setView([mapCenter.lat, mapCenter.lng], defaultZoom);
+
+    // Add OpenStreetMap tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Custom icon
+    const projectIcon = L.divIcon({
+      className: 'custom-div-icon',
+      html: `<div style="
+        background: #dab627;
+        border: 3px solid #1a1a2e;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        position: relative;
+      ">
+        <div style="
+          position: absolute;
+          bottom: -10px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 0;
+          height: 0;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          border-top: 10px solid #1a1a2e;
+        "></div>
+      </div>`,
+      iconSize: [28, 38],
+      iconAnchor: [14, 38],
+      popupAnchor: [0, -38]
+    });
+
+    // Add markers for each project
+    projects.forEach(project => {
+      const marker = L.marker([project.lat, project.lng], { icon: projectIcon }).addTo(map);
+
+      // Create popup content
+      let imagesHtml = '';
+      if (project.images && project.images.length > 0) {
+        if (project.images.length === 1) {
+          imagesHtml = `<div class="project-popup-single">
+            <img src="${project.images[0]}" alt="${project.title}" onclick="openLightbox('${project.images[0]}')" />
+          </div>`;
+        } else {
+          imagesHtml = `<div class="project-popup-images">
+            ${project.images.map(img => `<img src="${img}" alt="${project.title}" onclick="openLightbox('${img}')" />`).join('')}
+          </div>`;
+        }
+      }
+
+      const popupContent = `
+        <div class="project-popup">
+          <div class="project-popup-title">${project.title || 'Completed Project'}</div>
+          <div class="project-popup-address">${project.address}</div>
+          ${imagesHtml}
+        </div>
+      `;
+
+      marker.bindPopup(popupContent, {
+        maxWidth: 320,
+        minWidth: 280
+      });
+    });
+
+    // If no projects yet, show a message
+    if (projects.length === 0) {
+      const infoDiv = document.createElement('div');
+      infoDiv.style.cssText = 'position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border-radius: 8px; text-align: center; z-index: 1000;';
+      infoDiv.innerHTML = '<p style="margin: 0; color: #666;">Project locations coming soon!</p>';
+      document.getElementById('projects-map').appendChild(infoDiv);
+    }
+  });
+
+  // Lightbox functions
+  window.openLightbox = function(src) {
+    document.getElementById('lightbox-img').src = src;
+    document.getElementById('lightbox').classList.add('active');
+  };
+
+  window.closeLightbox = function() {
+    document.getElementById('lightbox').classList.remove('active');
+  };
+
+  // Close lightbox on escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+
+  // Close lightbox on background click
+  document.getElementById('lightbox')?.addEventListener('click', function(e) {
+    if (e.target === this) closeLightbox();
+  });
+</script>

@@ -22,17 +22,18 @@ const quickLinks = [
   { name: "Free Estimate", href: "/contact" },
 ];
 
+// Only published location pages (names must generate correct slugs)
 const serviceAreas = [
-  "Jacksonville",
   "Jacksonville Beach",
-  "Atlantic Beach",
   "Ponte Vedra Beach",
   "St. Augustine",
   "Orange Park",
-  "Middleburg",
   "Fernandina Beach",
-  "Yulee",
   "Nocatee",
+  "Riverside",
+  "San Marco",
+  "Mandarin",
+  "Southside Jax",
 ];
 
 const partners = [
@@ -51,7 +52,7 @@ const partners = [
       <!-- Company Info -->
       <div>
         <a href="/" class="inline-block mb-6">
-          <img src="/gimos-roofing-logo-alt.png" alt="Gimo's Roofing - Jacksonville FL Roofing Company" class="h-12 w-auto" />
+          <img src="/gimos-roofing-logo-alt.webp" alt="Gimo's Roofing - Jacksonville FL Roofing Company" class="h-12 w-auto" />
         </a>
         <p class="text-gray-300 mb-6 leading-relaxed">
           Jacksonville's trusted roofing contractor providing quality craftsmanship and exceptional customer service since day one.
@@ -207,3 +208,6 @@ const partners = [
     </div>
   </div>
 </footer>
+
+<!-- Bottom padding for mobile sticky CTA -->
+<div class="h-24 lg:hidden"></div>

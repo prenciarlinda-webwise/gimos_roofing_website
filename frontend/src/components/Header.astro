@@ -62,7 +62,7 @@ const serviceLinks = [...roofingLinks, ...sidingLinks];
       <div class="flex justify-between items-center h-20">
         <!-- Logo -->
         <a href="/" class="flex items-center">
-          <img src="/gimos-roofing-logo.png" alt="Gimo's Roofing - Jacksonville FL Roofing Company" class="h-14 w-auto" />
+          <img src="/gimos-roofing-logo.webp" alt="Gimo's Roofing - Jacksonville FL Roofing Company" class="h-14 w-auto" />
         </a>
 
         <!-- Desktop Navigation -->
@@ -175,8 +175,8 @@ const serviceLinks = [...roofingLinks, ...sidingLinks];
   </nav>
 </header>
 
-<!-- Spacer for fixed header -->
-<div class="h-20 md:h-28"></div>
+<!-- Spacer for fixed header - reduced on mobile since hero extends under header -->
+<div class="h-0 md:h-28"></div>
 
 <!-- Mobile Emergency Call Button - Sticky Bottom -->
 <div class="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-gradient-to-t from-secondary to-secondary/95 p-3 shadow-lg" id="mobile-cta">
@@ -193,8 +193,6 @@ const serviceLinks = [...roofingLinks, ...sidingLinks];
   <p class="text-center text-white/70 text-xs mt-2">24/7 Emergency Storm Response</p>
 </div>
 
-<!-- Bottom padding for mobile sticky CTA -->
-<div class="h-24 lg:hidden"></div>
 
 <script>
   // Mobile menu toggle

@@ -1,22 +1,23 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import ProjectsMap from '../components/ProjectsMap.astro';
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/9ef814fe-1efa-4e6b-aaed-45ff7eda2015/GimosRoofing/welcome-question';
 
 // Project gallery items with real images
 const projects = [
-  { id: 1, title: "Roof Replacement - Riverside", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/completed-roof-project-jacksonville.jpg" },
-  { id: 2, title: "New Roof Installation - Nocatee", type: "Roof Installation", location: "Nocatee, FL", image: "/images/new-roof-installation-blue-house-florida.jpg" },
-  { id: 3, title: "Shingle Roof Aerial View", type: "Roof Installation", location: "Atlantic Beach, FL", image: "/images/architectural-shingle-roof-aerial-view.jpg" },
-  { id: 4, title: "Commercial Roofing Project", type: "Commercial", location: "Jacksonville, FL", image: "/images/commercial-gray-shingle-roof.jpg" },
-  { id: 5, title: "Siding Installation", type: "Siding", location: "Jacksonville Beach, FL", image: "/images/siding-installation-jacksonville-home.jpg" },
-  { id: 6, title: "Metal Roof Installation", type: "Roof Installation", location: "Ponte Vedra Beach, FL", image: "/images/flat-metal-roof-installation.jpg" },
-  { id: 7, title: "Roof Replacement - San Marco", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/two-story-home-roof-replacement.jpg" },
-  { id: 8, title: "Home Siding Renovation", type: "Siding", location: "Orange Park, FL", image: "/images/yellow-siding-home-renovation.jpg" },
-  { id: 9, title: "Blue House Roof Project", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/blue-house-roof-project-aerial.jpg" },
-  { id: 10, title: "Brick Home Shingle Roof", type: "Roof Installation", location: "Middleburg, FL", image: "/images/brick-home-gray-shingle-roof.jpg" },
-  { id: 11, title: "Modern Home Roof", type: "Roof Replacement", location: "Ponte Vedra Beach, FL", image: "/images/modern-home-new-shingle-roof.jpg" },
-  { id: 12, title: "Residential Roof with Pool", type: "Roof Installation", location: "Fernandina Beach, FL", image: "/images/residential-roof-with-pool-aerial.jpg" }
+  { id: 1, title: "Roof Replacement - Riverside", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/completed-roof-project-jacksonville.webp" },
+  { id: 2, title: "New Roof Installation - Nocatee", type: "Roof Installation", location: "Nocatee, FL", image: "/images/new-roof-installation-blue-house-florida.webp" },
+  { id: 3, title: "Shingle Roof Aerial View", type: "Roof Installation", location: "Atlantic Beach, FL", image: "/images/architectural-shingle-roof-aerial-view.webp" },
+  { id: 4, title: "Commercial Roofing Project", type: "Commercial", location: "Jacksonville, FL", image: "/images/commercial-gray-shingle-roof.webp" },
+  { id: 5, title: "Siding Installation", type: "Siding", location: "Jacksonville Beach, FL", image: "/images/siding-installation-jacksonville-home.webp" },
+  { id: 6, title: "Metal Roof Installation", type: "Roof Installation", location: "Ponte Vedra Beach, FL", image: "/images/flat-metal-roof-installation.webp" },
+  { id: 7, title: "Roof Replacement - San Marco", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/two-story-home-roof-replacement.webp" },
+  { id: 8, title: "Home Siding Renovation", type: "Siding", location: "Orange Park, FL", image: "/images/yellow-siding-home-renovation.webp" },
+  { id: 9, title: "Blue House Roof Project", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/blue-house-roof-project-aerial.webp" },
+  { id: 10, title: "Brick Home Shingle Roof", type: "Roof Installation", location: "Middleburg, FL", image: "/images/brick-home-gray-shingle-roof.webp" },
+  { id: 11, title: "Modern Home Roof", type: "Roof Replacement", location: "Ponte Vedra Beach, FL", image: "/images/modern-home-new-shingle-roof.webp" },
+  { id: 12, title: "Residential Roof with Pool", type: "Roof Installation", location: "Fernandina Beach, FL", image: "/images/residential-roof-with-pool-aerial.webp" }
 ];
 
 const categories = ["All", "Roof Installation", "Roof Replacement", "Roof Repair", "Commercial", "Siding"];
@@ -45,7 +46,7 @@ const schemaData = {
   <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
 
   <!-- Hero Section -->
-  <section class="bg-gradient-to-br from-secondary to-secondary/90 text-white py-16">
+  <section class="bg-gradient-to-br from-secondary to-secondary/90 text-white pt-24 pb-16 md:py-16">
     <div class="max-w-7xl mx-auto px-4">
       <div class="text-center max-w-3xl mx-auto">
         <h1 class="text-3xl md:text-4xl font-bold mb-4">
@@ -55,6 +56,19 @@ const schemaData = {
           Browse our gallery of completed roofing and siding projects throughout Jacksonville and Northeast Florida.
         </p>
       </div>
+    </div>
+  </section>
+
+  <!-- Interactive Map Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-8">
+        <h2 class="text-2xl md:text-3xl font-bold text-secondary mb-3">Project Locations</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Click on a pin to see photos from our completed projects across Northeast Florida.
+        </p>
+      </div>
+      <ProjectsMap />
     </div>
   </section>
 
@@ -118,11 +132,11 @@ const schemaData = {
         <div class="bg-white rounded-xl shadow-md overflow-hidden">
           <div class="grid grid-cols-2">
             <div class="aspect-square overflow-hidden relative">
-              <img src="/images/roof-replacement-debris-removal.jpg" alt="Roof before replacement" class="w-full h-full object-cover" />
+              <img src="/images/roof-replacement-debris-removal.webp" alt="Roof before replacement" class="w-full h-full object-cover" />
               <span class="absolute bottom-2 left-2 bg-secondary/80 text-white text-xs px-2 py-1 rounded">Before</span>
             </div>
             <div class="aspect-square overflow-hidden relative">
-              <img src="/images/completed-roof-project-jacksonville.jpg" alt="Roof after replacement" class="w-full h-full object-cover" />
+              <img src="/images/completed-roof-project-jacksonville.webp" alt="Roof after replacement" class="w-full h-full object-cover" />
               <span class="absolute bottom-2 left-2 bg-primary text-secondary text-xs px-2 py-1 rounded font-semibold">After</span>
             </div>
           </div>
@@ -134,11 +148,11 @@ const schemaData = {
         <div class="bg-white rounded-xl shadow-md overflow-hidden">
           <div class="grid grid-cols-2">
             <div class="aspect-square overflow-hidden relative">
-              <img src="/images/siding-project-closeup.jpg" alt="Siding before installation" class="w-full h-full object-cover" />
+              <img src="/images/siding-project-closeup.webp" alt="Siding before installation" class="w-full h-full object-cover" />
               <span class="absolute bottom-2 left-2 bg-secondary/80 text-white text-xs px-2 py-1 rounded">Before</span>
             </div>
             <div class="aspect-square overflow-hidden relative">
-              <img src="/images/siding-installation-jacksonville-home.jpg" alt="Siding after installation" class="w-full h-full object-cover" />
+              <img src="/images/siding-installation-jacksonville-home.webp" alt="Siding after installation" class="w-full h-full object-cover" />
               <span class="absolute bottom-2 left-2 bg-primary text-secondary text-xs px-2 py-1 rounded font-semibold">After</span>
             </div>
           </div>

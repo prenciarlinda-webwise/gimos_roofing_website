@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/optimize-images.js:*)",
+      "Bash(npm run build:*)"
+    ]
+  }
+}

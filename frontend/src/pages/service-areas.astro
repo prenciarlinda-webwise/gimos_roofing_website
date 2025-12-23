@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/9ef814fe-1efa-4e6b-aaed-45ff7eda2015/GimosRoofing/welcome-question';
 
+// Only published location pages
 const serviceAreas = [
   // Duval County
   {
@@ -10,24 +11,6 @@ const serviceAreas = [
     slug: "roofing-jacksonville-beach-fl",
     county: "Duval County",
     description: "Coastal roofing specialists protecting beach homes from salt air and hurricane conditions."
-  },
-  {
-    name: "Atlantic Beach",
-    slug: "roofing-atlantic-beach-fl",
-    county: "Duval County",
-    description: "Expert oceanfront roofing for Atlantic Beach's unique coastal properties."
-  },
-  {
-    name: "Neptune Beach",
-    slug: "roofing-neptune-beach-fl",
-    county: "Duval County",
-    description: "Coastal roofing experts for Neptune Beach's beach bungalows and family homes."
-  },
-  {
-    name: "Arlington",
-    slug: "roofing-arlington-fl",
-    county: "Duval County",
-    description: "Affordable quality roofing for Arlington's established neighborhoods."
   },
   {
     name: "Riverside",
@@ -72,24 +55,6 @@ const serviceAreas = [
     county: "St. Johns County",
     description: "HOA-compliant roofing for Nocatee's master-planned communities."
   },
-  {
-    name: "St. Johns",
-    slug: "roofing-st-johns-fl",
-    county: "St. Johns County",
-    description: "Serving St. Johns County's master-planned communities with quality roofing."
-  },
-  {
-    name: "Fruit Cove",
-    slug: "roofing-fruit-cove-fl",
-    county: "St. Johns County",
-    description: "Expert roofing for Fruit Cove and Julington Creek Plantation families."
-  },
-  {
-    name: "Julington Creek",
-    slug: "roofing-julington-creek-fl",
-    county: "St. Johns County",
-    description: "HOA-experienced roofing for Julington Creek Plantation's beautiful homes."
-  },
   // Clay County
   {
     name: "Orange Park",
@@ -97,56 +62,21 @@ const serviceAreas = [
     county: "Clay County",
     description: "Quality roofing for Orange Park families and surrounding communities."
   },
-  {
-    name: "Fleming Island",
-    slug: "roofing-fleming-island-fl",
-    county: "Clay County",
-    description: "Premium roofing for Fleming Island's upscale HOA communities."
-  },
-  {
-    name: "Middleburg",
-    slug: "roofing-middleburg-fl",
-    county: "Clay County",
-    description: "Rural and acreage property roofing specialists in Clay County."
-  },
-  {
-    name: "Green Cove Springs",
-    slug: "roofing-green-cove-springs-fl",
-    county: "Clay County",
-    description: "Roofing services for Green Cove Springs' historic downtown and surrounding areas."
-  },
-  {
-    name: "Oakleaf Plantation",
-    slug: "roofing-oakleaf-plantation-fl",
-    county: "Clay County",
-    description: "HOA-compliant roofing for Oakleaf Plantation's master-planned community."
-  },
   // Nassau County
   {
     name: "Fernandina Beach",
     slug: "roofing-fernandina-beach-fl",
     county: "Nassau County",
     description: "Amelia Island's trusted roofer for coastal and historic Victorian homes."
-  },
-  {
-    name: "Yulee",
-    slug: "roofing-yulee-fl",
-    county: "Nassau County",
-    description: "Serving Yulee's growing community including Wildlight and Tributary."
-  },
-  {
-    name: "Callahan",
-    slug: "roofing-callahan-fl",
-    county: "Nassau County",
-    description: "Quality roofing for Callahan and western Nassau County homes."
   }
 ];
 
+// Only published location pages per county (names must generate correct slugs)
 const counties = [
-  { name: "Duval County", areas: ["Jacksonville Beach", "Atlantic Beach", "Neptune Beach", "Arlington", "Riverside", "San Marco", "Mandarin", "Southside"] },
-  { name: "St. Johns County", areas: ["Ponte Vedra Beach", "St. Augustine", "Nocatee", "St. Johns", "Fruit Cove", "Julington Creek"] },
-  { name: "Clay County", areas: ["Orange Park", "Fleming Island", "Middleburg", "Green Cove Springs", "Oakleaf Plantation"] },
-  { name: "Nassau County", areas: ["Fernandina Beach", "Yulee", "Callahan"] }
+  { name: "Duval County", areas: ["Jacksonville Beach", "Riverside", "San Marco", "Mandarin", "Southside Jax"] },
+  { name: "St. Johns County", areas: ["Ponte Vedra Beach", "St. Augustine", "Nocatee"] },
+  { name: "Clay County", areas: ["Orange Park"] },
+  { name: "Nassau County", areas: ["Fernandina Beach"] }
 ];
 
 const schemaData = {
@@ -171,9 +101,9 @@ const schemaData = {
   <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
 
   <!-- Hero Section -->
-  <section class="relative py-20 overflow-hidden">
+  <section class="relative pt-24 pb-20 md:py-20 overflow-hidden">
     <div class="absolute inset-0">
-      <img src="/images/architectural-shingle-roof-aerial-view.jpg" alt="Roofing service areas in Northeast Florida" class="w-full h-full object-cover" loading="eager" />
+      <img src="/images/architectural-shingle-roof-aerial-view.webp" alt="Roofing service areas in Northeast Florida" class="w-full h-full object-cover" loading="eager" />
     </div>
     <div class="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
     <div class="relative max-w-7xl mx-auto px-4">
