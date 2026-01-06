@@ -10,6 +10,9 @@ export default defineConfig({
   },
   trailingSlash: 'ignore',
   redirects: {
+    // Sitemap redirect
+    '/sitemap_index.xml': '/sitemap.xml',
+
     // Old site URL structure redirects
     '/about-us': '/about',
     '/contact-us': '/contact',
