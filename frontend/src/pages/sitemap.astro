@@ -1,0 +1,218 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const mainPages = [
+  { name: "Home", href: "/", description: "Jacksonville's trusted roofing contractor" },
+  { name: "About Us", href: "/about", description: "Learn about our company and team" },
+  { name: "Contact", href: "/contact", description: "Get in touch with us" },
+  { name: "Gallery", href: "/gallery", description: "View our completed projects" },
+  { name: "Service Areas", href: "/service-areas", description: "Areas we serve in Northeast Florida" },
+];
+
+const services = [
+  { name: "All Services", href: "/services", description: "Overview of all our roofing and siding services" },
+  { name: "Roof Replacement", href: "/services/roof-replacement", description: "Complete roof replacement services" },
+  { name: "Roof Repair", href: "/services/roof-repair", description: "Fast, reliable roof repairs" },
+  { name: "New Construction Roofing", href: "/services/new-construction-roofing", description: "Roofing for new home builds" },
+  { name: "Commercial Roofing", href: "/services/commercial-roofing", description: "Professional commercial roofing" },
+  { name: "Siding Installation", href: "/services/siding-installation", description: "Professional siding installation" },
+  { name: "Siding Repair", href: "/services/siding-repair", description: "Expert siding repairs" },
+];
+
+const locationPages = [
+  { name: "Jacksonville Beach", href: "/roofing-jacksonville-beach-fl" },
+  { name: "Ponte Vedra Beach", href: "/roofing-ponte-vedra-beach-fl" },
+  { name: "St. Augustine", href: "/roofing-st-augustine-fl" },
+  { name: "Orange Park", href: "/roofing-orange-park-fl" },
+  { name: "Fernandina Beach", href: "/roofing-fernandina-beach-fl" },
+  { name: "Nocatee", href: "/roofing-nocatee-fl" },
+  { name: "Riverside", href: "/roofing-riverside-fl" },
+  { name: "San Marco", href: "/roofing-san-marco-fl" },
+  { name: "Mandarin", href: "/roofing-mandarin-fl" },
+  { name: "Southside Jacksonville", href: "/roofing-southside-jax-fl" },
+];
+
+const blogPosts = [
+  { name: "Blog Home", href: "/blog", description: "All articles and guides" },
+  { name: "How to Check Florida Roofing License", href: "/blog/how-to-check-florida-roofing-license", date: "Dec 18, 2024" },
+  { name: "Roofing Financing Options in Jacksonville", href: "/blog/roofing-financing-options-jacksonville", date: "Dec 16, 2024" },
+  { name: "Questions to Ask a Roofing Contractor", href: "/blog/questions-to-ask-roofing-contractor", date: "Dec 14, 2024" },
+  { name: "Flat Roof Repair in Jacksonville", href: "/blog/flat-roof-repair-jacksonville", date: "Dec 12, 2024" },
+  { name: "When Your Roof Needs Replacement", href: "/blog/when-roof-needs-replacement", date: "Dec 10, 2024" },
+  { name: "Benefits of Metal Roofing in Florida", href: "/blog/benefits-metal-roofing-florida", date: "Dec 8, 2024" },
+  { name: "Tile Roofing Contractor Jacksonville", href: "/blog/tile-roofing-contractor-jacksonville", date: "Dec 6, 2024" },
+  { name: "Storm Damage Roofing Insurance Guide", href: "/blog/storm-damage-roofing-insurance", date: "Dec 4, 2024" },
+];
+---
+
+<Layout
+  title="Sitemap"
+  description="Complete sitemap of Gimo's Roofing website. Find all pages including services, locations, and blog articles."
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-secondary to-secondary-dark py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center text-white">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Sitemap</h1>
+        <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+          Find all pages on our website organized by category
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Breadcrumb -->
+  <section class="bg-gray-50 py-4 border-b">
+    <div class="max-w-7xl mx-auto px-4">
+      <nav class="flex items-center gap-2 text-sm">
+        <a href="/" class="text-gray-500 hover:text-primary">Home</a>
+        <span class="text-gray-400">/</span>
+        <span class="text-gray-700">Sitemap</span>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Sitemap Content -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Main Pages -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 border border-gray-100">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+              <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              </svg>
+            </div>
+            <h2 class="text-xl font-bold text-secondary">Main Pages</h2>
+          </div>
+          <ul class="space-y-3">
+            {mainPages.map((page) => (
+              <li>
+                <a href={page.href} class="group block p-3 rounded-lg hover:bg-gray-50 transition-colors">
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="font-medium text-secondary group-hover:text-primary transition-colors">{page.name}</span>
+                  </div>
+                  <p class="text-sm text-gray-500 mt-1 ml-6">{page.description}</p>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 border border-gray-100">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+              <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+              </svg>
+            </div>
+            <h2 class="text-xl font-bold text-secondary">Services</h2>
+          </div>
+          <ul class="space-y-3">
+            {services.map((service) => (
+              <li>
+                <a href={service.href} class="group block p-3 rounded-lg hover:bg-gray-50 transition-colors">
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="font-medium text-secondary group-hover:text-primary transition-colors">{service.name}</span>
+                  </div>
+                  <p class="text-sm text-gray-500 mt-1 ml-6">{service.description}</p>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <!-- Location Pages -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 border border-gray-100">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+              <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+            </div>
+            <h2 class="text-xl font-bold text-secondary">Service Areas</h2>
+          </div>
+          <ul class="space-y-2">
+            {locationPages.map((location) => (
+              <li>
+                <a href={location.href} class="group flex items-center gap-2 p-2 rounded-lg hover:bg-gray-50 transition-colors">
+                  <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="font-medium text-secondary group-hover:text-primary transition-colors">{location.name}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <!-- Blog Posts -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 border border-gray-100 md:col-span-2 lg:col-span-3">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+              <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+              </svg>
+            </div>
+            <h2 class="text-xl font-bold text-secondary">Blog & Resources</h2>
+          </div>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {blogPosts.map((post) => (
+              <a href={post.href} class="group block p-4 rounded-xl border border-gray-100 hover:border-primary/30 hover:bg-gray-50 transition-all">
+                <div class="flex items-start gap-2">
+                  <svg class="w-4 h-4 text-primary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <div>
+                    <span class="font-medium text-secondary group-hover:text-primary transition-colors">{post.name}</span>
+                    {post.date && <p class="text-xs text-gray-400 mt-1">{post.date}</p>}
+                    {post.description && <p class="text-sm text-gray-500 mt-1">{post.description}</p>}
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <!-- XML Sitemap Link -->
+      <div class="mt-12 text-center">
+        <div class="inline-flex items-center gap-4 bg-gray-50 rounded-xl px-6 py-4">
+          <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          </svg>
+          <div class="text-left">
+            <p class="text-sm text-gray-500">For search engines</p>
+            <a href="/sitemap.xml" class="text-primary hover:underline font-medium">View XML Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-gradient-to-br from-primary to-primary-dark">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-secondary mb-4">Can't Find What You're Looking For?</h2>
+      <p class="text-secondary/80 mb-6">Contact us directly and we'll be happy to help you find the information you need.</p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="/contact" class="btn bg-secondary text-white hover:bg-secondary-light px-6 py-3">
+          Contact Us
+        </a>
+        <a href="tel:+19046065313" class="btn bg-white text-secondary hover:bg-gray-100 px-6 py-3">
+          Call (904) 606-5313
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
