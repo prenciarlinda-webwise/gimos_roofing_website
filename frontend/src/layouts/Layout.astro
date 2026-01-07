@@ -302,51 +302,58 @@ const fullTitle = title === "Home" ? "Gimo's Roofing | Jacksonville's Trusted Ro
       </div>
     </div>
 
-    <script>
+    <script is:inline>
       // WhatsApp Widget Logic
-      const whatsappBtn = document.getElementById('whatsapp-btn');
-      const whatsappModal = document.getElementById('whatsapp-form-modal');
-      const closeBtn = document.getElementById('close-whatsapp-form');
-      const whatsappForm = document.getElementById('whatsapp-contact-form');
+      document.addEventListener('DOMContentLoaded', function() {
+        const whatsappBtn = document.getElementById('whatsapp-btn');
+        const whatsappModal = document.getElementById('whatsapp-form-modal');
+        const closeBtn = document.getElementById('close-whatsapp-form');
+        const whatsappForm = document.getElementById('whatsapp-contact-form');
 
-      whatsappBtn?.addEventListener('click', () => {
-        whatsappModal?.classList.toggle('hidden');
-      });
-
-      closeBtn?.addEventListener('click', () => {
-        whatsappModal?.classList.add('hidden');
-      });
-
-      // Close modal when clicking outside
-      document.addEventListener('click', (e) => {
-        const widget = document.getElementById('whatsapp-widget');
-        if (widget && !widget.contains(e.target as Node)) {
-          whatsappModal?.classList.add('hidden');
+        if (whatsappBtn) {
+          whatsappBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            whatsappModal.classList.toggle('hidden');
+          });
         }
-      });
 
-      whatsappForm?.addEventListener('submit', (e) => {
-        e.preventDefault();
+        if (closeBtn) {
+          closeBtn.addEventListener('click', function() {
+            whatsappModal.classList.add('hidden');
+          });
+        }
 
-        const service = (document.getElementById('wa-service') as HTMLSelectElement)?.value;
-        const sqft = (document.getElementById('wa-sqft') as HTMLSelectElement)?.value;
-        const location = (document.getElementById('wa-location') as HTMLInputElement)?.value;
-        const name = (document.getElementById('wa-name') as HTMLInputElement)?.value;
+        // Close modal when clicking outside
+        document.addEventListener('click', function(e) {
+          const widget = document.getElementById('whatsapp-widget');
+          if (widget && !widget.contains(e.target)) {
+            whatsappModal.classList.add('hidden');
+          }
+        });
 
-        const message = `Hi Gimo's Roofing! I'm interested in getting a quote.
+        if (whatsappForm) {
+          whatsappForm.addEventListener('submit', function(e) {
+            e.preventDefault();
 
-*Name:* ${name}
-*Service:* ${service}
-*Size:* ${sqft}
-*Location:* ${location}
+            const service = document.getElementById('wa-service').value;
+            const sqft = document.getElementById('wa-sqft').value;
+            const location = document.getElementById('wa-location').value;
+            const name = document.getElementById('wa-name').value;
 
-Please let me know about availability and pricing. Thank you!`;
+            const message = "Hi Gimo's Roofing! I'm interested in getting a quote.\n\n" +
+              "Name: " + name + "\n" +
+              "Service: " + service + "\n" +
+              "Size: " + sqft + "\n" +
+              "Location: " + location + "\n\n" +
+              "Please let me know about availability and pricing. Thank you!";
 
-        const phoneNumber = '19046065313';
-        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            const phoneNumber = '19046976093';
+            const whatsappUrl = 'https://wa.me/' + phoneNumber + '?text=' + encodeURIComponent(message);
 
-        window.open(whatsappUrl, '_blank');
-        whatsappModal?.classList.add('hidden');
+            window.open(whatsappUrl, '_blank');
+            whatsappModal.classList.add('hidden');
+          });
+        }
       });
     </script>
 
