@@ -2,6 +2,12 @@
 
 import { useState, FormEvent } from 'react'
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void
+  }
+}
+
 export default function WhatsAppWidget() {
   const [isOpen, setIsOpen] = useState(false)
   const [formData, setFormData] = useState({
@@ -13,6 +19,16 @@ export default function WhatsAppWidget() {
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
+
+    // Track WhatsApp conversion
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'conversion', {
+        'send_to': 'AW-17806667394/whatsapp_lead',
+        'event_category': 'Lead',
+        'event_label': 'WhatsApp Form Submission',
+        'value': 1
+      })
+    }
 
     const message = `Hi Gimo's Roofing! I'm interested in getting a quote.
 

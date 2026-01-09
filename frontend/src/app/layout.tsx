@@ -136,6 +136,24 @@ export default function RootLayout({
             gtag('config', '${GOOGLE_ADS_ID}');
           `}
         </Script>
+        {/* Phone Call Conversion Tracking */}
+        <Script id="phone-tracking" strategy="afterInteractive">
+          {`
+            document.addEventListener('click', function(e) {
+              var target = e.target.closest('a[href^="tel:"]');
+              if (target) {
+                if (typeof gtag === 'function') {
+                  gtag('event', 'conversion', {
+                    'send_to': '${GOOGLE_ADS_ID}/phone_call',
+                    'event_category': 'Lead',
+                    'event_label': 'Phone Call Click',
+                    'value': 1
+                  });
+                }
+              }
+            });
+          `}
+        </Script>
         <Header />
         <main>
           {children}
