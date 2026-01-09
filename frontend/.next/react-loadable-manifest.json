@@ -1,0 +1,16 @@
+{
+  "app\\gallery\\page.tsx -> @/components/ProjectsMapCompact": {
+    "id": 4932,
+    "files": [
+      "static/css/fc1c9daac70c093b.css",
+      "static/chunks/309-94ef1bbe89cab799.js",
+      "static/chunks/932.1b24772b95c8c8be.js"
+    ]
+  },
+  "components\\ProjectsMapCompact.tsx -> leaflet": {
+    "id": 759,
+    "files": [
+      "static/chunks/d0deef33.bd75b11a952a2d3d.js"
+    ]
+  }
+}
