@@ -44,18 +44,29 @@ export default function ProjectsMapCompact() {
   useEffect(() => {
     if (typeof window === 'undefined' || !mapRef.current) return
 
-    // Prevent re-initialization (handles React Strict Mode double-mount)
     const container = mapRef.current
-    if ((container as any)._leaflet_id) return
+    let isMounted = true
 
-    let map: L.Map | null = null
+    // Clean up any existing map instance first
+    if (mapInstanceRef.current) {
+      mapInstanceRef.current.remove()
+      mapInstanceRef.current = null
+    }
+
+    // Clear leaflet ID from container if it exists
+    if ((container as any)._leaflet_id) {
+      delete (container as any)._leaflet_id
+    }
 
     // Dynamically import Leaflet
     import('leaflet').then((L) => {
-      // Double-check container still exists and isn't initialized
-      if (!container || (container as any)._leaflet_id) return
+      // Don't initialize if component unmounted during async load
+      if (!isMounted || !container) return
 
-      map = L.map(container).setView([mapCenter.lat, mapCenter.lng], defaultZoom)
+      // Double-check no map exists
+      if (mapInstanceRef.current) return
+
+      const map = L.map(container).setView([mapCenter.lat, mapCenter.lng], defaultZoom)
       mapInstanceRef.current = map
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -76,18 +87,19 @@ export default function ProjectsMapCompact() {
           <div class="address">${p.address}</div>
           <img src="${p.images[0]}" alt="${p.title}" />
         </div>`
-        L.marker([p.lat, p.lng], { icon }).addTo(map!).bindPopup(popup, { maxWidth: 250 })
+        L.marker([p.lat, p.lng], { icon }).addTo(map).bindPopup(popup, { maxWidth: 250 })
       })
     })
 
     return () => {
-      if (map) {
-        map.remove()
-        map = null
-      }
+      isMounted = false
       if (mapInstanceRef.current) {
         mapInstanceRef.current.remove()
         mapInstanceRef.current = null
+      }
+      // Clear leaflet ID from container
+      if (container && (container as any)._leaflet_id) {
+        delete (container as any)._leaflet_id
       }
     }
   }, [])
