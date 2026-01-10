@@ -4,8 +4,9 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roof Repair Jacksonville FL | Emergency Roofers | Leaky Roof Repair | Gimo's Roofing",
-  description: "Need roof repair in Jacksonville FL? Gimo's Roofing offers fast leaky roof repair, emergency roofing services, shingle repair near me, roof leak detection & storm damage repair. Free inspections. Call (904) 606-5313.",
+  title: "Roof Repair Jacksonville FL - Emergency Leaky Roof Repair",
+  description: "Expert roof repair in Jacksonville FL. We fix leaks, missing shingles & storm damage. Emergency services available. Free estimates: (904) 606-5313.",
+  keywords: ["roof repair jacksonville fl", "roof leak repair", "emergency roof repair jacksonville", "metal roof repair", "shingle roof repair", "leaky roof repair", "roof flashing repair", "tile roof repair"],
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -21,6 +22,8 @@ const repairTypes = [
 
 const faqs = [
   { question: "How quickly can you repair my roof?", answer: "For emergencies like active leaks, we offer same-day or next-day service. Standard repairs are typically scheduled within a few days of your inspection." },
+  { question: "What is the most common roof repair?", answer: "Flashing repair and shingle replacement are the most common services. Leaks usually occur around chimneys, vents, or in valleys where the flashing has pulled away or corroded." },
+  { question: "How much should a minor roof repair cost?", answer: "Minor repairs in the Jacksonville area typically range from $150 to $600. This usually covers patching a small leak, replacing a few missing shingles, or resealing flashing." },
   { question: "Is it worth repairing an old roof?", answer: "It depends on the extent of damage and roof age. Minor repairs on a newer roof are cost-effective. If your roof is over 20 years old with multiple issues, replacement may be better. We'll give you an honest assessment." },
   { question: "Do you work with insurance companies?", answer: "Yes! We regularly work with insurance companies on storm damage claims. We can help document damage and provide estimates for your claim." },
   { question: "What if you find more damage during the repair?", answer: "We'll contact you immediately to discuss the additional damage and get your approval before proceeding with any extra work." }
@@ -31,7 +34,7 @@ const schemaData = {
   "@type": "Service",
   "name": "Roof Repair Jacksonville FL",
   "description": "Professional roof repair services in Jacksonville, Florida. Fast, reliable repairs for leaks, storm damage, and general wear.",
-  "url": "https://gimosroofing.com/services/roof-repair",
+  "url": "https://www.gimosroofing.com/services/roof-repair",
   "provider": { "@type": "RoofingContractor", "name": "Gimo's Roofing", "telephone": "+1-904-606-5313" },
   "areaServed": { "@type": "City", "name": "Jacksonville, FL" }
 }
@@ -60,7 +63,7 @@ export default function RoofRepairPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Roof Repair</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Roof Repair in Jacksonville, FL</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Fast & Reliable Roof Repair in Jacksonville FL</h1>
               <p className="text-lg text-gray-200 mb-6">
                 Fast, reliable roof repairs for leaks, storm damage, and general wear. Our expert team diagnoses issues quickly and provides lasting solutions to protect your home.
               </p>

@@ -3,8 +3,9 @@ import Link from 'next/link'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Company San Marco Jacksonville FL | Tile Roof Experts | Gimo's Roofing",
-  description: "Tile roof experts serving San Marco's distinctive Mediterranean homes. Roof replacement, repair & installation. Free estimates: (904) 606-5313.",
+  title: "Roofing Company San Marco Jacksonville FL - Tile Roof Experts",
+  description: "Tile roof specialists in San Marco Jacksonville FL. Mediterranean home roofing. Roof repair & replacement. Free estimates: (904) 606-5313.",
+  keywords: ["roofing company san marco jacksonville fl", "san marco roofers", "tile roof jacksonville", "mediterranean roofing", "roof repair san marco"],
 }
 
 const location = "San Marco"
@@ -30,7 +31,7 @@ const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "name": `Gimo's Roofing - ${location}`,
-  "url": "https://gimosroofing.com/roofing-san-marco-fl",
+  "url": "https://www.gimosroofing.com/roofing-san-marco-fl",
   "telephone": phone,
   "areaServed": { "@type": "City", "name": location },
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "42" }
@@ -52,7 +53,7 @@ export default function SanMarcoPage() {
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <p className="text-primary font-semibold mb-3">Serving {location} & {county}</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Company in {location}, Jacksonville FL</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">San Marco Jacksonville FL Roofing Company - Tile Roof Experts</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
             Tile roof experts serving {location}&apos;s distinctive Mediterranean homes. Quality materials, expert craftsmanship.
           </p>

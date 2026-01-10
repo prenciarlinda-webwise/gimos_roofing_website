@@ -7,23 +7,40 @@ import FAQ from '@/components/FAQ'
 const ProjectsMapCompact = dynamic(() => import('@/components/ProjectsMapCompact'), { ssr: false })
 
 export const metadata: Metadata = {
-  title: "Roofing Company Jacksonville FL | Jacksonville Roofing Contractor | Gimo's Roofing",
-  description: "Looking for the best roofing company in Jacksonville FL? Gimo's Roofing provides expert residential roofing services, roof repair, replacement & installation. Local roofing experts serving Duval, St. Johns, Clay & Nassau counties. Free estimates - call (904) 606-5313",
+  title: "Jacksonville Roofing Company - #1 Roofers Jacksonville FL",
+  description: "Looking for a top-rated Jacksonville roofing company? Gimo's Roofing offers expert roof repair, replacement & installation. Free estimates: (904) 606-5313.",
+  keywords: ["jacksonville roofing company", "roofing contractor jacksonville fl", "roofers jacksonville fl", "roofing jacksonville", "Gimo's Roofing"],
+  openGraph: {
+    title: "Jacksonville Roofing Company - #1 Roofers Jacksonville FL",
+    description: "Gimo's Roofing is Jacksonville's top-rated roofing contractor. Expert roof repair, replacement & installation. Call (904) 606-5313 for a free estimate.",
+    url: "https://www.gimosroofing.com",
+    images: [
+      {
+        url: "https://www.gimosroofing.com/images/best-roofing-company-jacksonville-fl.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Gimo's Roofing - Best Roofing Company Jacksonville FL",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "https://www.gimosroofing.com",
+  },
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
 const financingUrl = 'https://application.enerbank.com/#/link?spnum=8007747598&cid=118584&promo=DEL2625&loamt='
 
 const roofingServices = [
-  { title: 'Roof Replacement', description: 'Complete roof replacement with premium materials. Starting at $7,900 with financing available.', href: '/services/roof-replacement', image: '/images/home-page-roofing-services.webp' },
-  { title: 'Roof Repair', description: 'Fast, reliable roof repairs for leaks, storm damage, and general wear. Starting at $500.', href: '/services/roof-repair', image: '/images/roof-repair-in-progress-jacksonville.webp' },
-  { title: 'New Construction', description: 'Expert roofing for new home builds. We partner with builders and homeowners.', href: '/services/new-construction-roofing', image: '/images/new-roof-installation-blue-house-florida.webp' },
-  { title: 'Commercial Roofing', description: 'Professional commercial roofing services for businesses in Jacksonville.', href: '/services/commercial-roofing', image: '/images/commercial-roofing-services.webp' }
+  { title: 'Roof Replacement', description: 'Complete roof replacement with premium materials. Starting at $7,900 with financing available.', href: '/services/roof-replacement', image: '/images/home-page-roofing-services.webp', alt: 'Roof Replacement in Jacksonville FL', imgTitle: 'Roof Replacement in Jacksonville FL' },
+  { title: 'Roof Repair', description: 'Fast, reliable roof repairs for leaks, storm damage, and general wear. Starting at $500.', href: '/services/roof-repair', image: '/images/roof-repair-in-progress-jacksonville.webp', alt: 'Roof Repair in Jacksonville FL', imgTitle: 'Roof Repair in Jacksonville FL' },
+  { title: 'New Construction', description: 'Expert roofing for new home builds. We partner with builders and homeowners.', href: '/services/new-construction-roofing', image: '/images/new-roof-installation-blue-house-florida.webp', alt: 'New Construction Roofing in Jacksonville FL', imgTitle: 'New Construction Roofing in Jacksonville FL' },
+  { title: 'Commercial Roofing', description: 'Professional commercial roofing services for businesses in Jacksonville.', href: '/services/commercial-roofing', image: '/images/commercial-roofing-services.webp', alt: 'Commercial Roofing in Jacksonville FL', imgTitle: 'Commercial Roofing in Jacksonville FL' }
 ]
 
 const sidingServices = [
-  { title: 'Siding Installation', description: 'Transform your home with professional siding installation. Vinyl, fiber cement & more.', href: '/services/siding-installation', image: '/images/home-page-siding-services.webp' },
-  { title: 'Siding Repair', description: 'Expert siding repairs to restore protection and curb appeal to your home.', href: '/services/siding-repair', image: '/images/siding-project-closeup.webp' }
+  { title: 'Siding Installation', description: 'Transform your home with professional siding installation. Vinyl, fiber cement & more.', href: '/services/siding-installation', image: '/images/home-page-siding-services.webp', alt: 'Siding Installation in Jacksonville FL', imgTitle: 'Siding Installation in Jacksonville FL' },
+  { title: 'Siding Repair', description: 'Expert siding repairs to restore protection and curb appeal to your home.', href: '/services/siding-repair', image: '/images/siding-project-closeup.webp', alt: 'Siding Repair in Jacksonville FL', imgTitle: 'Siding Repair in Jacksonville FL' }
 ]
 
 const serviceAreas = ['Jacksonville Beach', 'Ponte Vedra Beach', 'St. Augustine', 'Orange Park', 'Fernandina Beach', 'Nocatee', 'Riverside', 'San Marco', 'Mandarin', 'Southside Jax']
@@ -75,8 +92,8 @@ const businessSchema = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "name": "Gimo's Renovation & Roofing",
-  "image": "https://gimosroofing.com/gimos-roofing-logo.webp",
-  "url": "https://gimosroofing.com",
+  "image": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
+  "url": "https://www.gimosroofing.com",
   "telephone": "(904) 606-5313",
   "email": "management@gimosroofing.com",
   "address": { "@type": "PostalAddress", "streetAddress": "33 24th Street East", "addressLocality": "Jacksonville", "addressRegion": "FL", "postalCode": "32206", "addressCountry": "US" },
@@ -85,19 +102,19 @@ const businessSchema = {
   "areaServed": serviceAreasWithUrls.map(area => ({
     "@type": "City",
     "name": area.name + ", FL",
-    "url": "https://gimosroofing.com/" + area.slug,
+    "url": "https://www.gimosroofing.com/" + area.slug,
     "containedInPlace": { "@type": "AdministrativeArea", "name": area.county + " County, FL" }
   })),
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Roofing Services",
     "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement", "url": "https://gimosroofing.com/services/roof-replacement" }},
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Repair", "url": "https://gimosroofing.com/services/roof-repair" }},
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing", "url": "https://gimosroofing.com/services/commercial-roofing" }},
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "New Construction Roofing", "url": "https://gimosroofing.com/services/new-construction-roofing" }},
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siding Installation", "url": "https://gimosroofing.com/services/siding-installation" }},
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siding Repair", "url": "https://gimosroofing.com/services/siding-repair" }}
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement", "url": "https://www.gimosroofing.com/services/roof-replacement" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Repair", "url": "https://www.gimosroofing.com/services/roof-repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing", "url": "https://www.gimosroofing.com/services/commercial-roofing" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "New Construction Roofing", "url": "https://www.gimosroofing.com/services/new-construction-roofing" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siding Installation", "url": "https://www.gimosroofing.com/services/siding-installation" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siding Repair", "url": "https://www.gimosroofing.com/services/siding-repair" }}
     ]
   },
   "priceRange": "$$",
@@ -123,7 +140,7 @@ const videoSchema = {
         "name": "Gimo's Renovation & Roofing",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://gimosroofing.com/gimos-roofing-logo.webp"
+          "url": "https://www.gimosroofing.com/gimos-roofing-logo.webp"
         }
       }
     },
@@ -141,7 +158,7 @@ const videoSchema = {
         "name": "Gimo's Renovation & Roofing",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://gimosroofing.com/gimos-roofing-logo.webp"
+          "url": "https://www.gimosroofing.com/gimos-roofing-logo.webp"
         }
       }
     },
@@ -159,22 +176,9 @@ const videoSchema = {
         "name": "Gimo's Renovation & Roofing",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://gimosroofing.com/gimos-roofing-logo.webp"
+          "url": "https://www.gimosroofing.com/gimos-roofing-logo.webp"
         }
       }
-    }
-  ]
-}
-
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://gimosroofing.com"
     }
   ]
 }
@@ -185,12 +189,11 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Hero Section */}
       <section className="relative min-h-[85vh] flex items-center overflow-hidden pt-24 md:pt-0">
         <div className="absolute inset-0">
-          <Image src="/images/roofing-jacksonville-hero.webp" alt="Professional roofing services in Jacksonville FL" fill className="object-cover" priority />
+          <Image src="/images/roofing-jacksonville-hero.webp" alt="Professional roofing services in Jacksonville FL" title="Professional roofing services in Jacksonville FL" fill className="object-cover" priority />
         </div>
         <div className="absolute inset-0 bg-secondary/70"></div>
         <div className="relative max-w-7xl mx-auto px-4 py-16 w-full">
@@ -198,25 +201,25 @@ export default function Home() {
             <div className="text-white">
               <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 rounded-full px-3 py-1.5 mb-4">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
-                <span className="text-primary text-xs font-medium">Jacksonvilles Trusted Roofing Company</span>
+                <span className="text-primary text-xs font-medium">Best Roofing Company Jacksonville FL</span>
               </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4">#1 Rated <span className="text-primary">Roofing Company</span> in Jacksonville</h1>
-              <p className="text-base text-gray-300 mb-6 leading-relaxed max-w-lg">Professional roof replacement, repair, and installation services. Trusted by homeowners and businesses throughout Northeast Florida.</p>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4">#1 <span className="text-primary">Jacksonville Roofing Company</span> - Trusted Roofers in Jacksonville FL</h1>
+              <p className="text-base text-gray-300 mb-6 leading-relaxed max-w-lg">Looking for a reliable roofing contractor Jacksonville FL? Gimo&apos;s Roofing provides professional roof replacement, repair, and installation. Jacksonville roofing experts trusted by homeowners throughout Northeast Florida.</p>
 
               <div className="flex flex-wrap items-center gap-3 mb-6">
-                <a href="https://www.google.com/maps/place/Gimo's+Renovation+%26+Roofing" target="_blank" rel="noopener" className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-1.5 hover:bg-white/20 transition-colors">
+                <a href="https://www.google.com/maps/place/Gimo's+Renovation+%26+Roofing" target="_blank" rel="noopener" title="View Gimo's Roofing Google Reviews" className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-1.5 hover:bg-white/20 transition-colors">
                   <div className="flex text-primary">
                     <StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarIcon />
                   </div>
                   <span className="text-xs font-medium">Google</span>
                 </a>
-                <a href="https://www.yelp.com/biz/gimos-roofing-jacksonville" target="_blank" rel="noopener" className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-1.5 hover:bg-white/20 transition-colors">
+                <a href="https://www.yelp.com/biz/gimos-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews" className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-1.5 hover:bg-white/20 transition-colors">
                   <div className="flex text-primary">
                     <StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarIcon />
                   </div>
                   <span className="text-xs font-medium">Yelp</span>
                 </a>
-                <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-1.5 hover:bg-white/20 transition-colors">
+                <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews" className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-1.5 hover:bg-white/20 transition-colors">
                   <div className="flex text-primary">
                     <StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarIcon />
                   </div>
@@ -226,18 +229,18 @@ export default function Home() {
 
               <div className="flex flex-wrap items-center gap-2 mb-6">
                 <span className="bg-white/10 backdrop-blur-sm rounded-lg px-3 py-1.5 text-xs font-medium">Licensed & Insured</span>
-                <a href={financingUrl} target="_blank" rel="noopener" className="bg-white/10 backdrop-blur-sm rounded-lg px-3 py-1.5 text-xs font-medium hover:bg-white/20 transition-colors">Financing Available</a>
+                <a href={financingUrl} target="_blank" rel="noopener" title="Apply for Roofing Financing" className="bg-white/10 backdrop-blur-sm rounded-lg px-3 py-1.5 text-xs font-medium hover:bg-white/20 transition-colors">Financing Available</a>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <a href={estimateUrl} target="_blank" rel="noopener" className="btn btn-primary px-6 py-3 w-full sm:w-auto">Get Free Estimate</a>
-                <a href="tel:+19046065313" className="btn btn-secondary px-6 py-3 border-white text-white hover:bg-white hover:text-secondary w-full sm:w-auto">(904) 606-5313</a>
+                <a href={estimateUrl} target="_blank" rel="noopener" title="Get a Free Roofing Estimate Online" className="btn btn-primary px-6 py-3 w-full sm:w-auto">Get Free Estimate</a>
+                <a href="tel:+19046065313" title="Call Gimo's Roofing Jacksonville" className="btn btn-secondary px-6 py-3 border-white text-white hover:bg-white hover:text-secondary w-full sm:w-auto">(904) 606-5313</a>
               </div>
             </div>
 
             <div className="hidden lg:block">
               <div className="bg-white rounded-2xl shadow-2xl p-6">
-                <h2 className="text-xl font-bold text-secondary mb-2">Get Your Instant Estimate</h2>
+                <h2 className="text-xl font-bold text-secondary mb-2">Get an Instant Estimate from Jacksonville&apos;s Best Roofers</h2>
                 <p className="text-gray-600 text-sm mb-4">Use our free online estimator tool for an instant quote</p>
                 <div className="space-y-4">
                   <div className="bg-gray-50 rounded-xl p-4 text-center">
@@ -246,14 +249,14 @@ export default function Home() {
                     </div>
                     <h3 className="font-semibold text-secondary mb-1">Instant Online Estimator</h3>
                     <p className="text-gray-500 text-sm mb-4">Get a detailed estimate in minutes - no appointment needed</p>
-                    <a href={estimateUrl} target="_blank" rel="noopener" className="btn btn-primary w-full py-3">Start Free Estimate</a>
+                    <a href={estimateUrl} target="_blank" rel="noopener" title="Start Your Free Roofing Estimate" className="btn btn-primary w-full py-3">Start Free Estimate</a>
                   </div>
                   <div className="text-center">
                     <p className="text-gray-500 text-sm mb-2">Or call us directly</p>
-                    <a href="tel:+19046065313" className="text-xl font-bold text-secondary hover:text-primary transition-colors">(904) 606-5313</a>
+                    <a href="tel:+19046065313" title="Call Gimo's Roofing Jacksonville" className="text-xl font-bold text-secondary hover:text-primary transition-colors">(904) 606-5313</a>
                   </div>
                   <div className="border-t pt-4">
-                    <a href={financingUrl} target="_blank" rel="noopener" className="flex items-center justify-center gap-2 text-primary hover:text-primary-dark transition-colors text-sm font-medium">
+                    <a href={financingUrl} target="_blank" rel="noopener" title="Apply for Roofing Financing" className="flex items-center justify-center gap-2 text-primary hover:text-primary-dark transition-colors text-sm font-medium">
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                       Apply for Financing
                     </a>
@@ -283,9 +286,9 @@ export default function Home() {
       <section className="py-16 bg-gray-50" id="services">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Our Services</span>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Professional Roofing & Siding Services Near You</h2>
-            <p className="text-base text-gray-600 max-w-2xl mx-auto">From roof repairs to complete replacements, our expert team delivers quality craftsmanship for residential and commercial properties in Jacksonville, FL.</p>
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Roofing Jacksonville FL</span>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Professional Roofing & Siding Services in Northeast Florida</h2>
+            <p className="text-base text-gray-600 max-w-2xl mx-auto">As the best roofing company Jacksonville FL, our expert roofers deliver quality craftsmanship for residential and commercial properties. From roof repairs to complete replacements, trust Jacksonville&apos;s top roofing contractor.</p>
           </div>
 
           {/* Roofing Services */}
@@ -298,10 +301,10 @@ export default function Home() {
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {roofingServices.map((service) => (
-                <Link key={service.title} href={service.href} className="group">
+                <Link key={service.title} href={service.href} title={`${service.title} Services in Jacksonville FL`} className="group">
                   <div className="card h-full border border-gray-100 hover:border-primary/30 overflow-hidden">
                     <div className="aspect-[16/10] overflow-hidden relative">
-                      <Image src={service.image} alt={service.title + ' in Jacksonville FL'} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                      <Image src={service.image} alt={service.alt} title={service.imgTitle} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
                     </div>
                     <div className="p-5">
                       <h4 className="text-lg font-bold text-secondary mb-2 group-hover:text-primary transition-colors">{service.title}</h4>
@@ -324,10 +327,10 @@ export default function Home() {
             </div>
             <div className="grid md:grid-cols-2 gap-6">
               {sidingServices.map((service) => (
-                <Link key={service.title} href={service.href} className="group">
+                <Link key={service.title} href={service.href} title={`${service.title} Services in Jacksonville FL`} className="group">
                   <div className="card h-full border border-gray-100 hover:border-primary/30 overflow-hidden">
                     <div className="aspect-[16/10] overflow-hidden relative">
-                      <Image src={service.image} alt={service.title + ' in Jacksonville FL'} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                      <Image src={service.image} alt={service.alt} title={service.imgTitle} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
                     </div>
                     <div className="p-5">
                       <h4 className="text-lg font-bold text-secondary mb-2 group-hover:text-primary transition-colors">{service.title}</h4>
@@ -348,8 +351,8 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Why Choose Us</span>
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Jacksonvilles Most Trusted Roofing Contractor</h2>
-              <p className="text-base text-gray-600 mb-6">When you need a reliable roofing company near you, Gimos Roofing delivers exceptional quality, transparent pricing, and outstanding customer service.</p>
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Why Homeowners Trust Our Jacksonville Roofing Company</h2>
+              <p className="text-base text-gray-600 mb-6">When you need roofers Jacksonville FL homeowners trust, Gimo&apos;s Roofing delivers. As Jacksonville&apos;s top-rated roofing contractor, we provide exceptional quality, transparent pricing, and outstanding customer service for every roofing Jacksonville project.</p>
               <div className="grid sm:grid-cols-2 gap-4">
                 {whyChooseUs.map((item) => (
                   <div key={item.title} className="flex gap-3">
@@ -366,7 +369,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl relative">
-                <Image src="/images/roofing-crew-installation-action.webp" alt="Gimo's Roofing crew installing roof in Jacksonville FL" fill className="object-cover" />
+                <Image src="/images/roofing-crew-installation-action.webp" alt="Gimo's Roofing crew installing roof in Jacksonville FL" title="Gimo's Roofing crew installing roof in Jacksonville FL" fill className="object-cover" />
               </div>
               <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg p-4">
                 <div className="flex items-center gap-3">
@@ -388,13 +391,13 @@ export default function Home() {
       <section className="py-16 bg-secondary text-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Service Areas</span>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Roofing Services Throughout <span className="text-primary">Northeast Florida</span></h2>
-            <p className="text-base text-gray-300 max-w-2xl mx-auto">Proudly serving Jacksonville and surrounding communities. Find a trusted roofing company near you.</p>
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Jacksonville Roofing Service Areas</span>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Local Roofing Contractor Serving These <span className="text-primary">Jacksonville Neighborhoods</span></h2>
+            <p className="text-base text-gray-300 max-w-2xl mx-auto">Proudly serving Jacksonville and surrounding communities. Find trusted roofers Jacksonville FL residents recommend.</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
             {serviceAreas.map((area) => (
-              <Link key={area} href={"/roofing-" + area.toLowerCase().replace(/ /g, '-') + "-fl"} className="group bg-white/5 hover:bg-primary rounded-xl p-4 text-center transition-all">
+              <Link key={area} href={"/roofing-" + area.toLowerCase().replace(/ /g, '-') + "-fl"} title={`Roofing Services in ${area}, FL`} className="group bg-white/5 hover:bg-primary rounded-xl p-4 text-center transition-all">
                 <svg className="w-6 h-6 mx-auto mb-2 text-primary group-hover:text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
@@ -416,7 +419,7 @@ export default function Home() {
           </div>
           <ProjectsMapCompact />
           <div className="text-center mt-6">
-            <Link href="/gallery" className="text-primary font-semibold hover:underline">View Full Gallery &rarr;</Link>
+            <Link href="/gallery" title="View Our Roofing Project Gallery" className="text-primary font-semibold hover:underline">View Full Gallery &rarr;</Link>
           </div>
         </div>
       </section>
@@ -485,11 +488,11 @@ export default function Home() {
       <section className="py-16 bg-gradient-to-br from-primary to-primary-dark">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Ready to Get Started?</h2>
-          <p className="text-base text-secondary/80 mb-6">Contact Jacksonvilles best roofing company today for a free estimate.</p>
+          <p className="text-base text-secondary/80 mb-6">Contact Jacksonville&apos;s best roofing company today. Get a free estimate from the roofing contractor Jacksonville FL trusts most.</p>
           <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4">
-            <a href={estimateUrl} target="_blank" rel="noopener" className="btn bg-secondary text-white hover:bg-secondary-light px-6 py-3 w-full sm:w-auto">Get Free Estimate</a>
-            <a href="tel:+19046065313" className="btn bg-white text-secondary hover:bg-gray-100 px-6 py-3 w-full sm:w-auto">Call (904) 606-5313</a>
-            <a href={financingUrl} target="_blank" rel="noopener" className="btn bg-transparent border-2 border-secondary text-secondary hover:bg-secondary hover:text-white px-6 py-3 w-full sm:w-auto">Apply for Financing</a>
+            <a href={estimateUrl} target="_blank" rel="noopener" title="Get a Free Roofing Estimate Online" className="btn bg-secondary text-white hover:bg-secondary-light px-6 py-3 w-full sm:w-auto">Get Free Estimate</a>
+            <a href="tel:+19046065313" title="Call Gimo's Roofing Jacksonville" className="btn bg-white text-secondary hover:bg-gray-100 px-6 py-3 w-full sm:w-auto">Call (904) 606-5313</a>
+            <a href={financingUrl} target="_blank" rel="noopener" title="Apply for Roofing Financing" className="btn bg-transparent border-2 border-secondary text-secondary hover:bg-secondary hover:text-white px-6 py-3 w-full sm:w-auto">Apply for Financing</a>
           </div>
         </div>
       </section>

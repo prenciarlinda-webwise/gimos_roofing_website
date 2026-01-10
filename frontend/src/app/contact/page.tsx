@@ -2,8 +2,9 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: "Contact Gimo's Roofing | Get a Free Estimate | Jacksonville FL",
-  description: "Contact Gimo's Roofing for a free roofing estimate in Jacksonville FL. Call (904) 606-5313 or use our online estimator. Mon-Sat 8AM-5:30PM.",
+  title: "Contact Gimo's Roofing - Free Estimate Jacksonville FL",
+  description: "Get a free roofing estimate in Jacksonville FL. Call (904) 606-5313 or visit us at 33 24th Street East. Mon-Sat 8AM-5:30PM.",
+  keywords: ["contact gimos roofing", "free roofing estimate", "roofing estimate jacksonville", "jacksonville roofing contact", "roofing quote jacksonville"],
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -32,8 +33,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://gimosroofing.com" },
-    { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://gimosroofing.com/contact" }
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
+    { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://www.gimosroofing.com/contact" }
   ]
 }
 

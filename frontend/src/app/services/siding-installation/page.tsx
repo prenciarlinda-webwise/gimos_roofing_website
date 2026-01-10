@@ -4,8 +4,9 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Siding Installation Jacksonville FL | Vinyl Siding Contractors | Hardie Board Installation | Gimo's Roofing",
-  description: "Professional siding installation in Jacksonville FL. Vinyl siding contractors, Hardie board installation, house siding replacement & exterior home remodeling. Free estimates & financing. Call (904) 606-5313.",
+  title: "Siding Installation Jacksonville FL - Vinyl & Hardie Board",
+  description: "Expert siding installation in Jacksonville FL. Vinyl, Hardie board & fiber cement options. Enhance curb appeal today. Free estimates: (904) 606-5313.",
+  keywords: ["siding installation jacksonville fl", "vinyl siding jacksonville", "hardie board siding installation", "siding contractors jacksonville fl", "fiber cement siding"],
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -39,7 +40,7 @@ const schemaData = {
   "@type": "Service",
   "name": "Siding Installation Jacksonville FL",
   "description": "Professional siding installation in Jacksonville, Florida. Vinyl, fiber cement, wood, and engineered wood siding.",
-  "url": "https://gimosroofing.com/services/siding-installation",
+  "url": "https://www.gimosroofing.com/services/siding-installation",
   "provider": { "@type": "HomeAndConstructionBusiness", "name": "Gimo's Roofing", "telephone": "+1-904-606-5313" },
   "areaServed": { "@type": "City", "name": "Jacksonville, FL" }
 }
@@ -68,7 +69,7 @@ export default function SidingInstallationPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Siding Installation</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Siding Installation in Jacksonville, FL</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Professional Siding Installation Jacksonville FL</h1>
               <p className="text-lg text-gray-200 mb-6">
                 Transform your home&apos;s exterior with professional siding installation. We offer vinyl, fiber cement, wood, and engineered wood siding options to fit your style and budget.
               </p>

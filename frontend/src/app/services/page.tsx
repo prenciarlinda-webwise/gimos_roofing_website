@@ -3,8 +3,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: "Roofing & Siding Services Jacksonville FL | Gimo's Roofing",
-  description: "Professional roofing and siding services in Jacksonville FL. Roof installation, replacement, repair, commercial roofing, and siding services. Free estimates available.",
+  title: "Roofing & Siding Services Jacksonville FL",
+  description: "Call (904) 606-5313 for professional roofing & siding services in Jacksonville FL. Roof repair, replacement, installation & siding. Free estimates.",
 }
 
 const roofingServices = [
@@ -76,8 +76,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://gimosroofing.com" },
-    { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://gimosroofing.com/services" }
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
+    { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.gimosroofing.com/services" }
   ]
 }
 

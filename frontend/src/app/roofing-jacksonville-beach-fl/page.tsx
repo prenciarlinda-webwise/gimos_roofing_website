@@ -3,8 +3,9 @@ import Link from 'next/link'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Company Jacksonville Beach FL | Beach Home Roof Repair & Replacement | Gimo's",
-  description: "Living at Jacksonville Beach means salt air and storms constantly testing your roof. We use coastal-grade materials that actually hold up to beach conditions. Free estimates: (904) 606-5313.",
+  title: "Roofing Company Jacksonville Beach FL - Coastal Roof Experts",
+  description: "Trusted roofers in Jacksonville Beach FL. Coastal-grade roofing for beach homes. Roof repair & replacement. Free estimates: (904) 606-5313.",
+  keywords: ["roofing company jacksonville beach fl", "roof repair jacksonville beach", "roofers jax beach fl", "beach home roofing", "coastal roof replacement"],
 }
 
 const location = "Jacksonville Beach"
@@ -31,7 +32,7 @@ const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "name": `Gimo's Roofing - ${location}`,
-  "url": "https://gimosroofing.com/roofing-jacksonville-beach-fl",
+  "url": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl",
   "telephone": phone,
   "address": { "@type": "PostalAddress", "addressLocality": "Jacksonville", "addressRegion": "FL", "postalCode": "32206" },
   "areaServed": { "@type": "City", "name": location },
@@ -54,7 +55,7 @@ export default function JacksonvilleBeachPage() {
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <p className="text-primary font-semibold mb-3">Serving {location} & The Beaches</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Company in {location}, FL</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">Jacksonville Beach FL Roofing Company - Coastal Experts</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
             Beach home roofing specialists. Salt-resistant materials, hurricane-rated installation, protecting Jax Beach properties.
           </p>

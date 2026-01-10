@@ -3,8 +3,9 @@ import Link from 'next/link'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Company Riverside Jacksonville FL | Historic Home Specialists | Gimo's Roofing",
-  description: "Historic home roofing specialists for Riverside and Avondale's architectural gems. Roof replacement, repair & restoration. Free estimates: (904) 606-5313.",
+  title: "Roofing Company Riverside Jacksonville FL - Historic Roofers",
+  description: "Expert roofers in Riverside & Avondale Jacksonville FL. Historic home specialists. Roof repair & replacement. Free estimates: (904) 606-5313.",
+  keywords: ["roofing company riverside jacksonville fl", "avondale roofing", "riverside roofers", "historic home roofing jacksonville", "roof repair riverside"],
 }
 
 const location = "Riverside"
@@ -30,7 +31,7 @@ const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "name": `Gimo's Roofing - ${location}`,
-  "url": "https://gimosroofing.com/roofing-riverside-fl",
+  "url": "https://www.gimosroofing.com/roofing-riverside-fl",
   "telephone": phone,
   "areaServed": { "@type": "City", "name": location },
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "48" }
@@ -52,7 +53,7 @@ export default function RiversidePage() {
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <p className="text-primary font-semibold mb-3">Serving {location} & Avondale</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Company in {location}, Jacksonville FL</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">Riverside Jacksonville FL Roofing Company - Historic Experts</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
             Historic home roofing specialists for {location} and Avondale&apos;s architectural gems. Preserving character with quality craftsmanship.
           </p>

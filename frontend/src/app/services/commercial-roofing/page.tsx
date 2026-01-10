@@ -4,8 +4,9 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Commercial Roofing Jacksonville FL | Business Roofing Services | Gimo's Roofing",
-  description: "Professional commercial roofing in Jacksonville FL. TPO, EPDM, metal & modified bitumen roofing for businesses. Free estimates. Call (904) 606-5313.",
+  title: "Commercial Roofing Jacksonville FL - Business Roof Experts",
+  description: "Professional commercial roofing in Jacksonville FL. Specializing in metal, TPO repairs & maintenance plans. Free business estimates: (904) 606-5313.",
+  keywords: ["commercial roofing jacksonville fl", "commercial metal roofing", "commercial roofing maintenance", "commercial roofers jacksonville fl", "local commercial roofing company"],
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -31,7 +32,7 @@ const schemaData = {
   "@type": "Service",
   "name": "Commercial Roofing Jacksonville FL",
   "description": "Professional commercial roofing services in Jacksonville, Florida. TPO, EPDM, metal roofing and more for businesses.",
-  "url": "https://gimosroofing.com/services/commercial-roofing",
+  "url": "https://www.gimosroofing.com/services/commercial-roofing",
   "provider": { "@type": "RoofingContractor", "name": "Gimo's Roofing", "telephone": "+1-904-606-5313" },
   "areaServed": { "@type": "City", "name": "Jacksonville, FL" }
 }
@@ -46,9 +47,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://gimosroofing.com" },
-    { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://gimosroofing.com/services" },
-    { "@type": "ListItem", "position": 3, "name": "Commercial Roofing", "item": "https://gimosroofing.com/services/commercial-roofing" }
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
+    { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.gimosroofing.com/services" },
+    { "@type": "ListItem", "position": 3, "name": "Commercial Roofing", "item": "https://www.gimosroofing.com/services/commercial-roofing" }
   ]
 }
 
@@ -71,7 +72,7 @@ export default function CommercialRoofingPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Commercial Roofing</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Commercial Roofing in Jacksonville, FL</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Jacksonville's Trusted Commercial Roofing Contractor</h1>
               <p className="text-lg text-gray-200 mb-6">
                 Professional roofing solutions for businesses throughout Jacksonville. From retail stores to industrial facilities, we deliver quality commercial roofing with minimal disruption.
               </p>

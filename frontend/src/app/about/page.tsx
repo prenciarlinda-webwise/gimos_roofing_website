@@ -2,8 +2,9 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: "About Gimo's Roofing | Jacksonville FL Roofing Contractor",
-  description: "Learn about Gimo's Roofing - Jacksonville's trusted roofing contractor. Discover our commitment to quality, customer service, and community.",
+  title: "About Gimo's Roofing - Jacksonville FL Roofing Contractor",
+  description: "Gimo's Roofing is Jacksonville's trusted roofing contractor. Quality craftsmanship, honest pricing & 5-star reviews. Call (904) 606-5313.",
+  keywords: ["about gimos roofing", "jacksonville roofing contractor", "local roofing company", "roofing company jacksonville fl", "trusted roofers"],
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -58,8 +59,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://gimosroofing.com" },
-    { "@type": "ListItem", "position": 2, "name": "About", "item": "https://gimosroofing.com/about" }
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
+    { "@type": "ListItem", "position": 2, "name": "About", "item": "https://www.gimosroofing.com/about" }
   ]
 }
 

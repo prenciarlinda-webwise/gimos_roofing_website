@@ -3,8 +3,9 @@ import Link from 'next/link'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Company Ponte Vedra Beach FL | Luxury Home Roof Services | Gimo's Roofing",
-  description: "Premium roofing services for Ponte Vedra Beach's luxury homes and golf communities. Expert roof replacement, repair & installation. Free estimates: (904) 606-5313.",
+  title: "Roofing Company Ponte Vedra Beach FL - Luxury Home Roofers",
+  description: "Premium roofing in Ponte Vedra Beach FL. Luxury home specialists for TPC, Marsh Landing & Sawgrass. Free estimates: (904) 606-5313.",
+  keywords: ["roofing company ponte vedra beach fl", "ponte vedra roofers", "luxury home roofing", "TPC roofing", "sawgrass roofing"],
 }
 
 const location = "Ponte Vedra Beach"
@@ -30,7 +31,7 @@ const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "name": `Gimo's Roofing - ${location}`,
-  "url": "https://gimosroofing.com/roofing-ponte-vedra-beach-fl",
+  "url": "https://www.gimosroofing.com/roofing-ponte-vedra-beach-fl",
   "telephone": phone,
   "areaServed": { "@type": "City", "name": location },
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "65" }
@@ -52,7 +53,7 @@ export default function PonteVedraBeachPage() {
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <p className="text-primary font-semibold mb-3">Serving {location} & {county}</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Company in {location}, FL</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">Ponte Vedra Beach FL Roofing Company - Luxury Home Experts</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
             Premium roofing services for Ponte Vedra&apos;s luxury homes and golf communities. Quality materials, expert craftsmanship.
           </p>

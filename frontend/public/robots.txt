@@ -1,0 +1,33 @@
+# Robots.txt for gimosroofing.com
+
+User-agent: *
+Allow: /
+
+# Explicitly allow AI search bots for Answer Engine Optimization (AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.gimosroofing.com/sitemap.xml
+
+# Disallow crawling of internal/admin paths
+Disallow: /_next/
+Disallow: /api/
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1

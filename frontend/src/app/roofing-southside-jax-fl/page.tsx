@@ -3,8 +3,9 @@ import Link from 'next/link'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Company Southside Jacksonville FL | Roof Repair & Replacement | Gimo's Roofing",
-  description: "Residential and commercial roofing for Southside Jacksonville's diverse properties. Roof replacement, repair & installation. Free estimates: (904) 606-5313.",
+  title: "Roofing Company Southside Jacksonville FL - Local Roofers",
+  description: "Residential & commercial roofers in Southside Jacksonville FL. Quality roof services from Town Center to Baymeadows. Free estimates: (904) 606-5313.",
+  keywords: ["roofing company southside jacksonville fl", "southside jax roofers", "commercial roofing southside", "roof repair southside jax", "baymeadows roofing"],
 }
 
 const location = "Southside Jacksonville"
@@ -30,7 +31,7 @@ const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "name": `Gimo's Roofing - ${location}`,
-  "url": "https://gimosroofing.com/roofing-southside-jax-fl",
+  "url": "https://www.gimosroofing.com/roofing-southside-jax-fl",
   "telephone": phone,
   "areaServed": { "@type": "City", "name": location },
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "62" }
@@ -52,7 +53,7 @@ export default function SouthsideJaxPage() {
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <p className="text-primary font-semibold mb-3">Serving Southside & {county}</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Company in {location}, FL</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">Southside Jacksonville FL Roofing Company - Local Experts</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
             Residential and commercial roofing for Southside&apos;s diverse properties. Quality service for homes and businesses.
           </p>

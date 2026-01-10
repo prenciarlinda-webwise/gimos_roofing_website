@@ -12,14 +12,14 @@ RUN npm ci
 # Copy source files
 COPY . .
 
-# Build the Astro site
+# Build the Next.js static site
 RUN npm run build
 
 # Production stage
 FROM nginx:alpine AS production
 
-# Copy built files to nginx
-COPY --from=build /app/dist /usr/share/nginx/html
+# Copy built files to nginx (Next.js static export outputs to 'out' directory)
+COPY --from=build /app/out /usr/share/nginx/html
 
 # Copy nginx config
 COPY nginx.conf /etc/nginx/conf.d/default.conf

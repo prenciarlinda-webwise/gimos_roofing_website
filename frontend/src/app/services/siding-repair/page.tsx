@@ -4,8 +4,9 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Siding Repair Jacksonville FL | Siding Repair Near Me | Vinyl Siding Repair | Gimo's Roofing",
-  description: "Expert siding repair near you in Jacksonville FL. Vinyl siding repair, storm damage repair, section replacement & exterior home repair. Free estimates. Call (904) 606-5313.",
+  title: "Siding Repair Jacksonville FL - Fast Vinyl Siding Repair",
+  description: "Reliable siding repair in Jacksonville FL. Vinyl siding repair, storm damage & section replacement services. Free estimates: (904) 606-5313.",
+  keywords: ["siding repair jacksonville fl", "vinyl siding repair", "siding replacement jacksonville", "storm damage siding repair", "siding contractors near me"],
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -42,7 +43,7 @@ const schemaData = {
   "@type": "Service",
   "name": "Siding Repair Jacksonville FL",
   "description": "Professional siding repair services in Jacksonville, Florida. Storm damage repair, section replacement, and more.",
-  "url": "https://gimosroofing.com/services/siding-repair",
+  "url": "https://www.gimosroofing.com/services/siding-repair",
   "provider": { "@type": "HomeAndConstructionBusiness", "name": "Gimo's Roofing", "telephone": "+1-904-606-5313" },
   "areaServed": { "@type": "City", "name": "Jacksonville, FL" }
 }
@@ -71,7 +72,7 @@ export default function SidingRepairPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Siding Repair</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Siding Repair in Jacksonville, FL</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Expert Siding Repair Services Jacksonville FL</h1>
               <p className="text-lg text-gray-200 mb-6">
                 Expert siding repairs to restore your home&apos;s protection and curb appeal. We fix damage from storms, age, and everyday wear with quality materials and craftsmanship.
               </p>

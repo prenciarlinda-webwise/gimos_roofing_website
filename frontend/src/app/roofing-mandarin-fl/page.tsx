@@ -3,8 +3,9 @@ import Link from 'next/link'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Company Mandarin Jacksonville FL | Roof Repair & Replacement | Gimo's Roofing",
-  description: "Quality roofing for Mandarin's large residential community along the St. Johns River. Roof replacement, repair & installation. Free estimates: (904) 606-5313.",
+  title: "Roofing Company Mandarin Jacksonville FL - Local Roofers",
+  description: "Trusted roofers in Mandarin Jacksonville FL. Quality roof repair & replacement along St. Johns River. Free estimates: (904) 606-5313.",
+  keywords: ["roofing company mandarin jacksonville fl", "mandarin roofers", "roof repair mandarin", "roof replacement mandarin fl", "duval county roofing"],
 }
 
 const location = "Mandarin"
@@ -30,7 +31,7 @@ const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "name": `Gimo's Roofing - ${location}`,
-  "url": "https://gimosroofing.com/roofing-mandarin-fl",
+  "url": "https://www.gimosroofing.com/roofing-mandarin-fl",
   "telephone": phone,
   "areaServed": { "@type": "City", "name": location },
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "58" }
@@ -52,7 +53,7 @@ export default function MandarinPage() {
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <p className="text-primary font-semibold mb-3">Serving {location} & {county}</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Company in {location}, Jacksonville FL</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">Mandarin Jacksonville FL Roofing Company - Local Experts</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
             Quality roofing for {location}&apos;s large residential community. Reliable roof replacement, repair, and installation services.
           </p>

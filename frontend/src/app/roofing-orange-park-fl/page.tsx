@@ -3,8 +3,9 @@ import Link from 'next/link'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Company Orange Park FL | Roof Repair & Replacement | Gimo's Roofing",
-  description: "Quality roofing for Orange Park families. Roof replacement, repair & installation services in Clay County. Free estimates: (904) 606-5313.",
+  title: "Roofing Company Orange Park FL - Clay County Roofers",
+  description: "Reliable roofing in Orange Park FL. Quality roof repair & replacement for Clay County. Free estimates: (904) 606-5313.",
+  keywords: ["roofing company orange park fl", "orange park roofers", "clay county roofing", "roof repair orange park", "roof replacement orange park"],
 }
 
 const location = "Orange Park"
@@ -30,7 +31,7 @@ const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "name": `Gimo's Roofing - ${location}`,
-  "url": "https://gimosroofing.com/roofing-orange-park-fl",
+  "url": "https://www.gimosroofing.com/roofing-orange-park-fl",
   "telephone": phone,
   "areaServed": { "@type": "City", "name": location },
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "45" }
@@ -52,7 +53,7 @@ export default function OrangeParkPage() {
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <p className="text-primary font-semibold mb-3">Serving {location} & {county}</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Company in {location}, FL</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">Orange Park FL Roofing Company - Clay County Experts</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
             Quality roofing for {location} families. Reliable roof replacement, repair, and installation services you can trust.
           </p>

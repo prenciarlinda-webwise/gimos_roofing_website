@@ -3,8 +3,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: "Service Areas | Roofing Company Jacksonville FL & Northeast Florida | Gimo's Roofing",
-  description: "Gimo's Roofing serves Jacksonville, Ponte Vedra, St. Augustine, Orange Park, Fernandina Beach & all of Northeast Florida. Find a trusted roofing contractor near you. Call (904) 606-5313.",
+  title: "Service Areas | Roofing Company Jacksonville & NE Florida",
+  description: "Call (904) 606-5313. Gimo&apos;s Roofing serves Jacksonville, Ponte Vedra, St. Augustine, Orange Park & all of Northeast Florida.",
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -34,7 +34,7 @@ const schemaData = {
   "@type": "RoofingContractor",
   "name": "Gimo's Roofing",
   "description": "Professional roofing services throughout Northeast Florida including Duval, St. Johns, Clay, and Nassau counties.",
-  "url": "https://gimosroofing.com/service-areas",
+  "url": "https://www.gimosroofing.com/service-areas",
   "telephone": "(904) 606-5313",
   "areaServed": serviceAreas.map(area => ({ "@type": "City", "name": area.name + ", FL" })),
   "priceRange": "$$"

@@ -3,8 +3,9 @@ import Link from 'next/link'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Company Fernandina Beach FL | Amelia Island Roof Services | Gimo's Roofing",
-  description: "Amelia Island's trusted roofer for coastal and historic Victorian homes. Roof replacement, repair & installation. Free estimates: (904) 606-5313.",
+  title: "Roofing Company Fernandina Beach FL - Amelia Island Roofers",
+  description: "Coastal roofers in Fernandina Beach & Amelia Island FL. Victorian home specialists. Roof repair & replacement. Free estimates: (904) 606-5313.",
+  keywords: ["roofing company fernandina beach fl", "amelia island roofers", "coastal roofing fernandina", "roof repair fernandina beach", "nassau county roofing"],
 }
 
 const location = "Fernandina Beach"
@@ -30,7 +31,7 @@ const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "name": `Gimo's Roofing - ${location}`,
-  "url": "https://gimosroofing.com/roofing-fernandina-beach-fl",
+  "url": "https://www.gimosroofing.com/roofing-fernandina-beach-fl",
   "telephone": phone,
   "areaServed": { "@type": "City", "name": location },
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "40" }
@@ -52,7 +53,7 @@ export default function FernandinaBeachPage() {
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <p className="text-primary font-semibold mb-3">Serving {location} & Amelia Island</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Company in {location}, FL</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">Fernandina Beach FL Roofing Company - Amelia Island Experts</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
             Amelia Island&apos;s trusted roofer for coastal homes and historic Victorian properties. Quality materials, expert craftsmanship.
           </p>

@@ -3,8 +3,9 @@ import Link from 'next/link'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Company Nocatee FL | HOA Compliant Roof Services | Gimo's Roofing",
-  description: "HOA-compliant roofing for Nocatee's master-planned communities. Roof replacement, repair & installation. Free estimates: (904) 606-5313.",
+  title: "Roofing Company Nocatee FL - HOA Approved Roofers",
+  description: "HOA-compliant roofing in Nocatee FL. Trusted by master-planned communities. Roof repair & replacement. Free estimates: (904) 606-5313.",
+  keywords: ["roofing company nocatee fl", "nocatee roofers", "HOA approved roofing", "roof repair nocatee", "st johns county roofing"],
 }
 
 const location = "Nocatee"
@@ -30,7 +31,7 @@ const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "name": `Gimo's Roofing - ${location}`,
-  "url": "https://gimosroofing.com/roofing-nocatee-fl",
+  "url": "https://www.gimosroofing.com/roofing-nocatee-fl",
   "telephone": phone,
   "areaServed": { "@type": "City", "name": location },
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "52" }
@@ -52,7 +53,7 @@ export default function NocateePage() {
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <p className="text-primary font-semibold mb-3">Serving {location} & {county}</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Company in {location}, FL</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">Nocatee FL Roofing Company - HOA Approved Experts</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
             HOA-compliant roofing for {location}&apos;s master-planned communities. Quality materials, expert installation, community standards met.
           </p>

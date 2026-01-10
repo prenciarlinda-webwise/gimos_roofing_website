@@ -4,8 +4,9 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "New Construction Roofing Jacksonville FL | New Home Roof Installation | Gimo's Roofing",
-  description: "New construction roofing services in Jacksonville FL. Expert roof installation for new home builds, working with builders & contractors. Asphalt, metal & tile roofing. Call (904) 606-5313.",
+  title: "New Roof Jacksonville FL - New Construction Roofing",
+  description: "Top-rated new construction roofing in Jacksonville FL. Working with builders & homeowners for high-quality roof installs. Call (904) 606-5313 today!",
+  keywords: ["new roof jacksonville fl", "new construction roof installation", "new construction roofing contractors", "residential new construction roofing", "new home roof installation jacksonville"],
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -35,7 +36,7 @@ const schemaData = {
   "@type": "Service",
   "name": "New Construction Roofing Jacksonville FL",
   "description": "Professional new construction roofing services in Jacksonville, Florida. Expert roofing installation for new home builds.",
-  "url": "https://gimosroofing.com/services/new-construction-roofing",
+  "url": "https://www.gimosroofing.com/services/new-construction-roofing",
   "provider": { "@type": "RoofingContractor", "name": "Gimo's Roofing", "telephone": "+1-904-606-5313" },
   "areaServed": { "@type": "City", "name": "Jacksonville, FL" }
 }
@@ -64,7 +65,7 @@ export default function NewConstructionRoofingPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">New Construction Roofing</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">New Construction Roofing in Jacksonville, FL</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">New Construction Roofing Specialists Jacksonville FL</h1>
               <p className="text-lg text-gray-200 mb-6">
                 Building a new home in Jacksonville? Partner with experienced roofers who understand new construction. We work with builders and homeowners to install quality roofing systems from the ground up.
               </p>

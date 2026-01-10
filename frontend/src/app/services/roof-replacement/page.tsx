@@ -4,8 +4,9 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roof Replacement Jacksonville FL | New Roof Installation | Reroofing Services | Gimo's Roofing",
-  description: "Need roof replacement in Jacksonville FL? Get accurate roofing estimates for new roof installation, asphalt shingle replacement & reroofing services. Jacksonville roof replacement cost starts at $7,900. Financing available. Call (904) 606-5313.",
+  title: "Roof Replacement Jacksonville FL - New Roof Installation",
+  description: "Need a roof replacement in Jacksonville FL? Get accurate estimates for tile, metal & shingle roofs. Financing available. Call (904) 606-5313 today!",
+  keywords: ["roof replacement jacksonville fl", "tile roof replacement", "metal roof replacement", "shingle roof replacement", "storm damage roof replacement", "asphalt roof replacement", "roof replacement estimate jacksonville", "roof replacement cost jacksonville fl", "roof replacement financing"],
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -29,6 +30,9 @@ const benefits = [
 
 const faqs = [
   { question: "How do I know if I need a roof replacement vs. repair?", answer: "Generally, if repairs exceed 30% of a new roof's cost, or if your roof is over 20 years old with multiple issues, replacement is more cost-effective. We provide honest assessments during our free inspections." },
+  { question: "What is the most expensive part of replacing a roof?", answer: "While shingles are the most visible cost, labor and structural decking repair are often the most expensive components. In Jacksonville, replacing rotted plywood (sheathing) damaged by humidity can significantly increase the total investment." },
+  { question: "What is the cheapest way to replace a roof in Florida?", answer: "Opting for 3-tab asphalt shingles is the most budget-friendly option. However, for Florida weather, architectural shingles offer better wind resistance and long-term value for a slightly higher upfront cost." },
+  { question: "How long does a typical roof replacement take?", answer: "Most residential roof replacements in Jacksonville take 1 to 3 days, depending on the roof's size and complexity. Weather delays (common in North Florida) can extend this timeframe." },
   { question: "Can you replace my roof while I'm living in the house?", answer: "Absolutely! Most homeowners stay in their homes during roof replacement. We work efficiently to minimize disruption and clean up thoroughly each day." },
   { question: "What happens to my old roofing materials?", answer: "We handle complete tear-off and disposal of your old roof. All debris is removed and we leave your property clean when the job is done." },
   { question: "Will my homeowner's insurance cover roof replacement?", answer: "If your roof was damaged by a covered event like a storm, insurance may cover replacement. We can help document damage and work with your insurance company." }
@@ -39,7 +43,7 @@ const schemaData = {
   "@type": "Service",
   "name": "Roof Replacement Jacksonville FL",
   "description": "Complete roof replacement services in Jacksonville, Florida. Professional tear-off and installation of new roofing systems.",
-  "url": "https://gimosroofing.com/services/roof-replacement",
+  "url": "https://www.gimosroofing.com/services/roof-replacement",
   "provider": {
     "@type": "RoofingContractor",
     "name": "Gimo's Roofing",
@@ -58,9 +62,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://gimosroofing.com" },
-    { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://gimosroofing.com/services" },
-    { "@type": "ListItem", "position": 3, "name": "Roof Replacement", "item": "https://gimosroofing.com/services/roof-replacement" }
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
+    { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.gimosroofing.com/services" },
+    { "@type": "ListItem", "position": 3, "name": "Roof Replacement", "item": "https://www.gimosroofing.com/services/roof-replacement" }
   ]
 }
 
@@ -83,7 +87,7 @@ export default function RoofReplacementPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Roof Replacement</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Roof Replacement in Jacksonville, FL</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">#1 Roof Replacement & Installation in Jacksonville FL</h1>
               <p className="text-lg text-gray-200 mb-6">
                 When repairs aren&apos;t enough, trust Jacksonville&apos;s roofing experts for complete roof replacement. We remove your old roof and install a brand new, durable roofing system.
               </p>

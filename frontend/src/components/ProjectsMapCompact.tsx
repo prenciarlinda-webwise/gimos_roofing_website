@@ -42,13 +42,20 @@ export default function ProjectsMapCompact() {
   const mapInstanceRef = useRef<L.Map | null>(null)
 
   useEffect(() => {
-    if (typeof window === 'undefined' || !mapRef.current || mapInstanceRef.current) return
+    if (typeof window === 'undefined' || !mapRef.current) return
+
+    // Prevent re-initialization (handles React Strict Mode double-mount)
+    const container = mapRef.current
+    if ((container as any)._leaflet_id) return
+
+    let map: L.Map | null = null
 
     // Dynamically import Leaflet
     import('leaflet').then((L) => {
-      if (!mapRef.current) return
+      // Double-check container still exists and isn't initialized
+      if (!container || (container as any)._leaflet_id) return
 
-      const map = L.map(mapRef.current).setView([mapCenter.lat, mapCenter.lng], defaultZoom)
+      map = L.map(container).setView([mapCenter.lat, mapCenter.lng], defaultZoom)
       mapInstanceRef.current = map
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -69,11 +76,15 @@ export default function ProjectsMapCompact() {
           <div class="address">${p.address}</div>
           <img src="${p.images[0]}" alt="${p.title}" />
         </div>`
-        L.marker([p.lat, p.lng], { icon }).addTo(map).bindPopup(popup, { maxWidth: 250 })
+        L.marker([p.lat, p.lng], { icon }).addTo(map!).bindPopup(popup, { maxWidth: 250 })
       })
     })
 
     return () => {
+      if (map) {
+        map.remove()
+        map = null
+      }
       if (mapInstanceRef.current) {
         mapInstanceRef.current.remove()
         mapInstanceRef.current = null

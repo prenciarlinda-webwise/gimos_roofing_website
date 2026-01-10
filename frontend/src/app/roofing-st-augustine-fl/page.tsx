@@ -3,8 +3,9 @@ import Link from 'next/link'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Company St. Augustine FL | Historic Home Roof Experts | Gimo's Roofing",
-  description: "Historic home roofing experts serving St. Augustine FL. Specialized in preserving America's oldest city's architectural heritage. Free estimates: (904) 606-5313.",
+  title: "Roofing Company St. Augustine FL - Historic Home Specialists",
+  description: "Expert roofers in St. Augustine FL. Historic home roofing specialists. Roof repair & replacement. Free estimates: (904) 606-5313.",
+  keywords: ["roofing company st augustine fl", "st augustine roofers", "historic home roofing", "roof repair st augustine", "st johns county roofing"],
 }
 
 const location = "St. Augustine"
@@ -30,7 +31,7 @@ const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "name": `Gimo's Roofing - ${location}`,
-  "url": "https://gimosroofing.com/roofing-st-augustine-fl",
+  "url": "https://www.gimosroofing.com/roofing-st-augustine-fl",
   "telephone": phone,
   "areaServed": { "@type": "City", "name": location },
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "55" }
@@ -52,7 +53,7 @@ export default function StAugustinePage() {
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <p className="text-primary font-semibold mb-3">Serving {location} & {county}</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Company in {location}, FL</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">St. Augustine FL Roofing Company - Historic Home Experts</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
             Historic home roofing experts serving America&apos;s oldest city. Preserving architectural heritage with quality craftsmanship.
           </p>

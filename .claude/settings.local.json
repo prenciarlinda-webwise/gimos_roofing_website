@@ -3,7 +3,11 @@
     "allow": [
       "Bash(node scripts/optimize-images.js:*)",
       "Bash(npm run build:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(npx sharp-cli:*)",
+      "Bash(taskkill:*)",
+      "Bash(powershell -Command:*)",
+      "WebFetch(domain:www.illyrianplumber.com)"
     ]
   }
 }

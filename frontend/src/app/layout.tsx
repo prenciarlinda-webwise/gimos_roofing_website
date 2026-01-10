@@ -6,8 +6,8 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import WhatsAppWidget from '@/components/WhatsAppWidget'
 
-const GA_MEASUREMENT_ID = 'G-62SV964X91'
-const GOOGLE_ADS_ID = 'AW-17806667394'
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA4_ID || ''
+const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || ''
 
 const inter = Inter({
   subsets: ['latin'],
@@ -24,11 +24,11 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    default: "Gimo's Roofing | Jacksonville's Trusted Roofing Contractor",
-    template: "%s | Gimo's Roofing"
+    default: "Gimo's Roofing - Jacksonville's Trusted Roofing Contractor",
+    template: "%s - Gimo's Roofing"
   },
   description: "Jacksonville's trusted roofing contractor. Professional roof installation, replacement & repair services. Free estimates. Financing available. Call (904) 606-5313",
-  metadataBase: new URL('https://gimosroofing.com'),
+  metadataBase: new URL('https://www.gimosroofing.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -50,17 +50,17 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
-  "@id": "https://gimosroofing.com/#organization",
+  "@id": "https://www.gimosroofing.com/#organization",
   "name": "Gimo's Renovation & Roofing",
   "alternateName": "Gimo's Roofing",
-  "image": "https://gimosroofing.com/gimos-roofing-logo.webp",
+  "image": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://gimosroofing.com/gimos-roofing-logo.webp",
+    "url": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
     "width": 400,
     "height": 100
   },
-  "url": "https://gimosroofing.com",
+  "url": "https://www.gimosroofing.com",
   "telephone": "(904) 606-5313",
   "email": "management@gimosroofing.com",
   "address": {
@@ -116,44 +116,63 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
       <head>
+        {/* Preconnect to external resources for faster loading */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://tile.openstreetmap.org" />
+
+        {/* Preload hero image for faster LCP */}
+        <link
+          rel="preload"
+          href="/images/roofing-jacksonville-hero.webp"
+          as="image"
+          type="image/webp"
+        />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
       <body className="bg-white text-gray-800 antialiased">
-        {/* Google Analytics & Google Ads */}
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_MEASUREMENT_ID}');
-            gtag('config', '${GOOGLE_ADS_ID}');
-          `}
-        </Script>
-        {/* Phone Call Conversion Tracking */}
-        <Script id="phone-tracking" strategy="afterInteractive">
-          {`
-            document.addEventListener('click', function(e) {
-              var target = e.target.closest('a[href^="tel:"]');
-              if (target) {
-                if (typeof gtag === 'function') {
-                  gtag('event', 'conversion', {
-                    'send_to': '${GOOGLE_ADS_ID}/phone_call',
-                    'event_category': 'Lead',
-                    'event_label': 'Phone Call Click',
-                    'value': 1
-                  });
+        {/* Google Analytics & Google Ads - Only load if IDs are configured */}
+        {GA_MEASUREMENT_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}');
+                ${GOOGLE_ADS_ID ? `gtag('config', '${GOOGLE_ADS_ID}');` : ''}
+              `}
+            </Script>
+          </>
+        )}
+        {/* Phone Call Conversion Tracking - Only if Google Ads is configured */}
+        {GOOGLE_ADS_ID && (
+          <Script id="phone-tracking" strategy="afterInteractive">
+            {`
+              document.addEventListener('click', function(e) {
+                var target = e.target.closest('a[href^="tel:"]');
+                if (target) {
+                  if (typeof gtag === 'function') {
+                    gtag('event', 'conversion', {
+                      'send_to': '${GOOGLE_ADS_ID}/phone_call',
+                      'event_category': 'Lead',
+                      'event_label': 'Phone Call Click',
+                      'value': 1
+                    });
+                  }
                 }
-              }
-            });
-          `}
-        </Script>
+              });
+            `}
+          </Script>
+        )}
         <Header />
         <main>
           {children}
