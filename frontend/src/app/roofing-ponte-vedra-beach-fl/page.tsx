@@ -27,14 +27,53 @@ const faqs = [
   { question: `Do you provide hurricane damage repair?`, answer: `Yes! We offer 24/7 emergency storm response. Call ${phone} for immediate assistance with tarping, damage assessment, and insurance claims.` }
 ]
 
+// Premium SAB (Service Area Business) Schema for Local SEO
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
-  "name": `Gimo's Roofing - ${location}`,
+  "@id": "https://www.gimosroofing.com/#localbusiness",
+  "name": "Gimo's Roofing",
   "url": "https://www.gimosroofing.com/roofing-ponte-vedra-beach-fl",
-  "telephone": phone,
-  "areaServed": { "@type": "City", "name": location },
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "65" }
+  "telephone": "+19046065313",
+  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
+  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "33 24th Street East",
+    "addressLocality": "Jacksonville",
+    "addressRegion": "FL",
+    "postalCode": "32206",
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Ponte Vedra Beach",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida"
+    ]
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Roofing Services in Ponte Vedra Beach, FL",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Roof Replacement in Ponte Vedra Beach FL",
+          "description": "Premium roof replacement for Ponte Vedra Beach luxury homes and golf communities."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Roof Repair in Ponte Vedra Beach FL",
+          "description": "Expert roof repair services for coastal and luxury homes in Ponte Vedra Beach."
+        }
+      }
+    ]
+  }
 }
 
 const faqSchema = {
@@ -43,11 +82,22 @@ const faqSchema = {
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
+    { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://www.gimosroofing.com/service-areas" },
+    { "@type": "ListItem", "position": 3, "name": "Ponte Vedra Beach", "item": "https://www.gimosroofing.com/roofing-ponte-vedra-beach-fl" }
+  ]
+}
+
 export default function PonteVedraBeachPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Hero */}
       <section className="bg-secondary py-16">

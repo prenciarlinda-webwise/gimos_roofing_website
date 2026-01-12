@@ -39,6 +39,16 @@ const schemaData = {
   "areaServed": { "@type": "City", "name": "Jacksonville, FL" }
 }
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
+    { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.gimosroofing.com/services" },
+    { "@type": "ListItem", "position": 3, "name": "Roof Repair", "item": "https://www.gimosroofing.com/services/roof-repair" }
+  ]
+}
+
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -50,6 +60,7 @@ export default function RoofRepairPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-secondary to-secondary/90 text-white py-16">

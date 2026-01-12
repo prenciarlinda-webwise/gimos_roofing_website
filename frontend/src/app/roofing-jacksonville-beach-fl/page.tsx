@@ -28,15 +28,53 @@ const faqs = [
   { question: `Do you provide hurricane damage repair?`, answer: `Yes! We offer 24/7 emergency storm response for ${location}. Call ${phone} for immediate tarping, damage assessment, and insurance claim assistance.` }
 ]
 
+// Premium SAB (Service Area Business) Schema for Local SEO
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
-  "name": `Gimo's Roofing - ${location}`,
+  "@id": "https://www.gimosroofing.com/#localbusiness",
+  "name": "Gimo's Roofing",
   "url": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl",
-  "telephone": phone,
-  "address": { "@type": "PostalAddress", "addressLocality": "Jacksonville", "addressRegion": "FL", "postalCode": "32206" },
-  "areaServed": { "@type": "City", "name": location },
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "78" }
+  "telephone": "+19046065313",
+  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
+  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "33 24th Street East",
+    "addressLocality": "Jacksonville",
+    "addressRegion": "FL",
+    "postalCode": "32206",
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Jacksonville Beach",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida"
+    ]
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Roofing Services in Jacksonville Beach, FL",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Coastal Roof Replacement in Jacksonville Beach FL",
+          "description": "Salt-resistant coastal roofing for Jacksonville Beach oceanfront and beach homes."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Hurricane Damage Repair in Jacksonville Beach FL",
+          "description": "24/7 emergency storm damage repair and insurance claim assistance for beach properties."
+        }
+      }
+    ]
+  }
 }
 
 const faqSchema = {
@@ -45,11 +83,22 @@ const faqSchema = {
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
+    { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://www.gimosroofing.com/service-areas" },
+    { "@type": "ListItem", "position": 3, "name": "Jacksonville Beach", "item": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl" }
+  ]
+}
+
 export default function JacksonvilleBeachPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Hero */}
       <section className="bg-secondary py-16">

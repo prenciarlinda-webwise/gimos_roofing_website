@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const keywords = post.keywords || [post.category.toLowerCase(), "roofing jacksonville", "gimos roofing"]
 
   return {
-    title: `${post.metaTitle} - Gimo's Roofing`,
+    title: post.metaTitle,
     description: post.excerpt,
     keywords: keywords,
     authors: [{ name: post.author }],
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       canonical: `https://www.gimosroofing.com/blog/${post.slug}`,
     },
     openGraph: {
-      title: `${post.metaTitle} - Gimo's Roofing`,
+      title: post.metaTitle,
       description: post.excerpt,
       url: `https://www.gimosroofing.com/blog/${post.slug}`,
       siteName: "Gimo's Roofing",
@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     },
     twitter: {
       card: "summary_large_image",
-      title: `${post.metaTitle} - Gimo's Roofing`,
+      title: post.metaTitle,
       description: post.excerpt,
       images: [`https://www.gimosroofing.com${post.image}`],
     },
@@ -75,9 +75,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   const relatedPosts = getRelatedPosts(slug, 3)
 
+  // Note: AggregateRating is defined in root layout.tsx RoofingContractor schema
+  // This schema provides article-specific organization context without duplicating ratings
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "RoofingContractor",
+    "@id": "https://www.gimosroofing.com/#organization",
     "name": "Gimo's Renovation & Roofing",
     "url": "https://www.gimosroofing.com",
     "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
@@ -89,13 +92,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       "addressRegion": "FL",
       "postalCode": "32206",
       "addressCountry": "US"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "50",
-      "bestRating": "5",
-      "worstRating": "1"
     }
   }
 

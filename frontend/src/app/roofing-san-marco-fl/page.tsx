@@ -27,14 +27,53 @@ const faqs = [
   { question: `Do you provide emergency roof repair?`, answer: `Yes! We offer 24/7 emergency storm response for ${location}. Call ${phone} for immediate assistance.` }
 ]
 
+// Premium SAB (Service Area Business) Schema for Local SEO
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
-  "name": `Gimo's Roofing - ${location}`,
+  "@id": "https://www.gimosroofing.com/#localbusiness",
+  "name": "Gimo's Roofing",
   "url": "https://www.gimosroofing.com/roofing-san-marco-fl",
-  "telephone": phone,
-  "areaServed": { "@type": "City", "name": location },
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "42" }
+  "telephone": "+19046065313",
+  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
+  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "33 24th Street East",
+    "addressLocality": "Jacksonville",
+    "addressRegion": "FL",
+    "postalCode": "32206",
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "Neighborhood",
+    "name": "San Marco",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/San_Marco_(Jacksonville)"
+    ]
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Roofing Services in San Marco, Jacksonville",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Tile Roof Replacement in San Marco FL",
+          "description": "Expert clay and concrete tile roof replacement for San Marco's Mediterranean-style homes."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Roof Repair in San Marco FL",
+          "description": "Specialized tile and shingle roof repair for San Marco's historic homes."
+        }
+      }
+    ]
+  }
 }
 
 const faqSchema = {
@@ -43,11 +82,22 @@ const faqSchema = {
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
+    { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://www.gimosroofing.com/service-areas" },
+    { "@type": "ListItem", "position": 3, "name": "San Marco", "item": "https://www.gimosroofing.com/roofing-san-marco-fl" }
+  ]
+}
+
 export default function SanMarcoPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Hero */}
       <section className="bg-secondary py-16">

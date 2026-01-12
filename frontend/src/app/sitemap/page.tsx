@@ -42,11 +42,20 @@ const blogPosts = [
   { title: "How to Check Florida Roofing License", href: "/blog/how-to-check-florida-roofing-license" },
   { title: "Roofing Financing Options Jacksonville", href: "/blog/roofing-financing-options-jacksonville" },
   { title: "Questions to Ask Roofing Contractor", href: "/blog/questions-to-ask-roofing-contractor" },
-  { title: "Flat Roof Repair Jacksonville", href: "/blog/flat-roof-repair-jacksonville" },
-  { title: "When Roof Needs Replacement", href: "/blog/when-roof-needs-replacement" },
   { title: "Benefits of Metal Roofing in Florida", href: "/blog/benefits-metal-roofing-florida" },
   { title: "Tile Roofing Contractor Jacksonville", href: "/blog/tile-roofing-contractor-jacksonville" },
   { title: "Storm Damage Roofing Insurance", href: "/blog/storm-damage-roofing-insurance" },
+  { title: "Roof Insulation & Energy Savings", href: "/blog/roof-insulation-jacksonville-energy-savings" },
+  { title: "Yellow Spots on Ceiling Causes", href: "/blog/yellow-spots-ceiling-causes" },
+  { title: "Sagging Roof Causes & Solutions", href: "/blog/sagging-roof-causes-solutions" },
+  { title: "Hurricane Straps for Roofs", href: "/blog/hurricane-straps-roof-jacksonville" },
+  { title: "What is Roof Sheathing?", href: "/blog/what-is-roof-sheathing" },
+  { title: "Skylight Installation Guide", href: "/blog/skylight-installation-guide-jacksonville" },
+  { title: "Jacksonville Roof Replacement Cost Guide 2026", href: "/blog/jacksonville-roof-replacement-cost-guide-2026" },
+  { title: "Roof Repair vs Replacement", href: "/blog/roof-repair-vs-replacement-jacksonville" },
+  { title: "Florida Roof Insurance & Old Roofs", href: "/blog/florida-roof-insurance-old-roof-dropped" },
+  { title: "Roofing Labor Cost Per Square", href: "/blog/roofing-labor-cost-per-square" },
+  { title: "Will Insurance Cover 20 Year Old Roof?", href: "/blog/will-insurance-cover-20-year-old-roof" },
 ]
 
 export default function SitemapPage() {
