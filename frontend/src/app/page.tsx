@@ -202,7 +202,7 @@ export default function Home() {
             <div className="text-white">
               <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 rounded-full px-3 py-1.5 mb-4">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
-                <span className="text-primary text-xs font-medium">Best Roofing Company Jacksonville FL</span>
+                <span className="text-primary text-xs font-medium">Gimo's Roofing</span>
               </div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4">#1 <span className="text-primary">Jacksonville Roofing Company</span> - Trusted Roofers in Jacksonville FL</h1>
               <p className="text-base text-gray-300 mb-6 leading-relaxed max-w-lg">Looking for a reliable roofing contractor Jacksonville FL? Gimo&apos;s Roofing provides professional roof replacement, repair, and installation. Jacksonville roofing experts trusted by homeowners throughout Northeast Florida.</p>
