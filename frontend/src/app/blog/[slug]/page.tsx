@@ -73,6 +73,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     notFound()
   }
 
+  // Check if post is scheduled for future publication
+  if (post.publishDate) {
+    const today = new Date().toISOString().split('T')[0]
+    if (post.publishDate > today) {
+      notFound()
+    }
+  }
+
   const relatedPosts = getRelatedPosts(slug, 3)
 
   // Note: AggregateRating is defined in root layout.tsx RoofingContractor schema

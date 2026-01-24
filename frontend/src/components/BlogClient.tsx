@@ -11,8 +11,10 @@ const categories = ["All", "Roofing Guide", "Homeowner Tips", "Storm & Insurance
 export default function BlogClient() {
   const [activeCategory, setActiveCategory] = useState("All")
 
-  // Sort by date (newest first) and then filter by category
-  const sortedPosts = [...blogPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  // Filter by publishDate (only show published posts), sort by date (newest first), then filter by category
+  const today = new Date().toISOString().split('T')[0]
+  const publishedPosts = blogPosts.filter(post => !post.publishDate || post.publishDate <= today)
+  const sortedPosts = [...publishedPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
   const filteredPosts = activeCategory === "All"
     ? sortedPosts

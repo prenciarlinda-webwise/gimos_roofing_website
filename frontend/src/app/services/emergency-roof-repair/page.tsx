@@ -112,7 +112,7 @@ export default function EmergencyRoofRepairPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/roof-repair-services.webp" alt="Emergency roof repair in Jacksonville FL" fill className="object-cover" />
+              <Image src="/images/roof-repair-in-progress-jacksonville.webp" alt="Emergency roof repair in Jacksonville FL" fill className="object-cover" />
             </div>
           </div>
         </div>
