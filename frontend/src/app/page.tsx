@@ -59,7 +59,7 @@ const whyChooseUs = [
 const faqs = [
   { question: 'How much does a new roof cost in Jacksonville, FL?', answer: 'The cost of a new roof in Jacksonville typically ranges from $7,900 to $25,000+ depending on the size of your home, materials chosen, and complexity. We offer free estimates and financing options.' },
   { question: 'How long does a roof replacement take?', answer: 'Most residential roof replacements are completed within 1-3 days, depending on size and complexity.' },
-  { question: 'Do you offer emergency roof repair services?', answer: 'Yes! We offer emergency roof repair services throughout Jacksonville. Call (904) 606-5313 for immediate assistance.' },
+  { question: 'Do you offer emergency roof repair services?', answer: 'Yes! We offer 24/7 emergency roof repair services throughout Jacksonville for storm damage and active leaks. Visit our emergency roof repair page or call (904) 606-5313 for immediate assistance.' },
   { question: 'What types of roofing materials do you install?', answer: 'We install asphalt shingles, metal roofing, tile roofing, and various commercial roofing systems.' },
   { question: 'Are you licensed and insured?', answer: 'Yes, Gimos Roofing is fully licensed and insured in Florida with comprehensive liability and workers comp coverage.' },
   { question: 'Do you provide warranties on your work?', answer: 'Yes! We provide manufacturer warranties on materials and our own workmanship warranty.' }
@@ -109,6 +109,7 @@ const businessSchema = {
     "@type": "OfferCatalog",
     "name": "Roofing Services",
     "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roof Repair", "url": "https://www.gimosroofing.com/services/emergency-roof-repair" }},
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement", "url": "https://www.gimosroofing.com/services/roof-replacement" }},
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Repair", "url": "https://www.gimosroofing.com/services/roof-repair" }},
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing", "url": "https://www.gimosroofing.com/services/commercial-roofing" }},
@@ -288,7 +289,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Roofing Jacksonville FL</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Professional Roofing & Siding Services in Northeast Florida</h2>
-            <p className="text-base text-gray-600 max-w-2xl mx-auto">As the best roofing company Jacksonville FL, our expert roofers deliver quality craftsmanship for residential and commercial properties. From roof repairs to complete replacements, trust Jacksonville&apos;s top roofing contractor.</p>
+            <p className="text-base text-gray-600 max-w-2xl mx-auto">As the best roofing company Jacksonville FL, our expert roofers deliver quality craftsmanship for residential and commercial properties. From roof repairs to complete replacements, trust Jacksonville&apos;s top roofing contractor. 24/7 <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link> available for storm damage and active leaks.</p>
           </div>
 
           {/* Roofing Services */}

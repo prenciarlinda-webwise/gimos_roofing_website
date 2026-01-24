@@ -790,7 +790,7 @@ export const blogPosts: BlogPost[] = [
 <p class="text-secondary font-bold mb-3">Storm Damage Roof Claim Checklist</p>
 <ol class="text-gray-700 space-y-2">
 <li><strong>1. Document immediately:</strong> Take photos of damage from ground level before any cleanup</li>
-<li><strong>2. Make temporary repairs:</strong> Tarp leaks to prevent further damage (keep receipts)</li>
+<li><strong>2. Make temporary repairs:</strong> Tarp leaks to prevent further damage (keep receipts). If you need immediate help, contact us for <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof repair in Jacksonville</a>.</li>
 <li><strong>3. File your claim:</strong> Call your insurance company within 24-48 hours</li>
 <li><strong>4. Get a contractor inspection:</strong> Have a licensed roofer assess damage before the adjuster visits</li>
 <li><strong>5. Be present for the adjuster:</strong> Meet them at your home and point out all damage</li>

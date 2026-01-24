@@ -3,9 +3,9 @@ import Link from 'next/link'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Company Jacksonville Beach FL - Coastal Roof Experts",
-  description: "Trusted roofers in Jacksonville Beach FL. Coastal-grade roofing for beach homes. Roof repair & replacement. Free estimates: (904) 606-5313.",
-  keywords: ["roofing company jacksonville beach fl", "roof repair jacksonville beach", "roofers jax beach fl", "beach home roofing", "coastal roof replacement"],
+  title: "Roofing Jacksonville Beach FL - Coastal Roof Repair & Replacement - Gimos Roofing",
+  description: "Roofing in Jacksonville Beach FL. Salt-air resistant roof repair and replacement for beach homes. Coastal roofing experts. Call (904) 606-5313 for free estimate.",
+  keywords: ["roofing jacksonville beach fl", "roofing company jacksonville beach fl", "roof repair jacksonville beach", "roofers jax beach fl", "beach home roofing", "coastal roof replacement"],
 }
 
 const location = "Jacksonville Beach"
@@ -104,7 +104,7 @@ export default function JacksonvilleBeachPage() {
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <p className="text-primary font-semibold mb-3">Serving {location} & The Beaches</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Jacksonville Beach FL Roofing Company - Coastal Experts</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Jacksonville Beach FL</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
             Beach home roofing specialists. Salt-resistant materials, hurricane-rated installation, protecting Jax Beach properties.
           </p>
@@ -139,7 +139,7 @@ export default function JacksonvilleBeachPage() {
             {location} is one of Northeast Florida&apos;s most vibrant beach communities, but living near the ocean means your roof faces relentless salt air, intense UV exposure, and hurricane threats. At Gimo&apos;s Roofing, we specialize in protecting Jax Beach homes with materials and techniques designed for coastal conditions.
           </p>
           <p className="text-gray-600">
-            From the bustling downtown area to quieter residential streets, we&apos;ve completed roofing projects throughout {location}. Our team understands what it takes to make a roof last in this challenging environment.
+            From the bustling downtown area to quieter residential streets, we&apos;ve completed roofing projects throughout {location}. Our team understands what it takes to make a roof last in this challenging environment. <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">Emergency roof repair services</Link> available throughout {location}.
           </p>
         </div>
       </section>

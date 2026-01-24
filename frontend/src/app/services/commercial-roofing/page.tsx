@@ -4,9 +4,9 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Commercial Roofing Jacksonville FL - Business Roof Experts",
-  description: "Professional commercial roofing in Jacksonville FL. Specializing in metal, TPO repairs & maintenance plans. Free business estimates: (904) 606-5313.",
-  keywords: ["commercial roofing jacksonville fl", "commercial metal roofing", "commercial roofing maintenance", "commercial roofers jacksonville fl", "local commercial roofing company"],
+  title: "Commercial Roofing Jacksonville FL - Flat Roof & TPO Experts - Gimos Roofing",
+  description: "Commercial roofing in Jacksonville FL for warehouses, retail, and offices. TPO, flat roof, and metal roofing installation, repair, and maintenance. Call (904) 606-5313.",
+  keywords: ["commercial roofing jacksonville fl", "commercial roofing jacksonville", "jacksonville commercial roofing", "commercial roofing contractors jacksonville fl", "commercial roofing companies jacksonville fl", "commercial metal roofing", "commercial roofing maintenance", "commercial roofers jacksonville fl", "local commercial roofing company"],
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'

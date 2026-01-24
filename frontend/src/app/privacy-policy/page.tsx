@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Gimo's Roofing",
+  title: "Privacy Policy - Gimos Roofing",
   description: "Privacy Policy for Gimo's Roofing. Learn how we collect, use, and protect your personal information.",
 }
 

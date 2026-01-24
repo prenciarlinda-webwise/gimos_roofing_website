@@ -4,9 +4,9 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roof Repair Jacksonville FL - Emergency Leaky Roof Repair",
+  title: "Roof Repair Jacksonville FL - Leak & Storm Damage Repairs - Gimos Roofing",
   description: "Expert roof repair in Jacksonville FL. We fix leaks, missing shingles & storm damage. Emergency services available. Free estimates: (904) 606-5313.",
-  keywords: ["roof repair jacksonville fl", "roof leak repair", "emergency roof repair jacksonville", "metal roof repair", "shingle roof repair", "leaky roof repair", "roof flashing repair", "tile roof repair"],
+  keywords: ["roof repair jacksonville fl", "roof leak repair jacksonville fl", "storm damage roof repair jacksonville", "emergency roof repair jacksonville", "metal roof repair jacksonville fl", "shingle roof repair", "tile roof repair jacksonville fl", "leaky roof repair", "roof flashing repair"],
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -98,7 +98,7 @@ export default function RoofRepairPage() {
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
               </svg>
-              <span className="font-bold">Emergency Roof Repair Available</span>
+              <span className="font-bold">For urgent situations, we offer <Link href="/services/emergency-roof-repair" className="underline hover:no-underline">emergency roof repair</Link> with same-day response.</span>
             </div>
             <span className="hidden md:block">|</span>
             <a href="tel:+19046065313" className="font-bold hover:underline">Call Now: (904) 606-5313</a>

@@ -5,9 +5,16 @@ import Image from 'next/image'
 export const metadata: Metadata = {
   title: "Roofing & Siding Services Jacksonville FL",
   description: "Call (904) 606-5313 for professional roofing & siding services in Jacksonville FL. Roof repair, replacement, installation & siding. Free estimates.",
+  keywords: ["roofing services jacksonville fl", "roof repair jacksonville", "roof replacement jacksonville", "siding services jacksonville", "commercial roofing jacksonville", "residential roofing jacksonville"],
 }
 
 const roofingServices = [
+  {
+    title: "Emergency Roof Repair",
+    slug: "emergency-roof-repair",
+    description: "24/7 emergency roof repair for active leaks, storm damage, and urgent roofing situations. Same-day response throughout Jacksonville.",
+    features: ["24/7 Response", "Storm Damage", "Active Leaks", "Insurance Help"],
+  },
   {
     title: "New Construction Roofing",
     slug: "new-construction-roofing",

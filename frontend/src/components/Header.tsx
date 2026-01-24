@@ -15,6 +15,7 @@ const navLinks = [
 ]
 
 const roofingLinks = [
+  { name: "24/7 Emergency Repair", href: "/services/emergency-roof-repair", title: "Emergency Roof Repair Jacksonville FL" },
   { name: "New Construction", href: "/services/new-construction-roofing", title: "New Construction Roofing Jacksonville" },
   { name: "Roof Replacement", href: "/services/roof-replacement", title: "Roof Replacement Jacksonville FL" },
   { name: "Roof Repair", href: "/services/roof-repair", title: "Roof Repair Jacksonville FL" },
