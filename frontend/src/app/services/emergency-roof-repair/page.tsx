@@ -4,7 +4,7 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Emergency Roof Repair Jacksonville FL - 24/7 Storm Damage Service - Gimos Roofing",
+  title: "Emergency Roof Repair Jacksonville FL - 24/7 Storm Damage Service",
   description: "Emergency roof repair in Jacksonville FL. Gimos Roofing responds fast to active leaks, storm damage, and urgent roofing issues. Same-day service. Call (904) 606-5313.",
   keywords: ["emergency roof repair jacksonville fl", "emergency roof repair jacksonville", "24 hour roof repair jacksonville", "storm damage roof repair jacksonville", "roof leak emergency jacksonville"],
 }

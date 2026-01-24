@@ -3,7 +3,7 @@ import Link from 'next/link'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Jacksonville Beach FL - Coastal Roof Repair & Replacement - Gimos Roofing",
+  title: "Roofing Jacksonville Beach FL - Coastal Roof Repair & Replacement",
   description: "Roofing in Jacksonville Beach FL. Salt-air resistant roof repair and replacement for beach homes. Coastal roofing experts. Call (904) 606-5313 for free estimate.",
   keywords: ["roofing jacksonville beach fl", "roofing company jacksonville beach fl", "roof repair jacksonville beach", "roofers jax beach fl", "beach home roofing", "coastal roof replacement"],
 }

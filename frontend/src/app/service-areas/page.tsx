@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: "Service Areas - Roofing Company Jacksonville & NE Florida - Gimos Roofing",
+  title: "Service Areas - Roofing Company Jacksonville & NE Florida",
   description: "Call (904) 606-5313. Gimo's Roofing serves Jacksonville, Ponte Vedra, St. Augustine, Orange Park & all of Northeast Florida.",
   keywords: ["roofing service areas jacksonville", "roofers northeast florida", "jacksonville roofing coverage", "orange park roofing", "st augustine roofing", "ponte vedra roofing", "fernandina beach roofing"],
 }

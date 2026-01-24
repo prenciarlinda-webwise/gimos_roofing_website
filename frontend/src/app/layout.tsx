@@ -93,13 +93,6 @@ const structuredData = {
   },
   "priceRange": "$$",
   "paymentAccepted": ["Cash", "Credit Card", "Financing Available"],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "50",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
   "sameAs": [
     "https://www.facebook.com/gimosrenovation/",
     "https://www.instagram.com/gimosroofing/",
