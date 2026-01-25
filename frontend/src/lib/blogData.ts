@@ -2293,7 +2293,7 @@ export const blogPosts: BlogPost[] = [
       { id: "replacement-signs", title: "When to Replace Your Roof" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: \`<p class="text-lg font-semibold text-secondary mb-6">Florida roofs typically last 15-50+ years depending on the material. Asphalt shingles last 15-20 years (shorter than northern states due to intense UV and hurricanes). Metal roofs last 40-60 years. Tile roofs can exceed 50 years with proper maintenance. Your roof's actual lifespan depends on material quality, installation, ventilation, and maintenance.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Florida roofs typically last 15-50+ years depending on the material. Asphalt shingles last 15-20 years (shorter than northern states due to intense UV and hurricanes). Metal roofs last 40-60 years. Tile roofs can exceed 50 years with proper maintenance. Your roof's actual lifespan depends on material quality, installation, ventilation, and maintenance.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Quick Answer</p>
@@ -2433,7 +2433,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<p class="text-gray-600 mb-6">Need to know how much life your Florida roof has left? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free inspection. We'll give you an honest assessment and help you plan for the future—whether that's maintenance, repairs, or eventual replacement.</p>\`,
+<p class="text-gray-600 mb-6">Need to know how much life your Florida roof has left? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free inspection. We'll give you an honest assessment and help you plan for the future—whether that's maintenance, repairs, or eventual replacement.</p>`,
     faqs: [
       { question: "How long does a roof last in Florida?", answer: "Asphalt shingle roofs last 15-20 years in Florida, metal roofs last 40-60 years, and tile roofs can exceed 50 years. Florida's intense UV radiation, humidity, and hurricane exposure shorten roof lifespans compared to northern states." },
       { question: "Why do roofs not last as long in Florida?", answer: "Florida's combination of intense UV radiation, high humidity, thermal cycling (daily temperature swings), salt air exposure in coastal areas, and hurricane stress causes roofing materials to degrade faster than in cooler, milder climates." },
@@ -2464,7 +2464,7 @@ export const blogPosts: BlogPost[] = [
       { id: "maximize-lifespan", title: "How to Maximize Shingle Lifespan" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: \`<p class="text-lg font-semibold text-secondary mb-6">Asphalt shingles last 15-20 years in Florida, compared to 25-30 years in northern states. Florida's intense UV radiation, high humidity, thermal cycling, and hurricane exposure accelerate shingle deterioration. The type of shingle matters: 3-tab shingles last 12-15 years, architectural shingles 15-20 years, and premium shingles 20-25 years in Florida's climate.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Asphalt shingles last 15-20 years in Florida, compared to 25-30 years in northern states. Florida's intense UV radiation, high humidity, thermal cycling, and hurricane exposure accelerate shingle deterioration. The type of shingle matters: 3-tab shingles last 12-15 years, architectural shingles 15-20 years, and premium shingles 20-25 years in Florida's climate.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Quick Answer: Florida Asphalt Shingle Lifespans</p>
@@ -2589,7 +2589,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<p class="text-gray-600 mb-6">Wondering how much life your shingle roof has left? Gimo's Roofing offers free inspections throughout Jacksonville. We'll assess your roof's condition honestly and help you plan—whether that's maintenance to extend its life or <a href="/services/roof-replacement" class="text-primary hover:underline">replacement</a> starting at $7,900. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> to schedule.</p>\`,
+<p class="text-gray-600 mb-6">Wondering how much life your shingle roof has left? Gimo's Roofing offers free inspections throughout Jacksonville. We'll assess your roof's condition honestly and help you plan—whether that's maintenance to extend its life or <a href="/services/roof-replacement" class="text-primary hover:underline">replacement</a> starting at $7,900. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> to schedule.</p>`,
     faqs: [
       { question: "How long do asphalt shingles last in Florida?", answer: "Asphalt shingles last 15-20 years in Florida for architectural shingles, 12-15 years for 3-tab shingles, and 20-25 years for premium shingles. This is 5-10 years shorter than in northern states due to Florida's intense UV, heat, and hurricane exposure." },
       { question: "Why do shingles wear out faster in Florida?", answer: "Florida's intense UV radiation breaks down asphalt compounds, daily temperature swings cause expansion/contraction stress, high humidity promotes algae growth that damages shingles, and hurricane winds stress seal strips even without visible damage." },
@@ -2620,7 +2620,7 @@ export const blogPosts: BlogPost[] = [
       { id: "comparison-table", title: "Side-by-Side Comparison" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: \`<p class="text-lg font-semibold text-secondary mb-6">The best roofing material for Florida depends on your budget, home style, and priorities. Metal roofing offers the best hurricane protection and longevity (40-60 years). Tile roofing provides unmatched durability (50+ years) for homes that can support the weight. Architectural asphalt shingles offer the best value (15-20 years) for most budgets. TPO is ideal for flat commercial roofs.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">The best roofing material for Florida depends on your budget, home style, and priorities. Metal roofing offers the best hurricane protection and longevity (40-60 years). Tile roofing provides unmatched durability (50+ years) for homes that can support the weight. Architectural asphalt shingles offer the best value (15-20 years) for most budgets. TPO is ideal for flat commercial roofs.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Quick Comparison: Florida Roofing Materials</p>
@@ -2799,7 +2799,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<p class="text-gray-600 mb-6">Not sure which roofing material is right for your Jacksonville home? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free consultation. We'll assess your home, discuss your priorities and budget, and recommend the best option for your specific situation. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>\`,
+<p class="text-gray-600 mb-6">Not sure which roofing material is right for your Jacksonville home? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free consultation. We'll assess your home, discuss your priorities and budget, and recommend the best option for your specific situation. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
     faqs: [
       { question: "What is the best roofing material for Florida?", answer: "Metal roofing (especially standing seam) is the best overall for Florida due to superior hurricane resistance and 40-60 year lifespan. However, architectural asphalt shingles offer the best value for most budgets, lasting 15-20 years at a fraction of the cost." },
       { question: "What roof lasts the longest in Florida?", answer: "Clay tile roofs last the longest in Florida, potentially 50-100+ years for the tiles themselves. Metal roofs are second at 40-60 years. Both significantly outlast asphalt shingles (15-20 years) in Florida's climate." },
@@ -2830,7 +2830,7 @@ export const blogPosts: BlogPost[] = [
       { id: "which-to-choose", title: "Which Should You Choose?" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: \`<p class="text-lg font-semibold text-secondary mb-6">Architectural shingles are better than 3-tab for Jacksonville homes. They cost 20-30% more but last 5-7 years longer (15-20 years vs 12-15 years), offer higher wind ratings (130 mph vs 60-70 mph), and provide better curb appeal. For Florida's harsh climate and hurricane exposure, architectural shingles offer significantly better value despite the higher upfront cost.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Architectural shingles are better than 3-tab for Jacksonville homes. They cost 20-30% more but last 5-7 years longer (15-20 years vs 12-15 years), offer higher wind ratings (130 mph vs 60-70 mph), and provide better curb appeal. For Florida's harsh climate and hurricane exposure, architectural shingles offer significantly better value despite the higher upfront cost.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Quick Answer: Architectural vs 3-Tab in Florida</p>
@@ -2966,13 +2966,1697 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<p class="text-gray-600 mb-6">Ready to compare options for your Jacksonville home? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free estimate. We'll show you samples, explain the differences, and provide honest pricing for both options. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>\`,
+<p class="text-gray-600 mb-6">Ready to compare options for your Jacksonville home? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free estimate. We'll show you samples, explain the differences, and provide honest pricing for both options. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
     faqs: [
       { question: "What is the difference between architectural and 3-tab shingles?", answer: "3-tab shingles are single-layer with a flat appearance, while architectural shingles have multiple laminated layers creating a dimensional look. Architectural shingles are thicker, heavier, more durable, and have higher wind ratings." },
       { question: "How much longer do architectural shingles last than 3-tab?", answer: "In Florida, architectural shingles last 15-20 years versus 12-15 years for 3-tab—about 5-7 years longer. The thicker construction better resists Florida's UV radiation and thermal cycling." },
       { question: "Are 3-tab shingles still available?", answer: "Yes, 3-tab shingles are still manufactured and available, though many contractors recommend against them for Florida homes. Some manufacturers have reduced 3-tab offerings as architectural shingles have become the industry standard." },
       { question: "Do architectural shingles cost more than 3-tab?", answer: "Yes, architectural shingles cost about 20-30% more than 3-tab upfront. However, when you calculate cost per year of useful life, architectural shingles often cost less because they last significantly longer." },
       { question: "Can I get insurance with 3-tab shingles in Florida?", answer: "It depends on your insurer. Some Florida insurance companies require architectural shingles or charge higher premiums for 3-tab. Check with your insurance company before choosing 3-tab to avoid coverage issues." }
+    ]
+  },
+  {
+    slug: "metal-roof-vs-shingles-florida",
+    title: "Metal Roof vs Shingles in Florida - Complete Cost & Durability Comparison",
+    metaTitle: "Metal Roof vs Shingles in Florida: Which Is Better for Your Home?",
+    excerpt: "Metal roofs cost 2-3x more than shingles but last 3x longer and handle hurricanes better. Compare costs, lifespans, insurance savings, and which makes sense for your Jacksonville home.",
+    keywords: ["metal roof vs shingles florida", "metal roof vs asphalt shingles", "metal roofing jacksonville", "shingles vs metal roof cost", "best roof for florida hurricanes"],
+    category: "Roofing Guide",
+    date: "2026-02-05",
+    publishDate: "2026-02-05",
+    readTime: "10 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/standing-seam-metal-roof-jacksonville.webp",
+    imageAlt: "Metal roof installation compared to shingle roof in Jacksonville FL",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Comparison" },
+      { id: "cost-comparison", title: "Cost Comparison" },
+      { id: "lifespan", title: "Lifespan in Florida" },
+      { id: "hurricane-performance", title: "Hurricane Performance" },
+      { id: "energy-efficiency", title: "Energy Efficiency" },
+      { id: "insurance", title: "Insurance Considerations" },
+      { id: "which-to-choose", title: "Which Should You Choose?" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Metal roofs cost 2-3 times more than asphalt shingles upfront ($15,000-$35,000 vs $7,900-$15,000) but last 3 times longer (40-60 years vs 15-20 years) and offer superior hurricane protection (150 mph vs 130 mph wind ratings). For Jacksonville homeowners planning to stay long-term, metal roofing often provides better lifetime value despite the higher initial investment.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Quick Answer: Metal vs Shingles in Florida</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Upfront Cost:</strong></td><td>Metal $15,000-$35,000 | Shingles $7,900-$15,000</td></tr>
+<tr><td class="py-1"><strong>Lifespan:</strong></td><td>Metal 40-60 years | Shingles 15-20 years</td></tr>
+<tr><td class="py-1"><strong>Wind Rating:</strong></td><td>Metal 140-150+ mph | Shingles 110-130 mph</td></tr>
+<tr><td class="py-1"><strong>Insurance Discount:</strong></td><td>Metal often qualifies for larger discounts</td></tr>
+<tr><td class="py-1"><strong>Best For:</strong></td><td>Metal for long-term | Shingles for budget-focused</td></tr>
+</table>
+</div>
+
+<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-10 mb-4">Is a Metal Roof Worth It in Florida?</h2>
+
+<p class="text-gray-600 mb-4">A metal roof is worth it in Florida if you plan to stay in your home for 15+ years. The math works like this: metal costs 2-3x more upfront but lasts 3x longer, which means you pay for one metal roof instead of two or three shingle roofs over the same period.</p>
+
+<p class="text-gray-600 mb-6">Add in superior hurricane protection, potential insurance savings, and lower energy bills from reflective coatings, and metal roofing becomes even more attractive for Jacksonville homeowners who are in it for the long haul.</p>
+
+<h2 id="cost-comparison" class="text-2xl font-bold text-secondary mt-10 mb-4">How Much Does a Metal Roof Cost vs Shingles in Jacksonville?</h2>
+
+<p class="text-gray-600 mb-4">Here's what Jacksonville homeowners typically pay for each option on an average-sized home (approximately 2,000 sq ft):</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Asphalt Shingle Costs</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Basic 3-Tab Shingles:</strong> $7,000-$10,000 (rarely recommended for Florida)</li>
+<li><strong>Architectural Shingles:</strong> $7,900-$12,000 (most common choice)</li>
+<li><strong>Premium Architectural:</strong> $12,000-$15,000 (impact-resistant options)</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Metal Roof Costs</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Metal Shingles:</strong> $15,000-$22,000 (look like shingles, metal durability)</li>
+<li><strong>Standing Seam (Steel):</strong> $18,000-$28,000 (most popular for homes)</li>
+<li><strong>Standing Seam (Aluminum):</strong> $22,000-$35,000 (best for coastal/salt air)</li>
+<li><strong>Corrugated Metal:</strong> $12,000-$18,000 (industrial look, less common for homes)</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Cost Per Year Analysis</h3>
+
+<p class="text-gray-600 mb-4">The upfront price difference is significant, but consider cost per year of use:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Shingles:</strong> $10,000 ÷ 18 years = $556 per year</li>
+<li><strong>Metal:</strong> $25,000 ÷ 50 years = $500 per year</li>
+</ul>
+
+<p class="text-gray-600 mb-6">When viewed this way, metal roofing actually costs <strong>less per year</strong> than shingles, assuming you stay long enough to realize the value.</p>
+
+<h2 id="lifespan" class="text-2xl font-bold text-secondary mt-10 mb-4">How Long Does Each Roof Type Last in Florida?</h2>
+
+<p class="text-gray-600 mb-4">Florida's brutal combination of UV radiation, heat, humidity, and storms shortens all roof lifespans below manufacturer ratings. Here's what to realistically expect in Jacksonville:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Asphalt Shingle Lifespan in Florida</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>3-Tab Shingles:</strong> 12-15 years (vs. 20-25 year warranty)</li>
+<li><strong>Architectural Shingles:</strong> 15-20 years (vs. 30 year warranty)</li>
+<li><strong>Premium Architectural:</strong> 18-22 years (vs. 50 year warranty)</li>
+</ul>
+
+<p class="text-gray-600 mb-6">The Florida sun degrades asphalt shingles faster than in northern climates. You'll typically get 60-70% of the manufacturer's rated lifespan here in Jacksonville.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Metal Roof Lifespan in Florida</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Steel Standing Seam:</strong> 40-50 years with proper coating</li>
+<li><strong>Aluminum Standing Seam:</strong> 50-60+ years (no rust concerns)</li>
+<li><strong>Metal Shingles:</strong> 30-50 years depending on quality</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Metal roofs hold up better to Florida's climate because they don't degrade from UV the same way asphalt does. The main maintenance concern is ensuring the coating remains intact and addressing any fastener issues.</p>
+
+<h2 id="hurricane-performance" class="text-2xl font-bold text-secondary mt-10 mb-4">Which Roof Handles Hurricanes Better?</h2>
+
+<p class="text-gray-600 mb-4">This is where metal roofs clearly win for Florida homeowners:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Wind Ratings Comparison</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Architectural Shingles:</strong> 110-130 mph wind rating (Class H or better)</li>
+<li><strong>Standing Seam Metal:</strong> 140-150+ mph wind rating (many systems rated to 160 mph)</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">How They Fail Differently</h3>
+
+<p class="text-gray-600 mb-4"><strong>Shingles</strong> fail in hurricanes through:</p>
+<ul class="list-disc pl-6 mb-4 text-gray-600 space-y-2">
+<li>Individual shingles lifting and tearing away</li>
+<li>Shingle tabs creasing and breaking</li>
+<li>Exposed nail heads allowing water intrusion</li>
+<li>Granule loss exposing asphalt to UV damage</li>
+</ul>
+
+<p class="text-gray-600 mb-4"><strong>Standing seam metal</strong> resists these issues because:</p>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Continuous panels span from ridge to eave (no individual pieces to lift)</li>
+<li>Concealed fasteners can't back out or expose nail holes</li>
+<li>Interlocking seams create wind-tight connections</li>
+<li>No granules to lose, no asphalt to degrade</li>
+</ul>
+
+<div class="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
+<p class="text-blue-700 font-semibold mb-2">Florida Building Code Consideration</p>
+<p class="text-blue-600">Jacksonville falls in the High-Velocity Hurricane Zone for building code purposes. Metal roofing often exceeds code requirements with room to spare, while shingle roofs must be carefully specified and installed to meet minimum requirements.</p>
+</div>
+
+<h2 id="energy-efficiency" class="text-2xl font-bold text-secondary mt-10 mb-4">Which Roof Is More Energy Efficient in Florida?</h2>
+
+<p class="text-gray-600 mb-4">Metal roofs with reflective coatings significantly outperform shingles for energy efficiency:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Heat Reflection</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Standard Shingles:</strong> Absorb up to 85-90% of solar heat</li>
+<li><strong>Cool Roof Shingles:</strong> Reflect about 25-30% of solar heat</li>
+<li><strong>Metal with Cool Coating:</strong> Reflect 70-80% of solar heat</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Energy Savings</h3>
+
+<p class="text-gray-600 mb-6">In Jacksonville's climate, a reflective metal roof can reduce cooling costs by 10-25% compared to traditional shingles. Over a 50-year roof life, this adds up to thousands of dollars in energy savings—further improving metal's value proposition.</p>
+
+<h2 id="insurance" class="text-2xl font-bold text-secondary mt-10 mb-4">How Do Insurance Companies View Metal vs Shingles?</h2>
+
+<p class="text-gray-600 mb-4">Florida insurance is complicated, but metal roofs generally help:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Insurance Advantages of Metal Roofs</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Wind Mitigation Credits:</strong> Metal roofs with proper installation often qualify for maximum wind mitigation discounts</li>
+<li><strong>Longer Coverage:</strong> Many insurers won't cover shingle roofs over 15-20 years old, while metal roofs remain insurable much longer</li>
+<li><strong>Lower Claims:</strong> Metal roofs result in fewer storm damage claims, which can help maintain lower rates</li>
+<li><strong>Fire Rating:</strong> Metal roofs are Class A fire-rated, which some insurers reward</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Shingle Roof Insurance Challenges</h3>
+
+<p class="text-gray-600 mb-6">As your shingle roof ages past 10-15 years, Florida insurers may require inspection, limit coverage, or drop your policy entirely. This is less common with metal roofs due to their longer lifespan and better track record in storms.</p>
+
+<h2 id="which-to-choose" class="text-2xl font-bold text-secondary mt-10 mb-4">Which Should You Choose: Metal or Shingles?</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Choose Metal Roofing If:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>You plan to stay in your home 15+ years</li>
+<li>Hurricane protection is a top priority</li>
+<li>You want to reduce long-term roofing costs</li>
+<li>Energy efficiency matters to you</li>
+<li>You want to avoid the hassle of replacing your roof again</li>
+<li>Your home is in a coastal area with salt air exposure (choose aluminum)</li>
+<li>You can afford the higher upfront investment</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Choose Asphalt Shingles If:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Budget is your primary constraint</li>
+<li>You may sell within 5-10 years (though metal can increase resale value)</li>
+<li>Your HOA restricts metal roofing (some do)</li>
+<li>You prefer the traditional aesthetic of shingles</li>
+<li>The home is a rental or investment property</li>
+</ul>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we install both metal and shingle roofs throughout Jacksonville. Our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> services start at $7,900 for shingles, with metal roof installations tailored to your home's specific requirements.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Metal Roof vs Shingles in Florida</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Metal costs 2-3x more upfront</strong> but lasts 3x longer (40-60 vs 15-20 years)</li>
+<li>• <strong>Cost per year is actually lower</strong> for metal when you stay long enough</li>
+<li>• <strong>Metal handles hurricanes better</strong>: 140-150+ mph vs 110-130 mph ratings</li>
+<li>• <strong>Energy savings of 10-25%</strong> on cooling with reflective metal</li>
+<li>• <strong>Insurance often favors metal</strong> with better discounts and longer coverage</li>
+<li>• <strong>Choose based on how long you'll stay</strong>—metal for 15+ years, shingles for shorter terms</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Ready to compare metal and shingle options for your Jacksonville home? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free consultation. We'll assess your home, discuss your priorities, and provide honest pricing for both options. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "Is a metal roof worth it in Florida?", answer: "Yes, if you plan to stay in your home 15+ years. Metal roofs cost 2-3x more upfront but last 3x longer, handle hurricanes better, reduce cooling costs 10-25%, and often qualify for insurance discounts. The cost per year of use is often lower than shingles." },
+      { question: "How much more does a metal roof cost than shingles?", answer: "In Jacksonville, metal roofs typically cost $15,000-$35,000 compared to $7,900-$15,000 for quality shingle roofs—roughly 2-3 times more. However, metal lasts 40-60 years versus 15-20 years for shingles, making the lifetime cost comparable or lower." },
+      { question: "Do metal roofs perform better in hurricanes than shingles?", answer: "Yes. Standing seam metal roofs are rated for 140-150+ mph winds, while architectural shingles are rated for 110-130 mph. Metal's continuous panels and concealed fasteners resist wind uplift better than individual shingles." },
+      { question: "Will a metal roof make my house hotter in Florida?", answer: "No—the opposite is true. Metal roofs with reflective coatings reflect 70-80% of solar heat compared to shingles that absorb 85-90%. This can reduce cooling costs by 10-25% in Florida's climate." },
+      { question: "Do insurance companies prefer metal roofs in Florida?", answer: "Generally yes. Metal roofs often qualify for maximum wind mitigation discounts, remain insurable longer than aging shingle roofs, and result in fewer storm damage claims. Check with your specific insurer for available discounts." }
+    ]
+  },
+  {
+    slug: "standing-seam-metal-roof-pros-cons",
+    title: "Standing Seam Metal Roof Pros and Cons for Florida Homes",
+    metaTitle: "Standing Seam Metal Roof Pros and Cons - Is It Right for Florida?",
+    excerpt: "Standing seam metal roofs cost $18,000-$35,000 but last 50+ years and handle 150 mph winds. Learn the honest pros and cons before investing in this premium roofing option.",
+    keywords: ["standing seam metal roof pros and cons", "standing seam roof florida", "metal roof jacksonville", "standing seam cost", "metal roofing pros cons"],
+    category: "Roofing Guide",
+    date: "2026-02-08",
+    publishDate: "2026-02-08",
+    readTime: "9 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/standing-seam-metal-roof-jacksonville.webp",
+    imageAlt: "Standing seam metal roof installation on Jacksonville home",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Summary" },
+      { id: "what-is", title: "What Is Standing Seam?" },
+      { id: "pros", title: "Pros (Advantages)" },
+      { id: "cons", title: "Cons (Disadvantages)" },
+      { id: "cost", title: "Cost Breakdown" },
+      { id: "best-for", title: "Who Should Choose It?" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Standing seam metal roofing is the premium metal roof option for Florida homes. It costs $18,000-$35,000 but delivers 50+ year lifespan, 150 mph wind ratings, superior energy efficiency, and virtually no maintenance. The main drawbacks are high upfront cost, limited color matching for repairs, and noise during heavy rain without proper insulation.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Standing Seam Metal Roof: Quick Facts</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Cost:</strong></td><td>$18,000-$35,000 (average Jacksonville home)</td></tr>
+<tr><td class="py-1"><strong>Lifespan:</strong></td><td>50-60+ years</td></tr>
+<tr><td class="py-1"><strong>Wind Rating:</strong></td><td>Up to 150+ mph</td></tr>
+<tr><td class="py-1"><strong>Maintenance:</strong></td><td>Minimal (annual inspection only)</td></tr>
+<tr><td class="py-1"><strong>Best For:</strong></td><td>Long-term homeowners, coastal properties, hurricane zones</td></tr>
+</table>
+</div>
+
+<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-10 mb-4">Is Standing Seam Metal Roofing Worth It?</h2>
+
+<p class="text-gray-600 mb-4">Standing seam metal roofing is worth it for Jacksonville homeowners who plan to stay in their home long-term and prioritize durability, hurricane protection, and low maintenance over upfront cost. It's the "buy it once" solution to roofing in Florida.</p>
+
+<p class="text-gray-600 mb-6">However, if budget is tight or you're selling soon, the high initial investment may not make sense. Let's break down the specific pros and cons.</p>
+
+<h2 id="what-is" class="text-2xl font-bold text-secondary mt-10 mb-4">What Is Standing Seam Metal Roofing?</h2>
+
+<p class="text-gray-600 mb-4">Standing seam refers to the raised interlocking seams that join metal panels together. Unlike exposed fastener metal roofs (screws through the face), standing seam uses concealed fasteners hidden beneath the seams.</p>
+
+<p class="text-gray-600 mb-4">Key characteristics:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Raised Seams:</strong> Seams stand 1-2 inches above the flat panel surface</li>
+<li><strong>Concealed Fasteners:</strong> No exposed screws or nails on the roof surface</li>
+<li><strong>Continuous Panels:</strong> Panels run from ridge to eave without horizontal seams</li>
+<li><strong>Interlocking Design:</strong> Panels mechanically lock together for wind resistance</li>
+<li><strong>Available in Steel or Aluminum:</strong> Aluminum is preferred for coastal Florida</li>
+</ul>
+
+<h2 id="pros" class="text-2xl font-bold text-secondary mt-10 mb-4">Standing Seam Metal Roof Pros (Advantages)</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">1. Exceptional Lifespan (50-60+ Years)</h3>
+
+<p class="text-gray-600 mb-4">Standing seam metal roofs routinely last 50+ years in Florida—potentially the only roof you'll ever need. Compared to shingles that last 15-20 years, you avoid multiple roof replacements over your homeownership.</p>
+
+<p class="text-gray-600 mb-6">Aluminum standing seam can last even longer because it doesn't rust, making it ideal for Jacksonville's humid, salt-air-exposed coastal areas.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">2. Superior Hurricane Protection</h3>
+
+<p class="text-gray-600 mb-4">Standing seam is the best residential roofing for Florida hurricanes:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Wind ratings of 140-160+ mph (many systems tested beyond rating)</li>
+<li>Interlocking seams resist wind uplift</li>
+<li>Continuous panels from ridge to eave eliminate weak points</li>
+<li>No exposed fasteners to fail or allow water intrusion</li>
+<li>Concealed clips allow panels to expand/contract without stress</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">3. Concealed Fasteners = No Leak Points</h3>
+
+<p class="text-gray-600 mb-6">Every exposed screw on a roof is a potential leak waiting to happen. Standing seam eliminates this risk—fasteners are hidden beneath the seam, protected from weather and UV degradation. This is why standing seam roofs rarely develop the leaks common with exposed-fastener metal panels.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">4. Minimal Maintenance</h3>
+
+<p class="text-gray-600 mb-4">Standing seam roofs require almost no maintenance:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>No shingles to replace or repair</li>
+<li>No granules to wash away</li>
+<li>No seams to re-caulk</li>
+<li>Just annual visual inspection and occasional cleaning</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">5. Energy Efficiency</h3>
+
+<p class="text-gray-600 mb-6">Standing seam with cool-roof coatings reflect 70-80% of solar radiation, potentially reducing cooling costs by 15-25% in Jacksonville's climate. The air gap created by the raised seams also provides additional insulation value.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">6. Insurance Benefits</h3>
+
+<p class="text-gray-600 mb-6">Florida insurers often reward standing seam installations with maximum wind mitigation credits, plus the roof remains insurable for decades while aging shingle roofs face coverage challenges.</p>
+
+<h2 id="cons" class="text-2xl font-bold text-secondary mt-10 mb-4">Standing Seam Metal Roof Cons (Disadvantages)</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">1. High Upfront Cost</h3>
+
+<p class="text-gray-600 mb-4">The biggest barrier is cost. Standing seam typically runs 2-3x more than quality shingles:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Steel Standing Seam:</strong> $18,000-$28,000 on average Jacksonville home</li>
+<li><strong>Aluminum Standing Seam:</strong> $22,000-$35,000 (recommended for coastal)</li>
+<li><strong>Compare to Shingles:</strong> $7,900-$15,000 for quality architectural shingles</li>
+</ul>
+
+<p class="text-gray-600 mb-6">While lifetime cost is often lower, not everyone can afford this upfront investment. <a href="/blog/roofing-financing-options-jacksonville" class="text-primary hover:underline">Financing options</a> can help spread the cost.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">2. Noise During Rain</h3>
+
+<p class="text-gray-600 mb-6">Metal roofs can be louder during heavy rain and hail than shingle roofs. However, with proper underlayment and attic insulation, noise is typically not a significant issue. We recommend additional insulation if noise sensitivity is a concern.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">3. Denting from Severe Hail</h3>
+
+<p class="text-gray-600 mb-6">While standing seam handles most weather excellently, severe hail can cause cosmetic dents. This doesn't typically affect performance, but large hail (golf ball or bigger) can leave visible marks. This is less common in Jacksonville than in some other regions.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">4. Color Matching Challenges</h3>
+
+<p class="text-gray-600 mb-6">If a panel needs replacement years later, matching the exact color can be difficult as coatings fade over time. This is rarely needed with standing seam but worth knowing.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">5. Limited DIY Repair</h3>
+
+<p class="text-gray-600 mb-6">Unlike shingles that a handy homeowner might patch, standing seam repairs require specialized knowledge and equipment. Always use a qualified metal roofing contractor—not a general roofer—for any work on standing seam.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">6. HOA Restrictions</h3>
+
+<p class="text-gray-600 mb-6">Some Jacksonville HOAs restrict metal roofing or require specific styles/colors. Check your covenants before investing in standing seam. Many HOAs have updated policies to allow metal given its proven performance.</p>
+
+<h2 id="cost" class="text-2xl font-bold text-secondary mt-10 mb-4">What Does Standing Seam Cost in Jacksonville?</h2>
+
+<p class="text-gray-600 mb-4">Here's a detailed breakdown of standing seam costs:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Material Options</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Galvalume Steel:</strong> Most affordable option, good durability, 40-50 year lifespan</li>
+<li><strong>Aluminum:</strong> More expensive but doesn't rust—essential for coastal Jacksonville</li>
+<li><strong>Copper/Zinc:</strong> Premium materials, $40,000+ for most homes</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Factors Affecting Cost</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Roof size and complexity (hips, valleys, penetrations)</li>
+<li>Roof pitch (steep = higher cost)</li>
+<li>Panel profile (snap-lock vs mechanical seam)</li>
+<li>Coating quality (Kynar/PVDF lasts longest)</li>
+<li>Removal of existing roof</li>
+<li>Decking repairs needed</li>
+</ul>
+
+<h2 id="best-for" class="text-2xl font-bold text-secondary mt-10 mb-4">Who Should Choose Standing Seam Metal Roofing?</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Standing Seam Is Ideal For:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Long-term homeowners</strong> (15+ years planned residence)</li>
+<li><strong>Coastal properties</strong> within salt-air exposure zones</li>
+<li><strong>Hurricane preparedness priorities</strong></li>
+<li><strong>Low-maintenance priorities</strong> (want to "set and forget")</li>
+<li><strong>Energy-conscious homeowners</strong></li>
+<li><strong>Modern or contemporary home styles</strong></li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Standing Seam May Not Be Right For:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Budget-constrained projects</strong> (shingles are 50-60% less upfront)</li>
+<li><strong>Selling within 5-10 years</strong> (may not recoup full investment)</li>
+<li><strong>HOA-restricted communities</strong> (check covenants first)</li>
+<li><strong>Rental properties</strong> (ROI may not justify premium)</li>
+</ul>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we install both standing seam metal and shingle roofs throughout Jacksonville. Our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> services include detailed consultations to help you choose the right option for your home and budget.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Standing Seam Metal Roof Pros and Cons</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Lifespan:</strong> 50-60+ years—potentially the last roof you'll need</li>
+<li>• <strong>Hurricane rating:</strong> Up to 150+ mph—best residential option for Florida</li>
+<li>• <strong>Maintenance:</strong> Minimal—no shingles to replace, no exposed fasteners to fail</li>
+<li>• <strong>Cost:</strong> $18,000-$35,000—2-3x more than shingles upfront</li>
+<li>• <strong>Noise:</strong> Can be louder in rain without proper insulation</li>
+<li>• <strong>Best for:</strong> Long-term homeowners, coastal properties, hurricane protection priority</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Considering standing seam for your Jacksonville home? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free consultation. We'll assess your home, explain the options, and provide honest pricing. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "What is the life expectancy of a standing seam metal roof?", answer: "Standing seam metal roofs last 50-60+ years in Florida. Aluminum standing seam can last even longer since it doesn't rust. This is 3-4 times longer than asphalt shingles (15-20 years in Florida)." },
+      { question: "What are the disadvantages of a standing seam metal roof?", answer: "The main disadvantages are high upfront cost (2-3x more than shingles), potential noise during heavy rain without proper insulation, color matching challenges for future repairs, and some HOA restrictions. Severe hail can also cause cosmetic denting." },
+      { question: "Is standing seam worth the extra money?", answer: "Yes, for long-term homeowners. While upfront cost is 2-3x higher than shingles, the 50+ year lifespan, superior hurricane protection, minimal maintenance, and energy savings make the lifetime cost comparable or lower—plus you avoid multiple roof replacements." },
+      { question: "What is the difference between metal roof and standing seam?", answer: "Standing seam is a type of metal roof with raised interlocking seams and concealed fasteners. Other metal roof types include exposed fastener panels and metal shingles. Standing seam is more expensive but offers superior weather protection because there are no exposed screws to fail or leak." },
+      { question: "Can you walk on a standing seam metal roof?", answer: "Yes, but with care. Walk on the flat pan areas between seams, not on the seams themselves. Professional roofers use soft-soled shoes and proper technique. For safety, homeowner access should be limited to inspections, not regular maintenance." }
+    ]
+  },
+  {
+    slug: "clay-tile-roof-lifespan-florida",
+    title: "How Long Do Clay Tile Roofs Last in Florida?",
+    metaTitle: "Clay Tile Roof Lifespan in Florida: 50-100+ Years Explained",
+    excerpt: "Clay tile roofs can last 50-100+ years in Florida, but the underlayment needs replacing every 20-25 years. Learn the real costs, maintenance needs, and whether tile is right for your Jacksonville home.",
+    keywords: ["clay tile roof lifespan", "how long do tile roofs last florida", "clay tile roof florida", "tile roof maintenance", "tile roof cost jacksonville"],
+    category: "Roofing Guide",
+    date: "2026-02-11",
+    publishDate: "2026-02-11",
+    readTime: "9 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/roof-replacement-jacksonville.webp",
+    imageAlt: "Clay tile roof on Florida home in Jacksonville",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Answer" },
+      { id: "tile-lifespan", title: "Tile vs Underlayment Lifespan" },
+      { id: "factors", title: "Factors Affecting Longevity" },
+      { id: "maintenance", title: "Maintenance Requirements" },
+      { id: "cost", title: "Cost Considerations" },
+      { id: "pros-cons", title: "Pros and Cons" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Clay tile roofs last 50-100+ years in Florida—the tiles themselves are extraordinarily durable. However, the underlayment beneath the tiles typically needs replacement every 20-25 years, which costs $8,000-$15,000 as the tiles must be removed and reinstalled. This makes the true long-term cost of tile roofing higher than the initial "lifetime" promise suggests.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Clay Tile Roof Lifespan: Quick Facts</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Tile Lifespan:</strong></td><td>50-100+ years</td></tr>
+<tr><td class="py-1"><strong>Underlayment Lifespan:</strong></td><td>20-25 years</td></tr>
+<tr><td class="py-1"><strong>Underlayment Replacement Cost:</strong></td><td>$8,000-$15,000</td></tr>
+<tr><td class="py-1"><strong>New Tile Roof Cost:</strong></td><td>$25,000-$50,000+</td></tr>
+<tr><td class="py-1"><strong>Maintenance:</strong></td><td>Annual inspection, replace broken tiles</td></tr>
+</table>
+</div>
+
+<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-10 mb-4">How Long Will My Clay Tile Roof Last in Jacksonville?</h2>
+
+<p class="text-gray-600 mb-4">The clay tiles on your roof can last a century or more—some tile roofs in Europe are 300+ years old. Florida's climate is actually favorable for clay tiles: they don't degrade from UV like asphalt, and they handle heat and humidity well.</p>
+
+<p class="text-gray-600 mb-6">However, the complete roofing system involves more than tiles. The underlayment, flashings, and other components wear out much faster and must be addressed to prevent leaks and damage.</p>
+
+<h2 id="tile-lifespan" class="text-2xl font-bold text-secondary mt-10 mb-4">Understanding Tile vs Underlayment Lifespan</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">The Tiles: 50-100+ Years</h3>
+
+<p class="text-gray-600 mb-4">Clay tiles are essentially baked earth—ceramic that doesn't rot, rust, or degrade from UV radiation. With proper installation:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Clay tiles maintain structural integrity for 75-100+ years</li>
+<li>Color is baked through the tile (won't fade like painted materials)</li>
+<li>Fire-resistant and pest-proof</li>
+<li>Only major concern is physical breakage from impact</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">The Underlayment: 20-25 Years</h3>
+
+<p class="text-gray-600 mb-4">Here's what most homeowners don't realize when buying a tile roof: the underlayment beneath the tiles is what actually waterproofs your home, and it has a much shorter lifespan.</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Traditional Felt Underlayment:</strong> 15-20 years in Florida</li>
+<li><strong>Synthetic Underlayment:</strong> 20-25 years in Florida</li>
+<li><strong>Self-Adhered/Peel-and-Stick:</strong> 25-30 years in Florida</li>
+</ul>
+
+<p class="text-gray-600 mb-6">When the underlayment fails, water enters despite the tiles being in perfect condition. This means a tile roof doesn't truly last 100 years without intervention—it needs underlayment replacement every 20-25 years.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">The Hidden Cost: Underlayment Replacement</h3>
+
+<p class="text-gray-600 mb-4">Replacing underlayment on a tile roof is labor-intensive because you must:</p>
+
+<ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
+<li>Carefully remove all tiles (labor-intensive)</li>
+<li>Store tiles to prevent breakage</li>
+<li>Remove old underlayment</li>
+<li>Install new underlayment</li>
+<li>Reinstall all tiles</li>
+<li>Replace any broken tiles</li>
+</ol>
+
+<p class="text-gray-600 mb-6">This process costs $8,000-$15,000 depending on roof size and complexity. Budget for this every 20-25 years if you have a tile roof.</p>
+
+<h2 id="factors" class="text-2xl font-bold text-secondary mt-10 mb-4">What Factors Affect Clay Tile Roof Longevity?</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Installation Quality</h3>
+
+<p class="text-gray-600 mb-6">The most critical factor is proper installation. Tiles must be secured correctly for your wind zone, flashings must be properly integrated, and underlayment must be applied without gaps. Poor installation can lead to premature failure even with quality materials.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Tile Quality</h3>
+
+<p class="text-gray-600 mb-4">Not all clay tiles are equal:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>High-fired tiles:</strong> More durable, better water resistance, longer lasting</li>
+<li><strong>Low-fired tiles:</strong> More porous, may absorb water and crack in freeze events</li>
+<li><strong>Glazed tiles:</strong> Additional protective layer but mainly cosmetic</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Maintenance</h3>
+
+<p class="text-gray-600 mb-6">Regular maintenance significantly extends tile roof life. Neglected roofs develop problems faster, especially if broken tiles aren't replaced promptly.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Walking on the Roof</h3>
+
+<p class="text-gray-600 mb-6">Clay tiles are strong but brittle—walking on them breaks tiles. Every person who walks on your tile roof (cable installers, roofers, HVAC technicians) potentially breaks tiles. This is why many tile roofs develop problems: accumulated breakage from foot traffic over decades.</p>
+
+<h2 id="maintenance" class="text-2xl font-bold text-secondary mt-10 mb-4">What Maintenance Does a Tile Roof Need?</h2>
+
+<p class="text-gray-600 mb-4">To maximize your tile roof's lifespan:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Annual Inspection</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Check for cracked, broken, or slipped tiles</li>
+<li>Inspect flashing at penetrations (vents, chimney)</li>
+<li>Look for debris accumulation in valleys</li>
+<li>Check for moss or algae growth (can trap moisture)</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">As-Needed Repairs</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Replace broken tiles immediately (exposed underlayment degrades fast)</li>
+<li>Re-secure loose or slipped tiles</li>
+<li>Seal any flashing issues</li>
+<li>Clean debris from valleys</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Every 20-25 Years</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Full underlayment replacement</li>
+<li>Inspection and replacement of worn flashings</li>
+<li>Replace any degraded battens (wood strips tiles attach to)</li>
+</ul>
+
+<div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
+<p class="text-yellow-700 font-semibold mb-2">Pro Tip: Keep Spare Tiles</p>
+<p class="text-yellow-600">When a tile roof is installed, save a box of matching tiles for future repairs. Finding exact matches years later can be difficult or impossible—manufacturers discontinue styles, and weathering changes tile appearance. Having original matching tiles avoids visible patchwork repairs.</p>
+</div>
+
+<h2 id="cost" class="text-2xl font-bold text-secondary mt-10 mb-4">How Much Does a Clay Tile Roof Cost in Jacksonville?</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">New Tile Roof Installation</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Standard Clay Tiles:</strong> $25,000-$40,000</li>
+<li><strong>Premium/Designer Tiles:</strong> $35,000-$50,000+</li>
+<li><strong>Concrete Tiles (alternative):</strong> $20,000-$35,000</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Structural Considerations</h3>
+
+<p class="text-gray-600 mb-6">Clay tiles are heavy—10-15 pounds per square foot installed. Many Florida homes aren't built to handle this weight. If your home needs structural reinforcement, add $5,000-$15,000 to the project. A structural engineer's assessment may be required.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Long-Term Cost Comparison</h3>
+
+<p class="text-gray-600 mb-4">Over 60 years, comparing tile to shingles:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Tile Roof:</strong> $35,000 initial + $12,000 underlayment replacement x2 = $59,000</li>
+<li><strong>Shingle Roofs:</strong> $10,000 x 4 replacements = $40,000</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Despite lasting longer, tile roofing often costs more over time than shingles. The value proposition is aesthetic appeal, potential resale value, and "buying once" rather than true cost savings.</p>
+
+<h2 id="pros-cons" class="text-2xl font-bold text-secondary mt-10 mb-4">Clay Tile Roof Pros and Cons for Florida</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Pros</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Exceptional Longevity:</strong> Tiles last 50-100+ years</li>
+<li><strong>Hurricane Resistant:</strong> Heavy tiles resist wind uplift (when properly installed)</li>
+<li><strong>Fire Resistant:</strong> Class A fire rating</li>
+<li><strong>Classic Aesthetic:</strong> Mediterranean/Spanish style suits many Florida homes</li>
+<li><strong>Color Durability:</strong> Won't fade like painted materials</li>
+<li><strong>Resale Value:</strong> Premium roofing can enhance home value</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Cons</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>High Initial Cost:</strong> Most expensive roofing option</li>
+<li><strong>Underlayment Replacement:</strong> Major expense every 20-25 years</li>
+<li><strong>Weight:</strong> May require structural reinforcement</li>
+<li><strong>Fragile:</strong> Breaks from foot traffic and impact</li>
+<li><strong>Repair Difficulty:</strong> Finding matching tiles can be challenging</li>
+<li><strong>Installation Expertise:</strong> Requires specialized tile roofing contractors</li>
+</ul>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we work with tile roofs throughout Jacksonville, including new installations and underlayment replacements. Our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> services include all roofing types.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Clay Tile Roof Lifespan in Florida</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Tiles last 50-100+ years</strong>—but the system needs underlayment replacement every 20-25 years</li>
+<li>• <strong>Budget $8,000-$15,000</strong> for underlayment replacement around year 20-25</li>
+<li>• <strong>Total cost is often higher</strong> than shingles over time despite longer tile life</li>
+<li>• <strong>Structural support required</strong>—not all homes can handle tile weight</li>
+<li>• <strong>Keep spare tiles</strong> for future repairs (matching is difficult later)</li>
+<li>• <strong>Minimize foot traffic</strong> to prevent tile breakage</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Considering a tile roof for your Jacksonville home? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free consultation. We'll assess your home's structural capacity, discuss your options, and provide honest pricing. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How long do clay tile roofs last in Florida?", answer: "Clay tiles themselves last 50-100+ years in Florida. However, the underlayment beneath the tiles typically needs replacement every 20-25 years, which is a significant expense ($8,000-$15,000) as tiles must be removed and reinstalled." },
+      { question: "How often does a tile roof need to be replaced?", answer: "The tiles rarely need full replacement if maintained properly—they can last a century. However, the underlayment requires replacement every 20-25 years, and individual broken tiles should be replaced as needed. Full tile replacement is only necessary if tiles become extensively damaged." },
+      { question: "Is a tile roof worth it in Florida?", answer: "Tile roofs offer exceptional longevity and hurricane resistance but cost more over time than shingles when you factor in underlayment replacements. They're worth it for homeowners who value the aesthetic, plan to stay long-term, and can afford the periodic maintenance costs." },
+      { question: "Can I walk on my tile roof?", answer: "You can, but shouldn't unless necessary. Clay tiles are brittle and break under foot traffic. Every time someone walks on your tile roof (cable installers, roofers, etc.), there's potential for breakage. Use a professional who knows how to distribute weight properly." },
+      { question: "How much does a tile roof cost in Jacksonville?", answer: "New clay tile roofs in Jacksonville typically cost $25,000-$50,000+ depending on tile quality and roof size. Concrete tiles are slightly less ($20,000-$35,000). Add potential structural reinforcement costs if your home wasn't built for tile weight." }
+    ]
+  },
+  {
+    slug: "concrete-tile-roof-pros-cons-florida",
+    title: "Concrete Tile Roofing in Florida - Complete Pros and Cons Guide",
+    metaTitle: "Concrete Tile Roof Pros and Cons for Florida Homes",
+    excerpt: "Concrete tile roofs cost 30-40% less than clay tiles but last 40-50 years in Florida. Learn the real pros and cons, maintenance needs, and whether concrete tile is right for your Jacksonville home.",
+    keywords: ["concrete tile roof pros and cons", "concrete roof tiles florida", "tile roof jacksonville", "concrete vs clay tile roof", "concrete tile roof lifespan"],
+    category: "Roofing Guide",
+    date: "2026-02-14",
+    publishDate: "2026-02-14",
+    readTime: "9 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/roof-replacement-jacksonville.webp",
+    imageAlt: "Concrete tile roof on Florida home",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Summary" },
+      { id: "what-is", title: "What Is Concrete Tile?" },
+      { id: "pros", title: "Pros (Advantages)" },
+      { id: "cons", title: "Cons (Disadvantages)" },
+      { id: "cost", title: "Cost in Jacksonville" },
+      { id: "vs-clay", title: "Concrete vs Clay Tile" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Concrete tile roofing offers the look of clay tile at 30-40% lower cost, with a 40-50 year lifespan in Florida. The main tradeoffs are heavier weight (requiring structural verification), color fading over time, and the same underlayment replacement needs as clay tile every 20-25 years. For Jacksonville homeowners wanting tile aesthetics on a more moderate budget, concrete tile is worth considering.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Concrete Tile Roof: Quick Facts</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Cost:</strong></td><td>$20,000-$35,000 (average Jacksonville home)</td></tr>
+<tr><td class="py-1"><strong>Lifespan:</strong></td><td>40-50 years (tiles) / 20-25 years (underlayment)</td></tr>
+<tr><td class="py-1"><strong>Wind Rating:</strong></td><td>Up to 150 mph when properly installed</td></tr>
+<tr><td class="py-1"><strong>Weight:</strong></td><td>9-12 lbs/sq ft (heavier than clay)</td></tr>
+<tr><td class="py-1"><strong>Best For:</strong></td><td>Tile aesthetics at moderate cost</td></tr>
+</table>
+</div>
+
+<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-10 mb-4">Is Concrete Tile Roofing Good for Florida?</h2>
+
+<p class="text-gray-600 mb-4">Concrete tile is a solid choice for Florida homes. It handles our climate well—heat, humidity, and hurricanes—while costing significantly less than clay tile. The main considerations are weight (your home must support it) and the fact that color is surface-applied rather than baked through like clay, so expect some fading over decades.</p>
+
+<p class="text-gray-600 mb-6">For Jacksonville homeowners who want that Mediterranean or Spanish look without clay tile's premium price, concrete tile delivers good value.</p>
+
+<h2 id="what-is" class="text-2xl font-bold text-secondary mt-10 mb-4">What Is Concrete Tile Roofing?</h2>
+
+<p class="text-gray-600 mb-4">Concrete tiles are made from Portland cement, sand, and water, molded under pressure and cured. They can be made to mimic clay tiles, slate, or wood shakes.</p>
+
+<p class="text-gray-600 mb-4">Key characteristics:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Composition:</strong> Portland cement, sand, water, and iron oxide pigments</li>
+<li><strong>Profiles:</strong> Available in flat, low-profile, medium-profile, and high-profile (barrel) shapes</li>
+<li><strong>Colors:</strong> Wide range available; color is typically applied as a coating</li>
+<li><strong>Weight:</strong> 9-12 pounds per square foot installed (heavier than clay)</li>
+<li><strong>Fire Rating:</strong> Class A (non-combustible)</li>
+</ul>
+
+<h2 id="pros" class="text-2xl font-bold text-secondary mt-10 mb-4">Concrete Tile Roof Pros (Advantages)</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">1. Lower Cost Than Clay</h3>
+
+<p class="text-gray-600 mb-6">Concrete tile costs 30-40% less than clay tile while achieving a similar aesthetic. For a typical Jacksonville home, this saves $8,000-$15,000 compared to clay.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">2. Excellent Durability (40-50 Years)</h3>
+
+<p class="text-gray-600 mb-6">Concrete tiles last 40-50 years in Florida—not quite as long as clay (50-100 years) but still 2-3 times longer than shingle roofs. They resist rot, insects, and fire.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">3. Hurricane Resistance</h3>
+
+<p class="text-gray-600 mb-4">Properly installed concrete tile offers excellent hurricane protection:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Heavy weight (9-12 lbs/sq ft) resists wind uplift</li>
+<li>Modern installation systems rated for 150 mph winds</li>
+<li>Interlocking profiles provide additional wind resistance</li>
+<li>Non-porous surface sheds water effectively</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">4. Variety of Styles</h3>
+
+<p class="text-gray-600 mb-6">Concrete can be molded into virtually any profile—barrel (Spanish), flat (modern), shake (rustic), and slate (formal). This versatility means you can achieve different looks without different materials.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">5. Energy Efficiency</h3>
+
+<p class="text-gray-600 mb-6">Tile roofs create a thermal barrier. The airspace between tiles and decking allows ventilation, reducing heat transfer into your home. Light-colored concrete tiles reflect significant solar radiation.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">6. Low Maintenance</h3>
+
+<p class="text-gray-600 mb-6">Concrete tiles require minimal maintenance—annual inspection, occasional cleaning, and replacing broken tiles as needed. No painting, coating, or sealing required (though optional sealers can extend color life).</p>
+
+<h2 id="cons" class="text-2xl font-bold text-secondary mt-10 mb-4">Concrete Tile Roof Cons (Disadvantages)</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">1. Heavier Than Other Options</h3>
+
+<p class="text-gray-600 mb-4">Concrete tiles are heavy—actually heavier than clay tiles:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Concrete Tile:</strong> 9-12 lbs per square foot</li>
+<li><strong>Clay Tile:</strong> 8-10 lbs per square foot</li>
+<li><strong>Asphalt Shingles:</strong> 2-4 lbs per square foot</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Many Florida homes aren't built to handle this weight. A structural engineer may need to assess your home's capacity, and reinforcement could add $5,000-$15,000 to the project.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">2. Color Fading</h3>
+
+<p class="text-gray-600 mb-6">Unlike clay tiles where color is baked through, concrete tile color is surface-applied. Over 15-25 years, Florida sun will fade concrete tile color. Some homeowners have tiles recoated to refresh the color—an additional cost every 15-20 years.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">3. Underlayment Replacement Still Required</h3>
+
+<p class="text-gray-600 mb-6">Like clay tile, the underlayment beneath concrete tiles needs replacement every 20-25 years. This costs $8,000-$15,000 as all tiles must be removed and reinstalled. This ongoing cost surprises many homeowners.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">4. Fragile When Walked On</h3>
+
+<p class="text-gray-600 mb-6">Concrete tiles can crack under foot traffic if not walked on properly. Every service call (HVAC, cable, solar) risks tile breakage. Training service providers and keeping spare tiles helps manage this issue.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">5. Moss and Algae Growth</h3>
+
+<p class="text-gray-600 mb-6">Concrete's porous surface can develop moss and algae in Florida's humid climate, especially on shaded roof sections. This is cosmetic but requires periodic cleaning to prevent moisture retention.</p>
+
+<h2 id="cost" class="text-2xl font-bold text-secondary mt-10 mb-4">How Much Does a Concrete Tile Roof Cost in Jacksonville?</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">New Installation Costs</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Standard Concrete Tile:</strong> $20,000-$30,000</li>
+<li><strong>Premium/Designer Profiles:</strong> $28,000-$40,000</li>
+<li><strong>Structural Reinforcement (if needed):</strong> Add $5,000-$15,000</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Ongoing Costs</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Underlayment Replacement (every 20-25 years):</strong> $8,000-$15,000</li>
+<li><strong>Color Recoating (optional, every 15-20 years):</strong> $3,000-$6,000</li>
+<li><strong>Tile Repairs:</strong> $200-$500 per repair visit</li>
+</ul>
+
+<h2 id="vs-clay" class="text-2xl font-bold text-secondary mt-10 mb-4">Concrete Tile vs Clay Tile: Which Is Better for Florida?</h2>
+
+<div class="overflow-x-auto mb-6">
+<table class="w-full text-sm text-gray-600 border border-gray-200">
+<thead class="bg-gray-100">
+<tr>
+<th class="p-3 text-left font-bold text-secondary">Factor</th>
+<th class="p-3 text-left font-bold text-secondary">Concrete Tile</th>
+<th class="p-3 text-left font-bold text-secondary">Clay Tile</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-t">
+<td class="p-3">Cost</td>
+<td class="p-3">$20,000-$35,000</td>
+<td class="p-3">$25,000-$50,000</td>
+</tr>
+<tr class="border-t bg-gray-50">
+<td class="p-3">Lifespan</td>
+<td class="p-3">40-50 years</td>
+<td class="p-3">50-100+ years</td>
+</tr>
+<tr class="border-t">
+<td class="p-3">Weight</td>
+<td class="p-3">9-12 lbs/sq ft</td>
+<td class="p-3">8-10 lbs/sq ft</td>
+</tr>
+<tr class="border-t bg-gray-50">
+<td class="p-3">Color Durability</td>
+<td class="p-3">Fades over time</td>
+<td class="p-3">Permanent (baked through)</td>
+</tr>
+<tr class="border-t">
+<td class="p-3">Style Options</td>
+<td class="p-3">Very wide range</td>
+<td class="p-3">Traditional styles</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p class="text-gray-600 mb-6"><strong>Bottom line:</strong> Choose concrete tile for budget-conscious tile roof projects. Choose clay tile for maximum longevity and color durability when budget allows.</p>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we install both concrete and clay tile roofs throughout Jacksonville. Our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> services include helping you choose the right material for your home and budget.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Concrete Tile Roofing in Florida</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Cost savings:</strong> 30-40% less than clay tile for similar aesthetic</li>
+<li>• <strong>Lifespan:</strong> 40-50 years for tiles, 20-25 years for underlayment</li>
+<li>• <strong>Hurricane resistant:</strong> Up to 150 mph when properly installed</li>
+<li>• <strong>Weight concern:</strong> Heavier than clay—verify structural capacity</li>
+<li>• <strong>Color fades:</strong> Unlike clay, concrete tile color fades over 15-25 years</li>
+<li>• <strong>Underlayment:</strong> Budget $8,000-$15,000 for replacement every 20-25 years</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Considering concrete tile for your Jacksonville home? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free consultation. We'll assess your home's structural capacity and help you choose between concrete, clay, or other options. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How long does a concrete tile roof last in Florida?", answer: "Concrete tiles last 40-50 years in Florida. However, the underlayment beneath the tiles needs replacement every 20-25 years, which costs $8,000-$15,000 as tiles must be removed and reinstalled." },
+      { question: "Is concrete tile better than clay tile?", answer: "Concrete tile costs 30-40% less than clay and offers similar durability (40-50 vs 50-100 years). Clay tile has permanent color while concrete fades over time. Choose concrete for budget-friendly tile roofing; choose clay for maximum longevity." },
+      { question: "Do concrete tiles fade in Florida?", answer: "Yes, concrete tile color fades over 15-25 years in Florida sun because the color is surface-applied rather than baked through like clay. Optional recoating every 15-20 years ($3,000-$6,000) can refresh the color." },
+      { question: "How much does a concrete tile roof cost in Jacksonville?", answer: "Concrete tile roofs in Jacksonville typically cost $20,000-$35,000 for an average home. Add potential structural reinforcement costs ($5,000-$15,000) if your home wasn't built to handle tile weight." },
+      { question: "Can my house support a concrete tile roof?", answer: "Maybe. Concrete tiles weigh 9-12 lbs per square foot—2-4 times more than shingles. Many Florida homes need structural reinforcement to support tile. A structural engineer's assessment is recommended before installing any tile roof." }
+    ]
+  },
+  {
+    slug: "flat-roof-options-florida",
+    title: "Best Flat Roof Options for Florida Commercial and Residential Buildings",
+    metaTitle: "Flat Roof Options for Florida: TPO, EPDM, Modified Bitumen Guide",
+    excerpt: "TPO is the best flat roof option for most Florida buildings. Compare TPO, EPDM, modified bitumen, and built-up roofing for cost, lifespan, and performance in Florida's climate.",
+    keywords: ["flat roof options florida", "flat roof materials", "commercial flat roof", "tpo roofing florida", "flat roof jacksonville"],
+    category: "Roofing Guide",
+    date: "2026-02-17",
+    publishDate: "2026-02-17",
+    readTime: "10 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/commercial-roofing-jacksonville.webp",
+    imageAlt: "Flat roof installation on Florida commercial building",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Comparison" },
+      { id: "tpo", title: "TPO Roofing" },
+      { id: "epdm", title: "EPDM (Rubber) Roofing" },
+      { id: "modified-bitumen", title: "Modified Bitumen" },
+      { id: "built-up", title: "Built-Up Roofing (BUR)" },
+      { id: "comparison", title: "Side-by-Side Comparison" },
+      { id: "which-to-choose", title: "Which Should You Choose?" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">TPO (Thermoplastic Polyolefin) is the best flat roof option for most Florida commercial buildings and homes with flat or low-slope sections. It offers excellent heat reflection, strong seam welds, 20-30 year lifespan, and competitive pricing. EPDM works well for shaded applications, while modified bitumen suits complex roofs with many penetrations.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Florida Flat Roof Options: Quick Comparison</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Best Overall:</strong></td><td>TPO (heat reflective, durable, cost-effective)</td></tr>
+<tr><td class="py-1"><strong>Budget Option:</strong></td><td>EPDM (lower cost, but less energy efficient)</td></tr>
+<tr><td class="py-1"><strong>Complex Roofs:</strong></td><td>Modified Bitumen (flexible, easy repairs)</td></tr>
+<tr><td class="py-1"><strong>Maximum Durability:</strong></td><td>Built-Up Roofing (but heaviest and most expensive)</td></tr>
+</table>
+</div>
+
+<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-10 mb-4">What Is the Best Flat Roof Material for Florida?</h2>
+
+<p class="text-gray-600 mb-4">For most Florida applications, TPO roofing is the best choice. Its white reflective surface significantly reduces cooling costs in our hot climate, the heat-welded seams create watertight connections, and it costs less than many alternatives while offering a 20-30 year lifespan.</p>
+
+<p class="text-gray-600 mb-6">However, the "best" option depends on your specific situation—building type, budget, existing roof structure, and priorities. Here's a detailed look at each option.</p>
+
+<h2 id="tpo" class="text-2xl font-bold text-secondary mt-10 mb-4">TPO Roofing: Best for Florida Heat</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What Is TPO?</h3>
+
+<p class="text-gray-600 mb-6">TPO (Thermoplastic Polyolefin) is a single-ply roofing membrane that's become the most popular commercial flat roof material in Florida. It's a synthetic rubber material that comes in large sheets welded together with hot air.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">TPO Advantages for Florida</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Highly Reflective:</strong> White TPO reflects 80-90% of solar radiation, dramatically reducing cooling costs</li>
+<li><strong>Heat-Welded Seams:</strong> Creates a monolithic waterproof membrane stronger than the material itself</li>
+<li><strong>UV Resistant:</strong> Formulated to handle Florida's intense sun exposure</li>
+<li><strong>Chemical Resistant:</strong> Handles rooftop equipment, grease, and pollutants</li>
+<li><strong>Lightweight:</strong> Doesn't require structural reinforcement</li>
+<li><strong>Lifespan:</strong> 20-30 years with proper installation</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">TPO Disadvantages</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Requires skilled installation (heat welding technique is critical)</li>
+<li>Some formulations have had durability issues (choose established manufacturers)</li>
+<li>Can puncture from foot traffic without walkway pads</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">TPO Cost in Jacksonville</h3>
+
+<p class="text-gray-600 mb-6">TPO roofing typically costs $6-$10 per square foot installed in Jacksonville, including membrane, insulation, and labor. For a 10,000 sq ft commercial roof, expect $60,000-$100,000.</p>
+
+<h2 id="epdm" class="text-2xl font-bold text-secondary mt-10 mb-4">EPDM Roofing: Budget-Friendly Option</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What Is EPDM?</h3>
+
+<p class="text-gray-600 mb-6">EPDM (Ethylene Propylene Diene Monomer) is a synthetic rubber roofing membrane. It's been used for over 50 years and has a proven track record. EPDM is typically black, though white versions are available.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">EPDM Advantages</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Proven Durability:</strong> 25-30 year lifespan with proper maintenance</li>
+<li><strong>Lower Cost:</strong> Generally the most affordable single-ply option</li>
+<li><strong>Flexibility:</strong> Handles building movement and temperature changes well</li>
+<li><strong>Easy Repairs:</strong> Can be patched with standard materials</li>
+<li><strong>Puncture Resistant:</strong> Rubber membrane absorbs impacts</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">EPDM Disadvantages for Florida</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Heat Absorption:</strong> Black EPDM absorbs heat, increasing cooling costs significantly</li>
+<li><strong>Adhesive Seams:</strong> Seams are glued rather than welded (potential failure point)</li>
+<li><strong>White EPDM Costs More:</strong> Reflective white versions available but pricier</li>
+<li><strong>Less Energy Efficient:</strong> Without white coating, significantly less efficient than TPO</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">EPDM Cost in Jacksonville</h3>
+
+<p class="text-gray-600 mb-6">EPDM costs $5-$8 per square foot installed. It's less expensive than TPO upfront, but higher cooling costs may offset savings in Florida's climate.</p>
+
+<h2 id="modified-bitumen" class="text-2xl font-bold text-secondary mt-10 mb-4">Modified Bitumen: Versatile and Repairable</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What Is Modified Bitumen?</h3>
+
+<p class="text-gray-600 mb-6">Modified bitumen is essentially upgraded asphalt roofing. It combines traditional asphalt with rubber or plastic modifiers for improved performance, applied in layers with torch, hot mop, or self-adhesive backing.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Modified Bitumen Advantages</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Multi-Layer Protection:</strong> Typically 2-3 plies provide redundancy</li>
+<li><strong>Easy Repairs:</strong> Familiar materials for most roofers</li>
+<li><strong>Foot Traffic Friendly:</strong> Handles regular walking better than TPO/EPDM</li>
+<li><strong>Versatile Installation:</strong> Works on complex roofs with many penetrations</li>
+<li><strong>Lifespan:</strong> 15-20 years typical, up to 25 with maintenance</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Modified Bitumen Disadvantages</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Less Reflective:</strong> Even with cap sheets, less energy efficient than TPO</li>
+<li><strong>Fire Risk During Installation:</strong> Torch-applied methods require safety precautions</li>
+<li><strong>Shorter Lifespan:</strong> Generally doesn't last as long as TPO or EPDM</li>
+<li><strong>Heavier:</strong> Multiple plies add weight</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Modified Bitumen Cost</h3>
+
+<p class="text-gray-600 mb-6">Modified bitumen costs $5-$9 per square foot installed, depending on the number of plies and installation method.</p>
+
+<h2 id="built-up" class="text-2xl font-bold text-secondary mt-10 mb-4">Built-Up Roofing (BUR): Traditional Heavy-Duty Option</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What Is Built-Up Roofing?</h3>
+
+<p class="text-gray-600 mb-6">Built-up roofing (BUR) is the traditional "tar and gravel" flat roof. Multiple layers of asphalt-saturated felt are alternated with hot asphalt, topped with gravel or a reflective cap sheet.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">BUR Advantages</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Maximum Durability:</strong> Multiple layers provide excellent protection</li>
+<li><strong>Longest Track Record:</strong> 100+ year proven history</li>
+<li><strong>UV Protection:</strong> Gravel surface blocks UV (no membrane exposure)</li>
+<li><strong>Foot Traffic Handling:</strong> Handles regular walking and equipment</li>
+<li><strong>Lifespan:</strong> 20-30+ years</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">BUR Disadvantages</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Heavy:</strong> 3-5 lbs per square foot (may require structural verification)</li>
+<li><strong>Messy Installation:</strong> Hot asphalt creates fumes and odors</li>
+<li><strong>Expensive:</strong> Labor-intensive installation costs more</li>
+<li><strong>Leak Detection:</strong> Hard to find leaks in multi-layer system</li>
+<li><strong>Limited Reflectivity:</strong> Unless using reflective cap sheet</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">BUR Cost</h3>
+
+<p class="text-gray-600 mb-6">Built-up roofing costs $7-$12 per square foot installed—typically the most expensive flat roof option.</p>
+
+<h2 id="comparison" class="text-2xl font-bold text-secondary mt-10 mb-4">Flat Roof Materials: Side-by-Side Comparison</h2>
+
+<div class="overflow-x-auto mb-6">
+<table class="w-full text-sm text-gray-600 border border-gray-200">
+<thead class="bg-gray-100">
+<tr>
+<th class="p-3 text-left font-bold text-secondary">Material</th>
+<th class="p-3 text-left font-bold text-secondary">Lifespan</th>
+<th class="p-3 text-left font-bold text-secondary">Cost/Sq Ft</th>
+<th class="p-3 text-left font-bold text-secondary">Energy Efficiency</th>
+<th class="p-3 text-left font-bold text-secondary">Best For</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-t">
+<td class="p-3">TPO</td>
+<td class="p-3">20-30 years</td>
+<td class="p-3">$6-$10</td>
+<td class="p-3">Excellent</td>
+<td class="p-3">Most Florida applications</td>
+</tr>
+<tr class="border-t bg-gray-50">
+<td class="p-3">EPDM</td>
+<td class="p-3">25-30 years</td>
+<td class="p-3">$5-$8</td>
+<td class="p-3">Poor (black)</td>
+<td class="p-3">Shaded roofs, budget projects</td>
+</tr>
+<tr class="border-t">
+<td class="p-3">Mod Bit</td>
+<td class="p-3">15-20 years</td>
+<td class="p-3">$5-$9</td>
+<td class="p-3">Moderate</td>
+<td class="p-3">Complex roofs, high traffic</td>
+</tr>
+<tr class="border-t bg-gray-50">
+<td class="p-3">BUR</td>
+<td class="p-3">20-30 years</td>
+<td class="p-3">$7-$12</td>
+<td class="p-3">Moderate</td>
+<td class="p-3">Maximum durability needed</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="which-to-choose" class="text-2xl font-bold text-secondary mt-10 mb-4">Which Flat Roof Should You Choose?</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Choose TPO If:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Energy efficiency is a priority (it is in Florida!)</li>
+<li>You want the best value for commercial roofing</li>
+<li>The roof is fully exposed to sun</li>
+<li>You want modern, welded seam technology</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Choose EPDM If:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>The roof is heavily shaded (trees, adjacent buildings)</li>
+<li>Budget is the primary constraint</li>
+<li>You're reroofing an existing EPDM roof</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Choose Modified Bitumen If:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>The roof has many penetrations (pipes, units, curbs)</li>
+<li>Regular foot traffic is expected</li>
+<li>You want easy future repairs with common materials</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Choose BUR If:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Maximum durability is essential</li>
+<li>The building will have heavy equipment or traffic on the roof</li>
+<li>Budget allows for premium installation</li>
+</ul>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we install all flat roof types for Jacksonville commercial buildings and homes with flat sections. Our <a href="/services/commercial-roofing" class="text-primary hover:underline">commercial roofing</a> team will assess your building and recommend the best option for your needs.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Flat Roof Options for Florida</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>TPO is the best overall choice</strong> for Florida's sunny, hot climate</li>
+<li>• <strong>Energy efficiency matters:</strong> White TPO can significantly reduce cooling costs</li>
+<li>• <strong>EPDM works for shaded roofs</strong> but costs more to cool if sun-exposed</li>
+<li>• <strong>Modified bitumen suits complex roofs</strong> with many penetrations</li>
+<li>• <strong>BUR offers maximum durability</strong> but at higher cost and weight</li>
+<li>• <strong>Lifespan ranges from 15-30 years</strong> depending on material and maintenance</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Need a flat roof for your Jacksonville commercial building or home? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free consultation. We'll assess your roof, discuss options, and provide transparent pricing. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "What is the best material for a flat roof in Florida?", answer: "TPO (Thermoplastic Polyolefin) is the best choice for most Florida flat roofs. Its white reflective surface reduces cooling costs significantly, heat-welded seams are highly reliable, and it offers 20-30 year lifespan at competitive pricing." },
+      { question: "How long does a flat roof last in Florida?", answer: "Flat roof lifespan in Florida varies by material: TPO lasts 20-30 years, EPDM lasts 25-30 years, modified bitumen lasts 15-20 years, and built-up roofing lasts 20-30 years. Proper maintenance extends lifespan; neglect shortens it." },
+      { question: "Is TPO or EPDM better for Florida?", answer: "TPO is better for most Florida applications because its white surface reflects heat, reducing cooling costs. Black EPDM absorbs heat and increases energy bills. If your roof is heavily shaded, EPDM's lower upfront cost may make sense." },
+      { question: "How much does a flat roof cost in Jacksonville?", answer: "Flat roof costs in Jacksonville range from $5-$12 per square foot installed depending on material. For a 10,000 sq ft commercial roof: EPDM ~$50,000-$80,000, TPO ~$60,000-$100,000, modified bitumen ~$50,000-$90,000, BUR ~$70,000-$120,000." },
+      { question: "Can I put a flat roof on my house in Florida?", answer: "Yes, many Florida homes have flat or low-slope roof sections, especially on additions, porches, and modern architecture. TPO or modified bitumen are typical choices for residential flat sections. Building code requires minimum slope for drainage." }
+    ]
+  },
+  {
+    slug: "tpo-vs-epdm-roofing-florida",
+    title: "TPO vs EPDM Roofing in Florida - Which Is Better for Your Building?",
+    metaTitle: "TPO vs EPDM Roofing: Which Is Better for Florida Buildings?",
+    excerpt: "TPO beats EPDM for most Florida applications due to superior heat reflection. Compare costs, lifespans, energy efficiency, and which single-ply membrane is right for your Jacksonville building.",
+    keywords: ["tpo vs epdm", "tpo roofing florida", "epdm roofing", "commercial roofing jacksonville", "single ply roofing comparison"],
+    category: "Commercial Roofing",
+    date: "2026-02-20",
+    publishDate: "2026-02-20",
+    readTime: "8 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/commercial-roofing-jacksonville.webp",
+    imageAlt: "TPO and EPDM roofing comparison on Florida commercial buildings",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Comparison" },
+      { id: "differences", title: "Key Differences" },
+      { id: "energy", title: "Energy Efficiency in Florida" },
+      { id: "durability", title: "Durability Comparison" },
+      { id: "cost", title: "Cost Comparison" },
+      { id: "when-choose", title: "When to Choose Each" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">TPO is better than EPDM for most Florida commercial buildings. TPO's white reflective surface reduces cooling costs by 15-25%, while black EPDM absorbs heat and increases energy bills. Both last 20-30 years, but TPO's heat-welded seams are more reliable than EPDM's glued seams. Choose EPDM only for heavily shaded roofs or when budget is the primary concern.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">TPO vs EPDM: Quick Comparison</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Energy Efficiency:</strong></td><td>TPO wins (reflects 80%+ of heat vs EPDM absorbs)</td></tr>
+<tr><td class="py-1"><strong>Seam Strength:</strong></td><td>TPO wins (heat-welded vs glued)</td></tr>
+<tr><td class="py-1"><strong>Lifespan:</strong></td><td>Tie (both 20-30 years)</td></tr>
+<tr><td class="py-1"><strong>Upfront Cost:</strong></td><td>EPDM wins (10-20% less expensive)</td></tr>
+<tr><td class="py-1"><strong>Florida Recommendation:</strong></td><td>TPO for most applications</td></tr>
+</table>
+</div>
+
+<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-10 mb-4">Is TPO or EPDM Better for Florida?</h2>
+
+<p class="text-gray-600 mb-4">TPO is better for Florida in most cases. The primary reason is energy efficiency—Florida's intense sun makes heat reflection critical. A white TPO roof can reduce cooling costs by 15-25% compared to a black EPDM roof. Over a 25-year roof life, this can save more than the cost difference between the two materials.</p>
+
+<p class="text-gray-600 mb-6">The exception is heavily shaded roofs where energy efficiency matters less. In those cases, EPDM's lower upfront cost may make it the better value.</p>
+
+<h2 id="differences" class="text-2xl font-bold text-secondary mt-10 mb-4">What's the Difference Between TPO and EPDM?</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">TPO (Thermoplastic Polyolefin)</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Material:</strong> Synthetic polymer membrane, typically white</li>
+<li><strong>Seam Method:</strong> Hot-air welded (creates bonds stronger than membrane)</li>
+<li><strong>Colors:</strong> White, tan, gray (white most common for energy efficiency)</li>
+<li><strong>Thickness:</strong> Usually 45, 60, or 80 mil</li>
+<li><strong>Industry Age:</strong> About 30 years (newer technology)</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">EPDM (Ethylene Propylene Diene Monomer)</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Material:</strong> Synthetic rubber membrane, typically black</li>
+<li><strong>Seam Method:</strong> Adhesive/tape bonded (seams glued together)</li>
+<li><strong>Colors:</strong> Black (standard), white available at higher cost</li>
+<li><strong>Thickness:</strong> Usually 45 or 60 mil</li>
+<li><strong>Industry Age:</strong> 50+ years (proven track record)</li>
+</ul>
+
+<h2 id="energy" class="text-2xl font-bold text-secondary mt-10 mb-4">Energy Efficiency: Why It Matters in Florida</h2>
+
+<p class="text-gray-600 mb-4">This is where TPO dramatically outperforms standard EPDM:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Heat Reflection</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>White TPO:</strong> Reflects 80-90% of solar radiation</li>
+<li><strong>Black EPDM:</strong> Absorbs 90%+ of solar radiation</li>
+<li><strong>White EPDM:</strong> Reflects about 70-80% (but costs more)</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Real-World Cooling Impact</h3>
+
+<p class="text-gray-600 mb-4">In Jacksonville's climate:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Black EPDM roof surface can reach 160-180°F on summer days</li>
+<li>White TPO stays 50-70°F cooler (around 100-120°F)</li>
+<li>This difference translates to 15-25% reduction in cooling costs</li>
+<li>Over 25 years on a 10,000 sq ft building, energy savings can exceed $30,000-$60,000</li>
+</ul>
+
+<div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
+<p class="text-yellow-700 font-semibold mb-2">Important for Florida</p>
+<p class="text-yellow-600">Many building owners choose EPDM for lower upfront cost without realizing they'll pay more in electricity every month for the roof's entire life. When you add energy costs to the total, TPO is often less expensive overall.</p>
+</div>
+
+<h2 id="durability" class="text-2xl font-bold text-secondary mt-10 mb-4">Durability and Lifespan Comparison</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Lifespan</h3>
+
+<p class="text-gray-600 mb-4">Both materials offer similar longevity:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>TPO:</strong> 20-30 years with proper installation</li>
+<li><strong>EPDM:</strong> 25-30 years with proper maintenance</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Seam Performance</h3>
+
+<p class="text-gray-600 mb-4">This is where TPO has a significant advantage:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>TPO Seams:</strong> Heat-welded at 900°F+ creates molecular bond stronger than the membrane itself</li>
+<li><strong>EPDM Seams:</strong> Glued with adhesive or tape—can fail as adhesive degrades over time</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Most flat roof leaks occur at seams. TPO's welded seams are simply more reliable than EPDM's glued seams, especially over 20+ year lifespans.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Puncture Resistance</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>EPDM:</strong> Rubber membrane is naturally more flexible and puncture-resistant</li>
+<li><strong>TPO:</strong> More rigid; punctures more easily but also repairs more easily</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">UV Resistance</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>TPO:</strong> Excellent UV resistance; formulated for sun exposure</li>
+<li><strong>EPDM:</strong> Good UV resistance; black color doesn't show degradation as visibly</li>
+</ul>
+
+<h2 id="cost" class="text-2xl font-bold text-secondary mt-10 mb-4">Cost Comparison: TPO vs EPDM</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Upfront Installation Cost</h3>
+
+<p class="text-gray-600 mb-4">For a typical Jacksonville commercial roof:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>TPO:</strong> $6-$10 per square foot installed</li>
+<li><strong>EPDM:</strong> $5-$8 per square foot installed</li>
+<li><strong>White EPDM:</strong> $7-$10 per square foot (comparable to TPO)</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Total Cost of Ownership (25-Year)</h3>
+
+<p class="text-gray-600 mb-4">When you factor in energy costs on a 10,000 sq ft building:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>TPO:</strong> $80,000 installation + ~$0 extra cooling = $80,000 total</li>
+<li><strong>Black EPDM:</strong> $65,000 installation + ~$40,000 extra cooling = $105,000 total</li>
+</ul>
+
+<p class="text-gray-600 mb-6">This simplified example shows why TPO is often the better long-term value in Florida, despite higher upfront cost.</p>
+
+<h2 id="when-choose" class="text-2xl font-bold text-secondary mt-10 mb-4">When to Choose Each Option</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Choose TPO When:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>The roof is exposed to full sun (most situations)</li>
+<li>Cooling costs are a concern</li>
+<li>You want the most reliable seam technology</li>
+<li>You're focused on total cost of ownership, not just upfront cost</li>
+<li>The building will be held long-term</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Choose EPDM When:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>The roof is heavily shaded by trees or adjacent buildings</li>
+<li>Budget is extremely tight (and energy costs are less concern)</li>
+<li>You're replacing an existing EPDM roof (same-material repairs easier)</li>
+<li>The building is a warehouse or non-conditioned space where cooling matters less</li>
+</ul>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we install both TPO and EPDM throughout Jacksonville. Our <a href="/services/commercial-roofing" class="text-primary hover:underline">commercial roofing</a> team will assess your building, discuss your priorities, and recommend the best option.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: TPO vs EPDM in Florida</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>TPO wins on energy efficiency:</strong> Reflects 80%+ heat vs EPDM absorbs 90%+</li>
+<li>• <strong>TPO seams are more reliable:</strong> Heat-welded vs glued</li>
+<li>• <strong>Lifespan is similar:</strong> Both last 20-30 years properly maintained</li>
+<li>• <strong>EPDM costs less upfront:</strong> But energy costs often offset savings</li>
+<li>• <strong>Total cost of ownership:</strong> TPO is often less expensive over 25 years</li>
+<li>• <strong>EPDM makes sense for shaded roofs</strong> or non-conditioned buildings</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Need help choosing between TPO and EPDM for your Jacksonville building? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free consultation. We'll assess your situation and provide honest recommendations. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "Is TPO or EPDM better for Florida?", answer: "TPO is better for most Florida applications. Its white reflective surface reduces cooling costs by 15-25% compared to black EPDM. Both last 20-30 years, but TPO's heat-welded seams are more reliable than EPDM's glued seams." },
+      { question: "What is the price difference between TPO and EPDM?", answer: "EPDM is about 10-20% less expensive upfront ($5-$8/sq ft vs $6-$10/sq ft for TPO). However, when you include energy costs over 25 years, TPO often costs less total because of its heat-reflective properties in Florida's climate." },
+      { question: "How long does TPO roofing last in Florida?", answer: "TPO roofing lasts 20-30 years in Florida with proper installation and maintenance. Quality of installation, membrane thickness, and regular inspections all affect longevity. Choose 60 mil or thicker membranes for best durability." },
+      { question: "Does EPDM work in Florida?", answer: "EPDM works but isn't ideal for most Florida applications. Black EPDM absorbs heat and increases cooling costs significantly. It works well for shaded roofs or non-conditioned buildings like warehouses where cooling costs aren't a concern." },
+      { question: "Which has stronger seams, TPO or EPDM?", answer: "TPO has stronger seams. TPO seams are heat-welded at 900°F+, creating a molecular bond stronger than the membrane itself. EPDM seams are glued with adhesive or tape, which can fail as the adhesive degrades over time." }
+    ]
+  },
+  {
+    slug: "roof-maintenance-tips-florida-homeowners",
+    title: "Florida Roof Maintenance: Essential Tips to Extend Your Roof's Life",
+    metaTitle: "Florida Roof Maintenance Tips: Extend Your Roof's Lifespan",
+    excerpt: "Simple roof maintenance can add 5-10 years to your Florida roof's life. Learn the seasonal inspection checklist, when to call a pro, and the biggest maintenance mistakes Jacksonville homeowners make.",
+    keywords: ["roof maintenance florida", "roof maintenance tips", "extend roof life", "jacksonville roof care", "roof inspection checklist"],
+    category: "Maintenance",
+    date: "2026-02-23",
+    publishDate: "2026-02-23",
+    readTime: "9 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/roof-inspection-jacksonville.webp",
+    imageAlt: "Roof maintenance inspection in Jacksonville FL",
+    tableOfContents: [
+      { id: "why-matters", title: "Why Maintenance Matters" },
+      { id: "seasonal-checklist", title: "Seasonal Checklist" },
+      { id: "common-issues", title: "Common Florida Issues" },
+      { id: "diy-vs-pro", title: "DIY vs Professional" },
+      { id: "biggest-mistakes", title: "Biggest Mistakes" },
+      { id: "cost-of-neglect", title: "Cost of Neglect" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Regular roof maintenance can extend your Florida roof's lifespan by 5-10 years and prevent costly repairs. The essentials are: inspect twice yearly (before and after hurricane season), clean debris regularly, check for damaged shingles, ensure gutters flow freely, and address small issues before they become big ones. Most homeowners can do basic inspections from the ground or a ladder; leave repairs to professionals.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Florida Roof Maintenance: Quick Summary</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Inspection Frequency:</strong></td><td>Twice yearly + after major storms</td></tr>
+<tr><td class="py-1"><strong>Best Times:</strong></td><td>May (before hurricane season) and November (after)</td></tr>
+<tr><td class="py-1"><strong>Potential Life Extension:</strong></td><td>5-10 years with proper maintenance</td></tr>
+<tr><td class="py-1"><strong>Professional Inspection Cost:</strong></td><td>$150-$400 (often free with repair contract)</td></tr>
+</table>
+</div>
+
+<h2 id="why-matters" class="text-2xl font-bold text-secondary mt-10 mb-4">Why Does Roof Maintenance Matter in Florida?</h2>
+
+<p class="text-gray-600 mb-4">Florida roofs face more stress than roofs in most other states:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Intense UV Radiation:</strong> Degrades shingles and sealants faster than northern climates</li>
+<li><strong>Hurricane Season:</strong> Six months of potential wind and rain damage</li>
+<li><strong>Heat Cycling:</strong> Daily expansion/contraction stresses materials</li>
+<li><strong>Humidity:</strong> Creates conditions for algae, mold, and rot</li>
+<li><strong>Heavy Rain:</strong> Tests waterproofing more frequently than drier regions</li>
+</ul>
+
+<p class="text-gray-600 mb-6">These factors mean Florida roofs wear out faster than manufacturer warranties suggest. Regular maintenance catches problems early—when a $200 repair can prevent a $10,000 replacement.</p>
+
+<h2 id="seasonal-checklist" class="text-2xl font-bold text-secondary mt-10 mb-4">Seasonal Roof Maintenance Checklist</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Spring (Before Hurricane Season)</h3>
+
+<p class="text-gray-600 mb-4">This is your most important inspection—prepare for the storms ahead:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>☐ Look for missing, cracked, or curling shingles</li>
+<li>☐ Check flashing around vents, pipes, and chimney</li>
+<li>☐ Inspect sealant/caulking around penetrations</li>
+<li>☐ Clean gutters and downspouts completely</li>
+<li>☐ Trim tree branches within 6 feet of roof</li>
+<li>☐ Check attic for water stains or daylight showing through</li>
+<li>☐ Look for algae or moss growth (common in Florida)</li>
+<li>☐ Verify soffit vents aren't blocked</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Fall (After Hurricane Season)</h3>
+
+<p class="text-gray-600 mb-4">Assess any storm damage and prepare for winter rains:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>☐ Full visual inspection for storm damage</li>
+<li>☐ Check for lifted or displaced shingles</li>
+<li>☐ Look for debris impacts or dents</li>
+<li>☐ Clean gutters of leaves and debris</li>
+<li>☐ Check attic again for any new leaks</li>
+<li>☐ Document any damage for insurance purposes</li>
+<li>☐ Schedule repairs before winter rains</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">After Major Storms</h3>
+
+<p class="text-gray-600 mb-4">Additional inspection after hurricanes or severe weather:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>☐ Walk property perimeter looking for debris from roof</li>
+<li>☐ Check for missing shingles or exposed underlayment</li>
+<li>☐ Look for dents in metal flashings or gutters</li>
+<li>☐ Inspect satellite dishes, antennas, or solar panels</li>
+<li>☐ Document and photograph any damage immediately</li>
+</ul>
+
+<h2 id="common-issues" class="text-2xl font-bold text-secondary mt-10 mb-4">Common Roof Issues in Florida</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">1. Algae Growth (Black Streaks)</h3>
+
+<p class="text-gray-600 mb-6">Those dark streaks on shingles are algae (Gloeocapsa magma), which thrives in Florida's humid conditions. It's primarily cosmetic but can reduce shingle life if left untreated for years. Algae-resistant shingles help prevent this; existing algae can be cleaned with appropriate solutions.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">2. Wind Damage</h3>
+
+<p class="text-gray-600 mb-6">Florida wind lifts and creases shingles, breaking their seal. Even if shingles don't blow off, they may be compromised. After storms, check for shingles that look lifted or folded—they need replacement even if still attached.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">3. Clogged Gutters</h3>
+
+<p class="text-gray-600 mb-6">Jacksonville's oak trees drop leaves year-round. Clogged gutters cause water to back up under shingles and into fascia boards, leading to rot. Clean gutters at least twice yearly—more often if you have many trees.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">4. Failing Sealant</h3>
+
+<p class="text-gray-600 mb-6">Florida sun degrades caulk and sealant around penetrations faster than in cooler climates. Check around vents, pipes, and flashings for cracked or missing sealant—this is where many roof leaks begin.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">5. Granule Loss</h3>
+
+<p class="text-gray-600 mb-6">Check your gutters for excessive granules (the sandpaper-like coating on shingles). Some granule loss is normal, but significant accumulation indicates shingles are wearing out. Bald spots on shingles mean it's time to plan for replacement.</p>
+
+<h2 id="diy-vs-pro" class="text-2xl font-bold text-secondary mt-10 mb-4">DIY vs Professional Roof Maintenance</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What You Can Do Yourself</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Ground-Level Inspection:</strong> Look at the roof with binoculars</li>
+<li><strong>Attic Inspection:</strong> Check for leaks, daylight, or water stains</li>
+<li><strong>Gutter Cleaning:</strong> Safe from a ladder with proper precautions</li>
+<li><strong>Debris Removal:</strong> Keep roof valleys and gutters clear</li>
+<li><strong>Tree Trimming:</strong> Keep branches 6+ feet from roof</li>
+<li><strong>Documentation:</strong> Photo and document issues for professionals</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">When to Call a Professional</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Any Repairs:</strong> Leave shingle replacement, flashing work, and sealant application to pros</li>
+<li><strong>Steep Roofs:</strong> Don't walk on roofs steeper than 6:12 pitch</li>
+<li><strong>Tile or Metal Roofs:</strong> Special expertise needed (tile breaks, metal scratches)</li>
+<li><strong>Storm Damage Assessment:</strong> Professional documentation for insurance claims</li>
+<li><strong>Annual Inspections:</strong> Professional eyes catch what homeowners miss</li>
+</ul>
+
+<div class="bg-red-50 border-l-4 border-red-500 p-6 my-8">
+<p class="text-red-700 font-semibold mb-2">Safety Warning</p>
+<p class="text-red-600">Roof work is dangerous. Falls from roofs cause thousands of injuries annually. Never walk on a wet roof, avoid steep roofs entirely, and use proper ladder safety. When in doubt, hire a professional—medical bills cost far more than a service call.</p>
+</div>
+
+<h2 id="biggest-mistakes" class="text-2xl font-bold text-secondary mt-10 mb-4">Biggest Roof Maintenance Mistakes</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">1. Ignoring Small Problems</h3>
+
+<p class="text-gray-600 mb-6">A missing shingle seems minor—until water damages your decking and attic. Small problems become big problems fast in Florida's climate. Address issues promptly.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">2. Pressure Washing Shingles</h3>
+
+<p class="text-gray-600 mb-6">High-pressure washing removes protective granules from shingles, shortening roof life. If you need to clean algae, use low-pressure chemical treatment. Never power wash asphalt shingles.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">3. Walking on the Roof Unnecessarily</h3>
+
+<p class="text-gray-600 mb-6">Every time you walk on your roof, you risk damaging shingles and compromising their seal. Limit foot traffic to necessary inspections—use binoculars when possible.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">4. DIY Repairs with Wrong Materials</h3>
+
+<p class="text-gray-600 mb-6">Roofing cement, silicone caulk, and mismatched shingles are common homeowner "fixes" that often cause more problems than they solve. Professional repairs cost less than redoing amateur work.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">5. Skipping Post-Storm Inspections</h3>
+
+<p class="text-gray-600 mb-6">Damage isn't always visible from the ground. Always inspect after significant storms—and document damage quickly for insurance. Waiting too long can complicate claims.</p>
+
+<h2 id="cost-of-neglect" class="text-2xl font-bold text-secondary mt-10 mb-4">The Real Cost of Neglecting Maintenance</h2>
+
+<p class="text-gray-600 mb-4">Skipping maintenance has real financial consequences:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Shortened Roof Life:</strong> A well-maintained 20-year roof may last 25 years; a neglected one may fail at 15</li>
+<li><strong>Interior Water Damage:</strong> A small leak can cause thousands in drywall, insulation, and mold remediation</li>
+<li><strong>Emergency Repairs Cost More:</strong> Urgent storm-season repairs cost 2-3x more than scheduled maintenance</li>
+<li><strong>Insurance Issues:</strong> Insurers may deny claims if neglect contributed to damage</li>
+<li><strong>Reduced Home Value:</strong> Buyers and inspectors spot neglected roofs</li>
+</ul>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we offer <a href="/services/roof-repair" class="text-primary hover:underline">roof repair services</a> starting at $500 for minor repairs. Catching problems early keeps costs low.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Florida Roof Maintenance</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Inspect twice yearly:</strong> Before (May) and after (November) hurricane season</li>
+<li>• <strong>Always inspect after major storms</strong> and document damage immediately</li>
+<li>• <strong>Clean gutters regularly:</strong> At least twice per year in Jacksonville</li>
+<li>• <strong>Address small problems promptly:</strong> Before they become expensive</li>
+<li>• <strong>Leave repairs to professionals:</strong> DIY fixes often cause more problems</li>
+<li>• <strong>Never pressure wash shingles:</strong> It removes protective granules</li>
+<li>• <strong>Maintenance can add 5-10 years</strong> to your roof's lifespan</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Need a professional roof inspection? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free assessment. We'll evaluate your roof's condition, identify any issues, and provide honest recommendations. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How often should you inspect your roof in Florida?", answer: "Inspect your Florida roof at least twice yearly—once in May before hurricane season and once in November after. Also inspect after any major storm, and have a professional inspection every 3-5 years or if you notice problems." },
+      { question: "Can roof maintenance extend my roof's life?", answer: "Yes, regular maintenance can extend your Florida roof's life by 5-10 years. Catching small problems early, keeping gutters clean, and addressing storm damage promptly all contribute to longer roof life." },
+      { question: "What maintenance does a shingle roof need in Florida?", answer: "Florida shingle roofs need: semi-annual inspections, regular gutter cleaning, prompt replacement of damaged shingles, tree branch trimming, and checking sealant around penetrations. Don't pressure wash shingles—it removes protective granules." },
+      { question: "Should I get on my roof to inspect it?", answer: "Generally no. Most inspections can be done from the ground with binoculars, from a ladder at gutter level, or from inside the attic. Walking on roofs risks falls and can damage shingles. Leave roof access to professionals when possible." },
+      { question: "How much does a professional roof inspection cost?", answer: "Professional roof inspections in Jacksonville typically cost $150-$400 depending on roof size and type. Many roofing companies offer free inspections if repairs are needed. Annual professional inspections are a worthwhile investment." }
+    ]
+  },
+  {
+    slug: "hurricane-roof-damage-signs-florida",
+    title: "Signs of Hurricane Roof Damage: What Jacksonville Homeowners Must Check",
+    metaTitle: "Hurricane Roof Damage Signs: What to Check After a Florida Storm",
+    excerpt: "After a hurricane, check for missing shingles, lifted edges, granule loss, and water stains in your attic. Learn the 10 signs of storm damage and when to file an insurance claim in Jacksonville.",
+    keywords: ["hurricane roof damage", "storm damage roof", "roof damage after hurricane", "florida roof damage signs", "hurricane roof inspection"],
+    category: "Storm Damage",
+    date: "2026-02-26",
+    publishDate: "2026-02-26",
+    readTime: "9 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/storm-damage-repair-jacksonville.webp",
+    imageAlt: "Hurricane damage inspection on Jacksonville roof",
+    tableOfContents: [
+      { id: "when-to-check", title: "When to Check" },
+      { id: "exterior-signs", title: "10 Exterior Signs" },
+      { id: "interior-signs", title: "Interior Warning Signs" },
+      { id: "hidden-damage", title: "Hidden Damage" },
+      { id: "document-damage", title: "Documenting for Insurance" },
+      { id: "insurance-claim", title: "Filing a Claim" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">After a hurricane, immediately check for: missing or displaced shingles, lifted edges and creasing, granule accumulation in gutters, damaged flashing, dents in metal components, debris impact marks, and water stains in your attic. Document all damage with photos before any cleanup. File insurance claims promptly—Florida law gives insurers limited time to respond once notified.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Post-Hurricane Roof Check: Quick List</p>
+<ul class="text-sm space-y-1">
+<li>☐ Missing, displaced, or lifted shingles</li>
+<li>☐ Granules in gutters or on ground</li>
+<li>☐ Damaged flashing around vents/chimney</li>
+<li>☐ Dents in gutters, vents, or metal components</li>
+<li>☐ Debris impact marks or holes</li>
+<li>☐ Water stains on attic ceiling/walls</li>
+<li>☐ Daylight visible through roof in attic</li>
+</ul>
+</div>
+
+<h2 id="when-to-check" class="text-2xl font-bold text-secondary mt-10 mb-4">When Should You Check Your Roof After a Hurricane?</h2>
+
+<p class="text-gray-600 mb-4">Check your roof as soon as it's safe to go outside—typically within 24-48 hours after the storm passes. Early detection helps in several ways:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Prevents Secondary Damage:</strong> A small hole can become major water damage with the next rain</li>
+<li><strong>Insurance Documentation:</strong> Fresh damage is easier to attribute to the specific storm</li>
+<li><strong>Contractor Availability:</strong> Repair companies get booked quickly after hurricanes</li>
+<li><strong>Claim Deadlines:</strong> Florida has time limits for filing insurance claims</li>
+</ul>
+
+<div class="bg-red-50 border-l-4 border-red-500 p-6 my-8">
+<p class="text-red-700 font-semibold mb-2">Safety First</p>
+<p class="text-red-600">Never climb on a wet roof or inspect during ongoing dangerous weather. Wait until winds have died down and surfaces are dry. Watch for downed power lines near your home. If you see significant damage, call a professional rather than climbing up yourself.</p>
+</div>
+
+<h2 id="exterior-signs" class="text-2xl font-bold text-secondary mt-10 mb-4">10 Signs of Hurricane Roof Damage (Exterior)</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">1. Missing Shingles</h3>
+
+<p class="text-gray-600 mb-6">The most obvious sign—look for bare spots where you can see underlayment (black felt-like material) or decking. Check around your yard and neighboring properties for shingles that may have blown away.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">2. Lifted or Curled Shingle Edges</h3>
+
+<p class="text-gray-600 mb-6">Wind can lift shingles without removing them. Look for edges that appear raised or curled—these shingles have broken their seal and will leak. Even if they lay back down, they're compromised and need replacement.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">3. Creased or Folded Shingles</h3>
+
+<p class="text-gray-600 mb-6">High winds can crease shingles in place. Look for horizontal lines across shingle tabs where they've been folded by wind. Creased shingles crack easily and no longer provide proper protection.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">4. Excessive Granules in Gutters</h3>
+
+<p class="text-gray-600 mb-6">After storms, check your gutters and downspout exits for granule accumulation. Some granule loss is normal, but heavy accumulation after a storm indicates shingle damage from wind or hail.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">5. Damaged Flashing</h3>
+
+<p class="text-gray-600 mb-6">Check metal flashing around chimneys, vents, skylights, and where roof meets walls. Look for bent, lifted, or missing flashing. Wind can peel back flashing, creating entry points for water.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">6. Dented or Damaged Vents and Caps</h3>
+
+<p class="text-gray-600 mb-6">Roof vents, turbines, and ridge caps are vulnerable to wind and debris. Check for dents, cracks, or displacement. Damaged vents allow water into your attic.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">7. Debris Impact Damage</h3>
+
+<p class="text-gray-600 mb-6">Flying debris—tree branches, patio furniture, etc.—can puncture roofs. Look for obvious impacts, holes, or areas where shingles appear crushed or broken.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">8. Damaged Gutters and Downspouts</h3>
+
+<p class="text-gray-600 mb-6">While not the roof itself, damaged gutters affect roof performance. Look for dents, pulled-away sections, or crushed downspouts. Damaged gutters can cause water backup under shingles.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">9. Soffit and Fascia Damage</h3>
+
+<p class="text-gray-600 mb-6">Check the underside of roof overhangs (soffit) and the boards behind gutters (fascia). Wind-driven rain can damage these areas, and damaged soffits allow water and pests into your attic.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">10. Visible Roof Line Changes</h3>
+
+<p class="text-gray-600 mb-6">Stand back and look at your roof line from the street. Is it still straight? Sagging, dipping, or wavy areas indicate potential structural damage that requires immediate professional assessment.</p>
+
+<h2 id="interior-signs" class="text-2xl font-bold text-secondary mt-10 mb-4">Interior Warning Signs</h2>
+
+<p class="text-gray-600 mb-4">Interior signs often indicate damage you can't see from outside:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">In the Attic</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Water Stains:</strong> Brown spots on rafters or insulation indicate leaks</li>
+<li><strong>Daylight:</strong> Any light coming through the roof is a problem</li>
+<li><strong>Wet Insulation:</strong> Feel insulation—moisture means water entry</li>
+<li><strong>Musty Smell:</strong> Indicates moisture even if you can't see water</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">In Living Spaces</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Ceiling Stains:</strong> Water marks appearing on ceilings</li>
+<li><strong>Paint Bubbling:</strong> Moisture behind walls causes paint to bubble</li>
+<li><strong>Sagging Drywall:</strong> Heavy water accumulation causes drywall to sag</li>
+<li><strong>Dripping Water:</strong> Active leaks during or after rain</li>
+</ul>
+
+<h2 id="hidden-damage" class="text-2xl font-bold text-secondary mt-10 mb-4">Hidden Damage You Can't See</h2>
+
+<p class="text-gray-600 mb-4">Some hurricane damage isn't visible without professional inspection:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Compromised Shingle Seal:</strong> Adhesive bonds can break without visible damage</li>
+<li><strong>Underlayment Damage:</strong> Water may reach underlayment before shingles show wear</li>
+<li><strong>Nail Pull-Through:</strong> Nails can pull through shingles during high winds</li>
+<li><strong>Deck Damage:</strong> Plywood beneath shingles can get wet and degrade</li>
+<li><strong>Structural Stress:</strong> Framing can be stressed without obvious signs</li>
+</ul>
+
+<p class="text-gray-600 mb-6">This is why professional inspections after major hurricanes are recommended—even if your roof looks fine from the ground.</p>
+
+<h2 id="document-damage" class="text-2xl font-bold text-secondary mt-10 mb-4">How to Document Roof Damage for Insurance</h2>
+
+<p class="text-gray-600 mb-4">Proper documentation is crucial for insurance claims:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Photo Documentation</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Take wide shots showing overall roof condition</li>
+<li>Take close-ups of specific damage areas</li>
+<li>Photograph interior damage (stains, leaks)</li>
+<li>Include date stamps on all photos</li>
+<li>Photograph debris that caused damage if identifiable</li>
+<li>Document damage to related areas (gutters, siding)</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Written Documentation</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Note the date and time of the storm</li>
+<li>Describe damage locations and extent</li>
+<li>Record when you first noticed damage</li>
+<li>Keep all communication with insurance company</li>
+<li>Save receipts for emergency repairs</li>
+</ul>
+
+<h2 id="insurance-claim" class="text-2xl font-bold text-secondary mt-10 mb-4">Filing a Hurricane Damage Insurance Claim</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Steps to File</h3>
+
+<ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Contact Your Insurance Company:</strong> Report damage as soon as possible</li>
+<li><strong>Get a Claim Number:</strong> Document this for all future communications</li>
+<li><strong>Schedule Adjuster Visit:</strong> Insurance will send someone to assess damage</li>
+<li><strong>Get Professional Estimates:</strong> Have a licensed roofer provide a detailed estimate</li>
+<li><strong>Be Present During Inspection:</strong> Point out all damage to the adjuster</li>
+<li><strong>Review Settlement Offer:</strong> Compare to contractor estimates</li>
+<li><strong>Negotiate if Needed:</strong> You can dispute inadequate settlements</li>
+</ol>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Important Florida Insurance Notes</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Florida law requires insurers to acknowledge claims within 14 days</li>
+<li>Most policies have hurricane deductibles (often 2-5% of home value)</li>
+<li>You have the right to get your own estimate and dispute settlements</li>
+<li>Consider a public adjuster for large or disputed claims</li>
+</ul>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we work with insurance companies regularly and can help document damage for your claim. Our <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof repair</a> services are available 24/7 for storm damage.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Hurricane Roof Damage</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Check your roof within 24-48 hours</strong> after a hurricane passes safely</li>
+<li>• <strong>Look for:</strong> Missing shingles, lifted edges, creasing, granule loss, flashing damage</li>
+<li>• <strong>Check inside too:</strong> Attic water stains, daylight through roof, wet insulation</li>
+<li>• <strong>Document everything:</strong> Photos with dates, written descriptions, damage locations</li>
+<li>• <strong>File insurance claims promptly:</strong> Florida has time limits for claims</li>
+<li>• <strong>Get professional inspection:</strong> Hidden damage requires expert assessment</li>
+<li>• <strong>Don't wait to repair:</strong> Small damage becomes big damage with the next rain</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Need a post-hurricane roof inspection? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free assessment. We'll document damage, work with your insurance, and get your roof repaired quickly. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How do I know if my roof is damaged after a hurricane?", answer: "Look for missing or displaced shingles, lifted edges, granules in gutters, damaged flashing, dents in metal components, and debris impact marks. Inside, check the attic for water stains, daylight through the roof, and wet insulation." },
+      { question: "Should I get on my roof after a hurricane to check for damage?", answer: "No. It's safer to inspect from the ground with binoculars, check inside the attic, and walk the perimeter looking for debris. Have a professional roofer conduct the actual roof inspection—they have proper safety equipment and training." },
+      { question: "How long do I have to file an insurance claim for hurricane damage in Florida?", answer: "Florida law typically requires claims to be filed within 3 years of the loss, but policies may have shorter requirements. File as soon as possible—fresh damage is easier to document and attribute to the specific storm. Report damage promptly to meet notice requirements." },
+      { question: "What if my insurance company denies my roof damage claim?", answer: "You can dispute denied claims. Options include: getting an independent estimate from a licensed roofer, requesting re-inspection, hiring a public adjuster to represent you, or consulting an attorney for significant disputes. Document everything." },
+      { question: "Can I make temporary repairs before the insurance adjuster comes?", answer: "Yes, you should prevent further damage with temporary repairs (tarping, etc.). Document the damage with photos first, keep receipts for materials, and don't make permanent repairs until after the adjuster visits. Emergency repairs are expected and covered." }
     ]
   }
 ]
