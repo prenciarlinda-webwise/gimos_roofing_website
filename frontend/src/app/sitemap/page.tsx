@@ -44,7 +44,7 @@ const locationPages = [
 const today = new Date().toISOString().split('T')[0]
 const blogPosts = allBlogPosts
   .filter(post => !post.publishDate || post.publishDate <= today)
-  .map(post => ({ title: post.title, href: \`/blog/\${post.slug}\` }))
+  .map(post => ({ title: post.title, href: `/blog/${post.slug}` }))
 
 export default function SitemapPage() {
   return (
