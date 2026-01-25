@@ -5508,6 +5508,1032 @@ export const blogPosts: BlogPost[] = [
       { question: "Does insurance cover roof replacement in Florida?", answer: "Insurance covers roof replacement if damage was caused by a covered peril (hurricane, wind, hail, fallen tree). Normal wear and tear isn't covered. Age-related replacement isn't covered. If your roof was damaged in a storm, file a claim promptly." },
       { question: "Can I finance a new roof in Jacksonville?", answer: "Yes. Gimo's Roofing offers financing starting at $99/month. Other options include home equity loans, HELOCs, and personal loans. Financing lets you replace your roof now and pay over time, avoiding further damage from an aging roof." }
     ]
+  },
+  {
+    slug: "best-time-replace-roof-florida",
+    title: "Best Time to Replace Your Roof in Florida: Seasonal Guide",
+    metaTitle: "Best Time to Replace Your Roof in Florida: When to Schedule",
+    excerpt: "The best time to replace your roof in Florida is late fall through early spring (October-April) when hurricane season ends and weather is mild. Learn why timing matters and how to plan your roof replacement.",
+    keywords: ["best time to replace roof florida", "when to replace roof", "roof replacement timing", "florida roofing season", "schedule roof replacement"],
+    category: "Homeowner Tips",
+    date: "2026-03-16",
+    publishDate: "2026-03-16",
+    readTime: "7 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/roof-replacement-jacksonville.webp",
+    imageAlt: "Roof replacement project in Jacksonville FL during optimal weather",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Answer" },
+      { id: "best-months", title: "Best Months by Season" },
+      { id: "avoid", title: "Times to Avoid" },
+      { id: "factors", title: "Factors to Consider" },
+      { id: "emergency", title: "Emergency Situations" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">The best time to replace your roof in Florida is October through April—after hurricane season ends and before summer storms begin. Late fall and winter offer mild temperatures, lower humidity, and more predictable weather. However, don't delay a failing roof waiting for "perfect" timing—a leaking roof causes damage year-round.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Florida Roof Replacement: Best Times</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Best:</strong></td><td>October - April (dry season, mild temps)</td></tr>
+<tr><td class="py-1"><strong>Good:</strong></td><td>May, early June (before peak storms)</td></tr>
+<tr><td class="py-1"><strong>Challenging:</strong></td><td>July - September (hurricane season peak)</td></tr>
+<tr><td class="py-1"><strong>Emergency:</strong></td><td>Any time—don't wait if roof is failing</td></tr>
+</table>
+</div>
+
+<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-10 mb-4">When Is the Best Time to Replace a Roof in Florida?</h2>
+
+<p class="text-gray-600 mb-4">For planned roof replacement in Jacksonville, schedule between October and April. This window offers:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>No Hurricane Risk:</strong> Hurricane season officially ends November 30</li>
+<li><strong>Lower Humidity:</strong> Materials install better in drier conditions</li>
+<li><strong>Mild Temperatures:</strong> Shingles seal properly without extreme heat</li>
+<li><strong>Predictable Weather:</strong> Fewer afternoon thunderstorms</li>
+<li><strong>Contractor Availability:</strong> Less emergency storm work means more scheduling flexibility</li>
+</ul>
+
+<h2 id="best-months" class="text-2xl font-bold text-secondary mt-10 mb-4">Best Months for Roof Replacement by Season</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Fall (October - November): Excellent</h3>
+
+<p class="text-gray-600 mb-6">October and November are ideal. Hurricane season winds down, temperatures cool to the 70s-80s, and humidity drops. Contractors are transitioning from emergency repairs to scheduled work, so availability improves.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Winter (December - February): Excellent</h3>
+
+<p class="text-gray-600 mb-6">Florida's "winter" is perfect for roofing. Temperatures in the 50s-70s are comfortable for crews, rain is infrequent, and you'll have the widest contractor availability. Some homeowners find slightly better pricing during this slower season.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Spring (March - April): Very Good</h3>
+
+<p class="text-gray-600 mb-6">Early spring remains excellent—dry weather continues through April. As temperatures rise, shingle adhesives activate quickly, ensuring proper sealing. Schedule before May when storm activity increases.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Late Spring/Early Summer (May - June): Good with Caution</h3>
+
+<p class="text-gray-600 mb-6">Roofing is still possible but afternoon thunderstorms become common. Contractors work around weather, which may extend your project timeline. Heat increases, making work more challenging.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Summer/Hurricane Season (July - September): Challenging</h3>
+
+<p class="text-gray-600 mb-6">The most challenging time. Daily afternoon storms, extreme heat, and hurricane risk make scheduling difficult. Contractors focus on emergency repairs. Only replace during this period if absolutely necessary.</p>
+
+<h2 id="avoid" class="text-2xl font-bold text-secondary mt-10 mb-4">Times to Avoid (If Possible)</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Active Hurricane Threats:</strong> Never start a roof project when a storm is approaching</li>
+<li><strong>Immediately After Major Storms:</strong> Contractors are overwhelmed; prices spike</li>
+<li><strong>Extended Rain Forecasts:</strong> Multiple rainy days in forecast can delay completion</li>
+<li><strong>Extreme Heat Waves:</strong> 95°F+ temperatures affect installation quality and worker safety</li>
+</ul>
+
+<h2 id="factors" class="text-2xl font-bold text-secondary mt-10 mb-4">Factors to Consider When Timing Your Replacement</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">1. Current Roof Condition</h3>
+
+<p class="text-gray-600 mb-6">If your roof is actively leaking or failing, don't wait for "perfect" timing. Water damage costs far more than any scheduling inconvenience. A failing roof is an emergency regardless of season.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">2. Insurance Requirements</h3>
+
+<p class="text-gray-600 mb-6">If your insurance company has given you a deadline for roof replacement, meet it regardless of season. Losing coverage is worse than suboptimal weather.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">3. Your Schedule</h3>
+
+<p class="text-gray-600 mb-6">Roof replacement takes 1-3 days for most homes. Consider when you can be home (or away) and when noise/disruption works best for your household.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">4. Budget and Financing</h3>
+
+<p class="text-gray-600 mb-6">If you need to save or arrange <a href="/blog/roofing-financing-options-jacksonville" class="text-primary hover:underline">financing</a>, plan ahead. Getting quotes in summer for a fall installation gives time to prepare.</p>
+
+<h2 id="emergency" class="text-2xl font-bold text-secondary mt-10 mb-4">Emergency Situations: Replace Any Time</h2>
+
+<p class="text-gray-600 mb-4">Don't wait for "the right season" if:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Your roof is actively leaking into living spaces</li>
+<li>Major storm damage has occurred</li>
+<li>Insurance requires replacement by a deadline</li>
+<li>Structural issues are present (sagging, rot)</li>
+<li>Multiple areas show failure</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Our <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof repair</a> services are available year-round for urgent situations.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Best Time to Replace Your Florida Roof</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>October - April is ideal</strong> for planned roof replacement in Florida</li>
+<li>• <strong>Winter months offer best conditions:</strong> mild temps, low humidity, no storms</li>
+<li>• <strong>Hurricane season (July-September)</strong> is most challenging but still possible</li>
+<li>• <strong>Don't delay a failing roof</strong> waiting for perfect timing</li>
+<li>• <strong>Plan ahead:</strong> Get quotes before peak season for better availability</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Ready to schedule your roof replacement? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free estimate. We'll help you find the best timing for your project. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "What is the best month to replace a roof in Florida?", answer: "October through February are the best months for roof replacement in Florida. Hurricane season has ended, temperatures are mild (50s-70s), humidity is lower, and rain is infrequent. Contractor availability is also typically better during these months." },
+      { question: "Can you replace a roof during Florida's rainy season?", answer: "Yes, but it's more challenging. May through September brings daily afternoon thunderstorms. Contractors work around weather, which may extend project timelines. Roofing is still possible—your roof won't be left exposed overnight—but scheduling is less predictable." },
+      { question: "Should I wait until after hurricane season to replace my roof?", answer: "If your roof can safely wait, yes—October through April offers better conditions. However, if your roof is actively failing, don't wait. A compromised roof during hurricane season is far more dangerous than replacing during suboptimal weather." },
+      { question: "Is roof replacement cheaper in winter in Florida?", answer: "Sometimes slightly. Winter is the slower season for Florida roofers, so you may find better availability and occasionally better pricing. The bigger advantage is scheduling flexibility and ideal weather conditions rather than significant cost savings." },
+      { question: "How long does a roof replacement take in Florida?", answer: "Most residential roof replacements in Jacksonville take 1-3 days depending on size, complexity, and weather. Simple roofs may complete in one day; complex roofs with multiple levels, dormers, or steep pitches take longer." }
+    ]
+  },
+  {
+    slug: "roof-warranty-guide-florida",
+    title: "Understanding Roof Warranties in Florida: Complete Guide",
+    metaTitle: "Roof Warranty Guide: What Florida Homeowners Need to Know",
+    excerpt: "Roof warranties include manufacturer material warranty (25-50 years) and contractor workmanship warranty (5-10 years). Learn what's covered, what voids warranties, and how to protect your investment.",
+    keywords: ["roof warranty", "roofing warranty florida", "shingle warranty", "workmanship warranty", "roof warranty coverage"],
+    category: "Homeowner Tips",
+    date: "2026-03-19",
+    publishDate: "2026-03-19",
+    readTime: "9 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/roof-replacement-jacksonville.webp",
+    imageAlt: "New roof installation with warranty coverage in Jacksonville FL",
+    tableOfContents: [
+      { id: "types", title: "Types of Roof Warranties" },
+      { id: "manufacturer", title: "Manufacturer Warranties" },
+      { id: "workmanship", title: "Workmanship Warranties" },
+      { id: "whats-covered", title: "What's Covered" },
+      { id: "voids", title: "What Voids Warranties" },
+      { id: "tips", title: "Warranty Protection Tips" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Roof warranties have two parts: the manufacturer warranty covering materials (typically 25-50 years) and the contractor's workmanship warranty covering installation (typically 5-10 years). Understanding what's covered—and what voids coverage—protects your investment. Most roof problems are installation-related, making the workmanship warranty especially important.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Roof Warranty Basics</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Manufacturer Warranty:</strong></td><td>25-50 years (covers defective materials)</td></tr>
+<tr><td class="py-1"><strong>Workmanship Warranty:</strong></td><td>5-10 years (covers installation errors)</td></tr>
+<tr><td class="py-1"><strong>Most Claims:</strong></td><td>Installation issues (workmanship)</td></tr>
+<tr><td class="py-1"><strong>Key Document:</strong></td><td>Keep warranty paperwork with home records</td></tr>
+</table>
+</div>
+
+<h2 id="types" class="text-2xl font-bold text-secondary mt-10 mb-4">Types of Roof Warranties</h2>
+
+<p class="text-gray-600 mb-4">Every roof replacement should include two warranties:</p>
+
+<ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Manufacturer Warranty:</strong> From the shingle/material manufacturer (GAF, Owens Corning, CertainTeed, etc.)</li>
+<li><strong>Workmanship Warranty:</strong> From your roofing contractor covering their installation work</li>
+</ol>
+
+<p class="text-gray-600 mb-6">These are separate warranties with different coverage, terms, and claim processes. You need both for complete protection.</p>
+
+<h2 id="manufacturer" class="text-2xl font-bold text-secondary mt-10 mb-4">Understanding Manufacturer Warranties</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What Manufacturer Warranties Cover</h3>
+
+<p class="text-gray-600 mb-4">Manufacturer warranties cover defects in the roofing materials themselves:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Manufacturing defects in shingles</li>
+<li>Premature granule loss beyond normal wear</li>
+<li>Algae discoloration (on algae-resistant shingles)</li>
+<li>Wind damage up to rated speed (if properly installed)</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Common Warranty Levels</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Standard Warranty (25-30 years):</strong> Basic coverage, prorated after initial period</li>
+<li><strong>Limited Lifetime:</strong> Covers materials for "lifetime" but often prorated after 10-20 years</li>
+<li><strong>Enhanced/System Warranty (50 years):</strong> Available when certified contractor uses all matching system components</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Important: Prorated Coverage</h3>
+
+<p class="text-gray-600 mb-6">Most manufacturer warranties are prorated after an initial period. A "50-year warranty" doesn't mean free replacement at year 30—you'd receive a percentage of the original value based on age. Read the fine print to understand actual coverage.</p>
+
+<h2 id="workmanship" class="text-2xl font-bold text-secondary mt-10 mb-4">Understanding Workmanship Warranties</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Why Workmanship Warranties Matter Most</h3>
+
+<p class="text-gray-600 mb-4">Here's a reality most homeowners don't know: the vast majority of roof problems come from installation errors, not material defects. A workmanship warranty covers:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Improper shingle installation</li>
+<li>Flashing errors around penetrations</li>
+<li>Incorrect nail placement</li>
+<li>Ventilation installation issues</li>
+<li>Underlayment problems</li>
+<li>Any leak caused by installation error</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What to Look For</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Length:</strong> Minimum 5 years; 10 years is better</li>
+<li><strong>Coverage:</strong> Should cover labor AND materials for repairs</li>
+<li><strong>Transferability:</strong> Can it transfer to new owner if you sell?</li>
+<li><strong>In Writing:</strong> Must be documented, not just verbal</li>
+</ul>
+
+<div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
+<p class="text-yellow-700 font-semibold mb-2">Important Warning</p>
+<p class="text-yellow-600">A manufacturer warranty is worthless if your roof fails due to installation error. The manufacturer will deny the claim and point to improper installation. Your only protection is the contractor's workmanship warranty—choose contractors who stand behind their work.</p>
+</div>
+
+<h2 id="whats-covered" class="text-2xl font-bold text-secondary mt-10 mb-4">What's Typically NOT Covered</h2>
+
+<p class="text-gray-600 mb-4">Most roof warranties exclude:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Acts of God:</strong> Hurricane, tornado, hail (this is what insurance is for)</li>
+<li><strong>Normal Wear:</strong> Gradual aging and weathering</li>
+<li><strong>Improper Maintenance:</strong> Damage from neglect</li>
+<li><strong>Unauthorized Repairs:</strong> Work by non-approved contractors</li>
+<li><strong>Structural Issues:</strong> Problems with the roof deck or structure</li>
+<li><strong>Consequential Damage:</strong> Interior damage from leaks</li>
+<li><strong>Color Changes:</strong> Normal fading or weathering appearance</li>
+</ul>
+
+<h2 id="voids" class="text-2xl font-bold text-secondary mt-10 mb-4">What Can Void Your Roof Warranty</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Actions That Void Warranties</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Pressure Washing:</strong> Removes granules and damages shingles</li>
+<li><strong>Walking on Roof:</strong> Excessive foot traffic damages shingles</li>
+<li><strong>Unauthorized Repairs:</strong> Having non-certified contractors do work</li>
+<li><strong>Adding Penetrations:</strong> Satellite dishes, solar panels without proper flashing</li>
+<li><strong>Improper Ventilation Changes:</strong> Blocking or altering attic ventilation</li>
+<li><strong>Failing to Maintain:</strong> Ignoring obvious problems</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Documentation Issues</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Lost warranty paperwork (keep copies!)</li>
+<li>Not registering warranty when required</li>
+<li>Failing to report problems promptly</li>
+</ul>
+
+<h2 id="tips" class="text-2xl font-bold text-secondary mt-10 mb-4">Tips to Protect Your Warranty</h2>
+
+<ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Keep All Paperwork:</strong> Store warranty documents, contracts, and receipts with home records</li>
+<li><strong>Register Your Warranty:</strong> Many manufacturers require registration within 30-60 days</li>
+<li><strong>Use Certified Contractors:</strong> For any future repairs, use manufacturer-certified contractors</li>
+<li><strong>Document Maintenance:</strong> Keep records of inspections and maintenance</li>
+<li><strong>Report Problems Quickly:</strong> Don't delay reporting issues to contractor or manufacturer</li>
+<li><strong>Avoid DIY Repairs:</strong> Unauthorized repairs can void coverage</li>
+<li><strong>Get Annual Inspections:</strong> Professional inspections document roof condition</li>
+</ol>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we provide comprehensive workmanship warranties and help you understand your manufacturer warranty options. Ask about our warranty coverage when getting your <a href="/contact" class="text-primary hover:underline">free estimate</a>.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Roof Warranties</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Two warranties needed:</strong> Manufacturer (materials) AND contractor (workmanship)</li>
+<li>• <strong>Workmanship warranty is critical:</strong> Most problems are installation-related</li>
+<li>• <strong>Read the fine print:</strong> Understand prorated coverage and exclusions</li>
+<li>• <strong>Keep documentation:</strong> Store all warranty paperwork safely</li>
+<li>• <strong>Avoid warranty-voiding actions:</strong> No pressure washing, unauthorized repairs</li>
+<li>• <strong>Register when required:</strong> Some warranties require registration</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Questions about roof warranties? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for expert guidance. We'll explain your warranty options and stand behind our work. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "What does a roof warranty cover?", answer: "Roof warranties have two parts: manufacturer warranty covers defective materials (25-50 years), and contractor workmanship warranty covers installation errors (5-10 years). Most roof problems are installation-related, making the workmanship warranty especially important." },
+      { question: "How long should a roof warranty last?", answer: "Manufacturer warranties typically range from 25-50 years (often prorated). Workmanship warranties from contractors should be at least 5 years; 10 years is better. Get both warranties in writing before work begins." },
+      { question: "What voids a roof warranty?", answer: "Common warranty-voiding actions include: pressure washing shingles, unauthorized repairs by non-certified contractors, adding penetrations without proper flashing, excessive foot traffic, and failing to maintain the roof or report problems promptly." },
+      { question: "Is a roof warranty transferable when I sell my house?", answer: "It depends on the warranty terms. Many manufacturer warranties are transferable to new owners (sometimes with a transfer fee or time limit). Contractor workmanship warranties may or may not transfer—check your specific warranty documents." },
+      { question: "Do I need to register my roof warranty?", answer: "Many manufacturers require warranty registration within 30-60 days of installation to receive full coverage. Check your warranty documents and register if required. Your contractor may handle this for you—ask to confirm." }
+    ]
+  },
+  {
+    slug: "emergency-roof-repair-what-to-do",
+    title: "Emergency Roof Repair: What to Do When Your Roof Is Leaking",
+    metaTitle: "Emergency Roof Repair: What to Do When Your Roof Leaks",
+    excerpt: "When your roof is leaking, contain the water, document damage, and call a professional immediately. Learn the emergency steps to minimize damage and what to expect from emergency roof repair services.",
+    keywords: ["emergency roof repair", "roof leaking what to do", "emergency roofer", "roof leak emergency", "24 hour roof repair"],
+    category: "Emergency",
+    date: "2026-03-22",
+    publishDate: "2026-03-22",
+    readTime: "7 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/storm-damage-repair-jacksonville.webp",
+    imageAlt: "Emergency roof repair in progress in Jacksonville FL",
+    tableOfContents: [
+      { id: "immediate-steps", title: "Immediate Steps" },
+      { id: "contain-water", title: "Containing the Water" },
+      { id: "document", title: "Document the Damage" },
+      { id: "call-professional", title: "Calling a Professional" },
+      { id: "what-expect", title: "What to Expect" },
+      { id: "temporary-repairs", title: "Temporary Repairs" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">When your roof is actively leaking: (1) Move valuables away from the leak, (2) Place buckets or containers to catch water, (3) Document the damage with photos, (4) Call an emergency roofing professional immediately. Do not attempt to climb on a wet roof. Emergency roof repair services can typically respond within hours to prevent further damage.</p>
+
+<div class="bg-red-50 border-l-4 border-red-500 p-6 my-8">
+<p class="text-red-700 font-semibold mb-2">Roof Emergency? Call Now</p>
+<p class="text-red-600">If your roof is actively leaking, call Gimo's Roofing at <a href="tel:+19046065313" class="text-red-700 underline font-bold">(904) 606-5313</a> for 24/7 emergency service. We respond quickly to prevent water damage to your home.</p>
+</div>
+
+<h2 id="immediate-steps" class="text-2xl font-bold text-secondary mt-10 mb-4">Immediate Steps When Your Roof Is Leaking</h2>
+
+<p class="text-gray-600 mb-4">Take these steps immediately to minimize damage:</p>
+
+<ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-3">
+<li><strong>Stay Calm and Safe:</strong> Don't panic. Avoid electrical hazards near water.</li>
+<li><strong>Move Valuables:</strong> Get furniture, electronics, and important items away from the leak area.</li>
+<li><strong>Contain the Water:</strong> Place buckets, pots, or containers under drips.</li>
+<li><strong>Protect Floors:</strong> Use towels or plastic sheets to protect flooring.</li>
+<li><strong>Document Everything:</strong> Take photos and videos before cleanup.</li>
+<li><strong>Call a Professional:</strong> Contact an emergency roofer immediately.</li>
+</ol>
+
+<h2 id="contain-water" class="text-2xl font-bold text-secondary mt-10 mb-4">How to Contain Water from a Roof Leak</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">For Active Dripping</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Place large containers under drips</li>
+<li>Empty containers before they overflow</li>
+<li>Use towels around container bases to catch splashes</li>
+<li>Consider a wet/dry vacuum for pooling water</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">For Bulging Ceiling</h3>
+
+<p class="text-gray-600 mb-4">If your ceiling is bulging with water:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Place a large container beneath the bulge</li>
+<li>Carefully puncture the center with a screwdriver</li>
+<li>This controlled release prevents ceiling collapse</li>
+<li>Let water drain into the container</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Yes, this creates a hole—but a small controlled hole is far better than a collapsed ceiling causing extensive damage.</p>
+
+<h2 id="document" class="text-2xl font-bold text-secondary mt-10 mb-4">Document the Damage for Insurance</h2>
+
+<p class="text-gray-600 mb-4">Before major cleanup, document everything:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Photos:</strong> Take wide shots and close-ups of damage</li>
+<li><strong>Video:</strong> Walk through showing extent of water intrusion</li>
+<li><strong>Written Notes:</strong> Record date, time, and conditions</li>
+<li><strong>Save Damaged Items:</strong> Don't throw away damaged items until insurance sees them</li>
+<li><strong>Keep Receipts:</strong> Document emergency repair costs and supplies</li>
+</ul>
+
+<p class="text-gray-600 mb-6">This documentation is essential for insurance claims. The more thorough your records, the smoother the claims process.</p>
+
+<h2 id="call-professional" class="text-2xl font-bold text-secondary mt-10 mb-4">Calling an Emergency Roofing Professional</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What to Tell Them</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Location and extent of leak(s)</li>
+<li>When it started</li>
+<li>Current weather conditions</li>
+<li>Whether leak is getting worse</li>
+<li>Any known roof damage or issues</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What to Expect</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Response within hours (not days) for true emergencies</li>
+<li>Temporary repair to stop the leak</li>
+<li>Assessment of damage extent</li>
+<li>Plan for permanent repair</li>
+<li>Help with insurance documentation if needed</li>
+</ul>
+
+<h2 id="what-expect" class="text-2xl font-bold text-secondary mt-10 mb-4">What Emergency Roof Repair Involves</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Temporary Repairs</h3>
+
+<p class="text-gray-600 mb-4">Emergency repairs focus on stopping water intrusion:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Tarping:</strong> Covering damaged areas with heavy-duty tarps</li>
+<li><strong>Sealing:</strong> Temporary sealants on small penetrations</li>
+<li><strong>Board-Up:</strong> Covering holes from fallen debris</li>
+<li><strong>Temporary Flashing:</strong> Emergency repairs to failed flashing</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Permanent Repair Planning</h3>
+
+<p class="text-gray-600 mb-6">After the emergency is contained, your roofer will assess total damage and plan permanent repairs. This may include insurance coordination, material ordering, and scheduling.</p>
+
+<h2 id="temporary-repairs" class="text-2xl font-bold text-secondary mt-10 mb-4">Can I Do Temporary Repairs Myself?</h2>
+
+<p class="text-gray-600 mb-4">Minor interior protection is safe for homeowners:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>✓ Placing containers under leaks</li>
+<li>✓ Moving furniture and valuables</li>
+<li>✓ Putting down plastic sheeting</li>
+<li>✓ Puncturing bulging ceiling (carefully)</li>
+</ul>
+
+<p class="text-gray-600 mb-4">Leave these to professionals:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>✗ Climbing on a wet roof</li>
+<li>✗ Installing tarps during storms</li>
+<li>✗ Roof repairs of any kind</li>
+<li>✗ Working near power lines or electrical</li>
+</ul>
+
+<div class="bg-red-50 border-l-4 border-red-500 p-6 my-8">
+<p class="text-red-700 font-semibold mb-2">Safety Warning</p>
+<p class="text-red-600">Never climb on a wet roof. Falls are the leading cause of roofing injuries and deaths. Even professionals avoid wet roofs when possible. Wait for conditions to improve or let professionals with proper safety equipment handle it.</p>
+</div>
+
+<p class="text-gray-600 mb-6">Our <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof repair services</a> are available 24/7 throughout Jacksonville. We respond quickly to protect your home.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Emergency Roof Repair</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Act immediately:</strong> Contain water, protect valuables, call a professional</li>
+<li>• <strong>Document everything:</strong> Photos, videos, and notes for insurance</li>
+<li>• <strong>Don't climb on wet roofs:</strong> Leave roof access to professionals</li>
+<li>• <strong>Puncture bulging ceilings:</strong> Controlled release prevents collapse</li>
+<li>• <strong>Emergency services respond quickly:</strong> Expect help within hours</li>
+<li>• <strong>Temporary repairs come first:</strong> Stop the leak, then plan permanent fix</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Roof emergency? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> immediately at <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>. We're available 24/7 for Jacksonville roof emergencies.</p>`,
+    faqs: [
+      { question: "What should I do if my roof is leaking?", answer: "Immediately: (1) Move valuables away from the leak, (2) Place containers to catch water, (3) Document damage with photos, (4) Call an emergency roofer. Don't attempt to climb on a wet roof—wait for professionals." },
+      { question: "How quickly can emergency roof repair be done?", answer: "Emergency roofers typically respond within hours for active leaks. Initial temporary repairs (tarping, sealing) can usually be completed the same day. Permanent repairs are scheduled after the emergency is contained." },
+      { question: "Should I put a tarp on my roof myself?", answer: "No. Installing tarps requires climbing on a potentially wet, damaged roof—which is extremely dangerous. Professional roofers have safety equipment and training for this work. Focus on interior protection and call a professional." },
+      { question: "Will insurance cover emergency roof repair?", answer: "If the damage was caused by a covered event (storm, fallen tree, etc.), insurance typically covers emergency repairs. Document everything with photos before cleanup, keep receipts, and file your claim promptly." },
+      { question: "How much does emergency roof repair cost?", answer: "Emergency roof repair costs vary based on damage extent and repairs needed. Temporary repairs (tarping) may cost $200-$500+. Permanent repairs depend on damage. Many emergency repairs are covered by insurance when storm-related." }
+    ]
+  },
+  {
+    slug: "roof-leak-repair-guide-jacksonville",
+    title: "Roof Leak Repair in Jacksonville: Causes, Costs, and Solutions",
+    metaTitle: "Roof Leak Repair Jacksonville FL: Find and Fix Leaks",
+    excerpt: "Roof leaks in Jacksonville are commonly caused by damaged flashing, worn shingles, or clogged gutters. Repairs cost $150-$1,000+ depending on severity. Learn how to identify leak sources and when to repair vs replace.",
+    keywords: ["roof leak repair jacksonville", "fix roof leak", "roof leak cost", "find roof leak", "leaking roof repair"],
+    category: "Roof Repair",
+    date: "2026-03-25",
+    publishDate: "2026-03-25",
+    readTime: "9 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/roof-repair-in-progress-jacksonville.webp",
+    imageAlt: "Roof leak repair being performed in Jacksonville FL",
+    tableOfContents: [
+      { id: "common-causes", title: "Common Leak Causes" },
+      { id: "finding-leaks", title: "Finding the Source" },
+      { id: "repair-costs", title: "Repair Costs" },
+      { id: "diy-vs-pro", title: "DIY vs Professional" },
+      { id: "repair-vs-replace", title: "Repair vs Replace" },
+      { id: "prevention", title: "Prevention Tips" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Most roof leaks in Jacksonville are caused by damaged flashing, worn or missing shingles, or clogged gutters—not necessarily a failing roof. Simple repairs cost $150-$400, while more complex issues run $500-$1,000+. Finding the leak source is often harder than fixing it, as water can travel far from the entry point before dripping into your home.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Roof Leak Repair: Quick Facts</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Minor Repairs:</strong></td><td>$150-$400 (small areas, simple fixes)</td></tr>
+<tr><td class="py-1"><strong>Moderate Repairs:</strong></td><td>$400-$1,000 (flashing, multiple areas)</td></tr>
+<tr><td class="py-1"><strong>Major Repairs:</strong></td><td>$1,000+ (structural, large areas)</td></tr>
+<tr><td class="py-1"><strong>Most Common Cause:</strong></td><td>Flashing failure around penetrations</td></tr>
+</table>
+</div>
+
+<h2 id="common-causes" class="text-2xl font-bold text-secondary mt-10 mb-4">Common Causes of Roof Leaks in Jacksonville</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">1. Damaged or Deteriorated Flashing</h3>
+
+<p class="text-gray-600 mb-6">Flashing seals around vents, pipes, chimneys, and where the roof meets walls. Florida's UV radiation and thermal cycling degrade sealants and can cause flashing to lift or crack. This is the #1 cause of roof leaks.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">2. Missing or Damaged Shingles</h3>
+
+<p class="text-gray-600 mb-6">Wind lifts and removes shingles, especially on older roofs. Even shingles that aren't missing may have broken seals, allowing water underneath. Check for missing pieces after every storm.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">3. Clogged Gutters</h3>
+
+<p class="text-gray-600 mb-6">Clogged gutters cause water to back up under shingles and into fascia boards. Jacksonville's oak trees shed leaves year-round, making gutter maintenance essential.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">4. Roof Penetration Issues</h3>
+
+<p class="text-gray-600 mb-6">Every hole in your roof (vents, pipes, skylights, satellite dishes) is a potential leak point. Sealants around these penetrations fail over time and need maintenance.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">5. Valley Damage</h3>
+
+<p class="text-gray-600 mb-6">Roof valleys channel large amounts of water. If valley flashing is damaged or debris accumulates, water can penetrate. Valleys are high-stress areas that need regular inspection.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">6. Age-Related Wear</h3>
+
+<p class="text-gray-600 mb-6">As shingles age, they lose flexibility, granules, and waterproofing ability. Multiple leaks appearing on an older roof often indicate it's time for replacement rather than repair.</p>
+
+<h2 id="finding-leaks" class="text-2xl font-bold text-secondary mt-10 mb-4">How to Find Where Your Roof Is Leaking</h2>
+
+<p class="text-gray-600 mb-4">Finding the leak source is often the hardest part. Water can enter in one spot and travel along rafters or sheathing before dripping into your home feet away from the actual entry point.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Start in the Attic</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Look for water stains, mold, or daylight</li>
+<li>Trace water marks upward toward the roof</li>
+<li>Check around penetrations (vents, pipes)</li>
+<li>Inspect valleys and where roof sections meet</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Check Common Problem Areas</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Flashing around chimney, vents, skylights</li>
+<li>Roof valleys</li>
+<li>Where roof meets walls</li>
+<li>Around satellite dishes or antennas</li>
+<li>Low points where debris collects</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">When You Can't Find It</h3>
+
+<p class="text-gray-600 mb-6">Some leaks require professional detection. Roofers use experience, water testing, and sometimes infrared cameras to locate elusive leaks. Don't guess—incorrect repairs waste money.</p>
+
+<h2 id="repair-costs" class="text-2xl font-bold text-secondary mt-10 mb-4">Roof Leak Repair Costs in Jacksonville</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Minor Repairs ($150-$400)</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Replacing a few damaged shingles</li>
+<li>Resealing around a single penetration</li>
+<li>Small flashing repairs</li>
+<li>Clearing debris from valleys</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Moderate Repairs ($400-$1,000)</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Replacing flashing sections</li>
+<li>Multiple shingle areas</li>
+<li>Valley repairs</li>
+<li>Vent boot replacement</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Major Repairs ($1,000+)</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Large section replacement</li>
+<li>Decking repair/replacement</li>
+<li>Multiple problem areas</li>
+<li>Structural repairs</li>
+</ul>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, our <a href="/services/roof-repair" class="text-primary hover:underline">roof repair services</a> start at $500 for minor repairs.</p>
+
+<h2 id="diy-vs-pro" class="text-2xl font-bold text-secondary mt-10 mb-4">DIY vs Professional Roof Leak Repair</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">When DIY Might Work</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Replacing a single loose shingle (if you're comfortable on roofs)</li>
+<li>Applying sealant to a visible, accessible crack</li>
+<li>Clearing gutter clogs</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">When to Call a Professional</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>You can't find the leak source</li>
+<li>Flashing needs repair or replacement</li>
+<li>Multiple areas are affected</li>
+<li>Leak recurs after DIY repair</li>
+<li>Roof is steep or you're uncomfortable with heights</li>
+<li>Any structural concerns</li>
+</ul>
+
+<h2 id="repair-vs-replace" class="text-2xl font-bold text-secondary mt-10 mb-4">Should You Repair or Replace Your Roof?</h2>
+
+<p class="text-gray-600 mb-4">The repair vs replace decision depends on several factors:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Consider Repair When:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Roof is less than 10-12 years old</li>
+<li>Damage is localized to one area</li>
+<li>Single leak with identifiable cause</li>
+<li>Repair cost is under 30% of replacement cost</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Consider Replacement When:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Roof is over 15 years old (shingles in Florida)</li>
+<li>Multiple leaks in different areas</li>
+<li>Recurring leaks despite repairs</li>
+<li>Widespread shingle deterioration</li>
+<li>Insurance requires replacement</li>
+</ul>
+
+<h2 id="prevention" class="text-2xl font-bold text-secondary mt-10 mb-4">Preventing Future Roof Leaks</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Annual Inspections:</strong> Catch problems before they become leaks</li>
+<li><strong>Keep Gutters Clean:</strong> Prevents water backup and ice dams</li>
+<li><strong>Trim Overhanging Trees:</strong> Reduces debris and physical damage</li>
+<li><strong>Address Repairs Promptly:</strong> Small problems become big ones</li>
+<li><strong>Check After Storms:</strong> Inspect for damage after severe weather</li>
+</ul>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Roof Leak Repair</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Most leaks come from flashing failure</strong>, not overall roof problems</li>
+<li>• <strong>Finding the source</strong> is often harder than fixing it</li>
+<li>• <strong>Minor repairs cost $150-$400</strong>; major repairs $1,000+</li>
+<li>• <strong>Water travels:</strong> Entry point may be far from where you see dripping</li>
+<li>• <strong>Consider replacement</strong> if roof is old or has multiple leaks</li>
+<li>• <strong>Prevention is cheaper:</strong> Annual inspections catch problems early</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Have a roof leak? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for professional diagnosis and repair. We'll find the source and fix it right. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How much does it cost to fix a leaking roof?", answer: "Roof leak repairs in Jacksonville range from $150-$400 for minor fixes (few shingles, simple sealing) to $400-$1,000 for moderate repairs (flashing, multiple areas) to $1,000+ for major repairs (structural issues, large areas)." },
+      { question: "Can a roof leak be fixed from inside?", answer: "Temporary measures (catching water, sealing from attic) can help short-term, but permanent repairs must be made from outside on the roof surface. Interior-only fixes don't address the actual water entry point." },
+      { question: "Why is my roof leaking when it's not raining?", answer: "Leaks without rain are often condensation issues from poor attic ventilation, HVAC condensation line problems, or plumbing leaks. Sometimes water from earlier rain is slowly working its way through, appearing later." },
+      { question: "Is a leaking roof covered by insurance?", answer: "Sudden damage from covered events (storms, fallen trees) is typically covered. Gradual deterioration, wear and tear, and lack of maintenance are not covered. Contact your insurer if storm damage caused the leak." },
+      { question: "How long can you leave a leaking roof?", answer: "Don't leave it at all. Even small leaks cause progressive damage—rot, mold, insulation damage, structural problems. What starts as a simple repair becomes an expensive problem. Address roof leaks immediately." }
+    ]
+  },
+  {
+    slug: "roof-insurance-claim-florida-guide",
+    title: "How to File a Roof Insurance Claim in Florida: Step-by-Step Guide",
+    metaTitle: "Roof Insurance Claim Florida: How to File and Get Approved",
+    excerpt: "Filing a roof insurance claim in Florida requires documenting damage, reporting promptly, and working with adjusters. Learn the steps to file successfully and avoid common claim denial reasons.",
+    keywords: ["roof insurance claim florida", "file roof claim", "roof damage insurance", "insurance claim roof", "florida roof insurance"],
+    category: "Insurance",
+    date: "2026-03-28",
+    publishDate: "2026-03-28",
+    readTime: "10 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/storm-damage-repair-jacksonville.webp",
+    imageAlt: "Roof damage documentation for insurance claim in Jacksonville FL",
+    tableOfContents: [
+      { id: "when-file", title: "When to File a Claim" },
+      { id: "steps", title: "Step-by-Step Process" },
+      { id: "documentation", title: "Documentation Needed" },
+      { id: "adjuster-visit", title: "Working with Adjusters" },
+      { id: "denial-reasons", title: "Common Denial Reasons" },
+      { id: "disputes", title: "Disputing Decisions" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">To file a Florida roof insurance claim: document all damage with photos/videos immediately, contact your insurance company within 24-48 hours, get a professional inspection for documentation, be present during the adjuster's visit, and get your own repair estimate to compare. Florida law gives insurers limited time to respond and pay valid claims.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Roof Insurance Claim: Key Timelines</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Report Damage:</strong></td><td>Within 24-48 hours (ASAP)</td></tr>
+<tr><td class="py-1"><strong>Insurer Must Acknowledge:</strong></td><td>Within 14 days</td></tr>
+<tr><td class="py-1"><strong>Insurer Must Decide:</strong></td><td>Within 90 days (typically)</td></tr>
+<tr><td class="py-1"><strong>Claim Filing Deadline:</strong></td><td>Check your policy (often 1-3 years)</td></tr>
+</table>
+</div>
+
+<h2 id="when-file" class="text-2xl font-bold text-secondary mt-10 mb-4">When Should You File a Roof Insurance Claim?</h2>
+
+<p class="text-gray-600 mb-4">File a claim when roof damage was caused by a covered peril:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Hurricane/Tropical Storm:</strong> Wind and rain damage</li>
+<li><strong>Severe Thunderstorms:</strong> Wind, hail, lightning</li>
+<li><strong>Hail:</strong> Even small hail can damage roofs</li>
+<li><strong>Fallen Trees/Debris:</strong> Impact damage</li>
+<li><strong>Tornado:</strong> Wind damage</li>
+<li><strong>Fire:</strong> Fire or smoke damage</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What's NOT Covered</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Normal wear and tear</li>
+<li>Age-related deterioration</li>
+<li>Lack of maintenance</li>
+<li>Pre-existing damage</li>
+<li>Gradual leaks (not sudden events)</li>
+<li>Flood damage (requires separate flood insurance)</li>
+</ul>
+
+<h2 id="steps" class="text-2xl font-bold text-secondary mt-10 mb-4">Step-by-Step: Filing Your Roof Insurance Claim</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Step 1: Document the Damage Immediately</h3>
+
+<p class="text-gray-600 mb-4">Before any cleanup or repairs:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Take photos and videos of all damage (roof, interior, property)</li>
+<li>Include wide shots showing extent and close-ups of specific damage</li>
+<li>Document the date and weather conditions</li>
+<li>Save any debris that caused damage</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Step 2: Prevent Further Damage</h3>
+
+<p class="text-gray-600 mb-6">Make reasonable temporary repairs to prevent additional damage (tarping, boarding up). Keep receipts—these emergency repairs are typically covered. Don't make permanent repairs until after the adjuster visits.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Step 3: Contact Your Insurance Company</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Call within 24-48 hours of discovering damage</li>
+<li>Get a claim number and write it down</li>
+<li>Ask about your specific deadlines and process</li>
+<li>Ask about your deductible amount</li>
+<li>Request everything in writing</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Step 4: Get a Professional Roof Inspection</h3>
+
+<p class="text-gray-600 mb-6">Have a licensed roofer inspect and document damage before the adjuster arrives. This gives you an independent assessment to compare with the insurance adjuster's findings.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Step 5: Meet with the Insurance Adjuster</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Be present during the inspection</li>
+<li>Point out all damage you've found</li>
+<li>Share your roofer's inspection findings</li>
+<li>Take notes on what the adjuster says</li>
+<li>Ask questions about anything unclear</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Step 6: Review the Settlement Offer</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Compare to your contractor's estimate</li>
+<li>Ensure all damage is accounted for</li>
+<li>Understand what's covered and what's not</li>
+<li>Ask for clarification on any discrepancies</li>
+</ul>
+
+<h2 id="documentation" class="text-2xl font-bold text-secondary mt-10 mb-4">What Documentation Do You Need?</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Photos/Videos:</strong> Damage from multiple angles, timestamps</li>
+<li><strong>Professional Inspection:</strong> Licensed roofer's written assessment</li>
+<li><strong>Repair Estimates:</strong> Detailed estimates from contractors</li>
+<li><strong>Receipts:</strong> Emergency repairs, temporary materials</li>
+<li><strong>Weather Records:</strong> Storm data for your area on that date</li>
+<li><strong>Previous Inspections:</strong> If you have records showing roof was in good condition</li>
+<li><strong>Communication Records:</strong> All emails, letters, notes from calls</li>
+</ul>
+
+<h2 id="adjuster-visit" class="text-2xl font-bold text-secondary mt-10 mb-4">Tips for the Adjuster Visit</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Be present:</strong> Don't let adjuster inspect alone</li>
+<li><strong>Be prepared:</strong> Have your documentation ready</li>
+<li><strong>Be thorough:</strong> Point out every area of damage</li>
+<li><strong>Take notes:</strong> Write down what adjuster says and does</li>
+<li><strong>Ask questions:</strong> Understand their assessment</li>
+<li><strong>Stay calm:</strong> Professional interaction gets better results</li>
+<li><strong>Don't sign anything:</strong> Review settlement offers carefully first</li>
+</ul>
+
+<h2 id="denial-reasons" class="text-2xl font-bold text-secondary mt-10 mb-4">Common Reasons Roof Claims Are Denied</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Pre-existing Damage:</strong> Damage that existed before the storm</li>
+<li><strong>Wear and Tear:</strong> Age-related deterioration isn't covered</li>
+<li><strong>Maintenance Issues:</strong> Problems caused by neglect</li>
+<li><strong>Policy Exclusions:</strong> Damage type not covered by your policy</li>
+<li><strong>Late Reporting:</strong> Claim filed too late</li>
+<li><strong>Insufficient Documentation:</strong> Can't prove damage extent or cause</li>
+</ul>
+
+<h2 id="disputes" class="text-2xl font-bold text-secondary mt-10 mb-4">What If Your Claim Is Denied or Underpaid?</h2>
+
+<p class="text-gray-600 mb-4">You have options:</p>
+
+<ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Request Re-inspection:</strong> Ask for another adjuster to review</li>
+<li><strong>Provide Additional Documentation:</strong> More photos, contractor estimates</li>
+<li><strong>Hire a Public Adjuster:</strong> They advocate for you (typically take 10-15% of settlement)</li>
+<li><strong>File a Complaint:</strong> With Florida Department of Financial Services</li>
+<li><strong>Consult an Attorney:</strong> For significant disputes or bad faith claims</li>
+</ol>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we work with insurance companies regularly and can help document damage for your claim. We provide detailed estimates that support your claim.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Roof Insurance Claims in Florida</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Document immediately:</strong> Photos, videos, and notes before cleanup</li>
+<li>• <strong>Report quickly:</strong> Contact insurance within 24-48 hours</li>
+<li>• <strong>Get professional inspection:</strong> Have a roofer assess damage independently</li>
+<li>• <strong>Be present for adjuster:</strong> Point out all damage, ask questions</li>
+<li>• <strong>Compare estimates:</strong> Review settlement against contractor quotes</li>
+<li>• <strong>You can dispute:</strong> Request re-inspection or hire public adjuster if needed</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Need help with your roof insurance claim? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a professional inspection and estimate. We'll document damage thoroughly to support your claim. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How long do I have to file a roof insurance claim in Florida?", answer: "Most Florida policies require claims to be reported promptly—ideally within 24-48 hours of discovering damage. The statute of limitations for filing is typically 3 years, but your policy may have shorter requirements. File as soon as possible." },
+      { question: "Will filing a roof claim raise my insurance rates?", answer: "Possibly. Florida insurers may raise rates after claims, especially multiple claims. However, not filing a valid claim means paying for covered damage yourself. File legitimate claims for significant damage; consider paying out of pocket only for minor repairs below your deductible." },
+      { question: "What if my insurance company's estimate is too low?", answer: "Get your own detailed estimate from a licensed contractor and present it to your insurer. Request re-inspection if the difference is significant. You can hire a public adjuster to advocate for you, or file a complaint with Florida's Department of Financial Services." },
+      { question: "Do I have to use the insurance company's contractor?", answer: "No. In Florida, you have the right to choose your own licensed contractor. Insurance cannot require you to use their preferred vendors. Get estimates from contractors you trust and submit them to your insurance company." },
+      { question: "What is a hurricane deductible in Florida?", answer: "Hurricane deductibles are separate from your regular deductible and apply specifically to hurricane damage. They're typically 2-5% of your home's insured value. On a $400,000 home, a 2% hurricane deductible is $8,000 you pay before insurance covers the rest." }
+    ]
+  },
+  {
+    slug: "wind-damage-roof-florida",
+    title: "Wind Damage to Roofs in Florida: Signs, Repair, and Insurance",
+    metaTitle: "Wind Damage to Roof: Signs, Repair Costs, and Insurance Claims",
+    excerpt: "Florida wind damages roofs through lifted shingles, torn flashing, and structural stress. Learn to identify wind damage, understand repair costs ($200-$10,000+), and navigate insurance claims successfully.",
+    keywords: ["wind damage roof", "roof wind damage", "storm damage roof", "wind damage repair", "wind damage insurance claim"],
+    category: "Storm Damage",
+    date: "2026-03-31",
+    publishDate: "2026-03-31",
+    readTime: "9 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/storm-damage-repair-jacksonville.webp",
+    imageAlt: "Wind damage to roof shingles in Jacksonville FL",
+    tableOfContents: [
+      { id: "signs", title: "Signs of Wind Damage" },
+      { id: "how-happens", title: "How Wind Damages Roofs" },
+      { id: "repair-costs", title: "Repair Costs" },
+      { id: "inspection", title: "Getting an Inspection" },
+      { id: "insurance", title: "Insurance Coverage" },
+      { id: "prevention", title: "Prevention Tips" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Wind damage to Florida roofs includes lifted shingles, torn flashing, exposed underlayment, and structural stress. Damage isn't always obvious from the ground—professional inspection is recommended after any storm with 50+ mph winds. Repair costs range from $200 for minor shingle repair to $10,000+ for extensive damage, with most wind damage covered by homeowner's insurance.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Wind Damage: Quick Facts</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Inspection Trigger:</strong></td><td>Any storm with 50+ mph winds</td></tr>
+<tr><td class="py-1"><strong>Minor Repairs:</strong></td><td>$200-$500</td></tr>
+<tr><td class="py-1"><strong>Moderate Repairs:</strong></td><td>$500-$2,500</td></tr>
+<tr><td class="py-1"><strong>Major Repairs:</strong></td><td>$2,500-$10,000+</td></tr>
+<tr><td class="py-1"><strong>Insurance:</strong></td><td>Usually covered as "wind" peril</td></tr>
+</table>
+</div>
+
+<h2 id="signs" class="text-2xl font-bold text-secondary mt-10 mb-4">Signs of Wind Damage to Your Roof</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Visible from the Ground</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Missing Shingles:</strong> Obvious bare spots on the roof</li>
+<li><strong>Shingles on the Ground:</strong> Pieces found in yard or on property</li>
+<li><strong>Lifted Shingles:</strong> Edges that appear raised or flapping</li>
+<li><strong>Debris on Roof:</strong> Tree branches, leaves, or other materials</li>
+<li><strong>Damaged Gutters:</strong> Dents, pulled away sections, or debris-filled</li>
+<li><strong>Damaged Vents:</strong> Bent or missing roof vents/caps</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Visible Only on Roof (Professional Inspection)</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Creased Shingles:</strong> Horizontal lines where wind bent shingles</li>
+<li><strong>Broken Seal Strips:</strong> Adhesive bonds broken but shingles still present</li>
+<li><strong>Exposed Nails:</strong> Nails pulled up through shingle tabs</li>
+<li><strong>Lifted Flashing:</strong> Metal flashing pulled away from surfaces</li>
+<li><strong>Granule Displacement:</strong> Patches where granules were scoured by wind</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Interior Signs</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Water Stains:</strong> New stains on ceilings or walls after storm</li>
+<li><strong>Active Leaks:</strong> Dripping during or after rain</li>
+<li><strong>Attic Damage:</strong> Water marks, wet insulation, daylight visible</li>
+</ul>
+
+<h2 id="how-happens" class="text-2xl font-bold text-secondary mt-10 mb-4">How Wind Damages Roofs</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Uplift Force</h3>
+
+<p class="text-gray-600 mb-6">Wind creates negative pressure (suction) on roof surfaces. This uplift force pulls shingles upward, breaking adhesive seals and lifting edges. Once an edge lifts, wind gets underneath and the damage accelerates.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Wind Patterns on Roofs</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Edges and Corners:</strong> Experience highest wind loads—most likely to fail first</li>
+<li><strong>Ridge Line:</strong> High stress area where wind flows over the peak</li>
+<li><strong>Windward Side:</strong> Side facing the wind gets direct pressure</li>
+<li><strong>Leeward Side:</strong> Side away from wind experiences strong suction</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Progressive Damage</h3>
+
+<p class="text-gray-600 mb-6">Wind damage often starts small and worsens over time. A lifted shingle becomes a missing shingle in the next storm. Broken seals allow water intrusion before the next inspection. This is why prompt assessment matters.</p>
+
+<h2 id="repair-costs" class="text-2xl font-bold text-secondary mt-10 mb-4">Wind Damage Repair Costs</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Minor Damage ($200-$500)</h3>
+
+<ul class="list-disc pl-6 mb-4 text-gray-600 space-y-2">
+<li>A few missing or damaged shingles</li>
+<li>Minor flashing repairs</li>
+<li>Resealing lifted shingles</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Moderate Damage ($500-$2,500)</h3>
+
+<ul class="list-disc pl-6 mb-4 text-gray-600 space-y-2">
+<li>Section of shingles needing replacement</li>
+<li>Flashing replacement</li>
+<li>Minor decking repairs</li>
+<li>Vent or cap replacement</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Major Damage ($2,500-$10,000+)</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Large sections needing replacement</li>
+<li>Significant decking damage</li>
+<li>Structural repairs</li>
+<li>Multiple areas affected</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Very severe damage may require full roof replacement—discuss with your contractor and insurance adjuster.</p>
+
+<h2 id="inspection" class="text-2xl font-bold text-secondary mt-10 mb-4">Getting a Wind Damage Inspection</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">When to Schedule</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>After any storm with sustained winds over 50 mph</li>
+<li>After hurricanes or tropical storms (regardless of category)</li>
+<li>When you notice any signs of damage</li>
+<li>Before filing an insurance claim (for documentation)</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What Inspectors Look For</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Pattern of damage consistent with wind direction</li>
+<li>Shingle condition and seal integrity</li>
+<li>Flashing and penetration sealing</li>
+<li>Structural integrity of decking</li>
+<li>Attic for signs of water intrusion</li>
+</ul>
+
+<h2 id="insurance" class="text-2xl font-bold text-secondary mt-10 mb-4">Wind Damage Insurance Coverage</h2>
+
+<p class="text-gray-600 mb-4">Wind damage is covered by most Florida homeowner's policies, but there are specifics to understand:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Coverage Basics</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Wind is a "named peril":</strong> Specifically covered by most policies</li>
+<li><strong>Hurricane deductible applies:</strong> Higher deductible (2-5% of home value) for hurricane damage</li>
+<li><strong>Regular deductible:</strong> Applies to non-hurricane wind events</li>
+<li><strong>Actual Cash Value vs Replacement Cost:</strong> Check which your policy provides</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Filing Tips</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Document damage immediately with photos/videos</li>
+<li>Report to insurer within 24-48 hours</li>
+<li>Get professional inspection before adjuster visit</li>
+<li>Be present during adjuster inspection</li>
+<li>Compare adjuster's findings to your contractor's estimate</li>
+</ul>
+
+<h2 id="prevention" class="text-2xl font-bold text-secondary mt-10 mb-4">Preventing Wind Damage</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>High-Wind Shingles:</strong> Use shingles rated for 130+ mph</li>
+<li><strong>Proper Installation:</strong> Correct nailing pattern and adhesive sealing</li>
+<li><strong>Regular Maintenance:</strong> Replace damaged shingles before storms</li>
+<li><strong>Secure Flashing:</strong> Ensure all flashing is properly sealed</li>
+<li><strong>Trim Trees:</strong> Remove branches that could impact roof</li>
+<li><strong>Hurricane Straps:</strong> Ensure roof-to-wall connections are secure</li>
+</ul>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Wind Damage to Roofs</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Inspect after any 50+ mph winds</strong>—damage isn't always visible from ground</li>
+<li>• <strong>Edges and corners fail first</strong>—check these areas carefully</li>
+<li>• <strong>Damage is progressive</strong>—small issues become big ones in next storm</li>
+<li>• <strong>Most wind damage is covered</strong> by homeowner's insurance</li>
+<li>• <strong>Document before filing claim</strong>—photos, professional inspection</li>
+<li>• <strong>High-wind rated shingles</strong> provide best protection for Florida</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Suspect wind damage to your roof? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free inspection. We'll assess damage and help with insurance documentation. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How can I tell if my roof has wind damage?", answer: "Look for missing shingles, lifted edges, debris on roof, damaged vents, and shingles on the ground. Inside, check for new water stains or leaks. Some damage (creased shingles, broken seals) is only visible with professional inspection." },
+      { question: "At what wind speed do roofs get damaged?", answer: "Damage can start at 45-50 mph, especially on older roofs. Moderate damage becomes common at 60-75 mph. Severe damage occurs at 75+ mph. Modern high-wind shingles are rated for 110-130+ mph when properly installed." },
+      { question: "Is wind damage to roof covered by insurance?", answer: "Yes, wind damage is covered by most Florida homeowner's policies as a named peril. Hurricane damage has a separate (usually higher) deductible. Document damage thoroughly and report promptly to your insurer." },
+      { question: "How long do I have to file a wind damage claim?", answer: "Report damage to your insurer within 24-48 hours for best results. While Florida allows up to 3 years for most claims, your policy may have shorter requirements. Fresh damage is easier to attribute to specific storms." },
+      { question: "Can wind damage be repaired or is replacement needed?", answer: "It depends on extent. Localized damage (few shingles, small areas) can usually be repaired. Widespread damage, structural issues, or damage to an already aging roof may warrant replacement. A professional assessment helps determine the best approach." }
+    ]
   }
 ]
 
