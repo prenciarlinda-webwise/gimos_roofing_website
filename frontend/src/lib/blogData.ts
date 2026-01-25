@@ -4658,6 +4658,856 @@ export const blogPosts: BlogPost[] = [
       { question: "What if my insurance company denies my roof damage claim?", answer: "You can dispute denied claims. Options include: getting an independent estimate from a licensed roofer, requesting re-inspection, hiring a public adjuster to represent you, or consulting an attorney for significant disputes. Document everything." },
       { question: "Can I make temporary repairs before the insurance adjuster comes?", answer: "Yes, you should prevent further damage with temporary repairs (tarping, etc.). Document the damage with photos first, keep receipts for materials, and don't make permanent repairs until after the adjuster visits. Emergency repairs are expected and covered." }
     ]
+  },
+  {
+    slug: "signs-you-need-new-roof-florida",
+    title: "10 Warning Signs You Need a New Roof in Florida",
+    metaTitle: "Signs You Need a New Roof: 10 Warning Signs for Florida Homeowners",
+    excerpt: "Missing shingles, water stains, and sagging are obvious signs you need a new roof. Learn the 10 warning signs Florida homeowners should watch for and when repair vs replacement makes sense.",
+    keywords: ["signs you need a new roof", "when to replace roof", "roof replacement signs", "new roof warning signs", "florida roof replacement"],
+    category: "Homeowner Tips",
+    date: "2026-03-01",
+    publishDate: "2026-03-01",
+    readTime: "9 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/roof-inspection-jacksonville.webp",
+    imageAlt: "Roof inspection showing signs of damage in Jacksonville FL",
+    tableOfContents: [
+      { id: "quick-signs", title: "Quick Warning Signs List" },
+      { id: "age", title: "1. Age of Your Roof" },
+      { id: "shingle-damage", title: "2. Shingle Damage" },
+      { id: "water-damage", title: "3. Water Stains and Leaks" },
+      { id: "sagging", title: "4. Sagging Roof" },
+      { id: "granules", title: "5. Granule Loss" },
+      { id: "repair-vs-replace", title: "Repair vs Replace" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">The clearest signs you need a new roof include: roof age over 15-20 years (for shingles in Florida), multiple or recurring leaks, widespread shingle damage, sagging roof deck, excessive granule loss, daylight visible through the attic, and when repair costs exceed 30% of replacement cost. Don't wait for a complete failure—early replacement prevents water damage and protects your home's value.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">10 Signs You Need a New Roof</p>
+<ol class="text-sm space-y-1">
+<li>1. Roof is 15-20+ years old (shingles in Florida)</li>
+<li>2. Missing, cracked, or curling shingles</li>
+<li>3. Water stains on ceilings or walls</li>
+<li>4. Sagging roof deck or visible dips</li>
+<li>5. Excessive granules in gutters</li>
+<li>6. Daylight visible through attic roof</li>
+<li>7. Multiple or recurring leaks</li>
+<li>8. Rising energy bills (poor insulation)</li>
+<li>9. Moss, algae, or mold growth</li>
+<li>10. Insurance company threatens non-renewal</li>
+</ol>
+</div>
+
+<h2 id="quick-signs" class="text-2xl font-bold text-secondary mt-10 mb-4">How Do I Know If I Need a New Roof?</h2>
+
+<p class="text-gray-600 mb-4">Most Florida homeowners don't think about their roof until there's a problem. But waiting for a complete failure leads to costly water damage, mold remediation, and emergency repairs. Knowing the warning signs helps you plan ahead and replace your roof on your timeline—not when you're forced to.</p>
+
+<p class="text-gray-600 mb-6">Here are the 10 most important signs that indicate roof replacement may be necessary.</p>
+
+<h2 id="age" class="text-2xl font-bold text-secondary mt-10 mb-4">1. Your Roof Is Approaching or Past Its Expected Lifespan</h2>
+
+<p class="text-gray-600 mb-4">In Florida's harsh climate, roofs don't last as long as in other states:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Asphalt Shingles:</strong> 15-20 years (plan replacement at 15)</li>
+<li><strong>Metal Roofing:</strong> 40-60 years</li>
+<li><strong>Tile Roofing:</strong> 50+ years (but underlayment needs replacement at 20-25)</li>
+<li><strong>Flat/TPO:</strong> 15-25 years</li>
+</ul>
+
+<p class="text-gray-600 mb-6">If your shingle roof is over 15 years old, start planning for replacement even if it looks okay from the ground. Florida's UV radiation and storms degrade materials faster than visible damage suggests.</p>
+
+<h2 id="shingle-damage" class="text-2xl font-bold text-secondary mt-10 mb-4">2. Widespread Shingle Damage</h2>
+
+<p class="text-gray-600 mb-4">Individual damaged shingles can be repaired. Widespread damage signals replacement time:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Signs of Shingle Failure</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Curling:</strong> Edges curl up or cup down—shingles are drying out</li>
+<li><strong>Cracking:</strong> Horizontal or vertical cracks from thermal cycling</li>
+<li><strong>Missing Shingles:</strong> Multiple bare spots indicate widespread adhesive failure</li>
+<li><strong>Bald Spots:</strong> Areas where granules have worn away</li>
+<li><strong>Creasing:</strong> Horizontal lines from wind damage</li>
+</ul>
+
+<p class="text-gray-600 mb-6">If more than 20-30% of shingles show these signs, replacement typically makes more sense than extensive repairs.</p>
+
+<h2 id="water-damage" class="text-2xl font-bold text-secondary mt-10 mb-4">3. Water Stains and Active Leaks</h2>
+
+<p class="text-gray-600 mb-4">Water intrusion is the most urgent sign of roof problems:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Where to Look</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Ceilings:</strong> Brown water stains, bubbling paint, sagging drywall</li>
+<li><strong>Walls:</strong> Water marks running down from ceiling</li>
+<li><strong>Attic:</strong> Wet insulation, water stains on rafters, mold growth</li>
+<li><strong>Around Penetrations:</strong> Stains near vents, pipes, chimney</li>
+</ul>
+
+<p class="text-gray-600 mb-6">A single leak from a damaged flashing may be repairable. Multiple leaks or leaks in different areas suggest the roof system is failing.</p>
+
+<h2 id="sagging" class="text-2xl font-bold text-secondary mt-10 mb-4">4. Sagging Roof Deck</h2>
+
+<p class="text-gray-600 mb-4">A sagging roof is a serious structural concern requiring immediate attention:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Visible Dips:</strong> Look at your roof line from the street—should be straight</li>
+<li><strong>Soft Spots:</strong> Areas that feel spongy when walked on</li>
+<li><strong>Warped Decking:</strong> Visible in the attic as wavy or dipped plywood</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Sagging indicates rotted decking, failed rafters, or accumulated water weight. This requires professional assessment immediately—continued use risks structural collapse.</p>
+
+<h2 id="granules" class="text-2xl font-bold text-secondary mt-10 mb-4">5. Excessive Granule Loss</h2>
+
+<p class="text-gray-600 mb-4">Granules protect shingles from UV radiation. When they're gone, shingles fail quickly:</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">How to Check</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Look in gutters and downspout exits for granule accumulation</li>
+<li>Check for bare spots on shingles (dark areas where granules are missing)</li>
+<li>Some loss is normal—excessive accumulation after every rain indicates failure</li>
+</ul>
+
+<p class="text-gray-600 mb-6">New shingles shed some granules initially. If your roof is 10+ years old and shedding heavily, the shingles are reaching end of life.</p>
+
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">6. Daylight Visible Through the Roof</h2>
+
+<p class="text-gray-600 mb-6">Go into your attic during the day with lights off. If you see pinpoints of light coming through the roof, water can get through those same holes. This requires immediate attention.</p>
+
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">7. Multiple or Recurring Leaks</h2>
+
+<p class="text-gray-600 mb-6">One leak might be a simple repair. Multiple leaks, or the same leak recurring after repair, suggests the entire roof system is compromised. At some point, continued repairs become throwing money at a failing roof.</p>
+
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">8. Rising Energy Bills</h2>
+
+<p class="text-gray-600 mb-6">A failing roof affects insulation performance. If your cooling bills have increased without other explanation, poor attic ventilation or damaged insulation from roof leaks may be the cause.</p>
+
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">9. Moss, Algae, or Extensive Mold</h2>
+
+<p class="text-gray-600 mb-6">Some algae (black streaks) is cosmetic. But extensive moss growth holds moisture against the roof, and mold in the attic indicates persistent water intrusion. Widespread growth suggests conditions that accelerate roof failure.</p>
+
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">10. Insurance Company Threatens Non-Renewal</h2>
+
+<p class="text-gray-600 mb-6">Florida insurers are increasingly strict about roof age and condition. If your insurance company threatens non-renewal due to roof age or condition, it's a clear sign that replacement is overdue from a risk perspective.</p>
+
+<h2 id="repair-vs-replace" class="text-2xl font-bold text-secondary mt-10 mb-4">When to Repair vs Replace Your Roof</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Consider Repair When:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Roof is less than 10 years old</li>
+<li>Damage is localized to one area</li>
+<li>Single leak from identifiable source</li>
+<li>Repair cost is less than 30% of replacement cost</li>
+<li>Insurance covers the specific damage</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Consider Replacement When:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Roof is over 15 years old (shingles in Florida)</li>
+<li>Damage is widespread across multiple areas</li>
+<li>Multiple recurring leaks</li>
+<li>Repair costs exceed 30% of replacement cost</li>
+<li>Insurance requires replacement for coverage</li>
+<li>You're planning major home renovations</li>
+</ul>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we provide honest assessments. If repairs make sense, we'll tell you. Our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> services start at $7,900, with <a href="/blog/roofing-financing-options-jacksonville" class="text-primary hover:underline">financing available</a> from $99/month.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Signs You Need a New Roof</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Age is the biggest factor:</strong> Florida shingle roofs typically need replacement at 15-20 years</li>
+<li>• <strong>Water damage is urgent:</strong> Multiple leaks indicate system-wide failure</li>
+<li>• <strong>Sagging requires immediate attention:</strong> Structural issues won't improve</li>
+<li>• <strong>30% rule:</strong> If repairs cost more than 30% of replacement, replace</li>
+<li>• <strong>Insurance non-renewal</strong> is a clear sign replacement is overdue</li>
+<li>• <strong>Plan ahead:</strong> Scheduled replacement beats emergency replacement</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Not sure if you need a new roof? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free inspection. We'll give you an honest assessment and help you understand your options. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How do I know if I need a new roof or just repairs?", answer: "Consider replacement if: your roof is over 15 years old (shingles in Florida), damage is widespread, you have multiple or recurring leaks, or repair costs exceed 30% of replacement cost. Localized damage on newer roofs typically warrants repair." },
+      { question: "What is the most obvious sign you need a new roof?", answer: "The most obvious sign is your roof's age combined with visible deterioration. In Florida, shingle roofs over 15 years old showing curling, cracking, or granule loss are at end of life. Active leaks and water stains are also clear indicators." },
+      { question: "How long can you go without replacing a roof?", answer: "You shouldn't delay once your roof shows failure signs. A leaking roof causes progressive damage—water damage, mold, structural rot—that increases repair costs. Address roofing issues promptly; delaying typically costs more in the long run." },
+      { question: "Will my insurance drop me if I don't replace my roof?", answer: "Possibly. Florida insurers increasingly require roof replacement based on age and condition. Many won't insure shingle roofs over 15-20 years old, regardless of condition. Insurance non-renewal threats should prompt immediate replacement planning." },
+      { question: "How much does a new roof cost in Jacksonville?", answer: "In Jacksonville, shingle roof replacement starts at $7,900 for average homes. Metal roofs range from $15,000-$35,000, and tile roofs from $25,000-$50,000+. Financing options are available starting at $99/month." }
+    ]
+  },
+  {
+    slug: "roof-inspection-what-to-expect-florida",
+    title: "Roof Inspection Guide: What to Expect and How to Prepare",
+    metaTitle: "Roof Inspection Guide: What Florida Homeowners Should Expect",
+    excerpt: "A professional roof inspection takes 45-90 minutes and covers shingles, flashing, gutters, ventilation, and attic. Learn what inspectors check, how to prepare, and what inspection reports mean.",
+    keywords: ["roof inspection", "what to expect roof inspection", "roof inspection cost", "roof inspection checklist", "professional roof inspection"],
+    category: "Homeowner Tips",
+    date: "2026-03-04",
+    publishDate: "2026-03-04",
+    readTime: "8 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/roof-inspection-jacksonville.webp",
+    imageAlt: "Professional roof inspection in Jacksonville FL",
+    tableOfContents: [
+      { id: "what-is", title: "What Is a Roof Inspection?" },
+      { id: "when-need", title: "When You Need One" },
+      { id: "what-checked", title: "What Gets Checked" },
+      { id: "how-prepare", title: "How to Prepare" },
+      { id: "inspection-report", title: "Understanding the Report" },
+      { id: "cost", title: "Inspection Costs" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">A professional roof inspection takes 45-90 minutes and covers exterior components (shingles, flashing, gutters, vents) and interior/attic conditions (ventilation, insulation, structure). Inspectors check for damage, wear, installation issues, and code compliance. In Florida, schedule inspections annually, after storms, and before insurance renewals. Cost is typically $150-$400, often free when combined with repair estimates.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Roof Inspection: Quick Facts</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Duration:</strong></td><td>45-90 minutes</td></tr>
+<tr><td class="py-1"><strong>Cost:</strong></td><td>$150-$400 (often free with repair estimate)</td></tr>
+<tr><td class="py-1"><strong>Frequency:</strong></td><td>Annually + after major storms</td></tr>
+<tr><td class="py-1"><strong>What's Checked:</strong></td><td>Shingles, flashing, gutters, vents, attic, structure</td></tr>
+</table>
+</div>
+
+<h2 id="what-is" class="text-2xl font-bold text-secondary mt-10 mb-4">What Is a Professional Roof Inspection?</h2>
+
+<p class="text-gray-600 mb-4">A professional roof inspection is a systematic evaluation of your roof's condition by a trained roofing expert. It goes far beyond what you can see from the ground, including:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Walking the roof surface to check materials up close</li>
+<li>Examining all penetrations and transition points</li>
+<li>Inspecting the attic from inside for hidden damage</li>
+<li>Documenting findings with photos and detailed notes</li>
+<li>Providing a written report with recommendations</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Professional inspections catch problems invisible from the ground—early-stage leaks, improper installation, hidden storm damage, and wear patterns that predict future failures.</p>
+
+<h2 id="when-need" class="text-2xl font-bold text-secondary mt-10 mb-4">When Do You Need a Roof Inspection?</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Schedule an Inspection:</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Annually:</strong> Once per year, ideally in spring before hurricane season</li>
+<li><strong>After Major Storms:</strong> Any hurricane, severe thunderstorm, or hail event</li>
+<li><strong>Before Insurance Renewal:</strong> Document roof condition for your records</li>
+<li><strong>When Buying a Home:</strong> Essential part of home inspection process</li>
+<li><strong>Before Selling:</strong> Know your roof's condition before listing</li>
+<li><strong>When You Notice Problems:</strong> Leaks, stains, visible damage</li>
+<li><strong>Roof Age 10+ Years:</strong> More frequent inspections as roof ages</li>
+</ul>
+
+<h2 id="what-checked" class="text-2xl font-bold text-secondary mt-10 mb-4">What Does a Roof Inspector Check?</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Exterior Inspection</h3>
+
+<p class="text-gray-600 mb-4">The inspector walks the roof (if safely accessible) to examine:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Roofing Material:</strong> Shingle condition, cracking, curling, missing pieces</li>
+<li><strong>Granule Coverage:</strong> Bald spots, excessive wear patterns</li>
+<li><strong>Flashing:</strong> Condition around vents, pipes, chimney, walls</li>
+<li><strong>Sealants/Caulking:</strong> Cracked or missing sealant at penetrations</li>
+<li><strong>Ridge and Hip Caps:</strong> Condition of cap shingles</li>
+<li><strong>Valleys:</strong> Wear patterns, debris accumulation, proper drainage</li>
+<li><strong>Roof Vents:</strong> Damage, proper installation, adequate ventilation</li>
+<li><strong>Gutters:</strong> Condition, attachment, granule accumulation</li>
+<li><strong>Fascia and Soffit:</strong> Rot, damage, ventilation</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Interior/Attic Inspection</h3>
+
+<p class="text-gray-600 mb-4">The attic reveals problems not visible from outside:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Water Stains:</strong> Evidence of past or current leaks</li>
+<li><strong>Daylight:</strong> Any light coming through the roof deck</li>
+<li><strong>Ventilation:</strong> Adequate intake and exhaust ventilation</li>
+<li><strong>Insulation:</strong> Condition, coverage, moisture damage</li>
+<li><strong>Structure:</strong> Rafters, trusses, decking for rot or damage</li>
+<li><strong>Mold/Mildew:</strong> Signs of moisture problems</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Documentation</h3>
+
+<p class="text-gray-600 mb-6">A good inspector documents everything with photos, measurements, and detailed notes. This documentation is valuable for insurance claims, planning repairs, and understanding your roof's condition over time.</p>
+
+<h2 id="how-prepare" class="text-2xl font-bold text-secondary mt-10 mb-4">How to Prepare for a Roof Inspection</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Before the Inspector Arrives</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Clear Attic Access:</strong> Make sure the inspector can reach the attic hatch</li>
+<li><strong>Note Concerns:</strong> List any leaks, stains, or problems you've noticed</li>
+<li><strong>Find Roof Records:</strong> Installation date, warranty info, past repairs</li>
+<li><strong>Secure Pets:</strong> Keep dogs and cats away from the inspection area</li>
+<li><strong>Plan to Be Home:</strong> You'll want to hear findings directly</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Questions to Ask</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>What is my roof's estimated remaining lifespan?</li>
+<li>Are there any issues requiring immediate attention?</li>
+<li>What maintenance would extend my roof's life?</li>
+<li>Should I repair or start planning for replacement?</li>
+<li>Are there any code or installation concerns?</li>
+</ul>
+
+<h2 id="inspection-report" class="text-2xl font-bold text-secondary mt-10 mb-4">Understanding Your Inspection Report</h2>
+
+<p class="text-gray-600 mb-4">A professional inspection report typically includes:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Overall Condition Rating:</strong> Good, fair, poor, or needs replacement</li>
+<li><strong>Estimated Remaining Life:</strong> How many years before replacement needed</li>
+<li><strong>Deficiencies Found:</strong> Specific problems with photos</li>
+<li><strong>Recommendations:</strong> Repair now, monitor, or replace</li>
+<li><strong>Cost Estimates:</strong> If repairs or replacement recommended</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Red Flags in Reports</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Structural concerns (sagging, rot)</li>
+<li>Active leaks or water intrusion evidence</li>
+<li>Widespread material failure</li>
+<li>Improper installation issues</li>
+<li>Code violations</li>
+</ul>
+
+<h2 id="cost" class="text-2xl font-bold text-secondary mt-10 mb-4">How Much Does a Roof Inspection Cost?</h2>
+
+<p class="text-gray-600 mb-4">Roof inspection costs in Jacksonville:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Standard Inspection:</strong> $150-$300</li>
+<li><strong>Detailed Inspection with Report:</strong> $250-$400</li>
+<li><strong>Insurance/Certification Inspection:</strong> $200-$350</li>
+<li><strong>Pre-Purchase Inspection:</strong> Often included in home inspection ($400-$600 total)</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Many roofing companies, including Gimo's Roofing, offer free inspections when you're considering repairs or replacement. This eliminates cost as a barrier to understanding your roof's condition.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Roof Inspections</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Schedule annually</strong> plus after major storms in Florida</li>
+<li>• <strong>Inspections take 45-90 minutes</strong> and include roof surface and attic</li>
+<li>• <strong>Prepare by clearing attic access</strong> and noting any concerns</li>
+<li>• <strong>Get a written report</strong> with photos and recommendations</li>
+<li>• <strong>Cost is $150-$400</strong> or often free with repair estimates</li>
+<li>• <strong>Don't skip inspections</strong>—catching problems early saves money</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Ready for a professional roof inspection? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free inspection. We'll assess your roof's condition and provide honest recommendations. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How long does a roof inspection take?", answer: "A professional roof inspection typically takes 45-90 minutes depending on roof size and complexity. This includes examining the exterior roof surface, all penetrations and flashings, gutters, and the attic interior." },
+      { question: "How much does a roof inspection cost?", answer: "Roof inspections in Jacksonville cost $150-$400 for a detailed assessment with written report. Many roofing companies offer free inspections when you're considering repairs or replacement." },
+      { question: "How often should I get my roof inspected in Florida?", answer: "In Florida, get your roof inspected annually (ideally in spring before hurricane season), after any major storm, and whenever you notice problems like leaks or visible damage. Roofs over 10 years old benefit from more frequent inspections." },
+      { question: "What do roof inspectors look for?", answer: "Roof inspectors check: shingle condition (cracking, curling, granule loss), flashing and sealants, gutters and drainage, vents and penetrations, attic ventilation and insulation, structural components, and evidence of leaks or water damage." },
+      { question: "Should I be home during a roof inspection?", answer: "Yes, being home during the inspection is recommended. You can point out specific concerns, ask questions about findings, and receive immediate feedback on your roof's condition and any recommendations." }
+    ]
+  },
+  {
+    slug: "how-to-choose-roofing-contractor-jacksonville",
+    title: "How to Choose a Roofing Contractor in Jacksonville: Complete Guide",
+    metaTitle: "How to Choose a Roofing Contractor in Jacksonville FL",
+    excerpt: "Choose a Jacksonville roofing contractor by verifying their Florida license (CCC or RC), checking insurance, reading reviews, and getting detailed written estimates. Avoid storm chasers and pressure tactics.",
+    keywords: ["how to choose roofing contractor", "choosing a roofer", "best roofing contractor jacksonville", "hiring roofing company", "find roofer jacksonville"],
+    category: "Homeowner Tips",
+    date: "2026-03-07",
+    publishDate: "2026-03-07",
+    readTime: "10 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/gimos-roofing-company-van-jobsite.webp",
+    imageAlt: "Gimo's Roofing contractor meeting with Jacksonville homeowner",
+    tableOfContents: [
+      { id: "quick-checklist", title: "Quick Selection Checklist" },
+      { id: "verify-license", title: "Verify License and Insurance" },
+      { id: "check-reputation", title: "Check Reputation" },
+      { id: "get-estimates", title: "Get Written Estimates" },
+      { id: "red-flags", title: "Red Flags to Avoid" },
+      { id: "questions-ask", title: "Questions to Ask" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">To choose a good roofing contractor in Jacksonville: verify their Florida roofing license (CCC or RC) at myfloridalicense.com, confirm active insurance (liability and workers' comp), check Google reviews and BBB rating, get 3+ written estimates with detailed scope, and verify they pull permits. Avoid contractors who demand large upfront deposits, pressure immediate decisions, or can't provide local references.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Roofing Contractor Selection Checklist</p>
+<ul class="text-sm space-y-1">
+<li>☐ Florida roofing license (CCC or RC) - verify at myfloridalicense.com</li>
+<li>☐ Current liability insurance ($1M+ recommended)</li>
+<li>☐ Workers' compensation insurance or valid exemption</li>
+<li>☐ Positive reviews on Google, BBB (check for patterns)</li>
+<li>☐ Local physical address (not just PO box)</li>
+<li>☐ Written detailed estimate with materials specified</li>
+<li>☐ Pulls permits and schedules inspections</li>
+<li>☐ Manufacturer certifications (preferred)</li>
+</ul>
+</div>
+
+<h2 id="quick-checklist" class="text-2xl font-bold text-secondary mt-10 mb-4">What Makes a Good Roofing Contractor?</h2>
+
+<p class="text-gray-600 mb-4">A quality roofing contractor should have:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Proper Licensing:</strong> Florida-specific roofing license (not just general contractor)</li>
+<li><strong>Insurance Coverage:</strong> Protects you if something goes wrong</li>
+<li><strong>Proven Track Record:</strong> Years in business with verifiable local work</li>
+<li><strong>Clear Communication:</strong> Responsive, explains work clearly, answers questions</li>
+<li><strong>Professional Process:</strong> Written estimates, contracts, permits, clean job sites</li>
+<li><strong>Fair Pricing:</strong> Competitive but not suspiciously low</li>
+</ul>
+
+<h2 id="verify-license" class="text-2xl font-bold text-secondary mt-10 mb-4">Step 1: Verify License and Insurance</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Check the Florida License</h3>
+
+<p class="text-gray-600 mb-4">Every Florida roofing contractor must hold one of these licenses:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>CCC (Certified Roofing Contractor):</strong> State-certified, can work anywhere in Florida</li>
+<li><strong>RC (Registered Roofing Contractor):</strong> Registered for specific counties</li>
+</ul>
+
+<p class="text-gray-600 mb-4">To verify:</p>
+
+<ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
+<li>Ask for their license number</li>
+<li>Go to myfloridalicense.com</li>
+<li>Enter the license number or business name</li>
+<li>Verify status is "Current, Active"</li>
+<li>Confirm business name matches</li>
+</ol>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Verify Insurance</h3>
+
+<p class="text-gray-600 mb-4">Request and verify:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>General Liability:</strong> $1 million minimum recommended (covers property damage)</li>
+<li><strong>Workers' Compensation:</strong> Covers injuries to workers on your property</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Don't just look at certificates—call the insurance company to verify policies are current. Contractors sometimes let policies lapse.</p>
+
+<div class="bg-red-50 border-l-4 border-red-500 p-6 my-8">
+<p class="text-red-700 font-semibold mb-2">Why This Matters</p>
+<p class="text-red-600">If an unlicensed or uninsured contractor damages your property or a worker gets injured, YOU may be liable. Your homeowner's insurance may deny claims for work done by unlicensed contractors.</p>
+</div>
+
+<h2 id="check-reputation" class="text-2xl font-bold text-secondary mt-10 mb-4">Step 2: Check Reputation and References</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Online Reviews</h3>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Google Reviews:</strong> Look for 4+ stars with 50+ reviews</li>
+<li><strong>BBB Rating:</strong> Check for complaints and how they were resolved</li>
+<li><strong>Facebook/Yelp:</strong> Additional review sources</li>
+</ul>
+
+<p class="text-gray-600 mb-4">When reading reviews, look for patterns:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Multiple complaints about the same issue (communication, cleanup, etc.)</li>
+<li>How the company responds to negative reviews</li>
+<li>Recent reviews (not just old ones)</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Local References</h3>
+
+<p class="text-gray-600 mb-6">Ask for 3-5 recent local references and actually call them. Ask about timeline, communication, cleanup, and whether they'd hire the company again.</p>
+
+<h2 id="get-estimates" class="text-2xl font-bold text-secondary mt-10 mb-4">Step 3: Get Detailed Written Estimates</h2>
+
+<p class="text-gray-600 mb-4">Get at least 3 estimates and make sure each includes:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Scope of Work:</strong> Exactly what's being done (tear-off, decking, materials)</li>
+<li><strong>Materials Specified:</strong> Brand, model, warranty class of shingles/materials</li>
+<li><strong>Timeline:</strong> Start date, expected completion, weather contingency</li>
+<li><strong>Total Price:</strong> Broken down by labor and materials</li>
+<li><strong>Payment Terms:</strong> Deposit, progress payments, final payment</li>
+<li><strong>Warranty Information:</strong> Manufacturer warranty + workmanship warranty</li>
+<li><strong>Permit Information:</strong> Who pulls permits, what inspections included</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Comparing Estimates</h3>
+
+<p class="text-gray-600 mb-6">The lowest price isn't always best. Compare apples-to-apples: same materials, same scope. A significantly lower bid may mean cutting corners on materials, labor, or skipping permits.</p>
+
+<h2 id="red-flags" class="text-2xl font-bold text-secondary mt-10 mb-4">Red Flags: Contractors to Avoid</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Door-to-Door After Storms:</strong> "Storm chasers" often do poor work and disappear</li>
+<li><strong>Large Upfront Deposits:</strong> Florida law limits deposits; legitimate contractors don't need 50%+ upfront</li>
+<li><strong>Pressure Tactics:</strong> "Price is only good today" or "Sign now" pressure</li>
+<li><strong>No Physical Address:</strong> Just a phone number or PO box</li>
+<li><strong>Cash Only:</strong> Legitimate businesses accept multiple payment methods</li>
+<li><strong>No Written Contract:</strong> Everything should be in writing</li>
+<li><strong>Won't Pull Permits:</strong> Unpermitted work creates problems</li>
+<li><strong>Out-of-State Plates:</strong> Storm chasers often travel from other states</li>
+<li><strong>Suspiciously Low Bids:</strong> 30%+ below other estimates is a warning sign</li>
+</ul>
+
+<h2 id="questions-ask" class="text-2xl font-bold text-secondary mt-10 mb-4">Questions to Ask Potential Contractors</h2>
+
+<ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
+<li>What is your Florida roofing license number?</li>
+<li>Can I see your certificate of insurance?</li>
+<li>How long have you been in business in Jacksonville?</li>
+<li>Will you pull the permit and schedule inspections?</li>
+<li>Who will be the project manager for my job?</li>
+<li>What materials do you recommend and why?</li>
+<li>What warranty do you offer on workmanship?</li>
+<li>How do you handle unexpected issues (rotten decking, etc.)?</li>
+<li>What's your payment schedule?</li>
+<li>Can you provide local references I can contact?</li>
+</ol>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we're happy to answer all these questions and provide verification of our <a href="/blog/how-to-check-florida-roofing-license" class="text-primary hover:underline">Florida roofing license</a> and insurance. We've been serving Jacksonville for over 15 years.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Choosing a Roofing Contractor</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Verify license:</strong> Check myfloridalicense.com for active CCC or RC license</li>
+<li>• <strong>Confirm insurance:</strong> Call the insurance company to verify current coverage</li>
+<li>• <strong>Check reviews:</strong> Look for patterns in Google, BBB, and other platforms</li>
+<li>• <strong>Get 3+ estimates:</strong> Written, detailed, with materials specified</li>
+<li>• <strong>Avoid red flags:</strong> Storm chasers, big deposits, pressure, no permits</li>
+<li>• <strong>Ask questions:</strong> Good contractors welcome questions and provide clear answers</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Looking for a trusted Jacksonville roofing contractor? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free estimate. We're licensed, insured, and happy to provide references. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How do I find a reputable roofing contractor?", answer: "Verify their Florida roofing license (CCC or RC) at myfloridalicense.com, confirm insurance coverage, check Google reviews and BBB rating, get 3+ written estimates, and ask for local references. Avoid contractors who use pressure tactics or can't provide credentials." },
+      { question: "What should I look for in a roofing estimate?", answer: "A good estimate includes: detailed scope of work, specific materials with brands/models, timeline, total price broken down by labor and materials, payment terms, warranty information, and confirmation that permits will be pulled." },
+      { question: "How much deposit should I pay a roofing contractor?", answer: "Florida law limits contractor deposits to 10% or $1,000 (whichever is less) before work begins, unless specific materials need to be ordered. Legitimate contractors don't require large upfront deposits. Be wary of anyone asking for 50%+ upfront." },
+      { question: "Should a roofer pull permits?", answer: "Yes. In Jacksonville, roofing work requires permits. The contractor should pull the permit and schedule required inspections. Unpermitted work can void warranties, cause insurance issues, and create problems when you sell your home." },
+      { question: "What's the difference between CCC and RC licenses in Florida?", answer: "CCC (Certified Roofing Contractor) is a state-level license allowing work anywhere in Florida. RC (Registered Roofing Contractor) is registered for specific counties only. Both require passing exams and meeting financial requirements. Verify either at myfloridalicense.com." }
+    ]
+  },
+  {
+    slug: "questions-to-ask-roofing-contractor",
+    title: "15 Questions to Ask a Roofing Contractor Before Signing",
+    metaTitle: "15 Questions to Ask Your Roofing Contractor Before Hiring",
+    excerpt: "Ask these 15 essential questions before hiring a roofing contractor: license verification, insurance proof, timeline, materials, warranty, payment terms, and more. Protect yourself from bad contractors.",
+    keywords: ["questions to ask roofing contractor", "roofing contractor questions", "hiring roofer questions", "what to ask roofer", "roofing contract questions"],
+    category: "Homeowner Tips",
+    date: "2026-03-10",
+    publishDate: "2026-03-10",
+    readTime: "8 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/gimos-roofing-company-van-jobsite.webp",
+    imageAlt: "Homeowner asking questions to roofing contractor in Jacksonville",
+    tableOfContents: [
+      { id: "licensing", title: "Licensing Questions" },
+      { id: "insurance", title: "Insurance Questions" },
+      { id: "project", title: "Project Questions" },
+      { id: "materials", title: "Materials Questions" },
+      { id: "payment", title: "Payment Questions" },
+      { id: "warranty", title: "Warranty Questions" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Before signing with a roofing contractor, ask about: license and insurance verification, who will manage the project, specific materials being used, detailed timeline, how unexpected issues are handled, payment schedule, workmanship warranty terms, and cleanup procedures. A good contractor welcomes questions—evasive answers are red flags.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">15 Essential Questions for Roofing Contractors</p>
+<ol class="text-sm space-y-1">
+<li>1. What is your Florida roofing license number?</li>
+<li>2. Can I see your certificate of insurance?</li>
+<li>3. How long have you been in business locally?</li>
+<li>4. Who will be my project manager?</li>
+<li>5. Will you pull permits and schedule inspections?</li>
+<li>6. What specific materials will you use?</li>
+<li>7. What's the expected timeline?</li>
+<li>8. How do you handle unexpected problems?</li>
+<li>9. What's your payment schedule?</li>
+<li>10. What warranty do you offer?</li>
+<li>11. How do you handle cleanup?</li>
+<li>12. Do you use subcontractors?</li>
+<li>13. Can you provide local references?</li>
+<li>14. What happens if it rains during the job?</li>
+<li>15. Is everything in writing?</li>
+</ol>
+</div>
+
+<h2 id="licensing" class="text-2xl font-bold text-secondary mt-10 mb-4">Licensing Questions</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">1. What is your Florida roofing license number?</h3>
+
+<p class="text-gray-600 mb-6">A legitimate contractor will provide this immediately. Verify at myfloridalicense.com. The license should be a CCC (Certified) or RC (Registered) roofing license—not a general contractor license.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">2. How long have you been in business locally?</h3>
+
+<p class="text-gray-600 mb-6">Local history matters. Companies established in Jacksonville for 5+ years are more likely to stand behind their work than companies that appeared after the last hurricane. Ask about local projects you can drive by.</p>
+
+<h2 id="insurance" class="text-2xl font-bold text-secondary mt-10 mb-4">Insurance Questions</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">3. Can I see your certificate of insurance?</h3>
+
+<p class="text-gray-600 mb-6">Ask for certificates showing general liability (at least $1 million) and workers' compensation. Call the insurance company to verify policies are current—contractors sometimes let coverage lapse.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">4. What happens if a worker is injured on my property?</h3>
+
+<p class="text-gray-600 mb-6">With proper workers' comp, the contractor's insurance covers injuries. Without it, YOU could be liable. Don't accept "my workers are covered" without verification.</p>
+
+<h2 id="project" class="text-2xl font-bold text-secondary mt-10 mb-4">Project Management Questions</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">5. Who will be my project manager?</h3>
+
+<p class="text-gray-600 mb-6">Know who to contact with questions or concerns. Will the salesperson still be involved, or do you get handed off? Get a direct phone number for your project contact.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">6. Will you pull permits and schedule inspections?</h3>
+
+<p class="text-gray-600 mb-6">The answer should be yes. Roofing work in Jacksonville requires permits. Unpermitted work can void warranties and create problems when you sell. The contractor—not you—should handle this.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">7. What's the expected timeline?</h3>
+
+<p class="text-gray-600 mb-6">Get specific: start date, expected duration, and completion date. Most residential re-roofs take 1-3 days. Understand what happens if weather causes delays.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">8. Do you use subcontractors or your own crews?</h3>
+
+<p class="text-gray-600 mb-6">Some contractors use regular crews; others subcontract. Both can be fine, but know who's actually doing the work. Verify subcontractors are also licensed and insured.</p>
+
+<h2 id="materials" class="text-2xl font-bold text-secondary mt-10 mb-4">Materials Questions</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">9. What specific materials will you use?</h3>
+
+<p class="text-gray-600 mb-6">Get brand names and product lines: "GAF Timberline HDZ" not just "architectural shingles." This matters for quality and warranty. The estimate should specify exactly what you're getting.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">10. How do you handle unexpected problems (rotten decking, etc.)?</h3>
+
+<p class="text-gray-600 mb-6">Damaged decking isn't always visible until the old roof is removed. Get the per-sheet price for decking replacement in writing. Know the process: will they call you, proceed automatically, or what?</p>
+
+<h2 id="payment" class="text-2xl font-bold text-secondary mt-10 mb-4">Payment Questions</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">11. What's your payment schedule?</h3>
+
+<p class="text-gray-600 mb-6">Typical structure: small deposit to schedule (10% or less), progress payment when materials arrive, balance upon completion. Be wary of large upfront payments. Florida law limits deposits.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">12. Do you offer financing?</h3>
+
+<p class="text-gray-600 mb-6">Many homeowners need <a href="/blog/roofing-financing-options-jacksonville" class="text-primary hover:underline">financing for roof replacement</a>. Ask about available options and terms. Reputable contractors work with established lenders.</p>
+
+<h2 id="warranty" class="text-2xl font-bold text-secondary mt-10 mb-4">Warranty Questions</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">13. What warranty do you offer on workmanship?</h3>
+
+<p class="text-gray-600 mb-6">Materials have manufacturer warranties, but what about installation errors? Get the contractor's workmanship warranty in writing: length (5-10 years minimum), what it covers, and what voids it.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">14. What manufacturer certifications do you have?</h3>
+
+<p class="text-gray-600 mb-6">Certified installers (GAF Master Elite, Owens Corning Preferred, etc.) can offer enhanced manufacturer warranties. Certification indicates training and quality standards.</p>
+
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Final Questions</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">15. How do you handle cleanup?</h3>
+
+<p class="text-gray-600 mb-6">Roofing creates debris. Professional contractors clean daily, use tarps to protect landscaping, and run magnetic sweepers to collect nails. This should be included in the price, not extra.</p>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we welcome all these questions. We're licensed, insured, and happy to explain every aspect of our process. Read more about <a href="/blog/how-to-choose-roofing-contractor-jacksonville" class="text-primary hover:underline">how to choose a roofing contractor</a> or <a href="/contact" class="text-primary hover:underline">contact us</a> directly.</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Questions for Roofing Contractors</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Always verify license and insurance</strong>—don't take their word for it</li>
+<li>• <strong>Get specifics on materials</strong>—brand names, not just "shingles"</li>
+<li>• <strong>Understand payment terms</strong>—avoid large upfront deposits</li>
+<li>• <strong>Get workmanship warranty in writing</strong>—separate from manufacturer warranty</li>
+<li>• <strong>Know who's doing the work</strong>—project manager, crews, subcontractors</li>
+<li>• <strong>Good contractors welcome questions</strong>—evasive answers are red flags</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Ready to get a roofing estimate? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> and ask us anything. We provide detailed written estimates and answer every question thoroughly. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "What's the most important question to ask a roofing contractor?", answer: "Ask for their Florida roofing license number and verify it at myfloridalicense.com. This single question eliminates unlicensed contractors and storm chasers. Follow up by verifying their insurance is current." },
+      { question: "Should I get multiple roofing estimates?", answer: "Yes, get at least 3 estimates from different contractors. Compare not just price but scope of work, materials specified, warranty terms, and communication quality. The lowest price isn't always the best value." },
+      { question: "What warranty should a roofing contractor offer?", answer: "Look for both manufacturer warranty on materials (often 25-50 years) AND a workmanship warranty from the contractor (5-10 years minimum). The workmanship warranty covers installation errors, which the manufacturer warranty typically doesn't." },
+      { question: "How much deposit is normal for roofing work?", answer: "Florida law limits deposits to 10% or $1,000 (whichever is less) before work begins, unless materials need to be specially ordered. Be wary of contractors demanding 30-50% upfront—this is often a sign of financial trouble." },
+      { question: "Should the contractor pull permits?", answer: "Yes. The roofing contractor should pull permits and schedule all required inspections. Unpermitted work can void warranties, cause insurance problems, and create issues when selling your home. Never agree to skip permits." }
+    ]
+  },
+  {
+    slug: "roof-replacement-cost-jacksonville-fl",
+    title: "Roof Replacement Cost in Jacksonville FL: 2026 Price Guide",
+    metaTitle: "Roof Replacement Cost Jacksonville FL: 2026 Pricing Guide",
+    excerpt: "Roof replacement in Jacksonville costs $7,900-$50,000+ depending on size and materials. Shingles start at $7,900, metal at $15,000, tile at $25,000. Get accurate pricing factors and financing options.",
+    keywords: ["roof replacement cost jacksonville", "new roof cost florida", "roof replacement price", "how much does roof cost jacksonville", "roofing prices jacksonville fl"],
+    category: "Costs",
+    date: "2026-03-13",
+    publishDate: "2026-03-13",
+    readTime: "10 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/roof-replacement-jacksonville.webp",
+    imageAlt: "Roof replacement project in Jacksonville FL",
+    tableOfContents: [
+      { id: "quick-costs", title: "Quick Cost Summary" },
+      { id: "by-material", title: "Cost by Material" },
+      { id: "factors", title: "Factors Affecting Cost" },
+      { id: "hidden-costs", title: "Hidden Costs to Know" },
+      { id: "financing", title: "Financing Options" },
+      { id: "save-money", title: "How to Save Money" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Roof replacement in Jacksonville typically costs $7,900-$50,000+ for an average home, depending on roof size and material. Asphalt shingle roofs start at $7,900, metal roofs range from $15,000-$35,000, and tile roofs cost $25,000-$50,000+. The final price depends on roof size, pitch, complexity, material choice, and whether underlying decking needs repair.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Jacksonville Roof Replacement Costs (2026)</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Asphalt Shingles:</strong></td><td>Starting at $7,900</td></tr>
+<tr><td class="py-1"><strong>Metal Roofing:</strong></td><td>$15,000 - $35,000</td></tr>
+<tr><td class="py-1"><strong>Tile Roofing:</strong></td><td>$25,000 - $50,000+</td></tr>
+<tr><td class="py-1"><strong>Flat/TPO:</strong></td><td>$6-$10 per square foot</td></tr>
+<tr><td class="py-1"><strong>Financing:</strong></td><td>Available from $99/month</td></tr>
+</table>
+</div>
+
+<h2 id="quick-costs" class="text-2xl font-bold text-secondary mt-10 mb-4">How Much Does a New Roof Cost in Jacksonville?</h2>
+
+<p class="text-gray-600 mb-4">The average Jacksonville home (around 2,000 sq ft of roof area) will cost:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Budget Option (3-tab shingles):</strong> $7,000-$10,000</li>
+<li><strong>Standard Option (architectural shingles):</strong> $7,900-$15,000</li>
+<li><strong>Premium Option (metal):</strong> $15,000-$35,000</li>
+<li><strong>Luxury Option (tile):</strong> $25,000-$50,000+</li>
+</ul>
+
+<p class="text-gray-600 mb-6">These ranges are estimates. Your actual cost depends on your specific roof's size, pitch, and complexity. The best way to get accurate pricing is a free estimate from a licensed contractor.</p>
+
+<h2 id="by-material" class="text-2xl font-bold text-secondary mt-10 mb-4">Roof Replacement Cost by Material</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Asphalt Shingle Roofing</h3>
+
+<p class="text-gray-600 mb-4">The most popular choice in Jacksonville for good reason—best value for most budgets:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>3-Tab Shingles:</strong> $4.50-$6.00 per sq ft ($7,000-$10,000 average home)</li>
+<li><strong>Architectural Shingles:</strong> $5.50-$7.50 per sq ft ($7,900-$15,000 average home)</li>
+<li><strong>Premium/Impact-Resistant:</strong> $7.00-$9.00 per sq ft ($12,000-$18,000 average home)</li>
+</ul>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, our shingle roof replacement starts at $7,900 for average Jacksonville homes.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Metal Roofing</h3>
+
+<p class="text-gray-600 mb-4">Higher upfront cost but lasts 2-3x longer with better hurricane protection:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Metal Shingles:</strong> $8.00-$12.00 per sq ft ($15,000-$22,000 average home)</li>
+<li><strong>Standing Seam (Steel):</strong> $10.00-$15.00 per sq ft ($18,000-$28,000 average home)</li>
+<li><strong>Standing Seam (Aluminum):</strong> $12.00-$18.00 per sq ft ($22,000-$35,000 average home)</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Tile Roofing</h3>
+
+<p class="text-gray-600 mb-4">Premium option with longest lifespan but highest cost:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Concrete Tile:</strong> $12.00-$18.00 per sq ft ($20,000-$35,000 average home)</li>
+<li><strong>Clay Tile:</strong> $15.00-$25.00 per sq ft ($25,000-$50,000+ average home)</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Note: Tile roofs often require structural assessment and possible reinforcement, adding to total cost.</p>
+
+<h2 id="factors" class="text-2xl font-bold text-secondary mt-10 mb-4">Factors Affecting Roof Replacement Cost</h2>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">1. Roof Size</h3>
+
+<p class="text-gray-600 mb-6">Roofing is priced by the square (100 sq ft). Larger roofs cost more in total but may have lower per-square-foot costs due to economies of scale.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">2. Roof Pitch (Steepness)</h3>
+
+<p class="text-gray-600 mb-4">Steeper roofs cost more due to:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Safety equipment requirements</li>
+<li>Slower installation pace</li>
+<li>More difficult material handling</li>
+</ul>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">3. Roof Complexity</h3>
+
+<p class="text-gray-600 mb-6">Simple gable roofs cost less than roofs with multiple valleys, hips, dormers, and penetrations. Each transition point requires extra labor and flashing.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">4. Number of Layers to Remove</h3>
+
+<p class="text-gray-600 mb-6">If you have multiple shingle layers (common in older homes), removing them adds labor and disposal costs. Florida code typically allows a maximum of two layers.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">5. Decking Condition</h3>
+
+<p class="text-gray-600 mb-6">Rotted or damaged plywood must be replaced. This isn't always visible until the old roof is removed. Budget $75-$150 per sheet for unexpected decking replacement.</p>
+
+<h2 id="hidden-costs" class="text-2xl font-bold text-secondary mt-10 mb-4">Hidden Costs to Know About</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Permit Fees:</strong> $200-$500 in Jacksonville (should be included in estimate)</li>
+<li><strong>Decking Replacement:</strong> $75-$150 per sheet if needed</li>
+<li><strong>Drip Edge:</strong> Some estimates exclude this; it's required by code</li>
+<li><strong>Ventilation Upgrades:</strong> May be needed to meet code or warranty requirements</li>
+<li><strong>Gutter Repair/Replacement:</strong> Often needed after roof work</li>
+<li><strong>Skylight/Chimney Flashing:</strong> Extra work around penetrations</li>
+</ul>
+
+<p class="text-gray-600 mb-6">A reputable contractor's estimate should include all necessary work. Be wary of estimates that seem incomplete or have many "additional cost" items.</p>
+
+<h2 id="financing" class="text-2xl font-bold text-secondary mt-10 mb-4">Roofing Financing Options</h2>
+
+<p class="text-gray-600 mb-4">Most homeowners don't have $15,000+ for a roof replacement. Options include:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Contractor Financing:</strong> Gimo's Roofing offers financing from $99/month</li>
+<li><strong>Home Equity Loan/HELOC:</strong> Uses home equity, often lower interest rates</li>
+<li><strong>Personal Loan:</strong> Unsecured loan from bank or credit union</li>
+<li><strong>Credit Cards:</strong> For smaller repairs (not recommended for full replacement)</li>
+<li><strong>Insurance Claim:</strong> If damage is covered, insurance may pay</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Read our complete guide to <a href="/blog/roofing-financing-options-jacksonville" class="text-primary hover:underline">roofing financing options in Jacksonville</a>.</p>
+
+<h2 id="save-money" class="text-2xl font-bold text-secondary mt-10 mb-4">How to Save Money on Roof Replacement</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Get Multiple Estimates:</strong> Compare at least 3 quotes</li>
+<li><strong>Time It Right:</strong> Off-season (late fall/winter) may have better pricing</li>
+<li><strong>Choose Standard Materials:</strong> Premium upgrades add cost; standard architectural shingles perform well</li>
+<li><strong>Bundle Work:</strong> Combine with gutter replacement or other projects</li>
+<li><strong>Check Insurance:</strong> Storm damage may be covered</li>
+<li><strong>Ask About Discounts:</strong> Some contractors offer military, senior, or referral discounts</li>
+</ul>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Roof Replacement Costs in Jacksonville</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Shingle roofs start at $7,900</strong> for average Jacksonville homes</li>
+<li>• <strong>Metal roofs range $15,000-$35,000</strong> but last 2-3x longer</li>
+<li>• <strong>Tile roofs cost $25,000-$50,000+</strong> and may need structural work</li>
+<li>• <strong>Size, pitch, and complexity</strong> all affect final price</li>
+<li>• <strong>Budget for hidden costs</strong> like decking replacement</li>
+<li>• <strong>Financing available</strong> from $99/month</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Ready for an accurate roof replacement estimate? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free, no-obligation quote. We'll measure your roof, discuss options, and provide detailed pricing. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How much does a new roof cost in Jacksonville FL?", answer: "In Jacksonville, shingle roof replacement starts at $7,900 for average-sized homes. Metal roofs range from $15,000-$35,000, and tile roofs from $25,000-$50,000+. Actual cost depends on roof size, pitch, complexity, and material choice." },
+      { question: "How much is a roof per square foot in Florida?", answer: "In Florida, roofing costs $4.50-$7.50 per sq ft for shingles, $8.00-$18.00 per sq ft for metal, and $12.00-$25.00 per sq ft for tile. These ranges include labor and materials; actual prices vary by specific product and roof complexity." },
+      { question: "What is the cheapest roof replacement option?", answer: "3-tab asphalt shingles are the cheapest roof replacement option at $4.50-$6.00 per square foot. However, they only last 12-15 years in Florida. Architectural shingles ($5.50-$7.50/sq ft) offer better value with 15-20 year lifespan." },
+      { question: "Does insurance cover roof replacement in Florida?", answer: "Insurance covers roof replacement if damage was caused by a covered peril (hurricane, wind, hail, fallen tree). Normal wear and tear isn't covered. Age-related replacement isn't covered. If your roof was damaged in a storm, file a claim promptly." },
+      { question: "Can I finance a new roof in Jacksonville?", answer: "Yes. Gimo's Roofing offers financing starting at $99/month. Other options include home equity loans, HELOCs, and personal loans. Financing lets you replace your roof now and pay over time, avoiding further damage from an aging roof." }
+    ]
   }
 ]
 
