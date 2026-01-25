@@ -2,8 +2,15 @@
 
 import { useState, FormEvent } from 'react'
 
+declare global {
+  interface Window {
+    dataLayer: Record<string, unknown>[]
+  }
+}
+
 export default function WhatsAppWidget() {
   const [isOpen, setIsOpen] = useState(false)
+  const [formStarted, setFormStarted] = useState(false)
   const [formData, setFormData] = useState({
     service: '',
     sqft: '',
@@ -26,15 +33,48 @@ Please let me know about availability and pricing. Thank you!`
     const phoneNumber = '19046976093'
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
 
+    // Track form submission
+    if (typeof window !== 'undefined' && window.dataLayer) {
+      window.dataLayer.push({
+        event: 'whatsapp_form_submit',
+        form_type: 'whatsapp_widget',
+        service_type: formData.service,
+        location: formData.location,
+      })
+    }
+
     window.open(whatsappUrl, '_blank')
+
+    // Track WhatsApp click
+    if (typeof window !== 'undefined' && window.dataLayer) {
+      window.dataLayer.push({
+        event: 'whatsapp_click',
+        destination_url: 'wa.me',
+      })
+    }
+
     setIsOpen(false)
+  }
+
+  const handleWidgetToggle = () => {
+    if (!isOpen && !formStarted) {
+      // Track form start when opening widget for first time
+      if (typeof window !== 'undefined' && window.dataLayer) {
+        window.dataLayer.push({
+          event: 'whatsapp_form_start',
+          form_type: 'whatsapp_widget',
+        })
+      }
+      setFormStarted(true)
+    }
+    setIsOpen(!isOpen)
   }
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
       {/* WhatsApp Button */}
       <button
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={handleWidgetToggle}
         className="w-14 h-14 bg-[#25D366] hover:bg-[#128C7E] rounded-full shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
         aria-label="Contact us on WhatsApp"
       >
