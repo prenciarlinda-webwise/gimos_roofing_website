@@ -1,13 +1,12 @@
 import type { Metadata } from 'next'
 import { Inter, Poppins } from 'next/font/google'
-import Script from 'next/script'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import WhatsAppWidget from '@/components/WhatsAppWidget'
+import { Analytics } from '@/components/Analytics'
 
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA4_ID || ''
-const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || ''
+const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || ''
 
 const inter = Inter({
   subsets: ['latin'],
@@ -126,46 +125,60 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
-      </head>
-      <body className="bg-white text-gray-800 antialiased">
-        {/* Google Analytics & Google Ads - Only load if IDs are configured */}
-        {GA_MEASUREMENT_ID && (
+
+        {/* Google Tag Manager */}
+        {GTM_ID && (
           <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-              strategy="afterInteractive"
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                  })(window,document,'script','dataLayer','${GTM_ID}');
+                `,
+              }}
             />
-            <Script id="google-analytics" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${GA_MEASUREMENT_ID}');
-                ${GOOGLE_ADS_ID ? `gtag('config', '${GOOGLE_ADS_ID}');` : ''}
-              `}
-            </Script>
+
+            {/* First-touch attribution tracking */}
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  (function() {
+                    if (!document.cookie.includes('_first_source=')) {
+                      var params = new URLSearchParams(window.location.search);
+                      var source = params.get('utm_source') || (document.referrer ? new URL(document.referrer).hostname : 'direct');
+                      var medium = params.get('utm_medium') || 'none';
+                      var campaign = params.get('utm_campaign') || 'none';
+                      var sourceString = source + '|' + medium + '|' + campaign;
+
+                      var expiry = new Date();
+                      expiry.setDate(expiry.getDate() + 30);
+                      document.cookie = '_first_source=' + sourceString + '; expires=' + expiry.toUTCString() + '; path=/';
+                    }
+                  })();
+                `,
+              }}
+            />
           </>
         )}
-        {/* Phone Call Conversion Tracking - Only if Google Ads is configured */}
-        {GOOGLE_ADS_ID && (
-          <Script id="phone-tracking" strategy="afterInteractive">
-            {`
-              document.addEventListener('click', function(e) {
-                var target = e.target.closest('a[href^="tel:"]');
-                if (target) {
-                  if (typeof gtag === 'function') {
-                    gtag('event', 'conversion', {
-                      'send_to': '${GOOGLE_ADS_ID}/phone_call',
-                      'event_category': 'Lead',
-                      'event_label': 'Phone Call Click',
-                      'value': 1
-                    });
-                  }
-                }
-              });
-            `}
-          </Script>
+      </head>
+      <body className="bg-white text-gray-800 antialiased">
+        {/* Google Tag Manager (noscript) */}
+        {GTM_ID && (
+          <noscript>
+            <iframe
+              src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+            />
+          </noscript>
         )}
+
+        <Analytics />
+
         <Header />
         <main>
           {children}
