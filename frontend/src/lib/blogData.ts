@@ -6534,6 +6534,990 @@ export const blogPosts: BlogPost[] = [
       { question: "How long do I have to file a wind damage claim?", answer: "Report damage to your insurer within 24-48 hours for best results. While Florida allows up to 3 years for most claims, your policy may have shorter requirements. Fresh damage is easier to attribute to specific storms." },
       { question: "Can wind damage be repaired or is replacement needed?", answer: "It depends on extent. Localized damage (few shingles, small areas) can usually be repaired. Widespread damage, structural issues, or damage to an already aging roof may warrant replacement. A professional assessment helps determine the best approach." }
     ]
+  },
+  {
+    slug: "hail-damage-roof-florida",
+    title: "Hail Damage to Roofs in Florida: Identification, Repair, and Claims",
+    metaTitle: "Hail Damage to Roofs in Florida | Gimo's Roofing Jacksonville",
+    excerpt: "Learn to identify hail damage on different roofing materials, understand repair vs replacement decisions, and navigate insurance claims for hail damage in Florida.",
+    date: "2026-04-03",
+    publishDate: "2026-04-03",
+    author: "Gimo's Roofing Team",
+    image: "/images/blog/hail-damage.jpg",
+    category: "Storm Damage",
+    readTime: "13 min read",
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Hail Damage to Florida Roofs</h2>
+
+<p class="text-gray-600 mb-6"><strong>Hail damage appears as dents, cracks, or granule loss on roofing materials.</strong> On asphalt shingles, look for dark spots, exposed fiberglass mat, or soft spots when touched. Metal shows dents. Tile cracks or chips. Even small hail (1" diameter) can damage roofs, especially with high wind velocity. Most hail damage is covered by homeowner's insurance with standard deductible.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="text-secondary font-semibold">Key Facts About Hail Damage:</p>
+<ul class="text-gray-700 mt-2 space-y-1">
+<li>• Damage may not be visible from ground level</li>
+<li>• Hail damage compromises shingle waterproofing</li>
+<li>• Insurance claims should be filed promptly</li>
+<li>• Small hail with high winds causes more damage than large slow hail</li>
+</ul>
+</div>
+
+<h2 id="does-florida-get-hail" class="text-2xl font-bold text-secondary mt-10 mb-4">Does Florida Get Damaging Hail?</h2>
+
+<p class="text-gray-600 mb-6">While Florida isn't in "Hail Alley," the state experiences more hail than many people realize:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Frequency:</strong> Jacksonville area averages 2-4 hail events annually</li>
+<li><strong>Timing:</strong> Most common March-May during severe thunderstorm season</li>
+<li><strong>Size:</strong> Typically pea to quarter-sized, occasionally larger</li>
+<li><strong>Velocity:</strong> High wind speeds increase damage potential</li>
+</ul>
+
+<h2 id="identifying-damage-shingles" class="text-2xl font-bold text-secondary mt-10 mb-4">Identifying Hail Damage on Asphalt Shingles</h2>
+
+<p class="text-gray-600 mb-4">Hail damage to asphalt shingles includes:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Granule Loss:</strong> Dark spots where granules are knocked off</li>
+<li><strong>Bruising:</strong> Soft spots when you press on the shingle</li>
+<li><strong>Cracks:</strong> Impact fractures in the shingle material</li>
+<li><strong>Exposed Mat:</strong> Fiberglass or asphalt mat visible</li>
+<li><strong>Random Pattern:</strong> Damage scattered across roof randomly</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Test for Hail Bruising</h3>
+
+<p class="text-gray-600 mb-6">Professional inspectors test for bruising by gently pressing suspected impact areas. A hail-damaged spot will feel soft compared to undamaged areas. The impact fractures the mat beneath the granules even when surface damage appears minimal.</p>
+
+<h2 id="damage-other-materials" class="text-2xl font-bold text-secondary mt-10 mb-4">Hail Damage on Other Roofing Materials</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Metal Roofing</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Visible dents in panels</li>
+<li>Paint chipping or cracking at impact sites</li>
+<li>Cosmetic vs functional damage distinction</li>
+<li>Textured metal hides minor dents better</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Tile Roofing</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Cracks or chips in tiles</li>
+<li>Broken corners or edges</li>
+<li>Shattered tiles from large hail</li>
+<li>Individual tiles can be replaced</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Flat/Modified Bitumen</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Punctures in membrane</li>
+<li>Granule displacement on cap sheet</li>
+<li>Bruising similar to asphalt shingles</li>
+<li>Check around drains and edges</li>
+</ul>
+
+<h2 id="repair-vs-replacement" class="text-2xl font-bold text-secondary mt-10 mb-4">Repair vs Replacement for Hail Damage</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">When Repair Is Appropriate</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Limited damage area (less than 30% of roof)</li>
+<li>Matching materials available</li>
+<li>Roof is relatively new (under 10 years)</li>
+<li>Damage limited to specific sections</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">When Replacement Is Better</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Widespread damage across multiple areas</li>
+<li>Roof was already aging before damage</li>
+<li>Can't match existing materials</li>
+<li>Previous repairs or multiple layers</li>
+<li>Insurance approves full replacement</li>
+</ul>
+
+<h2 id="insurance-claims" class="text-2xl font-bold text-secondary mt-10 mb-4">Filing Hail Damage Insurance Claims</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Documentation Needed</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Date of hail event (weather reports confirm)</li>
+<li>Photos of damage from multiple angles</li>
+<li>Professional inspection report</li>
+<li>Written estimate for repairs</li>
+<li>Photos of other property damage (vehicles, siding)</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Claim Process Timeline</h3>
+<ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Report promptly:</strong> Contact insurer within 24-48 hours</li>
+<li><strong>Get inspection:</strong> Have professional document damage</li>
+<li><strong>Adjuster visit:</strong> Usually scheduled within 1-2 weeks</li>
+<li><strong>Estimate comparison:</strong> Compare adjuster's vs contractor's estimate</li>
+<li><strong>Negotiate if needed:</strong> Supplement claim for missed damage</li>
+<li><strong>Approval:</strong> Receive claim payment minus deductible</li>
+</ol>
+
+<h2 id="common-issues" class="text-2xl font-bold text-secondary mt-10 mb-4">Common Hail Claim Issues</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Pre-existing Damage:</strong> Insurers may claim damage existed before storm</li>
+<li><strong>Cosmetic vs Functional:</strong> Some policies limit cosmetic damage coverage</li>
+<li><strong>ACV vs RCV:</strong> Actual cash value deducts depreciation; replacement cost doesn't</li>
+<li><strong>Missed Damage:</strong> Adjusters may miss damage; supplemental claims may be needed</li>
+</ul>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Hail Damage to Roofs</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Professional inspection recommended</strong>—damage often invisible from ground</li>
+<li>• <strong>Don't delay claims</strong>—file within policy timeframes</li>
+<li>• <strong>Hail compromises waterproofing</strong>—even without visible holes</li>
+<li>• <strong>Get contractor estimate</strong> before adjuster visit</li>
+<li>• <strong>Document everything</strong>—photos, weather reports, inspection reports</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Suspect hail damage to your roof? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free inspection. We document damage thoroughly for insurance claims. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "What size hail causes roof damage?", answer: "Hail as small as 1 inch (quarter-sized) can damage roofs, especially asphalt shingles. However, velocity matters as much as size—1-inch hail driven by 60mph winds causes more damage than 2-inch hail falling straight down. Most insurance claims involve hail 1-2 inches in diameter." },
+      { question: "How can I tell if my roof has hail damage?", answer: "Look for dark spots (granule loss), dents on vents/gutters, cracked or chipped tiles, or shingle pieces on the ground. Inside, check for new leaks or water stains. Professional inspection is recommended as bruising and mat damage aren't visible from the ground." },
+      { question: "Is hail damage covered by homeowner's insurance?", answer: "Yes, hail damage is covered by standard Florida homeowner's policies as a named peril. You'll pay your standard deductible (not hurricane deductible). Some policies have cosmetic damage exclusions for metal roofs, so review your policy language." },
+      { question: "How long after a hail storm can I file a claim?", answer: "File as soon as possible, ideally within days of the storm. While Florida allows claims up to 2-3 years after the event, fresh damage is easier to attribute to a specific storm. Insurance companies may dispute older claims, and some policies have shorter reporting requirements." },
+      { question: "Will insurance replace my whole roof for hail damage?", answer: "It depends on the extent of damage. If damage affects a significant portion of the roof and repairs wouldn't be effective, insurers often approve full replacement. If damage is limited to one slope or small area, they may only cover repairs. Your contractor's assessment helps determine this." }
+    ]
+  },
+  {
+    slug: "roof-ventilation-importance-florida",
+    title: "Roof Ventilation in Florida: Why It Matters and How to Improve It",
+    metaTitle: "Roof Ventilation in Florida | Gimo's Roofing Jacksonville",
+    excerpt: "Understand why proper roof ventilation is crucial in Florida's climate. Learn about ventilation types, signs of poor ventilation, and how to optimize your attic airflow.",
+    date: "2026-04-06",
+    publishDate: "2026-04-06",
+    author: "Gimo's Roofing Team",
+    image: "/images/blog/roof-ventilation.jpg",
+    category: "Roof Care",
+    readTime: "12 min read",
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Roof Ventilation in Florida</h2>
+
+<p class="text-gray-600 mb-6"><strong>Proper roof ventilation removes hot air and moisture from your attic, extending roof life and reducing energy costs.</strong> Florida homes need balanced intake (soffit vents) and exhaust (ridge/roof vents) ventilation. Poor ventilation leads to temperatures exceeding 150°F in attics, causing premature shingle failure, mold growth, and 30-40% higher cooling bills.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="text-secondary font-semibold">Florida Ventilation Facts:</p>
+<ul class="text-gray-700 mt-2 space-y-1">
+<li>• Attics need 1 sq ft of ventilation per 150 sq ft of attic space</li>
+<li>• Balanced system: 50% intake, 50% exhaust</li>
+<li>• Poor ventilation voids many shingle warranties</li>
+<li>• Proper ventilation can reduce cooling costs 10-15%</li>
+</ul>
+</div>
+
+<h2 id="why-ventilation-matters" class="text-2xl font-bold text-secondary mt-10 mb-4">Why Roof Ventilation Matters in Florida</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Heat Management</h3>
+<p class="text-gray-600 mb-6">Florida's intense sun heats roof surfaces to 150-170°F in summer. Without ventilation, attic temperatures can reach 150°F+. This extreme heat:</p>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Bakes shingles from below, accelerating aging</li>
+<li>Transfers heat into living spaces below</li>
+<li>Overworks air conditioning systems</li>
+<li>Damages stored items in attic</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Moisture Control</h3>
+<p class="text-gray-600 mb-6">Florida's humidity creates moisture problems in poorly ventilated attics:</p>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Condensation forms on roof decking</li>
+<li>Wood rot develops in framing</li>
+<li>Mold and mildew growth</li>
+<li>Insulation loses effectiveness when wet</li>
+<li>Rusted metal fasteners and components</li>
+</ul>
+
+<h2 id="types-of-ventilation" class="text-2xl font-bold text-secondary mt-10 mb-4">Types of Roof Ventilation</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Intake Vents (Bring Air In)</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Soffit Vents:</strong> Most common and effective intake; installed under roof overhang</li>
+<li><strong>Drip Edge Vents:</strong> Alternative when soffits aren't possible</li>
+<li><strong>Fascia Vents:</strong> Installed in fascia board for homes without soffit overhang</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Exhaust Vents (Let Air Out)</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Ridge Vents:</strong> Run along roof peak; most effective passive exhaust</li>
+<li><strong>Box/Static Vents:</strong> Individual vents installed near ridge</li>
+<li><strong>Power Vents:</strong> Electric or solar-powered fans; actively pull air out</li>
+<li><strong>Turbine Vents:</strong> Wind-powered spinning vents</li>
+<li><strong>Gable Vents:</strong> Installed in gable ends; less effective than ridge vents</li>
+</ul>
+
+<h2 id="balanced-ventilation" class="text-2xl font-bold text-secondary mt-10 mb-4">Creating Balanced Ventilation</h2>
+
+<p class="text-gray-600 mb-6">Effective ventilation requires balance between intake and exhaust:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>50/50 Rule:</strong> Equal amounts of intake and exhaust ventilation</li>
+<li><strong>Continuous Airflow:</strong> Cool air enters low, hot air exits high</li>
+<li><strong>No Mixing Types:</strong> Don't combine ridge vents with powered vents</li>
+<li><strong>Clear Pathways:</strong> Ensure insulation doesn't block soffit vents</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Calculating Ventilation Needs</h3>
+<p class="text-gray-600 mb-6">Standard formula: 1 square foot of net free ventilation area per 150 square feet of attic floor space. For a 1,500 sq ft attic:</p>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Total needed: 10 sq ft (1,500 / 150)</li>
+<li>Intake: 5 sq ft of soffit vents</li>
+<li>Exhaust: 5 sq ft of ridge/roof vents</li>
+</ul>
+
+<h2 id="signs-poor-ventilation" class="text-2xl font-bold text-secondary mt-10 mb-4">Signs of Poor Roof Ventilation</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Extremely hot upstairs:</strong> Second floor much hotter than first</li>
+<li><strong>High cooling bills:</strong> AC runs constantly in summer</li>
+<li><strong>Ice dams (rare in FL):</strong> Warm attic melts snow/ice on roof</li>
+<li><strong>Curling shingles:</strong> Heat damage from below</li>
+<li><strong>Mold in attic:</strong> Moisture not escaping</li>
+<li><strong>Peeling paint:</strong> On soffits or fascia</li>
+<li><strong>Rusty nails:</strong> In attic from condensation</li>
+<li><strong>Wavy roof deck:</strong> Moisture warping plywood</li>
+</ul>
+
+<h2 id="improving-ventilation" class="text-2xl font-bold text-secondary mt-10 mb-4">How to Improve Roof Ventilation</h2>
+
+<ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Assess Current System:</strong> Count existing vents, calculate net free area</li>
+<li><strong>Add Soffit Vents:</strong> Most homes need more intake ventilation</li>
+<li><strong>Install Ridge Vents:</strong> Most effective exhaust for most roofs</li>
+<li><strong>Clear Blocked Vents:</strong> Remove insulation, debris, paint from vents</li>
+<li><strong>Install Baffles:</strong> Keep insulation from blocking soffit vents</li>
+<li><strong>Consider Solar Fans:</strong> For problem areas or complex roof designs</li>
+</ol>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Roof Ventilation</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Balanced intake and exhaust</strong> is critical for effectiveness</li>
+<li>• <strong>Most Florida homes need more</strong> soffit (intake) ventilation</li>
+<li>• <strong>Ridge vents are most effective</strong> passive exhaust option</li>
+<li>• <strong>Poor ventilation voids warranties</strong> and shortens roof life</li>
+<li>• <strong>Proper ventilation reduces</strong> cooling costs 10-15%</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Concerned about your roof ventilation? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a ventilation assessment. We can evaluate your current system and recommend improvements. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How do I know if my roof has enough ventilation?", answer: "Signs of inadequate ventilation include extremely hot upstairs rooms, high cooling bills, curling shingles, mold in the attic, or peeling paint on soffits. You can also calculate: you need 1 sq ft of ventilation per 150 sq ft of attic space, split evenly between intake and exhaust." },
+      { question: "What's the best type of roof ventilation for Florida?", answer: "A combination of soffit vents (intake) and ridge vents (exhaust) works best for most Florida homes. This passive system provides continuous airflow without electricity. For complex roof designs, solar-powered attic fans can supplement natural ventilation." },
+      { question: "Can I add ventilation to an existing roof?", answer: "Yes. Soffit vents can be added or upgraded, ridge vents can be installed during reroofing or by cutting into the existing ridge, and box vents can be added without full reroof. A roofing professional can assess the best options for your home." },
+      { question: "Will better ventilation lower my electric bill?", answer: "Yes, typically 10-15% reduction in cooling costs. Proper ventilation keeps attic temperatures closer to outside ambient temperature instead of 150°F+, reducing the heat load on your air conditioning system and insulation." },
+      { question: "Can you have too much roof ventilation?", answer: "Rarely a problem, but unbalanced ventilation causes issues. Too much exhaust without adequate intake can create negative pressure, potentially pulling conditioned air from the home or drawing rain/debris into the attic. Balance is key." }
+    ]
+  },
+  {
+    slug: "attic-insulation-roof-performance-florida",
+    title: "Attic Insulation and Roof Performance in Florida Homes",
+    metaTitle: "Attic Insulation and Roof Performance in Florida | Gimo's Roofing",
+    excerpt: "Learn how attic insulation affects your roof's performance and energy efficiency. Understand insulation types, R-values, and best practices for Florida's climate.",
+    date: "2026-04-09",
+    publishDate: "2026-04-09",
+    author: "Gimo's Roofing Team",
+    image: "/images/blog/attic-insulation.jpg",
+    category: "Energy Efficiency",
+    readTime: "11 min read",
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Attic Insulation in Florida</h2>
+
+<p class="text-gray-600 mb-6"><strong>Florida homes need R-30 to R-60 attic insulation to meet energy code and optimize efficiency.</strong> Proper insulation keeps conditioned air in your home, reduces HVAC workload, and prevents moisture problems that can damage roofing. Most Florida homes are under-insulated—adding insulation typically pays for itself in 2-4 years through energy savings.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="text-secondary font-semibold">Florida Insulation Facts:</p>
+<ul class="text-gray-700 mt-2 space-y-1">
+<li>• Recommended: R-38 minimum for Florida attics</li>
+<li>• Many older homes have only R-19 or less</li>
+<li>• Proper insulation reduces cooling costs 15-25%</li>
+<li>• Insulation must not block ventilation</li>
+</ul>
+</div>
+
+<h2 id="why-insulation-matters" class="text-2xl font-bold text-secondary mt-10 mb-4">How Insulation Affects Your Roof</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Thermal Barrier Function</h3>
+<p class="text-gray-600 mb-6">Attic insulation creates a thermal barrier between your conditioned living space and the hot attic:</p>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Keeps cool air inside during summer</li>
+<li>Reduces heat transfer from 150°F+ attic</li>
+<li>Allows roof/attic to breathe properly</li>
+<li>Works with ventilation to manage temperature</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Moisture Management</h3>
+<p class="text-gray-600 mb-6">Insulation also helps manage moisture that can damage roofing:</p>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Prevents warm, humid air from reaching cold surfaces</li>
+<li>Reduces condensation on roof decking</li>
+<li>Protects against mold and wood rot</li>
+<li>Maintains effectiveness of roof materials</li>
+</ul>
+
+<h2 id="insulation-types" class="text-2xl font-bold text-secondary mt-10 mb-4">Insulation Types for Florida Attics</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Blown-In Fiberglass</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>R-Value:</strong> R-2.2 to R-2.7 per inch</li>
+<li><strong>Pros:</strong> Cost-effective, fills irregular spaces, DIY-friendly</li>
+<li><strong>Cons:</strong> Settles over time, can be displaced by air movement</li>
+<li><strong>Best For:</strong> Topping up existing insulation</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Blown-In Cellulose</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>R-Value:</strong> R-3.2 to R-3.8 per inch</li>
+<li><strong>Pros:</strong> Higher R-value, made from recycled materials, settles less</li>
+<li><strong>Cons:</strong> Can absorb moisture, requires professional installation</li>
+<li><strong>Best For:</strong> Full attic insulation projects</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Batt Insulation (Fiberglass/Mineral Wool)</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>R-Value:</strong> R-3.0 to R-4.3 per inch</li>
+<li><strong>Pros:</strong> Consistent coverage, doesn't settle, easy to inspect</li>
+<li><strong>Cons:</strong> Gaps around obstacles, harder to install properly</li>
+<li><strong>Best For:</strong> New construction, accessible attics</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Spray Foam</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>R-Value:</strong> R-3.7 (open-cell) to R-6.5 (closed-cell) per inch</li>
+<li><strong>Pros:</strong> Highest R-value, air sealing, moisture barrier</li>
+<li><strong>Cons:</strong> Expensive, requires professional installation</li>
+<li><strong>Best For:</strong> Cathedral ceilings, conditioned attics</li>
+</ul>
+
+<h2 id="florida-requirements" class="text-2xl font-bold text-secondary mt-10 mb-4">Florida Insulation Requirements</h2>
+
+<p class="text-gray-600 mb-6">Florida Building Code requirements for Climate Zone 2 (Jacksonville area):</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Ceiling/Attic:</strong> R-38 minimum (R-30 for existing homes)</li>
+<li><strong>Energy Star Recommendation:</strong> R-38 to R-60</li>
+<li><strong>Typical Existing Homes:</strong> Often only R-19 or less</li>
+</ul>
+
+<h2 id="installation-tips" class="text-2xl font-bold text-secondary mt-10 mb-4">Proper Installation Best Practices</h2>
+
+<ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Air Seal First:</strong> Seal gaps around penetrations, light fixtures, ductwork</li>
+<li><strong>Install Baffles:</strong> Keep insulation away from soffit vents</li>
+<li><strong>Consistent Depth:</strong> Ensure even coverage across entire attic</li>
+<li><strong>Don't Compress:</strong> Compressed insulation loses R-value</li>
+<li><strong>Avoid Covering Vents:</strong> Maintain clear airflow paths</li>
+<li><strong>Cover HVAC Ducts:</strong> Insulate ductwork if in unconditioned attic</li>
+</ol>
+
+<h2 id="common-problems" class="text-2xl font-bold text-secondary mt-10 mb-4">Common Insulation Problems</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Blocked Vents:</strong> Insulation covering soffit vents causes moisture problems</li>
+<li><strong>Gaps and Thin Spots:</strong> Inconsistent coverage reduces effectiveness</li>
+<li><strong>Compressed Batts:</strong> Stuffed insulation performs poorly</li>
+<li><strong>Moisture Damage:</strong> Wet insulation from leaks must be replaced</li>
+<li><strong>Pest Damage:</strong> Rodents tunnel through insulation</li>
+</ul>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Attic Insulation</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>R-38 minimum</strong> recommended for Florida attics</li>
+<li>• <strong>Blown-in cellulose or fiberglass</strong> most cost-effective for upgrades</li>
+<li>• <strong>Air sealing before insulating</strong> maximizes effectiveness</li>
+<li>• <strong>Don't block ventilation</strong>—use baffles at soffit vents</li>
+<li>• <strong>ROI typically 2-4 years</strong> through energy savings</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Need attic insulation assessment? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a>—we evaluate insulation during roof inspections and can coordinate upgrades with roofing projects. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "How much insulation do I need in my Florida attic?", answer: "Florida building code requires R-38 minimum for new construction (R-30 for existing homes). Energy Star recommends R-38 to R-60 for optimal efficiency. Many older Florida homes have only R-19 or less, well below recommended levels." },
+      { question: "What type of insulation is best for Florida attics?", answer: "Blown-in cellulose or fiberglass is most cost-effective for attic floors. Both achieve high R-values and fill irregular spaces well. For cathedral ceilings or conditioned attics, spray foam is often best despite higher cost." },
+      { question: "Can I add insulation myself?", answer: "Yes, blown-in fiberglass is DIY-friendly—home centers rent blowing machines. However, proper air sealing beforehand is critical and can be challenging. For best results and to ensure proper coverage without blocking ventilation, professional installation is recommended." },
+      { question: "How does insulation affect my roof?", answer: "Proper insulation keeps conditioned air in your home, not in the attic. This allows proper attic ventilation to work effectively, reducing moisture buildup that can rot decking and shorten roof life. It also reduces the temperature differential that causes condensation." },
+      { question: "Will adding insulation pay for itself?", answer: "Typically yes, within 2-4 years through reduced cooling costs. Upgrading from R-19 to R-38 can reduce cooling bills 15-25%. Insulation also extends HVAC system life by reducing workload and can increase home value." }
+    ]
+  },
+  {
+    slug: "gutter-systems-roofing-florida",
+    title: "Gutter Systems and Roofing: Complete Florida Homeowner's Guide",
+    metaTitle: "Gutter Systems and Roofing Guide | Gimo's Roofing Jacksonville",
+    excerpt: "Understand how gutters protect your roof, foundation, and home. Learn about gutter types, sizing, maintenance, and common problems in Florida's rainy climate.",
+    date: "2026-04-12",
+    publishDate: "2026-04-12",
+    author: "Gimo's Roofing Team",
+    image: "/images/blog/gutters.jpg",
+    category: "Roof Care",
+    readTime: "12 min read",
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Gutters and Your Roof</h2>
+
+<p class="text-gray-600 mb-6"><strong>Gutters channel water away from your roof, fascia, foundation, and landscaping.</strong> In Florida's climate with 50+ inches of annual rainfall, properly sized and maintained gutters prevent water damage, soil erosion, and foundation problems. Most Florida homes need 6-inch K-style gutters with 3x4-inch downspouts to handle heavy rain events.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="text-secondary font-semibold">Florida Gutter Facts:</p>
+<ul class="text-gray-700 mt-2 space-y-1">
+<li>• Jacksonville averages 52 inches of rain annually</li>
+<li>• Standard 5" gutters often overflow in heavy Florida rains</li>
+<li>• Clogged gutters cause fascia rot and roof damage</li>
+<li>• Gutters should be cleaned 2-4 times per year</li>
+</ul>
+</div>
+
+<h2 id="why-gutters-matter" class="text-2xl font-bold text-secondary mt-10 mb-4">Why Gutters Matter for Your Roof</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Protects Roof Edges</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Directs water away from fascia board</li>
+<li>Prevents water from pooling at roof edge</li>
+<li>Reduces ice dam potential (rare in FL)</li>
+<li>Protects soffit from splash-back</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Protects Foundation</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Channels water away from foundation</li>
+<li>Prevents soil erosion around home</li>
+<li>Reduces basement/crawlspace moisture</li>
+<li>Prevents slab foundation problems</li>
+</ul>
+
+<h2 id="gutter-types" class="text-2xl font-bold text-secondary mt-10 mb-4">Gutter Types and Materials</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Gutter Styles</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>K-Style:</strong> Most common, decorative profile, high capacity</li>
+<li><strong>Half-Round:</strong> Traditional look, easier to clean, lower capacity</li>
+<li><strong>Box Gutters:</strong> Built into roof structure, common on older homes</li>
+<li><strong>Fascia Gutters:</strong> Serve as both fascia and gutter</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Gutter Materials</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Aluminum:</strong> Most popular, rust-proof, affordable, 20+ year life</li>
+<li><strong>Vinyl:</strong> Cheapest, easy DIY, but brittle in sun, 10-15 year life</li>
+<li><strong>Galvanized Steel:</strong> Strong, but rusts eventually, 15-20 years</li>
+<li><strong>Copper:</strong> Premium, beautiful patina, 50+ year life, expensive</li>
+</ul>
+
+<h2 id="sizing-gutters" class="text-2xl font-bold text-secondary mt-10 mb-4">Gutter Sizing for Florida Homes</h2>
+
+<p class="text-gray-600 mb-6">Florida's heavy rainfall requires adequate gutter sizing:</p>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Standard Sizing</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>5-inch gutters:</strong> Standard residential, adequate for moderate rain</li>
+<li><strong>6-inch gutters:</strong> Recommended for Florida, handles heavy rain better</li>
+<li><strong>7-inch gutters:</strong> Commercial or large roof areas</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Downspout Sizing</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>2x3-inch:</strong> Standard for 5-inch gutters</li>
+<li><strong>3x4-inch:</strong> Recommended for Florida, higher flow capacity</li>
+<li><strong>One downspout:</strong> Needed per 20-30 feet of gutter run</li>
+</ul>
+
+<h2 id="common-problems" class="text-2xl font-bold text-secondary mt-10 mb-4">Common Gutter Problems in Florida</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Clogging:</strong> Leaves, pine needles, shingle granules</li>
+<li><strong>Sagging:</strong> Hangers fail from weight of water/debris</li>
+<li><strong>Leaking Seams:</strong> Sectional gutter joints fail over time</li>
+<li><strong>Overflow:</strong> Undersized for Florida's rainfall intensity</li>
+<li><strong>Improper Slope:</strong> Water pools instead of draining</li>
+<li><strong>Detachment:</strong> Fascia rot causes gutters to pull away</li>
+</ul>
+
+<h2 id="maintenance" class="text-2xl font-bold text-secondary mt-10 mb-4">Gutter Maintenance Schedule</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Cleaning Frequency</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Standard:</strong> Clean 2-4 times per year</li>
+<li><strong>With Trees:</strong> Clean after each leaf-drop season</li>
+<li><strong>After Storms:</strong> Check for debris after major storms</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">What to Check</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Remove debris from gutters and downspouts</li>
+<li>Check for proper slope toward downspouts</li>
+<li>Inspect hangers and brackets</li>
+<li>Look for rust, holes, or cracks</li>
+<li>Verify downspouts direct water away from foundation</li>
+<li>Check fascia behind gutters for rot</li>
+</ul>
+
+<h2 id="gutter-guards" class="text-2xl font-bold text-secondary mt-10 mb-4">Gutter Guards: Worth It?</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Types of Gutter Guards</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Mesh Screens:</strong> Block large debris, still need occasional cleaning</li>
+<li><strong>Reverse Curve:</strong> Water adheres and flows in, debris falls off</li>
+<li><strong>Foam Inserts:</strong> Affordable but deteriorate in Florida sun</li>
+<li><strong>Brush Guards:</strong> Bristles catch debris, water flows through</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Pros and Cons</h3>
+<p class="text-gray-600 mb-6"><strong>Pros:</strong> Reduce cleaning frequency, prevent clogs, extend gutter life</p>
+<p class="text-gray-600 mb-6"><strong>Cons:</strong> Upfront cost, still need some maintenance, can void gutter warranty, some reduce water capacity</p>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Gutters and Roofing</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>6-inch gutters recommended</strong> for Florida's heavy rainfall</li>
+<li>• <strong>Seamless aluminum</strong> offers best value and durability</li>
+<li>• <strong>Clean 2-4 times per year</strong>—more with trees nearby</li>
+<li>• <strong>Proper downspout placement</strong> protects foundation</li>
+<li>• <strong>Gutter problems damage</strong> fascia, soffit, and roof edges</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Need gutter repair or replacement? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a>—we install and repair gutters as part of complete roofing services. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "What size gutters do I need in Florida?", answer: "6-inch K-style gutters with 3x4-inch downspouts are recommended for most Florida homes. Standard 5-inch gutters often overflow during heavy Florida thunderstorms. Larger roof areas may need 7-inch gutters or additional downspouts." },
+      { question: "How often should gutters be cleaned in Florida?", answer: "At minimum 2-4 times per year. If you have trees near your home, clean after each leaf-drop season and after major storms. Clogged gutters cause water to back up under roofing, damaging fascia and potentially causing interior water damage." },
+      { question: "Are gutter guards worth the investment?", answer: "It depends on your situation. If you have many trees and frequently clogged gutters, gutter guards reduce maintenance significantly. However, they still require occasional cleaning and add upfront cost. For homes without nearby trees, regular cleaning may be more cost-effective." },
+      { question: "How long do gutters last in Florida?", answer: "Aluminum gutters last 20+ years with proper maintenance. Vinyl gutters last 10-15 years but become brittle in Florida's sun. Copper gutters can last 50+ years. The most common cause of premature failure is clogging leading to water damage and fascia rot." },
+      { question: "Should gutters be replaced when getting a new roof?", answer: "Not necessarily, but it's an excellent time to assess them. Gutters must be removed for most roof replacements anyway. If gutters are old, damaged, or undersized, replacing them during reroofing is convenient and ensures proper integration with new drip edge." }
+    ]
+  },
+  {
+    slug: "roof-moss-algae-removal-florida",
+    title: "Roof Moss and Algae in Florida: Prevention, Removal, and Treatment",
+    metaTitle: "Roof Moss and Algae Removal in Florida | Gimo's Roofing",
+    excerpt: "Learn how to identify, prevent, and remove moss and algae from your Florida roof. Understand the causes, DIY solutions, and when to call professionals.",
+    date: "2026-04-15",
+    publishDate: "2026-04-15",
+    author: "Gimo's Roofing Team",
+    image: "/images/blog/moss-algae.jpg",
+    category: "Roof Care",
+    readTime: "11 min read",
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Roof Moss and Algae in Florida</h2>
+
+<p class="text-gray-600 mb-6"><strong>Black streaks on Florida roofs are typically algae (Gloeocapsa magma), not mold or dirt.</strong> It's caused by algae feeding on limestone filler in shingles. While primarily cosmetic, algae retains moisture and can shorten roof life. Moss is less common in Florida but grows in shaded areas. Both can be treated with proper cleaning and prevented with zinc or copper strips.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="text-secondary font-semibold">Key Facts:</p>
+<ul class="text-gray-700 mt-2 space-y-1">
+<li>• Black streaks are algae, not mold or dirt</li>
+<li>• Florida's humidity creates ideal growth conditions</li>
+<li>• North-facing and shaded areas affected most</li>
+<li>• Soft washing removes algae safely</li>
+</ul>
+</div>
+
+<h2 id="algae-vs-moss" class="text-2xl font-bold text-secondary mt-10 mb-4">Algae vs Moss: What's on Your Roof?</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Algae (Most Common in Florida)</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Appears as black or dark green streaks</li>
+<li>Flat against the shingle surface</li>
+<li>Spreads via airborne spores</li>
+<li>Thrives in humidity and shade</li>
+<li>Primarily cosmetic concern</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Moss (Less Common in Florida)</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Thick, green, fuzzy growth</li>
+<li>Raised from shingle surface</li>
+<li>Grows in consistently shaded, moist areas</li>
+<li>Can lift shingles and cause leaks</li>
+<li>More damaging than algae</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Lichen</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Light green or gray crusty patches</li>
+<li>Combination of algae and fungus</li>
+<li>Attaches firmly to shingles</li>
+<li>Difficult to remove without damaging shingles</li>
+</ul>
+
+<h2 id="causes" class="text-2xl font-bold text-secondary mt-10 mb-4">What Causes Roof Algae and Moss?</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Humidity:</strong> Florida's 70-80% average humidity promotes growth</li>
+<li><strong>Shade:</strong> North-facing slopes and tree-shaded areas retain moisture</li>
+<li><strong>Limestone Filler:</strong> Shingle ingredient that algae feeds on</li>
+<li><strong>Debris:</strong> Leaves and organic matter hold moisture</li>
+<li><strong>Airborne Spores:</strong> Spread from neighboring roofs</li>
+</ul>
+
+<h2 id="removal-methods" class="text-2xl font-bold text-secondary mt-10 mb-4">Safe Removal Methods</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Soft Washing (Recommended)</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Low-pressure application of cleaning solution</li>
+<li>Typically bleach-based or eco-friendly alternatives</li>
+<li>Kills algae/moss, which washes off with rain</li>
+<li>Safe for shingles when done correctly</li>
+<li>Professional service recommended</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">DIY Cleaning Solution</h3>
+<p class="text-gray-600 mb-4">For DIY cleaning, use:</p>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>1 gallon water</li>
+<li>1 quart household bleach (sodium hypochlorite)</li>
+<li>1/4 cup trisodium phosphate (TSP) or dish soap</li>
+<li>Apply with pump sprayer, let sit 15-20 minutes</li>
+<li>Rinse thoroughly with garden hose (not pressure washer)</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">What NOT to Do</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>No Pressure Washing:</strong> Strips granules and damages shingles</li>
+<li><strong>No Scrubbing:</strong> Abrasion damages shingle surface</li>
+<li><strong>No Walking:</strong> Minimize foot traffic on treated areas</li>
+<li><strong>Don't Ignore Plants:</strong> Protect landscaping from runoff</li>
+</ul>
+
+<h2 id="prevention" class="text-2xl font-bold text-secondary mt-10 mb-4">Preventing Algae and Moss Growth</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Zinc or Copper Strips</h3>
+<p class="text-gray-600 mb-6">Metal strips installed near the ridge release ions when wet that inhibit algae/moss growth:</p>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Install 2-4 inch strips below ridge cap</li>
+<li>Zinc is more affordable; copper more effective</li>
+<li>Protects area below the strip</li>
+<li>Lasts 10-20 years</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Algae-Resistant Shingles</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Contain copper granules that inhibit algae</li>
+<li>Most manufacturers offer AR versions</li>
+<li>Small premium over standard shingles</li>
+<li>Worth it in Florida's climate</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Environmental Controls</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Trim overhanging tree branches</li>
+<li>Remove debris from roof regularly</li>
+<li>Improve air circulation around roof</li>
+<li>Ensure gutters drain properly</li>
+</ul>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Roof Algae and Moss</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Black streaks are algae</strong>—common and primarily cosmetic</li>
+<li>• <strong>Soft washing is safest</strong> removal method for shingles</li>
+<li>• <strong>Never pressure wash</strong> asphalt shingles</li>
+<li>• <strong>Zinc/copper strips</strong> prevent future growth</li>
+<li>• <strong>Algae-resistant shingles</strong> recommended for Florida</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Need roof cleaning or algae-resistant shingles? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free consultation. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "Are the black streaks on my roof mold?", answer: "Usually no—black streaks are typically Gloeocapsa magma algae, not mold. This algae feeds on limestone filler in shingles and is extremely common in Florida's humid climate. While unsightly, it's primarily a cosmetic issue and not a health hazard like mold would be." },
+      { question: "Can I pressure wash my roof to remove algae?", answer: "No, pressure washing damages asphalt shingles by stripping protective granules. Use soft washing instead—a low-pressure application of cleaning solution that kills algae without damaging the roof. Professional soft washing or careful DIY application with a garden hose is safe." },
+      { question: "How do I prevent algae from coming back?", answer: "Install zinc or copper strips below the ridge line—these release algae-inhibiting ions when wet. Trim overhanging trees to increase sunlight and reduce moisture. When replacing your roof, choose algae-resistant shingles with copper granules built in." },
+      { question: "Does roof algae damage my shingles?", answer: "Algae itself causes minimal damage, but it does retain moisture against the shingle surface, which can accelerate granule loss and aging over time. More importantly, algae can reduce curb appeal and home value. Moss is more damaging as it can lift shingles and cause leaks." },
+      { question: "How much does professional roof cleaning cost?", answer: "Professional soft washing typically costs $0.20-0.50 per square foot, or $200-600 for an average home. This includes treatment, cleanup, and protecting landscaping. DIY cleaning is cheaper but requires proper safety equipment for roof access." }
+    ]
+  },
+  {
+    slug: "skylight-installation-replacement-florida",
+    title: "Skylight Installation and Replacement in Florida: Complete Guide",
+    metaTitle: "Skylight Installation and Replacement in Florida | Gimo's Roofing",
+    excerpt: "Everything you need to know about skylights in Florida homes—types, benefits, installation considerations, and how to prevent leaks in our humid climate.",
+    date: "2026-04-18",
+    publishDate: "2026-04-18",
+    author: "Gimo's Roofing Team",
+    image: "/images/blog/skylight.jpg",
+    category: "Roof Features",
+    readTime: "12 min read",
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Skylights in Florida</h2>
+
+<p class="text-gray-600 mb-6"><strong>Skylights add natural light and can reduce energy costs, but require careful installation in Florida's climate.</strong> Choose impact-rated skylights for hurricane zones, use proper flashing, and position for optimal light without excessive heat gain. Professionally installed skylights with quality flashing rarely leak—problems usually stem from improper installation or aging seals.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="text-secondary font-semibold">Florida Skylight Considerations:</p>
+<ul class="text-gray-700 mt-2 space-y-1">
+<li>• Impact-rated required in most Florida areas</li>
+<li>• Position on north-facing slopes to reduce heat</li>
+<li>• Quality flashing prevents 95% of leak issues</li>
+<li>• Average lifespan 15-20 years before seal replacement</li>
+</ul>
+</div>
+
+<h2 id="types-of-skylights" class="text-2xl font-bold text-secondary mt-10 mb-4">Types of Skylights</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Fixed Skylights</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Don't open—purely for light</li>
+<li>Fewer leak points than operable</li>
+<li>Most affordable option</li>
+<li>Best for high ceilings or hard-to-reach areas</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Venting/Operable Skylights</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Open for ventilation</li>
+<li>Manual, electric, or solar-powered operation</li>
+<li>Help release hot air from upper floors</li>
+<li>More expensive, more potential leak points</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Tubular Skylights (Sun Tunnels)</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Small roof opening with reflective tube</li>
+<li>Brings light to interior rooms</li>
+<li>Less heat gain than traditional skylights</li>
+<li>Easier to install, fewer leak concerns</li>
+</ul>
+
+<h2 id="florida-requirements" class="text-2xl font-bold text-secondary mt-10 mb-4">Florida Building Requirements</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Impact Ratings</h3>
+<p class="text-gray-600 mb-6">Most Florida areas require impact-rated or protected skylights:</p>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Wind-Borne Debris Region:</strong> Impact-rated glass or shutters required</li>
+<li><strong>High-Velocity Hurricane Zone:</strong> Strictest requirements in Miami-Dade, Broward</li>
+<li><strong>Jacksonville Area:</strong> Impact-rated recommended, check local codes</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Energy Efficiency</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>U-factor of 0.55 or lower recommended</li>
+<li>Solar Heat Gain Coefficient (SHGC) of 0.25 or less for Florida</li>
+<li>Low-E coating essential to reduce heat</li>
+<li>Energy Star certification ensures efficiency</li>
+</ul>
+
+<h2 id="benefits" class="text-2xl font-bold text-secondary mt-10 mb-4">Benefits of Skylights</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Natural Light:</strong> Reduces need for electric lighting</li>
+<li><strong>Ventilation:</strong> Venting skylights release hot air</li>
+<li><strong>Mood/Health:</strong> Natural light improves well-being</li>
+<li><strong>Home Value:</strong> Adds appeal and functionality</li>
+<li><strong>Privacy:</strong> Light without windows that neighbors can see into</li>
+</ul>
+
+<h2 id="potential-issues" class="text-2xl font-bold text-secondary mt-10 mb-4">Potential Issues in Florida</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Heat Gain</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>South and west-facing skylights add significant heat</li>
+<li>North-facing optimal for light without heat</li>
+<li>Use Low-E glass and blinds to control</li>
+<li>Consider tubular skylights for minimal heat gain</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Leaks</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Usually installation/flashing issues, not skylight failure</li>
+<li>Step flashing and counter-flashing critical</li>
+<li>Sealant maintenance needed every 5-10 years</li>
+<li>Professional installation dramatically reduces leak risk</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Hurricane Damage</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Standard glass can shatter from debris</li>
+<li>Impact-rated skylights resist flying debris</li>
+<li>Removable shutters are alternative protection</li>
+<li>Failed skylight during storm = major water damage</li>
+</ul>
+
+<h2 id="installation-best-practices" class="text-2xl font-bold text-secondary mt-10 mb-4">Installation Best Practices</h2>
+
+<ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Proper Sizing:</strong> Generally 5% of room floor area maximum</li>
+<li><strong>Optimal Position:</strong> North-facing when possible</li>
+<li><strong>Quality Flashing:</strong> Step flashing integrated with roof properly</li>
+<li><strong>Curb-Mounted:</strong> Raised installation sheds water better</li>
+<li><strong>Professional Installation:</strong> Critical for warranty and leak prevention</li>
+</ol>
+
+<h2 id="replacement-signs" class="text-2xl font-bold text-secondary mt-10 mb-4">When to Replace Skylights</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Persistent leaks despite repairs</li>
+<li>Visible condensation between glass panes</li>
+<li>Cracked or damaged frame</li>
+<li>During roof replacement (ideal time)</li>
+<li>After 20+ years of service</li>
+<li>Upgrading to impact-rated for insurance</li>
+</ul>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Skylights in Florida</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Impact-rated skylights</strong> required in most Florida areas</li>
+<li>• <strong>North-facing position</strong> provides light without excessive heat</li>
+<li>• <strong>Professional installation</strong> is key to preventing leaks</li>
+<li>• <strong>Low-E glass essential</strong> for Florida's climate</li>
+<li>• <strong>Replace during reroofing</strong> for best integration</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Considering skylights or need skylight repair? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for expert installation and flashing. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "Do skylights always leak?", answer: "No, properly installed skylights with quality flashing rarely leak. Most skylight leaks result from installation errors, not the skylight itself. Professional installation with proper step flashing and sealant makes skylights as reliable as any other roof penetration." },
+      { question: "Do I need impact-rated skylights in Jacksonville?", answer: "Check with your local building department, but impact-rated skylights are strongly recommended throughout coastal Florida. Many insurance companies offer discounts for impact-rated openings, and they're required in wind-borne debris regions." },
+      { question: "How much do skylights add to cooling costs?", answer: "It depends on position and glazing. South or west-facing skylights with standard glass can significantly increase cooling costs. North-facing skylights with low-E glass and low SHGC ratings have minimal impact, and venting skylights can actually reduce cooling needs by releasing hot air." },
+      { question: "Should I replace skylights when getting a new roof?", answer: "It's highly recommended if your skylights are over 15 years old. The skylight seals and flashing can be properly integrated during reroof. Replacing later requires disturbing new roofing. At minimum, replace flashing and reseal existing skylights during reroofing." },
+      { question: "Are tubular skylights better than traditional skylights?", answer: "For interior rooms without direct roof access, yes. Tubular skylights have smaller roof penetrations (less leak potential), add minimal heat compared to traditional skylights, and are less expensive. For rooms where a view of the sky is desired, traditional skylights are better." }
+    ]
+  },
+  {
+    slug: "solar-panels-roof-considerations-florida",
+    title: "Solar Panels and Your Roof: What Florida Homeowners Need to Know",
+    metaTitle: "Solar Panels and Your Roof in Florida | Gimo's Roofing Jacksonville",
+    excerpt: "Understand the relationship between solar panels and your roof. Learn about roof requirements, installation impacts, and what to consider before going solar in Florida.",
+    date: "2026-04-21",
+    publishDate: "2026-04-21",
+    author: "Gimo's Roofing Team",
+    image: "/images/blog/solar-roof.jpg",
+    category: "Roof Features",
+    readTime: "13 min read",
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Solar Panels and Florida Roofs</h2>
+
+<p class="text-gray-600 mb-6"><strong>Your roof should have at least 10-15 years of remaining life before solar installation.</strong> Solar panels typically last 25-30 years, and removing them for roof replacement is expensive. Asphalt shingles, metal, and tile roofs all work for solar. Most installations don't void roof warranties if done properly, but damage from installation can void warranties.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="text-secondary font-semibold">Key Solar-Roof Considerations:</p>
+<ul class="text-gray-700 mt-2 space-y-1">
+<li>• Roof should have 10-15+ years life remaining</li>
+<li>• Metal roofs are ideal for solar installation</li>
+<li>• Proper flashing prevents leaks at mounting points</li>
+<li>• Florida's sun makes solar highly effective (5.5+ peak sun hours)</li>
+</ul>
+</div>
+
+<h2 id="roof-requirements" class="text-2xl font-bold text-secondary mt-10 mb-4">Roof Requirements for Solar</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Age and Condition</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Remaining Life:</strong> At least 10-15 years before needing replacement</li>
+<li><strong>Good Condition:</strong> No existing leaks, damage, or structural issues</li>
+<li><strong>Decking Integrity:</strong> Strong enough to support panel weight (3-5 lbs/sq ft)</li>
+<li><strong>Replace First If Needed:</strong> Much cheaper than removing/reinstalling panels</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Structural Requirements</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Most Florida homes can handle solar weight</li>
+<li>Older homes may need engineering assessment</li>
+<li>Tile roofs need tile replacement hooks</li>
+<li>Flat roofs need ballasted or attached systems</li>
+</ul>
+
+<h2 id="roof-types" class="text-2xl font-bold text-secondary mt-10 mb-4">Best Roof Types for Solar in Florida</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Metal Roofing (Excellent)</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Standing seam allows clamp mounting—no penetrations</li>
+<li>Longest lifespan matches solar panel life</li>
+<li>Lightweight, strong</li>
+<li>Often qualifies for best installation rates</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Asphalt Shingles (Good)</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Most common roof type for solar</li>
+<li>Requires roof penetrations with proper flashing</li>
+<li>Ensure 15+ years of shingle life remaining</li>
+<li>Standard installation methods well-established</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Tile Roofing (Requires Care)</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Tiles are fragile—breakage during installation possible</li>
+<li>Requires tile hooks or comp-out method</li>
+<li>More expensive installation</li>
+<li>Find installer experienced with tile</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Flat Roofs (Good)</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Ballasted systems avoid penetrations</li>
+<li>Tilt mounts optimize panel angle</li>
+<li>Easy access for maintenance</li>
+<li>Ensure no ponding water under panels</li>
+</ul>
+
+<h2 id="installation-impacts" class="text-2xl font-bold text-secondary mt-10 mb-4">How Solar Installation Affects Your Roof</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Mounting Penetrations</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Most systems require bolts through roof</li>
+<li>Proper flashing and sealant prevents leaks</li>
+<li>Quality installers use industry-standard flashing</li>
+<li>Standing seam metal avoids penetrations entirely</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Warranty Considerations</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Shingle warranties typically not voided by proper installation</li>
+<li>Damage during installation may not be covered</li>
+<li>Get solar installer's roof warranty in writing</li>
+<li>Coordinate with roofer if roof is newly installed</li>
+</ul>
+
+<h2 id="timing-considerations" class="text-2xl font-bold text-secondary mt-10 mb-4">Should You Replace Roof Before Solar?</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Replace First If:</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Roof is over 10 years old</li>
+<li>Existing damage or leaks</li>
+<li>Shingles showing significant wear</li>
+<li>Planning to upgrade to metal roof anyway</li>
+</ul>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Cost Comparison</h3>
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Re-roof before solar:</strong> Normal roof cost + solar installation</li>
+<li><strong>Re-roof after solar installed:</strong> $2,000-5,000 extra for panel removal/reinstallation</li>
+<li><strong>Combined projects:</strong> Some companies offer discounts for both</li>
+</ul>
+
+<h2 id="maintenance" class="text-2xl font-bold text-secondary mt-10 mb-4">Roof Maintenance With Solar Panels</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Inspection Access:</strong> Panels make some roof areas harder to inspect</li>
+<li><strong>Debris:</strong> Leaves/debris can accumulate under panels</li>
+<li><strong>Gutter Cleaning:</strong> Still necessary, may be more difficult</li>
+<li><strong>Roof Repairs:</strong> May require panel removal for access</li>
+<li><strong>Annual Inspection:</strong> Check mounting points and flashing</li>
+</ul>
+
+<h2 id="insurance" class="text-2xl font-bold text-secondary mt-10 mb-4">Insurance Considerations</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Notify insurance company of solar installation</li>
+<li>Panels increase home value—may need increased coverage</li>
+<li>Most homeowner policies cover attached panels</li>
+<li>Check for exclusions or limitations</li>
+<li>Consider separate panel warranty/insurance</li>
+</ul>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways: Solar Panels and Your Roof</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Roof should have 10-15+ years</strong> of life before solar installation</li>
+<li>• <strong>Metal roofs are ideal</strong>—standing seam allows non-penetrating mounts</li>
+<li>• <strong>Proper installation prevents leaks</strong>—choose experienced installers</li>
+<li>• <strong>Replace roof first</strong> if any doubt about remaining lifespan</li>
+<li>• <strong>Florida's sun makes solar</strong> highly cost-effective</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Need to assess your roof before solar installation? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for an honest evaluation of your roof's condition and remaining lifespan. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "Should I replace my roof before installing solar panels?", answer: "If your roof has less than 10-15 years of remaining life, yes. Solar panels last 25-30 years, and removing them for roof replacement costs $2,000-5,000 extra. It's much more cost-effective to replace an aging roof before solar installation." },
+      { question: "Do solar panels damage your roof?", answer: "Properly installed solar panels don't damage roofs. Quality installers use flashed mounting points that seal penetrations. Improper installation can cause leaks. Get a roof warranty from your solar installer and ensure they use proper flashing techniques." },
+      { question: "What's the best roof type for solar in Florida?", answer: "Standing seam metal roofs are ideal—panels can clamp on without any roof penetrations. Metal also lasts 50+ years, matching solar panel lifespan. Asphalt shingles work well too if they have sufficient remaining life. Tile requires careful installation by experienced crews." },
+      { question: "Will solar panels void my roof warranty?", answer: "Most manufacturer warranties aren't voided by proper solar installation. However, any installation damage may not be covered. Get your solar installer's warranty terms in writing. If your roof is under contractor warranty, coordinate with them before installation." },
+      { question: "How do I maintain my roof with solar panels installed?", answer: "Schedule annual inspections that include checking mounting points and flashing. Clear debris from around panels and gutters. For roof repairs under panels, removal may be necessary—discuss this with your solar company. Keep records of installation and any maintenance." }
+    ]
   }
 ]
 
