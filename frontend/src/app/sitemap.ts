@@ -48,10 +48,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  // Blog pages - automatically generated from blogData
+  // Blog pages - only include published posts (not future-scheduled)
+  const today = new Date().toISOString().split('T')[0]
+  const publishedPosts = blogPosts.filter(post => !post.publishDate || post.publishDate <= today)
+
   const blogPages = [
     { url: `${baseUrl}/blog`, changeFrequency: 'weekly' as const, priority: 0.8 },
-    ...blogPosts.map((post) => ({
+    ...publishedPosts.map((post) => ({
       url: `${baseUrl}/blog/${post.slug}`,
       changeFrequency: 'monthly' as const,
       priority: 0.7,
