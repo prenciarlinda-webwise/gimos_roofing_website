@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Emergency Roof Repair Jacksonville FL - 24/7 Storm Damage Service",
   description: "Emergency roof repair in Jacksonville FL. Gimos Roofing responds fast to active leaks, storm damage, and urgent roofing issues. Same-day service. Call (904) 606-5313.",
   keywords: ["emergency roof repair jacksonville fl", "emergency roof repair jacksonville", "24 hour roof repair jacksonville", "storm damage roof repair jacksonville", "roof leak emergency jacksonville"],
+  alternates: { canonical: "https://www.gimosroofing.com/services/emergency-roof-repair" },
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -31,33 +32,66 @@ const serviceAreas = [
 
 const faqs = [
   { question: "Do you offer 24/7 emergency roof repair in Jacksonville?", answer: "Yes, Gimos Roofing provides emergency roof repair services in Jacksonville FL. We respond quickly to active leaks, storm damage, and urgent roofing situations. Call (904) 606-5313 for immediate assistance." },
-  { question: "What qualifies as a roofing emergency?", answer: "Roofing emergencies include active water leaks entering your home, significant storm or wind damage, fallen trees or debris on your roof, and structural damage that poses safety risks." },
-  { question: "Will my insurance cover emergency roof repairs?", answer: "Most homeowner insurance policies cover roof damage caused by storms, wind, hail, and fallen trees. We document all damage thoroughly and can work with your insurance company on claims." },
-  { question: "How quickly can you respond to a roof emergency in Jacksonville?", answer: "We prioritize emergency calls and typically respond same-day for urgent situations in Jacksonville and surrounding areas. For active leaks, we can often provide temporary protection within hours." }
+  { question: "What qualifies as a roofing emergency?", answer: "Roofing emergencies include active water leaks entering your home, significant storm or wind damage, fallen trees or debris on your roof, and structural damage that poses safety risks. If water is entering your home or your roof is compromised, that's an emergency." },
+  { question: "Will my insurance cover emergency roof repairs?", answer: "Most homeowner insurance policies cover roof damage caused by storms, wind, hail, and fallen trees. We document all damage thoroughly and can work with your insurance company on claims. You're typically responsible for your deductible." },
+  { question: "How quickly can you respond to a roof emergency in Jacksonville?", answer: "We prioritize emergency calls and typically respond same-day for urgent situations in Jacksonville and surrounding areas. For active leaks, we can often provide temporary protection within hours." },
+  { question: "What should I do while waiting for emergency roof repair?", answer: "Move valuables away from the leak area. Place buckets to catch water. If safe, access your attic to place tarps over insulation. Turn off electricity in affected areas if water is near wiring. Document damage with photos for insurance." },
+  { question: "How much does emergency roof repair cost?", answer: "Emergency tarping typically costs $300-800 depending on roof access and damage extent. Permanent repairs vary based on damage - minor repairs run $150-600, while major repairs cost $1,500-3,500+. Storm damage is often covered by insurance." },
+  { question: "Do you provide emergency tarping services?", answer: "Yes, we provide emergency tarping to prevent further water damage while permanent repairs are planned. Tarps are secured properly to withstand additional weather and typically remain effective for 30-90 days." },
+  { question: "Can you help with insurance claims for storm damage?", answer: "Absolutely. We document all damage with detailed photos and reports, provide itemized estimates for adjusters, and can meet with your insurance company's adjuster on-site. We've helped hundreds of homeowners navigate claims successfully." },
+  { question: "What if the storm damaged my roof at night?", answer: "Call us immediately at (904) 606-5313. We respond to after-hours emergencies for active leaks and severe damage. For damage that isn't actively leaking, we can assess first thing in the morning." },
+  { question: "How long do emergency repairs last?", answer: "Temporary repairs like tarping last 30-90 days. Permanent repairs are designed to last the remaining life of your roof (10-20+ years). We'll advise if damage is severe enough that full replacement is the better option." }
 ]
 
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Emergency Roof Repair",
+  "name": "Emergency Roof Repair Jacksonville FL",
   "serviceType": "Emergency Roof Repair",
+  "description": "24/7 emergency roof repair services in Jacksonville FL for storm damage, active leaks, and urgent roofing issues.",
+  "url": "https://www.gimosroofing.com/services/emergency-roof-repair",
   "provider": {
     "@type": "RoofingContractor",
-    "name": "Gimos Roofing",
+    "name": "Gimo's Roofing",
+    "telephone": "+1-904-606-5313",
     "url": "https://www.gimosroofing.com",
-    "telephone": "(904) 606-5313"
+    "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "33 24th Street East",
+      "addressLocality": "Jacksonville",
+      "addressRegion": "FL",
+      "postalCode": "32206",
+      "addressCountry": "US"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "81",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "priceRange": "$$",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
   },
   "areaServed": {
     "@type": "City",
     "name": "Jacksonville",
     "addressRegion": "FL"
   },
-  "description": "24/7 emergency roof repair services in Jacksonville FL for storm damage, active leaks, and urgent roofing issues.",
   "offers": {
     "@type": "Offer",
     "availability": "https://schema.org/InStock",
+    "priceCurrency": "USD",
     "priceSpecification": {
       "@type": "PriceSpecification",
+      "minPrice": "300",
+      "maxPrice": "3500",
       "priceCurrency": "USD"
     }
   }
@@ -98,7 +132,7 @@ export default function EmergencyRoofRepairPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Emergency Roof Repair</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Emergency Roof Repair Jacksonville FL</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">24/7 Emergency Roof Repair Jacksonville FL</h1>
               <p className="text-lg text-gray-200 mb-6">
                 When roof emergencies strike in Jacksonville, Gimos Roofing responds fast. Whether you have an active leak, storm damage, or structural concerns, our emergency roof repair team is available to protect your home. We provide same-day service throughout Jacksonville and surrounding areas.
               </p>
@@ -188,6 +222,144 @@ export default function EmergencyRoofRepairPage() {
                 <p className="text-gray-600 text-sm">{item.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What to Do During a Roof Emergency */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">What to Do During a Roof Emergency</h2>
+              <p className="text-gray-600 mb-6">While waiting for our emergency team, there are steps you can take to minimize damage and protect your family.</p>
+
+              <div className="space-y-4">
+                <div className="bg-white rounded-xl shadow-md p-6">
+                  <h3 className="font-bold text-secondary mb-2">1. Ensure Safety First</h3>
+                  <p className="text-gray-600 text-sm">If there&apos;s active water entering near electrical outlets, turn off power to affected areas. Don&apos;t attempt to climb on a damaged roof yourself - wet or damaged roofs are extremely dangerous.</p>
+                </div>
+                <div className="bg-white rounded-xl shadow-md p-6">
+                  <h3 className="font-bold text-secondary mb-2">2. Contain Water Intrusion</h3>
+                  <p className="text-gray-600 text-sm">Place buckets, bins, or trash cans under active leaks. Lay plastic sheeting or towels to protect flooring. If you have safe attic access, consider placing tarps over insulation to redirect water.</p>
+                </div>
+                <div className="bg-white rounded-xl shadow-md p-6">
+                  <h3 className="font-bold text-secondary mb-2">3. Move Valuables</h3>
+                  <p className="text-gray-600 text-sm">Relocate furniture, electronics, and personal belongings away from the leak area. Water damage can happen quickly - items don&apos;t need to be directly under a leak to be damaged by spreading moisture.</p>
+                </div>
+                <div className="bg-white rounded-xl shadow-md p-6">
+                  <h3 className="font-bold text-secondary mb-2">4. Document Everything</h3>
+                  <p className="text-gray-600 text-sm">Take photos and videos of the damage, both inside and outside if safe to do so. Document the date and time. This documentation is essential for insurance claims.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-red-50 border-l-4 border-red-500 rounded-xl p-8">
+              <h3 className="text-xl font-bold text-red-700 mb-4">What NOT to Do</h3>
+              <ul className="space-y-4 text-gray-700">
+                <li className="flex items-start gap-3">
+                  <span className="text-red-500 font-bold mt-1">✕</span>
+                  <span><strong>Don&apos;t climb on the roof</strong> - Damaged, wet roofs are extremely dangerous. Let professionals handle roof access.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-red-500 font-bold mt-1">✕</span>
+                  <span><strong>Don&apos;t ignore small leaks</strong> - Even minor leaks cause significant damage over time. Mold can develop within 24-48 hours.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-red-500 font-bold mt-1">✕</span>
+                  <span><strong>Don&apos;t make permanent repairs yourself</strong> - DIY roof repairs often cause more damage and can void warranties and insurance coverage.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-red-500 font-bold mt-1">✕</span>
+                  <span><strong>Don&apos;t delay calling</strong> - The longer water enters your home, the more extensive (and expensive) the damage becomes.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-red-500 font-bold mt-1">✕</span>
+                  <span><strong>Don&apos;t hire storm chasers</strong> - Out-of-town contractors who appear after storms often do poor work and disappear. Use local, licensed contractors.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Emergency Tarping Details */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Emergency Roof Tarping</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">Emergency tarping provides critical protection while permanent repairs are planned. Here&apos;s what to expect from our tarping services.</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white rounded-xl shadow-md p-6">
+              <h3 className="font-bold text-secondary mb-3">What We Do</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li className="flex items-start gap-2">
+                  <span className="text-primary">&#10003;</span>
+                  <span>Heavy-duty UV-resistant tarps sized for your damage area</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary">&#10003;</span>
+                  <span>Proper securing with wood battens and fasteners (not just weights)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary">&#10003;</span>
+                  <span>Coverage extending beyond damage for complete protection</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary">&#10003;</span>
+                  <span>Documentation photos for insurance claims</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary">&#10003;</span>
+                  <span>Assessment of underlying damage extent</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-md p-6">
+              <h3 className="font-bold text-secondary mb-3">Tarping Details</h3>
+              <ul className="space-y-3 text-gray-600">
+                <li><strong>Cost:</strong> Typically $300-800 depending on damage size and roof access</li>
+                <li><strong>Duration:</strong> Properly installed tarps last 30-90 days through normal weather</li>
+                <li><strong>Timing:</strong> Same-day service for most emergencies</li>
+                <li><strong>Insurance:</strong> Tarping costs are typically covered as part of your claim</li>
+              </ul>
+              <div className="mt-4 p-4 bg-yellow-50 rounded-lg">
+                <p className="text-sm text-yellow-800"><strong>Important:</strong> Tarping is temporary protection, not a permanent fix. Plan for permanent repairs within 30-60 days to prevent further damage.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Storm Damage Specific */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Jacksonville Storm Damage Specialists</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">Living in Northeast Florida means preparing for severe weather. Our team has extensive experience with storm damage repair.</p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="bg-white rounded-xl shadow-md p-6">
+              <h3 className="font-bold text-secondary mb-3">Hurricane Damage</h3>
+              <p className="text-gray-600 text-sm mb-3">Hurricane-force winds can tear off shingles, damage flashing, and even lift roof sections. Flying debris causes punctures and impacts. We respond quickly after storms pass to secure and repair hurricane damage.</p>
+              <p className="text-gray-600 text-sm"><strong>Common issues:</strong> Missing shingles, lifted flashing, debris punctures, water intrusion, structural damage</p>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-md p-6">
+              <h3 className="font-bold text-secondary mb-3">Wind Damage</h3>
+              <p className="text-gray-600 text-sm mb-3">Even non-hurricane winds can damage roofs. Gusts over 50 mph can lift shingles, break seals, and create entry points for water. Wind damage is often subtle and may not be visible from the ground.</p>
+              <p className="text-gray-600 text-sm"><strong>Common issues:</strong> Lifted shingles, broken tab seals, exposed underlayment, ridge cap damage</p>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-md p-6">
+              <h3 className="font-bold text-secondary mb-3">Hail Damage</h3>
+              <p className="text-gray-600 text-sm mb-3">Jacksonville occasionally experiences hail that can damage roofing materials. Hail creates dents in shingles that compromise their waterproofing ability. Damage may not leak immediately but shortens roof life.</p>
+              <p className="text-gray-600 text-sm"><strong>Common issues:</strong> Dented shingles, granule loss, cracked tiles, damaged vents and flashing</p>
+            </div>
           </div>
         </div>
       </section>

@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "About Gimo's Roofing - Jacksonville FL Roofing Contractor",
   description: "Gimo's Roofing is Jacksonville's trusted roofing contractor. Quality craftsmanship, honest pricing & 5-star reviews. Call (904) 606-5313.",
   keywords: ["about gimos roofing", "jacksonville roofing contractor", "local roofing company", "roofing company jacksonville fl", "trusted roofers"],
+  alternates: { canonical: "https://www.gimosroofing.com/about" },
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -40,7 +41,7 @@ const schemaData = {
   "@type": "AboutPage",
   "mainEntity": {
     "@type": "RoofingContractor",
-    "name": "Gimo's Renovation & Roofing",
+    "name": "Gimo's Roofing",
     "description": "Jacksonville's trusted roofing contractor providing quality craftsmanship and exceptional customer service.",
     "foundingDate": "2020",
     "address": {
@@ -97,7 +98,7 @@ export default function AboutPage() {
                 As a locally owned and operated company, we understand the unique challenges Florida&apos;s climate presents to roofing systems. From intense summer heat to hurricane season storms, we&apos;ve seen it all and know how to protect your property.
               </p>
               <p className="text-gray-600 mb-4">
-                Our team brings together experienced professionals who share a passion for quality workmanship. We treat every project—whether it&apos;s a small repair or a complete roof replacement—with the same dedication and attention to detail.
+                Our team brings together experienced professionals who share a passion for quality workmanship. We treat every project, whether it&apos;s a small repair or a complete roof replacement, with the same dedication and attention to detail.
               </p>
               <p className="text-gray-600">
                 Today, we&apos;re proud to be one of Jacksonville&apos;s most trusted roofing contractors, with 5-star ratings across Google, Yelp, and Thumbtack.

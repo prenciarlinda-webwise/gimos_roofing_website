@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Roofing & Siding Services Jacksonville FL",
   description: "Call (904) 606-5313 for professional roofing & siding services in Jacksonville FL. Roof repair, replacement, installation & siding. Free estimates.",
   keywords: ["roofing services jacksonville fl", "roof repair jacksonville", "roof replacement jacksonville", "siding services jacksonville", "commercial roofing jacksonville", "residential roofing jacksonville"],
+  alternates: { canonical: "https://www.gimosroofing.com/services" },
 }
 
 const roofingServices = [
@@ -102,7 +103,7 @@ export default function ServicesPage() {
         <div className="relative max-w-7xl mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-bold mb-4">
-              Professional Roofing & Siding Services
+              Roofing & Siding Services Jacksonville FL
             </h1>
             <p className="text-lg text-gray-200 mb-6">
               Jacksonville&apos;s trusted contractor for quality roof installation, repair, replacement, and siding services. Serving residential and commercial properties.
