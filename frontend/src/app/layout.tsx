@@ -110,8 +110,9 @@ export default function RootLayout({
       <head>
         {/* Preconnect to external resources for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://tile.openstreetmap.org" />
+        <link rel="dns-prefetch" href="https://www.youtube.com" />
 
         {/* Preload hero image for faster LCP */}
         <link

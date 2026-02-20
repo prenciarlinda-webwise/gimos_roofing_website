@@ -118,7 +118,7 @@ export default function CommercialRoofingPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/commercial-roofing-services.webp" alt="Commercial roofing in Jacksonville FL" fill className="object-cover" />
+              <Image src="/images/commercial-roofing-services.webp" alt="Commercial roofing in Jacksonville FL" title="Commercial roofing in Jacksonville FL" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -353,16 +353,21 @@ export default function CommercialRoofingPage() {
       {/* Industries */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Industries We Serve</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">We provide commercial roofing services to a wide range of businesses.</p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {industries.map((industry) => (
-              <div key={industry} className="bg-white rounded-lg p-4 text-center shadow-sm">
-                <span className="text-secondary font-medium">{industry}</span>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Industries We Serve</h2>
+              <p className="text-gray-600 mb-8">We provide commercial roofing services to a wide range of businesses.</p>
+              <div className="grid grid-cols-2 gap-4">
+                {industries.map((industry) => (
+                  <div key={industry} className="bg-white rounded-lg p-4 text-center shadow-sm">
+                    <span className="text-secondary font-medium">{industry}</span>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/jacksonville-commercial-roofing.webp" alt="Commercial roofing services in Jacksonville FL" title="Commercial roofing services in Jacksonville FL" fill className="object-cover" />
+            </div>
           </div>
         </div>
       </section>

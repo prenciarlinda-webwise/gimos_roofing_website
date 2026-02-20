@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
@@ -128,6 +129,11 @@ export default function StAugustinePage() {
             <span>&#10003; Licensed &amp; Insured</span>
             <span>&#10003; 5-Star Rated</span>
             <span>&#10003; Historic Home Specialists</span>
+          </div>
+          <div className="mt-10 max-w-4xl mx-auto px-4">
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/roofing-contractor-fl.webp" alt="Roofing contractor serving St. Augustine FL" title="Roofing contractor serving St. Augustine FL" fill className="object-cover" priority />
+            </div>
           </div>
         </div>
       </section>

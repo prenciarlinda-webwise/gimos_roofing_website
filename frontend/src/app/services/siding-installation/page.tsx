@@ -136,7 +136,7 @@ export default function SidingInstallationPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/siding-installation-jacksonville-home.webp" alt="Siding installation on Jacksonville home" fill className="object-cover" />
+              <Image src="/images/siding-installation-jacksonville-home.webp" alt="Siding installation on Jacksonville home" title="Siding installation on Jacksonville home" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -153,7 +153,7 @@ export default function SidingInstallationPage() {
             {sidingTypes.map((type) => (
               <div key={type.name} className="bg-white rounded-xl shadow-md overflow-hidden">
                 <div className="aspect-video relative">
-                  <Image src={type.image} alt={type.name} fill className="object-cover" />
+                  <Image src={type.image} alt={type.name} title={type.name} fill className="object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-secondary mb-2">{type.name}</h3>
@@ -441,7 +441,7 @@ export default function SidingInstallationPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-square overflow-hidden shadow-xl relative">
-              <Image src="/images/siding-project-closeup.webp" alt="Quality siding installation detail" fill className="object-cover" />
+              <Image src="/images/siding-project-closeup.webp" alt="Quality siding installation detail" title="Quality siding installation detail" fill className="object-cover" />
             </div>
           </div>
         </div>

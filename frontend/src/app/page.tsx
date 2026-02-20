@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://www.gimosroofing.com",
     images: [
       {
-        url: "https://www.gimosroofing.com/images/best-roofing-company-jacksonville-fl.jpg",
+        url: "https://www.gimosroofing.com/images/gimos-roofing-jacksonville.webp",
         width: 1200,
         height: 630,
         alt: "Gimo's Roofing - Best Roofing Company Jacksonville FL",
@@ -194,7 +194,17 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[85vh] flex items-center overflow-hidden pt-24 md:pt-0">
         <div className="absolute inset-0">
-          <Image src="/images/roofing-jacksonville-hero.webp" alt="Professional roofing services in Jacksonville FL" title="Professional roofing services in Jacksonville FL" fill className="object-cover" priority />
+          <Image src="/images/roofing-jacksonville-hero.webp" alt="Professional roofing services in Jacksonville FL - Gimo's Roofing" title="Professional roofing services in Jacksonville FL" fill sizes="100vw" className="object-cover" priority />
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="none"
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="/images/gimos-roofing-24-hour-roofer.mp4" type="video/mp4" />
+          </video>
         </div>
         <div className="absolute inset-0 bg-secondary/70"></div>
         <div className="relative max-w-7xl mx-auto px-4 py-16 w-full">
@@ -305,7 +315,7 @@ export default function Home() {
                 <Link key={service.title} href={service.href} title={`${service.title} Services in Jacksonville FL`} className="group">
                   <div className="card h-full border border-gray-100 hover:border-primary/30 overflow-hidden">
                     <div className="aspect-[16/10] overflow-hidden relative">
-                      <Image src={service.image} alt={service.alt} title={service.imgTitle} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                      <Image src={service.image} alt={service.alt} title={service.imgTitle} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" className="object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                     </div>
                     <div className="p-5">
                       <h4 className="text-lg font-bold text-secondary mb-2 group-hover:text-primary transition-colors">{service.title}</h4>
@@ -331,7 +341,7 @@ export default function Home() {
                 <Link key={service.title} href={service.href} title={`${service.title} Services in Jacksonville FL`} className="group">
                   <div className="card h-full border border-gray-100 hover:border-primary/30 overflow-hidden">
                     <div className="aspect-[16/10] overflow-hidden relative">
-                      <Image src={service.image} alt={service.alt} title={service.imgTitle} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                      <Image src={service.image} alt={service.alt} title={service.imgTitle} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                     </div>
                     <div className="p-5">
                       <h4 className="text-lg font-bold text-secondary mb-2 group-hover:text-primary transition-colors">{service.title}</h4>
@@ -370,7 +380,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl relative">
-                <Image src="/images/roofing-crew-installation-action.webp" alt="Gimo's Roofing crew installing roof in Jacksonville FL" title="Gimo's Roofing crew installing roof in Jacksonville FL" fill className="object-cover" />
+                <Image src="/images/roofing-crew-installation-action.webp" alt="Gimo's Roofing crew installing roof in Jacksonville FL" title="Gimo's Roofing crew installing roof in Jacksonville FL" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" loading="lazy" />
               </div>
               <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg p-4">
                 <div className="flex items-center gap-3">
@@ -396,16 +406,23 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Local Roofing Contractor Serving These <span className="text-primary">Jacksonville Neighborhoods</span></h2>
             <p className="text-base text-gray-300 max-w-2xl mx-auto">Proudly serving Jacksonville and surrounding communities. Find trusted roofers Jacksonville FL residents recommend.</p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
-            {serviceAreas.map((area) => (
-              <Link key={area} href={"/roofing-" + area.toLowerCase().replace(/ /g, '-') + "-fl"} title={`Roofing Services in ${area}, FL`} className="group bg-white/5 hover:bg-primary rounded-xl p-4 text-center transition-all">
-                <svg className="w-6 h-6 mx-auto mb-2 text-primary group-hover:text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-                </svg>
-                <h3 className="text-sm font-semibold group-hover:text-secondary">{area}</h3>
-              </Link>
-            ))}
+          <div className="grid lg:grid-cols-3 gap-8 items-start">
+            <div className="lg:col-span-2 grid grid-cols-2 md:grid-cols-3 gap-3">
+              {serviceAreas.map((area) => (
+                <Link key={area} href={"/roofing-" + area.toLowerCase().replace(/ /g, '-') + "-fl"} title={`Roofing Services in ${area}, FL`} className="group bg-white/5 hover:bg-primary rounded-xl p-4 text-center transition-all">
+                  <svg className="w-6 h-6 mx-auto mb-2 text-primary group-hover:text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                  </svg>
+                  <h3 className="text-sm font-semibold group-hover:text-secondary">{area}</h3>
+                </Link>
+              ))}
+            </div>
+            <div className="hidden lg:block">
+              <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-xl relative">
+                <Image src="/images/gimos-roofing-jacksonville.webp" alt="Gimos Roofing serving Jacksonville FL neighborhoods" title="Gimo's Roofing - Serving Jacksonville FL Neighborhoods" fill sizes="(max-width: 1024px) 100vw, 33vw" className="object-cover" loading="lazy" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -431,6 +448,9 @@ export default function Home() {
           <div className="text-center mb-12">
             <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Testimonials</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">What Our Customers Say</h2>
+            <div className="mt-4 mx-auto w-32 h-32 rounded-full overflow-hidden shadow-lg relative">
+              <Image src="/images/5-star-roofer.webp" alt="5-star rated Jacksonville roofer - Gimo's Roofing" title="5-Star Rated Roofer in Jacksonville FL" fill sizes="128px" className="object-cover" loading="lazy" />
+            </div>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="card p-6">

@@ -48,7 +48,7 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="relative text-white py-16 overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/contact-us-hero.webp" alt="Gimo's Roofing owner with company van" fill className="object-cover" />
+          <Image src="/images/contact-us-hero.webp" alt="Gimo's Roofing owner with company van" title="Gimo's Roofing owner with company van" fill className="object-cover" />
           <div className="absolute inset-0 bg-secondary/80"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4">

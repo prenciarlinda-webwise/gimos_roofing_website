@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
@@ -128,6 +129,11 @@ export default function OrangeParkPage() {
             <span>✓ Licensed & Insured</span>
             <span>✓ 5-Star Rated</span>
             <span>✓ Financing Available</span>
+          </div>
+          <div className="mt-10 max-w-4xl mx-auto px-4">
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/roofer-near-me.webp" alt="Reliable roofing services in Orange Park FL" title="Reliable roofing services in Orange Park FL" fill className="object-cover" priority />
+            </div>
           </div>
         </div>
       </section>
