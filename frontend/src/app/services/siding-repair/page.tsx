@@ -137,7 +137,7 @@ export default function SidingRepairPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/siding-project-closeup.webp" alt="Siding repair project in Jacksonville FL" fill className="object-cover" />
+              <Image src="/images/siding-project-closeup.webp" alt="Siding repair project in Jacksonville FL" title="Siding repair project in Jacksonville FL" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -328,7 +328,7 @@ export default function SidingRepairPage() {
               </ul>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/siding-installation-worker-ladder.webp" alt="Siding repair in progress" fill className="object-cover" />
+              <Image src="/images/siding-installation-worker-ladder.webp" alt="Siding repair in progress" title="Siding repair in progress" fill className="object-cover" />
             </div>
           </div>
         </div>

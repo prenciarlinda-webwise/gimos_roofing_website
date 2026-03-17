@@ -105,7 +105,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/gimos-roofing-company-van-jobsite.webp" alt="Gimo's Roofing team at job site" fill className="object-cover" />
+              <Image src="/images/gimos-roofing-company-van-jobsite.webp" alt="Gimo's Roofing team at job site" title="Gimo's Roofing team at job site" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -154,7 +154,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/roofing-crew-installation-action.webp" alt="Gimo's Roofing crew working on installation" fill className="object-cover" />
+              <Image src="/images/roofing-crew-installation-action.webp" alt="Gimo's Roofing crew working on installation" title="Gimo's Roofing crew working on installation" fill className="object-cover" />
             </div>
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">

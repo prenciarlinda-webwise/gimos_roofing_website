@@ -59,7 +59,7 @@ export default function ServiceAreasPage() {
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/architectural-shingle-roof-aerial-view.webp" alt="Roofing service areas in Northeast Florida" fill className="object-cover" priority />
+          <Image src="/images/architectural-shingle-roof-aerial-view.webp" alt="Roofing service areas in Northeast Florida" title="Roofing service areas in Northeast Florida" fill className="object-cover" priority />
         </div>
         <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         <div className="relative max-w-7xl mx-auto px-4">

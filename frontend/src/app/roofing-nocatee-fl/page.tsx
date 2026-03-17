@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
@@ -129,6 +130,11 @@ export default function NocateePage() {
             <span>✓ 5-Star Rated</span>
             <span>✓ HOA Compliant</span>
           </div>
+          <div className="mt-10 max-w-4xl mx-auto px-4">
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/nocatee-roofer.webp" alt="Trusted roofer serving Nocatee FL homeowners" title="Trusted roofer serving Nocatee FL homeowners" fill className="object-cover" priority />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -187,6 +193,23 @@ export default function NocateePage() {
           <p className="text-gray-600">
             Read more about <Link href="/blog/when-to-replace-your-roof-florida" className="text-primary hover:underline">when to replace your roof in Florida</Link> and how to recognize <Link href="/blog/hurricane-roof-damage-signs-florida" className="text-primary hover:underline">storm damage signs on your roof</Link>.
           </p>
+        </div>
+      </section>
+
+      {/* Nocatee Project Showcase */}
+      <section className="py-14 bg-white">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="rounded-xl overflow-hidden shadow-md relative aspect-[4/3]">
+              <Image src="/images/nocatee-roofing-company.webp" alt="Nocatee roofing company completing residential project" title="Nocatee Roofing Company - Gimo's Roofing" fill className="object-cover" />
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-md relative aspect-[4/3]">
+              <Image src="/images/roof-repair-nocatee.webp" alt="Roof repair project in Nocatee FL community" title="Roof Repair in Nocatee FL" fill className="object-cover" />
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-md relative aspect-[4/3]">
+              <Image src="/images/nocatee-roofing-contractor.webp" alt="Nocatee roofing contractor installing new shingles" title="Nocatee Roofing Contractor - Gimo's Roofing" fill className="object-cover" />
+            </div>
+          </div>
         </div>
       </section>
 

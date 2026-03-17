@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
@@ -129,6 +130,11 @@ export default function SouthsideJaxPage() {
             <span>✓ 5-Star Rated</span>
             <span>✓ Residential & Commercial</span>
           </div>
+          <div className="mt-10 max-w-4xl mx-auto px-4">
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/jacksonville-roofing-company.webp" alt="Roofing company serving Southside Jacksonville FL" title="Roofing company serving Southside Jacksonville FL" fill className="object-cover" priority />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -139,6 +145,20 @@ export default function SouthsideJaxPage() {
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
             <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
+          </div>
+        </div>
+      </section>
+
+      {/* Project Showcase */}
+      <section className="py-10 bg-white">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="rounded-xl overflow-hidden shadow-md relative aspect-[4/3]">
+              <Image src="/images/roofing-company-jacksonville.webp" alt="Roofing company serving Southside Jacksonville FL" title="Roofing Company - Southside Jacksonville FL" fill className="object-cover" />
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-md relative aspect-[4/3]">
+              <Image src="/images/jacksonville-commercial-roofing.webp" alt="Commercial roofing services in Southside Jacksonville FL" title="Commercial Roofing - Southside Jacksonville FL" fill className="object-cover" />
+            </div>
           </div>
         </div>
       </section>

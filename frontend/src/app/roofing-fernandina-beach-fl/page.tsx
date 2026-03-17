@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
@@ -128,6 +129,11 @@ export default function FernandinaBeachPage() {
             <span>✓ Licensed & Insured</span>
             <span>✓ 5-Star Rated</span>
             <span>✓ Coastal & Historic Specialists</span>
+          </div>
+          <div className="mt-10 max-w-4xl mx-auto px-4">
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/top-rated-roofer-jacksonville.webp" alt="Top-rated roofing company in Fernandina Beach FL" title="Top-rated roofing company in Fernandina Beach FL" fill className="object-cover" priority />
+            </div>
           </div>
         </div>
       </section>

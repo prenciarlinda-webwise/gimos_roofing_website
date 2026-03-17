@@ -9,18 +9,32 @@ const ProjectsMapCompact = dynamic(() => import('@/components/ProjectsMapCompact
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
 
 const projects = [
-  { id: 1, title: "Roof Replacement - Riverside", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/completed-roof-project-jacksonville.webp" },
-  { id: 2, title: "New Roof Installation - Nocatee", type: "Roof Installation", location: "Nocatee, FL", image: "/images/new-roof-installation-blue-house-florida.webp" },
-  { id: 3, title: "Shingle Roof Aerial View", type: "Roof Installation", location: "Atlantic Beach, FL", image: "/images/architectural-shingle-roof-aerial-view.webp" },
-  { id: 4, title: "Commercial Roofing Project", type: "Commercial", location: "Jacksonville, FL", image: "/images/commercial-gray-shingle-roof.webp" },
-  { id: 5, title: "Siding Installation", type: "Siding", location: "Jacksonville Beach, FL", image: "/images/siding-installation-jacksonville-home.webp" },
-  { id: 6, title: "Metal Roof Installation", type: "Roof Installation", location: "Ponte Vedra Beach, FL", image: "/images/flat-metal-roof-installation.webp" },
-  { id: 7, title: "Roof Replacement - San Marco", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/two-story-home-roof-replacement.webp" },
-  { id: 8, title: "Home Siding Renovation", type: "Siding", location: "Orange Park, FL", image: "/images/yellow-siding-home-renovation.webp" },
-  { id: 9, title: "Blue House Roof Project", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/blue-house-roof-project-aerial.webp" },
-  { id: 10, title: "Brick Home Shingle Roof", type: "Roof Installation", location: "Middleburg, FL", image: "/images/brick-home-gray-shingle-roof.webp" },
-  { id: 11, title: "Modern Home Roof", type: "Roof Replacement", location: "Ponte Vedra Beach, FL", image: "/images/modern-home-new-shingle-roof.webp" },
-  { id: 12, title: "Residential Roof with Pool", type: "Roof Installation", location: "Fernandina Beach, FL", image: "/images/residential-roof-with-pool-aerial.webp" }
+  { id: 1, title: "Roof Replacement - Riverside", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/completed-roof-project-jacksonville.webp", alt: "Completed roof replacement project in Riverside Jacksonville FL", imgTitle: "Roof Replacement Project - Riverside Jacksonville" },
+  { id: 2, title: "New Roof Installation - Nocatee", type: "Roof Installation", location: "Nocatee, FL", image: "/images/new-roof-installation-blue-house-florida.webp", alt: "New roof installation on blue house in Nocatee FL", imgTitle: "New Roof Installation - Nocatee FL" },
+  { id: 3, title: "Shingle Roof Aerial View", type: "Roof Installation", location: "Atlantic Beach, FL", image: "/images/architectural-shingle-roof-aerial-view.webp", alt: "Aerial view of architectural shingle roof in Atlantic Beach FL", imgTitle: "Architectural Shingle Roof - Atlantic Beach FL" },
+  { id: 4, title: "Commercial Roofing Project", type: "Commercial", location: "Jacksonville, FL", image: "/images/commercial-gray-shingle-roof.webp", alt: "Commercial gray shingle roofing project in Jacksonville FL", imgTitle: "Commercial Roofing Project - Jacksonville FL" },
+  { id: 5, title: "Siding Installation", type: "Siding", location: "Jacksonville Beach, FL", image: "/images/siding-installation-jacksonville-home.webp", alt: "Professional siding installation on Jacksonville Beach home", imgTitle: "Siding Installation - Jacksonville Beach FL" },
+  { id: 6, title: "Metal Roof Installation", type: "Roof Installation", location: "Ponte Vedra Beach, FL", image: "/images/flat-metal-roof-installation.webp", alt: "Flat metal roof installation in Ponte Vedra Beach FL", imgTitle: "Metal Roof Installation - Ponte Vedra Beach FL" },
+  { id: 7, title: "Roof Replacement - San Marco", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/two-story-home-roof-replacement.webp", alt: "Two-story home roof replacement in San Marco Jacksonville FL", imgTitle: "Roof Replacement - San Marco Jacksonville" },
+  { id: 8, title: "Home Siding Renovation", type: "Siding", location: "Orange Park, FL", image: "/images/yellow-siding-home-renovation.webp", alt: "Yellow siding home renovation in Orange Park FL", imgTitle: "Siding Renovation - Orange Park FL" },
+  { id: 9, title: "Blue House Roof Project", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/blue-house-roof-project-aerial.webp", alt: "Aerial view of blue house roof replacement project Jacksonville FL", imgTitle: "Blue House Roof Project - Jacksonville FL" },
+  { id: 10, title: "Brick Home Shingle Roof", type: "Roof Installation", location: "Middleburg, FL", image: "/images/brick-home-gray-shingle-roof.webp", alt: "Gray shingle roof on brick home in Middleburg FL", imgTitle: "Brick Home Shingle Roof - Middleburg FL" },
+  { id: 11, title: "Modern Home Roof", type: "Roof Replacement", location: "Ponte Vedra Beach, FL", image: "/images/modern-home-new-shingle-roof.webp", alt: "Modern home with new shingle roof in Ponte Vedra Beach FL", imgTitle: "Modern Home Roof - Ponte Vedra Beach FL" },
+  { id: 12, title: "Residential Roof with Pool", type: "Roof Installation", location: "Fernandina Beach, FL", image: "/images/residential-roof-with-pool-aerial.webp", alt: "Aerial view of residential roof with pool in Fernandina Beach FL", imgTitle: "Residential Roof with Pool - Fernandina Beach FL" },
+  { id: 13, title: "Shingle Roof Installation", type: "Roof Installation", location: "Jacksonville, FL", image: "/images/residential-shingle-roof-installation-jacksonville.webp", alt: "Residential shingle roof installation in Jacksonville FL", imgTitle: "Shingle Roof Installation - Jacksonville FL" },
+  { id: 14, title: "Metal Roof Construction", type: "Roof Installation", location: "St. Augustine, FL", image: "/images/metal-roof-construction-site.webp", alt: "Metal roof construction site in St. Augustine FL", imgTitle: "Metal Roof Construction - St. Augustine FL" },
+  { id: 15, title: "Green Metal Roof", type: "Roof Installation", location: "Mandarin, FL", image: "/images/green-metal-roof-residential.webp", alt: "Green metal roof on residential home in Mandarin FL", imgTitle: "Green Metal Roof - Mandarin FL" },
+  { id: 16, title: "Shingle Roof - Florida Home", type: "Roof Installation", location: "Nocatee, FL", image: "/images/shingle-roof-installation-florida.webp", alt: "Shingle roof installation on Florida home in Nocatee", imgTitle: "Shingle Roof Installation - Nocatee FL" },
+  { id: 17, title: "Roof Replacement with Dumpster", type: "Roof Replacement", location: "Jacksonville, FL", image: "/images/roof-replacement-project-dumpster.webp", alt: "Roof replacement project with debris removal dumpster Jacksonville FL", imgTitle: "Roof Replacement Project - Jacksonville FL" },
+  { id: 18, title: "Aerial Roof Inspection", type: "Roof Repair", location: "Jacksonville, FL", image: "/images/gray-shingle-roof-aerial-inspection.webp", alt: "Aerial roof inspection of gray shingle roof in Jacksonville FL", imgTitle: "Roof Inspection - Jacksonville FL" },
+  { id: 19, title: "Dark Blue Shingle Roof", type: "Roof Replacement", location: "Orange Park, FL", image: "/images/dark-blue-shingle-roof-completed.webp", alt: "Completed dark blue shingle roof in Orange Park FL", imgTitle: "Dark Blue Shingle Roof - Orange Park FL" },
+  { id: 20, title: "Light Blue House Roof", type: "Roof Replacement", location: "St. Augustine, FL", image: "/images/light-blue-house-dark-shingle-roof.webp", alt: "Light blue house with dark shingle roof in St. Augustine FL", imgTitle: "Light Blue House Roof - St. Augustine FL" },
+  { id: 21, title: "Siding Installation Project", type: "Siding", location: "Jacksonville, FL", image: "/images/siding-installation.webp", alt: "Professional siding installation project in Jacksonville FL", imgTitle: "Siding Installation - Jacksonville FL" },
+  { id: 22, title: "Siding Project - Jacksonville", type: "Siding", location: "Jacksonville, FL", image: "/images/siding-jacksonville.webp", alt: "Siding project completed in Jacksonville FL", imgTitle: "Siding Project - Jacksonville FL" },
+  { id: 23, title: "Roof Repair - Nocatee", type: "Roof Repair", location: "Nocatee, FL", image: "/images/roof-repair-nocatee.webp", alt: "Roof repair project in Nocatee FL", imgTitle: "Roof Repair - Nocatee FL" },
+  { id: 24, title: "New Roof - Jacksonville", type: "Roof Installation", location: "Jacksonville, FL", image: "/images/new-roof-jacksonville-fl.webp", alt: "New roof installation in Jacksonville FL", imgTitle: "New Roof Installation - Jacksonville FL" },
+  { id: 25, title: "Nocatee Roofing Project", type: "Roof Replacement", location: "Nocatee, FL", image: "/images/nocatee-roofing-company.webp", alt: "Roofing project completed by Nocatee roofing company", imgTitle: "Nocatee Roofing Project" },
+  { id: 26, title: "Nocatee Roof Replacement", type: "Roof Replacement", location: "Nocatee, FL", image: "/images/nocatee-roofing-contractor.webp", alt: "Nocatee roofing contractor completing roof replacement", imgTitle: "Roof Replacement - Nocatee FL" }
 ]
 
 const categories = ["All", "Roof Installation", "Roof Replacement", "Roof Repair", "Commercial", "Siding"]
@@ -90,7 +104,8 @@ export default function GalleryClient() {
                   <div className="aspect-[4/3] overflow-hidden relative">
                     <Image
                       src={project.image}
-                      alt={project.title}
+                      alt={project.alt || project.title}
+                      title={project.imgTitle || project.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
@@ -130,11 +145,11 @@ export default function GalleryClient() {
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <div className="grid grid-cols-2">
                 <div className="aspect-square overflow-hidden relative">
-                  <Image src="/images/roof-replacement-debris-removal.webp" alt="Roof before replacement" fill className="object-cover" />
+                  <Image src="/images/roof-replacement-debris-removal.webp" alt="Roof before replacement in Mandarin Jacksonville FL" title="Before - Roof Replacement Mandarin Jacksonville" fill className="object-cover" />
                   <span className="absolute bottom-2 left-2 bg-secondary/80 text-white text-xs px-2 py-1 rounded">Before</span>
                 </div>
                 <div className="aspect-square overflow-hidden relative">
-                  <Image src="/images/completed-roof-project-jacksonville.webp" alt="Roof after replacement" fill className="object-cover" />
+                  <Image src="/images/completed-roof-project-jacksonville.webp" alt="Completed roof replacement in Mandarin Jacksonville FL" title="After - Roof Replacement Mandarin Jacksonville" fill className="object-cover" />
                   <span className="absolute bottom-2 left-2 bg-primary text-secondary text-xs px-2 py-1 rounded font-semibold">After</span>
                 </div>
               </div>
@@ -146,11 +161,11 @@ export default function GalleryClient() {
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <div className="grid grid-cols-2">
                 <div className="aspect-square overflow-hidden relative">
-                  <Image src="/images/siding-project-closeup.webp" alt="Siding before installation" fill className="object-cover" />
+                  <Image src="/images/siding-project-closeup.webp" alt="Siding before installation in St. Augustine FL" title="Before - Siding Installation St. Augustine" fill className="object-cover" />
                   <span className="absolute bottom-2 left-2 bg-secondary/80 text-white text-xs px-2 py-1 rounded">Before</span>
                 </div>
                 <div className="aspect-square overflow-hidden relative">
-                  <Image src="/images/siding-installation-jacksonville-home.webp" alt="Siding after installation" fill className="object-cover" />
+                  <Image src="/images/siding-installation-jacksonville-home.webp" alt="New siding after installation in St. Augustine FL" title="After - Siding Installation St. Augustine" fill className="object-cover" />
                   <span className="absolute bottom-2 left-2 bg-primary text-secondary text-xs px-2 py-1 rounded font-semibold">After</span>
                 </div>
               </div>

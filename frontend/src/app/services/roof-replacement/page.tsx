@@ -136,7 +136,7 @@ export default function RoofReplacementPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/residential-roofing-services-page.webp" alt="Residential roof replacement in Jacksonville FL" fill className="object-cover" />
+              <Image src="/images/residential-roofing-services-page.webp" alt="Residential roof replacement in Jacksonville FL" title="Residential roof replacement in Jacksonville FL" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -372,9 +372,14 @@ export default function RoofReplacementPage() {
       {/* Signs You Need Replacement */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Signs You Need a Roof Replacement</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Not sure if you need a replacement? Here are common indicators that your roof has reached the end of its lifespan.</p>
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Signs You Need a Roof Replacement</h2>
+              <p className="text-gray-600">Not sure if you need a replacement? Here are common indicators that your roof has reached the end of its lifespan.</p>
+            </div>
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/roof-replacement.webp" alt="Roof replacement project in Jacksonville FL" title="Roof replacement project in Jacksonville FL" fill className="object-cover" />
+            </div>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {signs.map((sign) => (
@@ -416,7 +421,7 @@ export default function RoofReplacementPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/two-story-home-roof-replacement.webp" alt="Complete roof replacement on two-story home" fill className="object-cover" />
+              <Image src="/images/two-story-home-roof-replacement.webp" alt="Complete roof replacement on two-story home" title="Complete roof replacement on two-story home" fill className="object-cover" />
             </div>
           </div>
         </div>

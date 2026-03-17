@@ -130,7 +130,7 @@ export default function NewConstructionRoofingPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/new-roof-installation-blue-house-florida.webp" alt="New construction roofing in Jacksonville FL" fill className="object-cover" />
+              <Image src="/images/new-roof-installation-blue-house-florida.webp" alt="New construction roofing in Jacksonville FL" title="New construction roofing in Jacksonville FL" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -262,9 +262,14 @@ export default function NewConstructionRoofingPage() {
       {/* New Construction Process */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">New Construction Roofing Process</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">Here&apos;s how we work with builders and homeowners to ensure your new roof is installed correctly from the start.</p>
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">New Construction Roofing Process</h2>
+              <p className="text-gray-600">Here&apos;s how we work with builders and homeowners to ensure your new roof is installed correctly from the start.</p>
+            </div>
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/new-roof-company.webp" alt="New construction roofing in Jacksonville FL" title="New construction roofing in Jacksonville FL" fill className="object-cover" />
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

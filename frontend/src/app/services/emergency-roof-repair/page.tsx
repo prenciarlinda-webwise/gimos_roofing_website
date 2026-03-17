@@ -146,7 +146,7 @@ export default function EmergencyRoofRepairPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/roof-repair-in-progress-jacksonville.webp" alt="Emergency roof repair in Jacksonville FL" fill className="object-cover" />
+              <Image src="/images/roof-repair-in-progress-jacksonville.webp" alt="Emergency roof repair in Jacksonville FL" title="Emergency roof repair in Jacksonville FL" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -337,9 +337,14 @@ export default function EmergencyRoofRepairPage() {
       {/* Storm Damage Specific */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Jacksonville Storm Damage Specialists</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">Living in Northeast Florida means preparing for severe weather. Our team has extensive experience with storm damage repair.</p>
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Jacksonville Storm Damage Specialists</h2>
+              <p className="text-gray-600">Living in Northeast Florida means preparing for severe weather. Our team has extensive experience with storm damage repair.</p>
+            </div>
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/roof-leak-emergency-repair.webp" alt="Emergency roof leak repair in Jacksonville FL" title="Emergency roof leak repair in Jacksonville FL" fill className="object-cover" />
+            </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">

@@ -72,6 +72,7 @@ export default function BlogClient() {
                       <Image
                         src={post.image}
                         alt={post.title}
+                        title={post.title}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
                       />
