@@ -41,9 +41,13 @@ const locationPages = [
 ]
 
 // Dynamically get published blog posts
-const today = new Date().toISOString().split('T')[0]
+const now = new Date().toISOString()
 const blogPosts = allBlogPosts
-  .filter(post => !post.publishDate || post.publishDate <= today)
+  .filter(post => {
+    if (!post.publishDate) return true
+    const pubDate = post.publishDate.includes('T') ? post.publishDate : post.publishDate + 'T00:00'
+    return pubDate <= now
+  })
   .map(post => ({ title: post.title, href: `/blog/${post.slug}` }))
 
 export default function SitemapPage() {

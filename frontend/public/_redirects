@@ -1,0 +1,44 @@
+# Sitemap redirect
+/sitemap_index.xml /sitemap.xml 301
+
+# Old site URL structure redirects
+/about-us /about 301
+/contact-us /contact 301
+/roofing-services /services 301
+/siding-services /services 301
+/roofing-and-siding-services-in-jacksonville-beach /roofing-jacksonville-beach-fl 301
+
+# Old blog post redirects
+/why-quality-roofing-matters-in-jacksonville-fl-trust-gimos-roofing-for-your-home /blog 301
+/protect-your-home-why-choosing-professional-roofing-services-matters /blog 301
+/signs-you-need-roof-repair-jacksonville /blog 301
+
+# SEO optimized redirects
+/blog/when-roof-needs-replacement /blog/roof-repair-vs-replacement-jacksonville 301
+/blog/flat-roof-repair-jacksonville /blog 301
+
+# URL typo redirects
+/roofing-st.-augustine-fl /roofing-st-augustine-fl 301
+
+# Broken blog link redirects
+/blog/roof-insurance-claim-tips /blog/roof-insurance-claim-florida-guide 301
+/blog/signs-you-need-new-roof /blog/signs-you-need-new-roof-florida 301
+/blog/metal-roofing-jacksonville-florida /blog/benefits-metal-roofing-florida 301
+
+# Non-existent location pages
+/roofing-jacksonville-fl /service-areas 301
+/roofing-julington-creek-fl /roofing-nocatee-fl 301
+
+# WordPress legacy URLs (404s)
+/feed / 301
+/comments/feed / 301
+/privacy-policy/feed /privacy-policy 301
+/author/webwise-assistant /about 301
+/category/uncategorized /blog 301
+/2025/12 /blog 301
+/form/free-estimate-request-form /contact 301
+
+# Old WordPress blog feed URLs
+/why-quality-roofing-matters-in-jacksonville-fl-trust-gimos-roofing-for-your-home/feed /blog 301
+/protect-your-home-why-choosing-professional-roofing-services-matters/feed /blog 301
+/signs-you-need-roof-repair-jacksonville/feed /blog 301

@@ -28,6 +28,15 @@ const nextConfig = {
 
       // URL typo redirects
       { source: '/roofing-st.-augustine-fl', destination: '/roofing-st-augustine-fl', permanent: true },
+
+      // Broken blog link redirects
+      { source: '/blog/roof-insurance-claim-tips', destination: '/blog/roof-insurance-claim-florida-guide', permanent: true },
+      { source: '/blog/signs-you-need-new-roof', destination: '/blog/signs-you-need-new-roof-florida', permanent: true },
+      { source: '/blog/metal-roofing-jacksonville-florida', destination: '/blog/benefits-metal-roofing-florida', permanent: true },
+
+      // Non-existent location pages
+      { source: '/roofing-jacksonville-fl', destination: '/service-areas', permanent: true },
+      { source: '/roofing-julington-creek-fl', destination: '/roofing-nocatee-fl', permanent: true },
     ]
   },
   async headers() {

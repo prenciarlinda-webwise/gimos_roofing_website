@@ -50,7 +50,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "@id": "https://www.gimosroofing.com/#organization",
-  "name": "Gimo's Renovation & Roofing",
+  "name": "Gimo's Roofing",
   "alternateName": "Gimo's Roofing",
   "image": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
   "logo": {

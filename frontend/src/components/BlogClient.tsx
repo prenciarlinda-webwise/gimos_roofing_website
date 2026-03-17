@@ -12,8 +12,13 @@ export default function BlogClient() {
   const [activeCategory, setActiveCategory] = useState("All")
 
   // Filter by publishDate (only show published posts), sort by date (newest first), then filter by category
-  const today = new Date().toISOString().split('T')[0]
-  const publishedPosts = blogPosts.filter(post => !post.publishDate || post.publishDate <= today)
+  const now = new Date().toISOString()
+  const publishedPosts = blogPosts.filter(post => {
+    if (!post.publishDate) return true
+    // Support both "YYYY-MM-DD" and "YYYY-MM-DDTHH:MM" formats
+    const pubDate = post.publishDate.includes('T') ? post.publishDate : post.publishDate + 'T00:00'
+    return pubDate <= now
+  })
   const sortedPosts = [...publishedPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
   const filteredPosts = activeCategory === "All"

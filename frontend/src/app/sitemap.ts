@@ -49,8 +49,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   // Blog pages - only include published posts (not future-scheduled)
-  const today = new Date().toISOString().split('T')[0]
-  const publishedPosts = blogPosts.filter(post => !post.publishDate || post.publishDate <= today)
+  const now = new Date().toISOString()
+  const publishedPosts = blogPosts.filter(post => {
+    if (!post.publishDate) return true
+    const pubDate = post.publishDate.includes('T') ? post.publishDate : post.publishDate + 'T00:00'
+    return pubDate <= now
+  })
 
   const blogPages = [
     { url: `${baseUrl}/blog`, changeFrequency: 'weekly' as const, priority: 0.8 },

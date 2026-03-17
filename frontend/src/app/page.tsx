@@ -91,7 +91,7 @@ const faqSchema = {
 const businessSchema = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
-  "name": "Gimo's Renovation & Roofing",
+  "name": "Gimo's Roofing",
   "image": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
   "url": "https://www.gimosroofing.com",
   "telephone": "(904) 606-5313",
@@ -138,7 +138,7 @@ const videoSchema = {
       "embedUrl": "https://www.youtube.com/embed/z_0CKskIgXc",
       "publisher": {
         "@type": "Organization",
-        "name": "Gimo's Renovation & Roofing",
+        "name": "Gimo's Roofing",
         "logo": {
           "@type": "ImageObject",
           "url": "https://www.gimosroofing.com/gimos-roofing-logo.webp"
@@ -156,7 +156,7 @@ const videoSchema = {
       "embedUrl": "https://www.youtube.com/embed/aXKje0SbdD0",
       "publisher": {
         "@type": "Organization",
-        "name": "Gimo's Renovation & Roofing",
+        "name": "Gimo's Roofing",
         "logo": {
           "@type": "ImageObject",
           "url": "https://www.gimosroofing.com/gimos-roofing-logo.webp"
@@ -174,7 +174,7 @@ const videoSchema = {
       "embedUrl": "https://www.youtube.com/embed/MLenaCM8LyQ",
       "publisher": {
         "@type": "Organization",
-        "name": "Gimo's Renovation & Roofing",
+        "name": "Gimo's Roofing",
         "logo": {
           "@type": "ImageObject",
           "url": "https://www.gimosroofing.com/gimos-roofing-logo.webp"

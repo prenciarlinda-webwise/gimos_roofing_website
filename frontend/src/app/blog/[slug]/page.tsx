@@ -75,8 +75,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   // Check if post is scheduled for future publication
   if (post.publishDate) {
-    const today = new Date().toISOString().split('T')[0]
-    if (post.publishDate > today) {
+    const now = new Date().toISOString()
+    const pubDate = post.publishDate.includes('T') ? post.publishDate : post.publishDate + 'T00:00'
+    if (pubDate > now) {
       notFound()
     }
   }
@@ -89,7 +90,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     "@context": "https://schema.org",
     "@type": "RoofingContractor",
     "@id": "https://www.gimosroofing.com/#organization",
-    "name": "Gimo's Renovation & Roofing",
+    "name": "Gimo's Roofing",
     "url": "https://www.gimosroofing.com",
     "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
     "telephone": "+1-904-606-5313",
