@@ -16,6 +16,7 @@ const phone = "(904) 606-5313"
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
 
 const nearbyAreas = [
+  { name: "Jacksonville", href: "/roofing-jacksonville-fl" },
   { name: "Orange Park", href: "/roofing-orange-park-fl" },
   { name: "San Marco", href: "/roofing-san-marco-fl" },
   { name: "Southside Jacksonville", href: "/roofing-southside-jax-fl" },
@@ -281,6 +282,16 @@ export default function MandarinPage() {
           <div className="rounded-xl overflow-hidden shadow-lg">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.71590544476!2d-81.65529292427262!3d30.359022903597385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e44b1e311da61b%3A0xe141a9eec11ad009!2sGimo&#39;s%20Roofing!5e0!3m2!1sen!2s!4v1771230427854!5m2!1sen!2s" width="100%" height="400" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Gimo's Roofing Location"></iframe>
           </div>
+        </div>
+      </section>
+
+      {/* ZIP Code Coverage */}
+      <section className="py-14">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-2xl font-bold text-secondary mb-4">Roofing in 32223, 32257, and 32258 - Mandarin ZIP Codes</h2>
+          <p className="text-gray-600 mb-4">
+            ZIP codes 32223, 32257, and 32258 cover Mandarin and the surrounding St. Johns River residential communities in southern Duval County. 32223 is the heart of Mandarin including the older established neighborhoods along Mandarin Road, San Jose Boulevard, and the streets near Mandarin Park. 32257 covers the western and southern stretches including parts of the Loretto and Beauclerc areas. 32258 covers the southernmost edge bordering St. Johns County. The dense live oak canopy throughout all three ZIPs is the single biggest factor affecting roof life here, followed by the high humidity from the river.
+          </p>
         </div>
       </section>
 

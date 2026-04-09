@@ -30,6 +30,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/services/siding-repair`, changeFrequency: 'monthly' as const, priority: 0.8 },
   ]
 
+  // Jacksonville main page (highest priority location)
+  const jacksonvilleMainPage = [
+    { url: `${baseUrl}/roofing-jacksonville-fl`, changeFrequency: 'weekly' as const, priority: 0.9 },
+  ]
+
   // Location pages
   const locationPages = [
     'jacksonville-beach',
@@ -42,6 +47,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'san-marco',
     'mandarin',
     'southside-jax',
+    'atlantic-beach',
+    'neptune-beach',
   ].map((location) => ({
     url: `${baseUrl}/roofing-${location}-fl`,
     changeFrequency: 'monthly' as const,
@@ -66,5 +73,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ]
 
-  return [...mainPages, ...servicePages, ...locationPages, ...blogPages]
+  return [...mainPages, ...servicePages, ...jacksonvilleMainPage, ...locationPages, ...blogPages]
 }

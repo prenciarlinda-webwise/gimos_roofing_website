@@ -137,7 +137,18 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       }
     },
     "articleSection": post.category,
-    "keywords": post.keywords?.join(", ") || post.category
+    "keywords": post.keywords?.join(", ") || post.category,
+    // Speakable signals to Google AI Overview / voice assistants which sections are most "quotable"
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["h1", "#quick-answer", "#key-takeaways"]
+    },
+    // About entity helps AI link the article to a specific local business and topic
+    "about": {
+      "@type": "Thing",
+      "name": post.category
+    },
+    "isAccessibleForFree": true
   }
 
   const faqSchema = post.faqs && post.faqs.length > 0 ? {
@@ -409,6 +420,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     </Link>
                   </li>
                   <li>
+                    <Link href="/services/new-construction-roofing" className="text-sm text-gray-600 hover:text-primary transition flex items-center gap-2">
+                      <svg className="w-4 h-4 text-primary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" /></svg>
+                      New Construction Roofing
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/services/siding-installation" className="text-sm text-gray-600 hover:text-primary transition flex items-center gap-2">
                       <svg className="w-4 h-4 text-primary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" /></svg>
                       Siding Installation
@@ -421,6 +438,27 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     </Link>
                   </li>
                 </ul>
+              </div>
+
+              {/* Service Areas Quick Links */}
+              <div className="bg-white border border-gray-200 rounded-xl p-6">
+                <h3 className="text-secondary font-bold mb-4">Service Areas</h3>
+                <p className="text-xs text-gray-500 mb-3">Roofing throughout Northeast Florida</p>
+                <div className="flex flex-wrap gap-2">
+                  <Link href="/roofing-jacksonville-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">Jacksonville</Link>
+                  <Link href="/roofing-jacksonville-beach-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">Jax Beach</Link>
+                  <Link href="/roofing-atlantic-beach-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">Atlantic Beach</Link>
+                  <Link href="/roofing-neptune-beach-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">Neptune Beach</Link>
+                  <Link href="/roofing-ponte-vedra-beach-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">Ponte Vedra</Link>
+                  <Link href="/roofing-nocatee-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">Nocatee</Link>
+                  <Link href="/roofing-st-augustine-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">St. Augustine</Link>
+                  <Link href="/roofing-fernandina-beach-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">Fernandina Beach</Link>
+                  <Link href="/roofing-san-marco-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">San Marco</Link>
+                  <Link href="/roofing-riverside-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">Riverside</Link>
+                  <Link href="/roofing-mandarin-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">Mandarin</Link>
+                  <Link href="/roofing-southside-jax-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">Southside</Link>
+                  <Link href="/roofing-orange-park-fl" className="px-2.5 py-1 bg-gray-50 rounded-full text-xs text-gray-600 hover:bg-primary hover:text-white transition">Orange Park</Link>
+                </div>
               </div>
 
             </div>

@@ -23,7 +23,10 @@ const quickLinks = [
 ]
 
 const serviceAreas = [
+  "Jacksonville",
   "Jacksonville Beach",
+  "Atlantic Beach",
+  "Neptune Beach",
   "Ponte Vedra Beach",
   "St. Augustine",
   "Orange Park",
@@ -40,7 +43,6 @@ const partners = [
   { name: "Welch Team Real Estate", href: "https://welchteam.com", nofollow: true, title: "Welch Team Real Estate" },
   { name: "JVICON LLC", href: "https://jviconllc.com", nofollow: true, title: "JVICON LLC" },
   { name: "Eastern Shores Construction", href: "https://www.easternshoresconstruction.com", nofollow: true, title: "Eastern Shores Construction" },
-  { name: "904 Dumpster", href: "https://www.904dumpster.com", nofollow: false, title: "904 Dumpster Rental" },
 ]
 
 export default function Footer() {

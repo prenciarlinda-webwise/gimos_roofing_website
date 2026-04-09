@@ -11,7 +11,10 @@ export const metadata: Metadata = {
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
 
 const serviceAreas = [
+  { name: "Jacksonville", slug: "roofing-jacksonville-fl", county: "Duval County", description: "Jacksonville's top-rated roofing company. Roof replacement, repair, and emergency services throughout Duval County." },
   { name: "Jacksonville Beach", slug: "roofing-jacksonville-beach-fl", county: "Duval County", description: "Coastal roofing specialists protecting beach homes from salt air and hurricane conditions." },
+  { name: "Atlantic Beach", slug: "roofing-atlantic-beach-fl", county: "Duval County", description: "Salt-resistant coastal roofing for Selva Marina, Atlantic Beach Country Club, and Beach Avenue homes." },
+  { name: "Neptune Beach", slug: "roofing-neptune-beach-fl", county: "Duval County", description: "Coastal roofing specialists for Neptune Beach, Beaches Town Center, and 1st Street oceanfront homes." },
   { name: "Riverside", slug: "roofing-riverside-fl", county: "Duval County", description: "Historic home roofing specialists for Riverside and Avondale's architectural gems." },
   { name: "San Marco", slug: "roofing-san-marco-fl", county: "Duval County", description: "Tile roof experts serving San Marco's distinctive Mediterranean homes." },
   { name: "Mandarin", slug: "roofing-mandarin-fl", county: "Duval County", description: "Quality roofing for Mandarin's large residential community along the St. Johns River." },
@@ -24,7 +27,7 @@ const serviceAreas = [
 ]
 
 const counties = [
-  { name: "Duval County", areas: ["Jacksonville Beach", "Riverside", "San Marco", "Mandarin", "Southside Jax"] },
+  { name: "Duval County", areas: ["Jacksonville", "Jacksonville Beach", "Atlantic Beach", "Neptune Beach", "Riverside", "San Marco", "Mandarin", "Southside Jax"] },
   { name: "St. Johns County", areas: ["Ponte Vedra Beach", "St. Augustine", "Nocatee"] },
   { name: "Clay County", areas: ["Orange Park"] },
   { name: "Nassau County", areas: ["Fernandina Beach"] }

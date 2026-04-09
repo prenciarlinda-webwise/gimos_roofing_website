@@ -16,7 +16,10 @@ const phone = "(904) 606-5313"
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
 
 const nearbyAreas = [
+  { name: "Neptune Beach", href: "/roofing-neptune-beach-fl" },
+  { name: "Atlantic Beach", href: "/roofing-atlantic-beach-fl" },
   { name: "Ponte Vedra Beach", href: "/roofing-ponte-vedra-beach-fl" },
+  { name: "Jacksonville", href: "/roofing-jacksonville-fl" },
   { name: "St. Augustine", href: "/roofing-st-augustine-fl" },
   { name: "Nocatee", href: "/roofing-nocatee-fl" },
   { name: "San Marco", href: "/roofing-san-marco-fl" },
@@ -24,14 +27,14 @@ const nearbyAreas = [
 ]
 
 const faqs = [
-  { question: `How much does roof replacement cost in ${location}?`, answer: `Coastal roof replacement in ${location} ranges from $8,500 to $32,000+ depending on size and materials. Oceanfront properties require salt-resistant materials like aluminum standing seam or impact-resistant shingles, which cost more than standard options. Financing available from $99/month.` },
-  { question: `What's the best roofing material for beachfront homes in Jax Beach?`, answer: `For ${location}'s salt-air environment, we recommend aluminum standing seam metal roofing (best salt resistance, 40-60 year lifespan), impact-resistant architectural shingles with algae protection (20-25 years), or concrete tile for classic Florida style (30-50 years). Avoid galvanized steel near the ocean as it corrodes faster.` },
-  { question: `How long do roofs last near the beach in Jacksonville Beach?`, answer: `Standard 3-tab shingles may only last 12-15 years near the ocean due to salt exposure and UV damage. Architectural shingles last 18-22 years, metal roofing 40-60 years, and tile 30-50+ years. Homes within 1 mile of the Atlantic experience faster deterioration than inland properties.` },
-  { question: `Do you provide hurricane damage repair in Jacksonville Beach?`, answer: `Yes! We offer 24/7 emergency storm response for ${location}. Florida Building Code requires roofs in our area to withstand 130+ mph winds. Call ${phone} for immediate tarping, damage assessment, and insurance claim assistance after any storm.` },
-  { question: `How does salt air affect roofs in Jacksonville Beach?`, answer: `Salt air causes metal fasteners, flashing, and hardware to corrode. It accelerates shingle granule loss, weakens underlayment adhesion, and promotes algae and mold growth. Homes in ZIP codes 32250 and 32240 near the ocean need annual inspections and salt-resistant materials to avoid premature roof failure.` },
-  { question: `Does my Jacksonville Beach roof affect my insurance rates?`, answer: `Yes. A newer roof with impact-resistant materials (like Class 4 shingles or metal) can save you 15-30% on hurricane premiums. Many insurers require roof replacement for homes with roofs over 15-20 years old in coastal zones. We provide insurance-compliant documentation for every project.` },
-  { question: `How often should I inspect my roof in Jacksonville Beach?`, answer: `We recommend annual inspections for coastal homes, plus after every major storm. Salt air, UV exposure, and tropical weather cause faster wear than inland areas. Early detection of loose shingles, corroded flashing, or damaged underlayment prevents costly repairs. We offer free roof inspections.` },
-  { question: `Can you match my HOA's approved roofing colors and materials?`, answer: `Yes! We work with HOAs throughout Jacksonville Beach, Neptune Beach, and Atlantic Beach. We carry samples of approved shingle colors, metal finishes, and tile profiles. We handle the approval paperwork so you don't have to.` }
+  { question: "How much does roof replacement cost in Jacksonville Beach FL?", answer: "Roof replacement in Jacksonville Beach typically runs $9,500 to $32,000 for the salt-exposed homes east of Penman Road, with most 1,800-2,400 sq ft beach houses falling between $12,000 and $19,000 for impact-rated architectural shingles. Oceanfront properties on 1st Street North or 1st Street South often need aluminum standing seam, which pushes the range to $24,000-$38,000. We provide free quotes and financing from $99/month." },
+  { question: "What's the best roofing material for an oceanfront home on 1st Street?", answer: "For oceanfront homes within a mile of the Atlantic — including 1st Street, 2nd Avenue North, and South Beach Parkway — aluminum standing seam is the gold standard. Aluminum doesn't rust like galvanized steel and holds up to direct salt spray for 40-60 years. The next best option is impact-rated architectural shingles (Class 4) with stainless steel fasteners. We strongly advise against any galvanized steel product within a mile of the dunes." },
+  { question: "How long do shingle roofs actually last in Jacksonville Beach?", answer: "In ZIP code 32250, salt air and UV exposure shave years off any shingle roof. Standard 3-tab shingles often fail at 12-15 years here, compared to 18-22 for inland Duval homes. Architectural shingles run 18-22 years on the beach side, and 22-25 years for homes west of 3rd Street. Metal roofing remains the longest-lasting option at 40-60 years even directly on the coast." },
+  { question: "Do you handle hurricane damage and tarping in Jax Beach?", answer: "Yes — we run 24/7 emergency response throughout Jacksonville Beach during and after every named storm. Our crews are typically on-site within hours for tarping, board-up, and damage documentation. Every Jax Beach roof must meet the Florida Building Code 130+ mph wind requirement, and we document all repairs to that standard so your insurance claim doesn't get denied for code non-compliance. Call (904) 606-5313 day or night." },
+  { question: "How does salt air specifically damage my Jacksonville Beach roof?", answer: "Salt air attacks roofs in three ways: it corrodes metal flashing and fasteners (causing leaks at penetrations), it accelerates shingle granule loss on the windward side facing the ocean, and it feeds algae growth in the persistent humidity. Homes in 32250 east of 3rd Street and the older neighborhoods in 32240 see this most aggressively. We recommend annual washdowns and a professional inspection every spring before hurricane season." },
+  { question: "Will a new roof lower my insurance in Jacksonville Beach?", answer: "Yes, often dramatically. Coastal Florida insurers offer wind mitigation credits of 15-45% for newer roofs with impact-rated shingles, properly nailed sheathing, secondary water barriers, and hip roof shapes. Most Jax Beach homes built before 2002 are paying inflated premiums on roofs that don't qualify for any credits. We provide a wind mitigation inspection report with every replacement so you can pass it to your insurance carrier the same week." },
+  { question: "How often should I inspect my roof in a beach environment?", answer: "Twice a year minimum for any home east of A1A — once in early spring before storm season, and once in November after the last named storm. Salt damage and storm wear show up gradually, and what looks fine from the ground is often hiding corroded flashing or lifted shingles up close. We offer free annual inspections for past customers and reduced-rate inspections for new clients in 32250 and 32240." },
+  { question: "Can you work with the Neptune Beach and Atlantic Beach HOAs?", answer: "Yes — many of our Jax Beach customers have homes that fall within HOAs in neighboring Neptune Beach and Atlantic Beach, and the architectural review boards each have their own approved materials lists. We carry samples of every commonly-approved shingle color and metal finish for these communities, and we handle the HOA submittal paperwork as part of every project. We've completed roofs for homes in Sandcastle, Beachwalker, and the older Beach Avenue district." }
 ]
 
 const schemaData = {
@@ -271,20 +274,18 @@ export default function JacksonvilleBeachPage() {
         </div>
       </section>
 
-      {/* Customer Review */}
+      {/* Reviews CTA */}
       <section className="py-14">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-secondary mb-6 text-center">What Our Customers Say</h2>
-          <div className="bg-gray-50 rounded-xl p-8">
-            <div className="flex items-center gap-2 mb-4">
+          <div className="bg-gray-50 rounded-xl p-8 text-center">
+            <div className="flex items-center justify-center gap-2 mb-4">
               {[...Array(5)].map((_, i) => (
-                <svg key={i} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+                <svg key={i} className="w-6 h-6 text-yellow-400 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
               ))}
             </div>
-            <blockquote className="text-gray-700 text-lg italic mb-4">
-              &ldquo;Gimo&apos;s roofing company did a fantastic job for me from start to finish. There was a whole crew at my house at 0700 sharp. They completed my roof in one day and it looks great! They paid attention to every detail I requested and when they were finished, they cleaned up like they were never there. Great job!&rdquo;
-            </blockquote>
-            <p className="font-semibold text-secondary">- Mark Jackson</p>
+            <h2 className="text-2xl font-bold text-secondary mb-3">5-Star Rated by Jacksonville Beach Homeowners</h2>
+            <p className="text-gray-600 mb-6">From oceanfront homes on 1st Street to the older bungalows along South Beach Parkway, our crew has earned 5-star reviews across the Jacksonville Beach community.</p>
+            <a href="https://www.google.com/search?q=Gimo%27s+Roofing+Jacksonville+reviews" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition">Read Our Reviews</a>
           </div>
         </div>
       </section>
@@ -297,6 +298,16 @@ export default function JacksonvilleBeachPage() {
           <div className="rounded-xl overflow-hidden shadow-lg">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.71590544476!2d-81.65529292427262!3d30.359022903597385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e44b1e311da61b%3A0xe141a9eec11ad009!2sGimo&#39;s%20Roofing!5e0!3m2!1sen!2s!4v1771230427854!5m2!1sen!2s" width="100%" height="400" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Gimo's Roofing Location"></iframe>
           </div>
+        </div>
+      </section>
+
+      {/* ZIP Code Coverage */}
+      <section className="py-14">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-2xl font-bold text-secondary mb-4">Roofing in 32250 and 32240 - Jacksonville Beach ZIP Codes</h2>
+          <p className="text-gray-600 mb-4">
+            ZIP codes 32250 and 32240 cover all of Jacksonville Beach, from the oceanfront homes along 1st Street to the residential streets west of Penman Road. 32250 contains the bulk of the city, including South Beach Parkway, the Beaches Town Center area, and the residential streets between 3rd Street and Penman, while 32240 is the smaller P.O. box ZIP. Roofs in both ZIPs face the same brutal salt air, hurricane wind, and reflected UV that defines coastal Florida roofing. Architectural shingle with stainless hardware and aluminum standing seam metal are the two materials we install most often here.
+          </p>
         </div>
       </section>
 
