@@ -6,7 +6,6 @@ import FAQ from '@/components/FAQ'
 export const metadata: Metadata = {
   title: "Roofing Riverside Jacksonville FL - Historic Home Roof Repair",
   description: "Roofing in Riverside & Avondale Jacksonville FL. Historic bungalow & craftsman home specialists. Roof repair & replacement. Call (904) 606-5313.",
-  keywords: ["roofing riverside jacksonville fl", "riverside avondale roofers", "historic home roofing jacksonville", "roof repair riverside fl", "avondale roof replacement", "five points roofing"],
   alternates: { canonical: "https://www.gimosroofing.com/roofing-riverside-fl" },
 }
 
@@ -35,31 +34,12 @@ const faqs = [
   { question: "How often should I inspect a Riverside historic home roof?", answer: "Annually at minimum, plus after any storm with winds above 50 mph. Riverside homes are 70-110+ years old, the original framing and decking are aging, and the live oak canopy doubles the inspection load compared to a newer subdivision. We check four things specifically: the condition of the original plank decking visible from inside the attic, the flashing around chimneys (almost every Riverside bungalow has one and they leak first), the valleys for packed oak debris, and the ridge caps on the steep pitches where wind uplift starts. We also check soffit and ridge ventilation — many original Riverside attics were never properly vented and the resulting heat is what kills shingles before their warranty period. Inspections are free for past customers and reduced-rate for new clients in 32204 and 32205." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "@id": "https://www.gimosroofing.com/#localbusiness",
-  "name": "Gimo's Roofing",
-  "url": "https://www.gimosroofing.com/roofing-riverside-fl",
-  "telephone": "+19046065313",
-  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
-    "addressLocality": "Jacksonville",
-    "addressRegion": "FL",
-    "postalCode": "32206",
-    "addressCountry": "US"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "priceRange": "$$",
+  "@type": "Service",
+  "name": "Roofing Services in Riverside, Jacksonville FL",
+  "serviceType": "Roofing Contractor",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": {
     "@type": "Neighborhood",
     "name": "Riverside",
@@ -67,6 +47,7 @@ const schemaData = {
       "https://en.wikipedia.org/wiki/Riverside,_Jacksonville"
     ]
   },
+  "url": "https://www.gimosroofing.com/roofing-riverside-fl",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Roofing Services in Riverside & Avondale, Jacksonville",
@@ -94,6 +75,8 @@ const schemaData = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/roofing-riverside-fl",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -110,7 +93,7 @@ const breadcrumbSchema = {
 export default function RiversidePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -144,7 +127,7 @@ export default function RiversidePage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
           </div>
         </div>

@@ -6,7 +6,6 @@ import FAQ from '@/components/FAQ'
 export const metadata: Metadata = {
   title: "Roofing Atlantic Beach FL - Coastal Roof Repair & Replacement",
   description: "Roofing in Atlantic Beach FL. Salt-resistant coastal roofing for Selva Marina, Atlantic Beach Country Club, and Beach Avenue homes. Call (904) 606-5313.",
-  keywords: ["roofing atlantic beach fl", "roofing company atlantic beach fl", "roof repair atlantic beach", "selva marina roofers", "atlantic beach country club roofing", "beach avenue roof replacement"],
   alternates: { canonical: "https://www.gimosroofing.com/roofing-atlantic-beach-fl" },
 }
 
@@ -35,38 +34,20 @@ const faqs = [
   { question: "How often should I inspect my Atlantic Beach roof?", answer: "Twice a year minimum for any home in 32233 — once in early spring before hurricane season, once in November after the last named storm. Salt damage and storm wear show up gradually, and what looks fine from the ground is often hiding corroded flashing or lifted shingles up close. We check four things specifically on Atlantic Beach roofs: the windward east-facing shingle slopes for granule loss and lifting (this is where salt and wind damage shows up first), every metal fastener and flashing for salt corrosion, the ridge cap for wind uplift damage, and the chimney and skylight flashing on the older Selva Marina and Royal Palms homes. For homes in Atlantic Beach Country Club we also check the tile for cracks and slippage. Inspections are free for past customers and reduced-rate for new clients. Call (904) 606-5313 to schedule." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "@id": "https://www.gimosroofing.com/#localbusiness",
-  "name": "Gimo's Roofing",
-  "url": "https://www.gimosroofing.com/roofing-atlantic-beach-fl",
-  "telephone": "+19046065313",
-  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
-    "addressLocality": "Jacksonville",
-    "addressRegion": "FL",
-    "postalCode": "32206",
-    "addressCountry": "US"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "priceRange": "$$",
+  "@type": "Service",
+  "name": "Roofing Services in Atlantic Beach, FL",
+  "serviceType": "Roofing Contractor",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": {
     "@type": "City",
-    "name": "Atlantic Beach",
+    "name": "Atlantic Beach, FL",
     "sameAs": [
       "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida"
     ]
   },
+  "url": "https://www.gimosroofing.com/roofing-atlantic-beach-fl",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Roofing Services in Atlantic Beach, FL",
@@ -94,6 +75,8 @@ const schemaData = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/roofing-atlantic-beach-fl",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -110,7 +93,7 @@ const breadcrumbSchema = {
 export default function AtlanticBeachPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -144,7 +127,7 @@ export default function AtlanticBeachPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
           </div>
         </div>

@@ -6,7 +6,6 @@ import FAQ from '@/components/FAQ'
 export const metadata: Metadata = {
   title: "Roofing Ponte Vedra Beach FL - Luxury Home Roof Repair & Replacement",
   description: "Roofing in Ponte Vedra Beach FL. TPC Sawgrass, Marsh Landing & luxury home roofing specialists. HOA-compliant materials. Call (904) 606-5313 for free estimate.",
-  keywords: ["roofing ponte vedra beach fl", "roofing company ponte vedra beach fl", "roof repair ponte vedra", "TPC sawgrass roofing", "luxury home roofing", "marsh landing roofers"],
   alternates: { canonical: "https://www.gimosroofing.com/roofing-ponte-vedra-beach-fl" },
 }
 
@@ -37,38 +36,20 @@ const faqs = [
   { question: "Do you provide 24/7 emergency response in Ponte Vedra Beach?", answer: "Yes. After every named storm we run dedicated crews into 32082 and 32081 — Marsh Landing, Sawgrass, The Plantation, the A1A oceanfront stretches, and the Palm Valley side — and we're typically on-site within a few hours of a call. The most common emergency calls in Ponte Vedra are slipped or shattered ridge cap tiles, broken concrete S-tile from flying debris, water intrusion through chimney flashing on the larger Marsh Landing homes, and full-tarp jobs after live oak limbs come through the deck. We carry stock of the most common Eagle and Boral tile profiles on the truck so we can lock the roof down properly instead of just throwing a tarp. We also handle the insurance documentation in real time — photos, written scope, and the OIR-B1-1802 — so your claim moves the same week. Call (904) 606-5313." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "@id": "https://www.gimosroofing.com/#localbusiness",
-  "name": "Gimo's Roofing",
-  "url": "https://www.gimosroofing.com/roofing-ponte-vedra-beach-fl",
-  "telephone": "+19046065313",
-  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
-    "addressLocality": "Jacksonville",
-    "addressRegion": "FL",
-    "postalCode": "32206",
-    "addressCountry": "US"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "priceRange": "$$",
+  "@type": "Service",
+  "name": "Roofing Services in Ponte Vedra Beach, FL",
+  "serviceType": "Roofing Contractor",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": {
     "@type": "City",
-    "name": "Ponte Vedra Beach",
+    "name": "Ponte Vedra Beach, FL",
     "sameAs": [
       "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida"
     ]
   },
+  "url": "https://www.gimosroofing.com/roofing-ponte-vedra-beach-fl",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Roofing Services in Ponte Vedra Beach, FL",
@@ -96,6 +77,8 @@ const schemaData = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/roofing-ponte-vedra-beach-fl",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -112,7 +95,7 @@ const breadcrumbSchema = {
 export default function PonteVedraBeachPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -146,7 +129,7 @@ export default function PonteVedraBeachPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
           </div>
         </div>
@@ -204,7 +187,7 @@ export default function PonteVedraBeachPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Common Roofing Concerns in Ponte Vedra Beach</h2>
           <p className="text-gray-600 mb-6">
-            Working with {location} homeowners for over 15 years, we consistently address these four roofing challenges unique to the area&apos;s luxury communities:
+            Working with {location} homeowners for over 24 years, we consistently address these four roofing challenges unique to the area&apos;s luxury communities:
           </p>
           <div className="grid sm:grid-cols-2 gap-4 mb-6">
             <div className="bg-gray-50 p-5 rounded-lg">

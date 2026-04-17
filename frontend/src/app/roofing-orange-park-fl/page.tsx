@@ -6,7 +6,6 @@ import FAQ from '@/components/FAQ'
 export const metadata: Metadata = {
   title: "Roofing Orange Park FL - Affordable Roof Repair & Replacement",
   description: "Roofing in Orange Park FL. Clay County's trusted roofers. Affordable roof repair & replacement for Orange Park & Fleming Island. Call (904) 606-5313.",
-  keywords: ["roofing orange park fl", "roofing company orange park fl", "roof repair orange park", "clay county roofers", "orange park roof replacement", "fleming island roofing"],
   alternates: { canonical: "https://www.gimosroofing.com/roofing-orange-park-fl" },
 }
 
@@ -35,38 +34,20 @@ const faqs = [
   { question: "What should I do immediately after storm damage to my Orange Park roof?", answer: "Four steps, in order. First: don't go on the roof yourself — wet shingles, hidden structural damage, and downed power lines kill people every year after storms in Clay County. Second: photograph everything you can see from the ground and from inside the attic, including any water staining, displaced shingles, or debris. Third: call us at (904) 606-5313 for a free emergency inspection — we run 24/7 storm response throughout Clay County and we're typically on-site within a few hours of a call. We bring tarps and emergency plywood to lock the roof down so you stop water damage to the interior. Fourth: file your insurance claim, but don't sign anything from a door-knocking 'storm chaser' contractor — they're predatory, and many of them disappear after collecting your insurance check. We handle the claim documentation for you as part of the job." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "@id": "https://www.gimosroofing.com/#localbusiness",
-  "name": "Gimo's Roofing",
-  "url": "https://www.gimosroofing.com/roofing-orange-park-fl",
-  "telephone": "+19046065313",
-  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
-    "addressLocality": "Jacksonville",
-    "addressRegion": "FL",
-    "postalCode": "32206",
-    "addressCountry": "US"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "priceRange": "$$",
+  "@type": "Service",
+  "name": "Roofing Services in Orange Park, FL",
+  "serviceType": "Roofing Contractor",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": {
     "@type": "City",
-    "name": "Orange Park",
+    "name": "Orange Park, FL",
     "sameAs": [
       "https://en.wikipedia.org/wiki/Orange_Park,_Florida"
     ]
   },
+  "url": "https://www.gimosroofing.com/roofing-orange-park-fl",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Roofing Services in Orange Park, FL",
@@ -94,6 +75,8 @@ const schemaData = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/roofing-orange-park-fl",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -110,7 +93,7 @@ const breadcrumbSchema = {
 export default function OrangeParkPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -144,7 +127,7 @@ export default function OrangeParkPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
           </div>
         </div>

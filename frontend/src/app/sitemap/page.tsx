@@ -25,15 +25,19 @@ const servicePages = [
   { title: "Commercial Roofing", href: "/services/commercial-roofing" },
   { title: "Siding Installation", href: "/services/siding-installation" },
   { title: "Siding Repair", href: "/services/siding-repair" },
+  { title: "Roof Financing Florida", href: "/roof-financing-florida" },
 ]
 
 const locationPages = [
+  { title: "Jacksonville", href: "/roofing-jacksonville-fl" },
   { title: "Jacksonville Beach", href: "/roofing-jacksonville-beach-fl" },
+  { title: "Atlantic Beach", href: "/roofing-atlantic-beach-fl" },
+  { title: "Neptune Beach", href: "/roofing-neptune-beach-fl" },
   { title: "Ponte Vedra Beach", href: "/roofing-ponte-vedra-beach-fl" },
+  { title: "Nocatee", href: "/roofing-nocatee-fl" },
   { title: "St. Augustine", href: "/roofing-st-augustine-fl" },
   { title: "Orange Park", href: "/roofing-orange-park-fl" },
   { title: "Fernandina Beach", href: "/roofing-fernandina-beach-fl" },
-  { title: "Nocatee", href: "/roofing-nocatee-fl" },
   { title: "Riverside", href: "/roofing-riverside-fl" },
   { title: "San Marco", href: "/roofing-san-marco-fl" },
   { title: "Mandarin", href: "/roofing-mandarin-fl" },

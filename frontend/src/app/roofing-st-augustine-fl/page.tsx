@@ -6,7 +6,6 @@ import FAQ from '@/components/FAQ'
 export const metadata: Metadata = {
   title: "Roofing St Augustine FL - Historic & Coastal Roof Repair & Replacement",
   description: "Roofing in St Augustine FL. Historic home specialists & coastal roof repair. Anastasia Island, Davis Shores & downtown. Call (904) 606-5313 for free estimate.",
-  keywords: ["roofing st augustine fl", "roofing company st augustine fl", "roof repair st augustine", "historic home roofing", "anastasia island roofers", "st augustine roof replacement"],
   alternates: { canonical: "https://www.gimosroofing.com/roofing-st-augustine-fl" },
 }
 
@@ -35,38 +34,20 @@ const faqs = [
   { question: "Do you provide 24/7 emergency roof repair after storms in St. Augustine?", answer: "Yes — and we run dedicated crews into St. Johns County after every named storm. After Hurricane Matthew, Hurricane Irma, Hurricane Ian, and Hurricane Nicole, we worked St. Augustine for weeks. The most common emergency calls are wind-stripped shingles on the Anastasia Island east-facing slopes, slipped barrel tiles on the historic Davis Shores and downtown Mediterranean homes, fallen branches through the deck on the heavily-canopied Lincolnville and Palencia properties, and water intrusion through chimney flashing on the older 19th-century homes. We carry tarps, plywood for emergency deck patches, salvage barrel tile for the Davis Shores repairs, and stock architectural shingle in the most common St. Augustine colors. We're typically on-site within a few hours of a call, and we handle the insurance documentation as we go. Call (904) 606-5313." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "@id": "https://www.gimosroofing.com/#localbusiness",
-  "name": "Gimo's Roofing",
-  "url": "https://www.gimosroofing.com/roofing-st-augustine-fl",
-  "telephone": "+19046065313",
-  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
-    "addressLocality": "Jacksonville",
-    "addressRegion": "FL",
-    "postalCode": "32206",
-    "addressCountry": "US"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "priceRange": "$$",
+  "@type": "Service",
+  "name": "Roofing Services in St. Augustine, FL",
+  "serviceType": "Roofing Contractor",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": {
     "@type": "City",
-    "name": "St. Augustine",
+    "name": "St. Augustine, FL",
     "sameAs": [
       "https://en.wikipedia.org/wiki/St._Augustine,_Florida"
     ]
   },
+  "url": "https://www.gimosroofing.com/roofing-st-augustine-fl",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Roofing Services in St. Augustine, FL",
@@ -94,6 +75,8 @@ const schemaData = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/roofing-st-augustine-fl",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -110,7 +93,7 @@ const breadcrumbSchema = {
 export default function StAugustinePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -144,7 +127,7 @@ export default function StAugustinePage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
           </div>
         </div>

@@ -35,7 +35,6 @@ const nextConfig = {
       { source: '/blog/metal-roofing-jacksonville-florida', destination: '/blog/benefits-metal-roofing-florida', permanent: true },
 
       // Non-existent location pages
-      { source: '/roofing-jacksonville-fl', destination: '/service-areas', permanent: true },
       { source: '/roofing-julington-creek-fl', destination: '/roofing-nocatee-fl', permanent: true },
     ]
   },

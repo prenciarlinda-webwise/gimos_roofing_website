@@ -4,13 +4,22 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Commercial Roofing Jacksonville FL - Local Contractors",
-  description: "Local commercial roofing company in Jacksonville FL. TPO, flat roof, metal. Installation, repair & maintenance. Free estimates: (904) 606-5313.",
-  keywords: ["commercial roofing jacksonville fl", "local commercial roofing company", "commercial roofing maintenance", "commercial roofing contractors jacksonville fl", "jacksonville commercial roofing", "commercial roofers jacksonville fl"],
+  title: { absolute: "Commercial Roofing in Jacksonville FL - Gimo's Roofing" },
+  description: "Commercial roofing in Jacksonville FL from Gimo's Roofing. TPO, EPDM, metal, and modified bitumen installation, repair, and maintenance for local businesses. Call (904) 606-5313.",
+  openGraph: {
+    title: "Commercial Roofing in Jacksonville FL - Gimo's Roofing",
+    description: "Local commercial roofing contractors in Jacksonville FL. TPO, EPDM, metal, and flat roof systems for businesses. Call (904) 606-5313.",
+    url: "https://www.gimosroofing.com/services/commercial-roofing",
+  },
   alternates: { canonical: "https://www.gimosroofing.com/services/commercial-roofing" },
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
+const phone = "(904) 606-5313"
+
+const StarIcon = () => (
+  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+)
 
 const roofingSystems = [
   { name: "TPO Roofing", description: "Single-ply membrane that reflects UV rays and reduces cooling costs. Excellent for Jacksonville's hot climate.", benefits: ["Energy efficient", "UV resistant", "Cost-effective", "Easy maintenance"] },
@@ -20,6 +29,27 @@ const roofingSystems = [
 ]
 
 const industries = ["Retail Stores", "Office Buildings", "Warehouses", "Restaurants", "Medical Facilities", "Churches", "Schools", "Industrial Buildings"]
+
+const serviceAreas = [
+  { name: "Jacksonville", slug: "roofing-jacksonville-fl", county: "Duval" },
+  { name: "Jacksonville Beach", slug: "roofing-jacksonville-beach-fl", county: "Duval" },
+  { name: "Atlantic Beach", slug: "roofing-atlantic-beach-fl", county: "Duval" },
+  { name: "Neptune Beach", slug: "roofing-neptune-beach-fl", county: "Duval" },
+  { name: "Riverside", slug: "roofing-riverside-fl", county: "Duval" },
+  { name: "San Marco", slug: "roofing-san-marco-fl", county: "Duval" },
+  { name: "Mandarin", slug: "roofing-mandarin-fl", county: "Duval" },
+  { name: "Southside", slug: "roofing-southside-jax-fl", county: "Duval" },
+  { name: "St. Augustine", slug: "roofing-st-augustine-fl", county: "St. Johns" },
+  { name: "Ponte Vedra Beach", slug: "roofing-ponte-vedra-beach-fl", county: "St. Johns" },
+  { name: "Nocatee", slug: "roofing-nocatee-fl", county: "St. Johns" },
+  { name: "Orange Park", slug: "roofing-orange-park-fl", county: "Clay" },
+  { name: "Fernandina Beach", slug: "roofing-fernandina-beach-fl", county: "Nassau" }
+]
+
+const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAreas>>((acc, area) => {
+  (acc[area.county] = acc[area.county] || []).push(area)
+  return acc
+}, {})
 
 const faqs = [
   { question: "Do you work on large commercial buildings?", answer: "Yes, we handle commercial roofing projects of all sizes, from small retail spaces to large warehouses and industrial facilities throughout Jacksonville." },
@@ -36,46 +66,43 @@ const faqs = [
   { question: "Can you help with roof-related insurance claims?", answer: "Yes, we assist with storm damage documentation, insurance estimates, and adjuster meetings for commercial properties. We've helped many Jacksonville businesses navigate the claims process successfully." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Commercial Roofing Jacksonville FL",
-  "description": "Professional commercial roofing services in Jacksonville, Florida. TPO, EPDM, metal roofing and more for businesses.",
+  "name": "Commercial Roofing in Jacksonville FL",
+  "serviceType": "Commercial Roofing",
+  "description": "Commercial roofing in Jacksonville FL for TPO, EPDM, metal, and modified bitumen systems. Installation, repair, and maintenance across Duval, St. Johns, Clay, and Nassau counties.",
   "url": "https://www.gimosroofing.com/services/commercial-roofing",
-  "provider": {
-    "@type": "RoofingContractor",
-    "name": "Gimo's Roofing",
-    "telephone": "+1-904-606-5313",
-    "url": "https://www.gimosroofing.com",
-    "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "33 24th Street East",
-      "addressLocality": "Jacksonville",
-      "addressRegion": "FL",
-      "postalCode": "32206",
-      "addressCountry": "US"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "81",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "priceRange": "$$"
-  },
-  "areaServed": {
-    "@type": "City",
-    "name": "Jacksonville",
-    "addressRegion": "FL"
-  },
-  "serviceType": "Commercial Roofing"
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
+  "areaServed": [
+    { "@type": "City", "name": "Jacksonville, FL" },
+    { "@type": "City", "name": "Jacksonville Beach, FL" },
+    { "@type": "City", "name": "Atlantic Beach, FL" },
+    { "@type": "City", "name": "Neptune Beach, FL" },
+    { "@type": "City", "name": "St. Augustine, FL" },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL" },
+    { "@type": "City", "name": "Nocatee, FL" },
+    { "@type": "City", "name": "Orange Park, FL" },
+    { "@type": "City", "name": "Fernandina Beach, FL" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Commercial Roofing Options",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "TPO Roofing Installation", "description": "Heat-welded single-ply TPO membrane installation for commercial buildings." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "EPDM Roofing Installation", "description": "Durable EPDM rubber membrane installation for flat and low-slope commercial roofs." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Metal Roofing", "description": "Standing seam and metal panel roofing for sloped commercial buildings with hurricane-rated performance." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Modified Bitumen Roofing", "description": "Multi-ply modified bitumen installation for buildings with rooftop equipment and foot traffic." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roof Maintenance", "description": "Scheduled semi-annual inspections and maintenance to extend commercial roof life." } }
+    ]
+  }
 }
 
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/services/commercial-roofing",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -92,7 +119,7 @@ const breadcrumbSchema = {
 export default function CommercialRoofingPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -108,17 +135,54 @@ export default function CommercialRoofingPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Commercial Roofing</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Commercial Roofing Jacksonville FL - Local Contractors</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Commercial Roofing in Jacksonville FL - Local Contractors</h1>
               <p className="text-lg text-gray-200 mb-6">
-                Local commercial roofing company serving Jacksonville businesses. TPO, EPDM, metal roofing. Installation, repair, and maintenance contracts.
+                Need a commercial roofer nearby? Gimo&apos;s Roofing serves businesses across Duval, St. Johns, Clay, and Nassau counties with TPO, EPDM, metal, and modified bitumen roofing. Installation, repair, and long-term maintenance contracts available.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-full sm:w-auto">Get Free Estimate</a>
-                <a href="tel:+19046065313" className="btn bg-white text-secondary hover:bg-gray-100 w-full sm:w-auto">(904) 606-5313</a>
+                <a href="tel:+19046065313" className="btn bg-white text-secondary hover:bg-gray-100 w-full sm:w-auto">{phone}</a>
               </div>
             </div>
-            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/commercial-roofing-services.webp" alt="Commercial roofing in Jacksonville FL" title="Commercial roofing in Jacksonville FL" fill className="object-cover" />
+            <div className="space-y-3">
+              <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+                <Image src="/images/commercial-roofing-services.webp" alt="Commercial roofing in Jacksonville FL" title="Commercial roofing in Jacksonville FL" fill className="object-cover" priority />
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                <div className="rounded-xl aspect-[4/3] overflow-hidden shadow-lg relative">
+                  <Image src="/images/jacksonville-commercial-roofing.webp" alt="Jacksonville commercial roofing project" title="Jacksonville commercial roofing project" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" />
+                </div>
+                <div className="rounded-xl aspect-[4/3] overflow-hidden shadow-lg relative">
+                  <Image src="/images/flat-metal-roof-installation.webp" alt="Flat metal commercial roof installation" title="Flat metal commercial roof installation in Jacksonville" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Review Ribbon */}
+      <section className="bg-white border-b border-gray-200 py-4">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
+            <div className="flex items-center gap-3">
+              <span className="text-sm font-semibold text-secondary">FL License #CCC1332453</span>
+              <span className="text-gray-300">|</span>
+              <div className="flex text-primary">
+                <StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarIcon />
+              </div>
+              <span className="text-sm font-semibold text-secondary">5-Star Rated by Jacksonville Businesses</span>
+            </div>
+            <div className="flex items-center gap-6">
+              <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" title="View Gimo's Roofing Google Reviews">
+                <Image src="/google-logo.png" alt="Read Gimo's Roofing reviews on Google" title="Google Reviews" width={80} height={28} className="h-7 w-auto object-contain" />
+              </a>
+              <a href="https://www.yelp.com/biz/gimos-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
+                <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
+              </a>
+              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+                <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
+              </a>
             </div>
           </div>
         </div>
@@ -128,12 +192,12 @@ export default function CommercialRoofingPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Commercial Roofing Systems</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">We install and maintain a variety of commercial roofing systems to meet your building&apos;s needs.</p>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Commercial Roofing Systems We Install</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">Gimo&apos;s Roofing delivers commercial roofing in Jacksonville FL tailored to your building type, budget, and long-term goals. Our crews install and maintain every major flat and low-slope commercial roofing system used across Northeast Florida.</p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {roofingSystems.map((system) => (
-              <div key={system.name} className="bg-white rounded-xl shadow-md p-6">
+              <div key={system.name} className="card p-6">
                 <h3 className="text-xl font-bold text-secondary mb-2">{system.name}</h3>
                 <p className="text-gray-600 text-sm mb-4">{system.description}</p>
                 <div className="flex flex-wrap gap-2">
@@ -152,20 +216,20 @@ export default function CommercialRoofingPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Commercial Roofing Systems In-Depth</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">Understanding the differences between commercial roofing systems helps you make the best choice for your building.</p>
+            <p className="text-gray-600 max-w-3xl mx-auto">Understanding the differences between commercial roofing systems helps you make the best choice for your building. Compare two of the most popular options in our <Link href="/blog/tpo-vs-epdm-roofing-florida" className="text-primary hover:underline">TPO vs EPDM roofing guide</Link>.</p>
           </div>
 
           <div className="space-y-8">
             {/* TPO */}
-            <div className="bg-white rounded-xl shadow-md p-8">
+            <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
                   <h3 className="text-xl font-bold text-secondary mb-3">TPO (Thermoplastic Polyolefin)</h3>
-                  <p className="text-gray-600 mb-4">TPO is the fastest-growing commercial roofing membrane in the U.S. This single-ply membrane combines the benefits of EPDM rubber and PVC roofing while avoiding their drawbacks. TPO reflects UV rays, keeping buildings cooler and reducing energy costs - especially valuable in Jacksonville&apos;s hot climate.</p>
-                  <p className="text-gray-600 mb-4">TPO seams are heat-welded, creating a watertight bond stronger than the membrane itself. This eliminates the adhesive failures common with other systems. We install TPO in white, tan, and gray, with white providing the best energy performance. Typical warranties range from 15-30 years.</p>
+                  <p className="text-gray-600 mb-4">TPO is the fastest-growing commercial roofing membrane in the U.S. This single-ply membrane combines the benefits of EPDM rubber and PVC roofing while avoiding their drawbacks. TPO reflects UV rays, keeping buildings cooler and reducing energy costs, which is especially valuable in Jacksonville&apos;s hot climate.</p>
+                  <p className="text-gray-600 mb-4">TPO seams are heat-welded, creating a watertight bond stronger than the membrane itself. This eliminates the adhesive failures common with other systems. As a full-service <Link href="/" className="text-primary hover:underline">Jacksonville roofing company</Link>, we install TPO in white, tan, and gray, with white providing the best energy performance. Typical warranties range from 15-30 years.</p>
                   <p className="text-gray-600"><strong>Typical cost:</strong> $5-8 per square foot installed. Ideal for buildings under 5 stories.</p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-6">
+                <div className="card p-6">
                   <h4 className="font-bold text-secondary mb-3">Best For</h4>
                   <ul className="text-gray-600 text-sm space-y-2">
                     <li>&#8226; Retail buildings</li>
@@ -179,7 +243,7 @@ export default function CommercialRoofingPage() {
             </div>
 
             {/* EPDM */}
-            <div className="bg-white rounded-xl shadow-md p-8">
+            <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
                   <h3 className="text-xl font-bold text-secondary mb-3">EPDM (Ethylene Propylene Diene Monomer)</h3>
@@ -187,7 +251,7 @@ export default function CommercialRoofingPage() {
                   <p className="text-gray-600 mb-4">EPDM can be installed fully adhered, mechanically attached, or ballasted. Seams are joined with adhesive or tape. While reliable, EPDM seams require periodic inspection and maintenance. The system handles ponding water well, making it suitable for flat roofs with drainage challenges.</p>
                   <p className="text-gray-600"><strong>Typical cost:</strong> $5-7 per square foot installed. Excellent for budget-conscious building owners.</p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-6">
+                <div className="card p-6">
                   <h4 className="font-bold text-secondary mb-3">Best For</h4>
                   <ul className="text-gray-600 text-sm space-y-2">
                     <li>&#8226; Warehouses</li>
@@ -201,15 +265,15 @@ export default function CommercialRoofingPage() {
             </div>
 
             {/* Metal */}
-            <div className="bg-white rounded-xl shadow-md p-8">
+            <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
                   <h3 className="text-xl font-bold text-secondary mb-3">Commercial Metal Roofing</h3>
                   <p className="text-gray-600 mb-4">Metal roofing offers unmatched durability and hurricane performance for commercial buildings. Standing seam systems with concealed fasteners provide the best long-term performance, rated for winds exceeding 180 mph. Metal is ideal for sloped commercial roofs and buildings requiring maximum storm protection.</p>
-                  <p className="text-gray-600 mb-4">We install steel, aluminum, and zinc metal roofing systems. Steel is most economical; aluminum resists corrosion for coastal locations. Metal roofs reflect heat, reducing cooling costs, and last 40-70 years with minimal maintenance. They&apos;re also 100% recyclable at end of life.</p>
+                  <p className="text-gray-600 mb-4">We install steel, aluminum, and zinc metal roofing systems. Steel is most economical, and aluminum resists corrosion for coastal locations. Metal roofs reflect heat, reducing cooling costs, and last 40-70 years with minimal maintenance. They&apos;re also 100% recyclable at end of life.</p>
                   <p className="text-gray-600"><strong>Typical cost:</strong> $8-15 per square foot installed depending on panel type and material.</p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-6">
+                <div className="card p-6">
                   <h4 className="font-bold text-secondary mb-3">Best For</h4>
                   <ul className="text-gray-600 text-sm space-y-2">
                     <li>&#8226; Churches</li>
@@ -223,7 +287,7 @@ export default function CommercialRoofingPage() {
             </div>
 
             {/* Modified Bitumen */}
-            <div className="bg-white rounded-xl shadow-md p-8">
+            <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
                   <h3 className="text-xl font-bold text-secondary mb-3">Modified Bitumen</h3>
@@ -231,7 +295,7 @@ export default function CommercialRoofingPage() {
                   <p className="text-gray-600 mb-4">We install modified bitumen using torch-applied, cold-adhesive, or self-adhering methods. Multi-ply systems provide redundant waterproofing protection. Reflective coatings can be added to improve energy efficiency. Modified bitumen is well-suited for buildings requiring regular roof access for equipment maintenance.</p>
                   <p className="text-gray-600"><strong>Typical cost:</strong> $6-10 per square foot installed for 2-3 ply systems.</p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-6">
+                <div className="card p-6">
                   <h4 className="font-bold text-secondary mb-3">Best For</h4>
                   <ul className="text-gray-600 text-sm space-y-2">
                     <li>&#8226; Buildings with rooftop equipment</li>
@@ -256,29 +320,29 @@ export default function CommercialRoofingPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-white rounded-xl shadow-md p-6">
+            <div className="card p-6">
               <h3 className="font-bold text-secondary mb-2">New Roof Installation</h3>
               <p className="text-gray-600 text-sm">Complete installation of TPO, EPDM, metal, and modified bitumen systems for new construction and re-roofing projects. We work with your timeline and budget.</p>
             </div>
-            <div className="bg-white rounded-xl shadow-md p-6">
+            <div className="card p-6">
               <h3 className="font-bold text-secondary mb-2">Roof Replacement</h3>
               <p className="text-gray-600 text-sm">Full tear-off and replacement of failing commercial roofs. We minimize business disruption with phased installation when needed.</p>
             </div>
-            <div className="bg-white rounded-xl shadow-md p-6">
+            <div className="card p-6">
               <h3 className="font-bold text-secondary mb-2">Roof Repairs</h3>
               <p className="text-gray-600 text-sm">Repair of leaks, punctures, membrane damage, and flashing failures. Emergency repairs available for active leaks.</p>
             </div>
-            <div className="bg-white rounded-xl shadow-md p-6">
+            <div className="card p-6">
               <h3 className="font-bold text-secondary mb-2">Roof Maintenance</h3>
               <p className="text-gray-600 text-sm">Scheduled inspection and maintenance programs to extend roof life and catch problems early. Customized plans for your building.</p>
             </div>
-            <div className="bg-white rounded-xl shadow-md p-6">
+            <div className="card p-6">
               <h3 className="font-bold text-secondary mb-2">Roof Coatings</h3>
               <p className="text-gray-600 text-sm">Reflective and protective coatings to extend roof life, improve energy efficiency, and restore aging membranes.</p>
             </div>
-            <div className="bg-white rounded-xl shadow-md p-6">
+            <div className="card p-6">
               <h3 className="font-bold text-secondary mb-2">Emergency Services</h3>
-              <p className="text-gray-600 text-sm">24/7 emergency response for storm damage and active leaks. Tarping, temporary repairs, and damage documentation for insurance.</p>
+              <p className="text-gray-600 text-sm">24/7 <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair in Jacksonville FL</Link> for storm damage and active leaks. Tarping, temporary repairs, and damage documentation for insurance.</p>
             </div>
           </div>
         </div>
@@ -325,7 +389,7 @@ export default function CommercialRoofingPage() {
                     <span className="text-primary font-bold">4</span>
                   </div>
                   <div>
-                    <h3 className="font-bold text-secondary">Proper Insurance & Licensing</h3>
+                    <h3 className="font-bold text-secondary">Proper Insurance &amp; Licensing</h3>
                     <p className="text-gray-600 text-sm">Fully licensed, bonded, and insured for commercial work. We provide certificates of insurance to your property manager.</p>
                   </div>
                 </div>
@@ -351,7 +415,7 @@ export default function CommercialRoofingPage() {
       </section>
 
       {/* Industries */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -359,7 +423,7 @@ export default function CommercialRoofingPage() {
               <p className="text-gray-600 mb-8">We provide commercial roofing services to a wide range of businesses.</p>
               <div className="grid grid-cols-2 gap-4">
                 {industries.map((industry) => (
-                  <div key={industry} className="bg-white rounded-lg p-4 text-center shadow-sm">
+                  <div key={industry} className="card p-4 text-center">
                     <span className="text-secondary font-medium">{industry}</span>
                   </div>
                 ))}
@@ -372,11 +436,38 @@ export default function CommercialRoofingPage() {
         </div>
       </section>
 
+      {/* Service Areas */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Commercial Roofing Service Areas in Northeast Florida</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              We serve commercial clients throughout Duval, St. Johns, Clay, and Nassau counties.
+            </p>
+          </div>
+          <div className="space-y-8">
+            {Object.entries(serviceAreasByCounty).map(([county, areas]) => (
+              <div key={county}>
+                <h3 className="text-lg md:text-xl font-bold text-primary mb-4 text-center md:text-left">{county} County</h3>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                  {areas.map((area) => (
+                    <Link key={area.slug} href={`/${area.slug}`} title={`Commercial Roofing in ${area.name}, FL`} className="group card hover:bg-primary p-4 text-center">
+                      <span className="block text-sm font-semibold text-secondary group-hover:text-secondary">{area.name}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Frequently Asked Questions</h2>
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Gimo&apos;s Roofing Answers</span>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Commercial Roofing FAQ</h2>
           </div>
           <FAQ faqs={faqs} />
         </div>
@@ -390,27 +481,27 @@ export default function CommercialRoofingPage() {
             <p className="text-gray-600 max-w-2xl mx-auto">Learn more about commercial roofing options, maintenance, and flat roof systems.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Link href="/blog/commercial-roofing-types-florida" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/blog/commercial-roofing-types-florida" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Commercial Roofing Types Guide</h3>
               <p className="text-gray-600 text-sm">Compare TPO, EPDM, metal, and other commercial roofing systems for Florida businesses.</p>
             </Link>
-            <Link href="/blog/flat-roof-options-florida" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/blog/flat-roof-options-florida" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Flat Roof Options for Florida</h3>
               <p className="text-gray-600 text-sm">Complete guide to flat roofing systems and which works best for your commercial building.</p>
             </Link>
-            <Link href="/blog/tpo-vs-epdm-roofing-florida" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/blog/tpo-vs-epdm-roofing-florida" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">TPO vs EPDM Roofing</h3>
               <p className="text-gray-600 text-sm">Detailed comparison of the two most popular commercial roofing membranes.</p>
             </Link>
-            <Link href="/blog/roof-coating-options-florida" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/blog/roof-coating-options-florida" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roof Coating Options</h3>
               <p className="text-gray-600 text-sm">Extend your commercial roof&apos;s life with protective coatings and cool roof systems.</p>
             </Link>
-            <Link href="/blog/roof-drainage-systems-florida" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/blog/roof-drainage-systems-florida" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Commercial Roof Drainage</h3>
               <p className="text-gray-600 text-sm">Proper drainage is critical for flat roofs. Learn about scuppers, drains, and gutters.</p>
             </Link>
-            <Link href="/service-areas" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/service-areas" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Service Areas</h3>
               <p className="text-gray-600 text-sm">We provide commercial roofing throughout Jacksonville and Northeast Florida.</p>
             </Link>
@@ -425,7 +516,7 @@ export default function CommercialRoofingPage() {
           <p className="text-secondary/80 mb-6">Get a free estimate for your commercial roofing project today.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn bg-secondary text-white hover:bg-secondary/90">Get Your Free Estimate</a>
-            <a href="tel:+19046065313" className="btn bg-white text-secondary hover:bg-gray-100">Call (904) 606-5313</a>
+            <a href="tel:+19046065313" className="btn bg-white text-secondary hover:bg-gray-100">Call {phone}</a>
           </div>
         </div>
       </section>

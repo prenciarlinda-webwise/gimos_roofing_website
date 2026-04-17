@@ -2,9 +2,6 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
-import dynamic from 'next/dynamic'
-
-const ProjectsMapCompact = dynamic(() => import('@/components/ProjectsMapCompact'), { ssr: false })
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
 
@@ -57,19 +54,6 @@ export default function GalleryClient() {
               Browse our gallery of completed roofing and siding projects throughout Jacksonville and Northeast Florida.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* Interactive Map Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Project Locations</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Click on a pin to see photos from our completed projects across Northeast Florida.
-            </p>
-          </div>
-          <ProjectsMapCompact />
         </div>
       </section>
 
@@ -128,53 +112,6 @@ export default function GalleryClient() {
               <p className="text-gray-500">No projects found in this category.</p>
             </div>
           )}
-        </div>
-      </section>
-
-      {/* Before/After Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Before & After</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              See the transformations we&apos;ve made for Jacksonville homeowners.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-xl shadow-md overflow-hidden">
-              <div className="grid grid-cols-2">
-                <div className="aspect-square overflow-hidden relative">
-                  <Image src="/images/roof-replacement-debris-removal.webp" alt="Roof before replacement in Mandarin Jacksonville FL" title="Before - Roof Replacement Mandarin Jacksonville" fill className="object-cover" />
-                  <span className="absolute bottom-2 left-2 bg-secondary/80 text-white text-xs px-2 py-1 rounded">Before</span>
-                </div>
-                <div className="aspect-square overflow-hidden relative">
-                  <Image src="/images/completed-roof-project-jacksonville.webp" alt="Completed roof replacement in Mandarin Jacksonville FL" title="After - Roof Replacement Mandarin Jacksonville" fill className="object-cover" />
-                  <span className="absolute bottom-2 left-2 bg-primary text-secondary text-xs px-2 py-1 rounded font-semibold">After</span>
-                </div>
-              </div>
-              <div className="p-4">
-                <h3 className="font-bold text-secondary">Complete Roof Replacement</h3>
-                <p className="text-gray-600 text-sm">Mandarin, Jacksonville</p>
-              </div>
-            </div>
-            <div className="bg-white rounded-xl shadow-md overflow-hidden">
-              <div className="grid grid-cols-2">
-                <div className="aspect-square overflow-hidden relative">
-                  <Image src="/images/siding-project-closeup.webp" alt="Siding before installation in St. Augustine FL" title="Before - Siding Installation St. Augustine" fill className="object-cover" />
-                  <span className="absolute bottom-2 left-2 bg-secondary/80 text-white text-xs px-2 py-1 rounded">Before</span>
-                </div>
-                <div className="aspect-square overflow-hidden relative">
-                  <Image src="/images/siding-installation-jacksonville-home.webp" alt="New siding after installation in St. Augustine FL" title="After - Siding Installation St. Augustine" fill className="object-cover" />
-                  <span className="absolute bottom-2 left-2 bg-primary text-secondary text-xs px-2 py-1 rounded font-semibold">After</span>
-                </div>
-              </div>
-              <div className="p-4">
-                <h3 className="font-bold text-secondary">Siding Transformation</h3>
-                <p className="text-gray-600 text-sm">St. Augustine, FL</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 

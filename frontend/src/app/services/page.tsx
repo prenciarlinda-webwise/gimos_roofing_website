@@ -4,8 +4,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: "Roofing & Siding Services Jacksonville FL",
-  description: "Call (904) 606-5313 for professional roofing & siding services in Jacksonville FL. Roof repair, replacement, installation & siding. Free estimates.",
-  keywords: ["roofing services jacksonville fl", "roof repair jacksonville", "roof replacement jacksonville", "siding services jacksonville", "commercial roofing jacksonville", "residential roofing jacksonville"],
+  description: "Call (904) 606-5313 for professional roofing & siding services in Jacksonville FL. Roof repair, replacement, installation & siding. Free estimates.",
   alternates: { canonical: "https://www.gimosroofing.com/services" },
 }
 
@@ -71,11 +70,8 @@ const schemaData = {
       "@type": "Service",
       "name": service.title,
       "description": service.description,
-      "url": `https://gimosroofing.com/services/${service.slug}`,
-      "provider": {
-        "@type": "RoofingContractor",
-        "name": "Gimo's Roofing",
-      }
+      "url": `https://www.gimosroofing.com/services/${service.slug}`,
+      "provider": { "@id": "https://www.gimosroofing.com/#organization" }
     }
   }))
 }

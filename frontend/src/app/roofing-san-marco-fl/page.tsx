@@ -6,7 +6,6 @@ import FAQ from '@/components/FAQ'
 export const metadata: Metadata = {
   title: "Roofing San Marco Jacksonville FL - Mediterranean & Historic Roofs",
   description: "Roofing in San Marco Jacksonville FL. Mediterranean tile, barrel tile & historic home specialists. Roof repair & replacement. Call (904) 606-5313.",
-  keywords: ["roofing san marco jacksonville fl", "san marco roofers", "barrel tile roofing jacksonville", "mediterranean roof repair", "san marco roof replacement", "st nicholas roofing"],
   alternates: { canonical: "https://www.gimosroofing.com/roofing-san-marco-fl" },
 }
 
@@ -35,31 +34,12 @@ const faqs = [
   { question: "How often should I inspect my tile roof in San Marco?", answer: "Once a year for tile roofs in 32207, plus a walkthrough after any tropical system or storm with winds above 50 mph. We check four things specifically on San Marco homes: cracked or slipped barrel tiles (especially on the windward south and east slopes), the condition of the underlayment visible from the attic, every flat roof section behind parapets, and the flashing around chimneys and any decorative turret elements. We also check for live oak debris jamming the valleys — every San Marco home with a mature canopy has this problem, and a packed valley will flood the underlayment within one heavy rain. Inspections are free for past customers and we keep your prior inspection records on file so we can compare year over year. Call (904) 606-5313 to schedule." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "@id": "https://www.gimosroofing.com/#localbusiness",
-  "name": "Gimo's Roofing",
-  "url": "https://www.gimosroofing.com/roofing-san-marco-fl",
-  "telephone": "+19046065313",
-  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
-    "addressLocality": "Jacksonville",
-    "addressRegion": "FL",
-    "postalCode": "32206",
-    "addressCountry": "US"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "priceRange": "$$",
+  "@type": "Service",
+  "name": "Roofing Services in San Marco, Jacksonville FL",
+  "serviceType": "Roofing Contractor",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": {
     "@type": "Neighborhood",
     "name": "San Marco",
@@ -67,6 +47,7 @@ const schemaData = {
       "https://en.wikipedia.org/wiki/San_Marco,_Jacksonville"
     ]
   },
+  "url": "https://www.gimosroofing.com/roofing-san-marco-fl",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Roofing Services in San Marco, Jacksonville",
@@ -94,6 +75,8 @@ const schemaData = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/roofing-san-marco-fl",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -110,7 +93,7 @@ const breadcrumbSchema = {
 export default function SanMarcoPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -144,7 +127,7 @@ export default function SanMarcoPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
           </div>
         </div>

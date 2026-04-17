@@ -177,7 +177,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Need Help Choosing a Contractor?</h2>
 
-<p class="text-gray-600 mb-6">At Gimo's Roofing, we're fully licensed (CCC license), insured, and happy to provide verification. We've been serving Jacksonville homeowners for over 15 years and understand why trust matters.</p>
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we're fully licensed (Florida License #CCC1332453), insured, and happy to provide verification. We've been serving Jacksonville homeowners for over 24 years and understand why trust matters.</p>
 
 <p class="text-gray-600 mb-6">Whether you need a <a href="/services/roof-replacement" class="text-primary hover:underline">complete roof replacement</a>, <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a>, or just want an honest inspection, we're here to help. Call (904) 606-5313 for a free estimate from a contractor you can verify.</p>
 
@@ -418,7 +418,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ["questions to ask roofing contractor", "what to ask roofer", "roofing contractor questions", "hiring roofer checklist", "roofing estimate questions"],
     content: `<p class="text-lg text-gray-700 mb-6">Most people don't know the right questions to ask a roofing contractor, so they just look at the bottom number on the estimate. That's a mistake that costs Jacksonville homeowners thousands of dollars every year.</p>
 
-<p class="text-gray-600 mb-6">After 15+ years in the roofing business, I've seen what happens when homeowners hire the wrong contractor. I've also seen the relief on people's faces when they realize they asked the right questions and avoided disaster.</p>
+<p class="text-gray-600 mb-6">After 24 years in the roofing business, I've seen what happens when homeowners hire the wrong contractor. I've also seen the relief on people's faces when they realize they asked the right questions and avoided disaster.</p>
 
 <p class="text-gray-600 mb-6">Here are the 10 questions I wish every homeowner would ask during a roofing estimate,and what the answers should tell you.</p>
 
@@ -579,7 +579,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Get a No-Pressure Estimate</h2>
 
-<p class="text-gray-600 mb-6">At Gimo's Roofing, we welcome these questions, and we're happy to answer them in detail. We've been serving Jacksonville for over 15 years because we believe in doing things right.</p>
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we welcome these questions, and we're happy to answer them in detail. We've been serving Jacksonville for over 24 years because we believe in doing things right.</p>
 
 <p class="text-gray-600 mb-6">Whether you need a <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> or <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a>, we provide honest assessments and transparent pricing. Call (904) 606-5313 for a free estimate and put us to the test.</p>
 
@@ -1274,7 +1274,7 @@ export const blogPosts: BlogPost[] = [
     content: `<p class="text-lg text-gray-700 mb-6">You're lying in bed, scrolling through your phone, when you notice it: a yellowish-brown stain on the ceiling that definitely wasn't there before. Or maybe it was, and it's getting bigger.</p>
 
 <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 my-8">
-<p class="text-secondary font-bold mb-2">Quick Answer: Is It Mold or a Roof Leak?</p>
+<p class="text-secondary font-bold mb-2">Is It Mold or a Roof Leak?</p>
 <p class="text-gray-700">Yellow or brown ceiling stains are almost always caused by water, not mold itself. The discoloration comes from minerals left behind when water evaporates. The most common source in Jacksonville homes is a roof leak, followed by HVAC condensation or plumbing issues. However, if left wet, these areas can develop mold within 24-48 hours.</p>
 </div>
 
@@ -2442,7 +2442,7 @@ export const blogPosts: BlogPost[] = [
     content: `<p class="text-lg text-gray-700 mb-6">When you get a roofing quote, you see a total number. But what does that actually include? Understanding the labor component helps you evaluate quotes, compare contractors fairly, and know if you're getting a good deal,or getting overcharged.</p>
 
 <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 my-8">
-<p class="text-secondary font-bold mb-2">Quick Answer: Roofing Labor Cost Per Square</p>
+<p class="text-secondary font-bold mb-2">Roofing Labor Cost Per Square</p>
 <p class="text-gray-700">In Jacksonville, roofing labor typically costs $75-$150 per square (100 sq ft) for asphalt shingles, or $1.50-$3.00 per square foot of roof area. This is labor only,materials, permits, and disposal are additional. Complex roofs, steep pitches, and two-story homes cost more.</p>
 </div>
 
@@ -2588,7 +2588,7 @@ export const blogPosts: BlogPost[] = [
     content: `<p class="text-lg text-gray-700 mb-6">Your roof is 20 years old. It's not leaking. It looks fine from the ground. But suddenly your insurance company wants an inspection,or worse, they're threatening not to renew your policy. What's going on?</p>
 
 <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 my-8">
-<p class="text-secondary font-bold mb-2">Quick Answer: Insurance and 20-Year-Old Roofs</p>
+<p class="text-secondary font-bold mb-2">Insurance and 20-Year-Old Roofs</p>
 <p class="text-gray-700">Most Florida insurers will cover a 20-year-old roof for existing damage claims, but many require roof inspections for roofs over 15 years and may non-renew policies if the roof fails inspection. Some insurers have hard age limits of 15-20 years. If your roof passes a certified inspection showing 5+ years remaining life, most insurers will continue coverage.</p>
 </div>
 
@@ -3410,7 +3410,7 @@ export const blogPosts: BlogPost[] = [
     content: `<p class="text-lg font-semibold text-secondary mb-6">Architectural shingles are better than 3-tab for Jacksonville homes. They cost 20-30% more but last 5-7 years longer (15-20 years vs 12-15 years), offer higher wind ratings (130 mph vs 60-70 mph), and provide better curb appeal. For Florida's harsh climate and hurricane exposure, architectural shingles offer significantly better value despite the higher upfront cost.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
-<p class="font-bold text-secondary mb-2">Quick Answer: Architectural vs 3-Tab in Florida</p>
+<p class="font-bold text-secondary mb-2">Architectural vs 3-Tab in Florida</p>
 <table class="w-full text-sm">
 <tr><td class="py-1"><strong>Lifespan:</strong></td><td>Architectural 15-20 yrs | 3-Tab 12-15 yrs</td></tr>
 <tr><td class="py-1"><strong>Wind Rating:</strong></td><td>Architectural up to 130 mph | 3-Tab 60-70 mph</td></tr>
@@ -3606,7 +3606,7 @@ export const blogPosts: BlogPost[] = [
     content: `<p class="text-lg font-semibold text-secondary mb-6">Metal roofs cost 2-3 times more than asphalt shingles upfront ($15,000-$35,000 vs $7,900-$15,000) but last 3 times longer (40-60 years vs 15-20 years) and offer superior hurricane protection (150 mph vs 130 mph wind ratings). For Jacksonville homeowners planning to stay long-term, metal roofing often provides better lifetime value despite the higher initial investment.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
-<p class="font-bold text-secondary mb-2">Quick Answer: Metal vs Shingles in Florida</p>
+<p class="font-bold text-secondary mb-2">Metal vs Shingles in Florida</p>
 <table class="w-full text-sm">
 <tr><td class="py-1"><strong>Upfront Cost:</strong></td><td>Metal $15,000-$35,000 | Shingles $7,900-$15,000</td></tr>
 <tr><td class="py-1"><strong>Lifespan:</strong></td><td>Metal 40-60 years | Shingles 15-20 years</td></tr>
@@ -7916,7 +7916,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/storm-damage-roof-repair.webp",
     category: "Storm Damage",
     readTime: "13 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Hail Damage to Florida Roofs</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Hail Damage to Florida Roofs</h2>
 
 <p class="text-gray-600 mb-6"><strong>Hail damage appears as dents, cracks, or granule loss on roofing materials.</strong> On asphalt shingles, look for dark spots, exposed fiberglass mat, or soft spots when touched. Metal shows dents. Tile cracks or chips. Even small hail (1" diameter) can damage roofs, especially with high wind velocity. Most hail damage is covered by homeowner's insurance with standard deductible.</p>
 
@@ -8091,7 +8091,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/residential-roof-inspection-aerial.webp",
     category: "Roof Care",
     readTime: "12 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Roof Ventilation in Florida</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Ventilation in Florida</h2>
 
 <p class="text-gray-600 mb-6"><strong>Proper roof ventilation removes hot air and moisture from your attic, extending roof life and reducing energy costs.</strong> Florida homes need balanced intake (soffit vents) and exhaust (ridge/roof vents) ventilation. Poor ventilation leads to temperatures exceeding 150°F in attics, causing premature shingle failure, mold growth, and 30-40% higher cooling bills.</p>
 
@@ -8247,7 +8247,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/two-story-home-skylights-roof.webp",
     category: "Energy Efficiency",
     readTime: "11 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Attic Insulation in Florida</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Attic Insulation in Florida</h2>
 
 <p class="text-gray-600 mb-6"><strong>Florida homes need R-30 to R-60 attic insulation to meet energy code and optimize efficiency.</strong> Proper insulation keeps conditioned air in your home, reduces HVAC workload, and prevents moisture problems that can damage roofing. Most Florida homes are under-insulated, adding insulation typically pays for itself in 2-4 years through energy savings.</p>
 
@@ -8405,7 +8405,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/completed-roof-project-jacksonville.webp",
     category: "Roof Care",
     readTime: "12 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Gutters and Your Roof</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Gutters and Your Roof</h2>
 
 <p class="text-gray-600 mb-6"><strong>Gutters channel water away from your roof, fascia, foundation, and landscaping.</strong> In Florida's climate with 50+ inches of annual rainfall, properly sized and maintained gutters prevent water damage, soil erosion, and foundation problems. Most Florida homes need 6-inch K-style gutters with 3x4-inch downspouts to handle heavy rain events.</p>
 
@@ -8576,7 +8576,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/gray-shingle-roof-aerial-inspection.webp",
     category: "Roof Care",
     readTime: "11 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Roof Moss and Algae in Florida</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Moss and Algae in Florida</h2>
 
 <p class="text-gray-600 mb-6"><strong>Black streaks on Florida roofs are typically algae (Gloeocapsa magma), not mold or dirt.</strong> It's caused by algae feeding on limestone filler in shingles. While primarily cosmetic, algae retains moisture and can shorten roof life. Moss is less common in Florida but grows in shaded areas. Both can be treated with proper cleaning and prevented with zinc or copper strips.</p>
 
@@ -8743,7 +8743,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/two-story-home-skylights-roof.webp",
     category: "Roof Features",
     readTime: "13 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Solar Panels and Florida Roofs</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Solar Panels and Florida Roofs</h2>
 
 <p class="text-gray-600 mb-6"><strong>Your roof should have at least 10-15 years of remaining life before solar installation.</strong> Solar panels typically last 25-30 years, and removing them for roof replacement is expensive. Asphalt shingles, metal, and tile roofs all work for solar. Most installations don't void roof warranties if done properly, but damage from installation can void warranties.</p>
 
@@ -8923,7 +8923,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/brick-home-gray-shingle-roof.webp",
     category: "Roof Repair",
     readTime: "11 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Chimney Flashing Repair</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Chimney Flashing Repair</h2>
 
 <p class="text-gray-600 mb-6"><strong>Chimney flashing creates a waterproof seal where your chimney meets the roof.</strong> It consists of step flashing (metal pieces woven into shingles) and counter flashing (embedded in chimney mortar). Leaks typically occur when flashing separates from the chimney, mortar deteriorates, or improper installation allows water intrusion. Repairs range from $200-800 depending on extent.</p>
 
@@ -9079,7 +9079,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/roof-replacement-debris-removal.webp",
     category: "Roof Replacement",
     readTime: "12 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Roof Decking Replacement</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Decking Replacement</h2>
 
 <p class="text-gray-600 mb-6"><strong>Roof decking (sheathing) is the structural layer beneath shingles that everything attaches to.</strong> It needs replacement when water damage causes rot, delamination, or structural weakness. During roof replacement, expect 1-10% of decking to need replacement on average. Decking replacement typically costs $2-4 per square foot installed.</p>
 
@@ -9235,7 +9235,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/architectural-shingle-roof-aerial-view.webp",
     category: "Roofing Basics",
     readTime: "11 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Low-Slope vs Steep-Slope</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Low-Slope vs Steep-Slope</h2>
 
 <p class="text-gray-600 mb-6"><strong>Roof slope is measured as rise over run, how many inches the roof rises per 12 inches of horizontal distance.</strong> Low-slope (flat) roofs have less than 2:12 pitch and require membrane systems. Steep-slope roofs (3:12 and above) can use shingles, metal, or tile. The slope determines which roofing materials are appropriate.</p>
 
@@ -9405,7 +9405,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/residential-roofing-services-page.webp",
     category: "Roof Repair",
     readTime: "11 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Fascia and Soffit</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Fascia and Soffit</h2>
 
 <p class="text-gray-600 mb-6"><strong>Fascia is the vertical board behind your gutter; soffit is the underside of the roof overhang.</strong> Together they protect rafters from weather and pests while providing ventilation. Damage is usually from water intrusion, pest activity, or age. Repairs cost $15-30 per linear foot for fascia and $6-12 per square foot for soffit.</p>
 
@@ -9570,7 +9570,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/flat-metal-roof-installation.webp",
     category: "Roof Care",
     readTime: "12 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Roof Coatings in Florida</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Coatings in Florida</h2>
 
 <p class="text-gray-600 mb-6"><strong>Roof coatings are liquid-applied membranes that protect and extend the life of existing roofs.</strong> They're most effective on flat and low-slope roofs but some products work on metal and other steep-slope systems. White reflective coatings can reduce cooling costs 10-30% and extend roof life 10-15 years.</p>
 
@@ -9722,7 +9722,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/commercial-roofing.webp",
     category: "Commercial Roofing",
     readTime: "13 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Commercial Roofing Types</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Commercial Roofing Types</h2>
 
 <p class="text-gray-600 mb-6"><strong>Most Florida commercial buildings use flat or low-slope roofing systems.</strong> TPO (thermoplastic polyolefin) is currently the most popular choice, offering good energy efficiency and durability. Metal roofing is gaining popularity for its longevity. Choice depends on budget, building use, and energy goals.</p>
 
@@ -9886,7 +9886,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/completed-roof-project-jacksonville.webp",
     category: "Roof Care",
     readTime: "11 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Roof Drainage Systems</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Drainage Systems</h2>
 
 <p class="text-gray-600 mb-6"><strong>Proper roof drainage is critical in Florida with 50+ inches of annual rainfall.</strong> Steep-slope roofs use gutters and downspouts. Flat roofs use internal drains, scuppers, or perimeter gutters. Ponding water on flat roofs indicates drainage problems that can cause leaks and structural damage.</p>
 
@@ -10036,7 +10036,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/two-story-home-roof-replacement.webp",
     category: "Roof Replacement",
     readTime: "11 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Second Story Addition Roofing</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Second Story Addition Roofing</h2>
 
 <p class="text-gray-600 mb-6"><strong>Adding a second story requires integrating new roofing with existing or completely reroofing the home.</strong> Decisions include whether to match existing materials (may not be available), reroof entirely for uniform appearance, and how to properly tie new structure to existing. Roofing is typically 3-5% of total addition cost.</p>
 
@@ -10176,7 +10176,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/brick-home-gray-shingle-roof.webp",
     category: "Roof Replacement",
     readTime: "12 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Historic Home Roofing</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Historic Home Roofing</h2>
 
 <p class="text-gray-600 mb-6"><strong>Historic homes often require roofing that maintains period-appropriate appearance while meeting modern building codes.</strong> Options include authentic materials (slate, wood shake, clay tile) or modern alternatives that replicate historic looks. Properties in historic districts may have specific requirements.</p>
 
@@ -10341,7 +10341,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/commercial-gray-shingle-roof.webp",
     category: "Roof Replacement",
     readTime: "11 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Townhouse and Condo Roofing</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Townhouse and Condo Roofing</h2>
 
 <p class="text-gray-600 mb-6"><strong>Roofing responsibility in townhomes and condos depends on your ownership structure and HOA documents.</strong> In most condos, the association maintains the roof using reserve funds or special assessments. Many townhomes have individual roof responsibility. Understanding your documents before buying, or before a leak, is essential.</p>
 
@@ -10483,7 +10483,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/commercial-roofing-services.webp",
     category: "Commercial Roofing",
     readTime: "11 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Multi-Family Roofing</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Multi-Family Roofing</h2>
 
 <p class="text-gray-600 mb-6"><strong>Multi-family properties require roofing that balances durability, cost-effectiveness, and minimal tenant disruption.</strong> Material choice depends on building type, flat-roof apartments typically use commercial membrane systems while duplexes and small multi-family may use residential materials. Coordination with tenants and proper insurance documentation are essential.</p>
 
@@ -10627,7 +10627,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/roofing-crew-installation-action.webp",
     category: "Roofing Basics",
     readTime: "10 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Roof Load Capacity</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Load Capacity</h2>
 
 <p class="text-gray-600 mb-6"><strong>Florida roofs are typically designed to handle 20 pounds per square foot live load plus dead load (weight of roofing materials).</strong> Before adding heavy equipment, solar panels, or new roofing over existing, verify your structure can handle the additional weight. An engineer can assess capacity if needed.</p>
 
@@ -10767,7 +10767,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/green-metal-roof-residential.webp",
     category: "Energy Efficiency",
     readTime: "12 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Energy Efficient Roofing</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Energy Efficient Roofing</h2>
 
 <p class="text-gray-600 mb-6"><strong>Energy efficient roofing reflects solar heat rather than absorbing it, reducing attic temperatures and cooling costs.</strong> In Florida, cool roofing can reduce cooling energy use by 10-30%. Options include reflective shingles, metal roofing with cool coatings, white membrane roofing, and tile with reflective glazes.</p>
 
@@ -10925,7 +10925,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/roof-repair-in-progress-jacksonville.webp",
     category: "Roofing Basics",
     readTime: "11 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Roof Flashing</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Flashing</h2>
 
 <p class="text-gray-600 mb-6"><strong>Flashing is thin metal installed at roof intersections and penetrations to direct water away from vulnerable areas.</strong> It's the first line of defense against leaks at chimneys, walls, valleys, vents, and edges. Poor or missing flashing is a leading cause of roof leaks. Materials include aluminum, galvanized steel, copper, and lead.</p>
 
@@ -11067,7 +11067,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/shingle-roof-installation-florida.webp",
     category: "Roofing Basics",
     readTime: "11 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Roof Underlayment</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Underlayment</h2>
 
 <p class="text-gray-600 mb-6"><strong>Underlayment is the water-resistant layer between your roof decking and shingles.</strong> It's your roof's backup protection if water gets under shingles. Florida codes require specific underlayment based on location, high-velocity hurricane zones require self-adhering underlayment for enhanced protection.</p>
 
@@ -11204,7 +11204,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/residential-roof-with-pool-aerial.webp",
     category: "Roof Repair",
     readTime: "10 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Roof Valley Repair</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Valley Repair</h2>
 
 <p class="text-gray-600 mb-6"><strong>Roof valleys, where two slopes meet, handle concentrated water flow and are common leak points.</strong> Valley problems include worn shingles, damaged flashing, debris accumulation, and improper installation. Repair options range from sealing and shingle replacement to full valley reconstruction during reroof.</p>
 
@@ -11351,7 +11351,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/new-roof-installation-blue-house-florida.webp",
     category: "Roofing Basics",
     readTime: "9 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer: Drip Edge</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Drip Edge</h2>
 
 <p class="text-gray-600 mb-6"><strong>Drip edge is metal flashing installed at roof edges that directs water away from fascia and into gutters.</strong> It's required by Florida building code. Without drip edge, water wicks back under roofing, causing fascia rot, soffit damage, and potential interior leaks.</p>
 
@@ -16532,7 +16532,7 @@ export const blogPosts: BlogPost[] = [
     ]
   },
   {
-    slug: "roof-replacement-cost-jacksonville-fl",
+    slug: "roof-replacement-cost-guide-jacksonville",
     title: "Roof Replacement Cost Jacksonville FL - Complete 2026 Pricing Guide",
     metaTitle: "Roof Replacement Cost Jacksonville FL - 2026 Pricing Guide",
     excerpt: "Roof replacement cost in Jacksonville FL for 2026 broken down by material, home size, and complexity. See real pricing data, financing options, and how to budget for your new roof.",

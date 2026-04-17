@@ -4,9 +4,13 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Jacksonville Beach FL - Coastal Roof Repair & Replacement",
-  description: "Roofing in Jacksonville Beach FL. Salt-air resistant roof repair and replacement for beach homes. Coastal roofing experts. Call (904) 606-5313 for free estimate.",
-  keywords: ["roofing jacksonville beach fl", "roofing company jacksonville beach fl", "roof repair jacksonville beach", "roofers jax beach fl", "beach home roofing", "coastal roof replacement"],
+  title: { absolute: "Roofing Jacksonville Beach FL - Gimo's Roofing" },
+  description: "Roofing in Jacksonville Beach FL from Gimo's Roofing. Salt-resistant coastal roof repair, replacement, and 24/7 storm response for beach homes. Call (904) 606-5313.",
+  openGraph: {
+    title: "Roofing Jacksonville Beach FL - Gimo's Roofing",
+    description: "Coastal roofing in Jacksonville Beach FL. Salt-resistant materials and hurricane-rated installation. Call (904) 606-5313.",
+    url: "https://www.gimosroofing.com/roofing-jacksonville-beach-fl",
+  },
   alternates: { canonical: "https://www.gimosroofing.com/roofing-jacksonville-beach-fl" },
 }
 
@@ -14,6 +18,10 @@ const location = "Jacksonville Beach"
 const county = "Duval County"
 const phone = "(904) 606-5313"
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
+
+const StarIcon = () => (
+  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+)
 
 const nearbyAreas = [
   { name: "Neptune Beach", href: "/roofing-neptune-beach-fl" },
@@ -28,67 +36,42 @@ const nearbyAreas = [
 
 const faqs = [
   { question: "How much does roof replacement cost in Jacksonville Beach FL?", answer: "Roof replacement in Jacksonville Beach typically runs $9,500 to $32,000 for the salt-exposed homes east of Penman Road, with most 1,800-2,400 sq ft beach houses falling between $12,000 and $19,000 for impact-rated architectural shingles. Oceanfront properties on 1st Street North or 1st Street South often need aluminum standing seam, which pushes the range to $24,000-$38,000. We provide free quotes and financing from $99/month." },
-  { question: "What's the best roofing material for an oceanfront home on 1st Street?", answer: "For oceanfront homes within a mile of the Atlantic — including 1st Street, 2nd Avenue North, and South Beach Parkway — aluminum standing seam is the gold standard. Aluminum doesn't rust like galvanized steel and holds up to direct salt spray for 40-60 years. The next best option is impact-rated architectural shingles (Class 4) with stainless steel fasteners. We strongly advise against any galvanized steel product within a mile of the dunes." },
-  { question: "How long do shingle roofs actually last in Jacksonville Beach?", answer: "In ZIP code 32250, salt air and UV exposure shave years off any shingle roof. Standard 3-tab shingles often fail at 12-15 years here, compared to 18-22 for inland Duval homes. Architectural shingles run 18-22 years on the beach side, and 22-25 years for homes west of 3rd Street. Metal roofing remains the longest-lasting option at 40-60 years even directly on the coast." },
-  { question: "Do you handle hurricane damage and tarping in Jax Beach?", answer: "Yes — we run 24/7 emergency response throughout Jacksonville Beach during and after every named storm. Our crews are typically on-site within hours for tarping, board-up, and damage documentation. Every Jax Beach roof must meet the Florida Building Code 130+ mph wind requirement, and we document all repairs to that standard so your insurance claim doesn't get denied for code non-compliance. Call (904) 606-5313 day or night." },
+  { question: "What's the best roofing material for an oceanfront home on 1st Street?", answer: "For oceanfront homes within a mile of the Atlantic (including 1st Street, 2nd Avenue North, and South Beach Parkway), aluminum standing seam is the gold standard. Aluminum doesn't rust like galvanized steel and holds up to direct salt spray for 40-60 years. The next best option is impact-rated architectural shingles (Class 4) with stainless steel fasteners. We strongly advise against any galvanized steel product within a mile of the dunes." },
+  { question: "How long do shingle roofs actually last in Jacksonville Beach?", answer: "In ZIP code 32250, salt air and UV exposure shave years off any shingle roof. Standard 3-tab shingles often fail at 12 to 15 years here, compared to 18 to 22 for inland Duval homes. Architectural shingles run 18-22 years on the beach side, and 22-25 years for homes west of 3rd Street. Metal roofing remains the longest-lasting option at 40-60 years even directly on the coast." },
+  { question: "Do you handle hurricane damage and tarping in Jax Beach?", answer: "Yes. We run 24/7 emergency response throughout Jacksonville Beach during and after every named storm. Our crews are typically on-site within hours for tarping, board-up, and damage documentation. Every Jax Beach roof must meet the Florida Building Code 130+ mph wind requirement, and we document all repairs to that standard so your insurance claim doesn't get denied for code non-compliance. Call (904) 606-5313 day or night." },
   { question: "How does salt air specifically damage my Jacksonville Beach roof?", answer: "Salt air attacks roofs in three ways: it corrodes metal flashing and fasteners (causing leaks at penetrations), it accelerates shingle granule loss on the windward side facing the ocean, and it feeds algae growth in the persistent humidity. Homes in 32250 east of 3rd Street and the older neighborhoods in 32240 see this most aggressively. We recommend annual washdowns and a professional inspection every spring before hurricane season." },
   { question: "Will a new roof lower my insurance in Jacksonville Beach?", answer: "Yes, often dramatically. Coastal Florida insurers offer wind mitigation credits of 15-45% for newer roofs with impact-rated shingles, properly nailed sheathing, secondary water barriers, and hip roof shapes. Most Jax Beach homes built before 2002 are paying inflated premiums on roofs that don't qualify for any credits. We provide a wind mitigation inspection report with every replacement so you can pass it to your insurance carrier the same week." },
-  { question: "How often should I inspect my roof in a beach environment?", answer: "Twice a year minimum for any home east of A1A — once in early spring before storm season, and once in November after the last named storm. Salt damage and storm wear show up gradually, and what looks fine from the ground is often hiding corroded flashing or lifted shingles up close. We offer free annual inspections for past customers and reduced-rate inspections for new clients in 32250 and 32240." },
-  { question: "Can you work with the Neptune Beach and Atlantic Beach HOAs?", answer: "Yes — many of our Jax Beach customers have homes that fall within HOAs in neighboring Neptune Beach and Atlantic Beach, and the architectural review boards each have their own approved materials lists. We carry samples of every commonly-approved shingle color and metal finish for these communities, and we handle the HOA submittal paperwork as part of every project. We've completed roofs for homes in Sandcastle, Beachwalker, and the older Beach Avenue district." }
+  { question: "How often should I inspect my roof in a beach environment?", answer: "Twice a year minimum for any home east of A1A, once in early spring before storm season, and once in November after the last named storm. Salt damage and storm wear show up gradually, and what looks fine from the ground is often hiding corroded flashing or lifted shingles up close. We offer free annual inspections for past customers and reduced-rate inspections for new clients in 32250 and 32240." },
+  { question: "Can you work with the Neptune Beach and Atlantic Beach HOAs?", answer: "Yes. Many of our Jax Beach customers have homes that fall within HOAs in neighboring Neptune Beach and Atlantic Beach, and the architectural review boards each have their own approved materials lists. We carry samples of every commonly-approved shingle color and metal finish for these communities, and we handle the HOA submittal paperwork as part of every project. We've completed roofs for homes in Sandcastle, Beachwalker, and the older Beach Avenue district." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "@id": "https://www.gimosroofing.com/#localbusiness",
-  "name": "Gimo's Roofing",
-  "url": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl",
-  "telephone": "+19046065313",
-  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
-    "addressLocality": "Jacksonville",
-    "addressRegion": "FL",
-    "postalCode": "32206",
-    "addressCountry": "US"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "priceRange": "$$",
+  "@type": "Service",
+  "name": "Roofing in Jacksonville Beach FL",
+  "serviceType": "Roofing Contractor",
+  "description": "Coastal roofing in Jacksonville Beach FL. Salt-resistant materials, 130+ mph wind-rated installation, and 24/7 storm response for homes in ZIP codes 32250 and 32240.",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": {
     "@type": "City",
-    "name": "Jacksonville Beach",
+    "name": "Jacksonville Beach, FL",
     "sameAs": [
-      "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida"
-    ]
+      "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida",
+      "https://www.wikidata.org/wiki/Q1684252"
+    ],
+    "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" }
   },
+  "url": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Roofing Services in Jacksonville Beach, FL",
+    "name": "Coastal Roofing Services in Jacksonville Beach, FL",
     "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Coastal Roof Replacement in Jacksonville Beach FL",
-          "description": "Salt-resistant coastal roofing for Jacksonville Beach oceanfront and beach homes."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Hurricane Damage Repair in Jacksonville Beach FL",
-          "description": "24/7 emergency storm damage repair and insurance claim assistance for beach properties."
-        }
-      }
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coastal Roof Replacement in Jacksonville Beach FL", "description": "Salt-resistant coastal roofing for Jacksonville Beach oceanfront and beach homes. Starting at $8,500." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hurricane and Storm Damage Repair in Jacksonville Beach FL", "description": "24/7 emergency storm damage repair, tarping, and insurance claim assistance for beach properties." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coastal Roof Repair in Jacksonville Beach FL", "description": "Repair salt-corroded flashing, wind-lifted shingles, leaks, and UV damage with coastal-grade materials." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aluminum Standing Seam Metal Roofing in Jacksonville Beach FL", "description": "Aluminum standing seam metal roofing with 40 to 60 year lifespan for oceanfront properties." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tile Roofing in Jacksonville Beach FL", "description": "Concrete and clay tile roofing with 30 to 50+ year lifespan, ideal for Florida coastal homes." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coastal Roof Inspections in Jacksonville Beach FL", "description": "Annual coastal property inspections for salt corrosion, wind damage, and UV deterioration." } }
     ]
   }
 }
@@ -96,6 +79,8 @@ const schemaData = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -112,7 +97,7 @@ const breadcrumbSchema = {
 export default function JacksonvilleBeachPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -146,8 +131,35 @@ export default function JacksonvilleBeachPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
+          </div>
+        </div>
+      </section>
+
+      {/* Review Ribbon */}
+      <section className="bg-white border-b border-gray-200 py-4">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
+            <div className="flex items-center gap-3">
+              <span className="text-sm font-semibold text-secondary">FL License #CCC1332453</span>
+              <span className="text-gray-300">|</span>
+              <div className="flex text-primary">
+                <StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarIcon />
+              </div>
+              <span className="text-sm font-semibold text-secondary">5-Star Rated by Jacksonville Beach Homeowners</span>
+            </div>
+            <div className="flex items-center gap-6">
+              <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" title="View Gimo's Roofing Google Reviews">
+                <Image src="/google-logo.png" alt="Read Gimo's Roofing reviews on Google" title="Google Reviews" width={80} height={28} className="h-7 w-auto object-contain" />
+              </a>
+              <a href="https://www.yelp.com/biz/gimos-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
+                <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
+              </a>
+              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+                <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -221,19 +233,19 @@ export default function JacksonvilleBeachPage() {
             After years of serving Jax Beach homeowners, we see the same coastal roofing issues repeatedly. Catching these early saves thousands in repairs:
           </p>
           <div className="grid sm:grid-cols-2 gap-4 mb-6">
-            <div className="bg-gray-50 p-5 rounded-lg">
+            <div className="card p-5">
               <h3 className="font-bold text-secondary mb-2">Corroded Flashing</h3>
               <p className="text-gray-600 text-sm">Metal flashing around vents, chimneys, and roof edges corrodes faster in salt air. We replace with aluminum or stainless steel flashing designed for coastal exposure.</p>
             </div>
-            <div className="bg-gray-50 p-5 rounded-lg">
+            <div className="card p-5">
               <h3 className="font-bold text-secondary mb-2">Wind-Lifted Shingles</h3>
               <p className="text-gray-600 text-sm">Ocean winds peel back shingle edges, breaking the seal strip and allowing water intrusion. Even moderate tropical storms can lift improperly installed shingles.</p>
             </div>
-            <div className="bg-gray-50 p-5 rounded-lg">
+            <div className="card p-5">
               <h3 className="font-bold text-secondary mb-2">Premature Granule Loss</h3>
               <p className="text-gray-600 text-sm">UV and wind-driven sand strip protective granules from shingles years ahead of schedule. Bare spots leave shingles vulnerable to UV damage and leaks.</p>
             </div>
-            <div className="bg-gray-50 p-5 rounded-lg">
+            <div className="card p-5">
               <h3 className="font-bold text-secondary mb-2">Algae & Mold Streaks</h3>
               <p className="text-gray-600 text-sm">Black streaks on north-facing slopes are Gloeocapsa magma algae, fueled by humidity. Beyond appearance, algae degrades shingles and reduces roof life.</p>
             </div>
@@ -246,28 +258,28 @@ export default function JacksonvilleBeachPage() {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-8 text-center">Our Coastal Roofing Services</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            <Link href="/services/roof-replacement" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Beach Roof Replacement</h4>
+            <Link href="/services/roof-replacement" className="card p-5">
+              <h3 className="font-bold text-secondary mb-2">Beach Roof Replacement</h3>
               <p className="text-gray-600 text-sm">Complete tear-off with coastal-grade materials rated for salt exposure and 130+ mph winds. Starting at $8,500.</p>
             </Link>
-            <Link href="/services/emergency-roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Storm Damage Repair</h4>
+            <Link href="/services/emergency-roof-repair" className="card p-5">
+              <h3 className="font-bold text-secondary mb-2">Storm Damage Repair</h3>
               <p className="text-gray-600 text-sm">24/7 emergency response for hurricane and tropical storm damage. Tarping, repairs, and insurance claim assistance.</p>
             </Link>
-            <Link href="/services/roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Coastal Roof Repair</h4>
+            <Link href="/services/roof-repair" className="card p-5">
+              <h3 className="font-bold text-secondary mb-2">Coastal Roof Repair</h3>
               <p className="text-gray-600 text-sm">Fix salt-corroded flashing, wind-lifted shingles, leaks, and UV damage with materials built for beach conditions.</p>
             </Link>
-            <div className="bg-white p-5 rounded-lg shadow-sm">
-              <h4 className="font-bold text-secondary mb-2">Metal Roofing</h4>
+            <div className="card p-5">
+              <h3 className="font-bold text-secondary mb-2">Metal Roofing</h3>
               <p className="text-gray-600 text-sm">Aluminum standing seam for maximum salt resistance. 40-60 year lifespan, ideal for oceanfront properties.</p>
             </div>
-            <div className="bg-white p-5 rounded-lg shadow-sm">
-              <h4 className="font-bold text-secondary mb-2">Tile Roofing</h4>
+            <div className="card p-5">
+              <h3 className="font-bold text-secondary mb-2">Tile Roofing</h3>
               <p className="text-gray-600 text-sm">Concrete and clay tile for classic Florida coastal style. Superior wind and UV resistance, 30-50+ year lifespan.</p>
             </div>
-            <div className="bg-white p-5 rounded-lg shadow-sm">
-              <h4 className="font-bold text-secondary mb-2">Roof Inspections</h4>
+            <div className="card p-5">
+              <h3 className="font-bold text-secondary mb-2">Roof Inspections</h3>
               <p className="text-gray-600 text-sm">Annual coastal property inspections. We check for salt corrosion, wind damage, and UV deterioration before they become costly problems.</p>
             </div>
           </div>
@@ -285,7 +297,7 @@ export default function JacksonvilleBeachPage() {
             </div>
             <h2 className="text-2xl font-bold text-secondary mb-3">5-Star Rated by Jacksonville Beach Homeowners</h2>
             <p className="text-gray-600 mb-6">From oceanfront homes on 1st Street to the older bungalows along South Beach Parkway, our crew has earned 5-star reviews across the Jacksonville Beach community.</p>
-            <a href="https://www.google.com/search?q=Gimo%27s+Roofing+Jacksonville+reviews" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition">Read Our Reviews</a>
+            <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition">Read Our Reviews</a>
           </div>
         </div>
       </section>
@@ -306,7 +318,7 @@ export default function JacksonvilleBeachPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Roofing in 32250 and 32240 - Jacksonville Beach ZIP Codes</h2>
           <p className="text-gray-600 mb-4">
-            ZIP codes 32250 and 32240 cover all of Jacksonville Beach, from the oceanfront homes along 1st Street to the residential streets west of Penman Road. 32250 contains the bulk of the city, including South Beach Parkway, the Beaches Town Center area, and the residential streets between 3rd Street and Penman, while 32240 is the smaller P.O. box ZIP. Roofs in both ZIPs face the same brutal salt air, hurricane wind, and reflected UV that defines coastal Florida roofing. Architectural shingle with stainless hardware and aluminum standing seam metal are the two materials we install most often here.
+            ZIP codes <a href="https://www.unitedstateszipcodes.org/32250/" target="_blank" rel="noopener" className="text-primary hover:underline">32250</a> and <a href="https://www.unitedstateszipcodes.org/32240/" target="_blank" rel="noopener" className="text-primary hover:underline">32240</a> cover all of <a href="https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Jacksonville Beach</a>, from the oceanfront homes along 1st Street to the residential streets west of Penman Road. 32250 contains the bulk of the city, including South Beach Parkway, the <a href="https://en.wikipedia.org/wiki/Beaches_Town_Center" target="_blank" rel="noopener" className="text-primary hover:underline">Beaches Town Center</a> area, and the residential streets between 3rd Street and Penman, while 32240 is the smaller P.O. box ZIP. Roofs in both ZIPs face the same brutal salt air, hurricane wind, and reflected UV that defines coastal Florida roofing. Architectural shingle with stainless hardware and aluminum standing seam metal are the two materials we install most often here, both engineered to meet the <a href="https://www.floridabuilding.org/" target="_blank" rel="noopener" className="text-primary hover:underline">Florida Building Code</a> wind requirements for coastal Duval County.
           </p>
         </div>
       </section>
@@ -314,7 +326,10 @@ export default function JacksonvilleBeachPage() {
       {/* FAQ Section */}
       <section className="py-14">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+          <div className="text-center mb-8">
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Gimo&apos;s Roofing Answers</span>
+            <h2 className="text-2xl font-bold text-secondary">Jacksonville Beach Roofing FAQ</h2>
+          </div>
           <FAQ faqs={faqs} />
         </div>
       </section>

@@ -6,7 +6,6 @@ import FAQ from '@/components/FAQ'
 export const metadata: Metadata = {
   title: "Roofing Neptune Beach FL - Coastal Roof Repair & Replacement",
   description: "Roofing in Neptune Beach FL. Salt-resistant coastal roofing for the Beaches Town Center, 1st Street, and Forest Avenue homes. Call (904) 606-5313.",
-  keywords: ["roofing neptune beach fl", "roofing company neptune beach fl", "roof repair neptune beach", "neptune beach roofers", "beaches town center roofing", "coastal roof replacement neptune beach"],
   alternates: { canonical: "https://www.gimosroofing.com/roofing-neptune-beach-fl" },
 }
 
@@ -35,38 +34,20 @@ const faqs = [
   { question: "How often should I inspect my Neptune Beach roof?", answer: "Twice a year minimum for any home in 32266 — once in early spring before hurricane season, once in November after the last named storm. Salt damage and storm wear show up gradually, and what looks fine from the ground is often hiding corroded flashing or lifted shingles up close. We check four things specifically on Neptune Beach roofs: the windward east-facing shingle slopes for granule loss and lifting (this is where salt and wind damage shows up first), every metal fastener and flashing for salt corrosion, the ridge cap for wind uplift damage, and the chimney and skylight flashing on the older Forest Avenue and Cherry Street homes. We offer free annual inspections for past customers and reduced-rate inspections for new clients in 32266. Call (904) 606-5313 to schedule." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "@id": "https://www.gimosroofing.com/#localbusiness",
-  "name": "Gimo's Roofing",
-  "url": "https://www.gimosroofing.com/roofing-neptune-beach-fl",
-  "telephone": "+19046065313",
-  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
-    "addressLocality": "Jacksonville",
-    "addressRegion": "FL",
-    "postalCode": "32206",
-    "addressCountry": "US"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "priceRange": "$$",
+  "@type": "Service",
+  "name": "Roofing Services in Neptune Beach, FL",
+  "serviceType": "Roofing Contractor",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": {
     "@type": "City",
-    "name": "Neptune Beach",
+    "name": "Neptune Beach, FL",
     "sameAs": [
       "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida"
     ]
   },
+  "url": "https://www.gimosroofing.com/roofing-neptune-beach-fl",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Roofing Services in Neptune Beach, FL",
@@ -94,6 +75,8 @@ const schemaData = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/roofing-neptune-beach-fl",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -110,7 +93,7 @@ const breadcrumbSchema = {
 export default function NeptuneBeachPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -144,7 +127,7 @@ export default function NeptuneBeachPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
           </div>
         </div>

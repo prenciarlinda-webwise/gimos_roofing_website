@@ -3,8 +3,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: "Contact Gimo's Roofing - Free Estimate Jacksonville FL",
-  description: "Get a free roofing estimate in Jacksonville FL. Call (904) 606-5313 or visit us at 33 24th Street East. Mon-Sat 8AM-5:30PM.",
-  keywords: ["contact gimos roofing", "free roofing estimate", "roofing estimate jacksonville", "jacksonville roofing contact", "roofing quote jacksonville"],
+  description: "Get a free roofing estimate in Jacksonville FL. Call (904) 606-5313 or visit us at 33 24th Street East. Mon-Sat 8AM-5:30PM.",
   alternates: { canonical: "https://www.gimosroofing.com/contact" },
 }
 
@@ -14,20 +13,8 @@ const financingUrl = 'https://application.enerbank.com/#/link?spnum=8007747598&c
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  "mainEntity": {
-    "@type": "RoofingContractor",
-    "name": "Gimo's Roofing",
-    "telephone": "+1-904-606-5313",
-    "email": "management@gimosroofing.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "33 24th Street East",
-      "addressLocality": "Jacksonville",
-      "addressRegion": "FL",
-      "postalCode": "32206"
-    },
-    "openingHours": "Mo-Sa 08:00-17:30"
-  }
+  "url": "https://www.gimosroofing.com/contact",
+  "mainEntity": { "@id": "https://www.gimosroofing.com/#organization" }
 }
 
 const breadcrumbSchema = {

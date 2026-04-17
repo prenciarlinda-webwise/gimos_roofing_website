@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import TrustindexWidget from '@/components/TrustindexWidget'
 import Image from 'next/image'
 
 const roofingLinks = [
@@ -11,6 +12,10 @@ const roofingLinks = [
 const sidingLinks = [
   { name: "Siding Installation", href: "/services/siding-installation", title: "Siding Installation Jacksonville FL" },
   { name: "Siding Repair", href: "/services/siding-repair", title: "Siding Repair Jacksonville FL" },
+]
+
+const financingLinks = [
+  { name: "Roof Financing", href: "/roof-financing-florida", title: "Roof Financing Florida" },
 ]
 
 const quickLinks = [
@@ -87,9 +92,9 @@ export default function Footer() {
 
             {/* Services */}
             <div>
-              <h3 className="text-lg font-bold mb-6 text-primary">Our Services</h3>
+              <p className="text-lg font-bold mb-6 text-primary">Our Services</p>
               <div className="mb-4">
-                <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">Roofing</h4>
+                <p className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">Roofing</p>
                 <ul className="space-y-2">
                   {roofingLinks.map((link) => (
                     <li key={link.name}>
@@ -104,9 +109,24 @@ export default function Footer() {
                 </ul>
               </div>
               <div>
-                <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">Siding</h4>
+                <p className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">Siding</p>
                 <ul className="space-y-2">
                   {sidingLinks.map((link) => (
+                    <li key={link.name}>
+                      <Link href={link.href} title={link.title} className="text-gray-300 hover:text-primary transition-colors flex items-center gap-2">
+                        <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
+                        </svg>
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mt-4">
+                <p className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">Financing</p>
+                <ul className="space-y-2">
+                  {financingLinks.map((link) => (
                     <li key={link.name}>
                       <Link href={link.href} title={link.title} className="text-gray-300 hover:text-primary transition-colors flex items-center gap-2">
                         <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
@@ -122,7 +142,7 @@ export default function Footer() {
 
             {/* Quick Links */}
             <div>
-              <h3 className="text-lg font-bold mb-6 text-primary">Quick Links</h3>
+              <p className="text-lg font-bold mb-6 text-primary">Quick Links</p>
               <ul className="space-y-3">
                 {quickLinks.map((link) => (
                   <li key={link.name}>
@@ -139,7 +159,7 @@ export default function Footer() {
 
             {/* Contact Info */}
             <div>
-              <h3 className="text-lg font-bold mb-6 text-primary">Contact Us</h3>
+              <p className="text-lg font-bold mb-6 text-primary">Contact Us</p>
               <ul className="space-y-4">
                 <li>
                   <a href="tel:+19046065313" title="Call Gimo's Roofing Jacksonville" className="flex items-start gap-3 text-gray-300 hover:text-primary transition-colors">
@@ -176,7 +196,7 @@ export default function Footer() {
 
           {/* Service Areas */}
           <div className="mt-12 pt-8 border-t border-white/10">
-            <h3 className="text-lg font-bold mb-4 text-primary">Service Areas</h3>
+            <p className="text-lg font-bold mb-4 text-primary">Service Areas</p>
             <div className="flex flex-wrap gap-2">
               {serviceAreas.map((area) => (
                 <Link
@@ -193,7 +213,7 @@ export default function Footer() {
 
           {/* Trusted Partners */}
           <div className="mt-8 pt-8 border-t border-white/10">
-            <h3 className="text-lg font-bold mb-4 text-primary">Trusted Partners</h3>
+            <p className="text-lg font-bold mb-4 text-primary">Trusted Partners</p>
             <div className="flex flex-wrap gap-2">
               {partners.map((partner) => (
                 <a
@@ -211,12 +231,17 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Trustindex Certificate */}
+        <div className="border-t border-white/10 py-6 flex justify-center">
+          <TrustindexWidget src="https://cdn.trustindex.io/loader-cert.js?fc9caa669e0b691a2e266014afb" />
+        </div>
+
         {/* Bottom Bar */}
         <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-4 py-6">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-gray-400 text-sm">
-                &copy; {currentYear} Gimo&apos;s Renovation & Roofing. All rights reserved.
+                &copy; {currentYear} Gimo&apos;s Renovation & Roofing. All rights reserved. <span className="text-gray-500">Licensed &amp; Insured | Florida License #CCC1332453</span>
               </p>
               <div className="flex gap-6 text-sm">
                 <Link href="/privacy-policy" title="Gimo's Roofing Privacy Policy" className="text-gray-400 hover:text-primary transition-colors">Privacy Policy</Link>

@@ -6,7 +6,6 @@ import FAQ from '@/components/FAQ'
 export const metadata: Metadata = {
   title: "Roofing Fernandina Beach FL - Amelia Island Roof Repair & Replacement",
   description: "Roofing in Fernandina Beach & Amelia Island FL. Victorian home & coastal specialists. Nassau County's trusted roofers. Call (904) 606-5313.",
-  keywords: ["roofing fernandina beach fl", "amelia island roofers", "roofing company fernandina beach", "nassau county roofing", "victorian home roofing", "fernandina beach roof replacement"],
   alternates: { canonical: "https://www.gimosroofing.com/roofing-fernandina-beach-fl" },
 }
 
@@ -35,38 +34,20 @@ const faqs = [
   { question: "How often should I inspect my Amelia Island roof?", answer: "Twice a year minimum for any home on Amelia Island — once in the spring before hurricane season, once in November after the last named storm. The barrier island environment is harsh enough that annual inspections (the standard recommendation for inland Florida) miss too much. We check four things specifically on Amelia Island roofs: the windward east-facing shingle slopes for granule loss and lifting, every metal fastener and flashing for salt corrosion, the ridge cap and hip cap for wind uplift damage, and the chimney and skylight flashing on the older Victorian homes downtown. For homes in Amelia Island Plantation, Summer Beach, and along Fletcher Avenue, we typically find 5-12 individual issues per inspection that are cheap to fix in spring and expensive after a hurricane. Inspections are free for past customers." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "@id": "https://www.gimosroofing.com/#localbusiness",
-  "name": "Gimo's Roofing",
-  "url": "https://www.gimosroofing.com/roofing-fernandina-beach-fl",
-  "telephone": "+19046065313",
-  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
-    "addressLocality": "Jacksonville",
-    "addressRegion": "FL",
-    "postalCode": "32206",
-    "addressCountry": "US"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "priceRange": "$$",
+  "@type": "Service",
+  "name": "Roofing Services in Fernandina Beach, FL",
+  "serviceType": "Roofing Contractor",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": {
     "@type": "City",
-    "name": "Fernandina Beach",
+    "name": "Fernandina Beach, FL",
     "sameAs": [
       "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida"
     ]
   },
+  "url": "https://www.gimosroofing.com/roofing-fernandina-beach-fl",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Roofing Services in Fernandina Beach & Amelia Island, FL",
@@ -94,6 +75,8 @@ const schemaData = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/roofing-fernandina-beach-fl",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -110,7 +93,7 @@ const breadcrumbSchema = {
 export default function FernandinaBeachPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -144,7 +127,7 @@ export default function FernandinaBeachPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
           </div>
         </div>

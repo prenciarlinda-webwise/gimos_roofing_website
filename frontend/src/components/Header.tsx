@@ -7,7 +7,8 @@ import Image from 'next/image'
 const navLinks = [
   { name: "Home", href: "/", title: "Gimo's Roofing Home" },
   { name: "Services", href: "/services", hasDropdown: true, title: "Roofing & Siding Services" },
-  { name: "Service Areas", href: "/service-areas", title: "Jacksonville Roofing Service Areas" },
+  { name: "Service Areas", href: "/service-areas", hasDropdown: true, title: "Jacksonville Roofing Service Areas" },
+  { name: "Financing", href: "/roof-financing-florida", title: "Roof Financing Florida" },
   { name: "About", href: "/about", title: "About Gimo's Roofing" },
   { name: "Gallery", href: "/gallery", title: "Roofing Project Gallery" },
   { name: "Blog", href: "/blog", title: "Jacksonville Roofing Blog" },
@@ -25,6 +26,26 @@ const roofingLinks = [
 const sidingLinks = [
   { name: "Siding Installation", href: "/services/siding-installation", title: "Siding Installation Jacksonville FL" },
   { name: "Siding Repair", href: "/services/siding-repair", title: "Siding Repair Jacksonville FL" },
+]
+
+const financingLinks = [
+  { name: "Roof Financing", href: "/roof-financing-florida", title: "Roof Financing Florida" },
+]
+
+const locationLinks = [
+  { name: "Jacksonville", href: "/roofing-jacksonville-fl", title: "Roofing Jacksonville FL" },
+  { name: "Jacksonville Beach", href: "/roofing-jacksonville-beach-fl", title: "Roofing Jacksonville Beach FL" },
+  { name: "Atlantic Beach", href: "/roofing-atlantic-beach-fl", title: "Roofing Atlantic Beach FL" },
+  { name: "Neptune Beach", href: "/roofing-neptune-beach-fl", title: "Roofing Neptune Beach FL" },
+  { name: "Ponte Vedra Beach", href: "/roofing-ponte-vedra-beach-fl", title: "Roofing Ponte Vedra Beach FL" },
+  { name: "Nocatee", href: "/roofing-nocatee-fl", title: "Roofing Nocatee FL" },
+  { name: "St. Augustine", href: "/roofing-st-augustine-fl", title: "Roofing St. Augustine FL" },
+  { name: "Orange Park", href: "/roofing-orange-park-fl", title: "Roofing Orange Park FL" },
+  { name: "Fernandina Beach", href: "/roofing-fernandina-beach-fl", title: "Roofing Fernandina Beach FL" },
+  { name: "Riverside", href: "/roofing-riverside-fl", title: "Roofing Riverside Jacksonville FL" },
+  { name: "San Marco", href: "/roofing-san-marco-fl", title: "Roofing San Marco Jacksonville FL" },
+  { name: "Mandarin", href: "/roofing-mandarin-fl", title: "Roofing Mandarin Jacksonville FL" },
+  { name: "Southside", href: "/roofing-southside-jax-fl", title: "Roofing Southside Jacksonville FL" },
 ]
 
 export default function Header() {
@@ -57,6 +78,12 @@ export default function Header() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 Mon-Sat: 8:00 AM - 5:30 PM
+              </span>
+              <span className="hidden lg:flex items-center gap-2">
+                <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                FL License #CCC1332453
               </span>
             </div>
             <div className="flex items-center gap-4">
@@ -106,30 +133,25 @@ export default function Header() {
                         </svg>
                       )}
                     </Link>
-                    {link.hasDropdown && (
+                    {link.hasDropdown && link.name === "Services" && (
                       <div className="absolute top-full left-0 w-56 bg-white shadow-xl rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                         <div className="px-4 py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Roofing</div>
                         {roofingLinks.map((service) => (
-                          <Link
-                            key={service.name}
-                            href={service.href}
-                            title={service.title}
-                            className="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors"
-                          >
-                            {service.name}
-                          </Link>
+                          <Link key={service.name} href={service.href} title={service.title} className="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors">{service.name}</Link>
                         ))}
                         <div className="border-t border-gray-100 my-2"></div>
                         <div className="px-4 py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Siding</div>
                         {sidingLinks.map((service) => (
-                          <Link
-                            key={service.name}
-                            href={service.href}
-                            title={service.title}
-                            className="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors"
-                          >
-                            {service.name}
-                          </Link>
+                          <Link key={service.name} href={service.href} title={service.title} className="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors">{service.name}</Link>
+                        ))}
+                      </div>
+                    )}
+                    {link.hasDropdown && link.name === "Service Areas" && (
+                      <div className="absolute top-full left-0 w-56 bg-white shadow-xl rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 max-h-[70vh] overflow-y-auto">
+                        <Link href="/service-areas" title="View All Service Areas" className="block px-4 py-2 text-primary font-semibold hover:bg-primary/10 transition-colors">All Service Areas</Link>
+                        <div className="border-t border-gray-100 my-1"></div>
+                        {locationLinks.map((loc) => (
+                          <Link key={loc.name} href={loc.href} title={loc.title} className="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors">{loc.name}</Link>
                         ))}
                       </div>
                     )}
@@ -182,31 +204,22 @@ export default function Header() {
                   >
                     {link.name}
                   </Link>
-                  {link.hasDropdown && (
+                  {link.hasDropdown && link.name === "Services" && (
                     <div className="pl-4">
                       <div className="py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Roofing</div>
                       {roofingLinks.map((service) => (
-                        <Link
-                          key={service.name}
-                          href={service.href}
-                          title={service.title}
-                          className="block py-2 text-gray-600 hover:text-primary text-sm"
-                          onClick={() => setMobileMenuOpen(false)}
-                        >
-                          {service.name}
-                        </Link>
+                        <Link key={service.name} href={service.href} title={service.title} className="block py-2 text-gray-600 hover:text-primary text-sm" onClick={() => setMobileMenuOpen(false)}>{service.name}</Link>
                       ))}
                       <div className="py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider mt-2">Siding</div>
                       {sidingLinks.map((service) => (
-                        <Link
-                          key={service.name}
-                          href={service.href}
-                          title={service.title}
-                          className="block py-2 text-gray-600 hover:text-primary text-sm"
-                          onClick={() => setMobileMenuOpen(false)}
-                        >
-                          {service.name}
-                        </Link>
+                        <Link key={service.name} href={service.href} title={service.title} className="block py-2 text-gray-600 hover:text-primary text-sm" onClick={() => setMobileMenuOpen(false)}>{service.name}</Link>
+                      ))}
+                    </div>
+                  )}
+                  {link.hasDropdown && link.name === "Service Areas" && (
+                    <div className="pl-4">
+                      {locationLinks.map((loc) => (
+                        <Link key={loc.name} href={loc.href} title={loc.title} className="block py-2 text-gray-600 hover:text-primary text-sm" onClick={() => setMobileMenuOpen(false)}>{loc.name}</Link>
                       ))}
                     </div>
                   )}

@@ -22,12 +22,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return { title: 'Post Not Found' }
   }
 
-  const keywords = post.keywords || [post.category.toLowerCase(), "roofing jacksonville", "gimos roofing"]
-
   return {
     title: post.metaTitle,
     description: post.excerpt,
-    keywords: keywords,
     authors: [{ name: post.author }],
     creator: "Gimo's Roofing",
     publisher: "Gimo's Roofing",
@@ -84,25 +81,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   const relatedPosts = getRelatedPosts(slug, 3)
 
-  // Note: AggregateRating is defined in root layout.tsx RoofingContractor schema
-  // This schema provides article-specific organization context without duplicating ratings
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "RoofingContractor",
-    "@id": "https://www.gimosroofing.com/#organization",
-    "name": "Gimo's Roofing",
-    "url": "https://www.gimosroofing.com",
-    "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-    "telephone": "+1-904-606-5313",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "33 24th Street East",
-      "addressLocality": "Jacksonville",
-      "addressRegion": "FL",
-      "postalCode": "32206",
-      "addressCountry": "US"
-    }
-  }
+  // Organization is defined canonically in root layout.tsx via @id: https://www.gimosroofing.com/#organization
+  // All publisher/author references below reference it by @id to avoid duplication.
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -121,21 +101,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     },
     "datePublished": `${post.date}T08:00:00.000Z`,
     "dateModified": `${post.dateModified || post.date}T08:00:00.000Z`,
-    "author": {
-      "@type": "Organization",
-      "name": "Gimo's Roofing",
-      "url": "https://www.gimosroofing.com"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Gimo's Roofing",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-        "width": 400,
-        "height": 100
-      }
-    },
+    "author": { "@id": "https://www.gimosroofing.com/#organization" },
+    "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
     "articleSection": post.category,
     "keywords": post.keywords?.join(", ") || post.category,
     // Speakable signals to Google AI Overview / voice assistants which sections are most "quotable"
@@ -154,6 +121,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const faqSchema = post.faqs && post.faqs.length > 0 ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    "mainEntityOfPage": `https://www.gimosroofing.com/blog/${post.slug}`,
+    "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
     "mainEntity": post.faqs.map(faq => ({
       "@type": "Question",
       "name": faq.question,
@@ -180,7 +149,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       {faqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
@@ -249,7 +217,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             </div>
             <div>
               <p className="font-semibold text-secondary">Written by {post.author}</p>
-              <p className="text-sm text-gray-600">Jacksonville&apos;s trusted roofing experts with 15+ years of experience.</p>
+              <p className="text-sm text-gray-600">Jacksonville&apos;s trusted roofing experts with 24 years of experience.</p>
             </div>
           </div>
         </div>

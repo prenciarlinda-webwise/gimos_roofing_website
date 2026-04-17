@@ -3,8 +3,7 @@ import BlogClient from '@/components/BlogClient'
 
 export const metadata: Metadata = {
   title: "Jacksonville Roofing Blog - Tips, Costs & Guides",
-  description: "Expert roofing tips for Jacksonville homeowners. Guides on roof costs, insurance claims & storm damage. Call (904) 606-5313.",
-  keywords: ["roofing blog jacksonville", "roofing tips", "roof replacement cost jacksonville", "roof insurance claims", "storm damage roofing"],
+  description: "Expert roofing tips for Jacksonville homeowners. Guides on roof costs, insurance claims & storm damage. Call (904) 606-5313.",
   openGraph: {
     title: "Jacksonville Roofing Blog - Tips, Costs & Guides - Gimo's Roofing",
     description: "Expert roofing tips for Jacksonville homeowners. Guides on roof costs, insurance claims & storm damage.",
@@ -30,11 +29,7 @@ const blogSchema = {
   "name": "Gimo's Roofing Blog",
   "description": "Expert roofing tips, guides, and advice for Jacksonville homeowners",
   "url": "https://www.gimosroofing.com/blog",
-  "publisher": {
-    "@type": "RoofingContractor",
-    "name": "Gimo's Roofing",
-    "url": "https://www.gimosroofing.com"
-  }
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" }
 }
 
 export default function BlogPage() {

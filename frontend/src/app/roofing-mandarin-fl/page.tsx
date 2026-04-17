@@ -6,7 +6,6 @@ import FAQ from '@/components/FAQ'
 export const metadata: Metadata = {
   title: "Roofing Mandarin FL - Roof Repair & Replacement Jacksonville",
   description: "Roofing in Mandarin FL. Trusted local roofers for Mandarin, Beauclerc & Loretto homes. Tree damage repair & full replacements. Call (904) 606-5313.",
-  keywords: ["roofing mandarin fl", "roofing company mandarin jacksonville", "roof repair mandarin fl", "mandarin roof replacement", "beauclerc roofing", "mandarin roofers"],
   alternates: { canonical: "https://www.gimosroofing.com/roofing-mandarin-fl" },
 }
 
@@ -35,31 +34,12 @@ const faqs = [
   { question: `Do older Mandarin homes have ventilation problems?`, answer: `Yes, many 1970s-1990s Mandarin homes were built with inadequate attic ventilation by today's standards. Poor ventilation traps heat and moisture, causing premature shingle deterioration from underneath, higher energy bills, and potential mold issues. During any roof replacement, we assess and upgrade ventilation to meet current building codes, adding ridge vents and soffit vents as needed.` }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "@id": "https://www.gimosroofing.com/#localbusiness",
-  "name": "Gimo's Roofing",
-  "url": "https://www.gimosroofing.com/roofing-mandarin-fl",
-  "telephone": "+19046065313",
-  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
-    "addressLocality": "Jacksonville",
-    "addressRegion": "FL",
-    "postalCode": "32206",
-    "addressCountry": "US"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "priceRange": "$$",
+  "@type": "Service",
+  "name": "Roofing Services in Mandarin, Jacksonville FL",
+  "serviceType": "Roofing Contractor",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": {
     "@type": "Neighborhood",
     "name": "Mandarin",
@@ -68,6 +48,7 @@ const schemaData = {
       "https://www.wikidata.org/wiki/Q6748057"
     ]
   },
+  "url": "https://www.gimosroofing.com/roofing-mandarin-fl",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Roofing Services in Mandarin, Jacksonville FL",
@@ -95,6 +76,8 @@ const schemaData = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/roofing-mandarin-fl",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -111,7 +94,7 @@ const breadcrumbSchema = {
 export default function MandarinPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -145,7 +128,7 @@ export default function MandarinPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
           </div>
         </div>

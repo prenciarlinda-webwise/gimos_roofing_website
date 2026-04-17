@@ -4,13 +4,43 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roof Repair Jacksonville FL - Shingle, Flashing & Leak Repair",
-  description: "Roof repair in Jacksonville FL. Shingle repair, roof flashing repair, leak repair & storm damage. Same-day emergency service. (904) 606-5313.",
-  keywords: ["roof repair jacksonville fl", "roof leak repair jacksonville fl", "roof flashing repair", "shingle roof repair", "storm damage roof repair jacksonville", "emergency roof repair jacksonville", "leaky roof repair", "tile roof repair jacksonville fl"],
+  title: { absolute: "Roof Repair in Jacksonville FL - Gimo's Roofing" },
+  description: "Roof repair in Jacksonville FL from Gimo's Roofing. Leak repair, shingle repair, roof flashing repair, and storm damage repair nearby with same-day service. Call (904) 606-5313.",
+  openGraph: {
+    title: "Roof Repair in Jacksonville FL - Gimo's Roofing",
+    description: "Fast roof repair in Jacksonville FL for leaks, shingles, and flashing. Same-day service and insurance help. Call (904) 606-5313.",
+    url: "https://www.gimosroofing.com/services/roof-repair",
+  },
   alternates: { canonical: "https://www.gimosroofing.com/services/roof-repair" },
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
+const phone = "(904) 606-5313"
+
+const StarIcon = () => (
+  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+)
+
+const serviceAreas = [
+  { name: "Jacksonville", slug: "roofing-jacksonville-fl", county: "Duval" },
+  { name: "Jacksonville Beach", slug: "roofing-jacksonville-beach-fl", county: "Duval" },
+  { name: "Atlantic Beach", slug: "roofing-atlantic-beach-fl", county: "Duval" },
+  { name: "Neptune Beach", slug: "roofing-neptune-beach-fl", county: "Duval" },
+  { name: "Riverside", slug: "roofing-riverside-fl", county: "Duval" },
+  { name: "San Marco", slug: "roofing-san-marco-fl", county: "Duval" },
+  { name: "Mandarin", slug: "roofing-mandarin-fl", county: "Duval" },
+  { name: "Southside", slug: "roofing-southside-jax-fl", county: "Duval" },
+  { name: "St. Augustine", slug: "roofing-st-augustine-fl", county: "St. Johns" },
+  { name: "Ponte Vedra Beach", slug: "roofing-ponte-vedra-beach-fl", county: "St. Johns" },
+  { name: "Nocatee", slug: "roofing-nocatee-fl", county: "St. Johns" },
+  { name: "Orange Park", slug: "roofing-orange-park-fl", county: "Clay" },
+  { name: "Fernandina Beach", slug: "roofing-fernandina-beach-fl", county: "Nassau" }
+]
+
+const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAreas>>((acc, area) => {
+  (acc[area.county] = acc[area.county] || []).push(area)
+  return acc
+}, {})
 
 const faqs = [
   { question: "How quickly can you repair my roof?", answer: "For emergencies like active leaks, we offer same-day or next-day service. Standard repairs are typically scheduled within 2-5 business days of your inspection. Our response time depends on current demand and weather conditions." },
@@ -27,52 +57,34 @@ const faqs = [
   { question: "Can you match my existing shingles?", answer: "In most cases, yes. We stock common shingle colors and can order specific matches. However, existing shingles fade over time, so a perfect match isn't always possible. We'll discuss options during your estimate." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Roof Repair Jacksonville FL",
-  "description": "Professional roof repair services in Jacksonville, Florida. Fast, reliable repairs for leaks, storm damage, shingle repair, and flashing repair.",
-  "url": "https://www.gimosroofing.com/services/roof-repair",
-  "provider": {
-    "@type": "RoofingContractor",
-    "name": "Gimo's Roofing",
-    "telephone": "+1-904-606-5313",
-    "url": "https://www.gimosroofing.com",
-    "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-    "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "33 24th Street East",
-      "addressLocality": "Jacksonville",
-      "addressRegion": "FL",
-      "postalCode": "32206",
-      "addressCountry": "US"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "81",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "priceRange": "$$"
-  },
-  "areaServed": {
-    "@type": "City",
-    "name": "Jacksonville",
-    "addressRegion": "FL"
-  },
+  "name": "Roof Repair in Jacksonville FL",
   "serviceType": "Roof Repair",
-  "offers": {
-    "@type": "Offer",
-    "price": "150",
-    "priceCurrency": "USD",
-    "priceSpecification": {
-      "@type": "PriceSpecification",
-      "minPrice": "150",
-      "maxPrice": "3500",
-      "priceCurrency": "USD"
-    }
+  "description": "Professional roof repair in Jacksonville FL for leaks, damaged shingles, flashing failures, and storm damage across Duval, St. Johns, Clay, and Nassau counties.",
+  "url": "https://www.gimosroofing.com/services/roof-repair",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
+  "areaServed": [
+    { "@type": "City", "name": "Jacksonville, FL" },
+    { "@type": "City", "name": "Jacksonville Beach, FL" },
+    { "@type": "City", "name": "Atlantic Beach, FL" },
+    { "@type": "City", "name": "Neptune Beach, FL" },
+    { "@type": "City", "name": "St. Augustine, FL" },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL" },
+    { "@type": "City", "name": "Nocatee, FL" },
+    { "@type": "City", "name": "Orange Park, FL" },
+    { "@type": "City", "name": "Fernandina Beach, FL" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Roof Repair Options",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Leak Repair", "description": "Same-day roof leak repair tracing leaks to source and replacing failed materials." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Shingle Roof Repair", "description": "Replacement of cracked, curled, missing, and wind-damaged shingles with matching materials." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Flashing Repair", "description": "Chimney, vent, skylight, and wall-transition flashing repair using correct overlap and sealants." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Storm Damage Roof Repair", "description": "Hurricane, wind, and hail damage repair with insurance claim assistance." } }
+    ]
   }
 }
 
@@ -89,13 +101,15 @@ const breadcrumbSchema = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/services/roof-repair",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
 export default function RoofRepairPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -111,9 +125,9 @@ export default function RoofRepairPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Roof Repair</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Roof Repair Jacksonville FL - Leaks, Shingles & Flashing</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Roof Repair in Jacksonville FL - Leaks, Shingles &amp; Flashing</h1>
               <p className="text-lg text-gray-200 mb-6">
-                We fix roof leaks, damaged shingles, and failed flashing throughout Jacksonville. Same-day emergency service available. Most repairs completed in one visit with materials we stock on our trucks.
+                Looking for a roof repair nearby? Gimo&apos;s Roofing fixes roof leaks, damaged shingles, and failed flashing across Duval, St. Johns, Clay, and Nassau counties. Same-day emergency response is available and most repairs are completed in one visit with materials we stock on our trucks.
               </p>
               <ul className="text-gray-200 mb-6 space-y-2">
                 <li className="flex items-center gap-2"><span className="text-primary">&#10003;</span> Licensed, insured, and locally owned</li>
@@ -144,7 +158,34 @@ export default function RoofRepairPage() {
               <span className="font-bold">Active leak? We offer <Link href="/services/emergency-roof-repair" className="underline hover:no-underline">24/7 emergency roof repair</Link> with same-day tarping.</span>
             </div>
             <span className="hidden md:block">|</span>
-            <a href="tel:+19046065313" className="font-bold hover:underline">Call Now: (904) 606-5313</a>
+            <a href="tel:+19046065313" className="font-bold hover:underline">Call Now: {phone}</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Review Ribbon */}
+      <section className="bg-white border-b border-gray-200 py-4">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
+            <div className="flex items-center gap-3">
+              <span className="text-sm font-semibold text-secondary">FL License #CCC1332453</span>
+              <span className="text-gray-300">|</span>
+              <div className="flex text-primary">
+                <StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarIcon />
+              </div>
+              <span className="text-sm font-semibold text-secondary">5-Star Rated by Jacksonville Homeowners</span>
+            </div>
+            <div className="flex items-center gap-6">
+              <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" title="View Gimo's Roofing Google Reviews">
+                <Image src="/google-logo.png" alt="Read Gimo's Roofing reviews on Google" title="Google Reviews" width={80} height={28} className="h-7 w-auto object-contain" />
+              </a>
+              <a href="https://www.yelp.com/biz/gimos-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
+                <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
+              </a>
+              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+                <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -154,16 +195,16 @@ export default function RoofRepairPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Repair Services We Provide</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">From minor shingle replacements to complex flashing repairs, we handle all types of residential roof repairs in Jacksonville. Our crews carry common materials on their trucks for same-day repairs when possible.</p>
+            <p className="text-gray-600 max-w-3xl mx-auto">Gimo&apos;s Roofing delivers roof repair in Jacksonville FL for every common issue, from minor shingle replacements to complex flashing repairs. Our crews carry materials on their trucks for same-day service across Northeast Florida whenever possible.</p>
           </div>
 
           <div className="space-y-8">
             {/* Leak Repair */}
-            <div className="bg-white rounded-xl shadow-md p-8">
+            <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
                   <h3 className="text-xl font-bold text-secondary mb-3">Roof Leak Repair</h3>
-                  <p className="text-gray-600 mb-4">Roof leaks are the most urgent repair we handle. Water intrusion causes progressive damage to insulation, drywall, framing, and can lead to mold growth within 24-48 hours. We prioritize leak repairs and often complete them the same day you call.</p>
+                  <p className="text-gray-600 mb-4">Roof leaks are the most urgent repair we handle. Water intrusion causes progressive damage to insulation, drywall, framing, and can lead to mold growth within 24-48 hours. As a locally owned <Link href="/" className="text-primary hover:underline">Jacksonville roofing company</Link>, we prioritize leak repairs and often complete them the same day you call.</p>
                   <p className="text-gray-600 mb-4">Common leak sources in Jacksonville homes include failed flashing around chimneys and vents, cracked pipe boots, damaged valleys, and wind-lifted shingles. We trace leaks to their source rather than just patching visible damage.</p>
                   <p className="text-gray-600"><strong>Typical cost:</strong> $250-$800 depending on leak location and accessibility. Complex leaks requiring extensive investigation may cost more.</p>
                 </div>
@@ -182,7 +223,7 @@ export default function RoofRepairPage() {
             </div>
 
             {/* Shingle Repair */}
-            <div className="bg-white rounded-xl shadow-md p-8">
+            <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
                   <h3 className="text-xl font-bold text-secondary mb-3">Shingle Roof Repair</h3>
@@ -205,7 +246,7 @@ export default function RoofRepairPage() {
             </div>
 
             {/* Flashing Repair */}
-            <div className="bg-white rounded-xl shadow-md p-8">
+            <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
                   <h3 className="text-xl font-bold text-secondary mb-3">Roof Flashing Repair</h3>
@@ -228,12 +269,12 @@ export default function RoofRepairPage() {
             </div>
 
             {/* Storm Damage */}
-            <div className="bg-white rounded-xl shadow-md p-8">
+            <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
                   <h3 className="text-xl font-bold text-secondary mb-3">Storm Damage Roof Repair</h3>
                   <p className="text-gray-600 mb-4">Living in Jacksonville means dealing with hurricane season, severe thunderstorms, and occasional hail. Storm damage ranges from a few blown-off shingles to extensive structural damage requiring major repairs or full replacement.</p>
-                  <p className="text-gray-600 mb-4">After storms, we provide emergency tarping to prevent further damage, thorough damage assessments with photo documentation, detailed estimates for insurance claims, and coordination with adjusters. We&apos;ve helped hundreds of homeowners through the insurance claim process.</p>
+                  <p className="text-gray-600 mb-4">After storms, we provide <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair in Jacksonville FL</Link> including tarping to prevent further damage, thorough damage assessments with photo documentation, detailed estimates for insurance claims, and coordination with adjusters. We&apos;ve helped hundreds of homeowners through the insurance claim process.</p>
                   <p className="text-gray-600"><strong>Typical cost:</strong> Varies widely based on damage. Insurance typically covers storm damage minus your deductible. We work directly with your insurance company.</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
@@ -262,7 +303,7 @@ export default function RoofRepairPage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <div className="bg-white rounded-xl shadow-md p-6 text-center">
+            <div className="card p-6 text-center">
               <h3 className="font-bold text-secondary mb-2">Minor Repairs</h3>
               <p className="text-3xl font-bold text-primary mb-2">$150 - $600</p>
               <ul className="text-gray-600 text-sm text-left space-y-1">
@@ -272,7 +313,7 @@ export default function RoofRepairPage() {
                 <li>&#8226; Minor sealant repairs</li>
               </ul>
             </div>
-            <div className="bg-white rounded-xl shadow-md p-6 text-center border-2 border-primary">
+            <div className="card p-6 text-center border-2 border-primary">
               <h3 className="font-bold text-secondary mb-2">Medium Repairs</h3>
               <p className="text-3xl font-bold text-primary mb-2">$600 - $1,500</p>
               <ul className="text-gray-600 text-sm text-left space-y-1">
@@ -282,7 +323,7 @@ export default function RoofRepairPage() {
                 <li>&#8226; Valley repairs</li>
               </ul>
             </div>
-            <div className="bg-white rounded-xl shadow-md p-6 text-center">
+            <div className="card p-6 text-center">
               <h3 className="font-bold text-secondary mb-2">Major Repairs</h3>
               <p className="text-3xl font-bold text-primary mb-2">$1,500 - $3,500+</p>
               <ul className="text-gray-600 text-sm text-left space-y-1">
@@ -308,22 +349,22 @@ export default function RoofRepairPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-primary text-secondary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-2xl">1</div>
-              <h3 className="font-bold text-secondary mb-2">Contact Us</h3>
+              <p className="font-bold text-secondary mb-2">Contact Us</p>
               <p className="text-gray-600 text-sm">Call (904) 606-5313 or request an estimate online. Describe your issue and we&apos;ll schedule an inspection, often same-day for emergencies.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-primary text-secondary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-2xl">2</div>
-              <h3 className="font-bold text-secondary mb-2">Inspection</h3>
+              <p className="font-bold text-secondary mb-2">Inspection</p>
               <p className="text-gray-600 text-sm">We inspect your roof thoroughly, identify all damage, take photos, and explain findings. You&apos;ll receive a detailed written estimate with repair options.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-primary text-secondary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-2xl">3</div>
-              <h3 className="font-bold text-secondary mb-2">Repair</h3>
+              <p className="font-bold text-secondary mb-2">Repair</p>
               <p className="text-gray-600 text-sm">Once approved, we schedule your repair. Many repairs are completed same-day. We use quality materials and proven techniques for lasting results.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-primary text-secondary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-2xl">4</div>
-              <h3 className="font-bold text-secondary mb-2">Follow-Up</h3>
+              <p className="font-bold text-secondary mb-2">Follow-Up</p>
               <p className="text-gray-600 text-sm">We clean up completely, provide before/after photos, and explain our warranty. We follow up to ensure your satisfaction with the repair.</p>
             </div>
           </div>
@@ -373,25 +414,25 @@ export default function RoofRepairPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-xl shadow-md p-6">
+            <div className="card p-6">
               <h3 className="text-xl font-bold text-secondary mb-3">Hurricane Season</h3>
               <p className="text-gray-600 mb-3">Jacksonville sits in the hurricane zone with exposure to tropical storms from June through November. High winds can lift shingles, tear off flashing, and drive rain under roofing materials. Even storms that don&apos;t directly hit Jacksonville can cause damage from wind gusts and heavy rain bands.</p>
               <p className="text-gray-600">We recommend pre-season inspections in May and post-storm inspections after any significant weather event. Early detection prevents small issues from becoming major problems.</p>
             </div>
 
-            <div className="bg-white rounded-xl shadow-md p-6">
+            <div className="card p-6">
               <h3 className="text-xl font-bold text-secondary mb-3">Humidity and Heat</h3>
               <p className="text-gray-600 mb-3">Jacksonville&apos;s humidity averages 74% year-round, with summer temperatures regularly exceeding 90°F. This combination accelerates roof material degradation, promotes algae and moss growth, and causes expansion/contraction cycles that stress seams and fasteners.</p>
               <p className="text-gray-600">Asphalt shingles in Jacksonville typically last 15-20 years compared to 25-30 years in cooler, drier climates. Regular maintenance extends lifespan significantly.</p>
             </div>
 
-            <div className="bg-white rounded-xl shadow-md p-6">
+            <div className="card p-6">
               <h3 className="text-xl font-bold text-secondary mb-3">Salt Air Exposure</h3>
               <p className="text-gray-600 mb-3">Homes near the coast and St. Johns River experience salt air exposure that corrodes metal flashing, fasteners, and vents. This corrosion accelerates in Jacksonville&apos;s humid environment and can cause premature failure of roof components.</p>
               <p className="text-gray-600">We use corrosion-resistant materials for coastal properties and recommend more frequent inspections for homes within 5 miles of salt water.</p>
             </div>
 
-            <div className="bg-white rounded-xl shadow-md p-6">
+            <div className="card p-6">
               <h3 className="text-xl font-bold text-secondary mb-3">Sudden Storms</h3>
               <p className="text-gray-600 mb-3">Summer afternoon thunderstorms are a Jacksonville staple. These storms bring intense rain, lightning, hail, and wind gusts that can exceed 60 mph. Damage often occurs quickly and may not be immediately visible from the ground.</p>
               <p className="text-gray-600">After severe thunderstorms, look for granules in gutters, check for water stains inside, and consider a professional inspection if you suspect damage.</p>
@@ -409,7 +450,7 @@ export default function RoofRepairPage() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8">
-            <div className="bg-white rounded-xl shadow-md p-8">
+            <div className="card p-8">
               <h3 className="text-xl font-bold text-green-600 mb-4">Repair Makes Sense When:</h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start gap-3">
@@ -435,7 +476,7 @@ export default function RoofRepairPage() {
               </ul>
             </div>
 
-            <div className="bg-white rounded-xl shadow-md p-8">
+            <div className="card p-8">
               <h3 className="text-xl font-bold text-red-600 mb-4">Replace Is Better When:</h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start gap-3">
@@ -510,12 +551,38 @@ export default function RoofRepairPage() {
         </div>
       </section>
 
+      {/* Service Areas */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Repair Service Areas in Northeast Florida</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              We provide roof repair across Duval, St. Johns, Clay, and Nassau counties.
+            </p>
+          </div>
+          <div className="space-y-8">
+            {Object.entries(serviceAreasByCounty).map(([county, areas]) => (
+              <div key={county}>
+                <h3 className="text-lg md:text-xl font-bold text-primary mb-4 text-center md:text-left">{county} County</h3>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                  {areas.map((area) => (
+                    <Link key={area.slug} href={`/${area.slug}`} title={`Roof Repair in ${area.name}, FL`} className="group card hover:bg-primary p-4 text-center">
+                      <span className="block text-sm font-semibold text-secondary group-hover:text-secondary">{area.name}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Repair FAQs</h2>
-            <p className="text-gray-600">Common questions about roof repairs in Jacksonville.</p>
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Gimo&apos;s Roofing Answers</span>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Repair FAQ</h2>
           </div>
           <FAQ faqs={faqs} />
         </div>
@@ -529,27 +596,27 @@ export default function RoofRepairPage() {
             <p className="text-gray-600 max-w-2xl mx-auto">Learn more about roof repairs, when to repair vs replace, and how to handle insurance claims.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Link href="/blog/roof-repair-vs-replacement-jacksonville" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/blog/roof-repair-vs-replacement-jacksonville" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roof Repair vs Replacement</h3>
               <p className="text-gray-600 text-sm">When does repair make sense and when is replacement the better investment?</p>
             </Link>
-            <Link href="/blog/roof-leak-repair-guide-jacksonville" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/blog/roof-leak-repair-guide-jacksonville" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Complete Leak Repair Guide</h3>
               <p className="text-gray-600 text-sm">Everything about finding and fixing roof leaks in Jacksonville homes.</p>
             </Link>
-            <Link href="/blog/storm-damage-roofing-insurance" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/blog/storm-damage-roofing-insurance" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Storm Damage Insurance Claims</h3>
               <p className="text-gray-600 text-sm">How to document damage and navigate the insurance claim process.</p>
             </Link>
-            <Link href="/blog/roof-flashing-types-purposes" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/blog/roof-flashing-types-purposes" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roof Flashing Guide</h3>
               <p className="text-gray-600 text-sm">Understanding flashing types and why proper repair is critical.</p>
             </Link>
-            <Link href="/blog/signs-you-need-new-roof-florida" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/blog/signs-you-need-new-roof-florida" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Signs You Need a New Roof</h3>
               <p className="text-gray-600 text-sm">Warning signs that indicate your roof needs more than repairs.</p>
             </Link>
-            <Link href="/blog/roof-insurance-claim-florida-guide" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/blog/roof-insurance-claim-florida-guide" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Florida Insurance Claim Guide</h3>
               <p className="text-gray-600 text-sm">Step-by-step guide to filing a successful roof insurance claim.</p>
             </Link>

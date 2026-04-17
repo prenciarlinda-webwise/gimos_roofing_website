@@ -4,14 +4,44 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Siding Contractors Jacksonville FL - Vinyl & Fiber Cement",
-  description: "Siding contractors in Jacksonville FL. Vinyl siding, Hardie board & fiber cement installation. Licensed, insured. Free estimates: (904) 606-5313.",
-  keywords: ["siding contractors near me", "siding contractors jacksonville fl", "siding installation jacksonville fl", "vinyl siding jacksonville", "hardie board siding installation", "fiber cement siding"],
+  title: { absolute: "Siding Installation in Jacksonville FL - Gimo's Roofing" },
+  description: "Siding installation in Jacksonville FL from Gimo's Roofing. Vinyl siding, Hardie board, and fiber cement installation with financing available nearby. Call (904) 606-5313.",
+  openGraph: {
+    title: "Siding Installation in Jacksonville FL - Gimo's Roofing",
+    description: "Licensed siding installation in Jacksonville FL. Vinyl, Hardie board, and fiber cement. Free estimates and financing. Call (904) 606-5313.",
+    url: "https://www.gimosroofing.com/services/siding-installation",
+  },
   alternates: { canonical: "https://www.gimosroofing.com/services/siding-installation" },
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
 const financingUrl = 'https://application.enerbank.com/#/link?spnum=8007747598&cid=118584&promo=DEL2625&loamt='
+const phone = "(904) 606-5313"
+
+const StarIcon = () => (
+  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+)
+
+const serviceAreas = [
+  { name: "Jacksonville", slug: "roofing-jacksonville-fl", county: "Duval" },
+  { name: "Jacksonville Beach", slug: "roofing-jacksonville-beach-fl", county: "Duval" },
+  { name: "Atlantic Beach", slug: "roofing-atlantic-beach-fl", county: "Duval" },
+  { name: "Neptune Beach", slug: "roofing-neptune-beach-fl", county: "Duval" },
+  { name: "Riverside", slug: "roofing-riverside-fl", county: "Duval" },
+  { name: "San Marco", slug: "roofing-san-marco-fl", county: "Duval" },
+  { name: "Mandarin", slug: "roofing-mandarin-fl", county: "Duval" },
+  { name: "Southside", slug: "roofing-southside-jax-fl", county: "Duval" },
+  { name: "St. Augustine", slug: "roofing-st-augustine-fl", county: "St. Johns" },
+  { name: "Ponte Vedra Beach", slug: "roofing-ponte-vedra-beach-fl", county: "St. Johns" },
+  { name: "Nocatee", slug: "roofing-nocatee-fl", county: "St. Johns" },
+  { name: "Orange Park", slug: "roofing-orange-park-fl", county: "Clay" },
+  { name: "Fernandina Beach", slug: "roofing-fernandina-beach-fl", county: "Nassau" }
+]
+
+const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAreas>>((acc, area) => {
+  (acc[area.county] = acc[area.county] || []).push(area)
+  return acc
+}, {})
 
 const sidingTypes = [
   { name: "Vinyl Siding", description: "The most popular siding choice. Affordable, low-maintenance, and available in countless colors and styles.", benefits: ["Affordable", "Low maintenance", "Many color options", "Weather resistant"], image: "/images/siding-installation-jacksonville-home.webp" },
@@ -44,56 +74,42 @@ const faqs = [
   { question: "Do you offer financing for siding projects?", answer: "Yes, we offer financing through EnerBank with competitive rates and terms up to 144 months. Many homeowners qualify for low monthly payments that make siding replacement affordable." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Siding Installation Jacksonville FL",
-  "description": "Professional siding installation in Jacksonville, Florida. Vinyl, fiber cement, wood, and engineered wood siding.",
-  "url": "https://www.gimosroofing.com/services/siding-installation",
-  "provider": {
-    "@type": "HomeAndConstructionBusiness",
-    "name": "Gimo's Roofing",
-    "telephone": "+1-904-606-5313",
-    "url": "https://www.gimosroofing.com",
-    "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "33 24th Street East",
-      "addressLocality": "Jacksonville",
-      "addressRegion": "FL",
-      "postalCode": "32206",
-      "addressCountry": "US"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "81",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "priceRange": "$$"
-  },
-  "areaServed": {
-    "@type": "City",
-    "name": "Jacksonville",
-    "addressRegion": "FL"
-  },
+  "name": "Siding Installation in Jacksonville FL",
   "serviceType": "Siding Installation",
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "USD",
-    "priceSpecification": {
-      "@type": "PriceSpecification",
-      "minPrice": "8000",
-      "maxPrice": "45000",
-      "priceCurrency": "USD"
-    }
+  "description": "Siding installation in Jacksonville FL for vinyl siding, Hardie board, fiber cement, and engineered wood across Duval, St. Johns, Clay, and Nassau counties.",
+  "url": "https://www.gimosroofing.com/services/siding-installation",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
+  "areaServed": [
+    { "@type": "City", "name": "Jacksonville, FL" },
+    { "@type": "City", "name": "Jacksonville Beach, FL" },
+    { "@type": "City", "name": "Atlantic Beach, FL" },
+    { "@type": "City", "name": "Neptune Beach, FL" },
+    { "@type": "City", "name": "St. Augustine, FL" },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL" },
+    { "@type": "City", "name": "Nocatee, FL" },
+    { "@type": "City", "name": "Orange Park, FL" },
+    { "@type": "City", "name": "Fernandina Beach, FL" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Siding Installation Options",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Vinyl Siding Installation", "description": "Premium vinyl siding with UV-stabilized panels in hundreds of colors and profiles." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fiber Cement (Hardie Board) Siding", "description": "James Hardie fiber cement siding installation with 50+ year lifespan and fire resistance." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Engineered Wood Siding", "description": "LP SmartSide and similar engineered wood siding with moisture and pest resistance." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Natural Wood Siding", "description": "Cedar and redwood siding installation for authentic wood exterior aesthetics." } }
+    ]
   }
 }
 
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/services/siding-installation",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -110,7 +126,7 @@ const breadcrumbSchema = {
 export default function SidingInstallationPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -126,9 +142,9 @@ export default function SidingInstallationPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Siding Installation</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Siding Contractors Jacksonville FL - Installation & Replacement</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Siding Installation in Jacksonville FL - Vinyl, Hardie &amp; Fiber Cement</h1>
               <p className="text-lg text-gray-200 mb-6">
-                Licensed siding contractors serving Jacksonville. Vinyl, fiber cement, and Hardie board installation. Complete tear-off and replacement.
+                Looking for siding installation near me in Northeast Florida? Gimo&apos;s Roofing is a licensed team of siding contractors Jacksonville FL homeowners trust for vinyl siding, Hardie board, fiber cement, and engineered wood installations across Duval, St. Johns, Clay, and Nassau counties.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-full sm:w-auto">Get Free Estimate</a>
@@ -137,6 +153,33 @@ export default function SidingInstallationPage() {
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
               <Image src="/images/siding-installation-jacksonville-home.webp" alt="Siding installation on Jacksonville home" title="Siding installation on Jacksonville home" fill className="object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Review Ribbon */}
+      <section className="bg-white border-b border-gray-200 py-4">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
+            <div className="flex items-center gap-3">
+              <span className="text-sm font-semibold text-secondary">FL License #CCC1332453</span>
+              <span className="text-gray-300">|</span>
+              <div className="flex text-primary">
+                <StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarIcon />
+              </div>
+              <span className="text-sm font-semibold text-secondary">5-Star Rated by Jacksonville Homeowners</span>
+            </div>
+            <div className="flex items-center gap-6">
+              <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" title="View Gimo's Roofing Google Reviews">
+                <Image src="/google-logo.png" alt="Read Gimo's Roofing reviews on Google" title="Google Reviews" width={80} height={28} className="h-7 w-auto object-contain" />
+              </a>
+              <a href="https://www.yelp.com/biz/gimos-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
+                <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
+              </a>
+              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+                <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
+              </a>
             </div>
           </div>
         </div>
@@ -507,12 +550,39 @@ export default function SidingInstallationPage() {
         </div>
       </section>
 
+      {/* Service Areas */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Siding Installation Service Areas in Northeast Florida</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              As trusted siding contractors Jacksonville FL homeowners rely on, we provide siding installation across Duval, St. Johns, Clay, and Nassau counties.
+            </p>
+          </div>
+          <div className="space-y-8">
+            {Object.entries(serviceAreasByCounty).map(([county, areas]) => (
+              <div key={county}>
+                <h3 className="text-lg md:text-xl font-bold text-primary mb-4 text-center md:text-left">{county} County</h3>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                  {areas.map((area) => (
+                    <Link key={area.slug} href={`/${area.slug}`} title={`Siding Installation in ${area.name}, FL`} className="group card hover:bg-primary p-4 text-center">
+                      <span className="block text-sm font-semibold text-secondary group-hover:text-secondary">{area.name}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Siding Installation FAQs</h2>
-            <p className="text-gray-600">Common questions about siding installation in Jacksonville.</p>
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Gimo&apos;s Roofing Answers</span>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Siding Installation FAQ</h2>
+            <p className="text-gray-600">Common questions about siding installation in Jacksonville FL.</p>
           </div>
           <FAQ faqs={faqs} />
         </div>

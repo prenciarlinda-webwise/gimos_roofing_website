@@ -62,6 +62,12 @@ const structuredData = {
   "url": "https://www.gimosroofing.com",
   "telephone": "(904) 606-5313",
   "email": "management@gimosroofing.com",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Florida Contractor License",
+    "value": "CCC1332453"
+  },
+  "foundingDate": "2001",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "33 24th Street East",
@@ -81,14 +87,36 @@ const structuredData = {
     "opens": "08:00",
     "closes": "17:30"
   },
-  "areaServed": {
-    "@type": "GeoCircle",
-    "geoMidpoint": {
-      "@type": "GeoCoordinates",
-      "latitude": 30.3322,
-      "longitude": -81.6557
-    },
-    "geoRadius": "80467"
+  "areaServed": [
+    { "@type": "City", "name": "Jacksonville, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
+    { "@type": "City", "name": "Jacksonville Beach, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
+    { "@type": "City", "name": "Atlantic Beach, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
+    { "@type": "City", "name": "Neptune Beach, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
+    { "@type": "City", "name": "St. Augustine, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "St. Johns County, FL" } },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "St. Johns County, FL" } },
+    { "@type": "City", "name": "Nocatee, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "St. Johns County, FL" } },
+    { "@type": "City", "name": "Orange Park, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "Clay County, FL" } },
+    { "@type": "City", "name": "Fernandina Beach, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "Nassau County, FL" } }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Roofing & Siding Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roof Repair", "url": "https://www.gimosroofing.com/services/emergency-roof-repair" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement", "url": "https://www.gimosroofing.com/services/roof-replacement" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Repair", "url": "https://www.gimosroofing.com/services/roof-repair" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing", "url": "https://www.gimosroofing.com/services/commercial-roofing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "New Construction Roofing", "url": "https://www.gimosroofing.com/services/new-construction-roofing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siding Installation", "url": "https://www.gimosroofing.com/services/siding-installation" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siding Repair", "url": "https://www.gimosroofing.com/services/siding-repair" } }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "81",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   "priceRange": "$$",
   "paymentAccepted": ["Cash", "Credit Card", "Financing Available"],

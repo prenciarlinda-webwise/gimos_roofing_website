@@ -1,7 +1,3 @@
-'use client'
-
-import { useState } from 'react'
-
 interface FAQItem {
   question: string
   answer: string
@@ -12,34 +8,25 @@ interface FAQProps {
 }
 
 export default function FAQ({ faqs }: FAQProps) {
-  const [openIndex, setOpenIndex] = useState<number | null>(null)
-
-  const toggleFAQ = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index)
-  }
-
   return (
     <div className="space-y-3">
       {faqs.map((faq, index) => (
-        <div key={index} className="border border-gray-200 rounded-xl overflow-hidden">
-          <button
-            onClick={() => toggleFAQ(index)}
-            className="w-full px-5 py-4 text-left flex justify-between items-center hover:bg-gray-50"
-          >
-            <span className="font-semibold text-secondary text-sm pr-4">{faq.question}</span>
+        <details key={index} className="group border border-gray-200 rounded-xl overflow-hidden">
+          <summary className="list-none cursor-pointer px-5 py-4 flex justify-between items-center hover:bg-gray-50">
+            <h3 className="m-0 font-semibold text-secondary text-sm pr-4">{faq.question}</h3>
             <svg
-              className={`w-4 h-4 text-primary transition-transform flex-shrink-0 ${openIndex === index ? 'rotate-180' : ''}`}
+              className="w-4 h-4 text-primary transition-transform flex-shrink-0 group-open:rotate-180"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
             </svg>
-          </button>
-          <div className={`${openIndex === index ? '' : 'hidden'} px-5 pb-4`}>
+          </summary>
+          <div className="px-5 pb-4">
             <p className="text-gray-600 text-sm">{faq.answer}</p>
           </div>
-        </div>
+        </details>
       ))}
     </div>
   )

@@ -4,8 +4,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: "Service Areas - Roofing Company Jacksonville & NE Florida",
-  description: "Call (904) 606-5313. Gimo's Roofing serves Jacksonville, Ponte Vedra, St. Augustine, Orange Park & all of Northeast Florida.",
-  keywords: ["roofing service areas jacksonville", "roofers northeast florida", "jacksonville roofing coverage", "orange park roofing", "st augustine roofing", "ponte vedra roofing", "fernandina beach roofing"],
+  description: "Call (904) 606-5313. Gimo's Roofing serves Jacksonville, Ponte Vedra, St. Augustine, Orange Park & all of Northeast Florida.",
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -35,13 +34,12 @@ const counties = [
 
 const schemaData = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "name": "Gimo's Roofing",
+  "@type": "CollectionPage",
+  "name": "Roofing Service Areas in Northeast Florida",
   "description": "Professional roofing services throughout Northeast Florida including Duval, St. Johns, Clay, and Nassau counties.",
   "url": "https://www.gimosroofing.com/service-areas",
-  "telephone": "(904) 606-5313",
-  "areaServed": serviceAreas.map(area => ({ "@type": "City", "name": area.name + ", FL" })),
-  "priceRange": "$$"
+  "mainEntity": { "@id": "https://www.gimosroofing.com/#organization" },
+  "about": serviceAreas.map(area => ({ "@type": "City", "name": area.name + ", FL" }))
 }
 
 const breadcrumbSchema = {

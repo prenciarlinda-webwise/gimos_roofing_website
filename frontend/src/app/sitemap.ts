@@ -22,12 +22,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Service pages
   const servicePages = [
     { url: `${baseUrl}/services`, changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/services/emergency-roof-repair`, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/services/roof-replacement`, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/services/roof-repair`, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/services/new-construction-roofing`, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${baseUrl}/services/commercial-roofing`, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${baseUrl}/services/siding-installation`, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${baseUrl}/services/siding-repair`, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/roof-financing-florida`, changeFrequency: 'monthly' as const, priority: 0.8 },
   ]
 
   // Jacksonville main page (highest priority location)

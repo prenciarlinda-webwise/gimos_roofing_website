@@ -6,7 +6,6 @@ import FAQ from '@/components/FAQ'
 export const metadata: Metadata = {
   title: "Roofing Southside Jacksonville FL - Residential & Commercial Roofing",
   description: "Roofing in Southside Jacksonville FL. Baymeadows, Deerwood & St. Johns Town Center. Residential & commercial roofing. Call (904) 606-5313.",
-  keywords: ["roofing southside jacksonville fl", "southside jax roofers", "commercial roofing jacksonville", "baymeadows roofing", "deerwood roof repair", "southside roof replacement"],
   alternates: { canonical: "https://www.gimosroofing.com/roofing-southside-jax-fl" },
 }
 
@@ -35,31 +34,12 @@ const faqs = [
   { question: "How often should I inspect a commercial flat roof in Southside Jacksonville?", answer: "Twice a year minimum for commercial flat roofs — once in the spring before hurricane season, once in November after the last named storm. Commercial flat roofs with HVAC units, skylights, vent stacks, or rooftop equipment need quarterly inspections because every penetration is a potential leak point and HVAC servicing crews regularly damage roofing membrane without reporting it. The medical buildings in the Baymeadows medical corridor, restaurants in the Town Center area, and any building with multiple tenants all benefit from quarterly walks. Residential roofs in 32216, 32246, and 32256 need annual inspections plus a post-storm walkthrough after any system with winds above 50 mph. We offer free inspections for all property types and we maintain year-over-year photo records on file so we can show you exactly how the roof has changed since last visit." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "@id": "https://www.gimosroofing.com/#localbusiness",
-  "name": "Gimo's Roofing",
-  "url": "https://www.gimosroofing.com/roofing-southside-jax-fl",
-  "telephone": "+19046065313",
-  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-hero.webp",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
-    "addressLocality": "Jacksonville",
-    "addressRegion": "FL",
-    "postalCode": "32206",
-    "addressCountry": "US"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "priceRange": "$$",
+  "@type": "Service",
+  "name": "Roofing Services in Southside Jacksonville, FL",
+  "serviceType": "Roofing Contractor",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": {
     "@type": "Neighborhood",
     "name": "Southside Jacksonville",
@@ -67,6 +47,7 @@ const schemaData = {
       "https://en.wikipedia.org/wiki/Jacksonville,_Florida"
     ]
   },
+  "url": "https://www.gimosroofing.com/roofing-southside-jax-fl",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Roofing Services in Southside Jacksonville, FL",
@@ -94,6 +75,8 @@ const schemaData = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/roofing-southside-jax-fl",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -110,7 +93,7 @@ const breadcrumbSchema = {
 export default function SouthsideJaxPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -144,7 +127,7 @@ export default function SouthsideJaxPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
           </div>
         </div>

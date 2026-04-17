@@ -6,21 +6,6 @@ import FAQ from '@/components/FAQ'
 export const metadata: Metadata = {
   title: "Jacksonville Roofer | Best Roofing Companies in Jacksonville FL",
   description: "Looking for the best roofing company in Jacksonville FL? Gimo's Roofing is Jacksonville's top-rated roofer. Roof repair, replacement & installation. 500+ roofs completed. Call (904) 606-5313.",
-  keywords: [
-    "jacksonville roofer",
-    "jacksonville roofing companies",
-    "best roofing companies in jacksonville fl",
-    "roofing companies jacksonville fl",
-    "roofing company jacksonville fl",
-    "roofers jacksonville fl",
-    "roofing jacksonville fl",
-    "jacksonville roofing contractor",
-    "jacksonville roofing repair",
-    "roof replacement jacksonville fl",
-    "roofing jacksonville",
-    "jacksonville fl roofer",
-    "best roofer jacksonville fl"
-  ],
   openGraph: {
     title: "Jacksonville Roofer | Best Roofing Companies in Jacksonville FL",
     description: "Gimo's Roofing - Jacksonville's #1 rated roofing company. 500+ roofs, 5-star reviews, licensed & insured. Free estimates: (904) 606-5313.",
@@ -55,7 +40,7 @@ const neighborhoods = [
 ]
 
 const faqs = [
-  { question: "What is the best roofing company in Jacksonville FL?", answer: "Gimo's Roofing is consistently rated the best roofing company in Jacksonville FL with a 5.0-star rating across Google, Yelp, and Thumbtack. With 500+ completed roofs, 15+ years of experience, and fully licensed and insured contractors, we deliver quality workmanship on every project. Our Jacksonville roofers specialize in roof replacement, roof repair, and new construction roofing throughout Duval County." },
+  { question: "What is the best roofing company in Jacksonville FL?", answer: "Gimo's Roofing is consistently rated the best roofing company in Jacksonville FL with a 5.0-star rating across Google, Yelp, and Thumbtack. With 500+ completed roofs, 24 years of experience, and fully licensed and insured contractors, we deliver quality workmanship on every project. Our Jacksonville roofers specialize in roof replacement, roof repair, and new construction roofing throughout Duval County." },
   { question: "How much does a new roof cost in Jacksonville FL?", answer: "A new roof in Jacksonville FL typically costs between $7,900 and $25,000+ depending on your home's size, roof complexity, and materials chosen. Architectural shingles are the most popular choice, while metal roofing and tile cost more but last longer. Gimo's Roofing offers free estimates and flexible financing starting at $99/month so you can get the roof you need without financial stress." },
   { question: "How do I choose a Jacksonville roofing contractor?", answer: "When choosing a Jacksonville roofing contractor, verify their Florida license (you can check at myfloridalicense.com), confirm they carry liability insurance and workers' compensation, read Google reviews, ask for local references, and get written estimates. Avoid roofers who demand large upfront deposits or only accept cash. Gimo's Roofing is fully licensed, insured, and has 81+ five-star reviews." },
   { question: "How long does a roof last in Jacksonville FL?", answer: "In Jacksonville's hot, humid climate with hurricane exposure, standard 3-tab shingles last 15-20 years, architectural shingles last 20-30 years, metal roofing lasts 40-60 years, and tile roofing lasts 30-50+ years. Coastal areas like Jacksonville Beach may see shorter lifespans due to salt air. Regular inspections and prompt repairs extend your roof's life significantly." },
@@ -67,51 +52,19 @@ const faqs = [
   { question: "What should I do if my roof is damaged after a Jacksonville hurricane?", answer: "After a hurricane in Jacksonville: 1) Document damage with photos/video before any temporary repairs, 2) Call your insurance company to file a claim, 3) Call Gimo's Roofing at (904) 606-5313 for emergency tarping and a damage assessment, 4) Do NOT sign contracts with storm chasers going door-to-door. We assist with the entire insurance claim process and work directly with your adjuster." }
 ]
 
-const schemaData = {
+const serviceSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  "@id": "https://www.gimosroofing.com/roofing-jacksonville-fl#business",
-  "name": "Gimo's Roofing - Jacksonville FL",
+  "@type": "Service",
+  "name": "Roofing Services in Jacksonville, FL",
+  "serviceType": "Roofing Contractor",
+  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
+  "areaServed": {
+    "@type": "City",
+    "name": "Jacksonville, FL",
+    "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida"
+  },
   "url": "https://www.gimosroofing.com/roofing-jacksonville-fl",
-  "telephone": "+19046065313",
-  "logo": "https://www.gimosroofing.com/gimos-roofing-logo.webp",
-  "image": "https://www.gimosroofing.com/images/roofing-jacksonville-fl.webp",
-  "description": "Gimo's Roofing is Jacksonville FL's best-rated roofing company. We provide roof replacement, roof repair, emergency roofing, and new construction roofing throughout Jacksonville and Northeast Florida.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
-    "addressLocality": "Jacksonville",
-    "addressRegion": "FL",
-    "postalCode": "32206",
-    "addressCountry": "US"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 30.3322,
-    "longitude": -81.6557
-  },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-    "opens": "08:00",
-    "closes": "17:30"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "priceRange": "$$",
-  "areaServed": [
-    { "@type": "City", "name": "Jacksonville", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
-    { "@type": "City", "name": "Jacksonville Beach" },
-    { "@type": "City", "name": "Ponte Vedra Beach" },
-    { "@type": "City", "name": "St. Augustine" },
-    { "@type": "City", "name": "Orange Park" },
-    { "@type": "City", "name": "Fernandina Beach" }
-  ],
+  "description": "Roof replacement, roof repair, emergency roofing, and new construction roofing throughout Jacksonville and Northeast Florida.",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Roofing Services in Jacksonville FL",
@@ -122,18 +75,14 @@ const schemaData = {
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "New Construction Roofing Jacksonville FL", "description": "Expert roofing for new home builds in Jacksonville." } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing Jacksonville FL", "description": "Professional commercial roofing services for Jacksonville businesses." } }
     ]
-  },
-  "sameAs": [
-    "https://www.facebook.com/gimosrenovation/",
-    "https://www.instagram.com/gimosroofing/",
-    "https://www.yelp.com/biz/gimos-roofing-jacksonville",
-    "https://www.linkedin.com/company/gimo-s-renovation-roofing/"
-  ]
+  }
 }
 
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "mainEntityOfPage": "https://www.gimosroofing.com/roofing-jacksonville-fl",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
 }
 
@@ -150,11 +99,7 @@ const breadcrumbSchema = {
 const reviewSchema = {
   "@context": "https://schema.org",
   "@type": "Review",
-  "itemReviewed": {
-    "@type": "RoofingContractor",
-    "name": "Gimo's Roofing",
-    "address": { "@type": "PostalAddress", "addressLocality": "Jacksonville", "addressRegion": "FL" }
-  },
+  "itemReviewed": { "@id": "https://www.gimosroofing.com/#organization" },
   "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
   "author": { "@type": "Person", "name": "Mark Jackson" },
   "reviewBody": "Gimo's roofing company did a fantastic job for me from start to finish. There was a whole crew at my house at 0700 sharp. They completed my roof in one day and it looks great! They paid attention to every detail I requested and when they were finished, they cleaned up like they were never there. Great job!"
@@ -163,7 +108,7 @@ const reviewSchema = {
 export default function RoofingJacksonvilleFLPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
@@ -183,7 +128,7 @@ export default function RoofingJacksonvilleFLPage() {
           <p className="text-primary font-semibold mb-3">Serving All of Jacksonville & Northeast Florida</p>
           <h1 className="text-4xl md:text-5xl font-bold mb-5">Best Roofing Company in Jacksonville FL</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-            Looking for a trusted Jacksonville roofer? Gimo&apos;s Roofing is Jacksonville&apos;s top-rated roofing contractor with 500+ completed roofs, 5.0-star reviews, and 15+ years of experience. Licensed, insured, and locally owned.
+            Looking for a trusted Jacksonville roofer? Gimo&apos;s Roofing is Jacksonville&apos;s top-rated roofing contractor with 500+ completed roofs, 5.0-star reviews, and 24 years of experience. Licensed, insured, and locally owned.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-6">
             <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary px-6 py-3 font-semibold">Get Free Estimate</a>
@@ -208,7 +153,7 @@ export default function RoofingJacksonvilleFLPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs Completed</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">15+</span><span className="text-sm ml-2">Years Experience</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years Experience</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
             <div className="text-center"><span className="text-3xl font-bold">24/7</span><span className="text-sm ml-2">Emergency Service</span></div>
           </div>
@@ -237,7 +182,7 @@ export default function RoofingJacksonvilleFLPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Why Gimo&apos;s Roofing is Jacksonville&apos;s Best Roofing Company</h2>
           <p className="text-gray-600 mb-4">
-            Jacksonville homeowners have hundreds of roofing companies to choose from, but few deliver the combination of quality workmanship, transparent pricing, and genuine customer care that Gimo&apos;s Roofing provides. As a locally owned and operated Jacksonville roofing company, we&apos;ve built our reputation one roof at a time since day one.
+            Jacksonville homeowners have hundreds of roofing companies to choose from, but few deliver the combination of quality workmanship, transparent pricing, and genuine customer care that Gimo&apos;s Roofing provides. As a locally owned and operated <Link href="/" className="text-primary hover:underline">Jacksonville roofing company</Link>, we&apos;ve built our reputation one roof at a time since day one.
           </p>
           <p className="text-gray-600 mb-4">
             What sets us apart from other Jacksonville roofing companies? Every project gets our owner&apos;s personal attention. We don&apos;t use subcontractors or day laborers. Our crews are trained, experienced roofers who take pride in their craft. We use premium materials from <strong>GAF</strong> and <strong>Owens Corning</strong>, and we back every installation with manufacturer warranties plus our own workmanship guarantee.
@@ -324,7 +269,7 @@ export default function RoofingJacksonvilleFLPage() {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-primary font-bold mt-1">&#9679;</span>
-              <div><strong className="text-secondary">Heat and UV degradation:</strong> <span className="text-gray-600">Jacksonville averages 221 sunny days per year with summer temperatures regularly exceeding 95°F. Intense UV exposure accelerates shingle aging, causing granule loss, curling, and premature failure. We install reflective and UV-resistant roofing materials to combat this.</span></div>
+              <div><strong className="text-secondary">Heat and UV degradation:</strong> <span className="text-gray-600">Jacksonville averages 221 sunny days per year with summer temperatures regularly exceeding 95°F. Intense UV exposure accelerates shingle aging, causing granule loss, curling, and premature failure that often results in calls for <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair in Jacksonville FL</Link>. We install reflective and UV-resistant roofing materials to combat this.</span></div>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-primary font-bold mt-1">&#9679;</span>

@@ -3,8 +3,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: "About Gimo's Roofing - Jacksonville FL Roofing Contractor",
-  description: "Gimo's Roofing is Jacksonville's trusted roofing contractor. Quality craftsmanship, honest pricing & 5-star reviews. Call (904) 606-5313.",
-  keywords: ["about gimos roofing", "jacksonville roofing contractor", "local roofing company", "roofing company jacksonville fl", "trusted roofers"],
+  description: "Gimo's Roofing is Jacksonville's trusted roofing contractor. Quality craftsmanship, honest pricing & 5-star reviews. Call (904) 606-5313.",
   alternates: { canonical: "https://www.gimosroofing.com/about" },
 }
 
@@ -39,21 +38,8 @@ const stats = [
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  "mainEntity": {
-    "@type": "RoofingContractor",
-    "name": "Gimo's Roofing",
-    "description": "Jacksonville's trusted roofing contractor providing quality craftsmanship and exceptional customer service.",
-    "foundingDate": "2020",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "33 24th Street East",
-      "addressLocality": "Jacksonville",
-      "addressRegion": "FL",
-      "postalCode": "32206"
-    },
-    "telephone": "+1-904-606-5313",
-    "email": "management@gimosroofing.com",
-  }
+  "url": "https://www.gimosroofing.com/about",
+  "mainEntity": { "@id": "https://www.gimosroofing.com/#organization" }
 }
 
 const breadcrumbSchema = {
