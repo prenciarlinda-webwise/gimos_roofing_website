@@ -97,6 +97,14 @@ const serviceSchema = {
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Builder Partnership Roofing", "description": "Volume-priced new construction roofing for production and custom builders." } }
     ]
   }
+,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "81",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
 }
 
 const faqSchema = {

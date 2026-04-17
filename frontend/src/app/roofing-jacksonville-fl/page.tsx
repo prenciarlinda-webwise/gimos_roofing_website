@@ -76,6 +76,14 @@ const serviceSchema = {
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing Jacksonville FL", "description": "Professional commercial roofing services for Jacksonville businesses." } }
     ]
   }
+,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "81",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
 }
 
 const faqSchema = {

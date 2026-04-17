@@ -96,6 +96,14 @@ const serviceSchema = {
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roof Maintenance", "description": "Scheduled semi-annual inspections and maintenance to extend commercial roof life." } }
     ]
   }
+,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "81",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
 }
 
 const faqSchema = {

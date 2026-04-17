@@ -103,6 +103,14 @@ const serviceSchema = {
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Natural Wood Siding", "description": "Cedar and redwood siding installation for authentic wood exterior aesthetics." } }
     ]
   }
+,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "81",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
 }
 
 const faqSchema = {
