@@ -47,6 +47,7 @@ const faqs = [
 
 const serviceSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl#service",
   "@type": "Service",
   "name": "Roofing in Jacksonville Beach FL",
   "serviceType": "Roofing Contractor",
@@ -86,7 +87,9 @@ const serviceSchema = {
 
 const faqSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl#faq",
   "@type": "FAQPage",
+  "about": { "@id": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -94,6 +97,7 @@ const faqSchema = {
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl#breadcrumb",
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
@@ -197,7 +201,7 @@ export default function JacksonvilleBeachPage() {
             Most Jax Beach homes sit within 1-3 miles of the Atlantic Ocean, meaning every roof in ZIP codes 32250 and 32240 faces accelerated deterioration compared to inland Jacksonville properties. Standard roofing materials that last 25 years in Mandarin may only last 15-18 years on a beachside home along 3rd Street.
           </p>
           <p className="text-gray-600">
-            At Gimo&apos;s Roofing, we&apos;ve completed hundreds of coastal roofing projects throughout {location}. We understand which materials hold up in the salt-air environment and which fail prematurely. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link> or <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link>, our team delivers solutions built to withstand beach conditions. <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">Emergency roof repair</Link> is available 24/7 throughout the Beaches.
+            As a trusted roofing company Jacksonville Beach FL homeowners rely on, Gimo&apos;s Roofing has completed hundreds of coastal projects throughout {location}. As a roofing contractor Jacksonville Beach FL families recommend, we understand which materials hold up in the salt-air environment and which fail prematurely. Whether you need residential roofing Jacksonville Beach FL or roofing replacement Jacksonville Beach FL, our team is ready. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link> or <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link>, our team delivers solutions built to withstand beach conditions. <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">Emergency roof repair</Link> is available 24/7 throughout the Beaches.
           </p>
         </div>
       </section>

@@ -353,7 +353,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Get a Free Estimate and Financing Quote</h2>
 
-<p class="text-gray-600 mb-6">At Gimo's Roofing, we believe everyone deserves a safe, reliable roof, regardless of whether they have cash on hand. Our financing options make <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> accessible without compromising on quality.</p>
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we believe everyone deserves a safe, reliable roof, regardless of whether they have cash on hand. Our <a href="/roof-financing-florida" class="text-primary hover:underline">roofing financing available</a> makes <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> accessible without compromising on quality.</p>
 
 <p class="text-gray-600 mb-6">Call (904) 606-5313 for a free estimate. We'll inspect your roof, provide a detailed quote, and explain your financing options with no obligation. You'll know exactly what a new roof costs, both total and monthly, before you decide.</p>
 
@@ -579,7 +579,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Get a No-Pressure Estimate</h2>
 
-<p class="text-gray-600 mb-6">At Gimo's Roofing, we welcome these questions, and we're happy to answer them in detail. We've been serving Jacksonville for over 24 years because we believe in doing things right.</p>
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we welcome these questions, and we're happy to answer them in detail. As a trusted <a href="/" class="text-primary hover:underline">roofing contractor in Jacksonville</a>, we've been serving the community for over 24 years because we believe in doing things right.</p>
 
 <p class="text-gray-600 mb-6">Whether you need a <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> or <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a>, we provide honest assessments and transparent pricing. Call (904) 606-5313 for a free estimate and put us to the test.</p>
 
@@ -1103,7 +1103,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Free Storm Damage Inspections</h2>
 
-<p class="text-gray-600 mb-6">If you've experienced storm damage,or suspect you might have,we offer free inspections for Jacksonville homeowners. We'll document any damage we find and provide you with a detailed report you can share with your insurance company. Whether you hire us for repairs or not, you'll have the information you need to ensure your claim is handled fairly.</p>
+<p class="text-gray-600 mb-6">If you've experienced storm damage,or suspect you might have,we offer free inspections for Jacksonville homeowners. As a trusted <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">roofing company in Jacksonville FL</a>, we'll document any damage we find and provide you with a detailed report you can share with your insurance company. Whether you hire us for repairs or not, you'll have the information you need to ensure your claim is handled fairly.</p>
 
 
 
@@ -2212,7 +2212,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Ultimately, the repair vs. replace decision depends on your specific roof. A professional inspection reveals what you can't see from the ground: underlayment condition, sheathing integrity, flashing status, and true remaining lifespan.</p>
 
-<p class="text-gray-600 mb-6">At Gimo's Roofing, we provide honest assessments. If a repair makes sense, we'll tell you. If you need replacement, we'll explain why. Call (904) 606-5313 for a free inspection.</p>
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we provide honest assessments. If a repair makes sense, we'll tell you. If you need replacement, we'll explain why and walk you through <a href="/roof-financing-florida" class="text-primary hover:underline">roof financing options</a> to fit your budget. Call (904) 606-5313 for a free inspection.</p>
 
 
 
@@ -5657,7 +5657,7 @@ export const blogPosts: BlogPost[] = [
 <li>You're planning major home renovations</li>
 </ul>
 
-<p class="text-gray-600 mb-6">At Gimo's Roofing, we provide honest assessments. If repairs make sense, we'll tell you. Our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> services start at $7,900, with <a href="/blog/roofing-financing-options-jacksonville" class="text-primary hover:underline">financing available</a> from $99/month.</p>
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we provide honest assessments. If repairs make sense, we'll tell you. Our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> services start at $7,900, with <a href="/roof-financing-florida" class="text-primary hover:underline">roofing financing available</a> from $99/month.</p>
 
 
 
@@ -6068,7 +6068,7 @@ export const blogPosts: BlogPost[] = [
 <li>Can you provide local references I can contact?</li>
 </ol>
 
-<p class="text-gray-600 mb-6">At Gimo's Roofing, we're happy to answer all these questions and provide verification of our <a href="/blog/how-to-check-florida-roofing-license" class="text-primary hover:underline">Florida roofing license</a> and insurance. We've been serving Jacksonville for over 15 years.</p>
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we're happy to answer all these questions and provide verification of our <a href="/blog/how-to-check-florida-roofing-license" class="text-primary hover:underline">Florida roofing license</a> and insurance. We've been serving Jacksonville for over 15 years, and we offer <a href="/roof-financing-florida" class="text-primary hover:underline">roof financing options</a> to make your project affordable.</p>
 
 
 
@@ -6444,7 +6444,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="financing" class="text-2xl font-bold text-secondary mt-10 mb-4">Roofing Financing Options in Jacksonville</h2>
 
-<p class="text-gray-600 mb-6">Most Jacksonville homeowners do not have $10,000-$30,000 sitting in a savings account waiting for a new roof. The good news is that multiple financing options exist, and the cost of delaying a needed replacement (water damage, mold, energy waste, insurance problems) almost always exceeds the cost of financing the project now.</p>
+<p class="text-gray-600 mb-6">Most Jacksonville homeowners do not have $10,000-$30,000 sitting in a savings account waiting for a new roof. The good news is that multiple <a href="/roof-financing-florida" class="text-primary hover:underline">roof financing options</a> exist, and the cost of delaying a needed replacement (water damage, mold, energy waste, insurance problems) almost always exceeds the cost of financing the project now.</p>
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Contractor Financing</h3>
 
@@ -6458,7 +6458,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">If your roof was damaged by a covered peril such as a hurricane, windstorm, hail, or fallen tree, your homeowner's insurance should cover most or all of the replacement cost minus your deductible. The key is documenting the damage properly and working with a contractor experienced in the insurance claims process. Gimo's Roofing works with Jacksonville homeowners on insurance claims regularly and can help ensure your claim is properly documented. Read our full <a href="/blog/roof-insurance-claim-florida-guide" class="text-primary hover:underline">Florida roof insurance claim guide</a>.</p>
 
-<p class="text-gray-600 mb-6">For a complete breakdown of every financing path, read our guide to <a href="/blog/roofing-financing-options-jacksonville" class="text-primary hover:underline">roofing financing options in Jacksonville</a>.</p>
+<p class="text-gray-600 mb-6">For a complete breakdown of every financing path, visit our <a href="/roof-financing-florida" class="text-primary hover:underline">roof financing in Florida</a> page or read our guide to <a href="/blog/roofing-financing-options-jacksonville" class="text-primary hover:underline">roofing financing options in Jacksonville</a>.</p>
 
 <h2 id="save-money" class="text-2xl font-bold text-secondary mt-10 mb-4">How to Save Money on Your Roof Replacement</h2>
 
@@ -6702,7 +6702,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">Day one typically involves tear-off of the old roofing material, inspection and repair of the decking, and installation of underlayment. The following days focus on installing the new roofing material, flashing, ridge vents, and other components. The final day includes cleanup, debris hauling, and a walkthrough inspection. Your contractor should never leave your roof exposed overnight without proper tarping and protection.</p>
 
-<p class="text-gray-600 mb-6">For a more detailed breakdown of what the project involves and what it costs, see our guide on <a href="/blog/roof-replacement-cost-jacksonville-fl" class="text-primary hover:underline">roof replacement costs in Jacksonville, FL</a>.</p>
+<p class="text-gray-600 mb-6">For a more detailed breakdown of what the project involves and what it costs, see our guide on <a href="/blog/roof-replacement-cost-jacksonville-fl" class="text-primary hover:underline">roof replacement costs in Jacksonville, FL</a>. We also offer <a href="/roof-financing-florida" class="text-primary hover:underline">flexible roofing financing</a> starting at $99/month so you can move forward without waiting.</p>
 
 <h2 id="scheduling-tips" class="text-2xl font-bold text-secondary mt-10 mb-4">Scheduling Tips for Your Roof Replacement</h2>
 
@@ -6992,8 +6992,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-03-22",
     readTime: "10 min read",
     author: "Gimo's Roofing Team",
-    image: "/images/storm-damage-roof-repair.webp",
-    imageAlt: "Emergency roof repair in progress in Jacksonville FL",
+    image: "/images/roof-leak-emergency-repair.webp",
+    imageAlt: "Emergency roof leak repair in progress on a Jacksonville FL home",
     tableOfContents: [
       { id: "immediate-steps", title: "Immediate Steps" },
       { id: "contain-water", title: "Containing the Water" },
@@ -7006,7 +7006,7 @@ export const blogPosts: BlogPost[] = [
       { id: "what-not-to-do", title: "What Not to Do" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<p class="text-lg font-semibold text-secondary mb-6">When your roof is actively leaking: (1) Move valuables away from the leak, (2) Place buckets or containers to catch water, (3) Document the damage with photos, (4) Call an emergency roofing professional immediately. Do not attempt to climb on a wet roof. Emergency roof repair services can typically respond within hours to prevent further damage.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">When your roof is actively leaking: (1) Move valuables away from the leak, (2) Place buckets or containers to catch water, (3) Document the damage with photos, (4) Call an <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof repair</a> professional immediately. Do not attempt to climb on a wet roof. Emergency roof repair services can typically respond within hours to prevent further damage.</p>
 
 <div class="bg-red-50 border-l-4 border-red-500 p-6 my-8">
 <p class="text-red-700 font-semibold mb-2">Roof Emergency? Call Now</p>
@@ -7270,8 +7270,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-03-25",
     readTime: "9 min read",
     author: "Gimo's Roofing Team",
-    image: "/images/roof-repair-in-progress-jacksonville.webp",
-    imageAlt: "Roof leak repair being performed in Jacksonville FL",
+    image: "/images/roofer-jacksonville-fl.webp",
+    imageAlt: "Professional roof leak repair being performed in Jacksonville FL",
     tableOfContents: [
       { id: "common-causes", title: "Common Leak Causes" },
       { id: "finding-leaks", title: "Finding the Source" },
@@ -7491,8 +7491,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-03-28",
     readTime: "10 min read",
     author: "Gimo's Roofing Team",
-    image: "/images/storm-damage-roof-repair.webp",
-    imageAlt: "Roof damage documentation for insurance claim in Jacksonville FL",
+    image: "/images/roof-repair-nocatee.webp",
+    imageAlt: "Storm damage documentation for roof insurance claim in Florida",
     tableOfContents: [
       { id: "when-file", title: "When to File a Claim" },
       { id: "steps", title: "Step-by-Step Process" },
@@ -7697,8 +7697,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-03-31",
     readTime: "9 min read",
     author: "Gimo's Roofing Team",
-    image: "/images/storm-damage-roof-repair.webp",
-    imageAlt: "Wind damage to roof shingles in Jacksonville FL",
+    image: "/images/roofer-near-me.webp",
+    imageAlt: "Wind damage repair on residential roof shingles in Jacksonville FL",
     tableOfContents: [
       { id: "signs", title: "Signs of Wind Damage" },
       { id: "how-happens", title: "How Wind Damages Roofs" },
@@ -7808,7 +7808,7 @@ export const blogPosts: BlogPost[] = [
 <li>Multiple areas affected</li>
 </ul>
 
-<p class="text-gray-600 mb-6">Very severe damage may require full roof replacement, discuss with your contractor and insurance adjuster.</p>
+<p class="text-gray-600 mb-6">Very severe damage may require full roof replacement, discuss with your contractor and insurance adjuster. Coastal homes in <a href="/roofing-jacksonville-beach-fl" class="text-primary hover:underline">Jacksonville Beach</a> and the barrier islands are especially vulnerable to wind-driven rain damage.</p>
 
 <h2 id="inspection" class="text-2xl font-bold text-secondary mt-10 mb-4">Getting a Wind Damage Inspection</h2>
 
@@ -7913,7 +7913,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-03",
     publishDate: "2026-04-03",
     author: "Gimo's Roofing Team",
-    image: "/images/storm-damage-roof-repair.webp",
+    image: "/images/roofing-near-me.webp",
     category: "Storm Damage",
     readTime: "13 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Hail Damage to Florida Roofs</h2>
@@ -8088,7 +8088,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-06",
     publishDate: "2026-04-06",
     author: "Gimo's Roofing Team",
-    image: "/images/residential-roof-inspection-aerial.webp",
+    image: "/images/near-me-roofer.webp",
     category: "Roof Care",
     readTime: "12 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Ventilation in Florida</h2>
@@ -8402,7 +8402,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-12",
     publishDate: "2026-04-12",
     author: "Gimo's Roofing Team",
-    image: "/images/completed-roof-project-jacksonville.webp",
+    image: "/images/gimos-roofing-jacksonville.webp",
     category: "Roof Care",
     readTime: "12 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Gutters and Your Roof</h2>
@@ -8573,7 +8573,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-15",
     publishDate: "2026-04-15",
     author: "Gimo's Roofing Team",
-    image: "/images/gray-shingle-roof-aerial-inspection.webp",
+    image: "/images/roof-near-me.webp",
     category: "Roof Care",
     readTime: "11 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Moss and Algae in Florida</h2>
@@ -8740,7 +8740,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-21",
     publishDate: "2026-04-21",
     author: "Gimo's Roofing Team",
-    image: "/images/two-story-home-skylights-roof.webp",
+    image: "/images/siding-project-closeup.webp",
     category: "Roof Features",
     readTime: "13 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Solar Panels and Florida Roofs</h2>
@@ -9550,7 +9550,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<p class="text-gray-600 mb-6">Need fascia or soffit repair? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for assessment and repair. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+<p class="text-gray-600 mb-6">Need fascia or soffit repair? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for assessment and repair. We also handle <a href="/services/siding-repair" class="text-primary hover:underline">siding repair services</a> for damaged exterior cladding. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
     faqs: [
       { question: "What's the difference between fascia and soffit?", answer: "Fascia is the vertical board at the roof edge that covers rafter ends, your gutters attach to it. Soffit is the horizontal underside of the roof overhang, connecting the fascia to your house wall. Both protect your roof structure from weather and pests." },
       { question: "How much does fascia and soffit repair cost?", answer: "Fascia repair/replacement costs $15-30 per linear foot installed. Soffit costs $6-12 per square foot installed. A typical home might have 150-250 linear feet of fascia. Costs vary based on materials, extent of damage, and accessibility." },
@@ -9567,7 +9567,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-05-06",
     publishDate: "2026-05-06",
     author: "Gimo's Roofing Team",
-    image: "/images/flat-metal-roof-installation.webp",
+    image: "/images/roof-contractor-near-me.webp",
     category: "Roof Care",
     readTime: "12 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Coatings in Florida</h2>
@@ -9883,7 +9883,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-05-12",
     publishDate: "2026-05-12",
     author: "Gimo's Roofing Team",
-    image: "/images/completed-roof-project-jacksonville.webp",
+    image: "/images/roofing-company-in-jacksonville.webp",
     category: "Roof Care",
     readTime: "11 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Drainage Systems</h2>
@@ -10033,12 +10033,12 @@ export const blogPosts: BlogPost[] = [
     date: "2026-05-15",
     publishDate: "2026-05-15",
     author: "Gimo's Roofing Team",
-    image: "/images/two-story-home-roof-replacement.webp",
+    image: "/images/siding-installation-jacksonville-home.webp",
     category: "Roof Replacement",
     readTime: "11 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Second Story Addition Roofing</h2>
 
-<p class="text-gray-600 mb-6"><strong>Adding a second story requires integrating new roofing with existing or completely reroofing the home.</strong> Decisions include whether to match existing materials (may not be available), reroof entirely for uniform appearance, and how to properly tie new structure to existing. Roofing is typically 3-5% of total addition cost.</p>
+<p class="text-gray-600 mb-6"><strong>Adding a second story requires integrating new roofing with existing or completely reroofing the home.</strong> Decisions include whether to match existing materials (may not be available), reroof entirely for uniform appearance, and how to properly tie new structure to existing. Roofing is typically 3-5% of total addition cost. Our <a href="/services/new-construction-roofing" class="text-primary hover:underline">new construction roofing</a> team handles these complex integrations throughout Jacksonville.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Key Considerations:</p>
@@ -10173,7 +10173,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-05-18",
     publishDate: "2026-05-18",
     author: "Gimo's Roofing Team",
-    image: "/images/brick-home-gray-shingle-roof.webp",
+    image: "/images/roofing-jacksonville-fl.webp",
     category: "Roof Replacement",
     readTime: "12 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Historic Home Roofing</h2>
@@ -10624,7 +10624,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-05-27",
     publishDate: "2026-05-27",
     author: "Gimo's Roofing Team",
-    image: "/images/roofing-crew-installation-action.webp",
+    image: "/images/roofing-company-in-jacksonville.webp",
     category: "Roofing Basics",
     readTime: "10 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Load Capacity</h2>
@@ -10764,7 +10764,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-05-30",
     publishDate: "2026-05-30",
     author: "Gimo's Roofing Team",
-    image: "/images/green-metal-roof-residential.webp",
+    image: "/images/home-page-siding-services.webp",
     category: "Energy Efficiency",
     readTime: "12 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Energy Efficient Roofing</h2>
@@ -10922,7 +10922,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-06-02",
     publishDate: "2026-06-02",
     author: "Gimo's Roofing Team",
-    image: "/images/roof-repair-in-progress-jacksonville.webp",
+    image: "/images/roofing-contractor.webp",
     category: "Roofing Basics",
     readTime: "11 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Flashing</h2>
@@ -11069,7 +11069,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "11 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Underlayment</h2>
 
-<p class="text-gray-600 mb-6"><strong>Underlayment is the water-resistant layer between your roof decking and shingles.</strong> It's your roof's backup protection if water gets under shingles. Florida codes require specific underlayment based on location, high-velocity hurricane zones require self-adhering underlayment for enhanced protection.</p>
+<p class="text-gray-600 mb-6"><strong>Underlayment is the water-resistant layer between your roof decking and shingles.</strong> It's your roof's backup protection if water gets under shingles. Florida codes require specific underlayment based on location, high-velocity hurricane zones require self-adhering underlayment for enhanced protection. Proper underlayment selection is especially critical for <a href="/services/new-construction-roofing" class="text-primary hover:underline">new construction roofing</a> projects where warranty coverage depends on correct installation.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Underlayment Types:</p>
@@ -11348,7 +11348,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-06-11",
     publishDate: "2026-06-11",
     author: "Gimo's Roofing Team",
-    image: "/images/new-roof-installation-blue-house-florida.webp",
+    image: "/images/roofer-near.webp",
     category: "Roofing Basics",
     readTime: "9 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Drip Edge</h2>
@@ -11492,7 +11492,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-20",
     publishDate: "2026-03-20T14:00",
     author: "Gimo's Roofing Team",
-    image: "/images/roof-repair-in-progress-jacksonville.webp",
+    image: "/images/roof-contractor-near-me.webp",
     imageAlt: "Ridge cap shingles installed along the peak of a residential roof",
     category: "Roofing Basics",
     readTime: "12 min read",
@@ -11773,8 +11773,8 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-24",
     publishDate: "2026-03-24T14:00",
     author: "Gimo's Roofing Team",
-    image: "/images/residential-roof-inspection-aerial.webp",
-    imageAlt: "Homeowner inspecting roof in spring weather with clear skies",
+    image: "/images/new-roof-company.webp",
+    imageAlt: "Homeowner inspecting roof in spring weather with clear skies in Jacksonville FL",
     category: "Maintenance",
     readTime: "11 min read",
     keywords: ["spring roof maintenance checklist", "roof maintenance checklist", "regular roof maintenance", "spring roof inspection", "roof maintenance florida", "roof maintenance jacksonville fl", "spring home maintenance roof"],
@@ -11998,7 +11998,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-26",
     publishDate: "2026-03-26T14:00",
     author: "Gimo's Roofing Team",
-    image: "/images/architectural-shingle-roof-aerial-view.webp",
+    image: "/images/nocatee-roofing-contractor.webp",
     imageAlt: "Side by side comparison of light and dark colored roof shingles on Florida homes",
     category: "Energy Efficiency",
     readTime: "11 min read",
@@ -12210,7 +12210,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-30",
     publishDate: "2026-03-30T14:00",
     author: "Gimo's Roofing Team",
-    image: "/images/gray-shingle-roof-aerial-inspection.webp",
+    image: "/images/roofing-near-me.webp",
     imageAlt: "Close-up of algae resistant roof shingles on a Florida home",
     category: "Roof Care",
     readTime: "11 min read",
@@ -12470,7 +12470,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-01",
     publishDate: "2026-04-01T14:00",
     author: "Gimo's Roofing Team",
-    image: "/images/shingle-roof-installation-florida.webp",
+    image: "/images/roofer-jacksonville-fl.webp",
     imageAlt: "Close-up of roof shingles showing granule loss and bare spots",
     category: "Roof Care",
     readTime: "10 min read",
@@ -12727,7 +12727,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-05",
     publishDate: "2026-04-05T14:00",
     author: "Gimo's Roofing Team",
-    image: "/images/residential-roofing-services-page.webp",
+    image: "/images/near-me-roofer.webp",
     imageAlt: "Raccoon damage visible on a residential roof soffit area",
     category: "Homeowner Tips",
     readTime: "10 min read",
@@ -12982,7 +12982,7 @@ export const blogPosts: BlogPost[] = [
     category: "Roof Care",
     readTime: "10 min read",
     author: "Gimo's Roofing Team",
-    image: "/images/completed-roof-project-jacksonville.webp",
+    image: "/images/nocatee-roofing-company.webp",
     imageAlt: "Seamless aluminum gutters installed on a Florida home with downspout",
     keywords: ["sectional vs seamless gutters", "sectional gutters", "seamless gutters florida", "gutter types", "gutters sizes", "best gutters for florida", "gutter replacement florida"],
     tableOfContents: [
@@ -13255,7 +13255,7 @@ export const blogPosts: BlogPost[] = [
     category: "Maintenance",
     readTime: "10 min read",
     author: "Gimo's Roofing Team",
-    image: "/images/roofing-crew-installation-action.webp",
+    image: "/images/roof-repair-nocatee.webp",
     imageAlt: "Professional soft washing a roof in Florida to remove algae and black streaks",
     keywords: ["roof cleaning pros and cons", "roof cleaning florida", "diy roof cleaning", "pressure washing roof shingles", "soft wash roof cleaning", "should i clean my roof", "roof cleaning cost florida"],
     tableOfContents: [
@@ -13493,7 +13493,7 @@ export const blogPosts: BlogPost[] = [
     category: "Roofing Guide",
     readTime: "11 min read",
     author: "Gimo's Roofing Team",
-    image: "/images/completed-roof-project-jacksonville.webp",
+    image: "/images/jacksonville-roofing-company.webp",
     imageAlt: "Composition shingle roof on a Florida home installed by Gimo's Roofing",
     keywords: ["composition roof", "what is a composition roof", "composition roof meaning", "roof type composition", "composition roofing", "composite roof shingles", "composition shingles vs asphalt", "asphalt composition roof"],
     tableOfContents: [
@@ -14009,8 +14009,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-03-21",
     dateModified: "2026-03-21",
     author: "Gimo's Roofing Team",
-    image: "/images/roof-replacement-debris-removal.webp",
-    imageAlt: "K-style gutter installed on Jacksonville FL home",
+    image: "/images/gimos-roofing-jacksonville.webp",
+    imageAlt: "K-style gutter installed on a Jacksonville FL home",
     category: "Gutters",
     readTime: "13 min read",
     tableOfContents: [
@@ -14231,8 +14231,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-03-22",
     dateModified: "2026-03-22",
     author: "Gimo's Roofing Team",
-    image: "/images/green-metal-roof-residential.webp",
-    imageAlt: "Standing seam metal roof on Florida home in Jacksonville",
+    image: "/images/roof-leak-emergency-repair.webp",
+    imageAlt: "Metal roof longevity and durability on a Florida residential home",
     category: "Metal Roofing",
     readTime: "14 min read",
     tableOfContents: [
@@ -14470,8 +14470,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-03-23",
     dateModified: "2026-03-23",
     author: "Gimo's Roofing Team",
-    image: "/images/storm-damage-roof-repair.webp",
-    imageAlt: "Roof leak during heavy rain in Jacksonville FL",
+    image: "/images/roof-near-me.webp",
+    imageAlt: "Roof leak during heavy rainstorm on a Jacksonville FL home",
     category: "Roof Repair",
     readTime: "15 min read",
     tableOfContents: [
@@ -14714,8 +14714,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-03-24",
     dateModified: "2026-03-24",
     author: "Gimo's Roofing Team",
-    image: "/images/residential-roof-with-pool-aerial.webp",
-    imageAlt: "Aerial view showing roof anatomy and structure on Jacksonville home",
+    image: "/images/roofing-contractor.webp",
+    imageAlt: "Aerial view showing roof anatomy and structure on a Jacksonville home",
     category: "Roofing Basics",
     readTime: "16 min read",
     tableOfContents: [
@@ -15154,8 +15154,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-03-26",
     dateModified: "2026-03-26",
     author: "Gimo's Roofing Team",
-    image: "/images/architectural-shingle-roof-aerial-view.webp",
-    imageAlt: "Beautiful roof color on Jacksonville FL home showing architectural shingles",
+    image: "/images/nocatee-roofer.webp",
+    imageAlt: "Beautiful roof color selection on a Jacksonville FL home",
     category: "Roofing Basics",
     readTime: "13 min read",
     tableOfContents: [
@@ -15545,7 +15545,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<p class="text-gray-600 mb-6">When comparing siding costs, factor in the total cost of ownership over 20-30 years. Vinyl and fiber cement require minimal maintenance spending. Natural wood requires thousands of dollars in paint, stain, termite treatment, and repair over the same period. The cheapest product to buy is not always the cheapest to own.</p>
+<p class="text-gray-600 mb-6">When comparing siding costs, factor in the total cost of ownership over 20-30 years. Vinyl and fiber cement require minimal maintenance spending. Natural wood requires thousands of dollars in paint, stain, termite treatment, and <a href="/services/siding-repair" class="text-primary hover:underline">siding repair</a> over the same period. The cheapest product to buy is not always the cheapest to own.</p>
 
 <h2 id="maintenance" class="text-2xl font-bold text-secondary mt-10 mb-4">Maintenance Requirements by Siding Material</h2>
 
@@ -15622,8 +15622,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-03-28",
     dateModified: "2026-03-28",
     author: "Gimo's Roofing Team",
-    image: "/images/shingle-roof-installation-florida.webp",
-    imageAlt: "Bundles of asphalt shingles ready for roof installation",
+    image: "/images/new-roof-company.webp",
+    imageAlt: "Bundles of asphalt shingles ready for roof installation in Florida",
     category: "Roofing Basics",
     readTime: "11 min read",
     tableOfContents: [
@@ -15867,8 +15867,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-03-29",
     dateModified: "2026-03-29",
     author: "Gimo's Roofing Team",
-    image: "/images/residential-roof-inspection-aerial.webp",
-    imageAlt: "Aerial view showing roof pitch and slope on Jacksonville FL home",
+    image: "/images/roofing-jacksonville-fl.webp",
+    imageAlt: "Aerial view showing roof pitch and slope measurements on a Jacksonville FL home",
     category: "Roofing Basics",
     readTime: "13 min read",
     tableOfContents: [
@@ -16041,7 +16041,7 @@ export const blogPosts: BlogPost[] = [
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-3">
 <li><strong>Ranch homes (4/12 to 5/12):</strong> Single-story ranches throughout <a href="/roofing-mandarin-fl" class="text-primary hover:underline">Mandarin</a>, <a href="/roofing-orange-park-fl" class="text-primary hover:underline">Orange Park</a>, and <a href="/roofing-southside-jax-fl" class="text-primary hover:underline">Southside</a> typically have moderate pitches that are economical to reroof</li>
-<li><strong>Standard two-story (5/12 to 7/12):</strong> The most common pitch in newer subdivisions in <a href="/roofing-nocatee-fl" class="text-primary hover:underline">Nocatee</a>, <a href="/roofing-st-augustine-fl" class="text-primary hover:underline">St. Augustine</a>, and throughout Duval County</li>
+<li><strong>Standard two-story (5/12 to 7/12):</strong> The most common pitch in newer subdivisions in <a href="/roofing-nocatee-fl" class="text-primary hover:underline">Nocatee</a>, <a href="/roofing-st-augustine-fl" class="text-primary hover:underline">St. Augustine</a>, and throughout Duval County. If you are building new, our <a href="/services/new-construction-roofing" class="text-primary hover:underline">new construction roofing</a> team ensures proper pitch selection for your design</li>
 <li><strong>Colonial and traditional (8/12 to 10/12):</strong> Historic homes in <a href="/roofing-riverside-fl" class="text-primary hover:underline">Riverside</a>, <a href="/roofing-san-marco-fl" class="text-primary hover:underline">San Marco</a>, and Avondale often have steeper pitches</li>
 <li><strong>Mediterranean and Spanish (4/12 to 6/12):</strong> Tile-roofed Mediterranean homes typically have moderate pitches</li>
 <li><strong><a href="/services/commercial-roofing" class="text-primary hover:underline">Commercial buildings</a> (0/12 to 2/12):</strong> Flat or very low slope, requiring <a href="/blog/flat-roof-options-florida" class="text-primary hover:underline">membrane roofing systems</a></li>
@@ -16093,7 +16093,7 @@ export const blogPosts: BlogPost[] = [
     title: "Best Roofing Companies in Jacksonville FL - How to Find the Right Roofer",
     metaTitle: "Best Roofing Companies in Jacksonville FL - Find the Right Roofer",
     excerpt: "Best roofing companies in Jacksonville FL compared. Learn what separates great roofers from bad ones, how to verify credentials, and why local matters for your roof project.",
-    image: "/images/best-roofing-contractor-near-me.webp",
+    image: "/images/jacksonville-roofing-company.webp",
     imageAlt: "Best roofing companies in Jacksonville FL working on a residential roof replacement",
     category: "Guides",
     date: "2026-03-23",
@@ -16338,8 +16338,8 @@ export const blogPosts: BlogPost[] = [
     title: "Jacksonville Roofing Contractor Guide - What Every Homeowner Needs to Know",
     metaTitle: "Jacksonville Roofing Contractor Guide for Homeowners in 2026",
     excerpt: "Jacksonville roofing contractor guide covering costs, materials, building codes, permits, insurance claims, and how to hire the right roofer for your home in Northeast Florida.",
-    image: "/images/roofing-contractor-jacksonville.webp",
-    imageAlt: "Jacksonville roofing contractor installing a new roof on a residential home",
+    image: "/images/siding-installation-worker-ladder.webp",
+    imageAlt: "Jacksonville roofing contractor team working on a residential home project",
     category: "Guides",
     date: "2026-03-23",
     publishDate: "2026-03-23",
@@ -16536,8 +16536,8 @@ export const blogPosts: BlogPost[] = [
     title: "Roof Replacement Cost Jacksonville FL - Complete 2026 Pricing Guide",
     metaTitle: "Roof Replacement Cost Jacksonville FL - 2026 Pricing Guide",
     excerpt: "Roof replacement cost in Jacksonville FL for 2026 broken down by material, home size, and complexity. See real pricing data, financing options, and how to budget for your new roof.",
-    image: "/images/roof-replacement-jacksonville.webp",
-    imageAlt: "Roof replacement cost breakdown for Jacksonville FL homes in 2026",
+    image: "/images/yellow-siding-home-renovation.webp",
+    imageAlt: "Roof replacement project on a Jacksonville FL home in 2026",
     category: "Costs",
     date: "2026-03-23",
     publishDate: "2026-03-23",
@@ -16838,7 +16838,7 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-04-08",
     dateModified: "2026-04-08",
     author: "Gimo's Roofing Team",
-    image: "/images/roof-replacement.webp",
+    image: "/images/siding-jacksonville.webp",
     imageAlt: "Florida home roof replacement showing 25 percent roof rule application",
     category: "Florida Roofing Laws",
     readTime: "10 min read",
@@ -17140,8 +17140,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-04-08",
     dateModified: "2026-04-08",
     author: "Gimo's Roofing Team",
-    image: "/images/best-roofing-contractor-near-me.webp",
-    imageAlt: "Modern metal roof installation on a Jacksonville home with cell tower in background",
+    image: "/images/contact-us-hero-alt.webp",
+    imageAlt: "Metal roof installation on a Jacksonville home",
     category: "Metal Roofing",
     readTime: "7 min read",
     tableOfContents: [
@@ -17256,8 +17256,8 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-04-08",
     dateModified: "2026-04-08",
     author: "Gimo's Roofing Team",
-    image: "/images/architectural-shingle-roof-aerial-view.webp",
-    imageAlt: "Aerial view of architectural shingle roof on a Jacksonville home for roof age inspection",
+    image: "/images/roofer-near-me.webp",
+    imageAlt: "Roof age inspection on a Jacksonville FL home showing shingle condition",
     category: "Homeowner Tips",
     readTime: "9 min read",
     tableOfContents: [

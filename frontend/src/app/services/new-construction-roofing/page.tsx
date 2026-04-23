@@ -4,11 +4,11 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: "New Construction Roofing in Jacksonville FL - Gimo's Roofing" },
-  description: "New construction roofing in Jacksonville FL from Gimo's Roofing. Shingle, metal, and tile installation for builders, custom homes, and production homes across Northeast Florida.",
+  title: { absolute: "New Construction Roofing - Gimo's Roofing" },
+  description: "New construction roofing from Gimo's Roofing. Shingle, metal, and tile roof installation for builders, custom homes, and production homes. Call (904) 606-5313.",
   openGraph: {
-    title: "New Construction Roofing in Jacksonville FL - Gimo's Roofing",
-    description: "New construction roofing for builders and custom homes in Jacksonville FL. Shingle, metal, and tile installation. Call (904) 606-5313.",
+    title: "New Construction Roofing - Gimo's Roofing",
+    description: "New construction roof installation for builders and custom homes. Shingle, metal, and tile. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com/services/new-construction-roofing",
   },
   alternates: { canonical: "https://www.gimosroofing.com/services/new-construction-roofing" },
@@ -70,6 +70,7 @@ const faqs = [
 
 const serviceSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/new-construction-roofing#service",
   "@type": "Service",
   "name": "New Construction Roofing in Jacksonville FL",
   "serviceType": "New Construction Roofing",
@@ -77,15 +78,15 @@ const serviceSchema = {
   "url": "https://www.gimosroofing.com/services/new-construction-roofing",
   "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL" },
-    { "@type": "City", "name": "Jacksonville Beach, FL" },
-    { "@type": "City", "name": "Atlantic Beach, FL" },
-    { "@type": "City", "name": "Neptune Beach, FL" },
-    { "@type": "City", "name": "St. Augustine, FL" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL" },
-    { "@type": "City", "name": "Nocatee, FL" },
-    { "@type": "City", "name": "Orange Park, FL" },
-    { "@type": "City", "name": "Fernandina Beach, FL" }
+    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
+    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
+    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
+    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
+    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
+    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
+    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
+    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -109,7 +110,9 @@ const serviceSchema = {
 
 const faqSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/new-construction-roofing#faq",
   "@type": "FAQPage",
+  "about": { "@id": "https://www.gimosroofing.com/services/new-construction-roofing#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/new-construction-roofing",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -117,6 +120,7 @@ const faqSchema = {
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/new-construction-roofing#breadcrumb",
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
@@ -144,9 +148,9 @@ export default function NewConstructionRoofingPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">New Construction Roofing</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">New Construction Roofing in Jacksonville FL - Builders &amp; Custom Homes</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">New Construction Roofing - Builders &amp; Custom Homes</h1>
               <p className="text-lg text-gray-200 mb-6">
-                Building a new home nearby? Gimo&apos;s Roofing partners with builders and custom home owners across Duval, St. Johns, Clay, and Nassau counties to install quality roofing systems from bare decking to finished roof.
+                Building a new home nearby? As a trusted new construction roofer Jacksonville builders rely on, Gimo&apos;s Roofing partners with builders and custom home owners across Duval, St. Johns, Clay, and Nassau counties to install quality roofing systems from bare decking to finished roof.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-full sm:w-auto">Get Free Estimate</a>

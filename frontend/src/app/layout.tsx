@@ -88,15 +88,15 @@ const structuredData = {
     "closes": "17:30"
   },
   "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
-    { "@type": "City", "name": "Jacksonville Beach, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
-    { "@type": "City", "name": "Atlantic Beach, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
-    { "@type": "City", "name": "Neptune Beach, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
-    { "@type": "City", "name": "St. Augustine, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "St. Johns County, FL" } },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "St. Johns County, FL" } },
-    { "@type": "City", "name": "Nocatee, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "St. Johns County, FL" } },
-    { "@type": "City", "name": "Orange Park, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "Clay County, FL" } },
-    { "@type": "City", "name": "Fernandina Beach, FL", "containedInPlace": { "@type": "AdministrativeArea", "name": "Nassau County, FL" } }
+    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
+    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
+    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
+    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
+    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "St. Johns County, FL" } },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "St. Johns County, FL" } },
+    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "St. Johns County, FL" } },
+    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Clay County, FL" } },
+    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Nassau County, FL" } }
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",

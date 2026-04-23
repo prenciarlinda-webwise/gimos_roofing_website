@@ -4,11 +4,11 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: "Roof Replacement in Jacksonville FL - Gimo's Roofing" },
-  description: "Roof replacement in Jacksonville FL from Gimo's Roofing. Shingle, tile, and metal roofing replacement with insurance help and financing from $99/month. Call (904) 606-5313.",
+  title: { absolute: "Roof Replacement - Gimo's Roofing" },
+  description: "Professional roof replacement from Gimo's Roofing. Shingle, tile, metal, and flat roof replacement with insurance help and financing from $99/month. Call (904) 606-5313.",
   openGraph: {
-    title: "Roof Replacement in Jacksonville FL - Gimo's Roofing",
-    description: "Complete roof replacement in Jacksonville FL. Shingle, tile, and metal roofing replacement with insurance help and financing. Call (904) 606-5313.",
+    title: "Roof Replacement - Gimo's Roofing",
+    description: "Complete roof replacement. Shingle, tile, and metal roofing with insurance help and financing. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com/services/roof-replacement",
   },
   alternates: { canonical: "https://www.gimosroofing.com/services/roof-replacement" },
@@ -76,6 +76,7 @@ const faqs = [
 
 const serviceSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/roof-replacement#service",
   "@type": "Service",
   "name": "Roof Replacement in Jacksonville FL",
   "serviceType": "Roof Replacement",
@@ -83,15 +84,15 @@ const serviceSchema = {
   "url": "https://www.gimosroofing.com/services/roof-replacement",
   "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL" },
-    { "@type": "City", "name": "Jacksonville Beach, FL" },
-    { "@type": "City", "name": "Atlantic Beach, FL" },
-    { "@type": "City", "name": "Neptune Beach, FL" },
-    { "@type": "City", "name": "St. Augustine, FL" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL" },
-    { "@type": "City", "name": "Nocatee, FL" },
-    { "@type": "City", "name": "Orange Park, FL" },
-    { "@type": "City", "name": "Fernandina Beach, FL" }
+    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
+    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
+    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
+    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
+    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
+    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
+    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
+    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -115,7 +116,9 @@ const serviceSchema = {
 
 const faqSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/roof-replacement#faq",
   "@type": "FAQPage",
+  "about": { "@id": "https://www.gimosroofing.com/services/roof-replacement#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/roof-replacement",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -123,6 +126,7 @@ const faqSchema = {
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/roof-replacement#breadcrumb",
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
@@ -150,9 +154,9 @@ export default function RoofReplacementPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Roof Replacement</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Roof Replacement in Jacksonville FL - Shingle, Tile &amp; Metal</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Roof Replacement - Shingle, Tile &amp; Metal Options</h1>
               <p className="text-lg text-gray-200 mb-6">
-                Planning a new roof installation nearby? Gimo&apos;s Roofing handles complete roof replacement for shingle, tile, and metal roofs across Duval, St. Johns, Clay, and Nassau counties. We offer storm damage roofing replacement with insurance assistance and financing from $99/month.
+                Planning a new roof Jacksonville FL homeowners can afford? Gimo&apos;s Roofing handles complete roof replacement for shingle, tile, and metal roofs across Duval, St. Johns, Clay, and Nassau counties. We offer storm damage roofing replacement with insurance assistance, residential roofing installation expertise, and financing from $99/month.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-full sm:w-auto">Get Free Estimate</a>
@@ -251,7 +255,7 @@ export default function RoofReplacementPage() {
                   <h3 className="text-xl font-bold text-secondary mb-3">Asphalt Shingle Roofing</h3>
                   <p className="text-gray-600 mb-4">Asphalt shingles remain the most popular roofing choice in Jacksonville, covering over 80% of homes. Modern architectural shingles (also called dimensional or laminate shingles) offer significant improvements over older 3-tab designs, including better wind resistance, longer warranties, and more attractive dimensional appearance.</p>
                   <p className="text-gray-600 mb-4">We install shingles from GAF, Owens Corning, CertainTeed, and other premium manufacturers. As a certified <Link href="/" className="text-primary hover:underline">Jacksonville roofing company</Link>, our crews qualify your roof for enhanced warranty coverage. Proper installation is critical in Florida&apos;s climate, so we use 6-nail patterns, starter strips, and ice/water shield at vulnerable areas. For homeowners weighing options, our <Link href="/blog/architectural-shingles-vs-3-tab-jacksonville" className="text-primary hover:underline">architectural vs 3-tab shingles guide</Link> compares both.</p>
-                  <p className="text-gray-600"><strong>Typical cost:</strong> $8,000-$15,000 for average Jacksonville homes (1,800-2,200 sq ft roof). Premium designer shingles cost more.</p>
+                  <p className="text-gray-600"><strong>Typical cost:</strong> $8,000-$15,000 for average Jacksonville homes (1,800-2,200 sq ft roof). Premium designer shingles cost more. <Link href="/roof-financing-florida" className="text-primary hover:underline">Roof financing options</Link> are available from $99/month.</p>
                 </div>
                 <div className="card p-6">
                   <h4 className="font-bold text-secondary mb-3">Shingle Options</h4>
@@ -329,7 +333,7 @@ export default function RoofReplacementPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Replacement Costs in Jacksonville</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">Transparent pricing with detailed written estimates. No hidden fees. Financing available. For a deeper breakdown, read our <Link href="/blog/roof-replacement-cost-jacksonville-fl" className="text-primary hover:underline">Jacksonville roof replacement cost guide</Link>.</p>
+            <p className="text-gray-600 max-w-3xl mx-auto">Transparent roof replacement cost Jacksonville FL pricing with detailed written estimates. No hidden fees. Financing available. For a deeper breakdown, read our <Link href="/blog/roof-replacement-cost-jacksonville-fl" className="text-primary hover:underline">Jacksonville roof replacement cost guide</Link>.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">

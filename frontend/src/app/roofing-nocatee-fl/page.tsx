@@ -4,8 +4,13 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Nocatee FL - New Construction Roof Repair & Replacement",
-  description: "Roofing in Nocatee FL. Twenty Mile, Crosswater & Del Webb specialists. Builder warranty inspections & roof maintenance. Call (904) 606-5313.",
+  title: { absolute: "Roofing Nocatee FL - Gimo's Roofing" },
+  description: "Roofing Nocatee FL. Twenty Mile, Crosswater, and Del Webb roofing specialists. Builder warranty inspections, repair, and replacement. Call (904) 606-5313.",
+  openGraph: {
+    title: "Roofing Nocatee FL - Gimo's Roofing",
+    description: "Roofing Nocatee FL. Master-planned community specialists. Call (904) 606-5313.",
+    url: "https://www.gimosroofing.com/roofing-nocatee-fl",
+  },
   alternates: { canonical: "https://www.gimosroofing.com/roofing-nocatee-fl" },
 }
 
@@ -24,18 +29,21 @@ const nearbyAreas = [
 ]
 
 const faqs = [
-  { question: "When does the builder roof warranty expire on my Nocatee home?", answer: "Most Nocatee builders — including the production builders that built out Twenty Mile, Greenleaf, Coastal Oaks, and the early Crosswater phases — offered a 1-year workmanship warranty and a 2-year systems warranty on the roof. The shingle manufacturer warranty (typically GAF or Owens Corning) runs 25-30 years separately, but it has strict maintenance and ventilation requirements that void the warranty if not met. If your Nocatee home was built between 2006 and 2018, your builder coverage has expired and you're now relying on the manufacturer warranty alone — which we can help you preserve with documented inspections." },
+  { question: "When does the builder roof warranty expire on my Nocatee home?", answer: "Most Nocatee builders  --  including the production builders that built out Twenty Mile, Greenleaf, Coastal Oaks, and the early Crosswater phases  --  offered a 1-year workmanship warranty and a 2-year systems warranty on the roof. The shingle manufacturer warranty (typically GAF or Owens Corning) runs 25-30 years separately, but it has strict maintenance and ventilation requirements that void the warranty if not met. If your Nocatee home was built between 2006 and 2018, your builder coverage has expired and you're now relying on the manufacturer warranty alone  --  which we can help you preserve with documented inspections." },
   { question: "Do Twenty Mile, Crosswater, and Del Webb have different HOA roof rules?", answer: "Yes, every Nocatee village has its own architectural review board with specific approved materials lists. Twenty Mile typically requires architectural shingles in earth-tone colors with no metal except on accents. Crosswater allows broader color palettes but requires submittal samples before any work begins. Del Webb Ponte Vedra (the 55+ community) has the strictest review process, often requiring matching the original builder shingle line. We carry samples for all three communities and handle the ARB submittal as part of every Nocatee project." },
-  { question: "My Nocatee home is 12 years old — does it need a new roof yet?", answer: "Probably not yet, but it's the right age to start thinking about it. Most Nocatee homes were built with builder-grade architectural shingles rated for 25-30 years, but Florida's UV and heat typically deliver 18-22 years of real-world life. At 12 years, what you need is a thorough inspection focused on ridge cap integrity, sealant strip adhesion, and attic ventilation — the three places where Nocatee builder-grade roofs fail first. We offer free inspections throughout 32081 and 32259." },
+  { question: "My Nocatee home is 12 years old  --  does it need a new roof yet?", answer: "Probably not yet, but it's the right age to start thinking about it. Most Nocatee homes were built with builder-grade architectural shingles rated for 25-30 years, but Florida's UV and heat typically deliver 18-22 years of real-world life. At 12 years, what you need is a thorough inspection focused on ridge cap integrity, sealant strip adhesion, and attic ventilation  --  the three places where Nocatee builder-grade roofs fail first. We offer free inspections throughout 32081 and 32259." },
   { question: "How much does roof replacement cost in Nocatee?", answer: "Most Nocatee single-family homes fall between $13,000 and $22,000 for an architectural shingle replacement. The 2,200-3,200 sq ft homes that dominate Twenty Mile, Liberty Cove, and Coastal Oaks usually land in the $15,000-$19,000 range. Larger homes in Greenleaf or Del Webb with steeper pitches and tile-to-shingle conversions run higher. HOA-approved upgraded shingles (CertainTeed Landmark Pro or GAF Timberline UHDZ) add about $1,500-$2,500 over baseline. Financing is available from $99/month." },
-  { question: "Should I worry about hurricane damage in Nocatee even though we're inland?", answer: "Yes — Nocatee is only about 7 miles from the Atlantic, and the open terrain along Nocatee Parkway and County Road 210 offers very little wind break. Storms hitting Ponte Vedra Beach lose almost no energy by the time they reach Crosswater and Twenty Mile. Florida Building Code requires Nocatee roofs to meet the same 130+ mph wind rating as the beach communities. We recommend a pre-season inspection every May, especially for homes built in the early Twenty Mile phases (2008-2012) where the original builder fasteners were marginal." },
+  { question: "Should I worry about hurricane damage in Nocatee even though we're inland?", answer: "Yes  --  Nocatee is only about 7 miles from the Atlantic, and the open terrain along Nocatee Parkway and County Road 210 offers very little wind break. Storms hitting Ponte Vedra Beach lose almost no energy by the time they reach Crosswater and Twenty Mile. Florida Building Code requires Nocatee roofs to meet the same 130+ mph wind rating as the beach communities. We recommend a pre-season inspection every May, especially for homes built in the early Twenty Mile phases (2008-2012) where the original builder fasteners were marginal." },
   { question: "What energy-efficient upgrades work best on Nocatee homes?", answer: "Nocatee's newer homes already have decent insulation, so the biggest gains come from cool roof shingles, ridge ventilation upgrades, and radiant barrier decking. CertainTeed Landmark Solaris and GAF Timberline CS are both reflective architectural shingles approved by most Nocatee HOAs, and they typically drop attic temperatures 15-25 degrees in the summer. We've installed solar-attic fans on dozens of Twenty Mile and Greenleaf homes that cut cooling bills 10-18% the first year." },
-  { question: "What builder-grade roofing problems do you see most often in Nocatee?", answer: "The three most common issues we find on 10-15 year old Nocatee roofs are: (1) minimum-spec 3-tab shingles on the original Twenty Mile and Coastal Oaks homes that are now cracking and losing granules, (2) inadequate attic ventilation across most of the early phases — almost every home is at least one ridge vent short, and (3) poorly-sealed pipe boots and flashing around HVAC penetrations causing slow leaks that don't show up until interior staining appears. None of these are catastrophic, but they all shorten roof life if ignored." },
-  { question: "Do you offer free roof inspections in 32081 and 32259?", answer: "Yes — free inspections throughout all of Nocatee, including Twenty Mile, Crosswater, Greenleaf, Coastal Oaks, Addison Park, Liberty Cove, and Del Webb Ponte Vedra. We typically arrive within 2-3 business days, walk the roof, photograph any issues, and email a detailed report the same day. There's no obligation and no high-pressure pitch — we'd rather build a long-term relationship than push an unnecessary replacement. Call (904) 606-5313 to schedule." }
+  { question: "What builder-grade roofing problems do you see most often in Nocatee?", answer: "The three most common issues we find on 10-15 year old Nocatee roofs are: (1) minimum-spec 3-tab shingles on the original Twenty Mile and Coastal Oaks homes that are now cracking and losing granules, (2) inadequate attic ventilation across most of the early phases  --  almost every home is at least one ridge vent short, and (3) poorly-sealed pipe boots and flashing around HVAC penetrations causing slow leaks that don't show up until interior staining appears. None of these are catastrophic, but they all shorten roof life if ignored." },
+  { question: "Do you offer free roof inspections in 32081 and 32259?", answer: "Yes -- free inspections throughout all of Nocatee, including Twenty Mile, Crosswater, Greenleaf, Coastal Oaks, Addison Park, Liberty Cove, and Del Webb Ponte Vedra. We typically arrive within 2-3 business days, walk the roof, photograph any issues, and email a detailed report the same day. There's no obligation and no high-pressure pitch -- we'd rather build a long-term relationship than push an unnecessary replacement. Call (904) 606-5313 to schedule." },
+  { question: "Can I change my Nocatee roof color or style, or does the CDD restrict it?", answer: "The Nocatee Community Development District (CDD) itself does not regulate roof aesthetics, but every village HOA within Nocatee does, and most are strict. Twenty Mile requires earth-tone architectural shingles and will reject bright or non-standard colors outright. Del Webb Ponte Vedra requires matching the original builder shingle line and color in most cases. Crosswater and Greenleaf each maintain their own approved color matrix. Before you pick a new shingle color or consider switching from shingle to metal, check with your village ARB first. We keep current approved-product lists for every major Nocatee community and can tell you during the estimate what will pass review and what will not." },
+  { question: "Is it true that Nocatee homes built 2010-2015 already need roof work?", answer: "Not full replacements yet, but many of those early-phase homes in Twenty Mile, Coastal Oaks, and the first Crosswater sections are now 10-15 years old and showing the first signs of builder-grade wear. The most common issues we find at that age are cracking ridge cap sealant, degraded pipe boot flashings around plumbing vents, and one or two missing shingles from minor storm damage that was never addressed. Left alone for another 3-5 years, these small problems turn into leaks. A professional inspection at the 10-12 year mark catches everything early and extends the life of the original roof by years. We inspect Nocatee homes of this vintage every week and the repair bill is almost always under $800." }
 ]
 
 const serviceSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/roofing-nocatee-fl#service",
   "@type": "Service",
   "name": "Roofing Services in Nocatee, FL",
   "serviceType": "Roofing Contractor",
@@ -82,7 +90,9 @@ const serviceSchema = {
 
 const faqSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/roofing-nocatee-fl#faq",
   "@type": "FAQPage",
+  "about": { "@id": "https://www.gimosroofing.com/roofing-nocatee-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-nocatee-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -90,6 +100,7 @@ const faqSchema = {
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/roofing-nocatee-fl#breadcrumb",
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },

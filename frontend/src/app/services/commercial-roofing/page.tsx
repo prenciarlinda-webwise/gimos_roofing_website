@@ -4,11 +4,11 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: "Commercial Roofing in Jacksonville FL - Gimo's Roofing" },
-  description: "Commercial roofing in Jacksonville FL from Gimo's Roofing. TPO, EPDM, metal, and modified bitumen installation, repair, and maintenance for local businesses. Call (904) 606-5313.",
+  title: { absolute: "Commercial Roofing - Gimo's Roofing" },
+  description: "Professional commercial roofing from Gimo's Roofing. TPO, EPDM, metal, and modified bitumen installation, repair, and maintenance for businesses. Call (904) 606-5313.",
   openGraph: {
-    title: "Commercial Roofing in Jacksonville FL - Gimo's Roofing",
-    description: "Local commercial roofing contractors in Jacksonville FL. TPO, EPDM, metal, and flat roof systems for businesses. Call (904) 606-5313.",
+    title: "Commercial Roofing - Gimo's Roofing",
+    description: "Commercial roofing for businesses. TPO, EPDM, metal, and flat roof systems. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com/services/commercial-roofing",
   },
   alternates: { canonical: "https://www.gimosroofing.com/services/commercial-roofing" },
@@ -68,6 +68,7 @@ const faqs = [
 
 const serviceSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/commercial-roofing#service",
   "@type": "Service",
   "name": "Commercial Roofing in Jacksonville FL",
   "serviceType": "Commercial Roofing",
@@ -75,15 +76,15 @@ const serviceSchema = {
   "url": "https://www.gimosroofing.com/services/commercial-roofing",
   "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL" },
-    { "@type": "City", "name": "Jacksonville Beach, FL" },
-    { "@type": "City", "name": "Atlantic Beach, FL" },
-    { "@type": "City", "name": "Neptune Beach, FL" },
-    { "@type": "City", "name": "St. Augustine, FL" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL" },
-    { "@type": "City", "name": "Nocatee, FL" },
-    { "@type": "City", "name": "Orange Park, FL" },
-    { "@type": "City", "name": "Fernandina Beach, FL" }
+    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
+    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
+    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
+    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
+    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
+    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
+    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
+    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -108,7 +109,9 @@ const serviceSchema = {
 
 const faqSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/commercial-roofing#faq",
   "@type": "FAQPage",
+  "about": { "@id": "https://www.gimosroofing.com/services/commercial-roofing#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/commercial-roofing",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -116,6 +119,7 @@ const faqSchema = {
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/commercial-roofing#breadcrumb",
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
@@ -143,9 +147,9 @@ export default function CommercialRoofingPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Commercial Roofing</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Commercial Roofing in Jacksonville FL - Local Contractors</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Commercial Roofing - TPO, Metal &amp; Flat Roof Systems</h1>
               <p className="text-lg text-gray-200 mb-6">
-                Need a commercial roofer nearby? Gimo&apos;s Roofing serves businesses across Duval, St. Johns, Clay, and Nassau counties with TPO, EPDM, metal, and modified bitumen roofing. Installation, repair, and long-term maintenance contracts available.
+                Need a commercial roofing contractor Jacksonville businesses trust? Gimo&apos;s Roofing serves businesses across Duval, St. Johns, Clay, and Nassau counties with TPO, EPDM, metal, and modified bitumen roofing. Installation, commercial roof repair Jacksonville, and long-term maintenance contracts available.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-full sm:w-auto">Get Free Estimate</a>

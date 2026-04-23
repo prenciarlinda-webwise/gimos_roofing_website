@@ -8,7 +8,7 @@ import TrustindexWidget from '@/components/TrustindexWidget'
 
 export const metadata: Metadata = {
   title: { absolute: "Jacksonville Roofing Company - Gimo's Roofing" },
-  description: "Gimo's Roofing is a trusted roofer Jacksonville homeowners rely on. 500+ roofs completed, 5-star reviews, and expert roof repair in Jacksonville FL. Call (904) 606-5313.",
+  description: "Gimo's Roofing is a trusted Jacksonville roofing company with 500+ roofs completed, 5-star reviews, and expert roofers Jacksonville FL homeowners rely on. Call (904) 606-5313.",
   openGraph: {
     title: "Jacksonville Roofing Company - Gimo's Roofing",
     description: "Trusted roofer Jacksonville homeowners rely on. 500+ roofs completed, 5-star reviews, roof repair in Jacksonville FL. Call (904) 606-5313.",
@@ -90,6 +90,7 @@ const ORG_ID = "https://www.gimosroofing.com/#organization"
 
 const faqSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/#faq",
   "@type": "FAQPage",
   "mainEntityOfPage": "https://www.gimosroofing.com/",
   "publisher": { "@id": ORG_ID },
@@ -98,6 +99,7 @@ const faqSchema = {
 
 const videoSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/#videos",
   "@type": "ItemList",
   "name": "Gimo's Roofing Project Videos",
   "itemListElement": [
@@ -242,7 +244,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Roofing Jacksonville FL</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Professional Roofing & Siding Services in Northeast Florida</h2>
-            <p className="text-base text-gray-600 max-w-2xl mx-auto">As a licensed Jacksonville roofing company, we deliver quality craftsmanship for residential and commercial properties across Northeast Florida. From roof repairs to complete replacements, our team is backed by manufacturer warranties and 24/7 <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link> for storm damage and active leaks.</p>
+            <p className="text-base text-gray-600 max-w-2xl mx-auto">Among roofing companies in Jacksonville FL, Gimo&apos;s Roofing stands apart. As a licensed Jacksonville FL roofing company, we deliver quality craftsmanship for residential roofing Jacksonville FL homeowners trust, plus commercial properties across Northeast Florida. From roof repairs to complete replacements, our team is backed by manufacturer warranties and 24/7 <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link> for storm damage and active leaks.</p>
           </div>
 
           {/* Roofing Services */}
@@ -366,7 +368,7 @@ export default function Home() {
             <div>
               <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Why Choose Us</span>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Why Homeowners Trust Our Jacksonville Roofing Company</h2>
-              <p className="text-base text-gray-600 mb-6">When you need roofers Jacksonville FL homeowners trust, Gimo&apos;s Roofing delivers. As Jacksonville&apos;s top-rated roofing contractor, we provide exceptional quality, transparent pricing, and outstanding customer service for every roofing Jacksonville project.</p>
+              <p className="text-base text-gray-600 mb-6">When you need a Jacksonville roofer you can count on, Gimo&apos;s Roofing delivers. Ranked among the best roofing companies in Jacksonville FL, our Jacksonville roofing contractor team provides exceptional quality, transparent pricing, and outstanding customer service for every roofing Jacksonville project. Jacksonville roofers on our crew treat every home like their own.</p>
               <div className="grid sm:grid-cols-2 gap-4">
                 {whyChooseUs.map((item) => (
                   <div key={item.title} className="flex gap-3">
@@ -440,7 +442,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Jacksonville Roofing Service Areas</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Local Roofing Contractor Serving <span className="text-primary">Northeast Florida</span></h2>
-            <p className="text-base text-gray-300 max-w-2xl mx-auto">Proudly serving Duval, St. Johns, Clay, and Nassau counties. Find trusted roofers Jacksonville FL residents recommend.</p>
+            <p className="text-base text-gray-300 max-w-2xl mx-auto">Proudly serving Duval, St. Johns, Clay, and Nassau counties. Among Jacksonville FL roofing companies, Gimo&apos;s is the name roofing companies Jacksonville FL families recommend most.</p>
           </div>
           <div className="space-y-10">
             {Object.entries(serviceAreasByCounty).map(([county, areas]) => (

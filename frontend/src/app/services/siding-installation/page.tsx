@@ -4,11 +4,11 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: "Siding Installation in Jacksonville FL - Gimo's Roofing" },
-  description: "Siding installation in Jacksonville FL from Gimo's Roofing. Vinyl siding, Hardie board, and fiber cement installation with financing available nearby. Call (904) 606-5313.",
+  title: { absolute: "Siding Installation - Gimo's Roofing" },
+  description: "Professional siding installation from Gimo's Roofing. Vinyl siding, Hardie board, and fiber cement installation with financing available. Call (904) 606-5313.",
   openGraph: {
-    title: "Siding Installation in Jacksonville FL - Gimo's Roofing",
-    description: "Licensed siding installation in Jacksonville FL. Vinyl, Hardie board, and fiber cement. Free estimates and financing. Call (904) 606-5313.",
+    title: "Siding Installation - Gimo's Roofing",
+    description: "Licensed siding installation. Vinyl, Hardie board, and fiber cement. Free estimates and financing. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com/services/siding-installation",
   },
   alternates: { canonical: "https://www.gimosroofing.com/services/siding-installation" },
@@ -76,6 +76,7 @@ const faqs = [
 
 const serviceSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/siding-installation#service",
   "@type": "Service",
   "name": "Siding Installation in Jacksonville FL",
   "serviceType": "Siding Installation",
@@ -83,15 +84,15 @@ const serviceSchema = {
   "url": "https://www.gimosroofing.com/services/siding-installation",
   "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL" },
-    { "@type": "City", "name": "Jacksonville Beach, FL" },
-    { "@type": "City", "name": "Atlantic Beach, FL" },
-    { "@type": "City", "name": "Neptune Beach, FL" },
-    { "@type": "City", "name": "St. Augustine, FL" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL" },
-    { "@type": "City", "name": "Nocatee, FL" },
-    { "@type": "City", "name": "Orange Park, FL" },
-    { "@type": "City", "name": "Fernandina Beach, FL" }
+    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
+    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
+    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
+    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
+    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
+    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
+    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
+    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -115,7 +116,9 @@ const serviceSchema = {
 
 const faqSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/siding-installation#faq",
   "@type": "FAQPage",
+  "about": { "@id": "https://www.gimosroofing.com/services/siding-installation#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/siding-installation",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -123,6 +126,7 @@ const faqSchema = {
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/siding-installation#breadcrumb",
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
@@ -150,9 +154,9 @@ export default function SidingInstallationPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Siding Installation</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Siding Installation in Jacksonville FL - Vinyl, Hardie &amp; Fiber Cement</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Siding Installation - Vinyl, Hardie &amp; Fiber Cement</h1>
               <p className="text-lg text-gray-200 mb-6">
-                Looking for siding installation near me in Northeast Florida? Gimo&apos;s Roofing is a licensed team of siding contractors Jacksonville FL homeowners trust for vinyl siding, Hardie board, fiber cement, and engineered wood installations across Duval, St. Johns, Clay, and Nassau counties.
+                Looking for siding Jacksonville FL homeowners recommend? Gimo&apos;s Roofing is a licensed team of siding contractors Jacksonville FL homeowners trust for vinyl siding, Hardie board, fiber cement, and engineered wood installations across Duval, St. Johns, Clay, and Nassau counties.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-full sm:w-auto">Get Free Estimate</a>
@@ -236,7 +240,7 @@ export default function SidingInstallationPage() {
                 <div className="md:col-span-2">
                   <h3 className="text-xl font-bold text-secondary mb-3">Vinyl Siding</h3>
                   <p className="text-gray-600 mb-4">Vinyl siding remains America&apos;s most popular siding choice for good reason. It&apos;s affordable, requires virtually no maintenance, and comes in hundreds of colors and styles. Modern vinyl is far superior to products from decades ago, with better UV resistance and realistic wood-grain textures.</p>
-                  <p className="text-gray-600 mb-4">For Jacksonville homes, we recommend premium vinyl with enhanced UV inhibitors to prevent fading in our intense sun. Thicker panels (0.044&quot; or more) resist impact damage and last longer than builder-grade vinyl.</p>
+                  <p className="text-gray-600 mb-4">For Jacksonville homes, we recommend premium vinyl with enhanced UV inhibitors to prevent fading in our intense sun. Thicker panels (0.044&quot; or more) resist impact damage and last longer than builder-grade vinyl. If your existing vinyl is cracked or storm-damaged, our <Link href="/services/siding-repair" className="text-primary hover:underline">siding repair services</Link> can restore individual sections without a full replacement.</p>
                   <p className="text-gray-600"><strong>Typical cost:</strong> $4-8 per square foot installed. Premium insulated vinyl runs $6-10 per square foot.</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">

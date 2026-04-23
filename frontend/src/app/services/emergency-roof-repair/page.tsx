@@ -4,11 +4,11 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: "Emergency Roof Repair in Jacksonville FL - Gimo's Roofing" },
-  description: "Need an emergency roof repair nearby? Gimo's Roofing delivers fast 24/7 emergency roof services across Jacksonville FL for storm damage, active leaks, and urgent repairs. Call (904) 606-5313.",
+  title: { absolute: "Emergency Roof Repair - Gimo's Roofing" },
+  description: "Need an emergency roof repair nearby? Gimo's Roofing delivers fast 24/7 emergency roof services for storm damage, active leaks, and urgent repairs. Call (904) 606-5313.",
   openGraph: {
-    title: "Emergency Roof Repair in Jacksonville FL - Gimo's Roofing",
-    description: "Fast emergency roof repair in Jacksonville FL. 24/7 response to storm damage and active leaks. Call (904) 606-5313.",
+    title: "Emergency Roof Repair - Gimo's Roofing",
+    description: "24/7 emergency roof repair for storm damage and active leaks. Fast response. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com/services/emergency-roof-repair",
   },
   alternates: { canonical: "https://www.gimosroofing.com/services/emergency-roof-repair" },
@@ -64,6 +64,7 @@ const faqs = [
 
 const schemaData = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/emergency-roof-repair#service",
   "@type": "Service",
   "name": "Emergency Roof Repair in Jacksonville FL",
   "serviceType": "Emergency Roof Repair",
@@ -71,15 +72,15 @@ const schemaData = {
   "url": "https://www.gimosroofing.com/services/emergency-roof-repair",
   "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL" },
-    { "@type": "City", "name": "Jacksonville Beach, FL" },
-    { "@type": "City", "name": "Atlantic Beach, FL" },
-    { "@type": "City", "name": "Neptune Beach, FL" },
-    { "@type": "City", "name": "St. Augustine, FL" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL" },
-    { "@type": "City", "name": "Nocatee, FL" },
-    { "@type": "City", "name": "Orange Park, FL" },
-    { "@type": "City", "name": "Fernandina Beach, FL" }
+    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
+    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
+    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
+    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
+    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
+    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
+    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
+    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
   ],
   "hoursAvailable": {
     "@type": "OpeningHoursSpecification",
@@ -110,7 +111,9 @@ const schemaData = {
 
 const faqSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/emergency-roof-repair#faq",
   "@type": "FAQPage",
+  "about": { "@id": "https://www.gimosroofing.com/services/emergency-roof-repair#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/emergency-roof-repair",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -118,6 +121,7 @@ const faqSchema = {
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/emergency-roof-repair#breadcrumb",
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
@@ -145,9 +149,9 @@ export default function EmergencyRoofRepairPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Emergency Roof Repair</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Emergency Roof Repair in Jacksonville FL - 24/7 Response</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Emergency Roof Repair - 24/7 Response</h1>
               <p className="text-lg text-gray-200 mb-6">
-                Are you in need of an emergency roof repair nearby? Gimo&apos;s Roofing responds fast to active leaks, storm damage, and urgent roofing issues across Duval, St. Johns, Clay, and Nassau counties. Call the moment something goes wrong and we&apos;ll secure your home before the damage spreads.
+                Searching for emergency roof repair near me? Gimo&apos;s Roofing responds fast to active leaks, storm damage, and urgent roofing issues across Duval, St. Johns, Clay, and Nassau counties. Call the moment something goes wrong and we&apos;ll secure your home before the damage spreads.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href={`tel:+19046065313`} className="btn btn-primary w-full sm:w-auto text-center font-bold">
@@ -390,7 +394,7 @@ export default function EmergencyRoofRepairPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Jacksonville Storm Damage Specialists</h2>
-              <p className="text-gray-600">Living in Northeast Florida means preparing for severe weather. Our team has extensive experience with storm damage repair.</p>
+              <p className="text-gray-600">Living in Northeast Florida means preparing for severe weather. Our team has extensive experience with storm damage repair, from minor <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Jacksonville FL</Link> to full <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link> when damage is severe.</p>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
               <Image src="/images/roof-leak-emergency-repair.webp" alt="Emergency roof leak repair in Jacksonville FL" title="Emergency roof leak repair in Jacksonville FL" fill className="object-cover" />

@@ -4,8 +4,13 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roofing Mandarin FL - Roof Repair & Replacement Jacksonville",
-  description: "Roofing in Mandarin FL. Trusted local roofers for Mandarin, Beauclerc & Loretto homes. Tree damage repair & full replacements. Call (904) 606-5313.",
+  title: { absolute: "Roofing Mandarin FL - Gimo's Roofing" },
+  description: "Roofing company Mandarin FL. Trusted roofing contractor Mandarin FL for tree damage repair, full replacements, and storm response. Call (904) 606-5313.",
+  openGraph: {
+    title: "Roofing Mandarin FL - Gimo's Roofing",
+    description: "Roofing company Mandarin FL. Tree damage repair and roof replacements. Call (904) 606-5313.",
+    url: "https://www.gimosroofing.com/roofing-mandarin-fl",
+  },
   alternates: { canonical: "https://www.gimosroofing.com/roofing-mandarin-fl" },
 }
 
@@ -29,13 +34,16 @@ const faqs = [
   { question: `How much does roof replacement cost in ${location}?`, answer: `Roof replacement in ${location} typically ranges from $7,500 to $28,000 depending on home size, materials, and complexity. Many Mandarin homes in the 1,500-2,500 sq ft range fall in the $10,000-$18,000 range for architectural shingles. We offer free estimates and financing from $99/month.` },
   { question: `Will my insurance cover an older roof in ${location}?`, answer: `Many insurers in Florida are now requiring roof replacement for homes with roofs over 15-20 years old. If your Mandarin home has an aging roof, your premiums may be higher or coverage limited. A new roof can save you 15-30% on insurance premiums. We provide documentation for insurance companies and can help with the claims process.` },
   { question: `Why does my Mandarin roof have moss and algae?`, answer: `Mandarin's dense tree canopy creates persistent shade and traps moisture on roof surfaces. This creates ideal conditions for moss, algae (the black streaks), and lichen growth. Beyond being unsightly, these organisms retain moisture against shingles and accelerate deterioration. We install algae-resistant shingles and can recommend trimming strategies to reduce shade buildup.` },
-  { question: `What roofing materials are best for ${location} homes?`, answer: `Architectural shingles with algae-resistant technology are the most popular choice in ${location}, offering 25-30 year lifespans at moderate cost. Metal roofing is growing in popularity for homeowners wanting 40-60 year durability and better resistance to falling debris. For homes under heavy canopy, impact-resistant shingles (Class 4) provide extra protection against branch impacts.` },
   { question: `How should I prepare my Mandarin roof for hurricane season?`, answer: `Start with a professional inspection before June. We check for loose shingles, compromised flashing, and weak spots that could fail in high winds. For Mandarin homes specifically, we also check for overhanging branches that could break and puncture your roof. Trim branches back at least 6 feet from rooflines. Call ${phone} to schedule a pre-hurricane season inspection.` },
-  { question: `Do older Mandarin homes have ventilation problems?`, answer: `Yes, many 1970s-1990s Mandarin homes were built with inadequate attic ventilation by today's standards. Poor ventilation traps heat and moisture, causing premature shingle deterioration from underneath, higher energy bills, and potential mold issues. During any roof replacement, we assess and upgrade ventilation to meet current building codes, adding ridge vents and soffit vents as needed.` }
+  { question: `Do older Mandarin homes have ventilation problems?`, answer: `Yes, many 1970s-1990s Mandarin homes were built with inadequate attic ventilation by today's standards. Poor ventilation traps heat and moisture, causing premature shingle deterioration from underneath, higher energy bills, and potential mold issues. During any roof replacement, we assess and upgrade ventilation to meet current building codes, adding ridge vents and soffit vents as needed.` },
+  { question: `Why do so many Mandarin homes from the 1980s have failing roof vents?`, answer: `The production builders who developed most of Mandarin's subdivisions along Old St. Augustine Road, Loretto Road, and the Julington Creek corridor in the 1980s installed the cheapest plastic turbine vents and box vents available. After 35-40 years of Florida UV, those plastic housings crack, warp, and leak. We find failed roof vents on nearly every 1980s-era Mandarin inspection in neighborhoods like Beauclerc, Christopher Point, and the stretches off Hood Road. Replacing them during a re-roof is inexpensive, but ignoring them lets water into the attic for years before you see staining on the ceiling.` },
+  { question: `How does Julington Creek flooding affect roofs in nearby Mandarin neighborhoods?`, answer: `Julington Creek and its tributaries flood regularly during heavy summer rains and tropical systems, and the rising water table in neighborhoods like Julington Creek Plantation, Christopher Point, and the low areas near Mandarin Road pushes moisture up through the soil. That ground-level moisture combines with Mandarin's canopy shade to keep humidity trapped under rooflines for days after a storm. The result is accelerated underlayment rot and fastener corrosion that you would not see on higher-ground homes a mile away. If your home backs up to a creek or retention pond in Mandarin, we recommend synthetic underlayment and enhanced ridge ventilation to manage that extra moisture load.` },
+  { question: `Does Mandarin's proximity to the St. Johns River increase roof humidity damage?`, answer: `Yes. Mandarin runs along the west bank of the St. Johns for miles, and homes in Beauclerc, Epping Forest, Mandarin Point, and the riverfront streets off Mandarin Road sit in a microclimate that is measurably more humid than neighborhoods a few miles inland. The river moisture feeds algae and moss growth on north-facing slopes, accelerates sealant breakdown on ridge caps, and keeps attic humidity elevated even in winter. We see more underlayment failures on riverfront Mandarin homes at 15 years than we see on comparable homes in Orange Park at 20 years. Proper soffit-to-ridge ventilation and algae-resistant shingles are the two best defenses.` }
 ]
 
 const serviceSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/roofing-mandarin-fl#service",
   "@type": "Service",
   "name": "Roofing Services in Mandarin, Jacksonville FL",
   "serviceType": "Roofing Contractor",
@@ -83,7 +91,9 @@ const serviceSchema = {
 
 const faqSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/roofing-mandarin-fl#faq",
   "@type": "FAQPage",
+  "about": { "@id": "https://www.gimosroofing.com/roofing-mandarin-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-mandarin-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -91,6 +101,7 @@ const faqSchema = {
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/roofing-mandarin-fl#breadcrumb",
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
@@ -153,7 +164,7 @@ export default function MandarinPage() {
             That beautiful tree canopy comes with a cost to your roof. Mandarin&apos;s towering oaks and dense shade create a unique set of roofing challenges that inland neighborhoods without heavy canopy simply don&apos;t face. Persistent shade traps moisture, fallen branches cause impact damage, and leaf debris clogs gutters and valleys. Combined with an aging housing stock where many original roofs are now 25-40 years old, {location} homeowners face roofing decisions that require local expertise.
           </p>
           <p className="text-gray-600">
-            At Gimo&apos;s Roofing, we&apos;ve served {location} homeowners throughout the San Jose Boulevard corridor and surrounding neighborhoods for years. We understand the specific challenges that come with roofing under heavy canopy and know which materials perform best in shaded, moisture-prone environments. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a full roof replacement</Link> on a 1980s home or <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link> from the last storm, our team delivers reliable results. <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">Emergency roof repair</Link> is available 24/7 throughout {location}.
+            As a trusted roofing company in Mandarin FL, Gimo&apos;s Roofing has served homeowners throughout the San Jose Boulevard corridor and surrounding neighborhoods for years. As an experienced roofing contractor in Mandarin FL, we understand the specific challenges that come with roofing under heavy canopy and know which materials perform best in shaded, moisture-prone environments. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a full roof replacement</Link> on a 1980s home or <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link> from the last storm, our team delivers reliable results. <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">Emergency roof repair</Link> is available 24/7 throughout {location}.
           </p>
         </div>
       </section>

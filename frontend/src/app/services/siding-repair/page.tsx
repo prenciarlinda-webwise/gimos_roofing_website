@@ -4,11 +4,11 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: "Siding Repair in Jacksonville FL - Gimo's Roofing" },
-  description: "Fast siding repair in Jacksonville FL from Gimo's Roofing. Vinyl siding repair near me, storm damage fixes, and panel replacement by trusted siding contractors. Call (904) 606-5313.",
+  title: { absolute: "Siding Repair - Gimo's Roofing" },
+  description: "Fast siding repair from Gimo's Roofing. Vinyl siding repair, storm damage fixes, and panel replacement by trusted siding contractors. Call (904) 606-5313.",
   openGraph: {
-    title: "Siding Repair in Jacksonville FL - Gimo's Roofing",
-    description: "Jacksonville siding repair for vinyl, fiber cement, and storm damage. Licensed siding contractors Jacksonville FL homeowners trust. Call (904) 606-5313.",
+    title: "Siding Repair - Gimo's Roofing",
+    description: "Siding repair for vinyl, fiber cement, and storm damage. Licensed siding contractors you can trust. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com/services/siding-repair",
   },
   alternates: { canonical: "https://www.gimosroofing.com/services/siding-repair" },
@@ -77,6 +77,7 @@ const faqs = [
 
 const serviceSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/siding-repair#service",
   "@type": "Service",
   "name": "Siding Repair in Jacksonville FL",
   "serviceType": "Siding Repair",
@@ -84,15 +85,15 @@ const serviceSchema = {
   "url": "https://www.gimosroofing.com/services/siding-repair",
   "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL" },
-    { "@type": "City", "name": "Jacksonville Beach, FL" },
-    { "@type": "City", "name": "Atlantic Beach, FL" },
-    { "@type": "City", "name": "Neptune Beach, FL" },
-    { "@type": "City", "name": "St. Augustine, FL" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL" },
-    { "@type": "City", "name": "Nocatee, FL" },
-    { "@type": "City", "name": "Orange Park, FL" },
-    { "@type": "City", "name": "Fernandina Beach, FL" }
+    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
+    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
+    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
+    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
+    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
+    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
+    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
+    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -116,7 +117,9 @@ const serviceSchema = {
 
 const faqSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/siding-repair#faq",
   "@type": "FAQPage",
+  "about": { "@id": "https://www.gimosroofing.com/services/siding-repair#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/siding-repair",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -124,6 +127,7 @@ const faqSchema = {
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/siding-repair#breadcrumb",
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
@@ -151,9 +155,9 @@ export default function SidingRepairPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Siding Repair</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Siding Repair in Jacksonville FL - Fast, Color-Matched Fixes</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Siding Repair - Fast, Color-Matched Fixes</h1>
               <p className="text-lg text-gray-200 mb-6">
-                Searching for siding repair near me in Northeast Florida? Gimo&apos;s Roofing delivers Jacksonville siding repair for vinyl, Hardie board, wood, and storm-damaged panels across Duval, St. Johns, Clay, and Nassau counties. Licensed siding contractors Jacksonville FL homeowners trust for quick turnarounds and clean color matches.
+                Searching for siding repair Jacksonville homeowners can count on? Gimo&apos;s Roofing delivers Jacksonville siding repair for vinyl, Hardie board, wood, and storm-damaged panels across Duval, St. Johns, Clay, and Nassau counties. Licensed siding contractors Jacksonville FL homeowners trust for quick turnarounds and clean color matches.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-full sm:w-auto">Get Free Estimate</a>

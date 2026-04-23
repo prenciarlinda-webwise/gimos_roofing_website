@@ -4,11 +4,11 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: "Roof Repair in Jacksonville FL - Gimo's Roofing" },
-  description: "Roof repair in Jacksonville FL from Gimo's Roofing. Leak repair, shingle repair, roof flashing repair, and storm damage repair nearby with same-day service. Call (904) 606-5313.",
+  title: { absolute: "Roof Repair - Gimo's Roofing" },
+  description: "Professional roof repair from Gimo's Roofing. Leak repair, shingle repair, roof flashing repair, and storm damage repair with same-day service. Call (904) 606-5313.",
   openGraph: {
-    title: "Roof Repair in Jacksonville FL - Gimo's Roofing",
-    description: "Fast roof repair in Jacksonville FL for leaks, shingles, and flashing. Same-day service and insurance help. Call (904) 606-5313.",
+    title: "Roof Repair - Gimo's Roofing",
+    description: "Fast roof repair for leaks, shingles, and flashing. Same-day service and insurance help. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com/services/roof-repair",
   },
   alternates: { canonical: "https://www.gimosroofing.com/services/roof-repair" },
@@ -59,6 +59,7 @@ const faqs = [
 
 const serviceSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/roof-repair#service",
   "@type": "Service",
   "name": "Roof Repair in Jacksonville FL",
   "serviceType": "Roof Repair",
@@ -66,15 +67,15 @@ const serviceSchema = {
   "url": "https://www.gimosroofing.com/services/roof-repair",
   "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL" },
-    { "@type": "City", "name": "Jacksonville Beach, FL" },
-    { "@type": "City", "name": "Atlantic Beach, FL" },
-    { "@type": "City", "name": "Neptune Beach, FL" },
-    { "@type": "City", "name": "St. Augustine, FL" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL" },
-    { "@type": "City", "name": "Nocatee, FL" },
-    { "@type": "City", "name": "Orange Park, FL" },
-    { "@type": "City", "name": "Fernandina Beach, FL" }
+    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
+    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
+    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
+    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
+    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
+    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
+    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
+    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -98,6 +99,7 @@ const serviceSchema = {
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/roof-repair#breadcrumb",
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
@@ -108,7 +110,9 @@ const breadcrumbSchema = {
 
 const faqSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/services/roof-repair#faq",
   "@type": "FAQPage",
+  "about": { "@id": "https://www.gimosroofing.com/services/roof-repair#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/roof-repair",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -133,9 +137,9 @@ export default function RoofRepairPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Roof Repair</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Roof Repair in Jacksonville FL - Leaks, Shingles &amp; Flashing</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Roof Repair - Leaks, Shingles &amp; Flashing</h1>
               <p className="text-lg text-gray-200 mb-6">
-                Looking for a roof repair nearby? Gimo&apos;s Roofing fixes roof leaks, damaged shingles, and failed flashing across Duval, St. Johns, Clay, and Nassau counties. Same-day emergency response is available and most repairs are completed in one visit with materials we stock on our trucks.
+                Looking for Jacksonville roof repair nearby? Gimo&apos;s Roofing fixes roof leaks, damaged shingles, and failed flashing across Duval, St. Johns, Clay, and Nassau counties. Same-day emergency response is available for roof repair Jacksonville homeowners need fast, and most repairs are completed in one visit with materials we stock on our trucks.
               </p>
               <ul className="text-gray-200 mb-6 space-y-2">
                 <li className="flex items-center gap-2"><span className="text-primary">&#10003;</span> Licensed, insured, and locally owned</li>
@@ -203,7 +207,7 @@ export default function RoofRepairPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Repair Services We Provide</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">Gimo&apos;s Roofing delivers roof repair in Jacksonville FL for every common issue, from minor shingle replacements to complex flashing repairs. Our crews carry materials on their trucks for same-day service across Northeast Florida whenever possible.</p>
+            <p className="text-gray-600 max-w-3xl mx-auto">Gimo&apos;s Roofing delivers Jacksonville FL roof repair and roofing repair Jacksonville FL homeowners trust for every common issue, from minor shingle replacements to complex flashing repairs. Whether you need roof leak repair Jacksonville FL or a full section replacement, our crews carry materials on their trucks for same-day service across Northeast Florida whenever possible.</p>
           </div>
 
           <div className="space-y-8">

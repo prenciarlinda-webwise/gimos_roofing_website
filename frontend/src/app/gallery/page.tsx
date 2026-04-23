@@ -56,6 +56,7 @@ const galleryVideos = [
 
 const gallerySchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/gallery#gallery",
   "@type": "ImageGallery",
   "name": "Gimo's Roofing Project Gallery",
   "description": "Photos of completed roofing and siding projects in Jacksonville, FL and Northeast Florida",
@@ -65,6 +66,7 @@ const gallerySchema = {
 
 const videoSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/gallery#videos",
   "@type": "ItemList",
   "name": "Gimo's Roofing Project Videos",
   "itemListElement": galleryVideos.map((v, i) => ({
@@ -82,6 +84,7 @@ const videoSchema = {
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/gallery#breadcrumb",
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },

@@ -58,6 +58,7 @@ const faqs = [
 
 const serviceSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/roof-financing-florida#service",
   "@type": "Service",
   "name": "Roof Financing in Florida",
   "serviceType": "Roof Financing",
@@ -65,15 +66,15 @@ const serviceSchema = {
   "url": "https://www.gimosroofing.com/roof-financing-florida",
   "provider": { "@id": "https://www.gimosroofing.com/#organization" },
   "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL" },
-    { "@type": "City", "name": "Jacksonville Beach, FL" },
-    { "@type": "City", "name": "Atlantic Beach, FL" },
-    { "@type": "City", "name": "Neptune Beach, FL" },
-    { "@type": "City", "name": "St. Augustine, FL" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL" },
-    { "@type": "City", "name": "Nocatee, FL" },
-    { "@type": "City", "name": "Orange Park, FL" },
-    { "@type": "City", "name": "Fernandina Beach, FL" }
+    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
+    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
+    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
+    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
+    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
+    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
+    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
+    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
+    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -97,7 +98,9 @@ const serviceSchema = {
 
 const faqSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/roof-financing-florida#faq",
   "@type": "FAQPage",
+  "about": { "@id": "https://www.gimosroofing.com/roof-financing-florida#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roof-financing-florida",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -105,6 +108,7 @@ const faqSchema = {
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
+  "@id": "https://www.gimosroofing.com/roof-financing-florida#breadcrumb",
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gimosroofing.com" },
@@ -182,7 +186,7 @@ export default function RoofFinancingFloridaPage() {
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Affordable Roof Financing Options Across Florida</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              A roof is a major investment, but it shouldn&apos;t drain your savings. Our roof financing Florida plans let you protect your home today and pay over time with predictable monthly payments. Whether you need financing for a roof replacement, a repair after storm damage, or a full new construction project, we have roof financing companies and programs to fit every budget and credit profile.
+              A roof is a major investment, but it shouldn&apos;t drain your savings. Our roof financing Florida plans let you protect your home today and pay over time with predictable monthly payments. With roofing financing available for every project type, whether you need roof replacement financing, a repair after storm damage, or a full new construction project, we have programs to fit every budget and credit profile.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
