@@ -218,3 +218,9 @@ __marimo__/
 # Claude Code
 .claude/
 tmpclaude-*-cwd
+
+# Claude Code (local AI tooling, do not commit)
+.claude/
+CLAUDE.md
+*-CLAUDE.md
+.claude-conversations/

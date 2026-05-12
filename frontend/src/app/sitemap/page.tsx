@@ -15,6 +15,7 @@ const mainPages = [
   { title: "Service Areas", href: "/service-areas" },
   { title: "Contact", href: "/contact" },
   { title: "Blog", href: "/blog" },
+  { title: "Roof Financing", href: "/roof-financing" },
 ]
 
 const servicePages = [
@@ -42,6 +43,8 @@ const locationPages = [
   { title: "San Marco", href: "/roofing-san-marco-fl" },
   { title: "Mandarin", href: "/roofing-mandarin-fl" },
   { title: "Southside Jacksonville", href: "/roofing-southside-jax-fl" },
+  { title: "Atlantic Beach", href: "/roofing-atlantic-beach-fl" },
+  { title: "Neptune Beach", href: "/roofing-neptune-beach-fl" },
 ]
 
 // Dynamically get published blog posts

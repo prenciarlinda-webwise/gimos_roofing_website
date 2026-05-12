@@ -68,15 +68,17 @@ export default function BlogClient() {
               {filteredPosts.map((post) => (
                 <article key={post.slug} className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow group">
                   <Link href={`/blog/${post.slug}`} className="block">
-                    <div className="aspect-video overflow-hidden relative">
-                      <Image
-                        src={post.image}
-                        alt={post.title}
-                        title={post.title}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                    </div>
+                    {post.image && (
+                      <div className="aspect-video overflow-hidden relative">
+                        <Image
+                          src={post.image}
+                          alt={post.title}
+                          title={post.title}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                    )}
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="px-3 py-1 bg-primary/10 text-primary text-xs font-semibold rounded-full">

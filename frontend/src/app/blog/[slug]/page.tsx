@@ -44,20 +44,24 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       publishedTime: post.date,
       modifiedTime: post.dateModified || post.date,
       authors: [post.author],
-      images: [
-        {
-          url: `https://www.gimosroofing.com${post.image}`,
-          width: 1200,
-          height: 630,
-          alt: post.imageAlt || post.title,
-        },
-      ],
+      ...(post.image
+        ? {
+            images: [
+              {
+                url: `https://www.gimosroofing.com${post.image}`,
+                width: 1200,
+                height: 630,
+                alt: post.imageAlt || post.title,
+              },
+            ],
+          }
+        : {}),
     },
     twitter: {
       card: "summary_large_image",
       title: post.metaTitle,
       description: post.excerpt,
-      images: [`https://www.gimosroofing.com${post.image}`],
+      ...(post.image ? { images: [`https://www.gimosroofing.com${post.image}`] } : {}),
     },
   }
 }
@@ -84,7 +88,26 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   // Organization is defined canonically in root layout.tsx via @id: https://www.gimosroofing.com/#organization
   // All publisher/author references below reference it by @id to avoid duplication.
 
-  const articleSchema = {
+  const partnerOrganizations = (post.partners || []).map(p => ({
+    "@type": "Organization",
+    "name": p.name,
+    "url": p.url,
+    ...(p.role ? { "description": p.role } : {})
+  }))
+
+  const imageSchema: Record<string, unknown> | null = post.image ? {
+    "@type": "ImageObject",
+    "url": `https://www.gimosroofing.com${post.image}`,
+    "width": 1200,
+    "height": 630,
+    ...(partnerOrganizations.length > 0 ? {
+      "creditText": `Photography includes equipment from ${partnerOrganizations.map(p => p.name).join(", ")}`,
+      "copyrightHolder": { "@id": "https://www.gimosroofing.com/#organization" },
+      "contributor": partnerOrganizations
+    } : {})
+  } : null
+
+  const articleSchema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Article",
     "mainEntityOfPage": {
@@ -93,18 +116,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     },
     "headline": post.title,
     "description": post.excerpt,
-    "image": {
-      "@type": "ImageObject",
-      "url": `https://www.gimosroofing.com${post.image}`,
-      "width": 1200,
-      "height": 630
-    },
+    ...(imageSchema ? { "image": imageSchema } : {}),
     "datePublished": `${post.date}T08:00:00.000Z`,
     "dateModified": `${post.dateModified || post.date}T08:00:00.000Z`,
     "author": { "@id": "https://www.gimosroofing.com/#organization" },
     "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
     "articleSection": post.category,
-    "keywords": post.keywords?.join(", ") || post.category,
     // Speakable signals to Google AI Overview / voice assistants which sections are most "quotable"
     "speakable": {
       "@type": "SpeakableSpecification",
@@ -116,6 +133,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       "name": post.category
     },
     "isAccessibleForFree": true
+  }
+  if (partnerOrganizations.length > 0) {
+    articleSchema.mentions = partnerOrganizations
   }
 
   const faqSchema = post.faqs && post.faqs.length > 0 ? {
@@ -186,21 +206,23 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         </div>
       </header>
 
-      {/* Featured Image */}
-      <section className="relative">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="aspect-video relative rounded-xl overflow-hidden shadow-xl -mt-6 max-w-4xl">
-            <Image
-              src={post.image}
-              alt={post.imageAlt || post.title}
-              title={post.title}
-              fill
-              className="object-cover"
-              priority
-            />
+      {/* Featured Image (only when post has one) */}
+      {post.image && (
+        <section className="relative">
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="aspect-video relative rounded-xl overflow-hidden shadow-xl -mt-6 max-w-4xl">
+              <Image
+                src={post.image}
+                alt={post.imageAlt || post.title}
+                title={post.title}
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Author Attribution Card */}
       <section className="py-6">
@@ -476,14 +498,16 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               {relatedPosts.map((relatedPost) => (
                 <article key={relatedPost.slug} className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow group">
                   <Link href={`/blog/${relatedPost.slug}`} className="block">
-                    <div className="aspect-video overflow-hidden relative">
-                      <Image
-                        src={relatedPost.image}
-                        alt={relatedPost.title}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                    </div>
+                    {relatedPost.image && (
+                      <div className="aspect-video overflow-hidden relative">
+                        <Image
+                          src={relatedPost.image}
+                          alt={relatedPost.title}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                    )}
                     <div className="p-5">
                       <span className="px-2 py-1 bg-primary/10 text-primary text-xs font-semibold rounded-full">
                         {relatedPost.category}
