@@ -29,12 +29,14 @@ export default function NotFound() {
     <section className="bg-gradient-to-br from-gray-50 to-white py-20">
       <div className="max-w-3xl mx-auto px-4 text-center">
         <p className="text-primary font-bold text-sm uppercase tracking-widest mb-3">Error 404</p>
-        <h1 className="text-4xl md:text-5xl font-bold text-secondary mb-4">This page slipped through the cracks</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-secondary mb-4">
+          Oops, looks like Triad needs a call for this 404 page
+        </h1>
         <p className="text-gray-600 text-lg mb-2 max-w-xl mx-auto">
-          The link you followed may have moved or never existed. Don&apos;t worry, you&apos;re still in good hands.
+          The link you followed slipped through the cracks. While we sort that out, here&apos;s where to go next.
         </p>
         <p className="text-gray-600 text-lg mb-8 max-w-xl mx-auto">
-          Pick a service or service area below, or call{' '}
+          Or call us at{' '}
           <a href="tel:+19046065313" className="text-primary font-semibold hover:underline">(904) 606-5313</a> and we&apos;ll point you the right way.
         </p>
 
@@ -73,12 +75,34 @@ export default function NotFound() {
           </Link>
         </div>
 
-        <p className="text-gray-400 text-xs mt-10">
-          Site built by{' '}
-          <a href="https://bytriad.com/" target="_blank" rel="noopener" title="Triad - Digital Marketing Agency" className="text-primary hover:underline">
-            Triad
-          </a>
-        </p>
+        <div className="mt-12 pt-8 border-t border-gray-200 text-sm text-gray-600 max-w-2xl mx-auto space-y-2">
+          <p>
+            Spotted a broken link?{' '}
+            <a
+              href="https://bytriad.com/"
+              target="_blank"
+              rel="noopener"
+              title="Report broken link to Triad - Digital Marketing Agency"
+              className="text-primary hover:underline font-medium"
+            >
+              Report it to Triad
+            </a>{' '}
+            so the team can fix it fast.
+          </p>
+          <p>
+            Need marketing services for your own business?{' '}
+            <a
+              href="https://bytriad.com/"
+              target="_blank"
+              rel="noopener"
+              title="Triad - Digital Marketing Agency"
+              className="text-primary hover:underline font-medium"
+            >
+              Reach out to Triad
+            </a>{' '}
+            for websites, SEO, and growth.
+          </p>
+        </div>
       </div>
     </section>
   )
