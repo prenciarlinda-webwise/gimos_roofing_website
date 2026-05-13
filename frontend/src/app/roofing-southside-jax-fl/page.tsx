@@ -77,14 +77,7 @@ const serviceSchema = {
       }
     ]
   }
-,
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  }
+
 }
 
 const faqSchema = {

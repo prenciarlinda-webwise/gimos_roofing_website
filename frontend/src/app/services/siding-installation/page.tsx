@@ -104,14 +104,7 @@ const serviceSchema = {
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Natural Wood Siding", "description": "Cedar and redwood siding installation for authentic wood exterior aesthetics." } }
     ]
   }
-,
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  }
+
 }
 
 const faqSchema = {
@@ -616,8 +609,8 @@ export default function SidingInstallationPage() {
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roof Replacement</h3>
               <p className="text-gray-600 text-sm">Combining roof and siding projects saves money on setup and improves coordination.</p>
             </Link>
-            <Link href="/blog/vinyl-siding-maintenance-guide" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
-              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Siding Maintenance Guide</h3>
+            <Link href="/services/siding-repair" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Siding Repair &amp; Maintenance</h3>
               <p className="text-gray-600 text-sm">How to care for your new siding to maximize its lifespan and appearance.</p>
             </Link>
             <Link href="/gallery" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">

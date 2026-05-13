@@ -251,7 +251,7 @@ export default function Footer() {
             </div>
             <div className="text-center mt-4 pt-4 border-t border-white/5">
               <p className="text-gray-500 text-xs">
-                Built by <a href="https://www.websiteandseoagency.com/" target="_blank" rel="noopener" title="Web Wise - Website & SEO Agency" className="text-primary hover:underline">Web Wise</a>
+                Built by <a href="https://bytriad.com/" target="_blank" rel="noopener" title="Triad - Digital Marketing Agency" className="text-primary hover:underline">Triad</a>
               </p>
             </div>
           </div>

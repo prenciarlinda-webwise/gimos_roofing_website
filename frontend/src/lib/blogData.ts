@@ -191,7 +191,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Specialty trusses</strong> if pre-engineered; or higher labor cost if stick-framed on site</li>
 </ul>
 
-<p class="text-gray-600 mb-6">For comparison shingle and metal pricing on standard residential roofs, see our <a href="/blog/jacksonville-roof-replacement-cost-guide-2026" class="text-primary hover:underline">roof replacement cost guide</a>.</p>
+<p class="text-gray-600 mb-6">For comparison shingle and metal pricing on standard residential roofs, see our <a href="/blog/roof-replacement-cost-guide-jacksonville" class="text-primary hover:underline">roof replacement cost guide</a>.</p>
 
 <h2 id="shingling" class="text-2xl font-bold text-secondary mt-10 mb-4">How to Shingle a Gambrel Roof</h2>
 
@@ -504,7 +504,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Request a price reduction.</strong> Same effect as a credit but baked into the contract price. Helps if you're financing tight and don't need cash at closing.</li>
 </ol>
 
-<p class="text-gray-600 mb-6">For roof issues specifically, request a credit large enough to cover full replacement, not just repairs. Sellers often offer to "repair" a 17-year-old roof, but a repaired old roof still fails insurance underwriting. Get the credit, see our <a href="/blog/jacksonville-roof-replacement-cost-guide-2026" class="text-primary hover:underline">roof replacement cost guide</a> for the number to ask for, and handle the replacement on your terms after closing. For seller-side context on this same decision, our <a href="/blog/what-are-the-best-ways-to-increase-home-value" class="text-primary hover:underline">home value guide</a> covers when sellers should replace before listing.</p>
+<p class="text-gray-600 mb-6">For roof issues specifically, request a credit large enough to cover full replacement, not just repairs. Sellers often offer to "repair" a 17-year-old roof, but a repaired old roof still fails insurance underwriting. Get the credit, see our <a href="/blog/roof-replacement-cost-guide-jacksonville" class="text-primary hover:underline">roof replacement cost guide</a> for the number to ask for, and handle the replacement on your terms after closing. For seller-side context on this same decision, our <a href="/blog/what-are-the-best-ways-to-increase-home-value" class="text-primary hover:underline">home value guide</a> covers when sellers should replace before listing.</p>
 
 <div class="bg-gray-100 rounded-lg p-6 my-8">
 <h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways</h2>
@@ -634,7 +634,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>2,500 sq ft home:</strong> Roof costs $18,000-$28,000; value added $11,000-$19,000</li>
 </ul>
 
-<p class="text-gray-600 mb-6">For more granular cost data by material, pitch, and removal complexity, see our <a href="/blog/jacksonville-roof-replacement-cost-guide-2026" class="text-primary hover:underline">2026 Jacksonville roof replacement cost guide</a>.</p>
+<p class="text-gray-600 mb-6">For more granular cost data by material, pitch, and removal complexity, see our <a href="/blog/roof-replacement-cost-guide-jacksonville" class="text-primary hover:underline">2026 Jacksonville roof replacement cost guide</a>.</p>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">The hidden ROI beyond the recoup percentage</h3>
 
@@ -3485,7 +3485,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>3,000 sq ft home:</strong> $22,000-$33,000</li>
 </ul>
 
-<p class="text-gray-600 mb-6">For a detailed cost breakdown by material, roof complexity, pitch, and removal scope, see our full <a href="/blog/jacksonville-roof-replacement-cost-guide-2026" class="text-primary hover:underline">2026 Jacksonville roof replacement cost guide</a>. If you're financing rather than paying cash, our <a href="/blog/roofing-financing-options-jacksonville" class="text-primary hover:underline">financing options</a> guide covers monthly payment math and lender options available in Jacksonville.</p>
+<p class="text-gray-600 mb-6">For a detailed cost breakdown by material, roof complexity, pitch, and removal scope, see our full <a href="/blog/roof-replacement-cost-guide-jacksonville" class="text-primary hover:underline">2026 Jacksonville roof replacement cost guide</a>. If you're financing rather than paying cash, our <a href="/blog/roofing-financing-options-jacksonville" class="text-primary hover:underline">financing options</a> guide covers monthly payment math and lender options available in Jacksonville.</p>
 
 <h2 id="signs" class="text-2xl font-bold text-secondary mt-10 mb-4">Signs Your 20-Year-Old Roof Needs Attention</h2>
 
@@ -4836,7 +4836,7 @@ export const blogPosts: BlogPost[] = [
 <li>Decking repairs or upgrade to a sealed roof deck</li>
 </ul>
 
-<p class="text-gray-600 mb-6">For a full cost comparison with shingles and other materials, see our <a href="/blog/jacksonville-roof-replacement-cost-guide-2026" class="text-primary hover:underline">2026 Jacksonville roof replacement cost guide</a> and <a href="/blog/metal-roof-vs-shingles-florida" class="text-primary hover:underline">metal roof vs shingles comparison</a>.</p>
+<p class="text-gray-600 mb-6">For a full cost comparison with shingles and other materials, see our <a href="/blog/roof-replacement-cost-guide-jacksonville" class="text-primary hover:underline">2026 Jacksonville roof replacement cost guide</a> and <a href="/blog/metal-roof-vs-shingles-florida" class="text-primary hover:underline">metal roof vs shingles comparison</a>.</p>
 
 <h2 id="installation" class="text-2xl font-bold text-secondary mt-10 mb-4">How a Standing Seam Metal Roof Is Installed</h2>
 
@@ -14425,7 +14425,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Luxury or designer composition shingles represent the premium tier of the composition roofing market. These shingles are the thickest and heaviest, often weighing 400 to 500 pounds or more per square. They feature enhanced dimensional profiles designed to closely replicate the look of natural slate or cedar shake. Many luxury lines include SBS-modified asphalt for superior flexibility and impact resistance, and they typically carry the highest wind ratings available in the composition category, often 130 mph or higher.</p>
 
-<p class="text-gray-600 mb-6">Premium composition shingles from manufacturers like GAF, CertainTeed, and Owens Corning come with warranties of 50 years or even lifetime coverage. While the upfront cost is significantly higher than standard architectural shingles, the extended lifespan and enhanced performance can make luxury composition a strong value proposition for homeowners who plan to stay in their homes long-term. To learn more about the full range of options, check out our guide to <a href="/blog/types-of-asphalt-shingles-complete-guide" class="text-primary hover:underline">types of asphalt shingles</a>.</p>
+<p class="text-gray-600 mb-6">Premium composition shingles from manufacturers like GAF, CertainTeed, and Owens Corning come with warranties of 50 years or even lifetime coverage. While the upfront cost is significantly higher than standard architectural shingles, the extended lifespan and enhanced performance can make luxury composition a strong value proposition for homeowners who plan to stay in their homes long-term. To learn more about the full range of options, check out our guide to <a href="/blog/architectural-shingles-vs-3-tab-jacksonville" class="text-primary hover:underline">types of asphalt shingles</a>.</p>
 
 <h2 id="composition-roof-lifespan" class="text-2xl font-bold text-secondary mt-10 mb-4">How Long Does a Composition Roof Last</h2>
 
@@ -17014,7 +17014,7 @@ export const blogPosts: BlogPost[] = [
 <li><a href="/blog/how-to-check-florida-roofing-license" class="text-primary hover:underline font-medium">How to Check a Florida Roofing License</a> - <span class="text-gray-500 text-sm">Verify any contractor in minutes</span></li>
 <li><a href="/blog/questions-to-ask-roofing-contractor" class="text-primary hover:underline font-medium">Questions to Ask Your Roofing Contractor</a> - <span class="text-gray-500 text-sm">Essential questions before signing</span></li>
 <li><a href="/blog/how-to-choose-roofing-contractor-jacksonville" class="text-primary hover:underline font-medium">How to Choose a Roofing Contractor in Jacksonville</a> - <span class="text-gray-500 text-sm">Step-by-step selection guide</span></li>
-<li><a href="/blog/roofing-scams-jacksonville" class="text-primary hover:underline font-medium">Roofing Scams in Jacksonville</a> - <span class="text-gray-500 text-sm">Protect yourself from fraud</span></li>
+<li><a href="/blog/how-to-choose-roofing-contractor-jacksonville" class="text-primary hover:underline font-medium">Roofing Scams in Jacksonville</a> - <span class="text-gray-500 text-sm">Protect yourself from fraud</span></li>
 </ul>
 </div>
 
@@ -17085,7 +17085,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Other red flags include no physical office address, reluctance to provide a written contract, cash-only payment requirements, vague or nonexistent warranty terms, inability to provide proof of insurance, and pressure to sign a contract immediately. If you encounter any of these, move on to the next company on your list. There are plenty of honest, qualified roofing contractors in Jacksonville.</p>
 
-<p class="text-gray-600 mb-6">For a comprehensive list of scams targeting Jacksonville homeowners, read our article on <a href="/blog/roofing-scams-jacksonville" class="text-primary hover:underline">roofing scams in Jacksonville</a> and learn how to protect yourself from common contractor fraud.</p>
+<p class="text-gray-600 mb-6">For a comprehensive list of scams targeting Jacksonville homeowners, read our article on <a href="/blog/how-to-choose-roofing-contractor-jacksonville" class="text-primary hover:underline">roofing scams in Jacksonville</a> and learn how to protect yourself from common contractor fraud.</p>
 
 <div class="bg-secondary rounded-xl p-6 my-8 text-center">
 <p class="text-white text-lg font-bold mb-2">Get a Free Roofing Estimate Online</p>
@@ -17314,9 +17314,9 @@ export const blogPosts: BlogPost[] = [
 <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 my-8">
 <p class="font-bold text-secondary mb-3">You Might Also Read</p>
 <ul class="space-y-2">
-<li><a href="/blog/hurricane-roof-damage-jacksonville" class="text-primary hover:underline font-medium">Hurricane Roof Damage in Jacksonville</a> - <span class="text-gray-500 text-sm">Storm preparation and recovery guide</span></li>
-<li><a href="/blog/roof-maintenance-tips-jacksonville" class="text-primary hover:underline font-medium">Roof Maintenance Tips for Jacksonville Homes</a> - <span class="text-gray-500 text-sm">Extend your roof's lifespan</span></li>
-<li><a href="/blog/signs-you-need-new-roof" class="text-primary hover:underline font-medium">Signs You Need a New Roof</a> - <span class="text-gray-500 text-sm">Warning signs to watch for</span></li>
+<li><a href="/blog/hurricane-roof-damage-signs-florida" class="text-primary hover:underline font-medium">Hurricane Roof Damage in Jacksonville</a> - <span class="text-gray-500 text-sm">Storm preparation and recovery guide</span></li>
+<li><a href="/blog/roof-maintenance-tips-florida-homeowners" class="text-primary hover:underline font-medium">Roof Maintenance Tips for Jacksonville Homes</a> - <span class="text-gray-500 text-sm">Extend your roof's lifespan</span></li>
+<li><a href="/blog/signs-you-need-new-roof-florida" class="text-primary hover:underline font-medium">Signs You Need a New Roof</a> - <span class="text-gray-500 text-sm">Warning signs to watch for</span></li>
 </ul>
 </div>
 
@@ -17565,7 +17565,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Beyond material choice and home size, several factors can significantly impact the final cost of your Jacksonville roof replacement. Understanding these variables helps you anticipate potential cost additions and evaluate estimates more accurately.</p>
 
-<p class="text-gray-600 mb-6"><strong>Roof Pitch and Complexity.</strong> A simple gable roof with one or two flat planes is less expensive to roof than a complex hip roof with multiple dormers, valleys, and intersecting planes. Steeper roofs (above 7/12 pitch) require additional safety equipment and slower installation, adding a labor premium of 15% to 35%. Complex roofs require more cuts, more flashing, and more time, which all translate to higher costs. Many Jacksonville homes, particularly in newer subdivisions, have complex roof designs that increase costs. Learn more about how pitch affects pricing in our <a href="/blog/roof-pitch-guide" class="text-primary hover:underline">roof pitch guide</a>.</p>
+<p class="text-gray-600 mb-6"><strong>Roof Pitch and Complexity.</strong> A simple gable roof with one or two flat planes is less expensive to roof than a complex hip roof with multiple dormers, valleys, and intersecting planes. Steeper roofs (above 7/12 pitch) require additional safety equipment and slower installation, adding a labor premium of 15% to 35%. Complex roofs require more cuts, more flashing, and more time, which all translate to higher costs. Many Jacksonville homes, particularly in newer subdivisions, have complex roof designs that increase costs. Learn more about how pitch affects pricing in our <a href="/blog/roof-pitch-guide-understanding-slopes" class="text-primary hover:underline">roof pitch guide</a>.</p>
 
 <p class="text-gray-600 mb-6"><strong>Number of Existing Layers.</strong> If your roof currently has two layers of shingles, both must be removed before a new roof can be installed per Florida Building Code. Removing multiple layers costs more in labor and disposal fees than removing a single layer. Older Jacksonville homes, especially those built in the 1960s through 1980s, commonly have two or even three layers of roofing that accumulated over decades of re-roofing projects.</p>
 

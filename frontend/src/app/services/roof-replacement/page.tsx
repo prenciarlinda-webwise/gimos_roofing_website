@@ -104,14 +104,7 @@ const serviceSchema = {
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Storm Damage Roof Replacement", "description": "Insurance-claim roof replacement for hurricane, wind, and hail damaged roofs." } }
     ]
   }
-,
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  }
+
 }
 
 const faqSchema = {

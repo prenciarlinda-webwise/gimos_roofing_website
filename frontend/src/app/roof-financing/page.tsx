@@ -4,9 +4,8 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: "Roof Financing Jacksonville FL - Affordable Monthly Payments from $99/mo",
+  title: { absolute: "Roof Financing Jacksonville FL - Monthly Payments from $99/mo" },
   description: "Finance your new roof in Jacksonville FL. Monthly payments from $99/mo. No prepayment penalties. Credit scores 600+. Apply in 5 minutes. Call (904) 606-5313.",
-  keywords: ["roof financing jacksonville", "roofing companies that finance", "roof financing near me", "roof financing florida", "roofing financing jacksonville fl", "new roof monthly payments"],
   alternates: { canonical: "https://www.gimosroofing.com/roof-financing" },
 }
 

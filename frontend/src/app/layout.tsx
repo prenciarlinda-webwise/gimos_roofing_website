@@ -96,7 +96,11 @@ const structuredData = {
     { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "St. Johns County, FL" } },
     { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "St. Johns County, FL" } },
     { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Clay County, FL" } },
-    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Nassau County, FL" } }
+    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Nassau County, FL" } },
+    { "@type": "Place", "name": "Riverside, Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Riverside,_Jacksonville", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
+    { "@type": "Place", "name": "San Marco, Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/San_Marco,_Jacksonville", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
+    { "@type": "Place", "name": "Mandarin, Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Mandarin,_Jacksonville", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } },
+    { "@type": "Place", "name": "Southside, Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Southside,_Jacksonville", "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" } }
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",

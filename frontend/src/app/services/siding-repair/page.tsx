@@ -105,14 +105,7 @@ const serviceSchema = {
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wood Siding Rot Repair", "description": "Rot removal, board replacement, and moisture correction for wood siding." } }
     ]
   }
-,
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  }
+
 }
 
 const faqSchema = {

@@ -78,14 +78,7 @@ const serviceSchema = {
       }
     ]
   }
-,
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  }
+
 }
 
 const faqSchema = {
@@ -194,7 +187,7 @@ export default function NocateePage() {
             </li>
           </ul>
           <p className="text-gray-600">
-            Read more about <Link href="/blog/when-to-replace-your-roof-florida" className="text-primary hover:underline">when to replace your roof in Florida</Link> and how to recognize <Link href="/blog/hurricane-roof-damage-signs-florida" className="text-primary hover:underline">storm damage signs on your roof</Link>.
+            Read more about <Link href="/blog/signs-you-need-new-roof-florida" className="text-primary hover:underline">when to replace your roof in Florida</Link> and how to recognize <Link href="/blog/hurricane-roof-damage-signs-florida" className="text-primary hover:underline">storm damage signs on your roof</Link>.
           </p>
         </div>
       </section>

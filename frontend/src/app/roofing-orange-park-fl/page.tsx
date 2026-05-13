@@ -75,14 +75,7 @@ const serviceSchema = {
       }
     ]
   }
-,
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "81",
-    "bestRating": "5",
-    "worstRating": "1"
-  }
+
 }
 
 const faqSchema = {
@@ -191,7 +184,7 @@ export default function OrangeParkPage() {
             </li>
           </ul>
           <p className="text-gray-600">
-            Read more about <Link href="/blog/how-to-choose-roofing-contractor-jacksonville" className="text-primary hover:underline">how to choose a roofing contractor</Link> and <Link href="/blog/roof-replacement-what-to-expect" className="text-primary hover:underline">what to expect during a roof replacement</Link>.
+            Read more about <Link href="/blog/how-to-choose-roofing-contractor-jacksonville" className="text-primary hover:underline">how to choose a roofing contractor</Link> and <Link href="/blog/cleaning-up-after-roof-replacement" className="text-primary hover:underline">what to expect during a roof replacement</Link>.
           </p>
         </div>
       </section>
@@ -222,7 +215,7 @@ export default function OrangeParkPage() {
             </div>
           </div>
           <p className="text-gray-600">
-            Learn about <Link href="/blog/hurricane-roof-damage-signs-florida" className="text-primary hover:underline">signs of hurricane damage on your roof</Link> and <Link href="/blog/roof-maintenance-tips-florida" className="text-primary hover:underline">roof maintenance tips for Florida homeowners</Link>.
+            Learn about <Link href="/blog/hurricane-roof-damage-signs-florida" className="text-primary hover:underline">signs of hurricane damage on your roof</Link> and <Link href="/blog/roof-maintenance-tips-florida-homeowners" className="text-primary hover:underline">roof maintenance tips for Florida homeowners</Link>.
           </p>
         </div>
       </section>
