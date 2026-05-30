@@ -157,7 +157,7 @@ export default function SidingInstallationPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/siding-installation-jacksonville-home.webp" alt="Siding installation on Jacksonville home" title="Siding installation on Jacksonville home" fill className="object-cover" />
+              <Image src="/images/siding-installation-jacksonville-home.webp" alt="Siding installation on Jacksonville home" title="Siding installation on Jacksonville home" fill sizes="100vw" className="object-cover" priority />
             </div>
           </div>
         </div>

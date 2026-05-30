@@ -152,13 +152,17 @@ export default function Home() {
       <section className="relative min-h-[85vh] flex items-center overflow-hidden pt-24 md:pt-0">
         <div className="absolute inset-0">
           <Image src="/images/roofing-jacksonville-hero.webp" alt="Professional roofing services in Jacksonville FL - Gimo's Roofing" title="Professional roofing services in Jacksonville FL" fill sizes="100vw" className="object-cover" priority />
+          {/* Background video is desktop-only: the source is large, so on mobile we
+              keep the preloaded hero image as the LCP element and never fetch the video.
+              poster falls back to the hero image if autoplay is blocked. */}
           <video
             autoPlay
             muted
             loop
             playsInline
             preload="none"
-            className="absolute inset-0 w-full h-full object-cover"
+            poster="/images/roofing-jacksonville-hero.webp"
+            className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           >
             <source src="/images/gimos-roofing-24-hour-roofer.mp4" type="video/mp4" />
           </video>

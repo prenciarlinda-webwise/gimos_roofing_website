@@ -146,7 +146,7 @@ export default function RoofRepairPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/roof-repair-in-progress-jacksonville.webp" alt="Roof repair in progress in Jacksonville FL" title="Roof repair in progress in Jacksonville FL" fill className="object-cover" />
+              <Image src="/images/roof-repair-in-progress-jacksonville.webp" alt="Roof repair in progress in Jacksonville FL" title="Roof repair in progress in Jacksonville FL" fill sizes="100vw" className="object-cover" priority />
             </div>
           </div>
         </div>
