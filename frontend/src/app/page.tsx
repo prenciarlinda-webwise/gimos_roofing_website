@@ -180,8 +180,8 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <a href={estimateUrl} target="_blank" rel="noopener" title="Get a Free Roofing Estimate Online" className="btn btn-primary px-6 py-3 w-full sm:w-auto">Get Free Estimate</a>
-                <a href="tel:+19046065313" title="Call Gimo's Roofing Jacksonville" className="btn btn-secondary px-6 py-3 border-white text-white hover:bg-white hover:text-secondary w-full sm:w-auto">(904) 606-5313</a>
+                <a href={estimateUrl} id="cta-hero-estimate" target="_blank" rel="noopener" title="Get a Free Roofing Estimate Online" className="btn btn-primary px-6 py-3 w-full sm:w-auto">Get Free Estimate</a>
+                <a href="tel:+19046065313" id="cta-hero-call" title="Call Gimo's Roofing Jacksonville" className="btn btn-secondary px-6 py-3 border-white text-white hover:bg-white hover:text-secondary w-full sm:w-auto">(904) 606-5313</a>
               </div>
             </div>
 
@@ -196,7 +196,7 @@ export default function Home() {
                     </div>
                     <h3 className="font-semibold text-secondary mb-1">Instant Online Estimator</h3>
                     <p className="text-gray-500 text-sm mb-4">Get a detailed estimate in minutes - no appointment needed</p>
-                    <a href={estimateUrl} target="_blank" rel="noopener" title="Start Your Free Roofing Estimate" className="btn btn-primary w-full py-3">Start Free Estimate</a>
+                    <a href={estimateUrl} id="cta-hero-estimator" target="_blank" rel="noopener" title="Start Your Free Roofing Estimate" className="btn btn-primary w-full py-3">Start Free Estimate</a>
                   </div>
                   <div className="text-center">
                     <p className="text-gray-500 text-sm mb-2">Or call us directly</p>
@@ -512,8 +512,8 @@ export default function Home() {
           <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Ready to Get Started?</p>
           <p className="text-base text-secondary/80 mb-6">Contact Jacksonville&apos;s best roofing company today. Get a free estimate from the roofing contractor Jacksonville FL trusts most.</p>
           <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4">
-            <a href={estimateUrl} target="_blank" rel="noopener" title="Get a Free Roofing Estimate Online" className="btn bg-secondary text-white hover:bg-secondary-light px-6 py-3 w-full sm:w-auto">Get Free Estimate</a>
-            <a href="tel:+19046065313" title="Call Gimo's Roofing Jacksonville" className="btn bg-white text-secondary hover:bg-gray-100 px-6 py-3 w-full sm:w-auto">Call (904) 606-5313</a>
+            <a href={estimateUrl} id="cta-home-bottom-estimate" target="_blank" rel="noopener" title="Get a Free Roofing Estimate Online" className="btn bg-secondary text-white hover:bg-secondary-light px-6 py-3 w-full sm:w-auto">Get Free Estimate</a>
+            <a href="tel:+19046065313" id="cta-home-bottom-call" title="Call Gimo's Roofing Jacksonville" className="btn bg-white text-secondary hover:bg-gray-100 px-6 py-3 w-full sm:w-auto">Call (904) 606-5313</a>
             <a href={financingUrl} target="_blank" rel="noopener" title="Apply for Roofing Financing" className="btn bg-transparent border-2 border-secondary text-secondary hover:bg-secondary hover:text-white px-6 py-3 w-full sm:w-auto">Apply for Financing</a>
           </div>
         </div>

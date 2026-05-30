@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 import WhatsAppWidget from '@/components/WhatsAppWidget'
 import { Analytics } from '@/components/Analytics'
 
-const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || ''
+const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || 'GTM-T4W2HMRZ'
 
 const inter = Inter({
   subsets: ['latin'],
