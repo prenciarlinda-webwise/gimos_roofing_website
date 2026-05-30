@@ -4,6 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "Terms of Service for Gimo's Roofing. Read about the terms and conditions that govern the use of our website and services.",
+  alternates: { canonical: "https://www.gimosroofing.com/terms-of-service" },
 }
 
 const breadcrumbSchema = {

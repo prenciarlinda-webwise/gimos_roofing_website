@@ -4,6 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Privacy Policy for Gimo's Roofing. Learn how we collect, use, and protect your personal information.",
+  alternates: { canonical: "https://www.gimosroofing.com/privacy-policy" },
 }
 
 const breadcrumbSchema = {

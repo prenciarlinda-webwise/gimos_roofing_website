@@ -40,9 +40,6 @@ const nextConfig = {
       // Financing shortcut
       { source: '/financing', destination: '/roof-financing', permanent: true },
 
-      // Jacksonville catch-all
-      { source: '/roofing-jacksonville-fl', destination: '/', permanent: true },
-
       // Old WordPress URL patterns
       { source: '/feed', destination: '/blog', permanent: true },
       { source: '/comments/feed', destination: '/blog', permanent: true },
