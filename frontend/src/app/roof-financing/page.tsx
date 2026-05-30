@@ -36,7 +36,7 @@ const financialProductSchema = {
     "telephone": "+19046065313",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "33 24th Street East",
+      "streetAddress": "33 24th St E",
       "addressLocality": "Jacksonville",
       "addressRegion": "FL",
       "postalCode": "32206",

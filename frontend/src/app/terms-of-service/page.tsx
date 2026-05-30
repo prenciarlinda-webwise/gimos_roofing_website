@@ -139,7 +139,7 @@ export default function TermsOfServicePage() {
             <ul>
               <li><strong>Phone:</strong> <a href="tel:+19046065313">(904) 606-5313</a></li>
               <li><strong>Email:</strong> <a href="mailto:management@gimosroofing.com">management@gimosroofing.com</a></li>
-              <li><strong>Address:</strong> 33 24th Street East, Jacksonville, FL 32206</li>
+              <li><strong>Address:</strong> 33 24th St E, Jacksonville, FL 32206</li>
             </ul>
           </div>
 

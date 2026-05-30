@@ -3,7 +3,8 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: "Contact Gimo's Roofing - Free Estimate Jacksonville FL",
-  description: "Get a free roofing estimate in Jacksonville FL. Call (904) 606-5313 or visit us at 33 24th Street East. Mon-Sat 8AM-5:30PM.",
+  description: "Get a free roofing estimate in Jacksonville FL. Call (904) 606-5313 or visit us at 33 24th St E. Mon-Sat 8AM-5:30PM.",
+
   alternates: { canonical: "https://www.gimosroofing.com/contact" },
 }
 
@@ -78,7 +79,7 @@ export default function ContactPage() {
               </div>
               <h3 className="font-bold text-secondary mb-1">Visit Us</h3>
               <p className="text-gray-500 text-sm mb-2">Our office location</p>
-              <p className="text-primary font-semibold text-sm">33 24th Street East, Jacksonville, FL</p>
+              <p className="text-primary font-semibold text-sm">33 24th St E, Jacksonville, FL</p>
             </a>
           </div>
 

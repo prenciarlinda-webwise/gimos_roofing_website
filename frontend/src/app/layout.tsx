@@ -70,7 +70,7 @@ const structuredData = {
   "foundingDate": "2001",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "33 24th Street East",
+    "streetAddress": "33 24th St E",
     "addressLocality": "Jacksonville",
     "addressRegion": "FL",
     "postalCode": "32206",
@@ -129,6 +129,32 @@ const structuredData = {
     "https://www.instagram.com/gimosroofing/",
     "https://www.yelp.com/biz/gimos-roofing-jacksonville",
     "https://www.linkedin.com/company/gimo-s-renovation-roofing/"
+  ],
+  "hasMap": "https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA",
+  "founder": {
+    "@type": "Person",
+    "name": "Ivan Hysaj",
+    "jobTitle": "Owner"
+  },
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "license",
+      "name": "Florida Certified Roofing Contractor License CCC1332453",
+      "recognizedBy": {
+        "@type": "GovernmentOrganization",
+        "name": "Florida Department of Business and Professional Regulation"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "certification",
+      "name": "CertainTeed Certified Installer",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "CertainTeed"
+      }
+    }
   ]
 }
 
