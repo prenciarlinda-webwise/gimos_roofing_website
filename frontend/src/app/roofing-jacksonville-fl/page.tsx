@@ -4,10 +4,10 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: "Roofing Jacksonville FL - Best Roofing Company | Gimo's Roofing" },
-  description: "Roofing Jacksonville FL from Gimo's Roofing, the best roofing company in Jacksonville FL. Roof repair, replacement, and installation by top-rated Jacksonville roofers. 500+ roofs completed. Call (904) 606-5313.",
+  title: { absolute: "Best Roofing Company in Jacksonville FL - Gimo's Roofing" },
+  description: "Looking for the best roofing company in Jacksonville FL? Gimo's Roofing has 500+ roofs completed and 5-star reviews. Roof repair, replacement, and installation by top-rated Jacksonville roofers. Call (904) 606-5313.",
   openGraph: {
-    title: "Roofing Jacksonville FL - Best Roofing Company | Gimo's Roofing",
+    title: "Best Roofing Company in Jacksonville FL - Gimo's Roofing",
     description: "Roofing Jacksonville FL by Gimo's Roofing. 500+ roofs, 5-star reviews, licensed & insured. Free estimates: (904) 606-5313.",
     url: "https://www.gimosroofing.com/roofing-jacksonville-fl",
     images: [{
@@ -131,7 +131,7 @@ export default function RoofingJacksonvilleFLPage() {
             </ol>
           </nav>
           <p className="text-primary font-semibold mb-3">Serving All of Jacksonville & Northeast Florida</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Jacksonville FL - Best Roofing Company</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">Best Roofing Company in Jacksonville FL</h1>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
             Need reliable roofing Jacksonville FL homeowners can count on? Gimo&apos;s Roofing is Jacksonville&apos;s top-rated roofing contractor with 500+ completed roofs, 5.0-star reviews, and 24 years of experience. Licensed, insured, and locally owned, we deliver roofing services Jacksonville FL families trust.
           </p>
