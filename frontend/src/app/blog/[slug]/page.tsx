@@ -23,7 +23,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: post.metaTitle,
+    // absolute: metaTitle already includes the brand suffix, so we must bypass
+    // the root layout's "%s - Gimo's Roofing" template or the brand doubles.
+    title: { absolute: post.metaTitle },
     description: post.excerpt,
     authors: [{ name: post.author }],
     creator: "Gimo's Roofing",

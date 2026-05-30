@@ -8775,7 +8775,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "hail-damage-roof-florida",
     title: "Hail Damage to Roofs in Florida: Identification, Repair, and Claims",
-    metaTitle: "Hail Damage to Roofs in Florida - Gimo's Roofing Jacksonville",
+    metaTitle: "Hail Damage to Roofs in Florida",
     excerpt: "Learn to identify hail damage on different roofing materials, understand repair vs replacement decisions, and navigate insurance claims for hail damage in Florida.",
     date: "2026-04-03",
     publishDate: "2026-04-03",
@@ -8950,7 +8950,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "roof-ventilation-importance-florida",
     title: "Roof Ventilation in Florida: Why It Matters and How to Improve It",
-    metaTitle: "Roof Ventilation in Florida - Gimo's Roofing Jacksonville",
+    metaTitle: "Roof Ventilation in Florida",
     excerpt: "Understand why proper roof ventilation is crucial in Florida's climate. Learn about ventilation types, signs of poor ventilation, and how to optimize your attic airflow.",
     date: "2026-04-06",
     publishDate: "2026-04-06",
@@ -9263,7 +9263,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "gutter-systems-roofing-florida",
     title: "Gutter Systems and Roofing: Complete Florida Homeowner's Guide",
-    metaTitle: "Gutter Systems and Roofing Guide - Gimo's Roofing Jacksonville",
+    metaTitle: "Gutter Systems and Roofing Guide",
     excerpt: "Understand how gutters protect your roof, foundation, and home. Learn about gutter types, sizing, maintenance, and common problems in Florida's rainy climate.",
     date: "2026-04-12",
     publishDate: "2026-04-12",
@@ -9434,7 +9434,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "roof-moss-algae-removal-florida",
     title: "Roof Moss and Algae in Florida: Prevention, Removal, and Treatment",
-    metaTitle: "Roof Moss and Algae Removal in Florida - Gimo's Roofing",
+    metaTitle: "Roof Moss and Algae Removal in Florida",
     excerpt: "Learn how to identify, prevent, and remove moss and algae from your Florida roof. Understand the causes, DIY solutions, and when to call professionals.",
     date: "2026-04-15",
     publishDate: "2026-04-15",
@@ -9601,7 +9601,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "solar-panels-roof-considerations-florida",
     title: "Solar Panels and Your Roof: What Florida Homeowners Need to Know",
-    metaTitle: "Solar Panels and Your Roof in Florida - Gimo's Roofing Jacksonville",
+    metaTitle: "Solar Panels and Your Roof in Florida",
     excerpt: "Understand the relationship between solar panels and your roof. Learn about roof requirements, installation impacts, and what to consider before going solar in Florida.",
     date: "2026-04-21",
     publishDate: "2026-04-21",
@@ -9781,7 +9781,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "chimney-flashing-repair-florida",
     title: "Chimney Flashing Repair in Florida: Preventing Roof Leaks",
-    metaTitle: "Chimney Flashing Repair in Florida - Gimo's Roofing Jacksonville",
+    metaTitle: "Chimney Flashing Repair in Florida",
     excerpt: "Learn about chimney flashing problems, repair options, and how to prevent leaks around your chimney. Understand step flashing, counter flashing, and cricket installation.",
     date: "2026-04-24",
     publishDate: "2026-04-24",
@@ -9937,7 +9937,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "roof-decking-replacement-florida",
     title: "Roof Decking Replacement: When Your Roof Needs New Sheathing",
-    metaTitle: "Roof Decking Replacement in Florida - Gimo's Roofing Jacksonville",
+    metaTitle: "Roof Decking Replacement in Florida",
     excerpt: "Understand when roof decking needs replacement, types of decking materials, and costs. Learn about OSB vs plywood and signs your decking is failing.",
     date: "2026-04-27",
     publishDate: "2026-04-27",
@@ -10093,7 +10093,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "low-slope-vs-steep-slope-roofing",
     title: "Low-Slope vs Steep-Slope Roofing: Differences and Best Applications",
-    metaTitle: "Low-Slope vs Steep-Slope Roofing - Gimo's Roofing Jacksonville",
+    metaTitle: "Low-Slope vs Steep-Slope Roofing",
     excerpt: "Understand the differences between low-slope and steep-slope roofing systems, appropriate materials for each, and which is right for your Florida building.",
     date: "2026-04-30",
     publishDate: "2026-04-30",
@@ -10263,7 +10263,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "fascia-soffit-repair-florida",
     title: "Fascia and Soffit Repair in Florida: Protecting Your Roof Edge",
-    metaTitle: "Fascia and Soffit Repair in Florida - Gimo's Roofing Jacksonville",
+    metaTitle: "Fascia and Soffit Repair in Florida",
     excerpt: "Learn about fascia and soffit function, common problems, repair options, and costs. Understand why these components are critical to your roof's health.",
     date: "2026-05-03",
     publishDate: "2026-05-03",
@@ -10428,7 +10428,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "roof-coating-options-florida",
     title: "Roof Coating Options in Florida: Extend Your Roof's Life",
-    metaTitle: "Roof Coating Options in Florida - Gimo's Roofing Jacksonville",
+    metaTitle: "Roof Coating Options in Florida",
     excerpt: "Learn about roof coating types, benefits, costs, and which coatings work best for Florida roofs. Understand when coating makes sense vs replacement.",
     date: "2026-05-06",
     publishDate: "2026-05-06",
@@ -10580,7 +10580,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "commercial-roofing-types-florida",
     title: "Commercial Roofing Types in Florida: A Business Owner's Guide",
-    metaTitle: "Commercial Roofing Types in Florida - Gimo's Roofing Jacksonville",
+    metaTitle: "Commercial Roofing Types in Florida",
     excerpt: "Compare commercial roofing systems for Florida businesses. Learn about TPO, EPDM, metal, built-up, and modified bitumen roofing options, costs, and best applications.",
     date: "2026-05-09",
     publishDate: "2026-05-09",
@@ -10744,7 +10744,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "roof-drainage-systems-florida",
     title: "Roof Drainage Systems in Florida: Types, Maintenance, and Problems",
-    metaTitle: "Roof Drainage Systems in Florida - Gimo's Roofing Jacksonville",
+    metaTitle: "Roof Drainage Systems in Florida",
     excerpt: "Learn about roof drainage options for Florida homes and buildings. Understand gutters, scuppers, internal drains, and how to prevent drainage-related roof problems.",
     date: "2026-05-12",
     publishDate: "2026-05-12",
@@ -10894,7 +10894,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "second-story-addition-roofing",
     title: "Second Story Additions and Roofing in Florida",
-    metaTitle: "Second Story Addition Roofing - Gimo's Roofing Jacksonville",
+    metaTitle: "Second Story Addition Roofing",
     excerpt: "Planning a second story addition? Learn about roofing considerations, matching existing materials, structural requirements, and coordination with your contractor.",
     date: "2026-05-15",
     publishDate: "2026-05-15",
@@ -11103,7 +11103,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "historic-home-roofing-florida",
     title: "Historic Home Roofing in Florida: Preservation Guide",
-    metaTitle: "Historic Home Roofing in Florida - Gimo's Roofing",
+    metaTitle: "Historic Home Roofing in Florida",
     excerpt: "Learn about roofing options for Florida historic homes. Understand preservation requirements, material choices, and how to balance authenticity with modern performance.",
     date: "2026-05-18",
     publishDate: "2026-05-18",
@@ -11318,7 +11318,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "townhouse-condo-roofing-florida",
     title: "Townhouse and Condo Roofing in Florida",
-    metaTitle: "Townhouse and Condo Roofing in Florida - Gimo's Roofing",
+    metaTitle: "Townhouse and Condo Roofing in Florida",
     excerpt: "Understand roofing responsibilities for Florida townhomes and condos. Learn about HOA involvement, assessment funding, and what individual owners can control.",
     date: "2026-05-21",
     publishDate: "2026-05-21",
@@ -11492,7 +11492,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "multi-family-roofing-florida",
     title: "Multi-Family Roofing in Florida: Apartments and Beyond",
-    metaTitle: "Multi-Family Roofing in Florida - Gimo's Roofing",
+    metaTitle: "Multi-Family Roofing in Florida",
     excerpt: "Learn about roofing considerations for multi-family properties in Florida. Understand material choices, tenant coordination, and cost-effective solutions for landlords.",
     date: "2026-05-24",
     publishDate: "2026-05-24",
@@ -11695,7 +11695,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "roof-load-capacity-florida",
     title: "Roof Load Capacity: What Your Florida Roof Can Handle",
-    metaTitle: "Roof Load Capacity in Florida - Gimo's Roofing Jacksonville",
+    metaTitle: "Roof Load Capacity in Florida",
     excerpt: "Understand your roof's weight limits for equipment, solar panels, and additional materials. Learn about dead loads, live loads, and when structural assessment is needed.",
     date: "2026-05-27",
     publishDate: "2026-05-27",
@@ -11876,7 +11876,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "energy-efficient-roofing-florida",
     title: "Energy Efficient Roofing for Florida Homes",
-    metaTitle: "Energy Efficient Roofing in Florida - Gimo's Roofing",
+    metaTitle: "Energy Efficient Roofing in Florida",
     excerpt: "Learn about cool roofs, reflective materials, and energy-efficient roofing options that reduce cooling costs in Florida's hot climate.",
     date: "2026-05-30",
     publishDate: "2026-05-30",
@@ -12077,7 +12077,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "roof-flashing-types-purposes",
     title: "Roof Flashing Types and Purposes: Complete Guide",
-    metaTitle: "Roof Flashing Types and Purposes - Gimo's Roofing",
+    metaTitle: "Roof Flashing Types and Purposes",
     excerpt: "Understand the different types of roof flashing and their critical role in preventing leaks. Learn about step flashing, valley flashing, drip edge, and more.",
     date: "2026-06-02",
     publishDate: "2026-06-02",
@@ -12215,7 +12215,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "roof-underlayment-types-florida",
     title: "Roof Underlayment Types: Your Roof's Critical Second Layer",
-    metaTitle: "Roof Underlayment Types for Florida - Gimo's Roofing",
+    metaTitle: "Roof Underlayment Types for Florida",
     excerpt: "Understand the different types of roof underlayment and why this hidden layer is critical for protecting your Florida home from water damage.",
     date: "2026-06-05",
     publishDate: "2026-06-05",
@@ -12377,7 +12377,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "roof-valley-repair-florida",
     title: "Roof Valley Repair in Florida: Fixing Leak-Prone Areas",
-    metaTitle: "Roof Valley Repair in Florida - Gimo's Roofing Jacksonville",
+    metaTitle: "Roof Valley Repair in Florida",
     excerpt: "Learn about roof valley problems, repair options, and when valleys need replacement. Understand why valleys are common leak points and how to address issues.",
     date: "2026-06-08",
     publishDate: "2026-06-08",
@@ -12590,7 +12590,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "drip-edge-installation-florida",
     title: "Drip Edge Installation: Essential Roof Edge Protection",
-    metaTitle: "Drip Edge Installation in Florida - Gimo's Roofing",
+    metaTitle: "Drip Edge Installation in Florida",
     excerpt: "Learn why drip edge is required on Florida roofs, how it protects your home, and what proper installation looks like.",
     date: "2026-06-11",
     publishDate: "2026-06-11",
