@@ -74,14 +74,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     notFound()
   }
 
-  // Check if post is scheduled for future publication
-  if (post.publishDate) {
-    const now = new Date().toISOString()
-    const pubDate = post.publishDate.includes('T') ? post.publishDate : post.publishDate + 'T00:00'
-    if (pubDate > now) {
-      notFound()
-    }
-  }
+  // NOTE: We intentionally do NOT gate rendering on post.publishDate here.
+  // This is a static export: new Date() is evaluated at build time, so a
+  // future-dated post would be frozen as a permanent soft-404 and would never
+  // recover once its date passed (only a rebuild would fix it). Instead, the
+  // publish "drip" is handled by withholding the post from the index
+  // (BlogClient, client-side date) and the sitemap (sitemap.ts, build-time
+  // date). The page itself always renders for any post present in the data,
+  // so it can never 404 after its date passes.
 
   const relatedPosts = getRelatedPosts(slug, 3)
 
