@@ -78,8 +78,8 @@ const structuredData = {
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 30.3322,
-    "longitude": -81.6557
+    "latitude": 30.3590,
+    "longitude": -81.6553
   },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -118,7 +118,7 @@ const structuredData = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "81",
+    "reviewCount": "94",
     "bestRating": "5",
     "worstRating": "1"
   },

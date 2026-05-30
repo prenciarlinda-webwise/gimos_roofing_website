@@ -165,7 +165,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   const whatsappNumber = '19046976093'
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Hi Gimo's Roofing! I have a question about " + post.title)}`
-  const emailAddress = 'info@gimosroofing.com'
+  const emailAddress = 'management@gimosroofing.com'
 
   return (
     <>
