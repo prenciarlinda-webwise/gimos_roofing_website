@@ -18849,7 +18849,416 @@ export const blogPosts: BlogPost[] = [
       { question: "Why do cross gable roofs leak more than standard gables?", answer: "Cross gable roofs have valleys at every intersection between the two gable sections, and valleys are the most leak-prone areas of any roof. Water concentrates and flows through the valley at high volume during heavy rain, and improper valley flashing or worn-out shingle valleys are common failure points. We strongly prefer open metal valleys for Florida cross gables because Northeast Florida's heavy rainfall overwhelms closed-cut shingle valleys faster." },
       { question: "What roof shape is best for Florida hurricanes?", answer: "Hip roofs are the best-performing shape in hurricane winds because they slope on all four sides and let wind flow over them rather than catching it like a sail. Hip roofs qualify for the hip-shape credit on the Florida wind mitigation form, which can save $300-$700 per year on insurance. If you cannot have a hip roof, a Dutch gable is the next best option, followed by a jerkinhead gable, with a standard open gable being the least hurricane-resistant common shape." }
     ]
-  }
+  },
+  {
+    slug: "gutter-guards-jacksonville-canopy",
+    title: "Are Gutter Guards Worth It in Jacksonville? Types, Cost & Canopy Tips",
+    metaTitle: "Gutter Guards in Jacksonville FL - Are They Worth It?",
+    excerpt: "Gutter guards cut cleaning frequency and protect your roof edge, but they do not end maintenance. Here is what works under Jacksonville's oak and pine canopy.",
+    category: "Roofing Basics",
+    date: "2026-06-14",
+    publishDate: "2026-06-14",
+    dateModified: "2026-06-14",
+    readTime: "8 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/completed-roof-project-jacksonville.webp",
+    imageAlt: "Gutter guards installed along the roof edge of a Jacksonville home under heavy oak and pine tree canopy",
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Are Gutter Guards Worth It in Jacksonville?</h2>
+
+<p class="text-lg font-semibold text-secondary mb-6">For most Jacksonville homes shaded by live oaks and pines, <strong>gutter guards are worth it</strong> because they reduce cleaning frequency, slow leaf and pine-needle buildup, and protect the roof edge from overflow. They do not eliminate maintenance, and micro-mesh guards are the only type that reliably stops fine pine needles and oak debris.</p>
+
+<p class="text-gray-600 mb-6">Before you spend money on guards, get the underlying system right. Guards only perform if the gutters they cover are properly pitched, sized, and sealed, which is why our <a href="/services/roof-gutter" class="text-primary hover:underline">gutter installation, repair, and replacement</a> work always starts with the gutter itself. This guide explains how guards work, the five common types, real installed costs, the truth about cleaning, and when guards actually pay off under Jacksonville's dense tree canopy.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Gutter guards at a glance</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Typical installed cost:</strong></td><td>$4 to $10 per linear foot</td></tr>
+<tr><td class="py-1"><strong>Typical project total:</strong></td><td>$800 to $2,500 for an average home</td></tr>
+<tr><td class="py-1"><strong>Best type for pine and oak:</strong></td><td>Stainless micro-mesh</td></tr>
+<tr><td class="py-1"><strong>Eliminates cleaning?</strong></td><td>No, reduces frequency</td></tr>
+<tr><td class="py-1"><strong>Jacksonville rainfall:</strong></td><td>About 50 inches per year</td></tr>
+</table>
+</div>
+
+<h2 id="how-they-work" class="text-2xl font-bold text-secondary mt-8 mb-4">How Gutter Guards Work</h2>
+
+<p class="text-gray-600 mb-6">A gutter guard is a cover that sits over the open top of a gutter. It lets rainwater pass into the trough while blocking leaves, pine needles, twigs, and roof granules from collecting inside. The goal is to keep the channel clear so water reaches the downspouts instead of overflowing past the fascia and back toward your roof deck.</p>
+
+<p class="text-gray-600 mb-6">Guards matter most in Jacksonville because the metro gets roughly 50 inches of rain per year, much of it in heavy summer downpours. When a gutter clogs during one of those storms, water backs up under the first course of shingles and spills behind the gutter onto the fascia and soffit. That overflow is a leading cause of edge rot and the kind of damage that later turns into a <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> call.</p>
+
+<p class="text-gray-600 mb-6">It helps to picture what a guard is doing during a storm. Rain hits the roof, runs down the shingles, and reaches the eave. A clear gutter catches that flow and routes it to the downspouts. A clogged gutter cannot, so the water has nowhere to go but over the edge or back toward the deck. A guard keeps the channel open so the system keeps moving water even when leaves and needles are falling. The trade-off is that the debris now collects on top of the guard instead of inside the gutter, which is why the type of guard you choose decides how often you still have to clear that surface.</p>
+
+<h2 id="types" class="text-2xl font-bold text-secondary mt-8 mb-4">The Five Main Types of Gutter Guards</h2>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Micro-Mesh Guards</h3>
+
+<p class="text-gray-600 mb-6">Micro-mesh uses a fine stainless or aluminum screen, usually over a rigid frame, with openings small enough to stop pine needles and oak debris while letting water through. This is the most effective option for tree-heavy Jacksonville lots. It costs the most, commonly $6 to $10 per linear foot installed, but it is the only type that consistently blocks fine pine straw.</p>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Reverse-Curve (Surface-Tension) Guards</h3>
+
+<p class="text-gray-600 mb-6">Reverse-curve guards use a solid curved nose that pulls water around the lip by surface tension while debris falls off the edge. They shed large leaves well but can struggle with fine pine needles and tend to be visible from the ground. Cost runs about $5 to $9 per linear foot installed.</p>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Screen Guards</h3>
+
+<p class="text-gray-600 mb-6">Screen guards are perforated metal or plastic panels that snap or slide under the shingles. They block big leaves and twigs but the holes are large enough for pine needles and small debris to pass through. They are inexpensive, roughly $4 to $6 per linear foot installed, and a reasonable budget choice on oak-only lots without pines.</p>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Foam Inserts</h3>
+
+<p class="text-gray-600 mb-6">Foam inserts are wedge-shaped blocks that drop into the gutter so water seeps through the foam and debris stays on top. They are cheap and easy to install yourself, but in Florida humidity they hold moisture, collect seeds and pine straw on the surface, and can grow algae. Most lose effectiveness within a few seasons. Plan on $1 to $4 per linear foot in materials.</p>
+
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Mesh (Standard) Guards</h3>
+
+<p class="text-gray-600 mb-6">Standard mesh sits between screen and micro-mesh. The openings are smaller than a screen but larger than micro-mesh, so it blocks most leaves and some needles. It is a middle-cost option at about $4 to $7 per linear foot installed and works on mixed canopy where pine needle load is light to moderate.</p>
+
+<h2 id="pros-cons" class="text-2xl font-bold text-secondary mt-8 mb-4">Pros and Cons of Gutter Guards</h2>
+
+<p class="text-gray-600 mb-4">The case for installing guards:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Fewer cleanings per year, often dropping from four times to once or twice</li>
+<li>Less standing debris, which reduces mosquito breeding and gutter corrosion</li>
+<li>Protection against overflow that damages fascia, soffit, and the roof edge</li>
+<li>Less risk of clogs feeding water toward the attic during summer storms</li>
+</ul>
+
+<p class="text-gray-600 mb-4">The honest drawbacks:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Upfront cost of $800 to $2,500 for a typical home</li>
+<li>No guard is fully maintenance-free, especially under pines</li>
+<li>Cheap foam and screen types fail fast in humid, debris-heavy conditions</li>
+<li>Poor installation can void some shingle warranties if guards lift the first shingle course</li>
+</ul>
+
+<h2 id="cost" class="text-2xl font-bold text-secondary mt-8 mb-4">How Much Gutter Guards Cost in Jacksonville</h2>
+
+<p class="text-gray-600 mb-6">Installed gutter guards in the Jacksonville area generally run $4 to $10 per linear foot depending on the type and the quality of the material. A typical single-story home with 150 to 200 linear feet of gutter lands between $800 and $2,500 for a full guard installation. Micro-mesh sits at the top of that range, screen and standard mesh in the middle, and foam at the bottom.</p>
+
+<p class="text-gray-600 mb-6">Two factors push the price up locally: home height (two-story and steep roofs need more labor and safety setup) and gutter condition. If your existing gutters are undersized, sagging, or pulling away from the fascia, guards alone will not fix the problem. In those cases we usually recommend correcting the gutters first. Homeowners weighing a full gutter replacement often compare designs in our guide on <a href="/blog/sectional-vs-seamless-gutters-florida" class="text-primary hover:underline">sectional versus seamless gutters in Florida</a> before adding guards on top.</p>
+
+<h2 id="cleaning" class="text-2xl font-bold text-secondary mt-8 mb-4">Do Gutter Guards Eliminate Cleaning?</h2>
+
+<p class="text-gray-600 mb-6">No. This is the single biggest misconception. Gutter guards reduce how often you clean, but they do not make gutters maintenance-free, and any company that promises zero cleaning is overselling. Under heavy oak and pine, fine debris still settles on top of even the best micro-mesh and needs to be brushed or rinsed off so water can pass through.</p>
+
+<p class="text-gray-600 mb-6">A realistic expectation: a home that needed cleaning three or four times a year will likely need it once or twice a year with quality micro-mesh, and the inside of the gutter stays far cleaner. The Asphalt Roofing Manufacturers Association notes that proper roof-edge drainage is part of protecting the deck and underlayment, which is exactly what clear gutters preserve. You can review industry guidance at <a href="https://www.asphaltroofing.org" target="_blank" rel="noopener" class="text-primary hover:underline">asphaltroofing.org</a>.</p>
+
+<h2 id="canopy" class="text-2xl font-bold text-secondary mt-8 mb-4">Jacksonville's Oak and Pine Canopy Changes the Math</h2>
+
+<p class="text-gray-600 mb-6">Jacksonville's tree cover is dominated by live oaks and pines, and each drops a different kind of debris. Live oaks shed small leaves nearly year-round plus catkins and acorns in spring. Pines drop long needles, also called pine straw, in fall, and those needles are the hardest thing for a guard to stop. Fine pine straw slips through screen and standard mesh openings and only stainless micro-mesh reliably blocks it.</p>
+
+<p class="text-gray-600 mb-6">Neighborhoods with mature canopy, like Mandarin, Riverside, and Avondale, see the heaviest debris load. If you live in a shaded older neighborhood, micro-mesh is almost always the right call. Homeowners in those areas can read our local page on <a href="/roofing-mandarin-fl" class="text-primary hover:underline">roofing in Mandarin</a> for context on how the canopy affects roof and gutter performance, and our main <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">Jacksonville roofing</a> page covers full-system service across the metro.</p>
+
+<h2 id="worth-it" class="text-2xl font-bold text-secondary mt-8 mb-4">When Gutter Guards Are Worth It</h2>
+
+<p class="text-gray-600 mb-4">Guards make the most financial sense when:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Your home sits under mature oaks or pines that drop debris most of the year</li>
+<li>You are paying for professional gutter cleaning three or more times a year</li>
+<li>Your roof is two stories or steep enough that cleaning is unsafe to do yourself</li>
+<li>Your gutters are sound and correctly pitched, so guards add value instead of masking a problem</li>
+</ul>
+
+<p class="text-gray-600 mb-4">Guards are a weaker investment when:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Your lot has little or no overhanging tree cover</li>
+<li>Your existing gutters are failing and need replacement first</li>
+<li>You only have budget for cheap foam, which tends to fail within a few seasons here</li>
+</ul>
+
+<div class="bg-gray-100 rounded-lg p-6 my-8">
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways</h2>
+<ul class="text-gray-700 space-y-2">
+<li>• <strong>Worth it for most canopy homes:</strong> Guards cut cleaning frequency and protect the roof edge from overflow</li>
+<li>• <strong>Best type for Jacksonville:</strong> Stainless micro-mesh, the only type that reliably stops fine pine needles</li>
+<li>• <strong>Cost:</strong> $4 to $10 per linear foot installed, about $800 to $2,500 for a typical home</li>
+<li>• <strong>Not maintenance-free:</strong> Guards reduce cleaning, they do not eliminate it</li>
+<li>• <strong>Fix the gutters first:</strong> Guards only perform on sound, correctly pitched gutters</li>
+<li>• <strong>Rainfall matters:</strong> About 50 inches per year means clogged gutters overflow fast and damage the roof edge</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">If you are deciding between guards, a gutter replacement, or both, get the underlying system inspected before you buy covers. Our team can assess your gutters and canopy load and recommend the right approach. Contact Gimo's Roofing at <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free assessment.</p>`,
+    faqs: [
+      { question: "Are gutter guards worth it in Jacksonville?", answer: "For most Jacksonville homes under oak and pine canopy, yes. Guards reduce cleaning frequency, slow debris buildup, and protect the roof edge from overflow during the area's heavy rains, which total about 50 inches per year. They are most valuable on shaded lots where you currently pay for three or more cleanings annually. They are a weaker investment on open lots with little tree cover." },
+      { question: "What type of gutter guard is best for pine needles?", answer: "Stainless micro-mesh is the best choice for pine needles. Its openings are fine enough to block pine straw while still letting water pass, which screen guards, standard mesh, and foam inserts cannot reliably do. Pine needles are the hardest debris to stop, so in Jacksonville neighborhoods with mature pines, micro-mesh is almost always the right call despite its higher cost." },
+      { question: "How much do gutter guards cost in Jacksonville?", answer: "Installed gutter guards generally run $4 to $10 per linear foot depending on the type and material quality. A typical home with 150 to 200 linear feet of gutter lands between $800 and $2,500. Micro-mesh sits at the top of the range, screen and standard mesh in the middle, and foam at the bottom. Two-story homes and steep roofs cost more due to added labor and safety setup." },
+      { question: "Do gutter guards eliminate the need to clean gutters?", answer: "No. Guards reduce how often you clean, but they do not make gutters maintenance-free. Fine debris still settles on top of even quality micro-mesh and must be brushed or rinsed off. A home that needed cleaning three or four times a year will typically need it once or twice with good micro-mesh, while the inside of the gutter stays far cleaner." },
+      { question: "What are the different types of gutter guards?", answer: "There are five main types: micro-mesh (fine screen, best for pine needles), reverse-curve or surface-tension guards (curved nose that sheds large leaves), screen guards (perforated panels that block big leaves but pass needles), foam inserts (wedges that water seeps through, cheap but short-lived in humidity), and standard mesh (a middle option for light to moderate needle load)." },
+      { question: "Can gutter guards damage my roof or void the warranty?", answer: "Properly installed guards do not damage a roof, but poor installation can. Guards that slide too far under the first shingle course and lift it may compromise the seal and, in some cases, void a shingle warranty. To avoid this, have guards installed by a roofer who understands how they interact with the roof edge, and make sure the underlying gutters are sound and correctly pitched first." }
+    ]
+  },
+  {
+    slug: "roof-waterproofing-vs-replacement-florida",
+    title: "Roof Waterproofing vs Replacement: Which Does Your Florida Roof Need?",
+    metaTitle: "Roof Waterproofing vs Replacement in Florida",
+    excerpt: "A roofer's honest decision guide for Florida homeowners weighing roof waterproofing against full replacement, with focus on flat and low-slope recurring leaks.",
+    content: `<p class="text-lg text-gray-700 mb-6">Your flat or low-slope roof keeps leaking after every heavy Florida rain. One contractor says a waterproof coating will fix it for a few thousand dollars. Another says you need a full tear-off. Both can't be right, so which does your roof actually need?</p>
+
+<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">The Quick Answer</h2>
+
+<p class="text-gray-600 mb-6"><strong>Waterproofing makes sense when the roof structure is sound and leaks come from surface wear, seams, or flashing. Replacement is the call when the membrane is past its service life, the deck is rotted, or water has saturated the insulation. The deciding factor is what is failing, not the price tag.</strong></p>
+
+<p class="text-gray-600 mb-6">If your roof passes the soundness test, <a href="/services/roof-waterproofing" class="text-primary hover:underline">roof waterproofing</a> can add years of protection at a fraction of replacement cost. If it fails that test, a coating just hides a problem that keeps spreading underneath. This guide walks you through both options and gives you a checklist to tell them apart on your own roof.</p>
+
+<h2 id="what-is-waterproofing" class="text-2xl font-bold text-secondary mt-8 mb-4">What Roof Waterproofing Actually Is</h2>
+
+<p class="text-gray-600 mb-6">Roof waterproofing means applying a liquid-applied membrane or coating over an existing roof to seal it against water intrusion. On flat and low-slope roofs in Florida, this usually means a silicone, acrylic, or polyurethane coating rolled or sprayed over a cleaned and primed surface. The coating bridges small cracks, seals seams, and reflects heat.</p>
+
+<p class="text-gray-600 mb-6">A typical waterproofing job in Northeast Florida runs $1.50 to $4.00 per square foot installed, depending on the coating type and how much surface prep the roof needs. For a 2,000 square foot flat roof, that is roughly $3,000 to $8,000. The work happens over the existing roof, so there is no tear-off, no exposed deck, and the building stays usable during the job.</p>
+
+<p class="text-gray-600 mb-6">The three common coating systems behave differently in Florida heat and rain:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-3">
+<li><strong>Silicone</strong> sits at the higher end of the price range and handles ponding water best. On a flat roof that holds standing water for a day or two after rain, silicone is usually the right pick.</li>
+<li><strong>Acrylic</strong> costs less and reflects heat well, but it softens and wears under constant standing water, so it suits roofs that drain quickly rather than ones that pond.</li>
+<li><strong>Polyurethane</strong> resists foot traffic and abrasion, which makes it a fit for roofs with regular HVAC service or rooftop equipment.</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Waterproofing is a restoration, not a rebuild. It extends the life of a roof that still has a working structure underneath. If you want a deeper look at coating chemistry and which product fits which roof, read our guide to <a href="/blog/roof-coating-options-florida" class="text-primary hover:underline">roof coating options in Florida</a>.</p>
+
+<h2 id="when-waterproofing-fits" class="text-2xl font-bold text-secondary mt-8 mb-4">When Waterproofing Is the Right Call</h2>
+
+<p class="text-gray-600 mb-6">Waterproofing fits when the roof is structurally healthy but the surface has stopped doing its job. Look for these signs:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-3">
+<li><strong>The roof is flat or low-slope</strong> with a built-up, modified bitumen, TPO, or metal surface that has aged but not failed. Coatings are designed for these systems.</li>
+<li><strong>Leaks trace to seams, penetrations, or flashing,</strong> not to wide areas of broken membrane. Flashing-driven leaks around vents, drains, and parapet walls are classic waterproofing candidates.</li>
+<li><strong>The deck is solid.</strong> When you walk the roof it feels firm with no soft, spongy, or bouncing spots.</li>
+<li><strong>The roof is within service life.</strong> A 10 to 18 year old flat roof with surface wear often has good bones and just needs a sealed top layer.</li>
+<li><strong>You want to extend life and cut cooling costs.</strong> A reflective coating lowers roof surface temperature and can buy 7 to 15 years before replacement.</li>
+</ul>
+
+<div class="bg-primary/10 p-6 rounded-xl mb-6">
+<p class="font-semibold text-secondary mb-2">The Recurring-Leak Test</p>
+<p class="text-gray-600">If your leak shows up in the same spot after every rain and stays in one area, it is usually a flashing or seam problem that waterproofing can solve. If new leaks appear in different spots after each storm, the membrane is failing across the whole roof and a coating will not keep up.</p>
+</div>
+
+<h2 id="when-replacement-fits" class="text-2xl font-bold text-secondary mt-8 mb-4">When Replacement Is the Right Call</h2>
+
+<p class="text-gray-600 mb-6">No coating fixes a roof that has already lost its structure. Replacement is the honest answer when you see these conditions:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-3">
+<li><strong>The roof is past its service life.</strong> A flat membrane roof at 20-plus years in Florida has usually used up its useful life, and coating it just delays the inevitable.</li>
+<li><strong>The deck is rotted or soft.</strong> Spongy spots, sagging, or visible wood rot mean water has already gotten into the structure. A coating seals rot in, it does not stop it.</li>
+<li><strong>Insulation is saturated.</strong> Trapped water under the membrane shows up as soft, warm, or discolored areas. Wet insulation has to come out, which means tear-off.</li>
+<li><strong>Damage is widespread.</strong> Large blistered, cracked, or separated membrane sections across the roof are beyond what a coating can bridge.</li>
+<li><strong>You have tried coatings before and the leaks came back.</strong> A second coating over a failing roof rarely outperforms the first.</li>
+</ul>
+
+<p class="text-gray-600 mb-6">When the structure is gone, a full <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> resets the clock with a new membrane, new flashing, and a fresh warranty. It costs more up front, but spending $4,000 on a coating that fails in two years is the more expensive mistake.</p>
+
+<p class="text-gray-600 mb-6">There is also a warranty angle homeowners miss. Most coating warranties require a sound substrate and exclude any roof with trapped moisture. If a contractor coats over wet insulation, the warranty often will not honor the resulting leak, so you pay for the coating and the eventual replacement both. A replacement on a verified-dry deck carries a clean manufacturer warranty with no such carve-outs.</p>
+
+<h2 id="florida-context" class="text-2xl font-bold text-secondary mt-8 mb-4">The Florida Flat-Roof Reality</h2>
+
+<p class="text-gray-600 mb-6">Florida is hard on flat and low-slope roofs. Jacksonville averages more than 50 inches of rain a year, with much of it falling in heavy summer downpours that pond on flat surfaces. Standing water finds every weak seam and pinhole. The same UV exposure that fades a driveway breaks down membrane chemistry from the top down.</p>
+
+<p class="text-gray-600 mb-6">Concrete flat roofs, common on Florida commercial and mid-century homes, add their own wrinkle. Concrete cracks with thermal movement, and those hairline cracks wick water into the slab. Waterproofing concrete with an elastomeric coating works well when the slab is sound, but if water has been sitting in the concrete for years, the rebar inside may already be corroding, which is a structural fix no coating addresses.</p>
+
+<p class="text-gray-600 mb-6">Drainage matters more here than slope materials. The Florida Building Code requires positive drainage on low-slope roofs for good reason. You can read the current code requirements through the official <a href="https://floridabuilding.org" target="_blank" rel="noopener">Florida Building Code</a> portal. If your roof ponds water for more than 48 hours after rain, fixing the drainage comes before either coating or replacement.</p>
+
+<h2 id="decision-checklist" class="text-2xl font-bold text-secondary mt-8 mb-4">The Decision Checklist</h2>
+
+<p class="text-gray-600 mb-4">Walk your roof, or have it inspected, and answer these. Count your "replace" answers:</p>
+
+<div class="bg-gray-50 p-6 rounded-xl mb-6">
+<p class="font-semibold text-secondary mb-4">Lean Toward Replacement If:</p>
+<ul class="list-disc pl-6 space-y-3 text-gray-600">
+<li>The roof membrane is 20 or more years old</li>
+<li>You feel soft, spongy, or sagging spots when walking it</li>
+<li>The interior ceiling shows new leak spots in different places after each storm</li>
+<li>An inspector finds wet or saturated insulation</li>
+<li>More than 25 percent of the membrane is blistered, cracked, or separated</li>
+<li>You have already coated this roof once and leaks returned</li>
+</ul>
+<p class="font-semibold text-secondary mt-6 mb-4">Lean Toward Waterproofing If:</p>
+<ul class="list-disc pl-6 space-y-3 text-gray-600">
+<li>The deck is firm and the structure is sound</li>
+<li>Leaks come from the same spots, usually seams or flashing</li>
+<li>The roof is under 18 years old with surface-only wear</li>
+<li>The insulation underneath is dry</li>
+<li>You want to extend life and reduce cooling bills</li>
+</ul>
+</div>
+
+<p class="text-gray-600 mb-6">Three or more "replace" answers means you are almost certainly past the coating window. Zero or one means waterproofing is worth a real estimate. The middle is exactly where a professional inspection earns its keep, because the difference between wet and dry insulation is not something you can judge from a photo.</p>
+
+<h2 id="getting-it-right" class="text-2xl font-bold text-secondary mt-8 mb-4">How to Get an Honest Answer</h2>
+
+<p class="text-gray-600 mb-6">The hard part is that a coating contractor sells coatings and a replacement contractor sells tear-offs. The fix is a moisture survey. An infrared scan or core sample shows whether water is trapped under the membrane, which is the single fact that settles most waterproofing-versus-replacement debates. Ask any contractor whether they will check moisture before they quote.</p>
+
+<p class="text-gray-600 mb-6">An infrared survey is best run in the early evening after a sunny day. Dry roofing cools off fast once the sun drops, but areas with wet insulation hold heat and glow brighter on the thermal camera. A core cut then confirms the scan by pulling a small plug of the roof so the inspector can see and feel whether the insulation is wet. The patched core costs little and tells you more than any sales pitch.</p>
+
+<p class="text-gray-600 mb-6">Get the moisture map in writing. If the survey shows scattered wet pockets covering only a small share of the roof, some systems allow cutting out and replacing just those sections before coating the rest. If the wet area is large, that partial approach stops making sense and full replacement wins on cost and warranty. The map turns a judgment call into a measurement.</p>
+
+<p class="text-gray-600 mb-6">If your problem is a single nagging leak rather than a whole-roof question, a targeted <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> may be all you need before deciding on coating or replacement. And if you want both options priced on your specific roof, our team serving <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">Jacksonville and the surrounding beaches</a> inspects first and tells you which one your roof actually needs, even when the answer is the cheaper one.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-8 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-3">
+<li>Waterproofing fits a sound roof with surface, seam, or flashing leaks and runs $1.50 to $4.00 per square foot.</li>
+<li>Replacement fits a roof past its service life, with rotted decking, saturated insulation, or widespread membrane failure.</li>
+<li>The deciding factor is what is failing, not the price. A cheap coating over a failed roof is the expensive choice.</li>
+<li>Recurring leaks in one spot point to waterproofing. New leaks in new spots after each storm point to replacement.</li>
+<li>Florida rain, ponding, and UV punish flat roofs, so drainage and a moisture survey come before any decision.</li>
+</ul>
+
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we inspect before we quote and we tell you which option your roof needs. Call (904) 606-5313 for a free flat-roof assessment in Jacksonville.</p>`,
+    image: "/images/roof-leak-emergency-repair.webp",
+    imageAlt: "Flat low-slope roof with ponding water and worn membrane being inspected for waterproofing versus replacement in Jacksonville",
+    category: "Roof Replacement",
+    date: "2026-06-18",
+    dateModified: "2026-06-18",
+    readTime: "8 min read",
+    author: "Gimo's Roofing Team",
+    faqs: [
+      { question: "Is roof waterproofing the same as a roof replacement?", answer: "No. Waterproofing applies a liquid coating or membrane over your existing roof to seal it, with no tear-off. Replacement removes the old roof down to the deck and installs a new system. Waterproofing restores a sound roof, while replacement rebuilds one that has lost its structure or service life." },
+      { question: "Can you waterproof a roof that already leaks?", answer: "Yes, if the leaks come from surface wear, seams, or flashing on a structurally sound deck. Waterproofing seals those entry points well. But if leaks come from rotted decking, saturated insulation, or widespread membrane failure, a coating only hides the problem and water keeps spreading underneath." },
+      { question: "How much does roof waterproofing cost in Florida?", answer: "Roof waterproofing in Northeast Florida typically runs $1.50 to $4.00 per square foot installed. A 2,000 square foot flat roof lands around $3,000 to $8,000. Silicone coatings cost more but handle ponding water best, which matters during Florida's heavy summer rain season." },
+      { question: "How long does a waterproof roof coating last?", answer: "A quality coating on a sound flat roof typically lasts 7 to 15 years before it needs recoating or the roof needs replacement. Silicone holds up best against standing water, while acrylics cost less but wear faster under constant ponding. Lifespan depends heavily on surface prep and the condition of the roof underneath." },
+      { question: "When should I replace a flat roof instead of coating it?", answer: "Replace when the roof is 20 or more years old, the deck feels soft or sags, the insulation is saturated, more than a quarter of the membrane is cracked or blistered, or you have coated it before and leaks returned. In those cases a coating fails fast and wastes money that should go toward a new roof." },
+      { question: "Why does my flat roof keep leaking after heavy rain?", answer: "Florida flat roofs pond water during heavy downpours, and standing water finds every weak seam, pinhole, and flashing gap. If leaks return in the same spot, it is usually a fixable seam or flashing issue. If new leaks appear in different spots after each storm, the membrane is failing across the whole roof." }
+    ],
+    publishDate: "2026-06-18",
+  },
+  {
+    slug: "metal-roof-cost-jacksonville-2026",
+    title: "Metal Roof Cost in Jacksonville FL: 2026 Price Guide",
+    metaTitle: "Metal Roof Cost in Jacksonville FL (2026 Guide)",
+    excerpt: "What a metal roof costs in Jacksonville in 2026: $9 to $16 per square foot installed, broken down by panel type, house size, price drivers, and financing.",
+    category: "Roof Replacement",
+    date: "2026-06-22",
+    publishDate: "2026-06-22",
+    dateModified: "2026-06-22",
+    readTime: "9 min read",
+    author: "Gimo's Roofing Team",
+    image: "/images/metal-roof-construction-site.webp",
+    imageAlt: "Crew installing a standing seam metal roof on a Jacksonville Florida home during a 2026 roof replacement project",
+    content: `<p class="text-lg font-semibold text-secondary mb-6">In 2026, a metal roof in Jacksonville costs about $9 to $16 per square foot installed. A 1,200 square foot home runs roughly $14,000 to $25,000, and a 2,000 square foot home runs roughly $22,000 to $38,000. Exposed-fastener and 5V panels sit at the low end, stone-coated steel in the middle, and standing seam at the top. Pitch, tear-off, and metal gauge move the final number most.</p>
+
+<p class="text-gray-600 mb-6">Those ranges cover a fully installed system, not just material. If you are weighing a <a href="/services/metal-roofing" class="text-primary hover:underline">metal roofing</a> system against another shingle roof, this guide breaks the price down by panel type, by house size, and by the factors that actually change the quote, plus how financing and wind-mitigation insurance credits change the real out-of-pocket cost.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Fast cost reference for Jacksonville, 2026</p>
+<ul class="list-disc pl-6 text-gray-600 space-y-1">
+<li><strong>Installed range:</strong> $9 to $16 per square foot</li>
+<li><strong>1,200 sq ft home:</strong> $14,000 to $25,000</li>
+<li><strong>2,000 sq ft home:</strong> $22,000 to $38,000</li>
+<li><strong>Lifespan:</strong> 40 to 70 years, versus 20 to 30 for asphalt shingle</li>
+<li><strong>Biggest price drivers:</strong> roof pitch, tear-off, decking condition, panel profile, metal gauge</li>
+</ul>
+</div>
+
+<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-10 mb-4">How Much Does a Metal Roof Cost in Jacksonville?</h2>
+
+<p class="text-gray-600 mb-6">For 2026, plan on $9 to $16 per square foot installed for a metal roof in the Jacksonville area. The spread is wide because metal is not one product. A basic exposed-fastener panel on a simple gable costs far less per square foot than a concealed-fastener standing seam system on a steep, cut-up roof. The rest of this guide explains where your home lands in that range.</p>
+
+<p class="text-gray-600 mb-6">Two things push Jacksonville pricing in 2026 specifically. First, Florida wind code requires stronger roof-to-deck attachment and proper underlayment, so even a budget metal system carries more fastening labor than the same panel would in a low-wind state. Second, coastal humidity and salt air near the St. Johns River and the beaches favor coated steel or aluminum panels, and aluminum carries a material premium over galvanized steel. Those two factors are why local quotes start higher than the national averages you may have seen online.</p>
+
+<p class="text-gray-600 mb-6">It also helps to separate material cost from total installed cost. The raw panels are often only 35 to 50 percent of the project. The rest is labor, underlayment, flashing, fasteners, trim, tear-off, disposal, permits, and warranty. When a quote looks unusually low, it usually skips one of those line items, most often the tear-off or the decking allowance.</p>
+
+<h2 id="cost-by-type" class="text-2xl font-bold text-secondary mt-10 mb-4">Metal Roof Cost by Panel Type</h2>
+
+<p class="text-gray-600 mb-4">Panel type is the first big lever on price. Here is how the common Jacksonville options compare on an installed, per-square-foot basis in 2026.</p>
+
+<table class="w-full text-sm border-collapse my-6">
+<thead>
+<tr class="border-b-2 border-gray-300">
+<th class="text-left py-2 pr-4">Metal Panel Type</th>
+<th class="text-left py-2 pr-4">Installed Cost Per Sq Ft</th>
+<th class="text-left py-2">Typical Lifespan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">Exposed-fastener corrugated</td><td class="py-2 pr-4">$9 to $11</td><td class="py-2">40 to 50 years</td></tr>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">5V crimp panel</td><td class="py-2 pr-4">$10 to $12</td><td class="py-2">40 to 50 years</td></tr>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">Stone-coated steel</td><td class="py-2 pr-4">$11 to $14</td><td class="py-2">40 to 60 years</td></tr>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">Standing seam (concealed fastener)</td><td class="py-2 pr-4">$12 to $16</td><td class="py-2">50 to 70 years</td></tr>
+</tbody>
+</table>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Exposed-Fastener and 5V Panels</h3>
+
+<p class="text-gray-600 mb-6">Corrugated and 5V crimp panels use screws driven through the face of the metal into the deck. They are the most affordable metal option in Jacksonville at $9 to $12 per square foot installed. The fasteners have rubber washers that wear over 15 to 25 years and need re-tightening or replacement, so the lower price comes with a maintenance item. These panels are a common, code-acceptable choice for many homes and outbuildings.</p>
+
+<p class="text-gray-600 mb-6">The 5V crimp panel is the classic Florida farmhouse and cottage look, with a single raised seam pattern that sheds heavy summer rain quickly. Corrugated is the wavy profile more common on barns, garages, and detached structures. Both install faster than standing seam, which is part of why the labor cost is lower. The tradeoff is that every exposed fastener is a potential leak point decades down the line, so these panels reward homeowners who will keep up with periodic inspections.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Stone-Coated Steel</h3>
+
+<p class="text-gray-600 mb-6">Stone-coated steel mimics the look of shingle or tile while keeping metal performance. It lands in the middle at $11 to $14 per square foot. Homeowners who want metal durability without the modern standing seam look often choose this for its texture and color depth.</p>
+
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Standing Seam</h3>
+
+<p class="text-gray-600 mb-6">Standing seam hides its fasteners under raised vertical seams, so there are no exposed screw holes to leak or loosen. It is the premium option at $12 to $16 per square foot and carries the longest lifespan at 50 to 70 years. The continuous, locked panels also resist hurricane wind uplift well, which matters on the First Coast. For a closer look at how it stacks up against asphalt, see our guide on <a href="/blog/metal-roof-vs-shingles-florida" class="text-primary hover:underline">metal roof vs shingles in Florida</a>.</p>
+
+<p class="text-gray-600 mb-6">Within standing seam there is a price range too. Snap-lock panels cost less to install than mechanically seamed panels, and a striated finish that hides oil-canning costs more than a flat pan. Aluminum standing seam, favored near the coast for salt resistance, sits at the very top of the $12 to $16 band. If your home is in a beachside zip code, expect the quote to lean toward the upper end for material reasons alone.</p>
+
+<h2 id="cost-by-size" class="text-2xl font-bold text-secondary mt-10 mb-4">Metal Roof Cost by House Size</h2>
+
+<p class="text-gray-600 mb-4">Roof area is usually larger than living area because of overhangs and pitch, but living square footage is a workable estimate for budgeting. Here are 2026 ballpark totals for common Jacksonville home sizes.</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>1,200 sq ft home:</strong> $14,000 to $25,000 installed</li>
+<li><strong>1,600 sq ft home:</strong> $18,000 to $31,000 installed</li>
+<li><strong>2,000 sq ft home:</strong> $22,000 to $38,000 installed</li>
+<li><strong>2,500 sq ft home:</strong> $27,000 to $47,000 installed</li>
+</ul>
+
+<p class="text-gray-600 mb-6">The low end of each range assumes an exposed-fastener panel on a simple, single-story roof. The high end assumes standing seam on a steeper, more complex roof with a full tear-off. A precise number requires a roof measurement, which is part of any <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> estimate we provide.</p>
+
+<h2 id="price-drivers" class="text-2xl font-bold text-secondary mt-10 mb-4">What Drives the Price Up or Down</h2>
+
+<p class="text-gray-600 mb-4">Two homes the same size can get quotes thousands of dollars apart. These five factors explain most of the gap.</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Roof pitch:</strong> Steeper roofs are slower and less safe to work on, so labor cost rises. A roof above 7 in 12 pitch can add 15 to 25 percent.</li>
+<li><strong>Tear-off:</strong> Removing and disposing of the old roof adds $1 to $2 per square foot. Going over an existing layer is sometimes allowed but is rarely the right call.</li>
+<li><strong>Decking condition:</strong> If the plywood deck has rot or storm damage, replacing it adds material and labor. This is common on older Jacksonville roofs and is found once the old covering is off.</li>
+<li><strong>Panel profile and gauge:</strong> Heavier-gauge steel (24 gauge versus 26 gauge) costs more but resists denting and lasts longer. Profile complexity adds trim and flashing.</li>
+<li><strong>Roof complexity:</strong> Valleys, dormers, skylights, and chimneys each add cut panels and flashing work, raising both material waste and labor.</li>
+</ul>
+
+<h2 id="roi" class="text-2xl font-bold text-secondary mt-10 mb-4">Return on Investment Versus Shingles</h2>
+
+<p class="text-gray-600 mb-6">Metal costs more upfront than asphalt shingle, but the math changes over a 50-year window. An asphalt shingle roof in Jacksonville typically lasts 20 to 30 years, so a homeowner staying 50 years would buy roughly two shingle roofs, and possibly three if storms shorten the lifespan. A standing seam metal roof in the same period needs zero replacements. When you divide total cost by years of service, metal often costs less per year of protection.</p>
+
+<p class="text-gray-600 mb-6">A simple example: a $12,000 shingle roof replaced every 25 years costs $24,000 over 50 years before inflation, plus the disruption and disposal of each tear-off. A $30,000 metal roof over the same 50 years has a lower annual cost and avoids the second project entirely. Metal also reflects more solar heat than dark shingle, which can trim summer cooling load, and a longer-lasting roof helps at resale because buyers value not having to replace it. ENERGY STAR rated metal roofing products are listed on the federal program site at <a href="https://www.energystar.gov" target="_blank" rel="noopener">energystar.gov</a>.</p>
+
+<h2 id="insurance" class="text-2xl font-bold text-secondary mt-10 mb-4">Wind-Mitigation Insurance Credits</h2>
+
+<p class="text-gray-600 mb-6">A new metal roof in Florida usually qualifies for wind-mitigation credits on homeowners insurance. Properly fastened roof systems, secondary water barriers, and stronger roof-to-deck attachment can lower the wind portion of a premium. After installation, order a wind-mitigation inspection and send the form to your insurer so the credits apply. These savings recur every year and should be counted against the project cost.</p>
+
+<h2 id="financing" class="text-2xl font-bold text-secondary mt-10 mb-4">Financing a Metal Roof</h2>
+
+<p class="text-gray-600 mb-6">Few homeowners pay for a roof in cash, and a metal roof is a larger ticket than shingle. Monthly financing spreads the cost so the upfront price is not a barrier to the longer-lasting system. We outline available terms and qualification on our <a href="/roof-financing-florida" class="text-primary hover:underline">roof financing in Florida</a> page. For most Jacksonville homeowners, a financed metal roof still beats repeated shingle replacements over the decades.</p>
+
+<p class="text-gray-600 mb-6">When you compare a financed metal roof to a financed shingle roof, look at the full term, not just the monthly payment. A metal roof financed over a longer term can carry a payment close to a shingle roof financed over a shorter one, while delivering two to three times the service life. Pairing that payment against the recurring wind-mitigation insurance credit and the lower cooling bills closes much of the gap between the two upfront prices.</p>
+
+<p class="text-gray-600 mb-6">Every estimate should be tied to a real roof measurement and a written scope. If you want a local number for your address, our <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">Jacksonville roofing</a> team provides free inspections and itemized quotes.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Metal roofs in Jacksonville cost $9 to $16 per square foot installed in 2026.</li>
+<li>A 1,200 sq ft home runs $14,000 to $25,000, a 2,000 sq ft home runs $22,000 to $38,000.</li>
+<li>Exposed-fastener and 5V panels are cheapest, stone-coated steel is mid-range, standing seam is the premium.</li>
+<li>Pitch, tear-off, decking repair, gauge, and roof complexity move the final price the most.</li>
+<li>Over 50 years, metal often costs less per year than repeated shingle replacements.</li>
+<li>A new metal roof can earn yearly wind-mitigation insurance credits in Florida, and financing spreads the upfront cost.</li>
+</ul>`,
+    faqs: [
+      { question: "How much does a metal roof cost in Jacksonville FL?", answer: "In 2026, a metal roof in Jacksonville costs about $9 to $16 per square foot installed. A 1,200 square foot home runs roughly $14,000 to $25,000, and a 2,000 square foot home runs roughly $22,000 to $38,000. The exact number depends on panel type, roof pitch, tear-off, and decking condition. A free roof measurement produces a precise quote." },
+      { question: "What is the cheapest type of metal roof?", answer: "Exposed-fastener corrugated and 5V crimp panels are the most affordable metal roofs in Jacksonville at $9 to $12 per square foot installed. They use screws driven through the panel face, which costs less than a concealed-fastener standing seam system but adds a long-term maintenance item, since the rubber washers wear over 15 to 25 years." },
+      { question: "Why is standing seam metal more expensive?", answer: "Standing seam costs $12 to $16 per square foot because its fasteners are hidden under raised vertical seams, which removes the exposed screw holes that can leak or loosen over time. It also uses more material and skilled labor to form and lock the seams. In return it carries the longest lifespan of any common metal panel, 50 to 70 years." },
+      { question: "Is a metal roof worth the extra cost in Jacksonville?", answer: "For most homeowners staying 15 or more years, yes. Asphalt shingle lasts 20 to 30 years in Jacksonville while metal lasts 40 to 70, so over a 50-year window metal often costs less per year of service. Metal also reflects more solar heat and can earn wind-mitigation insurance credits, which lowers the real long-term cost." },
+      { question: "What factors increase the price of a metal roof?", answer: "The biggest price drivers are roof pitch, tear-off of the old roof, decking repair, metal gauge, and roof complexity. A steep roof above 7 in 12 can add 15 to 25 percent in labor. Tear-off adds $1 to $2 per square foot, and rotted decking found after removal adds material and labor on top of the base estimate." },
+      { question: "Does a metal roof lower my insurance in Florida?", answer: "Usually it can. A new metal roof in Florida often qualifies for wind-mitigation credits that reduce the wind portion of your homeowners premium. After installation, order a wind-mitigation inspection and send the completed form to your insurer so the credits apply. These savings recur every year and should be weighed against the project cost." },
+      { question: "Can I finance a metal roof in Jacksonville?", answer: "Yes. Because a metal roof is a larger ticket than shingle, most homeowners finance it and spread the cost over monthly payments instead of paying upfront. Gimo's Roofing outlines available terms and qualification on its roof financing page. For most Jacksonville homeowners, a financed metal roof still beats repeated shingle replacements over the decades." }
+    ]
+  },
+
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
