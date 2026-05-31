@@ -248,6 +248,18 @@ export default function AtlanticBeachPage() {
               <h4 className="font-bold text-secondary mb-2">Roof Inspections</h4>
               <p className="text-gray-600 text-sm">Twice-yearly Atlantic Beach property inspections. We check for salt corrosion, wind damage, and UV deterioration before they become costly problems.</p>
             </div>
+            <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Metal Roofing</h4>
+              <p className="text-gray-600 text-sm">Aluminum metal roofing rated for 140+ mph winds with a 40-70 year lifespan, engineered to resist the salt air corrosion that destroys standard metal on Atlantic Beach&apos;s oceanfront streets.</p>
+            </Link>
+            <Link href="/services/roof-gutter" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Gutters</h4>
+              <p className="text-gray-600 text-sm">Seamless aluminum gutter installation, repair, and replacement built to move heavy coastal downpours away from your foundation across Selva Marina and the Beach Avenue district.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
+              <p className="text-gray-600 text-sm">Roof coatings and flashing sealing that lock out wind-driven rain and salt moisture on Atlantic Beach homes, including the low-slope sections vulnerable to coastal surge overwash.</p>
+            </Link>
           </div>
         </div>
       </section>

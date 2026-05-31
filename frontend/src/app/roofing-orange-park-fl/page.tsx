@@ -241,14 +241,22 @@ export default function OrangeParkPage() {
               <h4 className="font-bold text-secondary mb-2">Architectural Shingles</h4>
               <p className="text-gray-600 text-sm">The best value for Orange Park homes. 25-30 year lifespan, many colors available, and better wind resistance than 3-tab shingles.</p>
             </div>
-            <div className="bg-white p-5 rounded-lg shadow-sm">
+            <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="font-bold text-secondary mb-2">Metal Roofing</h4>
               <p className="text-gray-600 text-sm">Long-term investment with 40-60 year lifespan. Energy-efficient, low maintenance, and excellent storm protection for Clay County homes.</p>
-            </div>
+            </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">
               <h4 className="font-bold text-secondary mb-2">Free Roof Inspections</h4>
               <p className="text-gray-600 text-sm">Honest assessments for Orange Park homeowners. We tell you what needs fixing now, what can wait, and provide a detailed written estimate.</p>
             </div>
+            <Link href="/services/roof-gutter" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Gutters</h4>
+              <p className="text-gray-600 text-sm">Seamless gutter installation, repair, and replacement at competitive Clay County pricing. We handle the heavy summer thunderstorm runoff and keep pine straw and oak debris from clogging your downspouts.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
+              <p className="text-gray-600 text-sm">Roof coatings, leak sealing, and flashing repair for flat and low-slope roofs on Orange Park and Fleming Island homes. We seal vulnerable penetrations and valleys before clay-soil settling opens new leak points.</p>
+            </Link>
           </div>
         </div>
       </section>

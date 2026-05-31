@@ -230,6 +230,18 @@ export default function RoofingJacksonvilleFLPage() {
               <h3 className="font-bold text-secondary mb-2">Roof Inspections</h3>
               <p className="text-gray-600 text-sm">Free roof inspections and roof maintenance Jacksonville FL homeowners rely on. We check for damage, wear, and potential issues before they become costly problems.</p>
             </div>
+            <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="font-bold text-secondary mb-2">Metal Roofing</h3>
+              <p className="text-gray-600 text-sm">Standing seam and aluminum metal roofs built for Jacksonville&apos;s hurricane zone, with wind ratings to 140+ mph and a 40-70 year lifespan. A long-term upgrade for Duval County homes.</p>
+            </Link>
+            <Link href="/services/roof-gutter" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="font-bold text-secondary mb-2">Gutters</h3>
+              <p className="text-gray-600 text-sm">Seamless gutter installation, repair, and replacement to handle Jacksonville&apos;s 50+ inches of annual rain. We keep oak and pine debris from clogging your runoff and protect your fascia.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="font-bold text-secondary mb-2">Roof Waterproofing</h3>
+              <p className="text-gray-600 text-sm">Roof coatings, leak sealing, and flashing repair for flat and low-slope Jacksonville roofs. We stop water intrusion at valleys, penetrations, and parapet walls before it reaches your decking.</p>
+            </Link>
           </div>
         </div>
       </section>

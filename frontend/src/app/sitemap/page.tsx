@@ -25,6 +25,9 @@ const servicePages = [
   { title: "Commercial Roofing", href: "/services/commercial-roofing" },
   { title: "Siding Installation", href: "/services/siding-installation" },
   { title: "Siding Repair", href: "/services/siding-repair" },
+  { title: "Metal Roofing", href: "/services/metal-roofing" },
+  { title: "Gutter Installation, Repair & Replacement", href: "/services/roof-gutter" },
+  { title: "Roof Waterproofing", href: "/services/roof-waterproofing" },
   { title: "Roof Financing Florida", href: "/roof-financing-florida" },
 ]
 

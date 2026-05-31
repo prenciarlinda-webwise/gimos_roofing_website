@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: "Roofing & Siding Services Jacksonville FL",
-  description: "Call (904) 606-5313 for professional roofing & siding services in Jacksonville FL. Roof repair, replacement, installation & siding. Free estimates.",
+  description: "Call (904) 606-5313 for professional roofing & siding services in Jacksonville FL. Roof repair, replacement, installation & siding. Free estimates.",
   alternates: { canonical: "https://www.gimosroofing.com/services" },
 }
 
@@ -38,6 +38,24 @@ const roofingServices = [
     slug: "commercial-roofing",
     description: "Professional roofing solutions for businesses in Jacksonville. We minimize disruption while delivering quality commercial roofing services.",
     features: ["TPO & EPDM", "Metal Systems", "Minimal Downtime", "Maintenance Plans"],
+  },
+  {
+    title: "Metal Roofing",
+    slug: "metal-roofing",
+    description: "Standing seam and metal shingle roofing built for Florida. Wind resistance to 140+ mph, 40-70 year lifespan, and energy savings that lower cooling costs.",
+    features: ["Standing Seam", "40-70 Yr Lifespan", "Wind Mitigation", "Energy Efficient"],
+  },
+  {
+    title: "Gutters",
+    slug: "roof-gutter",
+    description: "Seamless gutter installation, repair, and replacement to protect your roof, fascia, and foundation from Jacksonville's heavy rain.",
+    features: ["Seamless Aluminum", "Repairs", "Replacement", "Gutter Guards"],
+  },
+  {
+    title: "Roof Waterproofing",
+    slug: "roof-waterproofing",
+    description: "Roof coatings and waterproofing that seal leaks, protect flat and low-slope roofs, and extend roof life across Northeast Florida.",
+    features: ["Roof Coatings", "Flat Roofs", "Leak Sealing", "Flashing"],
   }
 ]
 

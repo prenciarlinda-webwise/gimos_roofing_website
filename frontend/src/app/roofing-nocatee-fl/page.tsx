@@ -266,6 +266,18 @@ export default function NocateePage() {
               <h4 className="font-bold text-secondary mb-2">Builder Warranty Inspections</h4>
               <p className="text-gray-600 text-sm">Detailed roof inspections before your builder warranty expires. We document every issue with photos and reports to support warranty claims.</p>
             </div>
+            <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Metal Roofing</h4>
+              <p className="text-gray-600 text-sm">Standing seam metal rated to 140+ mph winds with a 40-70 year lifespan. A premium upgrade over builder-grade shingles for Twenty Mile and Crosswater homes.</p>
+            </Link>
+            <Link href="/services/roof-gutter" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Gutters</h4>
+              <p className="text-gray-600 text-sm">Seamless gutter installation, repair, and replacement for the many Nocatee homes the builder left without adequate drainage. Protects fascia and foundations from heavy summer rain.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
+              <p className="text-gray-600 text-sm">Roof coatings, flashing sealing, and membrane systems for flat and low-slope roof sections and lanai covers across Nocatee&apos;s planned communities.</p>
+            </Link>
           </div>
         </div>
       </section>

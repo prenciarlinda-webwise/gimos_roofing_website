@@ -238,14 +238,22 @@ export default function RiversidePage() {
               <h4 className="font-bold text-secondary mb-2">Architectural Shingles</h4>
               <p className="text-gray-600 text-sm">Premium shingles in wood shake, slate, and traditional profiles that complement Riverside&apos;s historic architectural character.</p>
             </div>
-            <div className="bg-white p-5 rounded-lg shadow-sm">
+            <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm">
               <h4 className="font-bold text-secondary mb-2">Metal Roofing</h4>
               <p className="text-gray-600 text-sm">Standing seam metal in traditional finishes for both historic homes and modern Riverside condos. 40-60 year lifespan.</p>
-            </div>
+            </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">
               <h4 className="font-bold text-secondary mb-2">Roof Inspections</h4>
               <p className="text-gray-600 text-sm">Thorough evaluations for pre-purchase buyers, historic home maintenance, and storm damage assessment. Free inspections available.</p>
             </div>
+            <Link href="/services/roof-gutter" className="bg-white p-5 rounded-lg shadow-sm">
+              <h4 className="font-bold text-secondary mb-2">Gutters</h4>
+              <p className="text-gray-600 text-sm">Seamless gutter installation, repair, and replacement sized for Riverside&apos;s heavy summer rain and the constant oak and pine debris that clogs older gutter runs.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm">
+              <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
+              <p className="text-gray-600 text-sm">Roof coatings, flashing sealing, and membrane systems for the flat and low-slope roof sections found on renovated bungalows and Riverside condos.</p>
+            </Link>
           </div>
         </div>
       </section>

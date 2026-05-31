@@ -249,6 +249,18 @@ export default function SanMarcoPage() {
               <h4 className="font-bold text-secondary mb-2">Roof Inspections</h4>
               <p className="text-gray-600 text-sm">Comprehensive tile roof evaluations for home buyers and maintenance planning. We assess tile condition, underlayment integrity, and flashing health.</p>
             </div>
+            <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Metal Roofing</h4>
+              <p className="text-gray-600 text-sm">Standing seam metal rated to 140+ mph winds with a 40-70 year lifespan, ideal for rear additions, carriage houses, and detached structures on San Marco properties.</p>
+            </Link>
+            <Link href="/services/roof-gutter" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Gutters</h4>
+              <p className="text-gray-600 text-sm">Seamless gutter installation, repair, and replacement that handle San Marco&apos;s heavy rain and the relentless oak and pine debris from the mature canopy along Hendricks and Naldo.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
+              <p className="text-gray-600 text-sm">Roof coatings, flashing sealing, and membrane systems for the hidden flat and low-slope sections behind the parapets on San Marco&apos;s Mediterranean homes.</p>
+            </Link>
           </div>
         </div>
       </section>

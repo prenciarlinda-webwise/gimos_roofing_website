@@ -245,6 +245,18 @@ export default function NeptuneBeachPage() {
               <h4 className="font-bold text-secondary mb-2">Roof Inspections</h4>
               <p className="text-gray-600 text-sm">Twice-yearly Neptune Beach property inspections. We check for salt corrosion, wind damage, and UV deterioration before they become costly problems.</p>
             </div>
+            <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Metal Roofing</h4>
+              <p className="text-gray-600 text-sm">Corrosion-resistant aluminum metal roofing rated for 140+ mph winds and a 40-70 year lifespan, the strongest defense against the salt air that shortens roof life east of 3rd Street.</p>
+            </Link>
+            <Link href="/services/roof-gutter" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Gutters</h4>
+              <p className="text-gray-600 text-sm">Seamless coastal-grade gutter installation, repair, and replacement that channel Neptune Beach&apos;s heavy storm rainfall safely away from your bungalow and its foundation.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
+              <p className="text-gray-600 text-sm">Protective roof coatings and flashing sealing that block wind-driven rain and salt-air moisture, including the low-slope flat sections on Beaches Town Center buildings.</p>
+            </Link>
           </div>
         </div>
       </section>

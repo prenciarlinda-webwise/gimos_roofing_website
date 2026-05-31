@@ -242,14 +242,22 @@ export default function PonteVedraBeachPage() {
               <h4 className="font-bold text-secondary mb-2">Tile &amp; Slate Roofing</h4>
               <p className="text-gray-600 text-sm">Concrete tile, clay tile, and natural slate installation and restoration for Ponte Vedra&apos;s Mediterranean and estate-style homes. 30-75 year lifespan.</p>
             </div>
-            <div className="bg-white p-5 rounded-lg shadow-sm">
+            <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="font-bold text-secondary mb-2">Standing Seam Metal</h4>
               <p className="text-gray-600 text-sm">Aluminum and zinc standing seam systems with superior salt resistance. Clean, modern aesthetic popular in Sawgrass Players Club and newer Ponte Vedra developments.</p>
-            </div>
+            </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">
               <h4 className="font-bold text-secondary mb-2">HOA Roof Inspections</h4>
               <p className="text-gray-600 text-sm">Comprehensive inspections with detailed reports for HOA compliance, insurance renewals, and real estate transactions. We document every component for your records.</p>
             </div>
+            <Link href="/services/roof-gutter" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Gutters</h4>
+              <p className="text-gray-600 text-sm">Seamless copper and aluminum gutter installation, repair, and replacement sized for the large rooflines in Marsh Landing and TPC Sawgrass. We clear live oak leaf debris and protect estate-home foundations.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
+              <p className="text-gray-600 text-sm">Roof coatings, leak sealing, and flashing repair for the flat sections, balconies, and tile valleys common on Ponte Vedra estates. We seal chimney and skylight penetrations against coastal salt air and wind-driven rain.</p>
+            </Link>
           </div>
         </div>
       </section>

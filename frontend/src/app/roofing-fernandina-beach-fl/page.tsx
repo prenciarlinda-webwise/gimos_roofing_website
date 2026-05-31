@@ -238,14 +238,22 @@ export default function FernandinaBeachPage() {
               <h4 className="font-bold text-secondary mb-2">Victorian Home Roofing</h4>
               <p className="text-gray-600 text-sm">Period-appropriate materials and techniques for Fernandina&apos;s historic district. Steep-pitch expertise and preservation-compliant installation.</p>
             </div>
-            <div className="bg-white p-5 rounded-lg shadow-sm">
+            <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm">
               <h4 className="font-bold text-secondary mb-2">Metal Roofing</h4>
               <p className="text-gray-600 text-sm">Aluminum standing seam for maximum salt resistance. 40-60 year lifespan, ideal for oceanfront and historic properties.</p>
-            </div>
+            </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">
               <h4 className="font-bold text-secondary mb-2">Roof Inspections</h4>
               <p className="text-gray-600 text-sm">Annual barrier island property inspections. We check for salt corrosion, wind damage, and UV deterioration before they become costly problems.</p>
             </div>
+            <Link href="/services/roof-gutter" className="bg-white p-5 rounded-lg shadow-sm">
+              <h4 className="font-bold text-secondary mb-2">Gutters</h4>
+              <p className="text-gray-600 text-sm">Seamless aluminum gutter installation, repair, and replacement built to move the heavy island rainfall and resist Amelia Island salt air corrosion.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm">
+              <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
+              <p className="text-gray-600 text-sm">Protective roof coatings, flashing sealing, and membrane systems for the flat and low-slope sections common on coastal Fernandina Beach properties.</p>
+            </Link>
           </div>
         </div>
       </section>

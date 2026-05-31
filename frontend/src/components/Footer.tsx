@@ -7,6 +7,9 @@ const roofingLinks = [
   { name: "Roof Replacement", href: "/services/roof-replacement", title: "Roof Replacement Jacksonville FL" },
   { name: "Roof Repair", href: "/services/roof-repair", title: "Roof Repair Jacksonville FL" },
   { name: "Commercial Roofing", href: "/services/commercial-roofing", title: "Commercial Roofing Jacksonville FL" },
+  { name: "Metal Roofing", href: "/services/metal-roofing", title: "Metal Roofing Jacksonville FL" },
+  { name: "Gutters", href: "/services/roof-gutter", title: "Gutter Installation & Repair Jacksonville FL" },
+  { name: "Roof Waterproofing", href: "/services/roof-waterproofing", title: "Roof Waterproofing Jacksonville FL" },
 ]
 
 const sidingLinks = [

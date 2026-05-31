@@ -254,14 +254,22 @@ export default function SouthsideJaxPage() {
               <h4 className="font-bold text-secondary mb-2">Emergency Storm Repair</h4>
               <p className="text-gray-600 text-sm">24/7 emergency response for hurricane and storm damage. Tarping, leak containment, and insurance claim assistance.</p>
             </Link>
-            <div className="bg-white p-5 rounded-lg shadow-sm">
+            <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="font-bold text-secondary mb-2">Metal Roofing</h4>
               <p className="text-gray-600 text-sm">Standing seam and corrugated metal for residential and commercial. 40-60 year lifespan with superior wind resistance.</p>
-            </div>
+            </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">
               <h4 className="font-bold text-secondary mb-2">Roof Inspections</h4>
               <p className="text-gray-600 text-sm">Free inspections for homes and commercial properties. Detailed reports with photos and repair recommendations.</p>
             </div>
+            <Link href="/services/roof-gutter" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Gutters</h4>
+              <p className="text-gray-600 text-sm">Seamless gutter installation, repair, and replacement for Southside homes and high-traffic commercial properties where clogged drainage backs water onto flat and low-slope roofs.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
+              <p className="text-gray-600 text-sm">Reflective roof coatings and flashing sealing for the flat and low-slope TPO and modified bitumen roofs common on Gate Parkway and Town Center commercial buildings.</p>
+            </Link>
           </div>
         </div>
       </section>

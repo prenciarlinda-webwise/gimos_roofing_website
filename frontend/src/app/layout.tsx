@@ -112,7 +112,10 @@ const structuredData = {
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing", "url": "https://www.gimosroofing.com/services/commercial-roofing" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "New Construction Roofing", "url": "https://www.gimosroofing.com/services/new-construction-roofing" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siding Installation", "url": "https://www.gimosroofing.com/services/siding-installation" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siding Repair", "url": "https://www.gimosroofing.com/services/siding-repair" } }
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siding Repair", "url": "https://www.gimosroofing.com/services/siding-repair" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Metal Roofing", "url": "https://www.gimosroofing.com/services/metal-roofing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Installation, Repair and Replacement", "url": "https://www.gimosroofing.com/services/roof-gutter" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Waterproofing", "url": "https://www.gimosroofing.com/services/roof-waterproofing" } }
     ]
   },
   "aggregateRating": {

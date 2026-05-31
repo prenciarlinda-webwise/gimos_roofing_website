@@ -239,14 +239,22 @@ export default function MandarinPage() {
               <h4 className="font-bold text-secondary mb-2">Architectural Shingles</h4>
               <p className="text-gray-600 text-sm">Premium algae-resistant shingles designed to perform under heavy canopy. 25-30 year lifespan with manufacturer warranty.</p>
             </div>
-            <div className="bg-white p-5 rounded-lg shadow-sm">
+            <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="font-bold text-secondary mb-2">Metal Roofing</h4>
               <p className="text-gray-600 text-sm">Standing seam and metal shingle options. Superior impact resistance against falling branches, 40-60 year lifespan.</p>
-            </div>
+            </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">
               <h4 className="font-bold text-secondary mb-2">Roof Inspections</h4>
               <p className="text-gray-600 text-sm">Free comprehensive inspections for aging roofs. We assess ventilation, shingle condition, and canopy-related damage.</p>
             </div>
+            <Link href="/services/roof-gutter" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Gutters</h4>
+              <p className="text-gray-600 text-sm">Seamless gutter installation, repair, and replacement sized for Mandarin&apos;s heavy summer rains and the constant leaf and acorn debris dropping from the oak canopy.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
+              <p className="text-gray-600 text-sm">Protective roof coatings and flashing sealing that keep moisture out where Mandarin&apos;s shaded, humid roof slopes stay wet long after the rain stops.</p>
+            </Link>
           </div>
         </div>
       </section>

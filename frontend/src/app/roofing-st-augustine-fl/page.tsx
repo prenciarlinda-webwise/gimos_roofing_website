@@ -249,6 +249,18 @@ export default function StAugustinePage() {
               <h4 className="font-bold text-secondary mb-2">Roof Inspections</h4>
               <p className="text-gray-600 text-sm">Pre-purchase, annual maintenance, and post-storm inspections. Detailed reports for insurance, real estate transactions, and historic preservation compliance.</p>
             </div>
+            <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Metal Roofing</h4>
+              <p className="text-gray-600 text-sm">Aluminum 5V crimp and standing seam metal roofs that shrug off Anastasia Island and Vilano Beach salt air. Rated past 140 mph with a 40-70 year lifespan, and HARB-friendly for many historic downtown homes.</p>
+            </Link>
+            <Link href="/services/roof-gutter" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Gutters</h4>
+              <p className="text-gray-600 text-sm">Seamless aluminum gutter installation, repair, and replacement for St. Augustine homes facing nor&apos;easter downpours and live oak debris. We channel water away from coquina walls and aging downtown foundations.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
+              <p className="text-gray-600 text-sm">Roof coatings and leak sealing for the flat and low-slope roofs on downtown commercial buildings and historic additions. We seal flashing and tile valleys against the wind-driven rain that nor&apos;easters push under ridge caps.</p>
+            </Link>
           </div>
         </div>
       </section>

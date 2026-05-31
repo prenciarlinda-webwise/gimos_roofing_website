@@ -275,10 +275,10 @@ export default function JacksonvilleBeachPage() {
               <h3 className="font-bold text-secondary mb-2">Coastal Roof Repair</h3>
               <p className="text-gray-600 text-sm">Fix salt-corroded flashing, wind-lifted shingles, leaks, and UV damage with materials built for beach conditions.</p>
             </Link>
-            <div className="card p-5">
+            <Link href="/services/metal-roofing" className="card p-5">
               <h3 className="font-bold text-secondary mb-2">Metal Roofing</h3>
               <p className="text-gray-600 text-sm">Aluminum standing seam for maximum salt resistance. 40-60 year lifespan, ideal for oceanfront properties.</p>
-            </div>
+            </Link>
             <div className="card p-5">
               <h3 className="font-bold text-secondary mb-2">Tile Roofing</h3>
               <p className="text-gray-600 text-sm">Concrete and clay tile for classic Florida coastal style. Superior wind and UV resistance, 30-50+ year lifespan.</p>
@@ -287,6 +287,14 @@ export default function JacksonvilleBeachPage() {
               <h3 className="font-bold text-secondary mb-2">Roof Inspections</h3>
               <p className="text-gray-600 text-sm">Annual coastal property inspections. We check for salt corrosion, wind damage, and UV deterioration before they become costly problems.</p>
             </div>
+            <Link href="/services/roof-gutter" className="card p-5">
+              <h3 className="font-bold text-secondary mb-2">Gutters</h3>
+              <p className="text-gray-600 text-sm">Seamless aluminum gutter installation, repair, and replacement engineered for Jax Beach storms. We clear sand and salt buildup and route heavy rain away from your foundation.</p>
+            </Link>
+            <Link href="/services/roof-waterproofing" className="card p-5">
+              <h3 className="font-bold text-secondary mb-2">Roof Waterproofing</h3>
+              <p className="text-gray-600 text-sm">Roof coatings and leak sealing for flat and low-slope beach homes. We seal flashing and penetrations against wind-driven coastal rain so salt-laden moisture never reaches the deck.</p>
+            </Link>
           </div>
         </div>
       </section>
