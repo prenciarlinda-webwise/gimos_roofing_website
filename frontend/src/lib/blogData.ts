@@ -2112,7 +2112,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Free Leak Inspections in Jacksonville</h2>
 
-<p class="text-gray-600 mb-6">Ceiling stains rarely fix themselves. At Gimo's Roofing, we provide free roof inspections and <a href="/services/roof-repair" class="text-primary hover:underline">professional roof repair in Jacksonville</a>. We'll find the source of your leak, explain your options, and give you an honest assessment of whether you need a simple repair or more extensive work.</p>
+<p class="text-gray-600 mb-6">Ceiling stains rarely fix themselves. At Gimo's Roofing, we provide free roof inspections and <a href="/services/roof-repair" class="text-primary hover:underline">professional roof repair in Jacksonville</a>. We'll find the source of your leak, explain your options, and give you an honest assessment of whether you need a simple repair or more extensive work. For roofs with recurring stains or chronic moisture, we also offer <a href="/services/roof-waterproofing" class="text-primary hover:underline">roof waterproofing</a> to seal vulnerable areas and stop leaks before they return.</p>
 
 
 
