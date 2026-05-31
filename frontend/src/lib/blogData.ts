@@ -109,41 +109,41 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="pros" class="text-2xl font-bold text-secondary mt-10 mb-4">Pros of a Gambrel Roof</h2>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Maximum interior headroom for the roofline</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Maximum Interior Headroom for the Roofline</h3>
 
 <p class="text-gray-600 mb-6">The steep lower slope creates nearly full-ceiling-height space in the upper floor or attic. For barns, this means more storage. For homes, it means a livable second floor without dormers and without raising the overall roof peak. Square footage under a gambrel is often 25-40% greater than under a same-footprint gable.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Distinctive classic look</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Distinctive Classic Look</h3>
 
 <p class="text-gray-600 mb-6">Gambrels are immediately recognizable and historically loaded. For Dutch Colonial restorations, modern barndominiums, and "farmhouse-style" new builds, the silhouette is a feature, not a compromise. It's also one of the few traditional roof forms that reads as both rural and architecturally sophisticated.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Material-efficient framing</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Material-Efficient Framing</h3>
 
 <p class="text-gray-600 mb-6">A gambrel encloses more interior volume per board-foot of framing lumber than most alternatives. This made it economically attractive for early American builders working with limited materials, and the math still works on modern barndominium builds.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Easier to retrofit attic space later</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Easier to Retrofit Attic Space Later</h3>
 
 <p class="text-gray-600 mb-6">If you eventually want to convert attic to living space, a gambrel makes the conversion much simpler than a gable, the steep walls give you usable height almost to the perimeter, and structural reinforcement is less invasive.</p>
 
 <h2 id="cons" class="text-2xl font-bold text-secondary mt-10 mb-4">Cons of a Gambrel Roof</h2>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Wind vulnerability</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Wind Vulnerability</h3>
 
 <p class="text-gray-600 mb-6">The gambrel's steep lower slope catches significant wind uplift in high-wind events. The breakpoint between the two pitches is also a structural weak point under sustained loading. In hurricane-prone regions, hip roofs significantly outperform gambrels, which is why Florida Building Code rewards hip and penalizes gambrel.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">More complex flashing</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">More Complex Flashing</h3>
 
 <p class="text-gray-600 mb-6">The knuckle (where the two pitches meet) requires custom flashing details to prevent leaks. Done well, it's bulletproof; done poorly, it's the most common leak location on the entire roof. This drives up labor cost and demands a roofer with gambrel-specific experience.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Harder to insulate well</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Harder to Insulate Well</h3>
 
 <p class="text-gray-600 mb-6">Because the upper floor is bounded directly by sloped ceilings rather than a flat attic, insulation has to go in the rafter bays rather than on an attic floor. This is more expensive and offers fewer R-value options. Modern spray foam helps, but the cost is higher than insulating a conventional gable.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Snow load concerns in cold climates</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Snow Load Concerns in Cold Climates</h3>
 
 <p class="text-gray-600 mb-6">The shallow upper pitch can accumulate significant snow load in heavy-snow regions, requiring engineering for snow weight that a steeper roof wouldn't need. Not a Florida problem, but worth knowing for buyers considering gambrels in northern climates.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Resale ceiling in non-Dutch-Colonial neighborhoods</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Resale Ceiling in Non-Dutch-Colonial Neighborhoods</h3>
 
 <p class="text-gray-600 mb-6">Outside of regions where gambrels are traditional, the style can read as "out of place" to buyers. A gambrel home in a sea of ranch or contemporary homes may take longer to sell or comp at a discount.</p>
 
@@ -212,19 +212,19 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">Gambrels show up in three main applications, each with different design considerations:</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Dutch Colonial homes</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Dutch Colonial Homes</h3>
 
 <p class="text-gray-600 mb-6">The most architecturally formal gambrel. Two-story symmetric facades with a steep lower roof slope flaring at the eaves, central doors, dormers piercing the upper slope. Common in the Northeast, parts of the Midwest, and in some Florida historic neighborhoods (rarely). New-construction Dutch Colonials are uncommon today.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Barns and outbuildings</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Barns and Outbuildings</h3>
 
 <p class="text-gray-600 mb-6">The classic American red barn silhouette. Steeper lower slopes maximize hay storage; the form has been used on farm structures from the 1700s to today. Modern pole barns and equestrian barns frequently use gambrel for the same volumetric reason. In Florida, gambrel pole barns are still found on rural St. Johns, Clay, and Duval county properties.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Storage sheds</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Storage Sheds</h3>
 
 <p class="text-gray-600 mb-6">The most common modern gambrel application by far. Backyard 10x12 and 12x16 storage sheds with gambrel roofs offer 25-40% more interior storage than gable sheds of the same footprint, and the silhouette reads as "intentional" rather than utilitarian. Both prefab and DIY plans are widely available.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Modern barndominiums</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Modern Barndominiums</h3>
 
 <p class="text-gray-600 mb-6">A rapidly growing market segment: a residential interior built inside a barn-style metal exterior, often using a gambrel or modified gambrel profile. Barndominiums are surging in popularity in rural Northeast Florida (especially Clay, Nassau, and Putnam counties) for buyers wanting acreage living without the cost of conventional new construction.</p>
 
@@ -232,19 +232,19 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">If you've spent any time in Florida and asked yourself why you almost never see gambrel roofs, the answer is three-part:</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Hurricane performance</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Hurricane Performance</h3>
 
 <p class="text-gray-600 mb-6">Gambrel's two-pitch profile creates significant wind uplift on the steep lower slope and a structural flex point at the knuckle. Florida Building Code (FBC) gives wind-mitigation credit to hip roofs precisely because they shed wind loads better than gabled or gambreled forms. Building a gambrel to FBC standards in a 140 mph wind zone requires extra hurricane straps, sealed-deck membrane, reinforced trusses, and engineering review, which adds cost without unlocking insurance discounts.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Architectural heritage</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Architectural Heritage</h3>
 
 <p class="text-gray-600 mb-6">Florida's traditional architectural styles, Spanish/Mediterranean Revival, Florida Cracker, Old Florida vernacular, Mid-Century Modern, developed without Dutch Colonial influence. There's no regional tradition pulling builders, designers, or buyers toward gambrel. Even Florida's "farmhouse style" new construction trends toward gable forms with farm-style finishes, not actual barn-style rooflines.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Insurance and resale economics</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Insurance and Resale Economics</h3>
 
 <p class="text-gray-600 mb-6">Florida insurers price gambrel coverage higher (or refuse it) because of the elevated wind risk. And in resale, gambrel homes are harder to comp in neighborhoods where the form is uncommon. Both factors discourage builders and buyers from choosing the style.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Where you might still see gambrel in Northeast Florida</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Where You Might Still See Gambrel in Northeast Florida</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Rural barns and outbuildings on agricultural properties in Clay, Nassau, Putnam, and outer St. Johns counties</li>
@@ -341,55 +341,55 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="inspection-types" class="text-2xl font-bold text-secondary mt-10 mb-4">The 13 Types of Home Inspections, Ranked by Priority</h2>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">General home inspection (always required)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">General Home Inspection (always Required)</h3>
 
 <p class="text-gray-600 mb-6">The catch-all visual inspection covering structure, roof (visually), electrical, plumbing, HVAC, insulation, drainage, exterior, and major appliances. A licensed inspector spends 2-4 hours and produces a 30-80 page report. Costs $300-$500 depending on home size. This is the foundation of every other negotiation, do not skip it under any market conditions.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Wood-destroying organism (WDO) / termite inspection</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Wood-Destroying Organism (WDO) / Termite Inspection</h3>
 
 <p class="text-gray-600 mb-6">Most Florida lenders require a WDO inspection (sometimes called a "termite letter" or "clear pest report") before closing. $75-$150. Catches active termite infestations, prior damage, and wood rot. Almost always paid by the buyer in Florida, occasionally negotiated to the seller.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Four-point inspection (Florida homes 30+ years)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Four-Point Inspection (Florida Homes 30+ Years)</h3>
 
 <p class="text-gray-600 mb-6">Required by most Florida insurers for homes 30+ years old (and many homes 20-30 years old). Covers roof, electrical, plumbing, and HVAC, the four "points." $75-$150. A failing roof on a four-point is what kills the most deals in Jacksonville, see <a href="/blog/will-insurance-cover-20-year-old-roof" class="text-primary hover:underline">whether insurance will cover an aging roof</a> for the underwriting details.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Wind mitigation inspection</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Wind Mitigation Inspection</h3>
 
 <p class="text-gray-600 mb-6">Not technically a buyer requirement, but you absolutely want one. The wind mitigation report documents hurricane-resistant features (roof shape, attachment, sealed deck, hurricane straps, opening protection) that qualify the home for insurance discounts up to 70%+. $75-$150. The savings often pay for the inspection in the first month.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Dedicated roof inspection</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Dedicated Roof Inspection</h3>
 
 <p class="text-gray-600 mb-6">When the general inspector raises any roof concern, or when the roof is 12+ years old, pay $200-$400 for a roofer to do a proper roof-only inspection. Generalists look at roofs from the ground or eaves; a roofer walks the roof, opens flashing, checks underlayment, and produces material-specific recommendations. We cover what's actually checked below. For the full process, see our <a href="/blog/roof-inspection-what-to-expect-florida" class="text-primary hover:underline">roof inspection guide</a>.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Sewer scope inspection</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Sewer Scope Inspection</h3>
 
 <p class="text-gray-600 mb-6">A camera inspection of the main sewer line from the home to the city tap. Critical for homes built before 1990, especially with mature trees in the yard (root intrusion is the #1 sewer failure cause). $150-$300. A collapsed sewer line is a $5,000-$15,000 repair, well worth the upfront inspection.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">HVAC inspection</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">HVAC Inspection</h3>
 
 <p class="text-gray-600 mb-6">If the system is 10+ years old, get a dedicated HVAC technician to inspect (not just the generalist). $100-$250. Average HVAC replacement is $7,000-$15,000, knowing the realistic remaining life lets you negotiate either price or a home warranty.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Mold / air-quality inspection</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Mold / Air-Quality Inspection</h3>
 
 <p class="text-gray-600 mb-6">If the general inspection or your nose flags moisture, get a separate mold inspection. $300-$800. Florida humidity makes this more relevant than in drier states. Mold remediation can run $2,000-$15,000+ depending on scope.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Radon test</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Radon Test</h3>
 
 <p class="text-gray-600 mb-6">Standard in many states; less critical in coastal Florida (radon levels are typically low here). $100-$200. Run a 48-hour test if you're concerned, or skip in Jacksonville's coastal zone unless the home has a finished basement (rare in FL).</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Lead-based paint (homes pre-1978)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Lead-Based Paint (homes Pre-1978)</h3>
 
 <p class="text-gray-600 mb-6">Federally disclosed for homes built before 1978. If you're worried about young children or pregnancy, pay $300-$500 for a certified XRF test. Most pre-1978 Jacksonville homes have been repainted multiple times, but underlying layers may still be lead-based.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Pool / spa inspection</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Pool / Spa Inspection</h3>
 
 <p class="text-gray-600 mb-6">If the property has a pool, get a dedicated pool inspector. $150-$300. A failing pool pump, heater, or liner is a $3,000-$10,000 surprise. The general inspector may note "pool present" but won't dive into the equipment.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Foundation / structural engineer</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Foundation / Structural Engineer</h3>
 
 <p class="text-gray-600 mb-6">Only if the general inspector flags cracks beyond hairline cosmetic, doors that don't latch, or visible settling. $300-$600 for a structural engineer to evaluate. Don't skip this if there's any structural concern, foundation repairs are the biggest financial surprises in homeownership.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Septic inspection (rural / non-city-sewer homes)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Septic Inspection (rural / Non-City-Sewer Homes)</h3>
 
 <p class="text-gray-600 mb-6">If the home isn't on city sewer (common in rural St. Johns and Clay County properties), get a dedicated septic inspection. $300-$500. Tank replacement is $5,000-$10,000; drain field replacement is $7,000-$20,000+.</p>
 
@@ -436,15 +436,15 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">Florida has rules and habits that change the inspection landscape compared to most states. Three you need to plan for:</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Four-point inspection failures cluster on the roof</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Four-Point Inspection Failures Cluster on the Roof</h3>
 
 <p class="text-gray-600 mb-6">Of the four points (roof, electrical, plumbing, HVAC), the roof is by far the most common failure cause in Jacksonville. If the home is 25+ years old, assume the four-point will find roof issues and budget for that conversation in advance.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Wind mitigation is money in your pocket</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Wind Mitigation Is Money in Your Pocket</h3>
 
 <p class="text-gray-600 mb-6">A wind mitigation inspection isn't required by anyone, but the discounts it unlocks on insurance can save $300-$1,200+ per year. Always order one. If the home has hurricane straps, a sealed roof deck, and impact windows, you'll see immediate insurance savings.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Citizens' "old roof" coverage gap</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Citizens' "old Roof" Coverage Gap</h3>
 
 <p class="text-gray-600 mb-6">Citizens Property Insurance, Florida's insurer of last resort, will refuse or drop coverage on roofs older than 15-20 years. Private insurers are even stricter. If the home you're buying has a roof in that age range and no replacement scheduled, expect insurance friction at closing.</p>
 
@@ -582,31 +582,31 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="ranked-list" class="text-2xl font-bold text-secondary mt-10 mb-4">The 7 Best Ways to Increase Your Home Value, Ranked</h2>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Garage door replacement (~95% ROI)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Garage Door Replacement (~95% ROI)</h3>
 
 <p class="text-gray-600 mb-6">Year after year, garage door replacement tops the Cost vs Value report. A new insulated steel door costs $1,500-$4,000 installed and recoups nearly the full amount at sale. It's high-impact curb appeal at low cost, the single best ROI move on the list. If your current door is dented, faded, or pre-2010 with no insulation, this is the easiest upgrade to commit to.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Manufactured stone veneer at the entry (~95% ROI)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Manufactured Stone Veneer at the Entry (~95% ROI)</h3>
 
 <p class="text-gray-600 mb-6">Adding a stone veneer to the front entry, columns, or lower facade typically costs $5,000-$11,000 and recoups close to full value. It works because it transforms the listing photo, which is where 95% of buyers form their first impression. Best for homes built 1985-2010 with plain stucco or vinyl facades that look dated.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Minor kitchen remodel (~70-85% ROI)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Minor Kitchen Remodel (~70-85% ROI)</h3>
 
 <p class="text-gray-600 mb-6">A "minor" remodel keeps the existing footprint and cabinet boxes but replaces fronts, hardware, countertops, appliances, paint, and lighting. Budget $25,000-$45,000 for a Jacksonville home. A full gut renovation costs 2-3x more but doesn't recoup proportionally, so the minor remodel is the sweet spot for resale. Avoid trendy choices that will date quickly.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Roof replacement (~60-68% ROI, but with major caveats)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Roof Replacement (~60-68% ROI, but with Major Caveats)</h3>
 
 <p class="text-gray-600 mb-6">A new asphalt shingle roof recoups about 60-68% of its cost in raw resale terms, $8,000-$15,000 on a $14,000-$22,000 Jacksonville job. That's middle-of-the-pack on this list. But the roof is the only item here that affects whether the deal closes at all (more on this below). In Florida, an old or worn roof can kill financing, void insurance, and trigger a four-point inspection failure that sends buyers running.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Vinyl window replacement (~65-75% ROI)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Vinyl Window Replacement (~65-75% ROI)</h3>
 
 <p class="text-gray-600 mb-6">Replacing single-pane or aluminum-frame windows with energy-efficient vinyl runs $8,000-$22,000 for a typical Jacksonville home. ROI is solid because buyers value the energy savings and you get bonus impact-rated credit in hurricane-zone insurance underwriting. If your windows are pre-1995 single-pane, this is a strong play.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Minor bath remodel (~60-70% ROI)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Minor Bath Remodel (~60-70% ROI)</h3>
 
 <p class="text-gray-600 mb-6">Same logic as the kitchen, keep the layout, replace the surfaces. New vanity, toilet, fixtures, tile floor, paint, and lighting for $8,000-$18,000. Don't move plumbing unless absolutely necessary, that's where minor remodels become major and the ROI math falls apart.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Exterior paint and landscaping (~70%+ ROI at low cost)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Exterior Paint and Landscaping (~70%+ ROI at Low Cost)</h3>
 
 <p class="text-gray-600 mb-6">A $4,000-$8,000 exterior paint job plus $1,500-$3,500 in fresh landscaping (sod, mulch, two or three accent plantings) routinely returns more than the investment because they fix the listing-photo problem at low absolute cost. Always coordinate paint with roof color, you'd be surprised how many homeowners paint a body color that fights with their shingles.</p>
 
@@ -626,7 +626,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">A new roof typically increases home value by $8,000-$15,000 on a typical Jacksonville home, recouping about 60-68% of the installation cost at resale according to the most recent Cost vs Value report. That's the raw ROI. The total picture is bigger when you factor in faster sale times, fewer price negotiations, and the ability to actually close.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Dollar examples by home size</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Dollar Examples by Home Size</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>1,500 sq ft home:</strong> Roof costs $10,000-$15,000; value added $6,000-$10,000</li>
@@ -636,7 +636,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">For more granular cost data by material, pitch, and removal complexity, see our <a href="/blog/roof-replacement-cost-guide-jacksonville" class="text-primary hover:underline">2026 Jacksonville roof replacement cost guide</a>.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">The hidden ROI beyond the recoup percentage</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">The Hidden ROI Beyond the Recoup Percentage</h3>
 
 <p class="text-gray-600 mb-4">The raw 60-68% number understates the actual benefit. A new roof also:</p>
 
@@ -647,7 +647,7 @@ export const blogPosts: BlogPost[] = [
 <li>Adds wind-mitigation credits that pass to the buyer (~$300-$1,200/yr savings, a tangible buyer benefit)</li>
 </ul>
 
-<h2 id="25-percent-rule" class="text-2xl font-bold text-secondary mt-10 mb-4">The 25% Rule in Roofing, And What Florida Changed in 2022</h2>
+<h2 id="25-percent-rule" class="text-2xl font-bold text-secondary mt-10 mb-4">The 25% Rule in Roofing, and What Florida Changed in 2022</h2>
 
 <p class="text-gray-600 mb-4">For decades, Florida's Building Code included a "25% rule": if more than 25% of a roof needed repair, the entire roof had to be brought up to current code, which usually meant full replacement. This drove a lot of pre-sale replacements that wouldn't have happened otherwise.</p>
 
@@ -711,19 +711,19 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">Florida has rules and habits that change the home-value math compared to the rest of the country. Three big ones:</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Insurance companies drop old roofs</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Insurance Companies Drop Old Roofs</h3>
 
 <p class="text-gray-600 mb-6">Citizens Property Insurance, Florida's insurer of last resort, will drop coverage on roofs older than 15-20 years depending on condition. Private insurers are even stricter. This means if your roof hits a certain age while your home is on the market, the buyer's lender may refuse to finance. See <a href="/blog/florida-roof-insurance-old-roof-dropped" class="text-primary hover:underline">why Florida insurers drop old roofs</a> for the full mechanics.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Four-point inspection at sale</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Four-Point Inspection at Sale</h3>
 
 <p class="text-gray-600 mb-6">For homes older than 30 years (and increasingly younger), Florida buyers and lenders require a four-point inspection covering roof, electrical, plumbing, and HVAC. A failed roof rating sinks the financing. There's a related question of whether <a href="/blog/will-insurance-cover-20-year-old-roof" class="text-primary hover:underline">insurance will cover a 20-year-old roof</a> for the new owner, which buyers' agents now ask up front.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Wind-mitigation credits are a real selling point</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Wind-Mitigation Credits Are a Real Selling Point</h3>
 
 <p class="text-gray-600 mb-6">A new roof installed to current Florida Building Code, with hurricane straps, sealed roof deck, and proper attachment, qualifies for wind-mitigation credits that lower the next owner's annual insurance bill by $300-$1,200+. Smart agents now feature this in listings, "Wind-mitigation report available, qualifies for maximum credits." It's a measurable financial benefit that justifies a higher asking price.</p>
 
-<h2 id="financing" class="text-2xl font-bold text-secondary mt-10 mb-4">The Cost-vs-Value Math When You Can't Pay Cash</h2>
+<h2 id="financing" class="text-2xl font-bold text-secondary mt-10 mb-4">The Cost-Vs-Value Math When You Can't Pay Cash</h2>
 
 <p class="text-gray-600 mb-4">Most pre-sale roof replacements aren't paid in cash, the seller finances the work and rolls the cost into closing proceeds. The math is usually favorable as long as you understand it.</p>
 
@@ -902,7 +902,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>No written contract:</strong> Florida law requires written contracts for home improvement work over $2,500</li>
 </ul>
 
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">What Happens If You Hire an Unlicensed Contractor?</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">What Happens if You Hire an Unlicensed Contractor?</h2>
 
 <p class="text-gray-600 mb-4">The consequences can be severe:</p>
 
@@ -1019,7 +1019,7 @@ export const blogPosts: BlogPost[] = [
 <a href="/contact" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Schedule Free Inspection</a>
 </div>
 </div>
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">What Does a New Roof Cost Per Month?</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">What Does a New Roof Cost per Month?</h2>
 
 <p class="text-gray-600 mb-6">The monthly payment depends on your loan amount, term length, and interest rate. Here are real examples based on common Jacksonville roof replacement costs:</p>
 
@@ -1131,7 +1131,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 <p class="text-gray-600 mb-6">Want to make sure you're working with a legitimate contractor? Learn <a href="/blog/how-to-check-florida-roofing-license" class="text-primary hover:underline">how to verify a Florida roofing license</a> before signing anything.</p>
 
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">What Our Customers Say About Working With Us</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">What Our Customers Say About Working with Us</h2>
 
 <div class="bg-gray-50 rounded-lg p-6 mb-6">
 <div class="flex items-center gap-1 mb-3">
@@ -1217,7 +1217,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6"><strong>What's concerning:</strong> "We work with several different crews depending on availability." This often means inconsistent quality.</p>
 
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Question 4: "What Happens If It Rains During the Job?"</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Question 4: "What Happens if It Rains During the Job?"</h2>
 
 <p class="text-gray-600 mb-6">This is Florida. Afternoon thunderstorms are a daily occurrence from June through September. A professional contractor has a plan for this.</p>
 
@@ -1356,7 +1356,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 <p class="text-gray-600 mb-6">Before you call anyone, make sure you know <a href="/blog/how-to-check-florida-roofing-license" class="text-primary hover:underline">how to verify their Florida roofing license</a>.</p>
 
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Real Reviews From Jacksonville Homeowners</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Real Reviews from Jacksonville Homeowners</h2>
 
 <div class="bg-gray-50 rounded-lg p-6 mb-6">
 <div class="flex items-center gap-1 mb-3">
@@ -2049,7 +2049,7 @@ export const blogPosts: BlogPost[] = [
 <p class="text-red-600">If your ceiling stain feels wet or soft to the touch, is actively growing, or you notice dripping during rain, you have an active leak that needs immediate attention. Call a roofing professional right away to prevent structural damage.</p>
 </div>
 
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">How to Tell If It's Your Roof</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">How to Tell if It's Your Roof</h2>
 
 <p class="text-gray-600 mb-4">Ask yourself these questions:</p>
 
@@ -2071,7 +2071,7 @@ export const blogPosts: BlogPost[] = [
 <a href="/contact" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Schedule Free Inspection</a>
 </div>
 </div>
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Why Ceiling Stains Get Worse Over Time</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Why Ceiling Stains Get Worse over Time</h2>
 
 <p class="text-gray-600 mb-6">That small yellow spot isn't just ugly,it's a warning sign of ongoing damage. Here's what happens when roof leaks go unaddressed:</p>
 
@@ -2098,7 +2098,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Missing or damaged shingles:</strong> Storm damage or age-related wear</li>
 </ul>
 
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">What to Do If You Find a Ceiling Stain</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">What to Do if You Find a Ceiling Stain</h2>
 
 <p class="text-gray-600 mb-4">Follow these steps:</p>
 
@@ -2319,11 +2319,11 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">The good news is that properly installed hurricane straps resist these uplift forces effectively. Modern double-wrap straps can handle wind speeds well above 130 mph, providing protection against even major hurricanes. And for homes that lack proper straps, retrofitting is possible and often pays for itself through <a href="/blog/will-insurance-cover-20-year-old-roof" class="text-primary hover:underline">insurance savings</a> within the first year.</p>
 
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Types of Hurricane Roof Connections - From Weakest to Strongest</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Types of Hurricane Roof Connections - from Weakest to Strongest</h2>
 
 <p class="text-gray-600 mb-6">Not all roof-to-wall connections provide the same level of protection. Understanding the four main types helps you evaluate your own home and understand what your <a href="/blog/roof-inspection-what-to-expect-florida" class="text-primary hover:underline">wind mitigation inspector</a> is looking for.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Toe-Nailing - The Weakest Connection</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Toe-Nailing - the Weakest Connection</h3>
 
 <p class="text-gray-600 mb-6">Toe-nailing means the roof rafter or truss is simply nailed at an angle into the top plate of the wall. There is no metal connector at all, just angled nails driven through the wood. This was standard practice in Florida home construction before modern building codes, and it is still found in many homes built before the mid-1990s. Toe-nailed connections can begin failing at wind speeds as low as 70 mph, which is barely a Category 1 hurricane. Strong tropical storms regularly exceed this threshold. If your attic inspection reveals only toe-nailed connections (no metal visible at the roof-to-wall junction), your home is significantly vulnerable and upgrading should be a priority.</p>
 
@@ -2366,7 +2366,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6"><strong>What you are looking for:</strong> No visible metal at all means toe-nailing (weakest, upgrade urgently recommended). A small metal piece on one side means clips (better, but consider upgrading for insurance savings). Metal wrapping over the top means single-wrap straps (good protection). Metal wrapping completely around means double-wrap straps (best protection, maximum insurance credits).</p>
 
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Hurricane Straps and Florida Insurance - The Money Factor</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Hurricane Straps and Florida Insurance - the Money Factor</h2>
 
 <p class="text-gray-600 mb-6">This is where hurricane straps become a financial decision, not just a safety one. Florida law requires insurance companies to offer premium discounts for homes with documented wind mitigation features. The roof-to-wall connection type is one of the biggest factors in determining your discount, and the difference between toe-nailing and double-wrap straps can be worth $500-$2,000+ per year in premium savings.</p>
 
@@ -2534,7 +2534,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Sheathing does not last forever, and Florida's climate creates conditions that accelerate its deterioration. Understanding why sheathing fails helps you take preventive measures and understand why your roofer recommends replacement during a reroof project.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Water Infiltration - The Primary Killer</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Water Infiltration - the Primary Killer</h3>
 
 <p class="text-gray-600 mb-6">Water is the number one enemy of roof sheathing. When <a href="/blog/roof-leaks-in-heavy-rain-causes-fixes" class="text-primary hover:underline">roof leaks</a> go unaddressed, even small ones, water saturates the wood over time. The fibers swell, the structural bonds weaken, and rot sets in. OSB is particularly vulnerable because once its edge bonds break down from moisture, the entire sheet loses rigidity. Plywood handles intermittent wetting better but will still rot from sustained exposure. The insidious part is that sheathing damage from slow leaks happens invisibly beneath your shingles. By the time you see <a href="/blog/yellow-spots-ceiling-causes" class="text-primary hover:underline">water stains on your ceiling</a> or notice a <a href="/blog/sagging-roof-causes-solutions" class="text-primary hover:underline">sagging area</a> on your roof surface, the sheathing in that area has likely been compromised for months or years.</p>
 
@@ -2563,7 +2563,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Some sheathing problems are visible from outside or from the attic. Others remain hidden until the old roof covering is removed during a replacement project. Here is what to watch for.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Signs Visible From Outside</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Signs Visible from Outside</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-3">
 <li><strong>Wavy or uneven roof surface:</strong> If your roof has dips, ripples, or unevenness visible from the ground, the sheathing beneath those areas has likely softened or delaminated. Shingles conform to whatever surface they are nailed to, so bumps and valleys in the sheathing show through</li>
@@ -2572,7 +2572,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Shingles that do not lay flat:</strong> Curled or buckled shingles over a localized area may be caused by swollen or warped sheathing rather than shingle failure</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Signs Visible From the Attic</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Signs Visible from the Attic</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-3">
 <li><strong>Daylight visible through the roof deck:</strong> If you turn off the attic lights and see pinpoints of light, those are holes or gaps in the sheathing that also allow water entry</li>
@@ -2921,11 +2921,11 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">A third option sits between repair and replacement that homeowners ask about constantly: roof restoration. The term gets used loosely, and the most common product attached to it is Roof Maxx, a spray-on rejuvenation treatment for asphalt shingles. Here's the honest breakdown of what these are and when they actually make sense.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-3">What does "roof restoration" actually mean?</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-3">What Does "roof Restoration" Actually Mean?</h3>
 
 <p class="text-gray-600 mb-6">In homeowner usage, "roof restoration" almost always means the same thing as a heavy repair: replacing damaged shingles, redoing flashing, cleaning the roof, and (sometimes) applying a coating or rejuvenation treatment. Restoration is not a code term, every roofer interprets it slightly differently. If a contractor pitches you "restoration," ask them to itemize exactly what they're doing. The honest answer is usually "we're doing repairs and calling it restoration to sound less expensive than replacement."</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-3">Roof Maxx and similar spray-on products</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-3">Roof Maxx and Similar Spray-On Products</h3>
 
 <p class="text-gray-600 mb-4">Roof Maxx is a soy-based spray-on treatment marketed as adding 5-15 years of life to an aging asphalt shingle roof by restoring oils that leach out as shingles age. Competitor products (Roof-A-Cide, Roof Renew) make similar claims. The pitch is appealing: spend $1,500-$4,500 instead of $14,000-$22,000 on full replacement.</p>
 
@@ -2939,11 +2939,11 @@ export const blogPosts: BlogPost[] = [
 <li><strong>They don't reset four-point inspections.</strong> The four-point inspector dates the roof from its original install, not from when it was treated.</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-3">What does Roof Maxx cost in Jacksonville?</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-3">What Does Roof Maxx Cost in Jacksonville?</h3>
 
 <p class="text-gray-600 mb-6">Typical pricing in Northeast Florida is $0.50-$1.50 per square foot, putting a 2,000 sq ft roof in the $1,500-$4,500 range. Some dealers offer multi-application packages (re-treat every 5 years) that push the total cost past $5,000 over a decade. Compare that to a $14,000-$22,000 full asphalt replacement that would have lasted 20+ years.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-3">When Roof Maxx (or similar) might actually make sense</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-3">When Roof Maxx (or Similar) Might Actually Make Sense</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Your roof is 8-12 years old and structurally sound (good flashing, no active leaks, no granule problems) and you want to extend cosmetic life</li>
@@ -2952,7 +2952,7 @@ export const blogPosts: BlogPost[] = [
 <li>The dealer is local, established, and offers a real (not marketing-only) workmanship warranty</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-3">When it absolutely doesn't make sense</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-3">When It Absolutely Doesn't Make Sense</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Your roof is 15+ years old, you're throwing money at a roof insurance is about to drop you on</li>
@@ -3057,7 +3057,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">A 4-point inspection evaluates four major home systems: Roof, Electrical, Plumbing, and HVAC. For older homes, insurers require this before issuing or renewing policies.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-3">What Inspectors Look For (Roof Section)</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-3">What Inspectors Look for (Roof Section)</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Age:</strong> Documented installation date or estimated age</li>
@@ -3431,7 +3431,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Metal roofs at 25 years are still in good standing if the original installation was quality and there's no visible damage. Tile roofs (clay or concrete) often go 50+ years with proper underlayment replacement. The 25-year cutoff really applies to asphalt shingles in Florida's UV and humidity environment.</p>
 
-<h2 id="if-dropped" class="text-2xl font-bold text-secondary mt-10 mb-4">What Happens If You're Dropped?</h2>
+<h2 id="if-dropped" class="text-2xl font-bold text-secondary mt-10 mb-4">What Happens if You're Dropped?</h2>
 
 <p class="text-gray-600 mb-6">If your insurer non-renews your policy due to roof age, you have several options:</p>
 
@@ -3447,7 +3447,7 @@ export const blogPosts: BlogPost[] = [
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Replace Your Roof</h3>
 <p class="text-gray-600 mb-6">Sometimes replacement is the best option. A new roof eliminates insurance headaches, provides hurricane protection, often reduces premiums significantly, and adds value to your home.</p>
 
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">How Much Can You Save With a New Roof?</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">How Much Can You Save with a New Roof?</h2>
 
 <p class="text-gray-600 mb-6">Florida homeowners with new roofs often see dramatic insurance savings:</p>
 
@@ -3914,7 +3914,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 </div>
 
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Should You Switch From Shingles to Metal or Tile</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Should You Switch from Shingles to Metal or Tile</h2>
 
 <p class="text-gray-600 mb-6">When your asphalt shingle roof reaches the end of its life, you have the opportunity to switch to a longer-lasting material. <a href="/blog/metal-roof-vs-shingles-florida" class="text-primary hover:underline">Metal roofing</a> lasts 40-60 years in Florida, potentially eliminating future re-roofing cycles entirely. <a href="/blog/clay-tile-roof-lifespan-florida" class="text-primary hover:underline">Clay tile</a> can last 50-100+ years. While both cost more upfront, their per-year cost is often lower than shingles when you factor in multiple replacement cycles over a 50-year span.</p>
 
@@ -4082,7 +4082,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<h2 id="comparison-table" class="text-2xl font-bold text-secondary mt-10 mb-4">Florida Roofing Materials - Side-by-Side Comparison</h2>
+<h2 id="comparison-table" class="text-2xl font-bold text-secondary mt-10 mb-4">Florida Roofing Materials - Side-By-Side Comparison</h2>
 
 <p class="text-gray-600 mb-6">This comparison table summarizes the key differences to help you narrow your options quickly. Remember that actual costs vary based on roof size, pitch, complexity, and your specific home's requirements.</p>
 
@@ -4320,7 +4320,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Architectural:</strong> Higher material cost, similar labor cost</li>
 </ul>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Cost Per Year of Life (True Value)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Cost per Year of Life (True Value)</h3>
 
 <p class="text-gray-600 mb-4">When you calculate cost per year of useful life, the picture changes:</p>
 
@@ -4456,7 +4456,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Corrugated Metal:</strong> $12,000-$18,000 (industrial look, less common for homes)</li>
 </ul>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Cost Per Year Analysis</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Cost per Year Analysis</h3>
 
 <p class="text-gray-600 mb-4">The upfront price difference is significant, but consider cost per year of use:</p>
 
@@ -4743,11 +4743,11 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="pros" class="text-2xl font-bold text-secondary mt-10 mb-4">Standing Seam Metal Roof Pros</h2>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Exceptional lifespan (50-60+ years)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Exceptional Lifespan (50-60+ Years)</h3>
 
 <p class="text-gray-600 mb-6">Standing seam routinely lasts 50+ years in Florida, potentially the only roof you'll ever buy. Aluminum lasts even longer because it doesn't rust, which matters in salt-air zones. For comparison, asphalt shingles in Florida average 15-20 years before replacement.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Superior hurricane protection</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Superior Hurricane Protection</h3>
 
 <p class="text-gray-600 mb-4">Standing seam is the strongest residential option for hurricane country:</p>
 
@@ -4759,19 +4759,19 @@ export const blogPosts: BlogPost[] = [
 <li>Concealed clips allow thermal expansion without stressing the deck</li>
 </ul>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Concealed fasteners = no leak points</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Concealed Fasteners = No Leak Points</h3>
 
 <p class="text-gray-600 mb-6">Every exposed screw on a roof is a leak waiting to happen. Standing seam hides every fastener beneath the seam, protected from UV and weather. That's why standing seam doesn't develop the long-term leak pattern that plagues exposed-fastener metal panels after 10-15 years.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Minimal maintenance</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Minimal Maintenance</h3>
 
 <p class="text-gray-600 mb-6">No shingles to replace, no granules to wash away, no seams to re-caulk. The only ongoing task is an annual visual inspection and occasional debris clearing in valleys and behind dormers.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Energy efficiency</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Energy Efficiency</h3>
 
 <p class="text-gray-600 mb-6">Cool-roof Kynar/PVDF coatings reflect 70-80% of incoming solar radiation, cutting attic temps and reducing cooling costs 15-25% in Florida's climate. The air gap created by raised seams adds incremental insulation value.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Insurance benefits</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Insurance Benefits</h3>
 
 <p class="text-gray-600 mb-6">Florida insurers usually award maximum wind-mitigation credits for properly installed standing seam, and the roof remains insurable for decades while aging shingle roofs face dropped coverage. Pair with hurricane straps and a sealed roof deck to maximize the discount stack.</p>
 
@@ -4779,27 +4779,27 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">The main disadvantages of a standing seam roof are high upfront cost (2-3x shingles), potential noise during heavy rain without proper insulation, cosmetic denting from severe hail, color-match difficulty for future panel replacements, limited DIY repair feasibility, and possible HOA restrictions. None of these affect structural performance, but they're real trade-offs to weigh.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">High upfront cost</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">High Upfront Cost</h3>
 
 <p class="text-gray-600 mb-6">The biggest barrier is sticker shock. Standing seam runs 2-3x more than quality architectural shingles on the same home. <a href="/blog/roofing-financing-options-jacksonville" class="text-primary hover:underline">Financing options</a> can spread the cost over 5-15 years if the lifetime math works for you.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Noise during rain</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Noise During Rain</h3>
 
 <p class="text-gray-600 mb-6">Metal is louder than shingles in heavy rain or hail, but with modern synthetic underlayment, a solid deck, and proper attic insulation, the difference is usually minor. Bare-metal roofs over open framing (barns, sheds) are loud; conditioned homes with R-30+ attic insulation generally aren't.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Denting from severe hail</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Denting from Severe Hail</h3>
 
 <p class="text-gray-600 mb-6">Golf-ball-and-larger hail can leave cosmetic dents on aluminum and lighter-gauge steel. Performance isn't affected, but the appearance is. Jacksonville sees serious hail rarely, so this is a minor risk locally; in hail-belt regions it's a bigger consideration.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Color matching for future repairs</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Color Matching for Future Repairs</h3>
 
 <p class="text-gray-600 mb-6">If a panel ever needs replacement, exact color match is hard because coatings fade over time. Most homeowners never face this, but it's worth knowing before you commit to an unusual color.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Limited DIY repair</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Limited DIY Repair</h3>
 
 <p class="text-gray-600 mb-6">Standing seam repair needs specialized tools (seamers, panel benders) and knowledge of clip systems and thermal expansion. Use a contractor with documented metal experience, not a generalist shingle roofer.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">HOA restrictions</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">HOA Restrictions</h3>
 
 <p class="text-gray-600 mb-6">Some Jacksonville HOAs still restrict metal or require approved color palettes. Check your covenants before signing. Many associations have updated their rules in the last 10 years as metal's hurricane performance became widely documented.</p>
 
@@ -4807,7 +4807,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">Standing seam metal roofs cost 2-3 times more than architectural shingles upfront. On a typical 2,000 sq ft Jacksonville home, expect $18,000-$35,000 for standing seam versus $7,900-$15,000 for quality shingles. Aluminum is roughly 20-30% more than Galvalume steel. Over a 50-year horizon, standing seam usually costs less per year of use because you avoid two or three shingle replacements.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Cost by material</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Cost by Material</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Galvalume steel:</strong> $9-$13 per sq ft installed. Best balance of cost and 40-50 year lifespan.</li>
@@ -4816,7 +4816,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Zinc:</strong> $18-$28 per sq ft. Self-healing patina, architectural projects.</li>
 </ul>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Cost by home size (Galvalume snap-lock, baseline installation)</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Cost by Home Size (Galvalume Snap-Lock, Baseline Installation)</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>1,500 sq ft home:</strong> $14,000-$20,000</li>
@@ -4825,7 +4825,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>3,000 sq ft home:</strong> $28,000-$40,000</li>
 </ul>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What drives the cost variance</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">What Drives the Cost Variance</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Roof complexity, hips, valleys, dormers, skylights, penetrations</li>
@@ -4884,7 +4884,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="best-for" class="text-2xl font-bold text-secondary mt-10 mb-4">Who Should Choose Standing Seam (and Who Shouldn't)</h2>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Standing seam is the right call for:</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Standing Seam Is the Right Call For:</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Long-term homeowners</strong>, 15+ years planned in the home</li>
@@ -4895,7 +4895,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>"Set and forget" priorities</strong>, you don't want to think about your roof again</li>
 </ul>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Standing seam is the wrong call for:</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Standing Seam Is the Wrong Call For:</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Selling within 5-7 years</strong>, you won't recoup the premium in resale</li>
@@ -5565,7 +5565,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Built-up roofing costs $7-$12 per square foot installed, typically the most expensive flat roof option.</p>
 
-<h2 id="comparison" class="text-2xl font-bold text-secondary mt-10 mb-4">Flat Roof Materials: Side-by-Side Comparison</h2>
+<h2 id="comparison" class="text-2xl font-bold text-secondary mt-10 mb-4">Flat Roof Materials: Side-By-Side Comparison</h2>
 
 <div class="overflow-x-auto mb-6">
 <table class="w-full text-sm text-gray-600 border border-gray-200">
@@ -6405,7 +6405,7 @@ export const blogPosts: BlogPost[] = [
 </ol>
 </div>
 
-<h2 id="quick-signs" class="text-2xl font-bold text-secondary mt-10 mb-4">How Do I Know If I Need a New Roof?</h2>
+<h2 id="quick-signs" class="text-2xl font-bold text-secondary mt-10 mb-4">How Do I Know if I Need a New Roof?</h2>
 
 <p class="text-gray-600 mb-4">Most Florida homeowners don't think about their roof until there's a problem. But waiting for a complete failure leads to costly water damage, mold remediation, and emergency repairs. Knowing the warning signs helps you plan ahead and replace your roof on your timeline, not when you're forced to.</p>
 
@@ -7230,7 +7230,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Homes surrounded by dense landscaping, fences, or narrow lot lines are harder to work on. Material delivery to the roof (boom truck vs manual carry), dumpster placement, and crew access all affect labor costs. Multi-story homes are more expensive because materials must be carried up further and safety requirements increase with height.</p>
 
-<h2 id="repair-vs-replace" class="text-2xl font-bold text-secondary mt-10 mb-4">Repair vs Full Replacement - The Cost Crossover Point</h2>
+<h2 id="repair-vs-replace" class="text-2xl font-bold text-secondary mt-10 mb-4">Repair vs Full Replacement - the Cost Crossover Point</h2>
 
 <p class="text-gray-600 mb-6">One of the most important financial decisions is knowing when continued repairs stop making sense and a full replacement becomes the better investment. Here is a framework Jacksonville homeowners can use.</p>
 
@@ -7386,7 +7386,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Hear From Jacksonville Homeowners</h2>
+<h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Hear from Jacksonville Homeowners</h2>
 
 <div class="bg-gray-50 rounded-lg p-6 mb-6">
 <div class="flex items-center gap-1 mb-3">
@@ -7523,7 +7523,7 @@ export const blogPosts: BlogPost[] = [
 <a href="/contact" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Schedule Free Inspection</a>
 </div>
 </div>
-<h2 id="avoid" class="text-2xl font-bold text-secondary mt-10 mb-4">Times to Avoid (If Possible)</h2>
+<h2 id="avoid" class="text-2xl font-bold text-secondary mt-10 mb-4">Times to Avoid (if Possible)</h2>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Active Hurricane Threats:</strong> Never start a roof project when a storm is approaching</li>
@@ -8406,7 +8406,7 @@ export const blogPosts: BlogPost[] = [
 <li>Flood damage (requires separate flood insurance)</li>
 </ul>
 
-<h2 id="steps" class="text-2xl font-bold text-secondary mt-10 mb-4">Step-by-Step: Filing Your Roof Insurance Claim</h2>
+<h2 id="steps" class="text-2xl font-bold text-secondary mt-10 mb-4">Step-By-Step: Filing Your Roof Insurance Claim</h2>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Step 1: Document the Damage Immediately</h3>
 
@@ -8500,7 +8500,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Insufficient Documentation:</strong> Can't prove damage extent or cause</li>
 </ul>
 
-<h2 id="disputes" class="text-2xl font-bold text-secondary mt-10 mb-4">What If Your Claim Is Denied or Underpaid?</h2>
+<h2 id="disputes" class="text-2xl font-bold text-secondary mt-10 mb-4">What if Your Claim Is Denied or Underpaid?</h2>
 
 <p class="text-gray-600 mb-4">You have options:</p>
 
@@ -9719,7 +9719,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Combined projects:</strong> Some companies offer discounts for both</li>
 </ul>
 
-<h2 id="maintenance" class="text-2xl font-bold text-secondary mt-10 mb-4">Roof Maintenance With Solar Panels</h2>
+<h2 id="maintenance" class="text-2xl font-bold text-secondary mt-10 mb-4">Roof Maintenance with Solar Panels</h2>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Inspection Access:</strong> Panels make some roof areas harder to inspect</li>
@@ -10920,7 +10920,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<h2 id="structural" class="text-2xl font-bold text-secondary mt-10 mb-4">Structural and load considerations for adding a story</h2>
+<h2 id="structural" class="text-2xl font-bold text-secondary mt-10 mb-4">Structural and Load Considerations for Adding a Story</h2>
 
 <p class="text-gray-600 mb-6">A second story adds permanent dead load and live load that the original home was never designed to carry. The existing foundation, first-floor walls, and floor framing all become the support system for the new level, so a structural engineer almost always has to evaluate the home before design moves forward. This step is not optional in Florida, and it shapes everything the roofer does later.</p>
 
@@ -10962,7 +10962,7 @@ export const blogPosts: BlogPost[] = [
 <li>Requires careful design for aesthetics</li>
 </ul>
 
-<h2 id="matching-shingles" class="text-2xl font-bold text-secondary mt-10 mb-4">Matching existing shingles</h2>
+<h2 id="matching-shingles" class="text-2xl font-bold text-secondary mt-10 mb-4">Matching Existing Shingles</h2>
 
 <p class="text-gray-600 mb-6">Matching the original roof is harder than most homeowners expect, and the reason is twofold: weathering and product changes. Asphalt shingles in Florida fade noticeably within the first 5 to 7 years from ultraviolet exposure, so even a perfectly matched product code will look lighter on the original roof than on the new section. The granule blend that gives a shingle its color also changes over time as manufacturers adjust their lines.</p>
 
@@ -10975,7 +10975,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">When a clean match is not possible, the cleanest result is a full reroof so the entire surface ages together. If budget rules that out, a thoughtful designer can hide the transition along a natural ridge or wall line where the eye expects a change. For more on choosing a long-lasting product, see our guide to the <a href="/blog/best-roofing-materials-florida" class="text-primary hover:underline">best roofing materials for Florida</a>.</p>
 
-<h2 id="tie-in-considerations" class="text-2xl font-bold text-secondary mt-10 mb-4">Roof tie-in and flashing where old meets new</h2>
+<h2 id="tie-in-considerations" class="text-2xl font-bold text-secondary mt-10 mb-4">Roof Tie-In and Flashing Where Old Meets New</h2>
 
 <p class="text-gray-600 mb-6">Where the new roof meets the existing structure is the most leak-prone area on the entire project. Water always finds the seam, so the flashing details here decide whether the roof stays dry through a decade of Florida storms.</p>
 
@@ -11013,7 +11013,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 </div>
 
-<h2 id="sequencing" class="text-2xl font-bold text-secondary mt-10 mb-4">Sequencing roofing with the addition framing</h2>
+<h2 id="sequencing" class="text-2xl font-bold text-secondary mt-10 mb-4">Sequencing Roofing with the Addition Framing</h2>
 
 <p class="text-gray-600 mb-6">On a second story addition, roofing is not a single visit at the end. The crew typically comes in at two or three points so the structure stays protected while the addition takes shape.</p>
 
@@ -11026,7 +11026,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">The order matters because interior framing, electrical, and drywall cannot start until the roof above them is sealed. A roofer who shows up at the wrong stage either holds up the whole job or leaves the home exposed. This coordination is exactly what makes addition roofing different from a standard <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">Jacksonville roofing</a> reroof on an occupied home.</p>
 
-<h2 id="timeline" class="text-2xl font-bold text-secondary mt-10 mb-4">Timeline and weather protection during construction</h2>
+<h2 id="timeline" class="text-2xl font-bold text-secondary mt-10 mb-4">Timeline and Weather Protection During Construction</h2>
 
 <p class="text-gray-600 mb-6">The roofing portion of a second story addition usually spans the length of the framing phase rather than a single day. Plan for the home to be partially open to the elements for a period, and build weather protection into the schedule.</p>
 
@@ -11040,11 +11040,11 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Scheduling the open-roof phases for the drier months from October through May reduces the risk of water intrusion, though a good crew can protect the structure year round with proper dry-in. Ask your contractor how they plan to keep the home watertight between each inspection.</p>
 
-<h2 id="coordination" class="text-2xl font-bold text-secondary mt-10 mb-4">Working with your general contractor</h2>
+<h2 id="coordination" class="text-2xl font-bold text-secondary mt-10 mb-4">Working with Your General Contractor</h2>
 
 <p class="text-gray-600 mb-6">Most additions are run by a general contractor who either has an in-house roofing crew or hires a roofing subcontractor. Either way, the homeowner benefits from knowing exactly who is doing the roofing and how it is warrantied.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Questions to ask</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Questions to Ask</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Who handles roofing, the general contractor or a subcontractor?</li>
 <li>Is roofing included in the quote or billed separately?</li>
@@ -11054,7 +11054,7 @@ export const blogPosts: BlogPost[] = [
 <li>Is the roofer Florida-licensed and manufacturer certified?</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Timing considerations</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Timing Considerations</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>The roof should be weather-tight before any interior work starts.</li>
 <li>Schedule open-roof phases around Florida's rainy season when possible.</li>
@@ -11140,7 +11140,7 @@ export const blogPosts: BlogPost[] = [
 <li>Check with the local historic preservation office first</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Certificate of appropriateness and board approval</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Certificate of Appropriateness and Board Approval</h3>
 
 <p class="text-gray-600 mb-6">In most Florida historic districts, exterior roofing work on a contributing property requires a certificate of appropriateness (COA) issued by the local historic preservation commission. The COA confirms that your proposed material, color, and profile fit the character of the district. In Jacksonville, the Jacksonville Historic Preservation Commission reviews applications for the city's designated districts, and minor in-kind repairs may qualify for staff-level approval rather than a full board hearing.</p>
 
@@ -11148,7 +11148,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Not every roof project triggers a full board hearing. In-kind repairs, where the new material matches the old in type, color, and profile, often qualify for administrative approval through preservation staff, which can take days rather than weeks. Changes to the roof's visible material, color, or pitch almost always require the full commission. Knowing which category your project falls into before you apply saves time and helps your contractor scope the work correctly. Photographs of all roof faces, a sample of the proposed product, and a written description of the existing condition are the documents boards request most often.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Jacksonville historic districts</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Jacksonville Historic Districts</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Riverside/Avondale, with its mix of early 1900s bungalows and revival styles</li>
 <li>Springfield, one of the largest historic districts in Florida</li>
@@ -11171,7 +11171,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Material selection on a historic home is a negotiation between three forces: what the review board will approve, what suits the home's architectural era, and what survives Florida's hurricane season. The good news is that period-appropriate looks are now available across a wide cost range, from authentic natural materials to engineered products that pass current wind-uplift testing.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Authentic historic materials</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Authentic Historic Materials</h3>
 
 <p class="text-gray-600 mb-4"><strong>Slate:</strong></p>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
@@ -11197,11 +11197,11 @@ export const blogPosts: BlogPost[] = [
 <li>Period-correct for 1920s and 1930s Florida homes, including many in San Marco</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Standing-seam metal</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Standing-Seam Metal</h3>
 
 <p class="text-gray-600 mb-6">Metal roofing is often overlooked as a historic option, but standing-seam and 5V crimp panels have a documented presence on Florida buildings going back to the late 1800s. Many review boards accept metal on homes that historically carried it, and it performs exceptionally well against wind and rain. Metal roofs carry a 40 to 70 year lifespan and installed cost estimates of roughly $9 to $16 per square foot, placing them between architectural shingles and tile. For homes where the original roof was metal, this is frequently the easiest material to get approved.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Modern alternatives that mimic historic looks</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Modern Alternatives That Mimic Historic Looks</h3>
 
 <p class="text-gray-600 mb-4"><strong>Synthetic slate:</strong></p>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
@@ -11219,7 +11219,7 @@ export const blogPosts: BlogPost[] = [
 <li>Warranties of 25 to 50 years, with high wind ratings available</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Balancing authenticity with hurricane code</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Balancing Authenticity with Hurricane Code</h3>
 
 <p class="text-gray-600 mb-6">The Florida Building Code sets wind-load and product-approval requirements that apply to historic homes just as they do to new construction. A material can be visually correct yet still need to meet uplift resistance for your wind zone, which in coastal Northeast Florida can run from 130 to 150 miles per hour. This is where authenticity and code sometimes conflict, and where the right detailing matters.</p>
 
@@ -11234,7 +11234,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Preservation standards favor repair over wholesale replacement when the original roof can be saved. A qualified roofer experienced with historic materials should assess the condition of the field, flashings, and decking before recommending a path.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">When restoration is possible</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">When Restoration Is Possible</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>The majority of the original material is intact</li>
 <li>Matching replacement pieces are still available</li>
@@ -11242,7 +11242,7 @@ export const blogPosts: BlogPost[] = [
 <li>Historic preservation is the priority and the COA favors in-kind repair</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">When replacement is better</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">When Replacement Is Better</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Damage or deterioration is extensive</li>
 <li>Original materials are no longer manufactured or sourced</li>
@@ -11348,7 +11348,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">The roof over an attached home in Florida is governed by recorded documents, not by who lives under it. A condominium is created and controlled by a Declaration of Condominium recorded under Florida Statutes Chapter 718, while a fee simple townhome is governed by a homeowners association declaration and covenants under Chapter 720. The titles look similar from the curb, but they assign roof responsibility very differently. Read the actual recorded document for your unit rather than relying on what a neighbor or a real estate listing tells you.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Who owns the roof</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Who Owns the Roof</h3>
 <p class="text-gray-600 mb-6">In a condominium, the roof is almost always a common element. You own the airspace inside your unit, typically from the unfinished interior surface of the walls, floors, and ceiling inward, and the association owns the structure that protects it. That means the board controls roof maintenance, repair, and replacement, and individual owners cannot hire a roofer to work on the building on their own. In a fee simple townhome, you usually own the structure of your unit, including the roof deck and covering above it, even though the building shares walls with neighbors. The declaration spells out exactly where the boundary sits, and on attached homes that boundary often runs down the center of a shared wall.</p>
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Condominiums</h3>
@@ -11395,10 +11395,10 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Combination:</strong> Often reserves plus assessment</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Reserve funding and special assessments</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Reserve Funding and Special Assessments</h3>
 <p class="text-gray-600 mb-6">A reserve is money collected over time so that a known future cost, like a roof that reaches the end of its service life, is paid for gradually instead of all at once. A well-run association funds the roof reserve so that when the covering needs replacement, the cash is already there. When reserves fall short, the board has to levy a special assessment, which is a one-time charge split among all owners. Roof assessments can run into the thousands of dollars per unit depending on building size, roof type, and how badly underfunded the reserve was. Before buying any condo, request the most recent reserve study and the reserve fund balance so you understand whether a large assessment is likely in the near term.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Florida milestone inspections and reserve studies</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Florida Milestone Inspections and Reserve Studies</h3>
 <p class="text-gray-600 mb-6">After the 2021 building collapse in Surfside, the Florida Legislature passed Senate Bill 4-D in 2022, which created two new requirements that directly affect roof and structural funding. The first is the milestone inspection, a structural safety inspection required for condominium and cooperative buildings that are three stories or more in height. A milestone inspection must generally be completed by the time the building reaches 30 years of age, and the timeline is shorter for buildings within three miles of the coastline. After the initial inspection, follow-up inspections are required on a recurring basis. The second requirement is the structural integrity reserve study, often shortened to SIRS, which an association must have performed for those same buildings of three stories or more.</p>
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Florida Reserve Requirements</h3>
@@ -11423,13 +11423,13 @@ export const blogPosts: BlogPost[] = [
 <li>Coordinate with attached neighbors</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Coordinating with neighbors and the board</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Coordinating with Neighbors and the Board</h3>
 <p class="text-gray-600 mb-6">On attached homes, your roof project becomes your neighbor's project the moment a crew steps onto the shared structure. Start by submitting an architectural review request to the board before you sign anything, since most associations require written approval of the material, color, and sometimes the contractor. Give attached neighbors advance notice of the start date, expected noise, dumpster placement, and how long the tear-off will take. Where multiple owners in a building need roofs around the same time, replacing adjacent sections together often produces a cleaner result and a better price than doing them piecemeal. A coordinated schedule also reduces the number of times flashing along a shared wall has to be opened and resealed.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Shared wall and party wall roofing</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Shared Wall and Party Wall Roofing</h3>
 <p class="text-gray-600 mb-6">A party wall is the shared wall between two attached units, and on many townhomes it extends up through the roofline as a fire separation. Where that wall meets the roof, the assembly often has to maintain a fire rating, so the underlayment, decking, and any cap details at the wall may be specified differently than on an open field of roof. Flashing along a shared wall serves both units at once, which is why opening one side can expose the other to leaks if it is not detailed correctly. A roofer working a single unit in an attached row needs to tie new flashing into the neighbor's existing roof without compromising the seal on either side. These details are routine for an experienced crew but easy to get wrong for a contractor who only does detached single-family homes.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Material choices for attached units</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Material Choices for Attached Units</h3>
 <p class="text-gray-600 mb-6">Material selection for an attached home is partly a design decision and partly a coordination decision. Architectural asphalt shingles are the most common choice because they match easily across a row, are simple to repair, and keep your section visually consistent with neighbors. Metal and tile are options where the declaration allows them and where the whole building can match, since a single metal unit in a row of shingle roofs rarely passes architectural review. Whatever the material, color and profile usually have to match the rest of the building, so confirm the approved palette with the board before ordering. If you want a side-by-side comparison of how each material performs in our climate, see our guide on the <a href="/blog/best-roofing-materials-florida" class="text-primary hover:underline">best roofing materials for Florida</a>.</p>
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Shared Wall Considerations</h3>
@@ -11530,7 +11530,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Most duplexes and triplexes in Jacksonville sit on steep-slope framing and behave like single-family homes from a roofing standpoint. A full tear-off and re-roof can usually be completed in two to four days, and the same residential materials covered in our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> service apply. The main difference is occupancy: even a small building may have two or three tenant households whose schedules you need to work around.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Small Apartment Buildings (4-20 units)</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Small Apartment Buildings (4-20 Units)</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Mix of commercial and residential approaches</li>
 <li>Flat roofs: TPO, EPDM, or modified bitumen</li>
@@ -11886,7 +11886,7 @@ export const blogPosts: BlogPost[] = [
     imageAlt: "Energy efficient cool roof on a Jacksonville, Florida home reflecting summer heat to lower cooling costs",
     category: "Energy Efficiency",
     readTime: "8 min read",
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Energy efficient roofing</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Energy Efficient Roofing</h2>
 
 <p class="text-gray-600 mb-6"><strong>Energy efficient roofing reflects solar heat instead of absorbing it, which lowers attic temperatures and cuts air conditioning costs.</strong> In Florida, a cool roof can reduce cooling energy use by 10 to 30 percent. Common options include reflective asphalt shingles, light metal roofing with cool coatings, white single-ply membrane, and reflective tile. A cool-roof upgrade is easiest to plan during a <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a>.</p>
 
@@ -11902,13 +11902,13 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<h2 id="how-it-works" class="text-2xl font-bold text-secondary mt-10 mb-4">How cool roofing works</h2>
+<h2 id="how-it-works" class="text-2xl font-bold text-secondary mt-10 mb-4">How Cool Roofing Works</h2>
 
 <p class="text-gray-600 mb-6">A dark, standard shingle in direct Florida sun can reach 150 to 170 degrees Fahrenheit on a summer afternoon. A cool roof of the same shape can stay 50 to 60 degrees cooler at the surface. That heat difference matters because every degree the roof absorbs eventually pushes into the attic and then into your living space, forcing the HVAC system to work harder. In a Jacksonville summer, attic temperatures under a dark roof routinely climb past 130 degrees, which heats the ductwork that runs through the attic and makes the air conditioner cycle longer to hold the thermostat setting. Two measured properties decide how a roof performs: solar reflectance and thermal emittance.</p>
 
 <p class="text-gray-600 mb-6">Jacksonville sits in climate zone 2A, a hot and humid region with a long cooling season and a short, mild heating season. That balance is exactly why cool roofing pays off here more than it would in a northern state. The same reflective roof that saves a homeowner in Minnesota almost nothing can shave a meaningful percentage off a Northeast Florida cooling bill, because cooling, not heating, is where the energy goes for most of the year.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Solar reflectance</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Solar Reflectance</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Measures how much sunlight the surface reflects</li>
 <li>Rated on a scale of 0 (absorbs all) to 1 (reflects all)</li>
@@ -11917,7 +11917,7 @@ export const blogPosts: BlogPost[] = [
 <li>Reflectance drops slightly over time as dirt and algae accumulate</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Thermal emittance</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Thermal Emittance</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Measures how readily the surface radiates absorbed heat back out</li>
 <li>Higher is better, with 0.80 to 0.90 considered ideal</li>
@@ -11936,11 +11936,11 @@ export const blogPosts: BlogPost[] = [
 </div>
 </div>
 
-<h2 id="material-options" class="text-2xl font-bold text-secondary mt-10 mb-4">Energy efficient material options</h2>
+<h2 id="material-options" class="text-2xl font-bold text-secondary mt-10 mb-4">Energy Efficient Material Options</h2>
 
 <p class="text-gray-600 mb-6">Almost every roofing material now has a cool-rated version. The right choice depends on your roof pitch, your budget, your home's architectural style, and how long you plan to stay. A homeowner replacing a 15-year-old asphalt roof who plans to move in five years will weigh the options differently than one settling into a forever home, where a 50-year metal or tile roof spreads its energy savings across decades. Here is how the main options perform in the Jacksonville climate.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Cool asphalt shingles</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Cool Asphalt Shingles</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Use reflective granules that boost reflectance without forcing a white roof</li>
 <li>Reduce attic temperatures 10 to 15 degrees versus standard dark shingles</li>
@@ -11949,7 +11949,7 @@ export const blogPosts: BlogPost[] = [
 <li>ENERGY STAR certified colors exist in shades of gray, tan, and brown</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Metal roofing</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Metal Roofing</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Reflects a large share of solar radiation even in mid-tone colors</li>
 <li>Factory cool coatings push reflectance well above bare metal</li>
@@ -11958,7 +11958,7 @@ export const blogPosts: BlogPost[] = [
 <li>A 40 to 70 year lifespan compounds the savings across decades</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">White or light tile</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">White or Light Tile</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Light clay and concrete tile combine high reflectance and high emittance</li>
 <li>The air space under the tiles adds a natural insulating layer</li>
@@ -11966,7 +11966,7 @@ export const blogPosts: BlogPost[] = [
 <li>Lasts 50 years or more, often outliving the structure's first owner</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Single-ply membranes for flat roofs</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Single-Ply Membranes for Flat Roofs</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>White TPO and PVC membranes are among the most reflective surfaces available</li>
 <li>They are the best performers on the low-slope and flat sections common on commercial buildings</li>
@@ -11975,7 +11975,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Flat and low-slope roofs absorb the most heat per square foot because the sun hits them more directly through midday. If you manage a warehouse, retail strip, or office in the metro, a reflective membrane is usually the highest-return cool roof upgrade available. Our <a href="/services/commercial-roofing" class="text-primary hover:underline">commercial roofing</a> team installs white TPO and PVC systems that meet Florida code and keep rooftop equipment running cooler.</p>
 
-<h2 id="choosing-color" class="text-2xl font-bold text-secondary mt-10 mb-4">Choosing a roof color in Florida</h2>
+<h2 id="choosing-color" class="text-2xl font-bold text-secondary mt-10 mb-4">Choosing a Roof Color in Florida</h2>
 
 <p class="text-gray-600 mb-6">Color is the most visible energy decision, and in a cooling-dominated climate like Jacksonville, lighter generally wins. A white or light-gray roof can stay 20 to 40 degrees cooler at the surface than a black roof of the same material. That said, reflective-pigment technology has narrowed the gap, so you no longer have to choose a stark white roof to get real savings.</p>
 
@@ -11988,11 +11988,11 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Color is only one factor. A dark roof with excellent attic insulation and strong ventilation can perform close to a light roof with poor insulation, which is why a whole-system approach beats chasing color alone. There is also a resale and curb-appeal angle: a light gray or weathered-wood cool shingle reads as neutral in most Jacksonville neighborhoods, while a bright white shingle roof can look out of place on a traditional home. For most homeowners, a mid-tone cool-pigment shingle is the practical sweet spot, giving real energy savings without fighting the architecture.</p>
 
-<h2 id="beyond-materials" class="text-2xl font-bold text-secondary mt-10 mb-4">Beyond roofing materials</h2>
+<h2 id="beyond-materials" class="text-2xl font-bold text-secondary mt-10 mb-4">Beyond Roofing Materials</h2>
 
 <p class="text-gray-600 mb-6">The roof surface is the first defense against heat, but three attic-level upgrades determine how much of the savings actually reaches your living space. Skipping these is the most common reason a cool roof underperforms its potential.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Radiant barriers</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Radiant Barriers</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>A reflective foil layer installed against the underside of the roof deck</li>
 <li>Blocks radiant heat from transferring into the attic air</li>
@@ -12000,21 +12000,21 @@ export const blogPosts: BlogPost[] = [
 <li>Adds roughly 5 to 10 percent in additional cooling savings</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Proper ventilation</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Proper Ventilation</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Continuous ridge and soffit vents flush hot air out of the attic</li>
 <li>Reduces the heat load pressing down on the ceiling and ductwork</li>
 <li>An essential complement to any cool roof; without it, attic heat stalls</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Adequate insulation</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Adequate Insulation</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>R-38 is the minimum recommended attic value for North Florida</li>
 <li>Keeps conditioned air inside and slows heat gain from the attic</li>
 <li>Works alongside the cool roof so the two upgrades multiply each other</li>
 </ul>
 
-<h2 id="rebates-tax-credits" class="text-2xl font-bold text-secondary mt-10 mb-4">Rebates and tax credits</h2>
+<h2 id="rebates-tax-credits" class="text-2xl font-bold text-secondary mt-10 mb-4">Rebates and Tax Credits</h2>
 
 <p class="text-gray-600 mb-6">Energy efficient roofing can qualify for incentives that shorten the payback period, though programs change and eligibility depends on the product and the rest of the work. Three sources are worth checking before you sign a contract.</p>
 
@@ -12033,7 +12033,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 </div>
 
-<h2 id="costs-savings" class="text-2xl font-bold text-secondary mt-10 mb-4">Costs, savings, and payback</h2>
+<h2 id="costs-savings" class="text-2xl font-bold text-secondary mt-10 mb-4">Costs, Savings, and Payback</h2>
 
 <p class="text-gray-600 mb-6">The math behind a cool roof is straightforward. You pay a modest premium up front and recover it through lower cooling bills, with the recovery period depending on the material and your home's current efficiency.</p>
 
@@ -12103,36 +12103,36 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<h2 id="why-flashing-leaks" class="text-2xl font-bold text-secondary mt-10 mb-4">Why flashing is the number one leak point</h2>
+<h2 id="why-flashing-leaks" class="text-2xl font-bold text-secondary mt-10 mb-4">Why Flashing Is the Number One Leak Point</h2>
 
 <p class="text-gray-600 mb-6">A field of shingles sheds water well because every course overlaps the one below it. Problems start wherever that clean overlap is interrupted, at a wall, a chimney, a vent pipe, a skylight, or a valley where two slopes collide. These transitions concentrate runoff and create paths for water to travel sideways instead of straight down. Flashing bridges those gaps by carrying water back onto the shingle surface so it can drain normally.</p>
 
 <p class="text-gray-600 mb-6">The National Roofing Contractors Association notes that the majority of low-slope and steep-slope leaks originate at flashings and penetrations rather than in the open field of the roof. You can read more about flashing standards at the <a href="https://www.nrca.net" target="_blank" rel="noopener" class="text-primary hover:underline">National Roofing Contractors Association</a>. The lesson for homeowners is simple. When a roof leaks, the smart money looks at the metal joints first, not the shingles.</p>
 
-<h2 id="flashing-types" class="text-2xl font-bold text-secondary mt-10 mb-4">Types of roof flashing</h2>
+<h2 id="flashing-types" class="text-2xl font-bold text-secondary mt-10 mb-4">Types of Roof Flashing</h2>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Drip edge</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Drip Edge</h3>
 <p class="text-gray-600 mb-6">Drip edge is L-shaped metal installed along the eaves and rakes, tucked under the underlayment at the eaves and over it at the rakes. It directs runoff into the gutter and away from the fascia, and it stops water from wicking backward under the first course of shingles. Florida building code requires drip edge on shingle roofs, with a typical fascia leg of 1.5 to 3 inches and overlapping pieces of at least 2 inches at the joints. Aluminum drip edge in 0.019 inch thickness is the common standard. Learn the details in our <a href="/blog/drip-edge-installation-florida" class="text-primary hover:underline">drip edge installation guide</a>.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Step flashing</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Step Flashing</h3>
 <p class="text-gray-600 mb-6">Step flashing is a series of small L-shaped pieces, usually around 4 by 4 inches with a 2 inch upturned leg, installed where a sloped roof runs alongside a vertical wall or dormer. Each piece is woven into a shingle course so it overlaps the one below by several inches, creating a stair-step pattern that moves water down onto the shingles and never lets it sit against the wall. Step flashing must be interlaced shingle by shingle. A single continuous strip of metal run up a wall, sometimes called reglet or bib flashing, is a shortcut that almost always leaks within a few seasons of Florida rain.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Counter flashing</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Counter Flashing</h3>
 <p class="text-gray-600 mb-6">Counter flashing covers the top edge of step flashing and is set into a groove cut in the masonry, called a reglet, or tucked into the mortar joint of a chimney. It overlaps the step flashing by at least 2 inches and sheds water over the top of it so nothing can run behind. On chimneys this two-part system, step flashing underneath and counter flashing on top, is what keeps the most leak-prone feature on a roof watertight. The counter flashing can be removed and reset if masonry work is needed without disturbing the step flashing below.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Valley flashing (open versus closed)</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Valley Flashing (open Versus Closed)</h3>
 <p class="text-gray-600 mb-6">Valleys form where two roof planes meet and funnel enormous volumes of water during a storm, so valley flashing is one of the hardest-working details on the roof. In an open valley, a wide metal channel, often 24 inch wide W-style or V-style galvanized or aluminum, stays exposed down the center with shingles trimmed back on each side. Open valleys move water fast and clear debris well, which suits Jacksonville's heavy summer downpours. In a closed valley, the shingles weave across or are cut over a metal liner, giving a cleaner look but holding water and debris longer, which makes them more prone to leaks over time. For high-rain Florida roofs, an open metal valley is generally the more durable choice.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Vent and pipe boot flashing</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Vent and Pipe Boot Flashing</h3>
 <p class="text-gray-600 mb-6">Pipe boot flashing seals around plumbing vent stacks. A flat metal base slides under the upslope shingles and over the downslope shingles, and a rubber or neoprene collar grips the pipe. The collar is the weak link. Florida sun breaks down standard rubber boots in as little as 8 to 12 years, leaving cracks right at the pipe that drip directly into the attic. Upgrading to a lead boot or a boot with a stainless steel storm collar extends the life considerably. Pipe boots are one of the most common single-point leaks we find on inspections.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Chimney flashing</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Chimney Flashing</h3>
 <p class="text-gray-600 mb-6">Chimney flashing is a complete assembly rather than a single piece. It combines an apron at the downhill face, step flashing up both sides, a saddle or cricket on the uphill side to split water around the chimney, and counter flashing set into the mortar to cap it all. Because a chimney interrupts the roof on four sides, it is the most demanding flashing job on most homes and the most likely to leak when any one piece is missing or sealed with caulk instead of properly lapped metal. A cricket is strongly recommended on any chimney wider than about 30 inches across the slope.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Kickout and diverter flashing</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Kickout and Diverter Flashing</h3>
 <p class="text-gray-600 mb-6">Kickout flashing, also called diverter flashing, is installed at the bottom of a wall-to-roof intersection where the wall ends above a gutter or eave. It kicks water away from the wall and out into the gutter rather than letting it run down behind the siding. Missing kickout flashing is a frequent and costly oversight. Without it, water sheets behind the cladding and rots the wall sheathing and framing, often unnoticed until the damage is severe. It is a small, inexpensive piece that prevents major structural problems.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Apron and headwall flashing</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Apron and Headwall Flashing</h3>
 <p class="text-gray-600 mb-6">Apron flashing, sometimes called headwall flashing, is used where the bottom edge of a roof slope meets a vertical wall above it, such as where a lower roof butts into a second-story wall. A single bent piece of metal runs along the joint, with the vertical leg up the wall behind the siding and the horizontal leg out onto the shingles, directing water down onto the roof surface. It is often paired with kickout flashing at the ends so water is routed cleanly into the gutter.</p>
 
 <div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
@@ -12144,7 +12144,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 </div>
 
-<h2 id="materials" class="text-2xl font-bold text-secondary mt-10 mb-4">Flashing materials</h2>
+<h2 id="materials" class="text-2xl font-bold text-secondary mt-10 mb-4">Flashing Materials</h2>
 
 <p class="text-gray-600 mb-6">The right metal depends on cost, climate, and how long you expect the roof to last. The goal is always to match or exceed the lifespan of the roofing material it protects.</p>
 
@@ -12156,7 +12156,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Rubber and EPDM:</strong> Used for pipe boot collars and some specialty seals. Durable but the most UV-sensitive component on the roof, which is why boots fail first.</li>
 </ul>
 
-<h2 id="signs-of-failure" class="text-2xl font-bold text-secondary mt-10 mb-4">Signs of failed flashing</h2>
+<h2 id="signs-of-failure" class="text-2xl font-bold text-secondary mt-10 mb-4">Signs of Failed Flashing</h2>
 
 <p class="text-gray-600 mb-6">Most flashing problems show up well before a major leak does. Catching them during an annual inspection turns a costly repair into a minor one. Watch for these warning signs:</p>
 
@@ -12169,7 +12169,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Leaks only in wind-driven rain:</strong> A roof that stays dry in a calm shower but leaks in a storm is a classic flashing symptom.</li>
 </ul>
 
-<h2 id="repair-vs-reflash" class="text-2xl font-bold text-secondary mt-10 mb-4">Repair versus reflash</h2>
+<h2 id="repair-vs-reflash" class="text-2xl font-bold text-secondary mt-10 mb-4">Repair Versus Reflash</h2>
 
 <p class="text-gray-600 mb-6">Not every flashing problem calls for the same fix. A single cracked pipe boot or a length of counter flashing with failed sealant can often be repaired in place, with the boot swapped and the reglet resealed in an hour or two. That is the right call when the surrounding shingles and the rest of the flashing are sound.</p>
 
@@ -12288,7 +12288,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Best for:</strong> Most Florida shingle and metal roof applications</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Self-Adhering Peel-and-Stick (Modified Bitumen)</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Self-Adhering Peel-And-Stick (Modified Bitumen)</h3>
 <p class="text-gray-600 mb-6">Self-adhering underlayment is a rubberized, modified-bitumen membrane with a sticky backing that bonds directly to the deck. Its defining feature is that it seals around every nail and fastener driven through it, so even when shingles or tiles are gone, water cannot find a path through the penetrations. Most peel-and-stick membranes run about 40 mils thick and many carry high-temperature ratings around 240 degrees Fahrenheit, which matters under dark roofs and metal in the Florida sun. This is the most waterproof option and the one that creates a true sealed roof deck. It is also the most expensive per square and the most labor-intensive to install, since the crew must align and roll each course carefully because the adhesive grabs on contact.</p>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Material:</strong> Rubberized modified-bitumen membrane, roughly 40 mils thick, with adhesive backing</li>
@@ -12515,7 +12515,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Valley repair cost depends on the scope of work, roof pitch and access, shingle type, how much decking needs replacing, and how many valleys are affected. The ranges below are general guides for a single valley in the Jacksonville area, and a free inspection gives you a firm number for your roof.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Minor repairs</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Minor Repairs</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Sealing lifted edges and small gaps</li>
 <li>Replacing individual damaged shingles</li>
@@ -12523,7 +12523,7 @@ export const blogPosts: BlogPost[] = [
 <li>Cost: $150 to $400</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Flashing replacement</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Flashing Replacement</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Removing shingles from the valley area</li>
 <li>Installing new valley flashing and underlayment</li>
@@ -12531,7 +12531,7 @@ export const blogPosts: BlogPost[] = [
 <li>Cost: $400 to $800 per valley</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Full valley reconstruction</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Full Valley Reconstruction</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Complete tear-off of the valley area</li>
 <li>Inspect and replace damaged decking</li>
@@ -12692,7 +12692,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">The single most important thing to understand about drip edge is that the order of layers is different at the eaves than at the rakes. Getting this backward is one of the most common ways a roof edge fails, and it is easy to spot once you know what to look for. The rule is simple: at the eaves, drip edge goes under the underlayment; at the rakes, drip edge goes over the underlayment.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">At eaves (the bottom edge)</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">At Eaves (the Bottom Edge)</h3>
 <ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
 <li>Install the drip edge directly on the decking first, before the underlayment</li>
 <li>Lap the underlayment over the top flange of the drip edge</li>
@@ -12700,7 +12700,7 @@ export const blogPosts: BlogPost[] = [
 <li>Fasten with roofing nails roughly every 12 inches, set back about 1.5 inches from the outer edge</li>
 </ol>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">At rakes (the side edges)</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">At Rakes (the Side Edges)</h3>
 <ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
 <li>Install the drip edge over the underlayment along the sloped gable edges</li>
 <li>This sheds wind-driven rain off the surface and over the edge rather than trapping it</li>
@@ -13640,7 +13640,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Standard shingles without cleaning are often heavily stained by this point, with thick black algae covering 50 percent or more of the roof surface. This is not just cosmetic. Heavy algae growth traps moisture against the shingle surface, accelerating granule loss and shortening the <a href="/blog/asphalt-shingle-lifespan-florida" class="text-primary hover:underline">lifespan of asphalt shingles in Florida</a>. AR shingles begin showing moderate signs of reduced protection as the copper granules deplete, but typically remain significantly cleaner than untreated shingles of the same age.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Cost Comparison Over 20 Years</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Cost Comparison over 20 Years</h3>
 
 <p class="text-gray-600 mb-6">The upfront cost difference between AR and standard shingles is about 10 to 15 percent. For an average Jacksonville home with a 2,000-square-foot roof, that translates to roughly $400 to $800 more for the entire roof. Compare that to the cost of professional roof cleaning every 1 to 2 years at $300 to $600 per session. Over a 20-year roof lifespan, you could spend $3,000 to $6,000 on cleaning alone, or you could spend an extra $400 to $800 upfront and avoid most or all of those cleaning costs.</p>
 
@@ -13962,22 +13962,22 @@ export const blogPosts: BlogPost[] = [
 <div class="bg-primary/10 rounded-lg p-6 my-8">
 <h2 class="text-xl font-bold text-secondary mb-4">Frequently Asked Questions About Shingle Granule Loss</h2>
 
-<h3 class="text-lg font-semibold text-secondary mt-4 mb-2">Is it normal to find granules in gutters?</h3>
+<h3 class="text-lg font-semibold text-secondary mt-4 mb-2">Is It Normal to Find Granules in Gutters?</h3>
 <p class="text-gray-600 mb-4">Yes, a small amount of granule accumulation in your gutters is completely normal, especially during the first year after a new roof installation. Shingles shed excess loose granules from the manufacturing process during this break-in period. On an established roof, a thin layer of granules mixed with other debris during gutter cleaning is expected. You should only be concerned when you find heavy, concentrated deposits of granules or when the amount increases significantly from one year to the next.</p>
 
-<h3 class="text-lg font-semibold text-secondary mt-4 mb-2">How long do shingle granules last?</h3>
+<h3 class="text-lg font-semibold text-secondary mt-4 mb-2">How Long Do Shingle Granules Last?</h3>
 <p class="text-gray-600 mb-4">Shingle granules are designed to last the full rated lifespan of the shingle, which is typically 20 to 30 years for standard architectural shingles and 15 to 20 years for 3-tab shingles. In Florida's harsher climate, you may start seeing noticeable granule loss around the 15 to 20 year mark on architectural shingles. Premium shingles with enhanced granule adhesion technology can retain granules longer. The <a href="/blog/asphalt-shingle-lifespan-florida" class="text-primary hover:underline">actual lifespan of asphalt shingles in Florida</a> depends on climate exposure, ventilation, and maintenance.</p>
 
-<h3 class="text-lg font-semibold text-secondary mt-4 mb-2">Can hail cause granule loss even without visible dents?</h3>
+<h3 class="text-lg font-semibold text-secondary mt-4 mb-2">Can Hail Cause Granule Loss Even Without Visible Dents?</h3>
 <p class="text-gray-600 mb-4">Absolutely. Hail does not need to create visible dents or cracks to damage your shingles. Even moderate hail can loosen and displace granules on impact without leaving obvious marks you can see from the ground. This is called functional damage, where the shingle surface is compromised even though it does not look severely damaged to the untrained eye. This is why professional <a href="/blog/hail-damage-roof-florida" class="text-primary hover:underline">hail damage inspections</a> are so important after any hail event.</p>
 
-<h3 class="text-lg font-semibold text-secondary mt-4 mb-2">Should I be worried about granules coming off a new roof?</h3>
+<h3 class="text-lg font-semibold text-secondary mt-4 mb-2">Should I Be Worried About Granules Coming Off a New Roof?</h3>
 <p class="text-gray-600 mb-4">No. New shingles always shed excess granules during the first several months after installation. This is a normal part of the break-in process and does not indicate defective materials or poor installation. The loose granules were on the surface during manufacturing but not fully embedded in the asphalt. They wash off during the first few rains. If heavy shedding continues beyond the first year, contact your roofing contractor to investigate a possible manufacturing issue.</p>
 
-<h3 class="text-lg font-semibold text-secondary mt-4 mb-2">Does granule loss void my roof warranty?</h3>
+<h3 class="text-lg font-semibold text-secondary mt-4 mb-2">Does Granule Loss Void My Roof Warranty?</h3>
 <p class="text-gray-600 mb-4">Normal granule loss due to aging does not void your warranty, but it also is typically not covered by the warranty since it is considered normal wear. However, premature or excessive granule loss caused by a manufacturing defect is usually covered under the shingle manufacturer's material warranty. If your roof is relatively new and experiencing significant granule loss, document the issue with photos and contact both your installer and the manufacturer. Gimo's Roofing helps our customers navigate warranty claims when defective materials are suspected.</p>
 
-<h3 class="text-lg font-semibold text-secondary mt-4 mb-2">What color are the granules I am finding in my gutters?</h3>
+<h3 class="text-lg font-semibold text-secondary mt-4 mb-2">What Color Are the Granules I Am Finding in My Gutters?</h3>
 
 
 <div class="bg-secondary rounded-xl p-6 my-8 text-center">
@@ -14147,7 +14147,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Walk the perimeter of your home and inspect every soffit panel. Push gently on each one to check if it flexes or feels loose. Any panel that moves needs to be resecured. Add additional fasteners at panel joints and corners. If your soffit panels are old, warped, or damaged, replacing them proactively with Gimo's Roofing <a href="/blog/fascia-soffit-repair-florida" class="text-primary hover:underline">soffit and fascia repair services</a> is far cheaper than repairing raccoon damage to your attic.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Install Hardware Cloth Over Vents</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Install Hardware Cloth over Vents</h3>
 
 <p class="text-gray-600 mb-6">Replace lightweight aluminum screening on all roof vents, gable vents, and soffit vents with 16-gauge galvanized steel hardware cloth with half-inch openings. This material is strong enough to resist raccoon claws and teeth while still allowing adequate airflow for your <a href="/blog/roof-ventilation-importance-florida" class="text-primary hover:underline">roof ventilation system</a>. Secure the hardware cloth with screws, not staples, as raccoons can pull stapled material free.</p>
 
@@ -14719,27 +14719,27 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Frequently Asked Questions About Roof Cleaning in Florida</h2>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">How often should I clean my roof in Florida?</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">How Often Should I Clean My Roof in Florida?</h3>
 
 <p class="text-gray-600 mb-6">For most Florida homes, professional soft washing every two to three years is sufficient to keep algae under control and maintain your roof's appearance. Homes with heavy tree coverage or north-facing roof slopes that stay shaded may need cleaning more frequently, closer to every 18 to 24 months. Homes in open, sunny areas with good air circulation may go three to four years between cleanings.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Will roof cleaning damage my shingles?</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Will Roof Cleaning Damage My Shingles?</h3>
 
 <p class="text-gray-600 mb-6">Soft washing done correctly by a qualified professional will not damage your shingles. It is the manufacturer-recommended cleaning method. However, pressure washing will absolutely damage shingles by stripping away the protective granule layer. The key distinction is pressure. If anyone proposes cleaning your roof with a pressure washer, decline and find a contractor who uses the soft wash method.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">How much does professional roof cleaning cost in Florida?</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">How Much Does Professional Roof Cleaning Cost in Florida?</h3>
 
 <p class="text-gray-600 mb-6">Professional soft wash roof cleaning in Florida typically costs between $300 and $600 for a standard single-family home. Factors that affect the price include roof size, pitch or steepness, severity of algae growth, accessibility, and whether any repairs are needed. Two-story homes and steep roofs cost more due to the additional safety equipment and time required.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Can I use a garden hose to clean my roof?</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Can I Use a Garden Hose to Clean My Roof?</h3>
 
 <p class="text-gray-600 mb-6">A garden hose alone will not remove algae from your roof. The water pressure is too low to dislodge established colonies, and without a chemical treatment, the algae will remain alive and continue growing. A garden hose can be used to apply and rinse a cleaning solution as part of a soft wash process, but the cleaning solution is the essential component, not the water pressure.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Does roof cleaning extend my roof's lifespan?</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Does Roof Cleaning Extend My Roof's Lifespan?</h3>
 
 <p class="text-gray-600 mb-6">Proper roof cleaning can help your roof reach its full expected lifespan by removing organisms that cause premature degradation. However, cleaning does not reverse existing damage or add years beyond the shingle's designed lifespan. Think of it as preventive maintenance that helps your roof perform as intended rather than a way to make an old roof last longer than it should. For more on what to expect from your roof, see our guide to <a href="/blog/asphalt-shingle-lifespan-florida" class="text-primary hover:underline">asphalt shingle lifespan in Florida</a>.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Is bleach safe to use on a roof?</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Is Bleach Safe to Use on a Roof?</h3>
 
 <p class="text-gray-600 mb-6">Sodium hypochlorite, the active ingredient in bleach, is the primary cleaning agent recommended by shingle manufacturers for roof cleaning. At the correct concentration and application method, it is safe for asphalt shingles, tile roofs, and metal roofs. The concern is not the bleach itself but the concentration and the protection of surrounding landscaping. Professional cleaners use the correct dilution ratio and take precautions to protect plants and surfaces around your home.</p>
 
@@ -15391,7 +15391,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Less rigid:</strong> Can sag between brackets more easily, especially in larger sizes</li>
 </ul>
 
-<h2 id="side-by-side" class="text-2xl font-bold text-secondary mt-10 mb-4">K-Style vs Half-Round - Side-by-Side Comparison</h2>
+<h2 id="side-by-side" class="text-2xl font-bold text-secondary mt-10 mb-4">K-Style vs Half-Round - Side-By-Side Comparison</h2>
 
 <div class="bg-gray-100 rounded-lg p-6 my-8">
 <ul class="text-gray-700 space-y-3">
@@ -15678,7 +15678,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">In practical terms, a homeowner who installs a standing seam metal roof at age 35 may never need another roof in their lifetime. The same homeowner installing <a href="/blog/asphalt-shingle-lifespan-florida" class="text-primary hover:underline">asphalt shingles</a> would need two or three complete <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacements</a> over the same period. When you factor in the cost, disruption, and waste of multiple re-roofing projects, the metal roof often costs less over a 50-year period.</p>
 
-<h2 id="cost-per-year" class="text-2xl font-bold text-secondary mt-10 mb-4">Cost Per Year - Metal Roof ROI Analysis</h2>
+<h2 id="cost-per-year" class="text-2xl font-bold text-secondary mt-10 mb-4">Cost per Year - Metal Roof ROI Analysis</h2>
 
 <p class="text-gray-600 mb-6">Looking at roofing cost on a per-year basis reveals the true value of metal roofing. Here is the math for a typical 2,000 square foot Jacksonville home.</p>
 
@@ -16031,7 +16031,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<h2 id="structural-components" class="text-2xl font-bold text-secondary mt-10 mb-4">Structural Components - The Skeleton of Your Roof</h2>
+<h2 id="structural-components" class="text-2xl font-bold text-secondary mt-10 mb-4">Structural Components - the Skeleton of Your Roof</h2>
 
 <p class="text-gray-600 mb-6">The structural components bear the weight of everything above them, plus the forces of wind, rain, and occasionally the weight of a roofing crew. These components are hidden from view but are the most critical elements of your roof system.</p>
 
@@ -16066,7 +16066,7 @@ export const blogPosts: BlogPost[] = [
 <a href="/contact" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Schedule Free Inspection</a>
 </div>
 </div>
-<h2 id="roof-covering" class="text-2xl font-bold text-secondary mt-10 mb-4">Roof Covering Layer - What You See From Outside</h2>
+<h2 id="roof-covering" class="text-2xl font-bold text-secondary mt-10 mb-4">Roof Covering Layer - What You See from Outside</h2>
 
 <p class="text-gray-600 mb-6">The roof covering is the outermost layer that sheds water and protects everything beneath it from sun, wind, and rain. Different covering materials have different lifespans, costs, and performance characteristics, especially in Florida's challenging climate.</p>
 
@@ -16289,7 +16289,7 @@ export const blogPosts: BlogPost[] = [
 <a href="/contact" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Schedule Free Inspection</a>
 </div>
 </div>
-<h2 id="nail-sweep" class="text-2xl font-bold text-secondary mt-10 mb-4">The Nail Sweep - The Most Important Cleanup Step</h2>
+<h2 id="nail-sweep" class="text-2xl font-bold text-secondary mt-10 mb-4">The Nail Sweep - the Most Important Cleanup Step</h2>
 
 <p class="text-gray-600 mb-6">Roofing nails are the biggest post-project hazard. A typical roof replacement uses 8,000 to 12,000 nails, and despite every precaution, some will end up in your yard, driveway, flower beds, and walkways. A single roofing nail can puncture a tire, injure a barefoot child, or hurt a pet.</p>
 
@@ -16715,7 +16715,7 @@ export const blogPosts: BlogPost[] = [
 <a href="/contact" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Schedule Free Inspection</a>
 </div>
 </div>
-<h2 id="vinyl-siding" class="text-2xl font-bold text-secondary mt-10 mb-4">Vinyl Siding - The Affordable Workhorse</h2>
+<h2 id="vinyl-siding" class="text-2xl font-bold text-secondary mt-10 mb-4">Vinyl Siding - the Affordable Workhorse</h2>
 
 <p class="text-gray-600 mb-6">Vinyl siding is the most installed siding material in America and for good reason. It is affordable, requires virtually no maintenance, never rots, and is immune to termites. Modern vinyl siding has come a long way from the thin, wavy panels of the 1980s.</p>
 
@@ -16744,7 +16744,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">If you choose vinyl for your Jacksonville home, invest in thick-gauge panels (0.044 inch or thicker), insulated-back options for added rigidity and R-value, and light to medium colors that resist UV fading. Verify the product carries a wind rating appropriate for your location. Gimo's Roofing installs premium <a href="/services/siding-installation" class="text-primary hover:underline">vinyl siding</a> rated for Florida's wind requirements.</p>
 
-<h2 id="fiber-cement" class="text-2xl font-bold text-secondary mt-10 mb-4">Fiber Cement Siding (Hardie Board) - The Florida Champion</h2>
+<h2 id="fiber-cement" class="text-2xl font-bold text-secondary mt-10 mb-4">Fiber Cement Siding (Hardie Board) - the Florida Champion</h2>
 
 <p class="text-gray-600 mb-6">Fiber cement siding, most commonly known by the brand name Hardie Board (James Hardie Industries), is made from a mixture of cement, sand, and cellulose fibers. It combines the appearance of real wood with the durability of concrete. In Florida, fiber cement has become the gold standard for homes that want long-lasting, hurricane-resistant siding with premium curb appeal.</p>
 
@@ -16920,7 +16920,7 @@ export const blogPosts: BlogPost[] = [
       { id: "ordering-tips", title: "Ordering Tips" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - Shingles Per Bundle</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - Shingles per Bundle</h2>
 
 <p class="text-gray-600 mb-6"><strong>A standard bundle of 3-tab asphalt shingles contains 26 shingles and covers approximately 33.3 square feet. A bundle of architectural shingles contains 15-25 shingles (varies by manufacturer) and also covers approximately 33.3 square feet.</strong> It takes 3 bundles to cover one roofing "square" (100 square feet). A typical 2,000 square foot Jacksonville home needs 60-75 bundles including waste.</p>
 
@@ -16935,7 +16935,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<h2 id="shingles-per-bundle" class="text-2xl font-bold text-secondary mt-10 mb-4">Shingles Per Bundle by Shingle Type</h2>
+<h2 id="shingles-per-bundle" class="text-2xl font-bold text-secondary mt-10 mb-4">Shingles per Bundle by Shingle Type</h2>
 
 <p class="text-gray-600 mb-6">The number of individual shingles in a bundle varies based on the shingle type and manufacturer. However, most bundles are designed to cover approximately the same area, about 33.3 square feet.</p>
 
@@ -16998,7 +16998,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<h2 id="bundles-per-square" class="text-2xl font-bold text-secondary mt-10 mb-4">How Many Bundles Per Square - The Standard Rule</h2>
+<h2 id="bundles-per-square" class="text-2xl font-bold text-secondary mt-10 mb-4">How Many Bundles per Square - the Standard Rule</h2>
 
 <p class="text-gray-600 mb-6">The general rule is <strong>3 bundles per square</strong> for standard shingles. However, this varies by product.</p>
 
@@ -17119,7 +17119,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 <div class="bg-gray-100 rounded-lg p-6 my-8">
-<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways - Shingles Per Bundle</h2>
+<h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways - Shingles per Bundle</h2>
 <ul class="text-gray-700 space-y-2">
 <li>- <strong>3-tab: 26 shingles per bundle,</strong> 3 bundles per square</li>
 <li>- <strong>Architectural: 15-25 per bundle,</strong> 3-4 bundles per square (check wrapper)</li>
@@ -17209,7 +17209,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">You can measure your roof pitch from inside the attic (safest) or from outside on a ladder. You need a level, a tape measure, and a pencil.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Method 1 - From the Attic (Recommended)</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Method 1 - from the Attic (Recommended)</h3>
 
 <ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-3">
 <li>Go into the attic with a level and tape measure</li>
@@ -17219,7 +17219,7 @@ export const blogPosts: BlogPost[] = [
 <li>If you measure 6 inches vertically, you have a 6/12 pitch</li>
 </ol>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Method 2 - From a Ladder (Use Caution)</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Method 2 - from a Ladder (Use Caution)</h3>
 
 <ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-3">
 <li>Place a ladder safely against the eave. Do not get on the roof</li>
@@ -17923,7 +17923,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">The roofing material you choose is the single biggest factor in your total project cost. Each material comes with different price points, lifespans, maintenance requirements, and performance characteristics. Understanding these trade-offs helps you make the best investment decision for your Jacksonville home.</p>
 
-<h3 class="text-xl font-bold text-secondary mt-8 mb-3">Asphalt Shingles - The Value Leader</h3>
+<h3 class="text-xl font-bold text-secondary mt-8 mb-3">Asphalt Shingles - the Value Leader</h3>
 
 <p class="text-gray-600 mb-6">Asphalt shingles remain the most popular and cost-effective roofing material in Jacksonville. Within the asphalt category, there is a significant range in quality and price. Basic three-tab shingles are the most affordable option at $3.50 to $5.25 per square foot installed, but they offer the shortest lifespan at 15 to 20 years and the least wind resistance. Most Jacksonville roofing contractors, including Gimo's Roofing, recommend against three-tab shingles for new installations because the modest savings compared to architectural shingles is not worth the reduced performance and lifespan.</p>
 
@@ -17931,7 +17931,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Premium architectural shingles at $6.00 to $9.00 per square foot installed include designer lines like GAF Camelot, Owens Corning Berkshire, and CertainTeed Grand Manor. These products offer enhanced aesthetics that mimic natural slate or cedar shake, superior wind ratings, and the longest warranties in the asphalt category. They are ideal for homeowners who want the performance benefits of modern shingles with a more distinctive appearance.</p>
 
-<h3 class="text-xl font-bold text-secondary mt-8 mb-3">Metal Roofing - The Durability Champion</h3>
+<h3 class="text-xl font-bold text-secondary mt-8 mb-3">Metal Roofing - the Durability Champion</h3>
 
 <p class="text-gray-600 mb-6">Metal roofing has experienced a surge in popularity among Jacksonville homeowners over the past decade, and the trend continues in 2026. Standing seam metal roofing, the premium metal option, costs $8.00 to $14.00 per square foot installed in Jacksonville. The wide price range reflects differences in metal gauge, panel profile, coating system, and color options. Galvalume steel panels are on the lower end, while aluminum and zinc panels are on the higher end.</p>
 
@@ -17939,7 +17939,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">When evaluating metal roofing cost, consider the total cost of ownership over the life of the home. A metal roof at $20,000 that lasts 50 years costs $400 per year of service. An asphalt shingle roof at $11,000 that lasts 25 years costs $440 per year of service and will need replacement at least once during the same 50-year period, doubling the total expenditure. For homeowners who plan to stay in their Jacksonville home long-term, metal roofing often represents the better financial decision. Read our detailed <a href="/blog/metal-roof-vs-shingles-florida" class="text-primary hover:underline">metal roof vs shingles comparison</a> for more analysis.</p>
 
-<h3 class="text-xl font-bold text-secondary mt-8 mb-3">Tile Roofing - The Premium Option</h3>
+<h3 class="text-xl font-bold text-secondary mt-8 mb-3">Tile Roofing - the Premium Option</h3>
 
 <p class="text-gray-600 mb-6">Tile roofing is the most expensive residential roofing material but also the longest lasting. Concrete tile at $10.00 to $16.00 per square foot installed and clay tile at $12.00 to $20.00 per square foot installed can last 50 to 100 years with proper maintenance. Tile is particularly popular in certain Jacksonville communities with Spanish, Mediterranean, or Southwestern architectural themes.</p>
 
@@ -18130,7 +18130,7 @@ export const blogPosts: BlogPost[] = [
       { id: "what-to-do", title: "What to Do If You Have Roof Damage" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - The 25% Roof Rule in Florida</h2>
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - the 25% Roof Rule in Florida</h2>
 
 <p class="text-gray-600 mb-6"><strong>Florida's 25% roof rule historically required a complete roof replacement any time more than 25% of a roof was repaired or replaced within a 12-month period, even when the rest of the roof was in good condition.</strong> In May 2022, Senate Bill 4-D modified this rule. Today, if your roof was built or replaced in compliance with the 2007 Florida Building Code (generally meaning permitted on or after March 1, 2009), you are exempt from the 25% rule and only the damaged portion needs to be repaired or replaced. Roofs that predate the 2007 code are still subject to the original rule.</p>
 
@@ -18175,7 +18175,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">There are still situations where the 25% rule kicks in. Here is how to figure out where you stand.</p>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">You Are Exempt From the 25% Rule If:</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">You Are Exempt from the 25% Rule If:</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Your roof was permitted on or after March 1, 2009 (the 2007 Florida Building Code effective date)</li>
@@ -18202,7 +18202,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">The bottom line: the 25% rule is just one factor in your insurance claim. Adjuster determination, policy language, deductible amounts, and the actual extent of damage all play a role. Always work with a roofer who has experience documenting damage for insurance carriers. At Gimo's Roofing we provide detailed inspection reports, photo documentation, and direct communication with adjusters as part of every <a href="/services/roof-repair" class="text-primary hover:underline">storm damage claim</a>.</p>
 
-<h2 id="what-to-do" class="text-2xl font-bold text-secondary mt-10 mb-4">What to Do If You Have Roof Damage</h2>
+<h2 id="what-to-do" class="text-2xl font-bold text-secondary mt-10 mb-4">What to Do if You Have Roof Damage</h2>
 
 <p class="text-gray-600 mb-6">If you suspect storm or wind damage to your roof, follow these steps before the 25% rule even enters the conversation:</p>
 
@@ -18297,7 +18297,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Third, sales objections. Metal roofing has been the disruptive newcomer in residential roofing for decades, and shingle salespeople have leaned on the lightning myth as a fear-based sales tactic for as long as both products have been in the same market. Even today we hear it from homeowners who are weighing a quote against a metal roof for the first time.</p>
 
-<h2 id="what-happens" class="text-2xl font-bold text-secondary mt-10 mb-4">What Happens If a Metal Roof Is Struck</h2>
+<h2 id="what-happens" class="text-2xl font-bold text-secondary mt-10 mb-4">What Happens if a Metal Roof Is Struck</h2>
 
 <p class="text-gray-600 mb-6">Here is where the metal-versus-shingle comparison flips entirely. When lightning strikes any roof, it dumps an enormous amount of energy into a very small area in a very short time - typically 30,000 amps in a few microseconds, with channel temperatures around 50,000 degrees Fahrenheit. That energy has to go somewhere.</p>
 
@@ -18442,7 +18442,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<h2 id="physics" class="text-2xl font-bold text-secondary mt-10 mb-4">How Cell Signals Actually Interact With Metal</h2>
+<h2 id="physics" class="text-2xl font-bold text-secondary mt-10 mb-4">How Cell Signals Actually Interact with Metal</h2>
 
 <p class="text-gray-600 mb-6">Cell phones communicate with cell towers using radio waves in the 600 MHz to 6 GHz range, depending on the carrier and the specific band. These waves travel in straight lines from the tower to your phone, passing through walls, glass, and (yes) roofs along the way. Every material the signal passes through attenuates it - that is, reduces its strength.</p>
 
@@ -18475,7 +18475,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 </div>
 
-<h2 id="fixes" class="text-2xl font-bold text-secondary mt-10 mb-4">Easy Fixes If Signal Does Drop</h2>
+<h2 id="fixes" class="text-2xl font-bold text-secondary mt-10 mb-4">Easy Fixes if Signal Does Drop</h2>
 
 <p class="text-gray-600 mb-6">If you do experience a noticeable drop in cell reception after a metal roof installation - or if you live in a marginal-signal area and want to head off the issue before it becomes a problem - the solutions are inexpensive and effective.</p>
 
@@ -18586,7 +18586,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Worth noting: a seller's disclosure is not always accurate. Sellers sometimes guess, and sometimes they round down to make the home look better. Treat this as a starting point, not a final answer.</p>
 
-<h2 id="method-2" class="text-2xl font-bold text-secondary mt-10 mb-4">Method 2: Pull the Permit History (The Most Reliable Method)</h2>
+<h2 id="method-2" class="text-2xl font-bold text-secondary mt-10 mb-4">Method 2: Pull the Permit History (the Most Reliable Method)</h2>
 
 <p class="text-gray-600 mb-6">Every legitimate roof replacement in Florida requires a permit pulled with the local building department. Permits are public records, and they include the installation date, the contractor name, the roofing material, and (in most jurisdictions) the inspection records confirming the work passed final inspection.</p>
 
