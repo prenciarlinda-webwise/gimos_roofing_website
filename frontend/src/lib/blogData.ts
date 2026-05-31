@@ -578,7 +578,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">A new roof isn't the highest ROI upgrade on paper, you'll recoup more on a garage door or stone entry. But it's the most consequential upgrade for whether your home sells at all, because a failed roof can void insurance, fail four-point inspections, scare off lenders, and re-open negotiations at the last minute.</p>
 
-<p class="text-gray-600 mb-6">For homes 15+ years old in Florida, the roof is usually the deciding factor between a smooth closing at full asking price and a price cut after the buyer's inspection. The rest of this guide covers what each upgrade actually returns, why the roof gets special treatment, and the math on when to replace it before listing.</p>
+<p class="text-gray-600 mb-6">For homes 15+ years old in Florida, the roof is usually the deciding factor between a smooth closing at full asking price and a price cut after the buyer's inspection. Larger projects can add value too, and if you are weighing added square footage, see our guide to <a href="/blog/second-story-addition-roofing" class="text-primary hover:underline">roofing for a second-story addition</a> for the structural and cost factors involved. The rest of this guide covers what each upgrade actually returns, why the roof gets special treatment, and the math on when to replace it before listing.</p>
 
 <h2 id="ranked-list" class="text-2xl font-bold text-secondary mt-10 mb-4">The 7 Best Ways to Increase Your Home Value, Ranked</h2>
 
@@ -3399,7 +3399,7 @@ export const blogPosts: BlogPost[] = [
 </table>
 </div>
 
-<p class="text-gray-600 mb-6">Important: These are general guidelines. Each insurer has different policies, and rules change frequently. Contact your specific insurer to understand their requirements.</p>
+<p class="text-gray-600 mb-6">Important: These are general guidelines. Each insurer has different policies, and rules change frequently. Contact your specific insurer to understand their requirements. If you own an attached unit, the roof is often covered by an association master policy rather than your own, so see how <a href="/blog/townhouse-condo-roofing-florida" class="text-primary hover:underline">townhouse and condo roofing</a> insurance responsibility is split.</p>
 
 <h2 id="age-10" class="text-2xl font-bold text-secondary mt-10 mb-4">Will Insurance Cover a 10-Year-Old Roof?</h2>
 
@@ -4967,7 +4967,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-10 mb-4">How Long Will My Clay Tile Roof Last in Jacksonville?</h2>
 
-<p class="text-gray-600 mb-4">The clay tiles on your roof can last a century or more, some tile roofs in Europe are 300+ years old. Florida's climate is actually favorable for clay tiles: they don't degrade from UV like asphalt, and they handle heat and humidity well.</p>
+<p class="text-gray-600 mb-4">The clay tiles on your roof can last a century or more, some tile roofs in Europe are 300+ years old. Florida's climate is actually favorable for clay tiles: they don't degrade from UV like asphalt, and they handle heat and humidity well. This longevity is one reason clay tile is a common choice when <a href="/blog/historic-home-roofing-florida" class="text-primary hover:underline">roofing a historic Florida home</a> where period-correct materials matter.</p>
 
 <p class="text-gray-600 mb-6">However, the complete roofing system involves more than tiles. The underlayment, flashings, and other components wear out much faster and must be addressed to prevent leaks and damage.</p>
 
@@ -5437,7 +5437,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">For most Florida applications, TPO roofing is the best choice. Its white reflective surface significantly reduces cooling costs in our hot climate, the heat-welded seams create watertight connections, and it costs less than many alternatives while offering a 20-30 year lifespan.</p>
 
-<p class="text-gray-600 mb-6">However, the "best" option depends on your specific situation, building type, budget, existing roof structure, and priorities. Here's a detailed look at each option.</p>
+<p class="text-gray-600 mb-6">However, the "best" option depends on your specific situation, building type, budget, existing roof structure, and priorities. Apartment buildings frequently use these flat systems, so if you manage one of those properties, our guide to <a href="/blog/multi-family-roofing-florida" class="text-primary hover:underline">multi-family roofing</a> covers the added scheduling and tenant factors. Here's a detailed look at each option.</p>
 
 <h2 id="tpo" class="text-2xl font-bold text-secondary mt-10 mb-4">TPO Roofing: Best for Florida Heat</h2>
 
@@ -7810,7 +7810,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Get Annual Inspections:</strong> Professional inspections document roof condition</li>
 </ol>
 
-<p class="text-gray-600 mb-6">At Gimo's Roofing, we provide comprehensive workmanship warranties and help you understand your manufacturer warranty options. Ask about our warranty coverage when getting your <a href="/contact" class="text-primary hover:underline">free estimate</a>.</p>
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we provide comprehensive workmanship warranties and help you understand your manufacturer warranty options. If you own an attached home, warranty responsibility can be shared with an association, so review how <a href="/blog/townhouse-condo-roofing-florida" class="text-primary hover:underline">townhouse and condo roofing</a> coverage is handled before you sign. Ask about our warranty coverage when getting your <a href="/contact" class="text-primary hover:underline">free estimate</a>.</p>
 
 
 
@@ -9115,7 +9115,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "3 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Attic Insulation in Florida</h2>
 
-<p class="text-gray-600 mb-6"><strong>Florida homes need R-30 to R-60 attic insulation to meet energy code and optimize efficiency.</strong> Proper insulation keeps conditioned air in your home, reduces HVAC workload, and prevents moisture problems that can damage roofing. Most Florida homes are under-insulated, adding insulation typically pays for itself in 2-4 years through energy savings.</p>
+<p class="text-gray-600 mb-6"><strong>Florida homes need R-30 to R-60 attic insulation to meet energy code and optimize efficiency.</strong> Proper insulation keeps conditioned air in your home, reduces HVAC workload, and prevents moisture problems that can damage roofing. It works hand in hand with <a href="/blog/energy-efficient-roofing-florida" class="text-primary hover:underline">energy efficient roofing</a> to lower cooling costs in Florida's climate. Most Florida homes are under-insulated, adding insulation typically pays for itself in 2-4 years through energy savings.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Florida Insulation Facts:</p>
@@ -9611,7 +9611,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "3 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Solar Panels and Florida Roofs</h2>
 
-<p class="text-gray-600 mb-6"><strong>Your roof should have at least 10-15 years of remaining life before solar installation.</strong> Solar panels typically last 25-30 years, and removing them for roof replacement is expensive. Asphalt shingles, metal, and tile roofs all work for solar. Most installations don't void roof warranties if done properly, but damage from installation can void warranties.</p>
+<p class="text-gray-600 mb-6"><strong>Your roof should have at least 10-15 years of remaining life before solar installation.</strong> Solar panels typically last 25-30 years, and removing them for roof replacement is expensive. Asphalt shingles, metal, and tile roofs all work for solar. Before installing, confirm <a href="/blog/roof-load-capacity-florida" class="text-primary hover:underline">how much weight your roof can hold</a>, since panels and mounting hardware add 3-5 pounds per square foot. Most installations don't void roof warranties if done properly, but damage from installation can void warranties.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Key Solar-Roof Considerations:</p>
@@ -9961,7 +9961,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="what-is-decking" class="text-2xl font-bold text-secondary mt-10 mb-4">What Is Roof Decking?</h2>
 
-<p class="text-gray-600 mb-6">Roof decking is the structural base of your roof system:</p>
+<p class="text-gray-600 mb-6">Roof decking is the structural base of your roof system, and its condition directly affects <a href="/blog/roof-load-capacity-florida" class="text-primary hover:underline">how much weight your roof can hold</a>:</p>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Plywood or OSB sheets nailed to rafters/trusses</li>
@@ -10590,7 +10590,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "2 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Commercial Roofing Types</h2>
 
-<p class="text-gray-600 mb-6"><strong>Most Florida commercial buildings use flat or low-slope roofing systems.</strong> TPO (thermoplastic polyolefin) is currently the most popular choice, offering good energy efficiency and durability. Metal roofing is gaining popularity for its longevity. Choice depends on budget, building use, and energy goals.</p>
+<p class="text-gray-600 mb-6"><strong>Most Florida commercial buildings use flat or low-slope roofing systems.</strong> TPO (thermoplastic polyolefin) is currently the most popular choice, offering good energy efficiency and durability. Metal roofing is gaining popularity for its longevity. Choice depends on budget, building use, and energy goals. These same systems are common on apartment complexes, so owners weighing <a href="/blog/multi-family-roofing-florida" class="text-primary hover:underline">multi-family roofing</a> face many of the same decisions covered here.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Commercial Roofing Comparison:</p>
@@ -15055,7 +15055,7 @@ export const blogPosts: BlogPost[] = [
     ],
     content: `<h2 id="what-is-a-dormer" class="text-2xl font-bold text-secondary mt-8 mb-4">What Is a Roof Dormer</h2>
 
-<p class="text-gray-600 mb-6"><strong>A roof dormer is a structural extension that projects vertically from a sloped roof, creating additional headroom, floor space, and natural light inside the upper level of a home.</strong> Dormers have their own roof, walls, and typically include a window. They are one of the most popular ways to transform unused attic space into livable square footage.</p>
+<p class="text-gray-600 mb-6"><strong>A roof dormer is a structural extension that projects vertically from a sloped roof, creating additional headroom, floor space, and natural light inside the upper level of a home.</strong> Dormers have their own roof, walls, and typically include a window. They are one of the most popular ways to transform unused attic space into livable square footage. If you need more room than a dormer provides, the next step up is <a href="/blog/second-story-addition-roofing" class="text-primary hover:underline">roofing for a second-story addition</a>, which adds a full upper level rather than a single projection.</p>
 
 <p class="text-gray-600 mb-6">In Jacksonville and across Northeast Florida, dormers are found on many residential architectural styles, from historic homes in <a href="/roofing-riverside-fl" class="text-primary hover:underline">Riverside</a> and <a href="/roofing-san-marco-fl" class="text-primary hover:underline">San Marco</a> to newer construction in <a href="/roofing-nocatee-fl" class="text-primary hover:underline">Nocatee</a> and <a href="/roofing-ponte-vedra-beach-fl" class="text-primary hover:underline">Ponte Vedra Beach</a>. Whether you are considering adding a dormer, need <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> around an existing one, or are planning a full <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> that includes dormer work, this guide covers everything you need to know.</p>
 
@@ -16557,7 +16557,7 @@ export const blogPosts: BlogPost[] = [
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>HOA approval:</strong> Many communities in <a href="/roofing-nocatee-fl" class="text-primary hover:underline">Nocatee</a>, <a href="/roofing-ponte-vedra-beach-fl" class="text-primary hover:underline">Ponte Vedra</a>, and Jacksonville's master-planned communities require Architectural Review Board (ARB) approval for roof color changes</li>
 <li><strong>Color palettes:</strong> Some HOAs maintain a list of approved shingle colors and manufacturers. Request this list before shopping</li>
-<li><strong>Historic districts:</strong> Homes in Jacksonville's historic districts like <a href="/roofing-riverside-fl" class="text-primary hover:underline">Riverside</a> and <a href="/roofing-san-marco-fl" class="text-primary hover:underline">San Marco</a> may face design review requirements that limit color choices</li>
+<li><strong>Historic districts:</strong> Homes in Jacksonville's historic districts like <a href="/roofing-riverside-fl" class="text-primary hover:underline">Riverside</a> and <a href="/roofing-san-marco-fl" class="text-primary hover:underline">San Marco</a> may face design review requirements that limit color choices, which is one of the special considerations when <a href="/blog/historic-home-roofing-florida" class="text-primary hover:underline">roofing a historic Florida home</a></li>
 <li><strong>Material restrictions:</strong> Some communities require specific materials (tile, <a href="/blog/metal-roof-vs-shingles-florida" class="text-primary hover:underline">metal</a>, or premium shingles) that have different color availability</li>
 </ul>
 
