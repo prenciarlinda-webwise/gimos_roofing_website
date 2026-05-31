@@ -37,8 +37,9 @@ const nextConfig = {
       // Non-existent location pages
       { source: '/roofing-julington-creek-fl', destination: '/roofing-nocatee-fl', permanent: true },
 
-      // Financing shortcut
-      { source: '/financing', destination: '/roof-financing', permanent: true },
+      // Financing consolidation -> /roof-financing-florida
+      { source: '/financing', destination: '/roof-financing-florida', permanent: true },
+      { source: '/roof-financing', destination: '/roof-financing-florida', permanent: true },
 
       // Old WordPress URL patterns
       { source: '/feed', destination: '/blog', permanent: true },

@@ -15,7 +15,6 @@ const mainPages = [
   { title: "Service Areas", href: "/service-areas" },
   { title: "Contact", href: "/contact" },
   { title: "Blog", href: "/blog" },
-  { title: "Roof Financing", href: "/roof-financing" },
 ]
 
 const servicePages = [

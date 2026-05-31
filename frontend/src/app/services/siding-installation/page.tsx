@@ -617,7 +617,7 @@ export default function SidingInstallationPage() {
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Project Gallery</h3>
               <p className="text-gray-600 text-sm">See examples of our siding installations throughout Jacksonville.</p>
             </Link>
-            <Link href="/financing" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
+            <Link href="/roof-financing-florida" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Financing Options</h3>
               <p className="text-gray-600 text-sm">Make your siding project affordable with our financing programs.</p>
             </Link>

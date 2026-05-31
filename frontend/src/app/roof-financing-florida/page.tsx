@@ -4,7 +4,7 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: "Roof Financing in Florida - Flexible Plans | Gimo's Roofing" },
+  title: { absolute: "Roof Financing in Florida - Flexible Plans - Gimo's Roofing" },
   description: "Roof financing Florida homeowners trust. Flexible roof replacement financing, $0 down, low monthly payments, and fast approvals from Gimo's Roofing. Apply today, (904) 606-5313.",
   openGraph: {
     title: "Roof Financing in Florida - Flexible Plans from Gimo's Roofing",
