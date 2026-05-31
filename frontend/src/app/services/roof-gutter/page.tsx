@@ -54,7 +54,10 @@ const faqs = [
   { question: "What is the difference between K-style and half-round gutters?", answer: "K-style gutters have a flat back and a decorative front profile that looks like crown molding, and they hold more water than a half-round of the same width, which suits Jacksonville's heavy rain. Half-round gutters are rounded troughs often seen on historic homes in Riverside and Springfield. K-style is the more common and lower-cost choice for most homes, while half-round is usually selected for older architecture or copper installations." },
   { question: "What size gutters do I need, 5 inch or 6 inch?", answer: "Five-inch K-style gutters handle most single-story Jacksonville homes with average roof areas. Six-inch gutters carry roughly 40 percent more water and are a better fit for homes with large or steep roofs, big roof valleys that funnel water to one spot, or heavy tree debris. Because Jacksonville sees over 50 inches of rain a year, we often recommend 6-inch gutters on larger two-story homes to prevent overflow." },
   { question: "How do you decide where to place downspouts?", answer: "We place a downspout at least every 30 to 40 feet of gutter and at major roof valleys where water concentrates during heavy rain. Downspouts are routed to direct water several feet away from the foundation, often with extensions or splash blocks. Correct downspout placement and sizing matter as much as the gutter itself, since undersized or poorly located downspouts are a common cause of overflow in Jacksonville storms." },
-  { question: "Can you repair gutters instead of replacing them?", answer: "Often yes. We reseal leaking seams and end caps, refasten sagging sections, replace damaged hangers, clear clogs, reattach separated joints, and repair short damaged runs. Repairs typically cost $150 to $500 and make sense when the gutters are otherwise sound and under about 15 years old. If the fascia behind the gutter is rotted or the system has widespread damage, we will explain why replacement is the better value." }
+  { question: "Can you repair gutters instead of replacing them?", answer: "Often yes. We reseal leaking seams and end caps, refasten sagging sections, replace damaged hangers, clear clogs, reattach separated joints, and repair short damaged runs. Repairs typically cost $150 to $500 and make sense when the gutters are otherwise sound and under about 15 years old. If the fascia behind the gutter is rotted or the system has widespread damage, we will explain why replacement is the better value." },
+  { question: "How much does gutter repair cost in Jacksonville?", answer: "Most gutter repairs in Jacksonville run $150 to $500. Resealing a leaking seam or end cap and refastening a sagging section sit at the low end, while replacing hangers, repairing fascia, or rehanging a longer run costs more. We give a firm price after a quick inspection, and if repair costs approach the price of replacement we will tell you so you can decide." },
+  { question: "How do you repair a leaking gutter seam?", answer: "We clean and dry the joint, remove old failed sealant, and reseal it with a high-quality gutter sealant or splice, then check that the section is pitched correctly so water flows to the downspout. Recurring seam leaks are one reason many Jacksonville homeowners switch to seamless aluminum gutters, which have no mid-run seams to fail." },
+  { question: "How much does gutter guard installation cost?", answer: "Gutter guards in Jacksonville typically cost $4 to $10 per linear foot installed, depending on the guard type (mesh, micro-mesh, or reverse-curve). On a typical home that is roughly $800 to $2,500. Guards cut down on cleaning and clogs, which matters under the heavy oak and pine canopy in neighborhoods like Mandarin, Riverside, and Ortega." }
 ]
 
 const breadcrumbSchema = {
@@ -95,7 +98,7 @@ export default function RoofGutterPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Gutters</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Gutter installation, repair &amp; replacement</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">Gutter Installation, Repair &amp; Replacement - Roof Gutter Jacksonville, FL</h1>
               <p className="text-lg text-gray-200 mb-6">
                 Gimo&apos;s Roofing installs, repairs, and replaces gutters across Jacksonville and Northeast Florida. Jacksonville gets more than 50 inches of rain a year, with daily summer thunderstorms and a hurricane season that runs June through November, so gutters that move water away from your roof, fascia, and foundation are not optional. We fabricate seamless aluminum gutters on-site to fit your home and serve Duval, St. Johns, Clay, and Nassau counties.
               </p>
@@ -165,13 +168,13 @@ export default function RoofGutterPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">How gutters protect your roof and foundation</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">How Gutters Protect Your Roof and Foundation</h2>
               <p className="text-gray-600 mb-4">Gutters do one job, and they do it under heavy load in Jacksonville. They catch the water that runs off your roof and route it through downspouts away from your home. Jacksonville averages more than 50 inches of rain per year, much of it falling in short, intense summer thunderstorms that can drop an inch or more in under an hour. A roof with no gutters, or with clogged or undersized gutters, dumps that water in concentrated sheets right at the base of your walls.</p>
               <p className="text-gray-600 mb-4">When water is not controlled, it works its way into the fascia board behind the gutter, soaks the soffit, and eventually rots the wood the roof edge depends on. At ground level, repeated overflow erodes soil, saturates the area around the slab, and can lead to foundation settling and standing water near the home. Gutters that overflow during storms can also push water back under the first course of shingles at the eave, which is a common hidden source of roof leaks we trace during <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Jacksonville</Link>.</p>
               <p className="text-gray-600">For homes with large oak and pine canopies, common in older Jacksonville neighborhoods, debris is the constant enemy. Leaves and needles build up, hold moisture against the metal and fascia, and block the flow. A correctly sized gutter system with the right downspout count and, where it makes sense, gutter guards keeps water moving and protects the most expensive parts of your home.</p>
             </div>
             <div className="bg-gray-50 rounded-xl p-8">
-              <h3 className="text-xl font-bold text-secondary mb-4">What failing gutters damage</h3>
+              <h3 className="text-xl font-bold text-secondary mb-4">What Failing Gutters Damage</h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start gap-3"><span className="text-primary mt-1">&#8226;</span><span><strong>Fascia and soffit:</strong> Overflow rots the wood at the roof edge.</span></li>
                 <li className="flex items-start gap-3"><span className="text-primary mt-1">&#8226;</span><span><strong>Roof deck and shingles:</strong> Backed-up water seeps under the eave.</span></li>
@@ -188,7 +191,7 @@ export default function RoofGutterPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Gutter installation in Jacksonville</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Gutter Installation in Jacksonville</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">We fabricate seamless aluminum gutters on-site, cut to the exact length of each roof run. Seamless gutters have no joints along their length, which removes the leak points that plague sectional gutters. For a rain-heavy climate like Jacksonville, that matters.</p>
           </div>
 
@@ -196,13 +199,13 @@ export default function RoofGutterPage() {
             <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
-                  <h3 className="text-xl font-bold text-secondary mb-3">Seamless aluminum gutters</h3>
+                  <h3 className="text-xl font-bold text-secondary mb-3">Seamless Aluminum Gutters</h3>
                   <p className="text-gray-600 mb-4">Aluminum is the standard for Jacksonville homes. It does not rust, it stands up to the humidity and salt air near the coast and the St. Johns River, and it comes in baked-on color finishes that match most homes. We cut each run from a continuous coil at your property, so the only seams in the entire system are at the corners and the downspout outlets.</p>
                   <p className="text-gray-600 mb-4">Seamless aluminum gutters typically cost roughly $6 to $12 per linear foot installed. The range depends on the gauge of the aluminum, the gutter size, the height and number of stories, and how many downspouts and corners your roofline needs. We measure the full perimeter and give you a written per-foot price with no surprises.</p>
                   <p className="text-gray-600"><strong>Typical cost:</strong> $6 to $12 per linear foot installed. A standard single-story home with 150 to 200 feet of gutter usually runs $1,200 to $3,500.</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="font-bold text-secondary mb-3">Why seamless</h4>
+                  <h4 className="font-bold text-secondary mb-3">Why Seamless</h4>
                   <ul className="text-gray-600 text-sm space-y-2">
                     <li>&#8226; No joints to leak along runs</li>
                     <li>&#8226; Cut to exact length on-site</li>
@@ -217,13 +220,13 @@ export default function RoofGutterPage() {
             <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
-                  <h3 className="text-xl font-bold text-secondary mb-3">K-style vs half-round profiles</h3>
+                  <h3 className="text-xl font-bold text-secondary mb-3">K-Style vs Half-Round Profiles</h3>
                   <p className="text-gray-600 mb-4">K-style gutters have a flat back and a front edge shaped like crown molding. They hold more water than a half-round gutter of the same width and are the most common choice on modern Jacksonville homes. Half-round gutters are rounded troughs, often chosen for historic homes in neighborhoods like Riverside, Avondale, and Springfield, or paired with copper for a specific look.</p>
                   <p className="text-gray-600 mb-4">For most homeowners we recommend K-style aluminum. It carries more water during the heavy summer downpours, costs less than half-round, and is easier to fit with gutter guards. Half-round remains the right call when the home&apos;s architecture or a copper installation calls for it.</p>
                   <p className="text-gray-600">Whichever profile fits your home, the goal is the same: move water off the roof and away from the structure fast enough to keep up with Jacksonville rainfall.</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="font-bold text-secondary mb-3">Profile at a glance</h4>
+                  <h4 className="font-bold text-secondary mb-3">Profile at a Glance</h4>
                   <ul className="text-gray-600 text-sm space-y-2">
                     <li>&#8226; K-style: holds more water, lower cost</li>
                     <li>&#8226; K-style: best fit for most homes</li>
@@ -237,13 +240,13 @@ export default function RoofGutterPage() {
             <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
-                  <h3 className="text-xl font-bold text-secondary mb-3">Gutter sizing and downspouts</h3>
+                  <h3 className="text-xl font-bold text-secondary mb-3">Gutter Sizing and Downspouts</h3>
                   <p className="text-gray-600 mb-4">Size is not a detail to guess at. Five-inch K-style gutters handle most single-story Jacksonville homes with average roof areas. Six-inch gutters carry roughly 40 percent more water and are the better choice for larger or steeper roofs, homes with big valleys that funnel water to one point, and properties under heavy tree cover. Because Jacksonville sees more than 50 inches of rain a year, we often recommend 6-inch gutters on larger two-story homes.</p>
                   <p className="text-gray-600 mb-4">Downspouts matter as much as the gutter. We place a downspout roughly every 30 to 40 feet of run and add them at major valleys where water concentrates. Each downspout is sized and routed to carry water several feet from the foundation, using extensions or splash blocks. Undersized or poorly placed downspouts are one of the most common reasons gutters overflow in a Jacksonville storm even when the gutters themselves are clean.</p>
                   <p className="text-gray-600">We walk your roofline, count the valleys, and size the system to your actual roof area, not a one-size estimate.</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="font-bold text-secondary mb-3">Sizing guidance</h4>
+                  <h4 className="font-bold text-secondary mb-3">Sizing Guidance</h4>
                   <ul className="text-gray-600 text-sm space-y-2">
                     <li>&#8226; 5-inch: most single-story homes</li>
                     <li>&#8226; 6-inch: large, steep, or two-story roofs</li>
@@ -262,28 +265,28 @@ export default function RoofGutterPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Gutter repair in Jacksonville</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Gutter Repair in Jacksonville</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">If your gutters are otherwise sound, repairs are often the right call. We fix the common failures we see on Jacksonville homes and tell you honestly when a repair will hold and when it is throwing money at a system that needs replacing.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card p-8">
-              <h3 className="text-xl font-bold text-secondary mb-3">Sagging and pulling sections</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Sagging and Pulling Sections</h3>
               <p className="text-gray-600 mb-3">Gutters sag when the hangers fail, the fascia behind them softens, or the system has carried more weight than it was hung for after years of debris and standing water. A sagging gutter holds water in the low spot instead of draining it, which adds weight and accelerates the problem.</p>
               <p className="text-gray-600">We refasten or replace hangers, reset the proper slope toward the downspouts, and check the fascia for rot. If the fascia is gone, we address that first so new fasteners have solid wood to bite into.</p>
             </div>
             <div className="card p-8">
-              <h3 className="text-xl font-bold text-secondary mb-3">Leaks and separated seams</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Leaks and Separated Seams</h3>
               <p className="text-gray-600 mb-3">On sectional gutters, the joints between pieces are the first thing to leak. Corners and end caps also work loose over time. A dripping seam may look minor, but it sends water straight down the fascia and behind the gutter where you cannot see the damage building.</p>
               <p className="text-gray-600">We reseal seams and end caps, reconnect separated joints, and replace fasteners that have backed out. Where a section is too far gone to seal reliably, we recommend replacing that run rather than chasing the same leak twice.</p>
             </div>
             <div className="card p-8">
-              <h3 className="text-xl font-bold text-secondary mb-3">Clogs and overflow</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Clogs and Overflow</h3>
               <p className="text-gray-600 mb-3">In Jacksonville&apos;s tree-heavy neighborhoods, oak leaves and pine needles pack downspout outlets and corners. Clogged gutters overflow in the first hard summer storm and push water against the fascia and foundation, undoing everything the gutter is supposed to do.</p>
               <p className="text-gray-600">We clear the gutters and downspouts, flush the system, and confirm it drains. If clogging is a recurring problem on your home, we will talk through gutter guards as a longer-term fix.</p>
             </div>
             <div className="card p-8">
-              <h3 className="text-xl font-bold text-secondary mb-3">Fascia rot behind the gutter</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Fascia Rot Behind the Gutter</h3>
               <p className="text-gray-600 mb-3">When gutters have leaked or overflowed for a long time, the fascia board behind them rots. Soft or stained fascia is a sign the damage has moved past the gutter into the structure of the roof edge.</p>
               <p className="text-gray-600">We assess the fascia and soffit, replace damaged wood, and then rehang the gutters on sound material. Addressing the fascia is part of a real repair, not an upsell, since new gutters on rotted wood will fail again.</p>
             </div>
@@ -299,13 +302,13 @@ export default function RoofGutterPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Gutter replacement in Jacksonville</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Gutter Replacement in Jacksonville</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">At some point repeated repairs cost more than a new system. We replace failing gutters with seamless aluminum sized for your roof, and we are honest about when you have crossed that line.</p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8">
             <div className="card p-8">
-              <h3 className="text-xl font-bold text-secondary mb-4">When to replace instead of repair</h3>
+              <h3 className="text-xl font-bold text-secondary mb-4">When to Replace Instead of Repair</h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start gap-3"><span className="text-primary mt-1">&#10003;</span><span><strong>Multiple sagging or pulling sections:</strong> When several runs are failing, replacing the system costs less than repeated hanger work.</span></li>
                 <li className="flex items-start gap-3"><span className="text-primary mt-1">&#10003;</span><span><strong>Cracks and splits along several runs:</strong> Old aluminum and steel crack as they age and cannot be reliably sealed.</span></li>
@@ -315,7 +318,7 @@ export default function RoofGutterPage() {
               </ul>
             </div>
             <div className="card p-8">
-              <h3 className="text-xl font-bold text-secondary mb-4">Materials and cost</h3>
+              <h3 className="text-xl font-bold text-secondary mb-4">Materials and Cost</h3>
               <p className="text-gray-600 mb-4">Most replacements use seamless aluminum for its rust resistance, weight, and cost. Copper and steel are available for specific looks or historic homes, at a higher price. We match the new gutters to your home&apos;s color and resize them if the old system was undersized for your roof area, which is common on homes that overflow during storms.</p>
               <p className="text-gray-600 mb-4">A full gutter replacement on an average Jacksonville home typically runs $1,200 to $3,500. Two-story homes, larger rooflines, gutter guards, and fascia repair raise that figure. We remove and dispose of the old gutters as part of the job.</p>
               <p className="text-gray-600">If a roof replacement and new gutters make sense together, we can coordinate both. Learn more about <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement in Jacksonville</Link>.</p>
@@ -334,13 +337,13 @@ export default function RoofGutterPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Gutter guards for tree-heavy neighborhoods</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Gutter Guards for Tree-Heavy Neighborhoods</h2>
               <p className="text-gray-600 mb-4">A lot of Jacksonville sits under mature oak and pine canopy. In shaded neighborhoods like Riverside, Avondale, San Marco, Ortega, and Mandarin, gutters fill with leaves and needles fast, and a clogged gutter overflows in the first heavy storm. Gutter guards reduce how much debris reaches the trough and cut down how often the system needs cleaning.</p>
               <p className="text-gray-600 mb-4">Guards add roughly $4 to $10 per linear foot depending on the style. In a heavily wooded yard the lower cleaning frequency and reduced overflow risk usually justify the cost. No guard is fully maintenance-free, especially under pine needles, so we recommend a style suited to your specific tree cover rather than a one-size product.</p>
               <p className="text-gray-600">We can add guards to a new gutter installation or fit them to existing gutters that are still in good shape. If your gutters are already failing, guards on a bad system are not worth it, and we will say so.</p>
             </div>
             <div className="bg-primary/10 rounded-xl p-8">
-              <h3 className="text-xl font-bold text-secondary mb-4">Where guards pay off</h3>
+              <h3 className="text-xl font-bold text-secondary mb-4">Where Guards Pay Off</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center gap-2"><span className="text-primary">&#10003;</span> Homes under oak and pine canopy</li>
                 <li className="flex items-center gap-2"><span className="text-primary">&#10003;</span> Two-story homes hard to clean safely</li>
@@ -348,7 +351,7 @@ export default function RoofGutterPage() {
                 <li className="flex items-center gap-2"><span className="text-primary">&#10003;</span> Properties with steep, shaded slopes</li>
               </ul>
               <div className="mt-6 pt-6 border-t border-primary/20">
-                <h4 className="font-bold text-secondary mb-2">A realistic note</h4>
+                <h4 className="font-bold text-secondary mb-2">A Realistic Note</h4>
                 <p className="text-gray-600 text-sm">Guards reduce cleaning, they do not eliminate it. Pine needles in particular can still bridge some guard styles. We match the guard to your trees and roof pitch for the best real-world result.</p>
               </div>
             </div>
@@ -360,13 +363,13 @@ export default function RoofGutterPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Gutter costs in Jacksonville</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Gutter Costs in Jacksonville</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">Clear ranges so you know what to expect. Every job gets a written estimate after we measure your roofline.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="card p-6 text-center">
-              <h3 className="font-bold text-secondary mb-2">Gutter repair</h3>
+              <h3 className="font-bold text-secondary mb-2">Gutter Repair</h3>
               <p className="text-3xl font-bold text-primary mb-2">$150 - $500</p>
               <ul className="text-gray-600 text-sm text-left space-y-1">
                 <li>&#8226; Reseal leaking seams and end caps</li>
@@ -376,7 +379,7 @@ export default function RoofGutterPage() {
               </ul>
             </div>
             <div className="card p-6 text-center border-2 border-primary">
-              <h3 className="font-bold text-secondary mb-2">New installation</h3>
+              <h3 className="font-bold text-secondary mb-2">New Installation</h3>
               <p className="text-3xl font-bold text-primary mb-2">$6 - $12 / ft</p>
               <ul className="text-gray-600 text-sm text-left space-y-1">
                 <li>&#8226; Seamless aluminum, cut on-site</li>
@@ -386,7 +389,7 @@ export default function RoofGutterPage() {
               </ul>
             </div>
             <div className="card p-6 text-center">
-              <h3 className="font-bold text-secondary mb-2">Full replacement</h3>
+              <h3 className="font-bold text-secondary mb-2">Full Replacement</h3>
               <p className="text-3xl font-bold text-primary mb-2">$1,200 - $3,500</p>
               <ul className="text-gray-600 text-sm text-left space-y-1">
                 <li>&#8226; Remove and dispose old gutters</li>
@@ -405,7 +408,7 @@ export default function RoofGutterPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Our gutter process</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Our Gutter Process</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">From first call to finished system, here is what to expect when Gimo&apos;s Roofing handles your gutters.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -437,7 +440,7 @@ export default function RoofGutterPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Gutter service areas in Northeast Florida</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Gutter Service Areas in Northeast Florida</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We install, repair, and replace gutters across Duval, St. Johns, Clay, and Nassau counties. Explore our roofing pages in <Link href="/roofing-jacksonville-fl" className="text-primary hover:underline">Jacksonville</Link>, <Link href="/roofing-mandarin-fl" className="text-primary hover:underline">Mandarin</Link>, <Link href="/roofing-san-marco-fl" className="text-primary hover:underline">San Marco</Link>, <Link href="/roofing-riverside-fl" className="text-primary hover:underline">Riverside</Link>, <Link href="/roofing-jacksonville-beach-fl" className="text-primary hover:underline">Jacksonville Beach</Link>, and <Link href="/roofing-ponte-vedra-beach-fl" className="text-primary hover:underline">Ponte Vedra Beach</Link>.
             </p>
@@ -474,20 +477,20 @@ export default function RoofGutterPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Related roofing services</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Related Roofing Services</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">Gutters are one part of protecting your home from Northeast Florida weather. Here is how the rest fits together.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             <Link href="/services/roof-repair" className="card p-6 group">
-              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roof repair</h3>
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roof Repair</h3>
               <p className="text-gray-600 text-sm">Leak repair, shingle repair, and flashing repair, including leaks at the eave caused by overflowing gutters.</p>
             </Link>
             <Link href="/services/roof-replacement" className="card p-6 group">
-              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roof replacement</h3>
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roof Replacement</h3>
               <p className="text-gray-600 text-sm">Full roof replacement with new gutters coordinated into one project when the timing makes sense.</p>
             </Link>
             <Link href="/roof-financing-florida" className="card p-6 group">
-              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roofing financing</h3>
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roofing Financing</h3>
               <p className="text-gray-600 text-sm">Fixed monthly payment options so gutter and roof work can move forward without waiting for damage to spread.</p>
             </Link>
           </div>
@@ -497,7 +500,7 @@ export default function RoofGutterPage() {
       {/* CTA Section */}
       <section className="py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Need gutters installed, repaired, or replaced?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Need Gutters Installed, Repaired, or Replaced?</h2>
           <p className="text-secondary/80 mb-6">Get a free estimate from a licensed, CertainTeed Certified Jacksonville roofing contractor. FL License CCC1332453.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn bg-secondary text-white hover:bg-secondary/90">Get Free Estimate</a>

@@ -161,7 +161,7 @@ export default function RoofWaterproofingPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">What roof waterproofing is</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">What Roof Waterproofing Is</h2>
             <p className="text-gray-600 mb-4">Roof waterproofing is the process of sealing a roof so water cannot pass through it. Instead of replacing the whole roof, we add a continuous water-tight layer over a surface that is still structurally sound. That layer can be a liquid-applied coating, a single-ply membrane, fresh flashing and sealant at penetrations, or a moisture barrier below the roof deck. The result is one connected surface that sheds water rather than letting it find a path inside.</p>
             <p className="text-gray-600 mb-4">As a locally owned <Link href="/" className="text-primary hover:underline">Jacksonville roofing company</Link>, we treat waterproofing as a system, not a single product. A coating only performs if the roof beneath it is clean, dry, and repaired first. We inspect the roof, trace any active leaks to their source, repair the damage, then apply the waterproofing system across the whole surface so water has nowhere to enter.</p>
             <p className="text-gray-600">Waterproofing matters here because Jacksonville averages about 50 inches of rain a year, sits in a humid coastal climate, and faces wind-driven rain from June through November. Water that gets past a tired roof does not stay in one spot. It tracks along framing, soaks insulation, and shows up as a stain on a ceiling far from where it actually entered.</p>
@@ -173,29 +173,29 @@ export default function RoofWaterproofingPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof waterproofing methods we use</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Waterproofing Methods We Use</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">There is no single best waterproofing product. We match the method to your roof type, slope, and the source of the problem. Most Jacksonville projects combine two or three of the systems below.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="card p-6">
-              <h3 className="text-xl font-bold text-secondary mb-3">Elastomeric and acrylic roof coatings</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Elastomeric and Acrylic Roof Coatings</h3>
               <p className="text-gray-600">Elastomeric and acrylic coatings are liquid systems rolled or sprayed over the roof to form a flexible, seamless skin. They stretch and shrink with daily heat cycles without cracking, and their reflective white finish bounces sunlight to lower attic temperatures. These coatings are a strong fit for low-slope and metal roofs that still have years of structure left.</p>
             </div>
             <div className="card p-6">
-              <h3 className="text-xl font-bold text-secondary mb-3">Silicone roof coatings</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Silicone Roof Coatings</h3>
               <p className="text-gray-600">Silicone coatings resist ponding water better than almost any other liquid system, which matters on flat roofs that hold puddles after Jacksonville downpours. Silicone does not break down under constant moisture or intense sun, so it holds up in our climate. It is a common choice for commercial flat roofs that cannot afford recurring leaks.</p>
             </div>
             <div className="card p-6">
-              <h3 className="text-xl font-bold text-secondary mb-3">Flashing and penetration sealant</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Flashing and Penetration Sealant</h3>
               <p className="text-gray-600">Most leaks do not start in the open field of the roof. They start at flashing and penetrations, around vents, skylights, chimneys, and valleys. We remove failed caulk and corroded metal, install or reseal flashing with correct overlap, and apply a flexible sealant that bonds to the surrounding roof so these transitions stay water-tight.</p>
             </div>
             <div className="card p-6">
-              <h3 className="text-xl font-bold text-secondary mb-3">Flat-roof membranes</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Flat-Roof Membranes</h3>
               <p className="text-gray-600">For flat and low-slope roofs we install single-ply membranes such as TPO and EPDM, with seams heat-welded or bonded and reinforced at every penetration. Membranes create a tough, fully sealed surface built for the standing water and foot traffic that flat commercial roofs see downtown and on Southside.</p>
             </div>
             <div className="card p-6 md:col-span-2">
-              <h3 className="text-xl font-bold text-secondary mb-3">Below-roof and deck moisture barriers</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Below-Roof and Deck Moisture Barriers</h3>
               <p className="text-gray-600">During a re-roof or major repair we add a second line of defense beneath the shingles or membrane. Self-adhered underlayment and deck moisture barriers seal the roof deck so that even if the surface is breached by wind-driven rain, water still cannot reach the wood and the living space below. This layer is especially valuable in Jacksonville&apos;s wind-driven rain and is required protection in many coastal builds.</p>
             </div>
           </div>
@@ -206,25 +206,25 @@ export default function RoofWaterproofingPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Where roof waterproofing helps most</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Where Roof Waterproofing Helps Most</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">Waterproofing delivers the biggest return in the spots where Jacksonville roofs leak first. If you have seen any of the signs below, these are the areas we target.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card p-6">
-              <h3 className="text-xl font-bold text-secondary mb-3">Flat and low-slope roofs</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Flat and Low-Slope Roofs</h3>
               <p className="text-gray-600">Flat and low-slope roofs drain slowly, so water sits and works its way through any weak point. These roofs are common on commercial buildings downtown and on Southside, as well as on home additions and carports. A coating or membrane turns a ponding-prone surface into a sealed one.</p>
             </div>
             <div className="card p-6">
-              <h3 className="text-xl font-bold text-secondary mb-3">Flashing and valleys</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Flashing and Valleys</h3>
               <p className="text-gray-600">Valleys channel a large share of the roof&apos;s runoff, and flashing seals the transitions where roof planes meet walls. Both fail with age and humidity. Sealing and reinforcing them stops the most common entry points before they let water in.</p>
             </div>
             <div className="card p-6">
-              <h3 className="text-xl font-bold text-secondary mb-3">Around vents, skylights, and chimneys</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Around Vents, Skylights, and Chimneys</h3>
               <p className="text-gray-600">Every penetration through the roof is a potential leak. Vents, skylights, and chimneys depend on flashing and sealant that degrade over time. We reseal or reflash these features so water sheds around them instead of seeping under them.</p>
             </div>
             <div className="card p-6">
-              <h3 className="text-xl font-bold text-secondary mb-3">Recurring leaks and ceiling stains</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Recurring Leaks and Ceiling Stains</h3>
               <p className="text-gray-600">A leak that keeps coming back, or a yellow-brown stain that spreads on a ceiling, signals a chronic moisture path. After we locate and repair the source, waterproofing seals the surrounding area so the same spot does not fail again the next time it rains hard.</p>
             </div>
           </div>
@@ -236,30 +236,30 @@ export default function RoofWaterproofingPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Benefits of waterproofing your roof</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Benefits of Waterproofing Your Roof</h2>
               <p className="text-gray-600 mb-4">Waterproofing is one of the highest-value steps you can take on a sound roof. It protects the structure, lowers cooling costs, and buys years of additional service life.</p>
 
               <div className="space-y-4">
                 <div>
-                  <h3 className="font-bold text-secondary">Extends roof life</h3>
+                  <h3 className="font-bold text-secondary">Extends Roof Life</h3>
                   <p className="text-gray-600 text-sm">A quality coating adds 10 to 15 years of service to a roof that is structurally sound, deferring a full replacement and the larger cost that comes with it.</p>
                 </div>
                 <div>
-                  <h3 className="font-bold text-secondary">Reflectivity lowers attic heat</h3>
+                  <h3 className="font-bold text-secondary">Reflectivity Lowers Attic Heat</h3>
                   <p className="text-gray-600 text-sm">Reflective white coatings bounce sunlight instead of absorbing it. In Jacksonville summers that means a cooler attic and lower air-conditioning bills.</p>
                 </div>
                 <div>
-                  <h3 className="font-bold text-secondary">Stops leaks before structural damage</h3>
+                  <h3 className="font-bold text-secondary">Stops Leaks Before Structural Damage</h3>
                   <p className="text-gray-600 text-sm">Sealing the roof keeps water out of decking, insulation, and framing, where moisture causes rot and mold within 24 to 48 hours of getting in.</p>
                 </div>
                 <div>
-                  <h3 className="font-bold text-secondary">Protects your investment</h3>
+                  <h3 className="font-bold text-secondary">Protects Your Investment</h3>
                   <p className="text-gray-600 text-sm">A sealed roof keeps interior finishes, drywall, and contents dry, avoiding the cascading repair costs that follow a single ignored leak.</p>
                 </div>
               </div>
             </div>
             <div className="bg-primary/10 rounded-xl p-8">
-              <h3 className="text-xl font-bold text-secondary mb-4">Roof material lifespans in Florida</h3>
+              <h3 className="text-xl font-bold text-secondary mb-4">Roof Material Lifespans in Florida</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center justify-between"><span>Asphalt shingles</span><span className="font-semibold text-secondary">20 to 30 years</span></li>
                 <li className="flex items-center justify-between"><span>Metal roofing</span><span className="font-semibold text-secondary">40 to 70 years</span></li>
@@ -276,13 +276,13 @@ export default function RoofWaterproofingPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">When waterproofing, repair, or replacement is right</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">When Waterproofing, Repair, or Replacement Is Right</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">Waterproofing is not a fix for every roof. Here is how we decide which path protects your home for the lowest long-term cost.</p>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-6">
             <div className="card p-6">
-              <h3 className="text-lg font-bold text-green-600 mb-3">Waterproofing fits when</h3>
+              <h3 className="text-lg font-bold text-green-600 mb-3">Waterproofing Fits When</h3>
               <ul className="text-gray-600 text-sm space-y-2">
                 <li>&#8226; The roof is structurally sound with no rot or sagging</li>
                 <li>&#8226; The surface is aging or chalking but not failing</li>
@@ -292,7 +292,7 @@ export default function RoofWaterproofingPage() {
               </ul>
             </div>
             <div className="card p-6 border-2 border-primary">
-              <h3 className="text-lg font-bold text-secondary mb-3">Repair fits when</h3>
+              <h3 className="text-lg font-bold text-secondary mb-3">Repair Fits When</h3>
               <ul className="text-gray-600 text-sm space-y-2">
                 <li>&#8226; Damage is localized to one area or slope</li>
                 <li>&#8226; A few shingles, a valley, or one boot has failed</li>
@@ -302,7 +302,7 @@ export default function RoofWaterproofingPage() {
               <p className="text-gray-600 text-sm mt-3">See our <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair services</Link> for leak, shingle, and flashing repair.</p>
             </div>
             <div className="card p-6">
-              <h3 className="text-lg font-bold text-red-600 mb-3">Replacement fits when</h3>
+              <h3 className="text-lg font-bold text-red-600 mb-3">Replacement Fits When</h3>
               <ul className="text-gray-600 text-sm space-y-2">
                 <li>&#8226; The roof is 20+ years old and past its prime</li>
                 <li>&#8226; Decking is rotted or the roof is sagging</li>
@@ -319,13 +319,13 @@ export default function RoofWaterproofingPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof waterproofing costs in Jacksonville</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Waterproofing Costs in Jacksonville</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">Pricing depends on roof size, type, condition, and the system we recommend. We provide a free inspection and a written estimate before any work begins.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="card p-6 text-center">
-              <h3 className="font-bold text-secondary mb-2">Roof coatings</h3>
+              <h3 className="font-bold text-secondary mb-2">Roof Coatings</h3>
               <p className="text-3xl font-bold text-primary mb-2">$1.50 - $4.00</p>
               <p className="text-gray-600 text-sm mb-3">per square foot installed</p>
               <ul className="text-gray-600 text-sm text-left space-y-1">
@@ -335,7 +335,7 @@ export default function RoofWaterproofingPage() {
               </ul>
             </div>
             <div className="card p-6 text-center border-2 border-primary">
-              <h3 className="font-bold text-secondary mb-2">Silicone systems</h3>
+              <h3 className="font-bold text-secondary mb-2">Silicone Systems</h3>
               <p className="text-3xl font-bold text-primary mb-2">Upper range</p>
               <p className="text-gray-600 text-sm mb-3">at the high end of coating pricing</p>
               <ul className="text-gray-600 text-sm text-left space-y-1">
@@ -345,7 +345,7 @@ export default function RoofWaterproofingPage() {
               </ul>
             </div>
             <div className="card p-6 text-center">
-              <h3 className="font-bold text-secondary mb-2">Flashing and sealant</h3>
+              <h3 className="font-bold text-secondary mb-2">Flashing and Sealant</h3>
               <p className="text-3xl font-bold text-primary mb-2">From a few hundred</p>
               <p className="text-gray-600 text-sm mb-3">per penetration area</p>
               <ul className="text-gray-600 text-sm text-left space-y-1">
@@ -365,7 +365,7 @@ export default function RoofWaterproofingPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Built for Jacksonville&apos;s climate and flat roofs</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Built for Jacksonville&apos;s Climate and Flat Roofs</h2>
               <p className="text-gray-600 mb-4">Jacksonville sees roughly 50 inches of rain a year, high year-round humidity, and wind-driven rain through a hurricane season that runs June through November. Those conditions punish flat and low-slope roofs the hardest, which is why so many of the flat commercial roofs downtown and on Southside need a reliable waterproofing system rather than another patch.</p>
               <p className="text-gray-600 mb-4">We waterproof homes and businesses across Duval, St. Johns, Clay, and Nassau counties, from <Link href="/roofing-san-marco-fl" className="text-primary hover:underline">San Marco</Link> and <Link href="/roofing-riverside-fl" className="text-primary hover:underline">Riverside</Link> to <Link href="/roofing-southside-jax-fl" className="text-primary hover:underline">Southside</Link> and <Link href="/roofing-mandarin-fl" className="text-primary hover:underline">Mandarin</Link>. Wherever you are in the metro, our <Link href="/roofing-jacksonville-fl" className="text-primary hover:underline">Jacksonville roofing</Link> crews bring the same system-based approach.</p>
               <p className="text-gray-600">For property managers and business owners, sealing a flat roof avoids the disruption and cost of a full tear-off. Pair waterproofing with our <Link href="/services/commercial-roofing" className="text-primary hover:underline">commercial roofing services</Link> to keep older buildings dry and in service for years longer.</p>
@@ -381,7 +381,7 @@ export default function RoofWaterproofingPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof waterproofing service areas in Northeast Florida</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Waterproofing Service Areas in Northeast Florida</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We provide roof waterproofing across Duval, St. Johns, Clay, and Nassau counties.
             </p>
@@ -408,7 +408,7 @@ export default function RoofWaterproofingPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
             <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Gimo&apos;s Roofing Answers</span>
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof waterproofing FAQ</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Waterproofing FAQ</h2>
           </div>
           <FAQ faqs={faqs} />
         </div>
@@ -418,20 +418,20 @@ export default function RoofWaterproofingPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Related roofing services</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Related Roofing Services</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">Waterproofing works alongside our repair, commercial, and financing services to keep your roof sound and affordable.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             <Link href="/services/roof-repair" className="card p-6 group">
-              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roof repair</h3>
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roof Repair</h3>
               <p className="text-gray-600 text-sm">Leak, shingle, and flashing repair that fixes the source before we seal the surface.</p>
             </Link>
             <Link href="/services/commercial-roofing" className="card p-6 group">
-              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Commercial roofing</h3>
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Commercial Roofing</h3>
               <p className="text-gray-600 text-sm">Flat-roof systems, membranes, and coatings for Jacksonville businesses and property managers.</p>
             </Link>
             <Link href="/roof-financing-florida" className="card p-6 group">
-              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roof financing</h3>
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roof Financing</h3>
               <p className="text-gray-600 text-sm">Low monthly payments so you can waterproof now and protect your home before a small leak grows.</p>
             </Link>
           </div>
@@ -441,7 +441,7 @@ export default function RoofWaterproofingPage() {
       {/* CTA Section */}
       <section className="py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Ready to waterproof your roof?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Ready to Waterproof Your Roof?</h2>
           <p className="text-secondary/80 mb-6">Get a free inspection and a detailed estimate. Licensed FL contractor CCC1332453, locally owned, and trusted across Jacksonville.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn bg-secondary text-white hover:bg-secondary/90">Get Free Estimate</a>

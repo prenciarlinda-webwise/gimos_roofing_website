@@ -164,7 +164,7 @@ export default function MetalRoofingPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Types of metal roofing we install</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Types of Metal Roofing We Install</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">As a locally owned <Link href="/" className="text-primary hover:underline">Jacksonville roofing company</Link>, Gimo&apos;s Roofing installs every major metal roof system used in Northeast Florida. The right choice depends on your roof pitch, budget, how close you live to salt water, and the look you want. Here are the metal roofing options we install and replace most often.</p>
           </div>
 
@@ -173,13 +173,13 @@ export default function MetalRoofingPage() {
             <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
-                  <h3 className="text-xl font-bold text-secondary mb-3">Standing seam metal roof</h3>
+                  <h3 className="text-xl font-bold text-secondary mb-3">Standing Seam Metal Roof</h3>
                   <p className="text-gray-600 mb-4">Standing seam is the premium metal roof system. Vertical panels lock together with raised seams and concealed clips, so no fasteners penetrate the surface where water runs. That makes it the most weathertight metal roof you can buy and the longest lasting, with a clean modern look that suits both contemporary and coastal Jacksonville homes.</p>
                   <p className="text-gray-600 mb-4">We install standing seam in steel and aluminum with factory-applied finishes. For homes near salt water at the Beaches, Ponte Vedra Beach, and Fernandina Beach, we typically specify aluminum because it does not rust. Standing seam also handles low-slope sections that exposed-fastener panels cannot.</p>
                   <p className="text-gray-600"><strong>Best for:</strong> Long-term homeowners, coastal properties, and anyone wanting the most durable roof with the fewest future maintenance points.</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="font-bold text-secondary mb-3">Standing seam strengths</h4>
+                  <h4 className="font-bold text-secondary mb-3">Standing Seam Strengths</h4>
                   <ul className="text-gray-600 text-sm space-y-2">
                     <li>&#8226; No exposed fasteners to fail</li>
                     <li>&#8226; 50 to 70 year lifespan</li>
@@ -196,13 +196,13 @@ export default function MetalRoofingPage() {
             <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
-                  <h3 className="text-xl font-bold text-secondary mb-3">Metal shingles and stone-coated metal</h3>
+                  <h3 className="text-xl font-bold text-secondary mb-3">Metal Shingles and Stone-Coated Metal</h3>
                   <p className="text-gray-600 mb-4">Metal shingles, including stone-coated steel, give you the strength and lifespan of metal with the appearance of asphalt shingles, wood shake, or clay tile. They are a strong choice in neighborhoods with HOA appearance rules or for homeowners who want a traditional look without giving up metal performance.</p>
                   <p className="text-gray-600 mb-4">Stone-coated panels carry a textured granule surface bonded to a steel core, which softens the metallic look and adds sound dampening. They install in interlocking sections that resist high wind and shed Florida&apos;s heavy summer rain.</p>
                   <p className="text-gray-600"><strong>Best for:</strong> Homeowners who want metal durability with the curb appeal of shingle or tile, including HOA-governed subdivisions in Mandarin, San Marco, and Nocatee.</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="font-bold text-secondary mb-3">Profiles available</h4>
+                  <h4 className="font-bold text-secondary mb-3">Profiles Available</h4>
                   <ul className="text-gray-600 text-sm space-y-2">
                     <li>&#8226; Shake-look stone-coated steel</li>
                     <li>&#8226; Tile-look metal panels</li>
@@ -219,13 +219,13 @@ export default function MetalRoofingPage() {
             <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
-                  <h3 className="text-xl font-bold text-secondary mb-3">5V crimp metal panels</h3>
+                  <h3 className="text-xl font-bold text-secondary mb-3">5V Crimp Metal Panels</h3>
                   <p className="text-gray-600 mb-4">5V crimp is a classic Florida exposed-fastener metal panel, named for the five-rib crimp pattern along each sheet. It is a familiar look on older Jacksonville homes, St. Augustine cottages, and rural Clay and Nassau county properties. Panels screw directly into the deck with gasketed fasteners.</p>
                   <p className="text-gray-600 mb-4">5V crimp costs less than standing seam and installs faster, which makes it a practical, durable choice on steeper roofs. The trade-off is the exposed fasteners, whose rubber gaskets should be checked periodically as the roof ages so the seal stays tight.</p>
                   <p className="text-gray-600"><strong>Best for:</strong> Budget-conscious metal upgrades, traditional Florida and historic St. Augustine looks, and steeper roof pitches.</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="font-bold text-secondary mb-3">5V crimp at a glance</h4>
+                  <h4 className="font-bold text-secondary mb-3">5V Crimp at a Glance</h4>
                   <ul className="text-gray-600 text-sm space-y-2">
                     <li>&#8226; Lower cost than standing seam</li>
                     <li>&#8226; Fast installation</li>
@@ -242,13 +242,13 @@ export default function MetalRoofingPage() {
             <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
-                  <h3 className="text-xl font-bold text-secondary mb-3">Corrugated metal panels</h3>
+                  <h3 className="text-xl font-bold text-secondary mb-3">Corrugated Metal Panels</h3>
                   <p className="text-gray-600 mb-4">Corrugated metal uses a repeating wavy profile that adds rigidity and sheds water well. It is the most economical metal panel and a popular pick for garages, workshops, barns, patios, and budget-minded home roofs across the Jacksonville metro and surrounding Clay and Nassau county properties.</p>
                   <p className="text-gray-600 mb-4">Like 5V crimp, corrugated is an exposed-fastener system, so we install it with quality gasketed screws and recommend periodic inspections. Choose galvanized or coated steel inland and aluminum near the coast for the best corrosion resistance.</p>
                   <p className="text-gray-600"><strong>Best for:</strong> Outbuildings, additions, and cost-driven metal roofs where budget matters more than premium finish.</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="font-bold text-secondary mb-3">Corrugated at a glance</h4>
+                  <h4 className="font-bold text-secondary mb-3">Corrugated at a Glance</h4>
                   <ul className="text-gray-600 text-sm space-y-2">
                     <li>&#8226; Most economical metal option</li>
                     <li>&#8226; Strong, rigid wavy profile</li>
@@ -268,31 +268,31 @@ export default function MetalRoofingPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Why metal roofing makes sense in Jacksonville</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Why Metal Roofing Makes Sense in Jacksonville</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">Northeast Florida is one of the toughest climates in the country for a roof. Hurricane-season wind, intense UV, roughly 50 inches of rain a year, high humidity, and coastal salt air all attack roofing materials. Metal is built to handle every one of those forces, which is why so many Jacksonville homeowners upgrade to it.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card p-6">
-              <h3 className="text-xl font-bold text-secondary mb-3">Wind resistance for hurricane country</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Wind Resistance for Hurricane Country</h3>
               <p className="text-gray-600 mb-3">Jacksonville sits in the hurricane zone, and the Florida Building Code sets strict wind-load requirements for Duval, St. Johns, Clay, and Nassau counties. Properly engineered metal roofs carry wind ratings of 140 mph and higher, and standing seam systems with concealed clips perform especially well because there are no exposed tabs for wind to catch and lift.</p>
               <p className="text-gray-600">We install every metal roof to current Florida Building Code with the attachment methods inspectors look for, so your roof is documented and ready for storm season.</p>
             </div>
 
             <div className="card p-6">
-              <h3 className="text-xl font-bold text-secondary mb-3">40 to 70 year lifespan</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">40 to 70 Year Lifespan</h3>
               <p className="text-gray-600 mb-3">Asphalt shingles in Jacksonville&apos;s heat and humidity typically last 15 to 25 years. A metal roof lasts 40 to 70 years, so it commonly outlives two or three shingle roofs. For many homeowners, metal is the last roof the home will ever need, which changes the math on the higher up-front cost.</p>
               <p className="text-gray-600">Standing seam and aluminum reach the upper end of that range, while exposed-fastener steel panels reach 40-plus years with routine fastener maintenance.</p>
             </div>
 
             <div className="card p-6">
-              <h3 className="text-xl font-bold text-secondary mb-3">Energy efficiency and reflectivity</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Energy Efficiency and Reflectivity</h3>
               <p className="text-gray-600 mb-3">Metal roofing with a reflective or cool-roof finish bounces solar heat away instead of absorbing it like dark asphalt. In Florida&apos;s long cooling season, that can lower attic temperatures and cut cooling costs by roughly 10 to 25 percent depending on color, finish, and attic ventilation.</p>
               <p className="text-gray-600">With summer highs regularly above 90 degrees Fahrenheit in Jacksonville, a cooler attic also reduces strain on your air conditioning system and helps it last longer.</p>
             </div>
 
             <div className="card p-6">
-              <h3 className="text-xl font-bold text-secondary mb-3">Insurance and wind-mitigation credits</h3>
+              <h3 className="text-xl font-bold text-secondary mb-3">Insurance and Wind-Mitigation Credits</h3>
               <p className="text-gray-600 mb-3">Florida insurers reward storm-resistant roofs. A metal roof installed to code, with a documented wind rating, secondary water barrier, and approved attachment, can qualify for wind-mitigation credits that reduce the windstorm portion of your premium. Credits vary by carrier, so confirm with your agent.</p>
               <p className="text-gray-600">We provide the documentation your wind-mitigation inspector needs so you can claim every credit your new roof earns.</p>
             </div>
@@ -304,7 +304,7 @@ export default function MetalRoofingPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Metal roof vs asphalt shingles in Florida</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Metal Roof vs Asphalt Shingles in Florida</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">The choice between metal and shingles comes down to up-front budget versus lifetime value. Here is how the two stack up in the Jacksonville climate so you can decide what fits your home and how long you plan to own it.</p>
           </div>
 
@@ -343,7 +343,7 @@ export default function MetalRoofingPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Our metal roof installation process</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Our Metal Roof Installation Process</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">A metal roof is only as good as its installation. Florida wind and rain expose every shortcut, so we follow a careful, code-driven process on every project from the first inspection to final cleanup.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -376,7 +376,7 @@ export default function MetalRoofingPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Metal roof cost in Florida</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Metal Roof Cost in Florida</h2>
               <p className="text-gray-600 mb-4">Installed metal roofing in the Jacksonville area generally runs about $9 to $16 per square foot, or roughly $900 to $1,600 per roofing square (100 square feet). Where your project lands in that range depends mostly on the metal system you choose and the complexity of your roof.</p>
               <p className="text-gray-600 mb-4">Exposed-fastener systems like 5V crimp and corrugated sit at the lower end. Standing seam, with its concealed clips and factory finishes, sits at the higher end and costs more to fabricate and install. Stone-coated metal shingles fall in between.</p>
               <p className="text-gray-600 mb-4">Other factors that move the price include roof size and pitch, the number of valleys and penetrations, whether the old roof needs a full tear-off, decking repairs, and the metal and coating you select. Aluminum, recommended near salt water, costs more than steel.</p>
@@ -385,21 +385,21 @@ export default function MetalRoofingPage() {
             <div className="space-y-4">
               <div className="card p-6">
                 <div className="flex items-center justify-between mb-1">
-                  <h3 className="font-bold text-secondary">5V crimp and corrugated</h3>
+                  <h3 className="font-bold text-secondary">5V Crimp and Corrugated</h3>
                   <span className="text-primary font-bold">$9 - $12 / sq ft</span>
                 </div>
                 <p className="text-gray-600 text-sm">Exposed-fastener panels. The most budget-friendly way into a metal roof.</p>
               </div>
               <div className="card p-6">
                 <div className="flex items-center justify-between mb-1">
-                  <h3 className="font-bold text-secondary">Stone-coated metal shingles</h3>
+                  <h3 className="font-bold text-secondary">Stone-Coated Metal Shingles</h3>
                   <span className="text-primary font-bold">$11 - $14 / sq ft</span>
                 </div>
                 <p className="text-gray-600 text-sm">Metal performance with a shingle, shake, or tile look for HOA-friendly curb appeal.</p>
               </div>
               <div className="card p-6 border-2 border-primary">
                 <div className="flex items-center justify-between mb-1">
-                  <h3 className="font-bold text-secondary">Standing seam</h3>
+                  <h3 className="font-bold text-secondary">Standing Seam</h3>
                   <span className="text-primary font-bold">$13 - $16 / sq ft</span>
                 </div>
                 <p className="text-gray-600 text-sm">Concealed-fastener premium system. The most weathertight and longest-lasting choice.</p>
@@ -418,19 +418,19 @@ export default function MetalRoofingPage() {
               <Image src="/images/flat-metal-roof-installation.webp" alt="Flat metal roof installation on a Jacksonville FL property" title="Metal roof installation in Jacksonville FL" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
             </div>
             <div className="order-1 lg:order-2">
-              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Metal roof maintenance</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Metal Roof Maintenance</h2>
               <p className="text-gray-600 mb-4">One of the biggest advantages of metal is how little it asks of you. There are no granules to lose and no shingles to curl. Still, a few simple steps keep a Florida metal roof performing for decades.</p>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-4">
-                  <h3 className="font-bold text-secondary">Check exposed fasteners</h3>
+                  <h3 className="font-bold text-secondary">Check Exposed Fasteners</h3>
                   <p className="text-gray-600 text-sm">On 5V crimp and corrugated roofs, have the gasketed screws inspected every few years. Rubber washers can dry out in the UV and may need tightening or replacement to keep the seal tight.</p>
                 </div>
                 <div className="bg-white rounded-lg p-4">
-                  <h3 className="font-bold text-secondary">Keep it clean near the coast</h3>
+                  <h3 className="font-bold text-secondary">Keep It Clean Near the Coast</h3>
                   <p className="text-gray-600 text-sm">Homes near salt water at the Beaches, Ponte Vedra, and Fernandina benefit from an occasional fresh-water rinse to clear salt buildup, which protects the finish and slows corrosion.</p>
                 </div>
                 <div className="bg-white rounded-lg p-4">
-                  <h3 className="font-bold text-secondary">Clear debris and check after storms</h3>
+                  <h3 className="font-bold text-secondary">Clear Debris and Check After Storms</h3>
                   <p className="text-gray-600 text-sm">Remove leaves and branches from valleys and gutters, and schedule a post-storm inspection after any named system so small issues get caught early.</p>
                 </div>
               </div>
@@ -444,14 +444,14 @@ export default function MetalRoofingPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Financing your metal roof</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Financing Your Metal Roof</h2>
               <p className="text-gray-600 mb-4">A metal roof is a larger up-front investment than shingles, but it can be the last roof your home ever needs. Financing lets you capture that long-term value now instead of replacing a shingle roof again in 15 to 20 years.</p>
               <p className="text-gray-600 mb-4">We offer financing with fixed monthly payments through our lending partner, so you can spread the cost of a standing seam or metal shingle roof over a comfortable term. Many Jacksonville homeowners use financing to upgrade to metal and start saving on cooling costs right away.</p>
               <p className="text-gray-600 mb-4">When you request a free estimate, ask about current terms. Storm-related roof replacement may also be covered by your homeowners insurance, and we help document and file those claims.</p>
               <Link href="/roof-financing-florida" className="text-primary font-semibold hover:underline">Explore roof financing options &rarr;</Link>
             </div>
             <div className="bg-primary/10 rounded-xl p-8">
-              <h3 className="text-xl font-bold text-secondary mb-4">Why finance a metal roof</h3>
+              <h3 className="text-xl font-bold text-secondary mb-4">Why Finance a Metal Roof</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center gap-2"><span className="text-primary">&#10003;</span> Upgrade to metal without a large up-front outlay</li>
                 <li className="flex items-center gap-2"><span className="text-primary">&#10003;</span> Fixed, predictable monthly payments</li>
@@ -472,7 +472,7 @@ export default function MetalRoofingPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Built for the Northeast Florida coast</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Built for the Northeast Florida Coast</h2>
               <p className="text-gray-600 mb-4">Salt air is hard on roofs. Homes within a few miles of the Atlantic and the Intracoastal at Jacksonville Beach, Atlantic Beach, Neptune Beach, Ponte Vedra Beach, and Fernandina Beach face constant salt exposure that corrodes bare steel and metal fasteners faster than inland properties.</p>
               <p className="text-gray-600 mb-4">For coastal homes we specify aluminum standing seam or premium coated systems that resist salt corrosion, paired with stainless or coated fasteners. The result is a metal roof engineered for the exact conditions at your address, not a generic spec.</p>
               <p className="text-gray-600 mb-4">Inland in Mandarin, Riverside, San Marco, Orange Park, and Nocatee, galvanized and coated steel deliver excellent value while still standing up to UV, roughly 50 inches of annual rain, and hurricane-season wind.</p>
@@ -492,7 +492,7 @@ export default function MetalRoofingPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Metal roofing service areas in Northeast Florida</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Metal Roofing Service Areas in Northeast Florida</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We install and replace metal roofs across Duval, St. Johns, Clay, and Nassau counties.
             </p>
@@ -519,7 +519,7 @@ export default function MetalRoofingPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
             <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Gimo&apos;s Roofing Answers</span>
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Metal roofing FAQ</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Metal Roofing FAQ</h2>
           </div>
           <FAQ faqs={faqs} />
         </div>
@@ -529,7 +529,7 @@ export default function MetalRoofingPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Related roofing services</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Related Roofing Services</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">Comparing options or not sure metal is right for your home? Explore our other services.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -564,7 +564,7 @@ export default function MetalRoofingPage() {
       {/* CTA Section */}
       <section className="py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Ready for a metal roof that lasts decades?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Ready for a Metal Roof That Lasts Decades?</h2>
           <p className="text-secondary/80 mb-6">Get a free inspection and a firm written estimate for standing seam, metal shingle, or panel roofing. FL Licensed and CertainTeed Certified.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn bg-secondary text-white hover:bg-secondary/90">Get Your Free Estimate</a>
