@@ -38,51 +38,10 @@ const faqs = [
   { question: "Can I add solar panels to a Riverside historic home roof?", answer: "You can, but it requires JHPC approval and there are restrictions on placement. The Historic Preservation Commission generally allows solar panels on rear-facing roof slopes that are not visible from the primary street, but will deny panels on the front-facing slopes of contributing structures in the Riverside-Avondale district. The roof itself also needs to be in good condition before panels go on. If your Riverside bungalow along King Street, Park Street, or the blocks near Five Points needs a re-roof, that is the time to plan for solar because we can install the proper flashing boots and structural reinforcement during the tear-off rather than retrofitting later." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roofing-riverside-fl#service",
-  "@type": "Service",
-  "name": "Roofing Services in Riverside, Jacksonville FL",
-  "serviceType": "Roofing Contractor",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": {
-    "@type": "Neighborhood",
-    "name": "Riverside",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/Riverside,_Jacksonville"
-    ]
-  },
-  "url": "https://www.gimosroofing.com/roofing-riverside-fl",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roofing Services in Riverside & Avondale, Jacksonville",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Historic Home Roofing in Riverside FL",
-          "description": "Expert roofing for Riverside and Avondale's historic craftsman bungalows, Tudor revivals, and prairie-style homes."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Roof Repair in Riverside FL",
-          "description": "Specialized roof repair for Riverside's century-old homes with period-appropriate materials and preservation compliance."
-        }
-      }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roofing-riverside-fl#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roofing-riverside-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-riverside-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -102,7 +61,6 @@ const breadcrumbSchema = {
 export default function RiversidePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

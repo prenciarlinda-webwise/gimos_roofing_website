@@ -74,44 +74,10 @@ const faqs = [
   { question: "Do you offer financing for siding projects?", answer: "Yes, we offer financing through EnerBank with competitive rates and terms up to 144 months. Many homeowners qualify for low monthly payments that make siding replacement affordable." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/services/siding-installation#service",
-  "@type": "Service",
-  "name": "Siding Installation in Jacksonville FL",
-  "serviceType": "Siding Installation",
-  "description": "Siding installation in Jacksonville FL for vinyl siding, Hardie board, fiber cement, and engineered wood across Duval, St. Johns, Clay, and Nassau counties.",
-  "url": "https://www.gimosroofing.com/services/siding-installation",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
-    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
-    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
-    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
-    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
-    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
-    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
-    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Siding Installation Options",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Vinyl Siding Installation", "description": "Premium vinyl siding with UV-stabilized panels in hundreds of colors and profiles." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fiber Cement (Hardie Board) Siding", "description": "James Hardie fiber cement siding installation with 50+ year lifespan and fire resistance." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Engineered Wood Siding", "description": "LP SmartSide and similar engineered wood siding with moisture and pest resistance." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Natural Wood Siding", "description": "Cedar and redwood siding installation for authentic wood exterior aesthetics." } }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/siding-installation#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/services/siding-installation#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/siding-installation",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -131,7 +97,6 @@ const breadcrumbSchema = {
 export default function SidingInstallationPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

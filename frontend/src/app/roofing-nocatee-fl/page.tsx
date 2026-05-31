@@ -41,51 +41,10 @@ const faqs = [
   { question: "Is it true that Nocatee homes built 2010-2015 already need roof work?", answer: "Not full replacements yet, but many of those early-phase homes in Twenty Mile, Coastal Oaks, and the first Crosswater sections are now 10-15 years old and showing the first signs of builder-grade wear. The most common issues we find at that age are cracking ridge cap sealant, degraded pipe boot flashings around plumbing vents, and one or two missing shingles from minor storm damage that was never addressed. Left alone for another 3-5 years, these small problems turn into leaks. A professional inspection at the 10-12 year mark catches everything early and extends the life of the original roof by years. We inspect Nocatee homes of this vintage every week and the repair bill is almost always under $800." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roofing-nocatee-fl#service",
-  "@type": "Service",
-  "name": "Roofing Services in Nocatee, FL",
-  "serviceType": "Roofing Contractor",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": {
-    "@type": "City",
-    "name": "Nocatee, FL",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/Nocatee,_Florida"
-    ]
-  },
-  "url": "https://www.gimosroofing.com/roofing-nocatee-fl",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roofing Services in Nocatee, FL",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Builder Warranty Roof Inspection in Nocatee FL",
-          "description": "Professional roof inspections for Nocatee homes with expiring builder warranties."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Roof Replacement in Nocatee FL",
-          "description": "Full roof replacement for Nocatee communities including Twenty Mile, Crosswater, and Del Webb."
-        }
-      }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roofing-nocatee-fl#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roofing-nocatee-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-nocatee-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -105,7 +64,6 @@ const breadcrumbSchema = {
 export default function NocateePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

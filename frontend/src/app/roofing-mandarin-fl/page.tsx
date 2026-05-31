@@ -41,52 +41,10 @@ const faqs = [
   { question: `Does Mandarin's proximity to the St. Johns River increase roof humidity damage?`, answer: `Yes. Mandarin runs along the west bank of the St. Johns for miles, and homes in Beauclerc, Epping Forest, Mandarin Point, and the riverfront streets off Mandarin Road sit in a microclimate that is measurably more humid than neighborhoods a few miles inland. The river moisture feeds algae and moss growth on north-facing slopes, accelerates sealant breakdown on ridge caps, and keeps attic humidity elevated even in winter. We see more underlayment failures on riverfront Mandarin homes at 15 years than we see on comparable homes in Orange Park at 20 years. Proper soffit-to-ridge ventilation and algae-resistant shingles are the two best defenses.` }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roofing-mandarin-fl#service",
-  "@type": "Service",
-  "name": "Roofing Services in Mandarin, Jacksonville FL",
-  "serviceType": "Roofing Contractor",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": {
-    "@type": "Neighborhood",
-    "name": "Mandarin",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/Mandarin,_Jacksonville,_Florida",
-      "https://www.wikidata.org/wiki/Q6748057"
-    ]
-  },
-  "url": "https://www.gimosroofing.com/roofing-mandarin-fl",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roofing Services in Mandarin, Jacksonville FL",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Roof Replacement in Mandarin FL",
-          "description": "Professional shingle, tile, and metal roof replacement for Mandarin's established neighborhoods."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Roof Repair in Mandarin FL",
-          "description": "Fast, reliable roof repair for tree damage, aging shingles, and storm damage in Mandarin."
-        }
-      }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roofing-mandarin-fl#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roofing-mandarin-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-mandarin-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -106,7 +64,6 @@ const breadcrumbSchema = {
 export default function MandarinPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

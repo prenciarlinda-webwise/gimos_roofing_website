@@ -56,43 +56,10 @@ const faqs = [
   { question: "What projects can I finance besides a new roof?", answer: "You can finance new construction roofing, major roof repairs, full roof replacements, siding installation, and siding repair projects through the same application. Combining roof and siding projects into one loan is common." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roof-financing-florida#service",
-  "@type": "Service",
-  "name": "Roof Financing in Florida",
-  "serviceType": "Roof Financing",
-  "description": "Roof financing Florida homeowners rely on for affordable roof replacement financing, repair financing, and new roof financing options. $0 down plans, fast approvals, and terms up to 144 months across Jacksonville and Northeast Florida.",
-  "url": "https://www.gimosroofing.com/roof-financing-florida",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
-    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
-    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
-    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
-    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
-    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
-    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
-    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roof Financing Options in Florida",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement Financing", "description": "Finance a full roof replacement with $0 down and monthly payments as low as $99." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Repair Financing", "description": "Spread the cost of major roof repairs across flexible monthly payments." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "New Construction Roofing Financing", "description": "Financing for new construction roofing projects across Northeast Florida." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siding Project Financing", "description": "Combine siding installation or repair with your roof financing plan." } }
-    ]
-  }
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roof-financing-florida#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roof-financing-florida#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roof-financing-florida",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -111,7 +78,6 @@ const breadcrumbSchema = {
 export default function RoofFinancingFloridaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

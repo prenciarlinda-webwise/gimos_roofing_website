@@ -40,51 +40,10 @@ const faqs = [
   { question: "What's the difference between roofing on the island side vs the mainland side of the Intracoastal?", answer: "Atlantic Beach sits on a barrier island, so every home in 32233 gets more salt exposure than mainland Jacksonville. But within Atlantic Beach there is a real difference between the eastern half (Ocean Boulevard, Beach Avenue, the Sherry Drive corridor) and the western side closer to the Intracoastal Waterway near Dutton Island and the marsh. The eastern homes get direct Atlantic salt spray and need stainless steel hardware island-wide. The western homes along Seminole Road and the streets near Selva Marina get lower direct salt but higher humidity off the marsh, which drives more algae growth and soffit moisture problems. We adjust our ventilation and underlayment recommendations based on which side of the island your home actually sits on." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roofing-atlantic-beach-fl#service",
-  "@type": "Service",
-  "name": "Roofing Services in Atlantic Beach, FL",
-  "serviceType": "Roofing Contractor",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": {
-    "@type": "City",
-    "name": "Atlantic Beach, FL",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida"
-    ]
-  },
-  "url": "https://www.gimosroofing.com/roofing-atlantic-beach-fl",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roofing Services in Atlantic Beach, FL",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Coastal Roof Replacement in Atlantic Beach FL",
-          "description": "Salt-resistant coastal roofing for Atlantic Beach oceanfront and near-ocean homes."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "HOA-Compliant Roofing in Atlantic Beach FL",
-          "description": "Architectural review board approved roofing for Selva Marina, Atlantic Beach Country Club, and other gated communities."
-        }
-      }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roofing-atlantic-beach-fl#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roofing-atlantic-beach-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-atlantic-beach-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -104,7 +63,6 @@ const breadcrumbSchema = {
 export default function AtlanticBeachPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

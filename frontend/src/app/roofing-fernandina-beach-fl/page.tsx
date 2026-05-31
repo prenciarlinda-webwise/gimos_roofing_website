@@ -38,51 +38,10 @@ const faqs = [
   { question: "How do I find out if my Fernandina home falls under the historic overlay district?", answer: "The Fernandina Beach Historic District roughly covers the original Victorian downtown grid from the waterfront west to roughly 8th Street, and from Broome Street north to Alachua Street. If your home sits within those boundaries and was built before 1940, it is almost certainly a contributing structure subject to Historic District Council review. You can confirm by checking the Fernandina Beach zoning map on the city website or calling the Planning Department directly. If your home is in the overlay, any roof work visible from the street needs a Certificate of Appropriateness before a permit will issue. We handle the COA process start to finish and know which materials the HDC approves on first pass versus which ones trigger a full board hearing." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roofing-fernandina-beach-fl#service",
-  "@type": "Service",
-  "name": "Roofing Services in Fernandina Beach, FL",
-  "serviceType": "Roofing Contractor",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": {
-    "@type": "City",
-    "name": "Fernandina Beach, FL",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida"
-    ]
-  },
-  "url": "https://www.gimosroofing.com/roofing-fernandina-beach-fl",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roofing Services in Fernandina Beach & Amelia Island, FL",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Coastal Roofing in Fernandina Beach FL",
-          "description": "Salt-resistant roofing for Fernandina Beach and Amelia Island coastal properties."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Victorian Home Roofing in Fernandina Beach FL",
-          "description": "Specialized roofing for Fernandina Beach's historic Victorian homes and Centre Street district."
-        }
-      }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roofing-fernandina-beach-fl#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roofing-fernandina-beach-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-fernandina-beach-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -102,7 +61,6 @@ const breadcrumbSchema = {
 export default function FernandinaBeachPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

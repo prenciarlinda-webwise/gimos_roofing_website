@@ -57,39 +57,6 @@ const faqs = [
   { question: "Can you repair gutters instead of replacing them?", answer: "Often yes. We reseal leaking seams and end caps, refasten sagging sections, replace damaged hangers, clear clogs, reattach separated joints, and repair short damaged runs. Repairs typically cost $150 to $500 and make sense when the gutters are otherwise sound and under about 15 years old. If the fascia behind the gutter is rotted or the system has widespread damage, we will explain why replacement is the better value." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/services/roof-gutter#service",
-  "@type": "Service",
-  "name": "Gutter Installation, Repair and Replacement in Jacksonville FL",
-  "serviceType": "Gutter Installation, Repair and Replacement",
-  "description": "Seamless aluminum gutter installation, gutter repair, gutter replacement, and gutter guards in Jacksonville FL across Duval, St. Johns, Clay, and Nassau counties.",
-  "url": "https://www.gimosroofing.com/services/roof-gutter",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
-    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
-    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
-    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
-    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
-    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
-    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
-    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Gutter Service Options",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Seamless Gutter Installation", "description": "Custom-cut seamless aluminum K-style gutter installation sized for Jacksonville rainfall." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Repair", "description": "Repair of sagging gutters, leaking seams, separated joints, clogs, and damaged hangers." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Replacement", "description": "Full removal and replacement of failing gutters with new seamless aluminum systems." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Guard Installation", "description": "Gutter guard installation to reduce clogs from oak leaves and pine needles in wooded neighborhoods." } }
-    ]
-  }
-
-}
-
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/roof-gutter#breadcrumb",
@@ -105,7 +72,6 @@ const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/roof-gutter#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/services/roof-gutter#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/roof-gutter",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -114,7 +80,6 @@ const faqSchema = {
 export default function RoofGutterPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

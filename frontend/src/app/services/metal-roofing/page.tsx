@@ -57,39 +57,6 @@ const faqs = [
   { question: "Do you offer financing for a metal roof?", answer: "Yes. Because metal is a larger up-front investment than shingles, we offer financing with fixed monthly payments through our lending partner so you can spread the cost over time. Many homeowners use financing to upgrade to metal for the longer lifespan and energy savings rather than replacing shingles again in 15 to 20 years. Ask about current terms when you request your free estimate." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/services/metal-roofing#service",
-  "@type": "Service",
-  "name": "Metal Roofing in Jacksonville FL",
-  "serviceType": "Metal Roofing Installation and Replacement",
-  "description": "Metal roof installation and replacement in Jacksonville FL, including standing seam, 5V crimp, corrugated, and stone-coated metal shingles rated for 140-plus mph wind across Duval, St. Johns, Clay, and Nassau counties.",
-  "url": "https://www.gimosroofing.com/services/metal-roofing",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
-    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
-    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
-    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
-    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
-    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
-    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
-    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Metal Roofing Options",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Standing Seam Metal Roof", "description": "Concealed-fastener standing seam metal roofing with factory finishes for the most weathertight, longest-lasting Florida roof." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "5V Crimp and Corrugated Metal Roof", "description": "Exposed-fastener metal panels offering durable, cost-effective coverage suited to Florida homes and outbuildings." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Stone-Coated Metal Shingles", "description": "Metal shingles that mimic asphalt or tile while delivering metal wind resistance and lifespan." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Metal Roof Replacement", "description": "Tear-off and replacement of aging shingle or metal roofs with code-compliant standing seam or panel systems." } }
-    ]
-  }
-
-}
-
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/metal-roofing#breadcrumb",
@@ -105,7 +72,6 @@ const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/metal-roofing#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/services/metal-roofing#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/metal-roofing",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -114,7 +80,6 @@ const faqSchema = {
 export default function MetalRoofingPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

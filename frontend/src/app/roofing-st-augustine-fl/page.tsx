@@ -41,51 +41,10 @@ const faqs = [
   { question: "How do nor'easters affect St. Augustine roofs differently than hurricanes?", answer: "Hurricanes hit fast with extreme wind speeds and storm surge, but nor'easters grind on St. Augustine roofs for 2-4 days straight with sustained 40-60 mph winds and heavy rain from the northeast. That prolonged wind-driven rain is what makes nor'easters so damaging to roofs. The rain pushes water sideways under ridge caps, through aging flashing seals, and up under shingles on the north and east slopes of homes in Davis Shores, Vilano Beach, and the Anastasia Island oceanfront. Hurricanes strip shingles off in one event, but a nor'easter slowly saturates the underlayment and decking over days, causing hidden water damage that does not show up until weeks later. After any nor'easter, we recommend a professional inspection focused on the north and east roof slopes where the wind-driven rain hits hardest." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roofing-st-augustine-fl#service",
-  "@type": "Service",
-  "name": "Roofing Services in St. Augustine, FL",
-  "serviceType": "Roofing Contractor",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": {
-    "@type": "City",
-    "name": "St. Augustine, FL",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/St._Augustine,_Florida"
-    ]
-  },
-  "url": "https://www.gimosroofing.com/roofing-st-augustine-fl",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roofing Services in St. Augustine, FL",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Historic Home Roofing in St. Augustine FL",
-          "description": "Period-appropriate roofing for historic homes including barrel tile, slate, and architectural shingles in St. Augustine's Historic District."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Coastal Roof Replacement in St. Augustine FL",
-          "description": "Salt-resistant roof replacement for Anastasia Island, Davis Shores, and St. Augustine Beach properties."
-        }
-      }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roofing-st-augustine-fl#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roofing-st-augustine-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-st-augustine-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -105,7 +64,6 @@ const breadcrumbSchema = {
 export default function StAugustinePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

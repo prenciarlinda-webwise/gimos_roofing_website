@@ -68,44 +68,10 @@ const faqs = [
   { question: "Do you provide roofing for custom homes?", answer: "Absolutely. We specialize in custom home roofing with complex designs, multiple roof lines, and premium materials. We work closely with architects and builders to execute your vision." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/services/new-construction-roofing#service",
-  "@type": "Service",
-  "name": "New Construction Roofing in Jacksonville FL",
-  "serviceType": "New Construction Roofing",
-  "description": "New construction roofing in Jacksonville FL for builders, custom homes, and production homes. Shingle, metal, and tile roof installation across Duval, St. Johns, Clay, and Nassau counties.",
-  "url": "https://www.gimosroofing.com/services/new-construction-roofing",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
-    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
-    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
-    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
-    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
-    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
-    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
-    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "New Construction Roofing Options",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Asphalt Shingle New Roof Installation", "description": "Architectural shingle installation for new home builds with code-compliant nailing and underlayment." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Metal Roof New Construction", "description": "Standing seam and metal shingle installation on new builds for hurricane-rated performance." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tile Roof New Construction", "description": "Concrete and clay tile installation for Mediterranean and Spanish-style new homes." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Builder Partnership Roofing", "description": "Volume-priced new construction roofing for production and custom builders." } }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/new-construction-roofing#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/services/new-construction-roofing#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/new-construction-roofing",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -125,7 +91,6 @@ const breadcrumbSchema = {
 export default function NewConstructionRoofingPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

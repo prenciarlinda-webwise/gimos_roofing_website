@@ -66,45 +66,10 @@ const faqs = [
   { question: "Can you help with roof-related insurance claims?", answer: "Yes, we assist with storm damage documentation, insurance estimates, and adjuster meetings for commercial properties. We've helped many Jacksonville businesses navigate the claims process successfully." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/services/commercial-roofing#service",
-  "@type": "Service",
-  "name": "Commercial Roofing in Jacksonville FL",
-  "serviceType": "Commercial Roofing",
-  "description": "Commercial roofing in Jacksonville FL for TPO, EPDM, metal, and modified bitumen systems. Installation, repair, and maintenance across Duval, St. Johns, Clay, and Nassau counties.",
-  "url": "https://www.gimosroofing.com/services/commercial-roofing",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
-    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
-    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
-    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
-    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
-    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
-    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
-    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Commercial Roofing Options",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "TPO Roofing Installation", "description": "Heat-welded single-ply TPO membrane installation for commercial buildings." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "EPDM Roofing Installation", "description": "Durable EPDM rubber membrane installation for flat and low-slope commercial roofs." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Metal Roofing", "description": "Standing seam and metal panel roofing for sloped commercial buildings with hurricane-rated performance." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Modified Bitumen Roofing", "description": "Multi-ply modified bitumen installation for buildings with rooftop equipment and foot traffic." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roof Maintenance", "description": "Scheduled semi-annual inspections and maintenance to extend commercial roof life." } }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/commercial-roofing#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/services/commercial-roofing#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/commercial-roofing",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -124,7 +89,6 @@ const breadcrumbSchema = {
 export default function CommercialRoofingPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

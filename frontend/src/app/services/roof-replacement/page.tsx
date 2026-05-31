@@ -77,44 +77,10 @@ const faqs = [
   { question: "Is $25,000 a lot for a new roof?", answer: "For a large or two-story Jacksonville home, $25,000 is within the normal range. Most asphalt shingle replacements here run about $4.50 to $8.00 per square foot, so a 3,000 square foot roof can reach $20,000 to $25,000, and tile or metal roofing costs more. We provide a written, itemized quote so you can see exactly what drives the price." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/services/roof-replacement#service",
-  "@type": "Service",
-  "name": "Roof Replacement in Jacksonville FL",
-  "serviceType": "Roof Replacement",
-  "description": "Complete roof replacement in Jacksonville FL for shingle, tile, and metal roofing. Full tear-off, new roof installation, and insurance-approved roofing replacement across Duval, St. Johns, Clay, and Nassau counties.",
-  "url": "https://www.gimosroofing.com/services/roof-replacement",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
-    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
-    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
-    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
-    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
-    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
-    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
-    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roof Replacement Options",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Asphalt Shingle Roof Replacement", "description": "Architectural and 3-tab shingle roof replacement with 25-30 year warranties." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Metal Roof Replacement", "description": "Standing seam and metal shingle replacement with 40-70 year lifespan and hurricane-rated performance." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tile Roof Replacement", "description": "Concrete and clay tile roof replacement for Mediterranean and Spanish-style homes." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Storm Damage Roof Replacement", "description": "Insurance-claim roof replacement for hurricane, wind, and hail damaged roofs." } }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/roof-replacement#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/services/roof-replacement#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/roof-replacement",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -134,7 +100,6 @@ const breadcrumbSchema = {
 export default function RoofReplacementPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

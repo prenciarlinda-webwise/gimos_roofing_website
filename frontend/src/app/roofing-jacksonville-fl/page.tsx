@@ -54,39 +54,10 @@ const faqs = [
   { question: "How can I tell if a Jacksonville roofer is honest?", answer: "Verify the Florida license at myfloridalicense.com (Gimo's is CCC1332453), confirm general liability and workers compensation insurance, read Google reviews, and get the full scope in writing with material brands and warranty terms. Be cautious of anyone who demands a large cash deposit up front, goes door to door after storms, or pressures you to sign on the spot. A reputable roofer gives an honest assessment even when a repair, not a replacement, is the right call." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roofing-jacksonville-fl#service",
-  "@type": "Service",
-  "name": "Roofing Services in Jacksonville, FL",
-  "serviceType": "Roofing Contractor",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": {
-    "@type": "City",
-    "name": "Jacksonville, FL",
-    "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida"
-  },
-  "url": "https://www.gimosroofing.com/roofing-jacksonville-fl",
-  "description": "Roof replacement, roof repair, emergency roofing, and new construction roofing throughout Jacksonville and Northeast Florida.",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roofing Services in Jacksonville FL",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement Jacksonville FL", "description": "Complete roof replacement with premium materials starting at $7,900." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Repair Jacksonville FL", "description": "Fast, reliable roof repairs for leaks, storm damage, and general wear." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roof Repair Jacksonville FL", "description": "24/7 emergency roof repair for storm damage and active leaks." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "New Construction Roofing Jacksonville FL", "description": "Expert roofing for new home builds in Jacksonville." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing Jacksonville FL", "description": "Professional commercial roofing services for Jacksonville businesses." } }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roofing-jacksonville-fl#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roofing-jacksonville-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-jacksonville-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -115,7 +86,6 @@ const reviewSchema = {
 export default function RoofingJacksonvilleFLPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />

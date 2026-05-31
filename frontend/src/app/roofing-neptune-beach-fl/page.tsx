@@ -37,51 +37,10 @@ const faqs = [
   { question: "My Neptune Beach home is a block from the ocean. Do I need impact-rated shingles?", answer: "If your home is east of 3rd Street in Neptune Beach, we strongly recommend impact-rated Class 4 shingles with stainless steel fasteners as the minimum. Homes along 1st Street North, 1st Street South, and the cross-streets within a few blocks of the dunes take direct salt spray and wind-driven debris during every storm. Standard architectural shingles on those blocks lose granules and lift at the edges years earlier than the same product installed west of Florida Boulevard. Impact-rated shingles like GAF Timberline UHDZ or CertainTeed Landmark IR cost roughly $1,500-$2,500 more on a typical Neptune Beach bungalow, but they qualify for wind mitigation insurance credits that usually offset the added cost within two years." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roofing-neptune-beach-fl#service",
-  "@type": "Service",
-  "name": "Roofing Services in Neptune Beach, FL",
-  "serviceType": "Roofing Contractor",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": {
-    "@type": "City",
-    "name": "Neptune Beach, FL",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida"
-    ]
-  },
-  "url": "https://www.gimosroofing.com/roofing-neptune-beach-fl",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roofing Services in Neptune Beach, FL",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Coastal Roof Replacement in Neptune Beach FL",
-          "description": "Salt-resistant coastal roofing for Neptune Beach oceanfront and near-ocean homes."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Hurricane Damage Repair in Neptune Beach FL",
-          "description": "24/7 emergency storm damage repair and insurance claim assistance for Neptune Beach properties."
-        }
-      }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roofing-neptune-beach-fl#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roofing-neptune-beach-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-neptune-beach-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -101,7 +60,6 @@ const breadcrumbSchema = {
 export default function NeptuneBeachPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

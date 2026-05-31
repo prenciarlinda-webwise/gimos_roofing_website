@@ -54,39 +54,6 @@ const faqs = [
   { question: "Do you offer financing for roof waterproofing?", answer: "Yes. We offer financing so you can waterproof your roof now and pay over time with low monthly payments. This lets you stop a small leak before it becomes costly structural damage. You can also apply for roof financing online and we will walk you through the options during your free estimate." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/services/roof-waterproofing#service",
-  "@type": "Service",
-  "name": "Roof Waterproofing in Jacksonville FL",
-  "serviceType": "Roof Waterproofing",
-  "description": "Roof waterproofing in Jacksonville FL including elastomeric and silicone roof coatings, flashing and penetration sealing, flat-roof membranes, and moisture barriers across Duval, St. Johns, Clay, and Nassau counties.",
-  "url": "https://www.gimosroofing.com/services/roof-waterproofing",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
-    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
-    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
-    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
-    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
-    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
-    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
-    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roof Waterproofing Options",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Elastomeric and Acrylic Roof Coatings", "description": "Reflective liquid-applied coatings that seal the roof surface and lower attic heat." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Silicone Roof Coatings", "description": "Silicone coatings that resist ponding water on flat and low-slope roofs." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Flashing and Penetration Sealing", "description": "Sealing of flashing, valleys, vents, skylights, and chimneys where leaks begin." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Flat Roof Membrane Waterproofing", "description": "TPO and EPDM membrane systems and reinforced seams for flat and low-slope roofs." } }
-    ]
-  }
-
-}
-
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/roof-waterproofing#breadcrumb",
@@ -102,7 +69,6 @@ const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/roof-waterproofing#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/services/roof-waterproofing#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/roof-waterproofing",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -111,7 +77,6 @@ const faqSchema = {
 export default function RoofWaterproofingPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

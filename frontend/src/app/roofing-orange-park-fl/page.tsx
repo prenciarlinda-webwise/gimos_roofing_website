@@ -38,51 +38,10 @@ const faqs = [
   { question: "How do clay soil shifts in Orange Park affect roof structures over time?", answer: "Orange Park and much of Clay County sit on expansive clay soils that swell when wet and shrink when dry. Over 20-30 years, this seasonal movement causes subtle foundation settling in older homes along Kingsley Avenue, Wells Road, and the Loch Rane and Bellair neighborhoods. When the foundation shifts, the roof framing follows, and that shows up as cracked ridge caps, gaps at fascia board connections, and interior ceiling cracks that track along truss lines. During every Orange Park re-roof, we check the framing alignment from inside the attic and flag any structural movement before we install new materials on top of it." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roofing-orange-park-fl#service",
-  "@type": "Service",
-  "name": "Roofing Services in Orange Park, FL",
-  "serviceType": "Roofing Contractor",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": {
-    "@type": "City",
-    "name": "Orange Park, FL",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/Orange_Park,_Florida"
-    ]
-  },
-  "url": "https://www.gimosroofing.com/roofing-orange-park-fl",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roofing Services in Orange Park, FL",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Affordable Roof Replacement in Orange Park FL",
-          "description": "Budget-friendly roof replacement for Orange Park and Clay County families with financing available."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Roof Repair in Orange Park FL",
-          "description": "Fast, reliable roof repair services for Orange Park homeowners at competitive Clay County pricing."
-        }
-      }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roofing-orange-park-fl#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roofing-orange-park-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-orange-park-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -102,7 +61,6 @@ const breadcrumbSchema = {
 export default function OrangeParkPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

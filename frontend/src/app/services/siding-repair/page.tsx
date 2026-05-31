@@ -75,44 +75,10 @@ const faqs = [
   { question: "Can siding repair fix my water intrusion problem?", answer: "Often yes, if the damage is localized. We assess the underlying cause (sometimes flashing or house wrap also needs attention). We repair the root cause, not just the visible damage." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/services/siding-repair#service",
-  "@type": "Service",
-  "name": "Siding Repair in Jacksonville FL",
-  "serviceType": "Siding Repair",
-  "description": "Siding repair in Jacksonville FL for vinyl, fiber cement, wood, and storm-damaged siding across Duval, St. Johns, Clay, and Nassau counties. Local siding contractors with fast response.",
-  "url": "https://www.gimosroofing.com/services/siding-repair",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
-    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
-    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
-    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
-    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
-    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
-    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
-    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Siding Repair Options in Jacksonville FL",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Vinyl Siding Repair", "description": "Panel replacement, crack patching, and color-matched vinyl repairs." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fiber Cement (Hardie Board) Repair", "description": "Hardie board chip, crack, and moisture-damage repair with proper finishing." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Storm Damage Siding Repair", "description": "Insurance-ready repairs for hurricane and wind-damaged siding across Jacksonville." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wood Siding Rot Repair", "description": "Rot removal, board replacement, and moisture correction for wood siding." } }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/siding-repair#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/services/siding-repair#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/siding-repair",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -132,7 +98,6 @@ const breadcrumbSchema = {
 export default function SidingRepairPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

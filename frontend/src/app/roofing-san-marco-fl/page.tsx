@@ -41,51 +41,10 @@ const faqs = [
   { question: "What's the typical lead time for sourcing replacement barrel tiles in San Marco?", answer: "For the common concrete S-tile profiles used on newer San Marco homes and the post-1970 renovations, we can usually source matching tile within 1-2 weeks from Eagle Roofing or Boral distributors in Jacksonville. For original 1920s and 1930s clay barrel tile on homes around San Marco Square, Largo Road, and Arcadia Place, the lead time is longer because we source through specialty salvage yards in Tampa and Miami, and sometimes from Ludowici for new clay tile that needs to be color-blended to match. Expect 3-6 weeks for salvage clay and 6-10 weeks for custom-blended new Ludowici tile. We always recommend starting the sourcing process before the rainy season so you are not waiting on tile during hurricane season." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roofing-san-marco-fl#service",
-  "@type": "Service",
-  "name": "Roofing Services in San Marco, Jacksonville FL",
-  "serviceType": "Roofing Contractor",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": {
-    "@type": "Neighborhood",
-    "name": "San Marco",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/San_Marco,_Jacksonville"
-    ]
-  },
-  "url": "https://www.gimosroofing.com/roofing-san-marco-fl",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roofing Services in San Marco, Jacksonville",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Barrel Tile Roof Replacement in San Marco FL",
-          "description": "Expert barrel tile and Mediterranean roof replacement for San Marco's historic 1920s-1940s homes."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Tile Roof Repair in San Marco FL",
-          "description": "Specialized barrel tile repair and underlayment replacement for San Marco's Mediterranean Revival homes."
-        }
-      }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roofing-san-marco-fl#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roofing-san-marco-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-san-marco-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -105,7 +64,6 @@ const breadcrumbSchema = {
 export default function SanMarcoPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

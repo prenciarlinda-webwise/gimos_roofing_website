@@ -40,51 +40,10 @@ const faqs = [
   { question: "What commercial roof warranties should Southside business owners demand?", answer: "For any commercial flat roof in Southside Jacksonville, you should require at minimum a 20-year manufacturer warranty with no-dollar-limit (NDL) coverage on both materials and labor. The big three manufacturers we install for commercial projects -- GAF, Carlisle, and Firestone -- all offer NDL warranties on TPO and EPDM systems when installed by a certified contractor using their full system (membrane, adhesive, flashing, edge metal). A cheaper installer offering only a 10-year or labor-limited warranty will cost you more in the long run because any failure within the warranty period comes out of your pocket. We are certified installers for all three systems and every commercial project we complete in 32216, 32246, and 32256 carries the full manufacturer NDL warranty." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roofing-southside-jax-fl#service",
-  "@type": "Service",
-  "name": "Roofing Services in Southside Jacksonville, FL",
-  "serviceType": "Roofing Contractor",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": {
-    "@type": "Neighborhood",
-    "name": "Southside Jacksonville",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/Jacksonville,_Florida"
-    ]
-  },
-  "url": "https://www.gimosroofing.com/roofing-southside-jax-fl",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roofing Services in Southside Jacksonville, FL",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Residential Roof Replacement in Southside Jacksonville FL",
-          "description": "Quality residential roofing for Southside Jacksonville homes in Baymeadows, Deerwood, and Tinseltown."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Commercial Roofing in Southside Jacksonville FL",
-          "description": "Professional commercial roofing services for Southside Jacksonville businesses, shopping centers, and office buildings."
-        }
-      }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roofing-southside-jax-fl#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roofing-southside-jax-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-southside-jax-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -104,7 +63,6 @@ const breadcrumbSchema = {
 export default function SouthsideJaxPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

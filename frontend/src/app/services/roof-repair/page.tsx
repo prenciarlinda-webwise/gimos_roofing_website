@@ -59,39 +59,6 @@ const faqs = [
   { question: "How can I get my roof repaired if I have no money?", answer: "You have options. Storm or sudden-event damage is often covered by homeowners insurance, and we help document and file the claim. For out-of-pocket repairs, we offer financing with low monthly payments so you can stop the damage now and pay over time, rather than letting a small leak become a costly structural problem." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/services/roof-repair#service",
-  "@type": "Service",
-  "name": "Roof Repair in Jacksonville FL",
-  "serviceType": "Roof Repair",
-  "description": "Professional roof repair in Jacksonville FL for leaks, damaged shingles, flashing failures, and storm damage across Duval, St. Johns, Clay, and Nassau counties.",
-  "url": "https://www.gimosroofing.com/services/roof-repair",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
-    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
-    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
-    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
-    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
-    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
-    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
-    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Roof Repair Options",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Leak Repair", "description": "Same-day roof leak repair tracing leaks to source and replacing failed materials." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Shingle Roof Repair", "description": "Replacement of cracked, curled, missing, and wind-damaged shingles with matching materials." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Flashing Repair", "description": "Chimney, vent, skylight, and wall-transition flashing repair using correct overlap and sealants." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Storm Damage Roof Repair", "description": "Hurricane, wind, and hail damage repair with insurance claim assistance." } }
-    ]
-  }
-
-}
-
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/roof-repair#breadcrumb",
@@ -107,7 +74,6 @@ const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/roof-repair#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/services/roof-repair#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/roof-repair",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -116,7 +82,6 @@ const faqSchema = {
 export default function RoofRepairPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

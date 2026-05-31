@@ -45,44 +45,10 @@ const faqs = [
   { question: "Can you work with the Neptune Beach and Atlantic Beach HOAs?", answer: "Yes. Many of our Jax Beach customers have homes that fall within HOAs in neighboring Neptune Beach and Atlantic Beach, and the architectural review boards each have their own approved materials lists. We carry samples of every commonly-approved shingle color and metal finish for these communities, and we handle the HOA submittal paperwork as part of every project. We've completed roofs for homes in Sandcastle, Beachwalker, and the older Beach Avenue district." }
 ]
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl#service",
-  "@type": "Service",
-  "name": "Roofing in Jacksonville Beach FL",
-  "serviceType": "Roofing Contractor",
-  "description": "Coastal roofing in Jacksonville Beach FL. Salt-resistant materials, 130+ mph wind-rated installation, and 24/7 storm response for homes in ZIP codes 32250 and 32240.",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": {
-    "@type": "City",
-    "name": "Jacksonville Beach, FL",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida",
-      "https://www.wikidata.org/wiki/Q1684252"
-    ],
-    "containedInPlace": { "@type": "AdministrativeArea", "name": "Duval County, FL" }
-  },
-  "url": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Coastal Roofing Services in Jacksonville Beach, FL",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coastal Roof Replacement in Jacksonville Beach FL", "description": "Salt-resistant coastal roofing for Jacksonville Beach oceanfront and beach homes. Starting at $8,500." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hurricane and Storm Damage Repair in Jacksonville Beach FL", "description": "24/7 emergency storm damage repair, tarping, and insurance claim assistance for beach properties." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coastal Roof Repair in Jacksonville Beach FL", "description": "Repair salt-corroded flashing, wind-lifted shingles, leaks, and UV damage with coastal-grade materials." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aluminum Standing Seam Metal Roofing in Jacksonville Beach FL", "description": "Aluminum standing seam metal roofing with 40 to 60 year lifespan for oceanfront properties." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tile Roofing in Jacksonville Beach FL", "description": "Concrete and clay tile roofing with 30 to 50+ year lifespan, ideal for Florida coastal homes." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coastal Roof Inspections in Jacksonville Beach FL", "description": "Annual coastal property inspections for salt corrosion, wind damage, and UV deterioration." } }
-    ]
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -102,7 +68,6 @@ const breadcrumbSchema = {
 export default function JacksonvilleBeachPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
