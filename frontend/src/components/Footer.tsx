@@ -43,12 +43,6 @@ const serviceAreas = [
   "Southside Jax",
 ]
 
-const partners = [
-  { name: "Fabby Cleaning Services", href: "https://fabbycleaningserv.com", nofollow: true, title: "Fabby Cleaning Services" },
-  { name: "Welch Team Real Estate", href: "https://welchteam.com", nofollow: true, title: "Welch Team Real Estate" },
-  { name: "JVICON LLC", href: "https://jviconllc.com", nofollow: true, title: "JVICON LLC" },
-  { name: "Eastern Shores Construction", href: "https://www.easternshoresconstruction.com", nofollow: true, title: "Eastern Shores Construction" },
-]
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -211,24 +205,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Trusted Partners */}
-          <div className="mt-8 pt-8 border-t border-white/10">
-            <p className="text-lg font-bold mb-4 text-primary">Trusted Partners</p>
-            <div className="flex flex-wrap gap-2">
-              {partners.map((partner) => (
-                <a
-                  key={partner.name}
-                  href={partner.href}
-                  target="_blank"
-                  rel={partner.nofollow ? "noopener noreferrer nofollow" : "noopener noreferrer"}
-                  title={partner.title}
-                  className="px-3 py-1 bg-white/5 rounded-full text-sm text-gray-300 hover:bg-primary hover:text-secondary transition-all"
-                >
-                  {partner.name}
-                </a>
-              ))}
-            </div>
-          </div>
         </div>
 
         {/* Trustindex Certificate */}
