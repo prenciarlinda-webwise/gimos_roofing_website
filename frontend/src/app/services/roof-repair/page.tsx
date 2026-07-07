@@ -596,6 +596,15 @@ export default function RoofRepairPage() {
         </div>
       </section>
 
+      {/* Complementary Services */}
+      <section className="py-8">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <p className="text-gray-600">
+            Already planning other exterior work? Services you might need to consider are roof repair, roof replacement, or gutter repair, so give us a call. Or if you need a <a href="https://www.paint-techs.com/" target="_blank" rel="noopener" className="text-primary hover:underline">Jacksonville painting contractor</a>, we recommend a trusted local painting team for interior and exterior work across Northeast Florida.
+          </p>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-4 text-center">

@@ -2032,6 +2032,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">Yellow and brown ceiling stains are almost always caused by water. The discoloration comes from minerals and contaminants in the water that get left behind when the moisture evaporates. Common causes include:</p>
 
+<p class="text-gray-600 mb-6">Need a <a href="/roofing-ponte-vedra-beach-fl" class="text-primary font-semibold hover:underline">roof estimate in Ponte Vedra Beach</a>? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Roof Leaks (Most Common)</h3>
 <p class="text-gray-600 mb-4">The most frequent cause of ceiling stains in Jacksonville homes. Water enters through damaged shingles, worn flashing, or failed seals around roof penetrations, then travels along rafters before dripping onto your ceiling.</p>
 
@@ -3216,6 +3218,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Before diving into costs, let's clarify the terminology. A "square" in roofing equals 100 square feet of roof area. So a 2,000 sq ft roof is 20 squares. Contractors quote materials and sometimes labor by the square because it standardizes pricing across different roof sizes.</p>
 
+<p class="text-gray-600 mb-6">Get a <a href="/roofing-neptune-beach-fl" class="text-primary font-semibold hover:underline">free roof quote in Neptune Beach</a> by calling Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
 <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Jacksonville Roofing Labor Rates (2026)</h2>
 
 <p class="text-gray-600 mb-6">Here's what Jacksonville roofing contractors typically charge for labor alone:</p>
@@ -3377,6 +3381,8 @@ export const blogPosts: BlogPost[] = [
 <p class="text-gray-600 mb-6">Florida has the highest hurricane exposure in the continental U.S. Roofs are the primary line of defense against wind and water damage. An aging roof with worn shingles, deteriorating seals, and weakened underlayment is far more likely to fail during a storm, leading to massive claims.</p>
 
 <p class="text-gray-600 mb-6">From the insurer's perspective, a 20-year-old roof represents significantly higher risk than a 5-year-old roof. That's why they're increasingly strict about coverage.</p>
+
+<p class="text-gray-600 mb-6">Ready to talk numbers? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a <a href="/roofing-orange-park-fl" class="text-primary font-semibold hover:underline">roof estimate in Orange Park</a>.</p>
 
 <h2 id="age-rules" class="text-2xl font-bold text-secondary mt-10 mb-4">Florida's Roof Age Insurance Rules</h2>
 
@@ -3588,6 +3594,8 @@ export const blogPosts: BlogPost[] = [
 <p class="text-gray-600 mb-6">This is not a quality issue or an installation problem. It is physics. Florida's UV index averages 8-10 during summer months, among the highest in the nation. That UV energy breaks down the petroleum-based compounds in asphalt shingles, degrades the rubber seals around pipe boots and vents, and chalks paint finishes on metal roofing. Understanding these realities helps you plan and budget realistically rather than being surprised when your "30-year shingle" needs replacement at year 18.</p>
 
 <p class="text-gray-600 mb-6">The good news is that choosing the right material, ensuring proper installation, and maintaining your roof consistently can help you maximize the lifespan of whatever roofing system you choose. And when the time does come for replacement, knowing the expected lifespan helps you evaluate whether <a href="/blog/roof-repair-vs-replacement-jacksonville" class="text-primary hover:underline">repair or replacement</a> is the smarter financial move.</p>
+
+<p class="text-gray-600 mb-6">Looking for a <a href="/roofing-jacksonville-beach-fl" class="text-primary font-semibold hover:underline">roof quote in Jacksonville Beach</a>? Gimo's Roofing is one call away at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
 <p class="font-bold text-secondary mb-2">Not Sure How Much Life Your Roof Has Left?</p>
@@ -3992,6 +4000,8 @@ export const blogPosts: BlogPost[] = [
 <p class="text-gray-600 mb-6">Choosing roofing materials in Florida is fundamentally different from choosing them anywhere else. Our unique combination of intense UV radiation that breaks down materials at the molecular level, heavy afternoon thunderstorms that dump inches of rain in minutes, high humidity that promotes biological growth and moisture damage, salt air along the coast that accelerates corrosion, and hurricane-force winds that test every fastener and seal means some materials perform dramatically better than others in our state.</p>
 
 <p class="text-gray-600 mb-6">After installing thousands of roofs in Jacksonville and Northeast Florida, Gimo's Roofing has seen firsthand what works and what fails in our climate. The material that is perfect for a home in Colorado or Connecticut may underperform badly in Jacksonville. This guide gives you our honest, experience-based assessment of each major roofing material for Florida conditions, so you can make an informed decision that matches your budget, your home's architecture, and how long you plan to own the property.</p>
+
+<p class="text-gray-600 mb-6">Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a> to schedule a <a href="/roofing-fernandina-beach-fl" class="text-primary font-semibold hover:underline">roof estimate in Fernandina Beach</a>.</p>
 
 <h2 id="asphalt-shingles" class="text-2xl font-bold text-secondary mt-10 mb-4">Asphalt Shingles - Best Value for Most Florida Homeowners</h2>
 
@@ -7700,6 +7710,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">These are separate warranties with different coverage, terms, and claim processes. You need both for complete protection.</p>
 
+<p class="text-gray-600 mb-6">For a <a href="/roofing-ponte-vedra-beach-fl" class="text-primary font-semibold hover:underline">free roof estimate in Ponte Vedra Beach</a>, call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
 <h2 id="manufacturer" class="text-2xl font-bold text-secondary mt-10 mb-4">Understanding Manufacturer Warranties</h2>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">What Manufacturer Warranties Cover</h3>
@@ -10275,6 +10287,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6"><strong>Fascia is the vertical board behind your gutter; soffit is the underside of the roof overhang.</strong> Together they protect rafters from weather and pests while providing ventilation. Damage is usually from water intrusion, pest activity, or age. Repairs cost $15-30 per linear foot for fascia and $6-12 per square foot for soffit.</p>
 
+<p class="text-gray-600 mb-6">Want a <a href="/roofing-neptune-beach-fl" class="text-primary font-semibold hover:underline">roof quote in Neptune Beach</a>? Reach Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Fascia and Soffit Functions:</p>
 <ul class="text-gray-700 mt-2 space-y-1">
@@ -11508,6 +11522,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">For landlords and property managers across Northeast Florida, a roof is both a major capital asset and a daily liability. A failing roof on a 12-unit building can damage dozens of tenant possessions at once and idle rental income. Whether you own a single duplex or a portfolio of apartment buildings, our <a href="/services/commercial-roofing" class="text-primary hover:underline">commercial roofing</a> team approaches multi-family work as a system: the right membrane or shingle, a phasing plan that keeps tenants in place, and documentation that protects you with insurers and the county. This guide covers material choices, tenant coordination, phasing, slope decisions, budgeting, and the Florida Building Code wind requirements that govern every multi-family roof in the state.</p>
 
+<p class="text-gray-600 mb-6">Get a fast <a href="/roofing-st-augustine-fl" class="text-primary font-semibold hover:underline">roof quote in St. Augustine</a> — call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Multi-Family Roofing Priorities:</p>
 <ul class="text-gray-700 mt-2 space-y-1">
@@ -12092,6 +12108,8 @@ export const blogPosts: BlogPost[] = [
 <p class="text-gray-600 mb-6"><strong>Flashing is thin metal installed at roof intersections and penetrations to direct water away from vulnerable joints.</strong> It is the first line of defense against leaks at chimneys, walls, valleys, vents, and edges. Poor or missing flashing is the leading cause of roof leaks, which is why most <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> calls in Jacksonville trace back to a failed flashing detail. Common materials include aluminum, galvanized steel, copper, and lead.</p>
 
 <p class="text-gray-600 mb-6">In Jacksonville's climate, flashing earns its keep. Wind-driven rain pushes water sideways and uphill against every seam, while relentless UV bakes the sealants and rubber gaskets that hold those seams tight. A roof can have premium shingles and still leak within a few years if the flashing was rushed or reused. Understanding the types of flashing helps you spot trouble early and know when a quick <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof repair</a> will hold versus when it is time for a full <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a>.</p>
+
+<p class="text-gray-600 mb-6">Need a <a href="/roofing-mandarin-fl" class="text-primary font-semibold hover:underline">roof estimate in Mandarin</a>? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Flashing Essentials:</p>
@@ -12821,6 +12839,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Ridge cap shingles are specifically designed for this purpose. They are pre-bent or scored so they can fold over the ridge and lay flat on both sides. Regular flat shingles cannot do this properly, which is why purpose-built ridge caps exist.</p>
 
+<p class="text-gray-600 mb-6">Get a <a href="/roofing-atlantic-beach-fl" class="text-primary font-semibold hover:underline">free roof quote in Atlantic Beach</a> by calling Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Key Facts About Ridge Caps</p>
 <ul class="text-gray-700 mt-2 space-y-1">
@@ -13316,6 +13336,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">This guide breaks down the actual science behind roof color and temperature, gives you real numbers on energy savings, and helps you pick the right color for your next <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a>.</p>
 
+<p class="text-gray-600 mb-6">Ready to talk numbers? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a <a href="/roofing-jacksonville-fl" class="text-primary font-semibold hover:underline">roof estimate in Jacksonville</a>.</p>
+
 <h2 id="how-roof-color-affects-temperature" class="text-2xl font-bold text-secondary mt-10 mb-4">How Roof Color Affects Your Home Temperature</h2>
 
 <p class="text-gray-600 mb-6">Every surface absorbs and reflects solar radiation. The percentage of sunlight a surface reflects is called its Solar Reflectance Index (SRI). A pure white surface has an SRI near 100 (reflects almost everything), while a pure black surface has an SRI near 0 (absorbs almost everything).</p>
@@ -13527,6 +13549,8 @@ export const blogPosts: BlogPost[] = [
 <p class="text-gray-600 mb-6">If you have ever noticed dark streaks running down a roof in your neighborhood, you have seen what Gloeocapsa magma does to standard shingles. In Northeast Florida, our combination of high humidity, warm temperatures, and frequent rainfall creates perfect conditions for algae colonization. Without protection, most roofs in the Jacksonville area will develop visible algae staining within 3 to 5 years of installation.</p>
 
 <p class="text-gray-600 mb-6">Algae resistant shingles, commonly labeled as AR shingles, were developed specifically to address this problem. They look identical to standard architectural shingles but contain a built-in defense system that keeps your roof looking clean for over a decade. Here is everything you need to know about how they work, which brands perform best, and whether they are worth the investment for your Florida home.</p>
+
+<p class="text-gray-600 mb-6">Get a fast <a href="/roofing-jacksonville-beach-fl" class="text-primary font-semibold hover:underline">roof quote in Jacksonville Beach</a> — call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <h2 id="what-are-algae-resistant-shingles" class="text-2xl font-bold text-secondary mt-10 mb-4">What Are Algae Resistant Shingles</h2>
 
@@ -14802,6 +14826,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Composition roofing accounts for roughly 80 percent of all residential roofs in America. Its popularity is easy to understand once you see the full picture. It is affordable, available in dozens of colors and styles, straightforward to install, and performs well across a wide range of climates. For Florida homeowners specifically, understanding composition roofing is essential because most homes in Jacksonville, St. Augustine, Orange Park, and the surrounding areas already have some form of composition shingle on them. Whether you are planning a <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> or simply trying to understand what is currently on your house, Gimo's Roofing is here to walk you through every detail.</p>
 
+<p class="text-gray-600 mb-6">Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a> to schedule a <a href="/roofing-riverside-fl" class="text-primary font-semibold hover:underline">roof estimate in Riverside</a>.</p>
+
 <h2 id="what-is-composition-roof" class="text-2xl font-bold text-secondary mt-10 mb-4">What Is a Composition Roof</h2>
 
 <p class="text-gray-600 mb-6">A composition roof is a roof covered with shingles that are manufactured from a combination of different materials. Unlike natural roofing materials such as slate, wood shake, or clay tile, which are each made from a single raw material, composition shingles blend multiple components together to create a product that is durable, weather-resistant, and cost-effective.</p>
@@ -15058,6 +15084,8 @@ export const blogPosts: BlogPost[] = [
 <p class="text-gray-600 mb-6"><strong>A roof dormer is a structural extension that projects vertically from a sloped roof, creating additional headroom, floor space, and natural light inside the upper level of a home.</strong> Dormers have their own roof, walls, and typically include a window. They are one of the most popular ways to transform unused attic space into livable square footage. If you need more room than a dormer provides, the next step up is <a href="/blog/second-story-addition-roofing" class="text-primary hover:underline">roofing for a second-story addition</a>, which adds a full upper level rather than a single projection.</p>
 
 <p class="text-gray-600 mb-6">In Jacksonville and across Northeast Florida, dormers are found on many residential architectural styles, from historic homes in <a href="/roofing-riverside-fl" class="text-primary hover:underline">Riverside</a> and <a href="/roofing-san-marco-fl" class="text-primary hover:underline">San Marco</a> to newer construction in <a href="/roofing-nocatee-fl" class="text-primary hover:underline">Nocatee</a> and <a href="/roofing-ponte-vedra-beach-fl" class="text-primary hover:underline">Ponte Vedra Beach</a>. Whether you are considering adding a dormer, need <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> around an existing one, or are planning a full <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> that includes dormer work, this guide covers everything you need to know.</p>
+
+<p class="text-gray-600 mb-6">For a <a href="/roofing-san-marco-fl" class="text-primary font-semibold hover:underline">free roof estimate in San Marco</a>, call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Quick Dormer Facts</p>
@@ -15316,6 +15344,8 @@ export const blogPosts: BlogPost[] = [
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - K-Style vs Half-Round Gutters</h2>
 
 <p class="text-gray-600 mb-6"><strong>K-style gutters are the most popular choice for Jacksonville homes because they hold more water, cost less, and match modern home styles.</strong> Half-round gutters are the better choice for historic homes, Spanish-style architecture, and homeowners who prioritize easy cleaning over maximum capacity. Both styles work well in Florida when properly sized and installed.</p>
+
+<p class="text-gray-600 mb-6">Want a <a href="/roofing-southside-jax-fl" class="text-primary font-semibold hover:underline">roof quote in Southside Jacksonville</a>? Reach Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Quick Comparison</p>
@@ -15780,6 +15810,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6"><strong>Roofs that leak only during heavy rain typically have minor vulnerabilities that light rain does not expose.</strong> Heavy rain increases water volume, wind drives water sideways under shingles, and overwhelmed gutters force water backward under the roof edge. The most common causes are damaged flashing, worn pipe boots, clogged gutters, and compromised shingle areas that only fail under heavy water flow.</p>
 
+<p class="text-gray-600 mb-6">Get a fast <a href="/roofing-nocatee-fl" class="text-primary font-semibold hover:underline">roof quote in Nocatee</a> — call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">7 Most Common Causes of Heavy Rain Leaks</p>
 <ul class="text-gray-700 mt-2 space-y-1">
@@ -16019,6 +16051,8 @@ export const blogPosts: BlogPost[] = [
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - Roof Anatomy Basics</h2>
 
 <p class="text-gray-600 mb-6"><strong>Your roof is a system of interconnected components that work together to keep water out, manage airflow, and protect your home's structure.</strong> Understanding roof anatomy helps you communicate effectively with contractors, understand repair estimates, and make informed decisions about your roof. Here is every major component explained in plain language.</p>
+
+<p class="text-gray-600 mb-6">Need a <a href="/roofing-st-augustine-fl" class="text-primary font-semibold hover:underline">roof estimate in St. Augustine</a>? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Roof Layers From Top to Bottom</p>
@@ -17843,6 +17877,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">The average roof replacement cost in Jacksonville FL in 2026 falls between $9,500 and $15,000 for a standard single-story home with architectural asphalt shingles. This represents the most common type of residential roofing project in the Jacksonville market and includes complete tear-off of existing materials, new underlayment, new shingles, flashing replacement, ridge vent installation, cleanup, and the required building permit.</p>
 
+<p class="text-gray-600 mb-6">Get a <a href="/roofing-fernandina-beach-fl" class="text-primary font-semibold hover:underline">free roof quote in Fernandina Beach</a> by calling Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
 <p class="text-gray-600 mb-6">Here is a summary of average costs by material type for a typical 2,000 square foot Jacksonville home with a standard roof complexity.</p>
 
 <div class="overflow-x-auto my-6">
@@ -18550,6 +18586,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6"><strong>The most reliable way to find out exactly how old your roof is in Florida is to pull the permit history from your county building department. Roofing permits are public records, free to access, and they show the exact date the roof was installed and the contractor who pulled the permit. In Duval County (Jacksonville), this is done through the City of Jacksonville's online permit portal. St. Johns, Clay, and Nassau counties have similar online systems. If a permit search comes up empty, your next best option is the closing documents from when you bought the home, followed by the previous owner's records or visual age estimates from a licensed roofing inspector.</strong></p>
 
+<p class="text-gray-600 mb-6">Ready to talk numbers? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a <a href="/roofing-atlantic-beach-fl" class="text-primary font-semibold hover:underline">roof estimate in Atlantic Beach</a>.</p>
+
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">The Five Methods Ranked by Reliability</p>
 <ol class="text-gray-700 mt-2 space-y-1">
@@ -19256,6 +19294,591 @@ export const blogPosts: BlogPost[] = [
       { question: "What factors increase the price of a metal roof?", answer: "The biggest price drivers are roof pitch, tear-off of the old roof, decking repair, metal gauge, and roof complexity. A steep roof above 7 in 12 can add 15 to 25 percent in labor. Tear-off adds $1 to $2 per square foot, and rotted decking found after removal adds material and labor on top of the base estimate." },
       { question: "Does a metal roof lower my insurance in Florida?", answer: "Usually it can. A new metal roof in Florida often qualifies for wind-mitigation credits that reduce the wind portion of your homeowners premium. After installation, order a wind-mitigation inspection and send the completed form to your insurer so the credits apply. These savings recur every year and should be weighed against the project cost." },
       { question: "Can I finance a metal roof in Jacksonville?", answer: "Yes. Because a metal roof is a larger ticket than shingle, most homeowners finance it and spread the cost over monthly payments instead of paying upfront. Gimo's Roofing outlines available terms and qualification on its roof financing page. For most Jacksonville homeowners, a financed metal roof still beats repeated shingle replacements over the decades." }
+    ]
+  },
+  {
+    slug: "hurricane-season-roof-prep-checklist-florida",
+    title: "Hurricane Season Roof Prep Checklist for Florida Homes",
+    metaTitle: "Hurricane Season Roof Prep Checklist (Florida 2026)",
+    excerpt: "A step-by-step hurricane season roof prep checklist for Florida homeowners: pre-season inspections, roof-to-wall connections, gutters, insurance documentation, and a 48-hour countdown plan before landfall.",
+    date: "2026-07-09",
+    publishDate: "2026-07-09",
+    dateModified: "2026-07-09",
+    author: "Gimo's Roofing Team",
+    image: "/images/storm-damage-roof-repair.webp",
+    imageAlt: "Aerial view of a Florida home's shingle roof inspected and prepared ahead of hurricane season",
+    category: "Storm Damage",
+    readTime: "8 min read",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Answer" },
+      { id: "why-it-matters", title: "Why Hurricane Prep Matters for Your Roof" },
+      { id: "pre-season-inspection", title: "Step 1: Schedule a Pre-Season Roof Inspection" },
+      { id: "roof-to-wall-connections", title: "Step 2: Check Roof-to-Wall Connections" },
+      { id: "gutters-downspouts", title: "Step 3: Clear Gutters and Downspouts" },
+      { id: "trees-loose-items", title: "Step 4: Trim Trees and Secure Loose Items" },
+      { id: "document-for-insurance", title: "Step 5: Document Your Roof for Insurance" },
+      { id: "wind-mitigation", title: "Step 6: Review Insurance and Wind Mitigation Credits" },
+      { id: "48-hours-before", title: "48 Hours Before Landfall: Last-Minute Checklist" },
+      { id: "after-the-storm", title: "After the Storm: What to Check First" },
+      { id: "when-to-call-a-pro", title: "When to Call a Professional" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - Hurricane Season Roof Prep Checklist</h2>
+
+<p class="text-gray-600 mb-6"><strong>The most important hurricane season roof prep steps are, in order: get a professional pre-season inspection, verify your roof-to-wall connections are sound, clear gutters and downspouts, trim overhanging branches, photograph your roof's condition for insurance, and confirm your wind mitigation credits are current with your carrier.</strong> Most of this can be done in a single afternoon or a single visit from a licensed <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof repair</a> team, and it is far cheaper than dealing with a preventable leak after a named storm.</p>
+
+<p class="text-gray-600 mb-6">Ready to talk numbers? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a <a href="/roofing-orange-park-fl" class="text-primary font-semibold hover:underline">free roof estimate in Orange Park</a> before the next storm rolls in.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="text-secondary font-semibold">The Checklist at a Glance</p>
+<ol class="text-gray-700 mt-2 space-y-1">
+<li>1. <strong>Pre-season inspection</strong> - book it in May, before the rush</li>
+<li>2. <strong>Roof-to-wall connections</strong> - straps, clips, and truss anchors</li>
+<li>3. <strong>Gutters and downspouts</strong> - fully clear, properly pitched</li>
+<li>4. <strong>Trees and loose items</strong> - trimmed back, tied down, or stored</li>
+<li>5. <strong>Photo documentation</strong> - dated photos of every roof plane</li>
+<li>6. <strong>Insurance and wind mitigation</strong> - policy current, credits applied</li>
+<li>7. <strong>48-hour countdown plan</strong> - what to do once a storm is named</li>
+<li>8. <strong>Post-storm inspection</strong> - what to check the moment it is safe</li>
+</ol>
+</div>
+
+<h2 id="why-it-matters" class="text-2xl font-bold text-secondary mt-10 mb-4">Why Hurricane Prep Matters for Your Roof</h2>
+
+<p class="text-gray-600 mb-6">The Atlantic hurricane season officially runs June 1 through November 30, according to the <a href="https://www.nhc.noaa.gov/" class="text-primary hover:underline" target="_blank" rel="noopener">National Hurricane Center</a>, with the statistical peak from mid-August through October. Most roof failures we see after a storm are not the result of a single catastrophic gust. They are small, pre-existing weaknesses, a lifted shingle tab, a corroded strap, a clogged downspout, that a storm simply finds and exploits.</p>
+
+<p class="text-gray-600 mb-6">A roof that is properly prepped does not just survive better, it also gives you a stronger insurance position afterward. Adjusters and carriers respond faster and more favorably to claims backed by dated before-and-after documentation than to claims with no baseline record at all.</p>
+
+<p class="text-gray-600 mb-6">Northeast Florida's coastal exposure adds another wrinkle. Homes within a few miles of the Atlantic or the St. Johns River deal with salt air that accelerates corrosion on flashing, fasteners, and roof-to-wall connections year-round, so hardware that looked fine last season can be noticeably weaker by the time this year's first storm forms. That is one more reason a visual-only, do-it-yourself check is not a substitute for a hands-on professional inspection before the season gets underway.</p>
+
+<h2 id="pre-season-inspection" class="text-2xl font-bold text-secondary mt-10 mb-4">Step 1: Schedule a Pre-Season Roof Inspection</h2>
+
+<p class="text-gray-600 mb-6">Book your inspection in May, before the seasonal rush. A pre-season inspection checks for lifted or curling shingle tabs, cracked or missing pipe boots, deteriorated sealant around vents and skylights, and soft spots in the decking, all things that a 60 mph gust will find on its own if you do not find them first. Any <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> identified in May is a routine appointment. The same repair identified during an active storm watch is an emergency call competing with hundreds of other homeowners.</p>
+
+<p class="text-gray-600 mb-6">A thorough inspection also covers the parts of the roof you cannot see from the driveway: the attic side of the decking, the underlayment at valleys and penetrations, and the condition of the ridge vent. Ask for a written report, not just a verbal thumbs-up. A written report with photos becomes part of your insurance documentation and gives you something concrete to compare against after the season's first named storm passes through.</p>
+
+<h2 id="roof-to-wall-connections" class="text-2xl font-bold text-secondary mt-10 mb-4">Step 2: Check Roof-to-Wall Connections</h2>
+
+<p class="text-gray-600 mb-6">Roof-to-wall connections, the hurricane straps, clips, and truss anchors that tie your roof structure to your walls, are one of the biggest factors in whether a roof stays put in high wind. Homes built before Florida adopted statewide hurricane straps requirements in the 1990s and early 2000s often have weaker or missing connections, and even homes built to code can have straps that have corroded over decades near the coast. Our guide to <a href="/blog/hurricane-straps-roof-jacksonville" class="text-primary hover:underline">hurricane straps and roof-to-wall connections</a> covers what inspectors look for and how the different strap types compare. This is also one of the line items a wind mitigation inspection documents for your insurer.</p>
+
+<h2 id="gutters-downspouts" class="text-2xl font-bold text-secondary mt-10 mb-4">Step 3: Clear Gutters and Downspouts</h2>
+
+<p class="text-gray-600 mb-6">A single named storm can drop 6 to 12 inches of rain in Northeast Florida over a day or two. Gutters clogged with leaves, pine needles, and granules cannot move that volume of water, and the overflow backs up under the shingle edge, behind the fascia, and eventually into the soffit and attic. Clear gutters and downspouts every spring, and again as any storm approaches. If your gutters are pulling away from the fascia, sagging, or leaking at the seams, get them addressed through <a href="/services/roof-gutter" class="text-primary hover:underline">gutter repair or replacement</a> before, not after, the season's first storm.</p>
+
+<h2 id="trees-loose-items" class="text-2xl font-bold text-secondary mt-10 mb-4">Step 4: Trim Trees and Secure Loose Items</h2>
+
+<p class="text-gray-600 mb-6">Overhanging branches are one of the most common causes of impact damage and punctures during high wind, and they also deposit the debris that clogs your gutters in the first place. Trim back any branches within 6 to 10 feet of the roofline, and remove dead or weak limbs anywhere on the property. Walk the yard and secure or store anything that wind could turn into a projectile: patio furniture, potted plants, trash cans, grills, and loose fencing all belong inside or tied down once a storm watch is issued.</p>
+
+<h2 id="document-for-insurance" class="text-2xl font-bold text-secondary mt-10 mb-4">Step 5: Document Your Roof for Insurance</h2>
+
+<p class="text-gray-600 mb-6">Take dated, well-lit photos of every roof plane, your gutters, your soffits, and any existing wear before the season starts, and again before any storm that is forecast to affect your area. Save them somewhere other than your phone alone, such as email or cloud storage, so they survive even if your phone does not. This baseline record is exactly what separates a fast, well-supported insurance claim from a drawn-out dispute over what damage existed beforehand. Our <a href="/blog/roof-insurance-claim-florida-guide" class="text-primary hover:underline">Florida roof insurance claim guide</a> walks through what to document and how the claims process typically unfolds.</p>
+
+<h2 id="wind-mitigation" class="text-2xl font-bold text-secondary mt-10 mb-4">Step 6: Review Insurance and Wind Mitigation Credits</h2>
+
+<p class="text-gray-600 mb-6">Confirm your homeowners policy is current and that you understand your hurricane deductible, which in Florida is typically a percentage of your dwelling coverage rather than a flat dollar amount. If you have not had a wind mitigation inspection in the last few years, or if you have made roof improvements since your last one (a new roof, added straps, upgraded shingles), schedule a new inspection and send the completed form to your carrier. Wind mitigation credits can meaningfully lower your premium, and they only apply once your insurer has the updated form on file. Our overview of <a href="/blog/storm-damage-roofing-insurance" class="text-primary hover:underline">storm damage and roofing insurance</a> covers how these credits interact with your coverage.</p>
+
+<h2 id="48-hours-before" class="text-2xl font-bold text-secondary mt-10 mb-4">48 Hours Before Landfall: Last-Minute Checklist</h2>
+
+<p class="text-gray-600 mb-6">Once a storm is tracking toward Northeast Florida, the prep work shifts from routine to urgent. In the final 48 hours:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Do a final walk of the yard for anything that could become airborne debris</li>
+<li>Clear gutters and downspouts one more time if leaves or debris have built up</li>
+<li>Take an updated round of dated photos of your roof and property</li>
+<li>Charge phones, power banks, and any battery-powered lighting</li>
+<li>Confirm you know your insurance policy number and carrier contact information</li>
+<li>Save Gimo's Roofing's number, <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>, in case you need emergency tarping once the storm passes</li>
+</ul>
+
+<h2 id="after-the-storm" class="text-2xl font-bold text-secondary mt-10 mb-4">After the Storm: What to Check First</h2>
+
+<p class="text-gray-600 mb-6">Once local authorities confirm it is safe, do a ground-level walk of your property before going anywhere near a ladder. Look for missing or displaced shingles, dented or punctured roof sections, gutters pulled away from the fascia, and any visible daylight or sagging when you look up from inside the attic. Our guide to <a href="/blog/hurricane-roof-damage-signs-florida" class="text-primary hover:underline">signs of hurricane roof damage</a> covers exactly what to look for, and our <a href="/blog/wind-damage-roof-florida" class="text-primary hover:underline">wind damage roof guide</a> explains how wind-driven damage differs from what a hailstorm leaves behind. If you find active leaks or missing sections, do not wait. <a href="/services/emergency-roof-repair" class="text-primary hover:underline">Emergency roof repair</a> and tarping stop a manageable problem from becoming a much more expensive one.</p>
+
+<p class="text-gray-600 mb-6">Stay off the roof yourself and stay clear of any downed power lines near your property. Take your updated set of dated photos before any tarping or temporary repairs begin, since insurers want to see the damage in its original state whenever possible. If a tree limb or other debris is resting on the roof, leave it in place until a professional can remove it safely rather than risking a fall or further structural damage.</p>
+
+<h2 id="when-to-call-a-pro" class="text-2xl font-bold text-secondary mt-10 mb-4">When to Call a Professional</h2>
+
+<p class="text-gray-600 mb-6">Call a licensed roofer before the season starts if your last inspection was more than a year ago, if your roof is over 15 years old, or if you have never had a wind mitigation inspection done. Call immediately, storm or no storm, if you see active leaking, sagging decking, or daylight through the roof deck. Gimo's Roofing offers free pre-season inspections and 24/7 emergency response across Duval, St. Johns, Clay, and Nassau counties, so you are never navigating storm damage without a licensed professional.</p>
+
+<div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
+<p class="font-bold text-secondary mb-2">Book Your Pre-Season Roof Inspection</p>
+<p class="text-gray-600 mb-4">Gimo's Roofing offers free hurricane season roof inspections across Northeast Florida. We will check your shingles, flashing, roof-to-wall connections, and gutters, and give you a written report before storm season peaks.</p>
+<div class="flex flex-col sm:flex-row gap-3">
+<a href="tel:+19046065313" class="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition text-sm">Call (904) 606-5313</a>
+<a href="/contact" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Schedule Free Inspection</a>
+</div>
+</div>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Hurricane season runs June 1 through November 30, with the statistical peak from mid-August through October.</li>
+<li>A pre-season inspection in May catches problems while they are routine repairs, not emergencies.</li>
+<li>Roof-to-wall connections, gutters, and overhanging trees are the three most common weak points storms find first.</li>
+<li>Dated photo documentation before a storm is one of the strongest tools for a fast, well-supported insurance claim.</li>
+<li>Confirm your wind mitigation credits are current. They only apply once your insurer has the updated inspection form.</li>
+<li>Once a storm is tracking toward Northeast Florida, shift to the 48-hour checklist: yard walk, final gutter check, updated photos, and charged devices.</li>
+<li>After the storm, do a ground-level check first and call for emergency tarping immediately if you find active leaks or missing sections.</li>
+</ul>`,
+    faqs: [
+      { question: "When should I start hurricane season roof prep in Florida?", answer: "Start in May, before the Atlantic hurricane season officially begins on June 1. Booking a pre-season inspection early means any repairs it turns up are handled as routine work rather than competing with every other homeowner once a storm is already tracking toward Florida." },
+      { question: "What roof damage does homeowners insurance typically cover after a hurricane?", answer: "Most Florida homeowners policies cover sudden wind and hail damage from a named storm, including missing shingles, wind-driven rain intrusion, and impact damage from debris. They typically do not cover damage from age, wear, or lack of maintenance, which is why pre-storm documentation matters so much for a clean claim." },
+      { question: "Do I need a new wind mitigation inspection every year?", answer: "Not every year, but you should get a new one whenever you replace your roof, add hurricane straps, or upgrade shingles, and periodically otherwise since some carriers ask for updated forms every few years. The credits only apply once your insurer has the current inspection form on file, so an outdated form can mean you are missing savings you already qualify for." },
+      { question: "What should I check on my roof immediately after a storm passes?", answer: "Once it is safe, do a ground-level walk first, looking for missing or displaced shingles, dented sections, gutters pulled loose, and any sagging or visible light from inside the attic. Avoid getting on the roof yourself. If you see active leaks or missing sections, call for emergency tarping right away rather than waiting for a scheduled inspection." },
+      { question: "How much does a pre-season roof inspection cost in Florida?", answer: "Many Florida roofing companies, including Gimo's Roofing, offer free pre-season inspections, especially heading into hurricane season. A paid professional inspection typically runs $150 to $400 depending on roof size and complexity, but it is a small cost compared to storm damage that goes unnoticed until it becomes a major repair." }
+    ]
+  },
+  {
+    slug: "wind-mitigation-vs-4-point-inspection-florida",
+    title: "Wind Mitigation vs 4-Point Inspection in Florida Explained",
+    metaTitle: "Wind Mitigation vs 4-Point Inspection (Florida 2026)",
+    excerpt: "Wind mitigation and 4-point inspections are not the same report, and confusing them costs Florida homeowners money. One earns insurance discounts, the other decides whether you can get coverage at all. Here is how they differ and which one you actually need.",
+    date: "2026-07-13",
+    publishDate: "2026-07-13",
+    dateModified: "2026-07-13",
+    author: "Gimo's Roofing Team",
+    image: "/images/gray-shingle-roof-aerial-inspection.webp",
+    imageAlt: "Inspector reviewing a Florida home's shingle roof during a wind mitigation and 4-point inspection",
+    category: "Storm & Insurance",
+    readTime: "8 min read",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Answer" },
+      { id: "what-is-wind-mitigation", title: "What Is a Wind Mitigation Inspection" },
+      { id: "what-is-4-point", title: "What Is a 4-Point Inspection" },
+      { id: "comparison-table", title: "Wind Mitigation vs 4-Point: Side by Side" },
+      { id: "who-requires-each", title: "Who Requires Each Inspection" },
+      { id: "cost-and-validity", title: "Cost and How Long Each Report Lasts" },
+      { id: "do-you-need-both", title: "Do You Need Both" },
+      { id: "how-to-schedule", title: "How to Schedule Each Inspection in Florida" },
+      { id: "common-mistakes", title: "Common Mistakes Homeowners Make" },
+      { id: "decide-which-first", title: "Which One Do You Need First" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - Wind Mitigation vs 4-Point Inspection</h2>
+
+<p class="text-gray-600 mb-6"><strong>A 4-point inspection checks whether your home qualifies for insurance coverage at all, evaluating the age and condition of your roof, electrical, plumbing, and HVAC systems. A wind mitigation inspection checks whether your home qualifies for a discount, documenting wind-resistant features like roof shape, roof-to-wall connections, and opening protection.</strong> One decides if you can get a policy. The other lowers what you pay for it. Homes with an aging roof or a <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> on the horizon usually need both done around the same time.</p>
+
+<p class="text-gray-600 mb-6">Need a <a href="/roofing-nocatee-fl" class="text-primary font-semibold hover:underline">roof estimate in Nocatee</a>? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="text-secondary font-semibold">The One-Line Difference</p>
+<p class="text-gray-700 mt-2">4-point inspection = "Can I get insured?" Wind mitigation inspection = "Can I get a discount?" Both look at your roof. Neither replaces the other.</p>
+</div>
+
+<h2 id="what-is-wind-mitigation" class="text-2xl font-bold text-secondary mt-10 mb-4">What Is a Wind Mitigation Inspection</h2>
+
+<p class="text-gray-600 mb-6">A wind mitigation inspection documents the features of your home that help it resist hurricane-force wind, using Florida's standardized <a href="https://www.floir.com/" class="text-primary hover:underline" target="_blank" rel="noopener">Office of Insurance Regulation</a> form, OIR-B1-1802. The inspector records your roof shape (hip roofs generally score better than gable roofs), the roof covering's age and permit date, the type and condition of your roof-to-wall connections, and whether your windows and doors have impact-rated protection.</p>
+
+<p class="text-gray-600 mb-6">None of this affects whether an insurer will write your policy. It only affects the price. Every verified feature can lower the wind portion of your premium, sometimes substantially, and the credits apply as soon as your carrier has the completed form on file. Our guide to <a href="/blog/hurricane-straps-roof-jacksonville" class="text-primary hover:underline">hurricane straps and roof-to-wall connections</a> covers the single line item that most often changes the outcome of this inspection.</p>
+
+<p class="text-gray-600 mb-6">The seven line items an inspector scores on the OIR-B1-1802 form are:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Building code year:</strong> whether the home was built or roofed to the 2001 Florida Building Code or later</li>
+<li><strong>Roof covering:</strong> the material and whether it carries a wind-rated product approval</li>
+<li><strong>Roof deck attachment:</strong> nail size, spacing, and pattern securing the decking to the trusses</li>
+<li><strong>Roof-to-wall connection:</strong> toe nails, clips, single wraps, or double wraps, in ascending order of credit</li>
+<li><strong>Roof geometry:</strong> hip roofs score better than gable or flat roofs because they shed wind more evenly</li>
+<li><strong>Secondary water resistance:</strong> a sealed roof deck that keeps water out even if the covering is lost</li>
+<li><strong>Opening protection:</strong> impact-rated windows, doors, and garage doors, or approved shutters</li>
+</ul>
+
+<h2 id="what-is-4-point" class="text-2xl font-bold text-secondary mt-10 mb-4">What Is a 4-Point Inspection</h2>
+
+<p class="text-gray-600 mb-6">A 4-point inspection evaluates four major home systems: roof, electrical, plumbing, and HVAC. Insurers require it on older homes, typically 15 to 30 years old depending on the carrier, before they will issue or renew a policy at all. The roof section documents age, material, visible condition, and the inspector's estimate of remaining service life.</p>
+
+<p class="text-gray-600 mb-6">Each of the four systems is scored independently, and a failure in any one of them can hold up the whole application:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Roof:</strong> age, material, visible damage, and estimated remaining life</li>
+<li><strong>Electrical:</strong> panel brand and age (some brands like Federal Pacific are an automatic red flag), visible wiring condition, and code compliance</li>
+<li><strong>Plumbing:</strong> pipe material (polybutylene and older galvanized pipe are frequent flags), visible leaks, and water heater age</li>
+<li><strong>HVAC:</strong> system age, visible maintenance condition, and whether the unit is functional at the time of inspection</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Unlike wind mitigation, a 4-point inspection can result in a flat "no." A roof rated with little remaining life, visible damage, or multiple layers of shingles can get an application declined or a policy non-renewed outright, not just priced higher. Our deep dive on <a href="/blog/florida-roof-insurance-old-roof-dropped" class="text-primary hover:underline">Florida roof insurance age limits and non-renewal</a> covers exactly where insurers draw that line by roof age.</p>
+
+<h2 id="comparison-table" class="text-2xl font-bold text-secondary mt-10 mb-4">Wind Mitigation vs 4-Point: Side by Side</h2>
+
+<div class="bg-gray-50 p-6 rounded-xl mb-6 overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="border-b">
+<th class="py-2 font-semibold text-secondary">Factor</th>
+<th class="py-2 font-semibold text-secondary">Wind Mitigation</th>
+<th class="py-2 font-semibold text-secondary">4-Point</th>
+</tr>
+</thead>
+<tbody class="text-gray-600">
+<tr class="border-b"><td class="py-2">Purpose</td><td class="py-2">Earns a premium discount</td><td class="py-2">Decides eligibility for coverage</td></tr>
+<tr class="border-b"><td class="py-2">Official form</td><td class="py-2">OIR-B1-1802</td><td class="py-2">Insurer-specific form</td></tr>
+<tr class="border-b"><td class="py-2">Systems covered</td><td class="py-2">Roof shape and wind features only</td><td class="py-2">Roof, electrical, plumbing, HVAC</td></tr>
+<tr class="border-b"><td class="py-2">Typical trigger</td><td class="py-2">Any homeowner, any time</td><td class="py-2">Homes 15-30+ years old</td></tr>
+<tr class="border-b"><td class="py-2">Worst outcome</td><td class="py-2">No discount applied</td><td class="py-2">Non-renewal or declined coverage</td></tr>
+<tr><td class="py-2">Typical validity</td><td class="py-2">5 years</td><td class="py-2">Varies by carrier, often 3-5 years</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="who-requires-each" class="text-2xl font-bold text-secondary mt-10 mb-4">Who Requires Each Inspection</h2>
+
+<p class="text-gray-600 mb-6">No one is required to get a wind mitigation inspection. It is entirely optional, and homeowners who skip it simply pay full price for the wind portion of their premium instead of the discounted rate. A 4-point inspection, by contrast, is usually required by the insurance carrier itself, not by law, once a home crosses that carrier's age threshold. New policies on older homes and renewals on aging homes are the two situations that most often trigger the requirement.</p>
+
+<h2 id="cost-and-validity" class="text-2xl font-bold text-secondary mt-10 mb-4">Cost and How Long Each Report Lasts</h2>
+
+<p class="text-gray-600 mb-6">A wind mitigation inspection typically costs $75 to $150 and is valid for 5 years under Florida law, or until you make a qualifying change like a new roof, at which point getting an updated inspection can increase your credits further. A 4-point inspection typically costs $100 to $200, and how long it remains valid depends on the carrier, commonly 3 to 5 years, though a carrier can request a new one sooner if the home's condition is in question.</p>
+
+<p class="text-gray-600 mb-6">A quick way to see why this matters: a homeowner in a 25-year-old single-story home with a hip roof and toe-nail roof-to-wall connections might pay full price for wind coverage simply because no wind mitigation form is on file, while also facing a 4-point inspection that flags the roof's remaining life as under 3 years. Updating both at once, replacing the roof, adding double-wrap straps, and filing a fresh wind mitigation form, can lower the premium and resolve the 4-point flag in the same project.</p>
+
+<h2 id="do-you-need-both" class="text-2xl font-bold text-secondary mt-10 mb-4">Do You Need Both</h2>
+
+<p class="text-gray-600 mb-6">If your home is under roughly 15 years old, you likely only need a wind mitigation inspection to start capturing premium credits. If your home is older than that, most carriers will require a 4-point inspection regardless of whether you also get a wind mitigation inspection done, and doing both in the same visit is efficient since an inspector is already on the roof. This is especially worth timing around a <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> or replacement, since a new roof resets both the age clock on your 4-point eligibility and the credits available on your wind mitigation form.</p>
+
+<h2 id="how-to-schedule" class="text-2xl font-bold text-secondary mt-10 mb-4">How to Schedule Each Inspection in Florida</h2>
+
+<p class="text-gray-600 mb-6">Both inspections must be performed by a licensed inspector, contractor, engineer, or other qualified professional recognized under Florida statute, not by the homeowner. Many insurance agents can refer an inspector, and many roofing contractors and home inspection companies offer both inspections in a single appointment since the roof-related line items overlap. Ask specifically whether the inspector is filling out the OIR-B1-1802 form for wind mitigation and a separate 4-point form, since some visits only cover one or the other unless you request both.</p>
+
+<h2 id="common-mistakes" class="text-2xl font-bold text-secondary mt-10 mb-4">Common Mistakes Homeowners Make</h2>
+
+<p class="text-gray-600 mb-6">The most expensive mistake is assuming one inspection covers the other and only scheduling one when a carrier actually wants both. The second most common mistake is letting a wind mitigation form go stale after a roof replacement or new hurricane straps, missing out on credits the home already qualifies for. The third is waiting until a renewal notice or non-renewal letter forces the issue, rather than scheduling a 4-point inspection proactively so any roof repair it turns up is handled on a normal timeline instead of an urgent one.</p>
+
+<h2 id="decide-which-first" class="text-2xl font-bold text-secondary mt-10 mb-4">Which One Do You Need First</h2>
+
+<p class="text-gray-600 mb-6"><strong>Get a wind mitigation inspection first if</strong> your home is under 15 years old, your policy is not up for renewal soon, and you simply want to check whether you are leaving discount money on the table. It is low cost, has no downside, and cannot hurt your eligibility for coverage.</p>
+
+<p class="text-gray-600 mb-6"><strong>Get a 4-point inspection first if</strong> your home is approaching or past your carrier's age threshold, you have received a renewal notice mentioning an inspection requirement, or you are shopping for a new policy on an older home. Knowing where you stand before the carrier's own inspector shows up gives you time to address any roof, electrical, plumbing, or HVAC issue on your own schedule rather than the insurer's.</p>
+
+<p class="text-gray-600 mb-6"><strong>Get both at once if</strong> you are already having a roofer or inspector on the property for any reason, since scheduling them together typically costs less in combined fees and travel time than two separate visits, and it gives you a complete picture of both your eligibility and your discount opportunities in one appointment.</p>
+
+<div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
+<p class="font-bold text-secondary mb-2">Not Sure Which Inspection You Need?</p>
+<p class="text-gray-600 mb-4">Gimo's Roofing helps Jacksonville-area homeowners understand what their insurer is actually asking for, and whether their roof will pass a 4-point inspection or qualify for stronger wind mitigation credits.</p>
+<div class="flex flex-col sm:flex-row gap-3">
+<a href="tel:+19046065313" class="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition text-sm">Call (904) 606-5313</a>
+<a href="/contact" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Schedule Free Inspection</a>
+</div>
+</div>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>A 4-point inspection decides whether you can get or keep a policy. A wind mitigation inspection decides how much you pay for it.</li>
+<li>Wind mitigation inspections are optional but can meaningfully lower your premium. 4-point inspections are usually required by carriers once a home reaches a certain age.</li>
+<li>Wind mitigation credits are documented on the standardized OIR-B1-1802 form and typically last 5 years or until a qualifying upgrade.</li>
+<li>4-point inspections typically cover roofs 15 to 30+ years old and can result in a declined application or non-renewal, not just a higher price.</li>
+<li>A new roof or added hurricane straps is the ideal time to update your wind mitigation form and capture credits you may not be receiving yet.</li>
+<li>Ask your inspector directly whether a visit covers both forms. Many roofing contractors and inspectors can complete both in a single appointment.</li>
+</ul>`,
+    faqs: [
+      { question: "What is the difference between wind mitigation and a 4-point inspection?", answer: "A 4-point inspection evaluates your roof, electrical, plumbing, and HVAC systems to decide whether an insurer will offer or renew coverage at all. A wind mitigation inspection documents wind-resistant features like roof shape and roof-to-wall connections to qualify you for a premium discount. One affects eligibility, the other affects price." },
+      { question: "Do I need a wind mitigation inspection if I already had a 4-point inspection?", answer: "Yes, they are separate reports covering different things. A 4-point inspection does not automatically qualify you for wind mitigation credits, and passing one does not mean you have the other on file. If you want the discount, you need the wind mitigation form submitted to your carrier separately." },
+      { question: "How long is a wind mitigation inspection valid in Florida?", answer: "A wind mitigation inspection is generally valid for 5 years, or until you make a qualifying change to the home such as a new roof or added hurricane straps. Getting an updated inspection after a qualifying upgrade can increase the credits you receive, so it is worth redoing after any major roof work." },
+      { question: "Can a 4-point inspection cause my insurance to be cancelled?", answer: "Yes. If a 4-point inspection finds your roof or another major system in poor condition or past a carrier's age threshold, the insurer can decline a new application or choose not to renew an existing policy. This is different from wind mitigation, which can only raise or lower your price, not your eligibility." },
+      { question: "Can the same inspector do both inspections at once?", answer: "Often, yes. Many licensed inspectors and roofing contractors offer both inspections in the same visit since much of the roof-related information overlaps. Confirm ahead of time that the inspector will complete both the OIR-B1-1802 wind mitigation form and a separate 4-point form, since some appointments only cover one by default." }
+    ]
+  },
+  {
+    slug: "new-construction-roofing-timeline-florida",
+    title: "New Construction Roofing Timeline for Florida Homes",
+    metaTitle: "New Construction Roofing Timeline (Florida 2026)",
+    excerpt: "What actually happens to your roof during a new home build, from material selection through dry-in, mid-construction inspections, final installation, and the certificate of occupancy. A phase-by-phase timeline for Florida homeowners and builders.",
+    date: "2026-07-16",
+    publishDate: "2026-07-16",
+    dateModified: "2026-07-16",
+    author: "Gimo's Roofing Team",
+    image: "/images/residential-shingle-roof-installation-jacksonville.webp",
+    imageAlt: "Aerial view of a newly installed hip roof with architectural shingles on a Florida home",
+    category: "Homeowner Tips",
+    readTime: "8 min read",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Answer" },
+      { id: "timeline-at-a-glance", title: "The Roofing Timeline at a Glance" },
+      { id: "material-selection", title: "Phase 1: Material Selection" },
+      { id: "dry-in", title: "Phase 2: Dry-In" },
+      { id: "mid-construction-inspections", title: "Phase 3: Mid-Construction Inspections" },
+      { id: "final-install", title: "Phase 4: Final Roof Covering Installation" },
+      { id: "final-inspection-co", title: "Phase 5: Final Inspection and Certificate of Occupancy" },
+      { id: "working-with-your-builder", title: "Working With Your Builder or General Contractor" },
+      { id: "common-delays", title: "Common Causes of Roofing Delays" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - New Construction Roofing Timeline</h2>
+
+<p class="text-gray-600 mb-6"><strong>Roofing on a new Florida home happens in five phases: material selection during design and permitting, dry-in once the trusses and decking are up, mid-construction inspections that verify nailing patterns and the secondary water barrier, final installation of the shingles, metal, or tile after other exterior trades finish their rough-in work, and a final inspection tied to your certificate of occupancy.</strong> Dry-in is the most time-sensitive milestone. Framing cannot sit exposed to Florida rain for long, so <a href="/services/new-construction-roofing" class="text-primary hover:underline">new construction roofing</a> crews are usually scheduled within days of the trusses being set.</p>
+
+<p class="text-gray-600 mb-6">Looking for a <a href="/roofing-mandarin-fl" class="text-primary font-semibold hover:underline">roof estimate in Mandarin</a>? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<h2 id="timeline-at-a-glance" class="text-2xl font-bold text-secondary mt-10 mb-4">The Roofing Timeline at a Glance</h2>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<ol class="text-gray-700 mt-2 space-y-1">
+<li>1. <strong>Material selection</strong> - during design and permitting, before the first stud is set</li>
+<li>2. <strong>Dry-in</strong> - within days of trusses going up, typically 4 to 8 weeks into vertical construction</li>
+<li>3. <strong>Mid-construction inspections</strong> - nailing pattern, flashing, and secondary water barrier sign-off</li>
+<li>4. <strong>Final roof covering</strong> - shingles, metal, or tile installed after most other exterior trades rough in</li>
+<li>5. <strong>Final inspection and CO</strong> - roof signs off as part of the certificate of occupancy package</li>
+</ol>
+</div>
+
+<p class="text-gray-600 mb-6">On a typical single-family build, these five phases stretch across most of a 4 to 8 month construction schedule, though the roof itself is only actively worked on during two or three of those visits.</p>
+
+<h2 id="material-selection" class="text-2xl font-bold text-secondary mt-10 mb-4">Phase 1: Material Selection</h2>
+
+<p class="text-gray-600 mb-6">Roofing material gets decided early, often before permits are even pulled, because it affects the structural design. Asphalt shingles are the lightest and most common choice in new Florida subdivisions, running 25 to 30 years of service life. Metal roofing adds upfront cost but delivers 50 to 70 years of life and stronger wind performance, which matters for both hurricane resilience and long-term insurance costs. Tile is common on Mediterranean and Spanish-style builds and typically outlasts the home's first owner, but it is heavier and requires the trusses to be engineered for the additional load from the start, not added after the fact.</p>
+
+<p class="text-gray-600 mb-6">This is also when <a href="/blog/roof-pitch-guide-understanding-slopes" class="text-primary hover:underline">roof pitch</a>, hip versus <a href="/blog/gable-roof-types" class="text-primary hover:underline">gable design</a>, and any dormers or complex rooflines get locked in on the architectural plans, all of which affect both material choice and final cost.</p>
+
+<h2 id="dry-in" class="text-2xl font-bold text-secondary mt-10 mb-4">Phase 2: Dry-In</h2>
+
+<p class="text-gray-600 mb-6">Once the trusses are set and the roof decking is nailed down, the home needs to be dried in fast. Dry-in means installing the <a href="/blog/roof-underlayment-types-florida" class="text-primary hover:underline">underlayment</a>, and in Florida's High-Velocity Hurricane Zone or wherever the builder specifies it, a self-adhered secondary water barrier, so that wind-driven rain cannot reach the framing, insulation, or drywall that go in next. A home that sits with exposed decking through a summer thunderstorm risks swollen sheathing, mold, and delays to every trade waiting to start interior work.</p>
+
+<p class="text-gray-600 mb-6">Builders track the dry-in date closely because it is the milestone that unlocks electrical, plumbing, and HVAC rough-in. A roofing crew that dries in a home within a day or two of the trusses being set keeps the entire schedule on track. A delayed dry-in cascades into a delayed everything.</p>
+
+<p class="text-gray-600 mb-6">Underlayment choice matters here too. A synthetic underlayment alone protects against normal weather delays during construction, but many Florida builders now specify a self-adhered secondary water barrier at every seam and penetration as standard practice, not just in coastal zones. It costs more upfront, but it is far cheaper to install correctly during dry-in than to retrofit after the roof covering and interior finishes are already in place.</p>
+
+<h2 id="mid-construction-inspections" class="text-2xl font-bold text-secondary mt-10 mb-4">Phase 3: Mid-Construction Inspections</h2>
+
+<p class="text-gray-600 mb-6">Before the final roof covering goes on, the local building department typically inspects the roof deck nailing pattern, strapping and roof-to-wall connections, and, where required, the secondary water barrier, since all three become invisible once shingles, tile, or metal panels cover them. Getting this inspection right the first time avoids a costly rework where a finished roof has to be partially opened back up to correct a failed item.</p>
+
+<p class="text-gray-600 mb-6">This is also the stage that determines what a future <a href="/blog/wind-mitigation-vs-4-point-inspection-florida" class="text-primary hover:underline">wind mitigation inspection</a> will find years down the road. <a href="/blog/hurricane-straps-roof-jacksonville" class="text-primary hover:underline">Roof-to-wall connections</a> and secondary water resistance installed correctly during new construction translate directly into insurance credits for the homeowner later, so it is worth asking your builder or roofer exactly what was documented at this stage.</p>
+
+<p class="text-gray-600 mb-6">Ask for copies of the inspection report and any photos taken before the roof covering went on. Years from now, when you or a future owner orders a wind mitigation inspection, having documented proof of double-wrap straps or a fully sealed deck can be the difference between an inspector estimating conservatively from visible clues and confirming the stronger connection outright.</p>
+
+<h2 id="final-install" class="text-2xl font-bold text-secondary mt-10 mb-4">Phase 4: Final Roof Covering Installation</h2>
+
+<p class="text-gray-600 mb-6">The visible shingles, metal panels, or tile typically go on later in the schedule than most homeowners expect, often after brick, stucco, or siding trades have done their rough work, so the roofing crew is not damaged by scaffolding, staging, or overspray from other trades working around the exterior. Flashing at chimneys, vents, skylights, and roof-to-wall transitions gets finished at this stage, along with ridge caps, drip edge, and gutters.</p>
+
+<p class="text-gray-600 mb-6">If you selected <a href="/services/metal-roofing" class="text-primary hover:underline">metal roofing</a> for your new build, this phase also includes panel seaming and fastening details that differ meaningfully by installer, so verifying manufacturer-certified installation matters as much here as material choice did in Phase 1.</p>
+
+<h2 id="final-inspection-co" class="text-2xl font-bold text-secondary mt-10 mb-4">Phase 5: Final Inspection and Certificate of Occupancy</h2>
+
+<p class="text-gray-600 mb-6">The roof gets a final inspection as part of the overall building final that leads to your certificate of occupancy. Inspectors confirm the covering material matches the approved plans, flashing and penetrations are properly sealed, and gutters and drainage direct water away from the foundation. Keep every permit, inspection record, and material invoice from this process. They are exactly what you will need years later for warranty claims, a wind mitigation inspection, or proving your roof's age and code compliance to an insurer or a future buyer.</p>
+
+<h2 id="working-with-your-builder" class="text-2xl font-bold text-secondary mt-10 mb-4">Working With Your Builder or General Contractor</h2>
+
+<p class="text-gray-600 mb-6">On most production and custom home builds, the general contractor hires the roofer directly, and you as the homeowner have limited direct contact with the roofing crew beyond selecting material and color from the builder's options. If you are managing an owner-build or acting as your own general contractor, coordinating the roofer's dry-in schedule with the framing crew is one of the most important scheduling decisions on the entire project, since every downstream trade waits on it.</p>
+
+<p class="text-gray-600 mb-6">Either way, ask specifically who is pulling the roofing permit, what underlayment and secondary water barrier spec is being used, and whether the roofer offers a workmanship warranty separate from the manufacturer's material warranty. These three questions surface most of the differences between a roofer who treats new construction as a commodity job and one who builds it to last, and a builder who hesitates to answer them plainly is worth a second look before the trusses go up.</p>
+
+<h2 id="common-delays" class="text-2xl font-bold text-secondary mt-10 mb-4">Common Causes of Roofing Delays</h2>
+
+<p class="text-gray-600 mb-6">Material backorders, particularly on specialty tile profiles and certain metal panel colors, are the most common delay, since custom orders can run 6 to 12 weeks depending on the manufacturer. Weather is the second most common cause, since roofing crews cannot safely install during active rain or lightning, and Florida's summer storm pattern can push a dry-in back by days at a time. Failed mid-construction inspections, most often from nailing pattern or flashing details, are the third, and they are also the most preventable with an experienced crew that has passed the same county's inspections many times before.</p>
+
+<p class="text-gray-600 mb-6">On a typical new build, roofing runs roughly 3 to 6 percent of total construction cost depending on material choice, similar in proportion to what we see on second-story additions and other major roofing-inclusive projects. Asphalt shingle roofs sit at the lower end of that range, while metal and tile push it higher, which is one more reason material selection in Phase 1 deserves as much attention as floor plan and finish decisions.</p>
+
+<div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
+<p class="font-bold text-secondary mb-2">Building New in Northeast Florida?</p>
+<p class="text-gray-600 mb-4">Gimo's Roofing coordinates directly with builders and general contractors on new construction projects across Duval, St. Johns, Clay, and Nassau counties, from material selection through final inspection.</p>
+<div class="flex flex-col sm:flex-row gap-3">
+<a href="tel:+19046065313" class="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition text-sm">Call (904) 606-5313</a>
+<a href="/services/new-construction-roofing" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">New Construction Roofing</a>
+</div>
+</div>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>New construction roofing happens in five phases: material selection, dry-in, mid-construction inspections, final installation, and the final inspection tied to your certificate of occupancy.</li>
+<li>Dry-in is the most time-sensitive milestone. It typically happens within days of the trusses being set and unlocks every interior trade behind it.</li>
+<li>Mid-construction inspections verify nailing pattern, roof-to-wall connections, and secondary water barrier, all of which become invisible once the final covering goes on.</li>
+<li>The visible roof covering often installs later than homeowners expect, after other exterior trades finish their rough work.</li>
+<li>Keep every permit, inspection record, and material invoice. You will need them for warranty claims, wind mitigation credits, and proving code compliance later.</li>
+<li>Material backorders, weather, and failed inspections are the three most common causes of roofing delays on a new build.</li>
+</ul>`,
+    faqs: [
+      { question: "How long does roofing take on a new construction home in Florida?", answer: "The roof itself is actively worked on during two or three visits: dry-in shortly after the trusses are set, and final covering installation later in the build. Dry-in typically takes 1 to 3 days for a standard single-family home, while final shingle, metal, or tile installation usually takes 2 to 5 days depending on roof size and complexity." },
+      { question: "What is dry-in and why does it matter for new construction?", answer: "Dry-in is the installation of underlayment, and in many cases a secondary water barrier, over the roof decking shortly after the trusses go up. It protects the framing, insulation, and interior finishes from Florida rain before the final roof covering is installed. Builders track the dry-in date closely because every interior trade behind it is scheduled around this milestone." },
+      { question: "Can I choose my own roofing material for a new construction home?", answer: "On a custom build, yes, within your budget and the structural design. On a production home from a builder, you typically choose from a preset list of shingle colors and sometimes a metal or tile upgrade option, since the trusses and structural engineering are designed around the builder's standard material choices." },
+      { question: "Does new construction roofing affect my future insurance costs?", answer: "Yes, significantly. The roof-to-wall connections, secondary water barrier, and roof covering documented during new construction directly determine what a wind mitigation inspection finds years later. A roof built with double-wrap straps and a sealed secondary water barrier from day one qualifies for stronger insurance credits than one built to the bare code minimum." },
+      { question: "What roofing documents should I keep after my new home is built?", answer: "Keep the roofing permit, the final inspection report, the material invoice showing exact shingle, metal, or tile product installed, and any manufacturer warranty registration. These documents are what you will need for a future warranty claim, a wind mitigation inspection, or proving your roof's age and code compliance when you eventually sell or refinance." }
+    ]
+  },
+  {
+    slug: "florida-roof-grants-insurance-credits-guide",
+    title: "Florida Roof Grants and Insurance Credits Guide (2026)",
+    metaTitle: "Florida Roof Grants and Insurance Credits (2026)",
+    excerpt: "How the My Safe Florida Home grant actually works, which roofing upgrades qualify, current income and home value limits, and the real state of Florida's roof-age insurance protections after a widely misreported 2026 bill died in committee.",
+    date: "2026-07-20",
+    publishDate: "2026-07-20",
+    dateModified: "2026-07-20",
+    author: "Gimo's Roofing Team",
+    image: "/images/roof-pricing.webp",
+    imageAlt: "Aerial view of a Florida home during a roof replacement project with a construction dumpster in the driveway",
+    category: "Storm & Insurance",
+    readTime: "9 min read",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Answer" },
+      { id: "my-safe-florida-home-program", title: "What Is the My Safe Florida Home Program" },
+      { id: "who-qualifies", title: "Who Qualifies for a Grant" },
+      { id: "what-roofing-work-qualifies", title: "What Roofing Work Qualifies" },
+      { id: "how-much-you-can-get", title: "How Much You Can Actually Get" },
+      { id: "how-to-apply", title: "How to Apply" },
+      { id: "insurance-non-renewal-protection", title: "The Existing Roof Age Non-Renewal Protection" },
+      { id: "did-a-new-law-change-roof-age-rules", title: "Did a New Law Change Roof Age Rules in 2026" },
+      { id: "wind-mitigation-credits-vs-grants", title: "Wind Mitigation Credits vs Grants" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - Florida Roof Grants and Insurance Credits</h2>
+
+<p class="text-gray-600 mb-6"><strong>The My Safe Florida Home Program is the main state grant for roof-related wind mitigation upgrades, matching up to $2 for every $1 a qualifying homeowner spends, capped at a $10,000 state contribution.</strong> As of the program's August 2025 reopening, eligibility is limited to low and moderate-income homeowners under House Bill 811. Separately, Florida law already bars insurers from refusing or non-renewing a policy solely for roof age if an inspection shows at least 5 years of useful life remaining, a protection that predates 2026 and is still in effect, even though a widely covered 2026 bill that would have expanded it did not pass. If your roof needs work either way, a <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> or targeted upgrade can qualify you for both the grant and stronger wind mitigation credits at the same time.</p>
+
+<p class="text-gray-600 mb-6">Want a <a href="/roofing-riverside-fl" class="text-primary font-semibold hover:underline">roof quote in Riverside</a>? Reach Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<h2 id="my-safe-florida-home-program" class="text-2xl font-bold text-secondary mt-10 mb-4">What Is the My Safe Florida Home Program</h2>
+
+<p class="text-gray-600 mb-6">The <a href="https://mysafeflhome.com/" class="text-primary hover:underline" target="_blank" rel="noopener">My Safe Florida Home Program</a> is a state-funded grant that pays homeowners to harden their homes against hurricane wind damage, with roofing improvements as one of its central categories. The program reopened for new applications on August 4, 2025 with $352 million allocated for the 2025-2026 cycle. In the 2026 legislative session, lawmakers reappropriated more than $405 million across the program and its companion condo pilot to work through a backlog of tens of thousands of homeowners who had completed inspections but were still waiting on grant funding.</p>
+
+<p class="text-gray-600 mb-6">Program funding, eligibility rules, and application windows change from one legislative session to the next. Treat every figure in this guide as a snapshot and confirm current status directly on the official portal before you plan a project around it.</p>
+
+<h2 id="who-qualifies" class="text-2xl font-bold text-secondary mt-10 mb-4">Who Qualifies for a Grant</h2>
+
+<p class="text-gray-600 mb-6">Since the August 2025 reopening, House Bill 811 limits new grants to low and moderate-income homeowners. Low income means household income at or below 80 percent of your county's median income, and moderate income means income below 120 percent of the county median. Your home must be a site-built, single-family primary residence built before 2008, and you must carry a valid homeowners insurance policy on the property. Most applicants also need an insured (Coverage A) value under $700,000, a limit raised from $500,000 in 2024, though low-income applicants are exempt from this cap. The eligibility check itself is free and takes only a few minutes on the program's website, so it is worth confirming your status even if you are not sure whether your income or home value falls inside the current limits.</p>
+
+<h2 id="what-roofing-work-qualifies" class="text-2xl font-bold text-secondary mt-10 mb-4">What Roofing Work Qualifies</h2>
+
+<p class="text-gray-600 mb-6">A free wind mitigation inspection through the program identifies which upgrades your specific home needs and qualifies for. Roofing-related categories the program has historically funded include roof-to-wall connection reinforcement, roof deck attachment strengthening, and secondary water barrier installation, the same line items scored on a standard wind mitigation inspection. Some applicants, particularly in the low-income tier, have also been able to apply funds toward roof covering itself when the inspection report recommends it. Because eligible categories are tied to your inspection results and can shift with each legislative cycle, treat your own inspection report as the authoritative list for your home rather than any general guide, including this one.</p>
+
+<h2 id="how-much-you-can-get" class="text-2xl font-bold text-secondary mt-10 mb-4">How Much You Can Actually Get</h2>
+
+<p class="text-gray-600 mb-6">For moderate-income homeowners, the grant matches $2 for every $1 you spend, up to a maximum $10,000 state contribution. To capture the full $10,000, you would need to contribute $5,000 of your own money toward a $15,000 project. Low-income homeowners have historically qualified for grants up to $10,000 applied more directly toward recommended roof, window, or door work, without needing to front as much of the matching contribution themselves. These figures are the program's general structure as of this writing. Your actual match and cap depend on the current year's legislative appropriation and your specific inspection findings.</p>
+
+<p class="text-gray-600 mb-6">As an example, a moderate-income homeowner who spends $6,000 reinforcing roof-to-wall connections and adding a secondary water barrier would contribute $2,000 of that themselves and receive the remaining $4,000 from the state, since the match applies dollar for dollar up to the $2-to-$1 ratio and the $10,000 cap. Homeowners tackling a full roof replacement often spend well beyond what the grant covers, in which case the grant offsets a meaningful slice of the project rather than the entire cost.</p>
+
+<h2 id="how-to-apply" class="text-2xl font-bold text-secondary mt-10 mb-4">How to Apply</h2>
+
+<p class="text-gray-600 mb-6">Applications go through the official My Safe Florida Home portal, starting with an eligibility check and a request for a free wind mitigation inspection. Once the inspection is complete, you receive a report listing which improvements your home qualifies for and their estimated cost. From there you select a state-registered contractor, complete the approved work, and submit the paperwork for reimbursement under the matching structure. Given the backlog the program has worked through in past cycles, apply as early in any open window as possible rather than waiting until closer to a storm season.</p>
+
+<h2 id="insurance-non-renewal-protection" class="text-2xl font-bold text-secondary mt-10 mb-4">The Existing Roof Age Non-Renewal Protection</h2>
+
+<p class="text-gray-600 mb-6">Separate from the grant program, Florida law already protects homeowners from being dropped over roof age alone. Under the insurance reforms passed in 2022 and 2023, an insurer cannot refuse to issue or renew a homeowners policy solely because of roof age if an authorized inspector certifies the roof has at least 5 years of useful life remaining, regardless of the roof's calendar age. Many carriers, including Citizens, still apply their own scrutiny at 25 years for shingle roofs and 50 years for tile, metal, or concrete, which is why an inspection showing genuine remaining life matters more than the number of years since installation. The protection only applies when the denial is based on age alone. An insurer can still decline or non-renew a policy over documented storm damage, deferred maintenance, or an inspection that finds less than 5 years of remaining life, regardless of how the calendar age compares to that 25 or 50 year figure. Our guide to <a href="/blog/will-insurance-cover-20-year-old-roof" class="text-primary hover:underline">whether insurance will cover a 20-year-old roof</a> and our breakdown of <a href="/blog/florida-roof-insurance-old-roof-dropped" class="text-primary hover:underline">Florida roof insurance age limits and non-renewal</a> cover this rule in more depth.</p>
+
+<h2 id="did-a-new-law-change-roof-age-rules" class="text-2xl font-bold text-secondary mt-10 mb-4">Did a New Law Change Roof Age Rules in 2026</h2>
+
+<p class="text-gray-600 mb-6">You may have seen articles describing a new 2026 Florida law that would bar insurers from non-renewing a policy over a roof under 15 years old, extend protections to condos and rental properties, and expand who counts as an authorized inspector. That legislation, Senate Bill 808 and its House companion, House Bill 815, did not pass. Both bills died in committee on March 13, 2026, so none of those expanded protections are in effect. You can verify the bill's status directly on the <a href="https://www.flsenate.gov/Session/Bill/2026/808" class="text-primary hover:underline" target="_blank" rel="noopener">Florida Senate's official bill tracker</a>. The only roof age protection currently in force is the existing 5-year remaining useful life rule described above. Given how much outdated or simply incorrect content is circulating about this specific bill, verify anything you read about Florida roof insurance law against the Senate's own bill history or a licensed insurance agent before making a decision based on it.</p>
+
+<h2 id="wind-mitigation-credits-vs-grants" class="text-2xl font-bold text-secondary mt-10 mb-4">Wind Mitigation Credits vs Grants</h2>
+
+<p class="text-gray-600 mb-6">A My Safe Florida Home grant and a wind mitigation insurance credit are two different benefits from the same underlying inspection. The grant is a one-time payment that offsets the cost of the upgrade itself. The wind mitigation credit is a recurring reduction in your annual premium that continues for as long as your carrier has the current inspection form on file. Our full comparison of <a href="/blog/wind-mitigation-vs-4-point-inspection-florida" class="text-primary hover:underline">wind mitigation and 4-point inspections</a> explains how these reports work and how they differ from the inspection that decides whether you can get coverage at all. If you cannot access grant funding this cycle, financing the improvement yourself through <a href="/roof-financing-florida" class="text-primary hover:underline">roof financing</a> still captures the ongoing wind mitigation credit, which offsets part of the cost over time even without the upfront grant.</p>
+
+<div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
+<p class="font-bold text-secondary mb-2">Planning a Roof Upgrade in Northeast Florida?</p>
+<p class="text-gray-600 mb-4">Gimo's Roofing helps homeowners understand what a wind mitigation inspection will find, what qualifies for grant funding, and how to time a roof project around both.</p>
+<div class="flex flex-col sm:flex-row gap-3">
+<a href="tel:+19046065313" class="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition text-sm">Call (904) 606-5313</a>
+<a href="/contact" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Schedule Free Inspection</a>
+</div>
+</div>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>The My Safe Florida Home Program matches up to $2 for every $1 spent on qualifying wind mitigation upgrades, capped at a $10,000 state contribution.</li>
+<li>Since August 2025, House Bill 811 limits new grants to low and moderate-income homeowners under set county median income thresholds.</li>
+<li>Program funding and eligibility rules change with each legislative cycle. Confirm current status on the official portal before planning around it.</li>
+<li>Florida law already protects homeowners from non-renewal based solely on roof age if an inspection shows 5 years of useful life remaining, a rule that predates 2026.</li>
+<li>Senate Bill 808 and House Bill 815, which would have expanded that protection in 2026, died in committee in March 2026 and are not in effect.</li>
+<li>A grant is a one-time payment toward the upgrade cost. A wind mitigation credit is a recurring premium discount. They come from the same inspection but work differently.</li>
+</ul>`,
+    faqs: [
+      { question: "Is the My Safe Florida Home grant still available in 2026?", answer: "The program reopened in August 2025 with new funding and continues taking applications, with additional funds reappropriated during the 2026 legislative session to work through a backlog of prior applicants. Availability and application windows change, so confirm current status directly on the official mysafeflhome.com portal before applying." },
+      { question: "Who qualifies for a Florida roof grant?", answer: "Since August 2025, eligibility is limited to low-income homeowners (household income at or below 80 percent of county median) and moderate-income homeowners (below 120 percent of county median). Your home must be a site-built, single-family primary residence built before 2008 with a valid homeowners insurance policy, and most applicants need an insured value under $700,000." },
+      { question: "Did Florida pass a new law protecting older roofs from insurance non-renewal in 2026?", answer: "No. Senate Bill 808 and House Bill 815, which would have expanded roof-age protections and lowered the threshold to 15 years, both died in committee on March 13, 2026. The protection currently in effect is the existing rule from 2022-2023 reforms: insurers cannot non-renew a policy solely for roof age if an inspection confirms at least 5 years of remaining useful life." },
+      { question: "Can I get both a My Safe Florida Home grant and a wind mitigation insurance discount?", answer: "Yes. They come from the same underlying wind mitigation inspection. The grant is a one-time payment that helps cover the cost of an upgrade like roof-to-wall reinforcement or a secondary water barrier, while the wind mitigation credit is a recurring discount on your premium once the completed form is on file with your insurer." },
+      { question: "What happens if I do not qualify for the grant income limits?", answer: "You can still complete the same wind mitigation upgrades on your own and capture the ongoing insurance premium credit, which offsets part of the cost over time even without the upfront grant. Financing the project, such as through a roof financing plan, is a common way to move forward on the upgrade without waiting for grant funding." }
+    ]
+  },
+  {
+    slug: "commercial-roof-replacement-rules-florida",
+    title: "Commercial Roof Replacement Rules in Florida (2026)",
+    metaTitle: "Commercial Roof Replacement Rules in Florida (2026)",
+    excerpt: "When Florida law requires a full commercial roof replacement instead of a repair or recover, how the 25% rule and the single-recover-layer limit apply to business owners, and how to plan a project around permitting timelines without disrupting tenants.",
+    date: "2026-07-23",
+    publishDate: "2026-07-23",
+    dateModified: "2026-07-23",
+    author: "Gimo's Roofing Team",
+    image: "/images/flat-metal-roof-installation.webp",
+    imageAlt: "Aerial view of a flat metal roof installation with vents, a common low-slope commercial roofing system in Florida",
+    category: "Commercial Roofing",
+    readTime: "8 min read",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Answer" },
+      { id: "25-percent-rule-commercial", title: "The 25% Rule for Commercial Roofs" },
+      { id: "recover-vs-full-tear-off", title: "Recover vs Full Tear-Off" },
+      { id: "drainage-and-structural", title: "Drainage and Structural Requirements" },
+      { id: "permitting-timeline", title: "Permitting and Inspection Timelines" },
+      { id: "when-full-replacement-is-required", title: "When Full Replacement Is Required" },
+      { id: "planning-around-tenants", title: "Planning a Project Around Tenants and Operations" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - Commercial Roof Replacement Rules in Florida</h2>
+
+<p class="text-gray-600 mb-6"><strong>Florida requires a full commercial roof replacement, not just a repair, when more than 25 percent of a roof section is repaired, replaced, or recovered within any 12-month period, unless that roof already complies with the 2007 Florida Building Code or later.</strong> Commercial low-slope roofs face a second trigger most homeowners never encounter: Florida allows only one recover layer, so a roof that already has one recover system on it must be fully torn off before a new system goes down. A <a href="/services/commercial-roofing" class="text-primary hover:underline">commercial roofing</a> contractor familiar with your building's permit history can tell you which rule applies before you budget for a repair that turns into a full replacement.</p>
+
+<p class="text-gray-600 mb-6">Get a <a href="/roofing-san-marco-fl" class="text-primary font-semibold hover:underline">roof estimate in San Marco</a> by calling Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<h2 id="25-percent-rule-commercial" class="text-2xl font-bold text-secondary mt-10 mb-4">The 25% Rule for Commercial Roofs</h2>
+
+<p class="text-gray-600 mb-6">The Florida Building Code's roofing chapter states that not more than 25 percent of the total roof area or a defined roof section of any existing building may be repaired, replaced, or recovered in any 12-month period unless the entire roofing system or section is brought up to current code. This applies to commercial and residential roofs alike, but it shows up more often in commercial buildings because large low-slope roofs are frequently repaired section by section over multiple years rather than all at once, which makes the rolling 12-month window easy to trip without realizing it.</p>
+
+<p class="text-gray-600 mb-6">There is an important exception. If your roof was built, repaired, or replaced in compliance with the 2007 Florida Building Code, effective March 1, 2009, or a later edition, the 25 percent rule does not force a full replacement. In that case you can repair any percentage of the roof and only the repaired portion needs to meet current code. Our residential-focused breakdown of <a href="/blog/25-percent-roof-rule-florida" class="text-primary hover:underline">Florida's 25% roof rule</a> covers the same underlying code section in more detail, including how the exception is verified through permit history.</p>
+
+<p class="text-gray-600 mb-6">Consider a 40,000 square foot warehouse roof, where 25 percent works out to 10,000 square feet. A 6,000 square foot section gets repaired after a leak in January, then another 2,500 square foot section gets repaired in September of the same calendar year. Individually, each repair looks minor. Combined within the same rolling 12-month period, they total 8,500 square feet, still under the 10,000 square foot threshold in this example, but one more repair of just 1,500 square feet before the following January would push the cumulative total to 10,000 square feet and trigger full code compliance for the roof. Tracking cumulative repaired area across a 12-month rolling window, not just the most recent job, is what catches building owners off guard.</p>
+
+<h2 id="recover-vs-full-tear-off" class="text-2xl font-bold text-secondary mt-10 mb-4">Recover vs Full Tear-Off</h2>
+
+<p class="text-gray-600 mb-6">A recover system installs new roofing material over the existing roof covering rather than removing it first. It costs less and disrupts operations for less time, which makes it attractive for occupied commercial buildings. Florida code allows only one recover layer on most commercial roof systems. If a building already has a recover layer on it, a second recover is not permitted. The existing roofing, including the prior recover layer, must be fully removed before a new system goes down.</p>
+
+<p class="text-gray-600 mb-6">This is one of the most common surprises we run into on commercial projects. A building owner budgets for a straightforward recover, and an inspection of the roof's history reveals a recover layer already in place from years earlier, converting the project into a full tear-off with a different cost and timeline than originally planned.</p>
+
+<p class="text-gray-600 mb-6">Before assuming a full tear-off is the only option, it is worth having a contractor evaluate whether <a href="/services/roof-waterproofing" class="text-primary hover:underline">roof waterproofing or a fluid-applied coating system</a> could extend the life of the existing roof without triggering either the recover limit or the 25 percent rule, since a coating applied directly to a sound existing membrane is treated differently than a new recover layer under most code interpretations. This is not always an option, particularly on roofs with structural or drainage problems, but it is worth ruling in or out before committing to a full replacement budget.</p>
+
+<h2 id="drainage-and-structural" class="text-2xl font-bold text-secondary mt-10 mb-4">Drainage and Structural Requirements</h2>
+
+<p class="text-gray-600 mb-6">Commercial low-slope roofs must provide positive drainage, meaning the roof structure and any additional slope or tapered insulation must be designed so water drains within 48 hours of a rain event, accounting for deflection under load. Ponding water beyond that window accelerates membrane failure and adds structural load the original design may not have accounted for. This requirement gets evaluated whenever a roof is replaced or recovered, not just on new construction, so a full replacement is often the point where a building corrects a longstanding drainage problem rather than repeating it.</p>
+
+<p class="text-gray-600 mb-6">Material choice affects how a building meets these requirements. Our overview of <a href="/blog/commercial-roofing-types-florida" class="text-primary hover:underline">commercial roofing types in Florida</a> compares TPO, EPDM, modified bitumen, and metal systems, including how each handles ponding water and wind uplift, which matters because the drainage evaluation during a replacement often changes which system makes sense for a given roof's slope and structural capacity. A roof that has struggled with ponding under one membrane type may perform noticeably better under another, even with the same underlying structure.</p>
+
+<h2 id="permitting-timeline" class="text-2xl font-bold text-secondary mt-10 mb-4">Permitting and Inspection Timelines</h2>
+
+<p class="text-gray-600 mb-6">Florida building permits, including roofing permits, generally expire if work does not begin within 180 days of issuance or if the project goes 180 days without an approved inspection. On a commercial project, that means the crew needs at least one signed-off inspection milestone roughly every six months to keep the permit active, which matters most on large roofs phased across several buildings or sections. Local jurisdictions can layer on their own inspection scheduling requirements on top of the state minimum, so confirm the specific timeline with your county or city building department before finalizing a project schedule, especially if you have seen a shorter window referenced for your specific municipality.</p>
+
+<p class="text-gray-600 mb-6">For a multi-building commercial property or a roof phased into several sections, this timeline discipline matters more than it does on a single-visit residential job. Missing an inspection milestone on one section can technically lapse the permit for work that has not yet been scheduled on another, creating a paperwork problem in the middle of an otherwise on-track project. Building this into the project calendar from day one, rather than reacting to it later, is one of the simpler ways to keep a large commercial reroof on schedule.</p>
+
+<h2 id="when-full-replacement-is-required" class="text-2xl font-bold text-secondary mt-10 mb-4">When Full Replacement Is Required</h2>
+
+<p class="text-gray-600 mb-6">Beyond the 25 percent rule and the single-recover limit, a few other conditions typically force a full commercial roof replacement rather than a repair: structural damage to the deck that a repair cannot address, a roof built to a code edition before the 2007 Florida Building Code with no updated permit history, insurance carrier requirements tied to a policy renewal, or storm damage extensive enough that patch repairs would not be cost-effective compared to a new system with a fresh warranty.</p>
+
+<p class="text-gray-600 mb-6">Deck condition deserves particular attention on older commercial buildings, since wet or delaminated insulation and decking are common findings once a roof is opened up, and they are not always visible from a surface-level inspection. Our guide to <a href="/blog/roof-decking-replacement-florida" class="text-primary hover:underline">roof decking replacement</a> covers what drives decking failure and how it factors into a repair-versus-replace decision. Insurance carriers have also grown more aggressive about requesting updated roof condition reports on commercial policies at renewal, particularly for buildings over 15 to 20 years old, and a carrier's own inspection can effectively force the replacement decision even when the code itself would still allow a repair.</p>
+
+<h2 id="planning-around-tenants" class="text-2xl font-bold text-secondary mt-10 mb-4">Planning a Project Around Tenants and Operations</h2>
+
+<p class="text-gray-600 mb-6">A full tear-off and replacement takes meaningfully longer than a recover, and on an occupied building that difference translates directly into tenant disruption, noise complaints, and in some cases temporary relocation of sensitive operations. Phasing a large roof into sections keeps portions of the building weathertight and operational throughout the project, but phasing has to be planned around the 25 percent rule from the start so a phased project does not inadvertently trigger a full-code-compliance requirement partway through. This is exactly the kind of scheduling and code-history review worth doing with your roofer before signing a contract, not after.</p>
+
+<div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
+<p class="font-bold text-secondary mb-2">Planning a Commercial Roof Project?</p>
+<p class="text-gray-600 mb-4">Gimo's Roofing reviews your building's permit history, current code standing, and drainage design before recommending a repair, recover, or full replacement, so there are no surprises mid-project.</p>
+<div class="flex flex-col sm:flex-row gap-3">
+<a href="tel:+19046065313" class="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition text-sm">Call (904) 606-5313</a>
+<a href="/services/commercial-roofing" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Commercial Roofing</a>
+</div>
+</div>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Florida's 25 percent rule forces a full roof replacement if more than a quarter of a roof section is repaired, replaced, or recovered in any 12-month period, unless the roof already meets the 2007 Florida Building Code or later.</li>
+<li>Commercial low-slope roofs face a second, separate limit: only one recover layer is allowed. A roof that already has one must be fully torn off before a new system is installed.</li>
+<li>Positive drainage requiring water to clear within 48 hours applies whenever a commercial roof is replaced or recovered, not just on new construction.</li>
+<li>Roofing permits generally expire without an approved inspection every 180 days, and local jurisdictions can add their own scheduling requirements on top of that state minimum.</li>
+<li>Phasing a large commercial roof project keeps the building operational longer but must be planned around the 25 percent rule so a phased project does not accidentally trigger full code compliance.</li>
+<li>Review your building's permit history and current code standing before signing a contract, since a recover project can turn into a full tear-off once that history is checked.</li>
+</ul>`,
+    faqs: [
+      { question: "What is Florida's 25% rule for commercial roofs?", answer: "It is a Florida Building Code requirement that no more than 25 percent of a roof's total area or a defined section can be repaired, replaced, or recovered within any rolling 12-month period without bringing the entire roofing system up to current code. Commercial buildings often approach this threshold because large low-slope roofs are frequently repaired in stages over several years." },
+      { question: "Can a commercial roof be recovered more than once in Florida?", answer: "No. Florida allows only one recover layer on most commercial roof systems. If a roof already has a recover layer on it, a second recover is not permitted, and the entire existing roofing system, including that prior recover layer, must be fully removed before new roofing is installed." },
+      { question: "Does the 25% rule apply if my commercial roof is already up to code?", answer: "No. If your roof was built, repaired, or replaced in compliance with the 2007 Florida Building Code, effective March 1, 2009, or any later edition, the 25 percent rule does not force a full replacement. You can repair any percentage of that roof and only the repaired section needs to meet current code." },
+      { question: "How long is a commercial roofing permit valid in Florida?", answer: "State law generally allows a permit to remain active as long as the project gets an approved inspection at least once every 180 days, and the permit can expire if work has not started within 180 days of issuance. Some local jurisdictions layer additional scheduling requirements on top of this, so confirm specifics with your local building department." },
+      { question: "What triggers a full commercial roof replacement instead of a repair?", answer: "The most common triggers are exceeding the 25 percent repair threshold within 12 months, a roof that already has one recover layer and needs another, structural deck damage, a roof built before the 2007 Florida Building Code with no updated permit history, or storm damage extensive enough that a patch repair is not cost-effective compared to a full system replacement." }
     ]
   },
 
