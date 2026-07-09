@@ -151,10 +151,10 @@ export default function RoofRepairPage() {
               <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" title="View Gimo's Roofing Google Reviews">
                 <Image src="/google-logo.png" alt="Read Gimo's Roofing reviews on Google" title="Google Reviews" width={80} height={28} className="h-7 w-auto object-contain" />
               </a>
-              <a href="https://www.yelp.com/biz/gimos-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
+              <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
                 <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
               </a>
-              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+              <a href="https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
@@ -167,6 +167,7 @@ export default function RoofRepairPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Repair Services We Provide</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto mb-4"><strong>Gimo&apos;s roof repair service covers everything from minor shingle repairs starting at $250 to major storm damage restoration</strong>, including leak repair, flashing repair, and same-day emergency response across Jacksonville and Northeast Florida. Most repairs are completed in a single visit using materials stocked on the truck. <a href={estimateUrl} id="cta-snippet-roofrepair-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-roofrepair-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
             <p className="text-gray-600 max-w-3xl mx-auto">Gimo&apos;s Roofing delivers Jacksonville FL roof repair and roofing repair Jacksonville FL homeowners trust for every common issue, from minor shingle replacements to complex flashing repairs. Whether you need roof leak repair Jacksonville FL or a full section replacement, our crews carry materials on their trucks for same-day service across Northeast Florida whenever possible.</p>
           </div>
 

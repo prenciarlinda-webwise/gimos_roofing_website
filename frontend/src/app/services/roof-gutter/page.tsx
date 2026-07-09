@@ -152,10 +152,10 @@ export default function RoofGutterPage() {
               <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" title="View Gimo's Roofing Google Reviews">
                 <Image src="/google-logo.png" alt="Read Gimo's Roofing reviews on Google" title="Google Reviews" width={80} height={28} className="h-7 w-auto object-contain" />
               </a>
-              <a href="https://www.yelp.com/biz/gimos-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
+              <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
                 <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
               </a>
-              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+              <a href="https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
@@ -303,6 +303,7 @@ export default function RoofGutterPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Gutter Replacement in Jacksonville</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto mb-4"><strong>Gimo&apos;s Roofing repairs gutters when the damage is isolated to a section or two, and replaces the full system with seamless aluminum when sagging, cracking, or leaking spans multiple runs.</strong> A free inspection tells you which side of that line your gutters are on before any work starts. <a href={estimateUrl} id="cta-snippet-gutter-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-gutter-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
             <p className="text-gray-600 max-w-3xl mx-auto">At some point repeated repairs cost more than a new system. We replace failing gutters with seamless aluminum sized for your roof, and we are honest about when you have crossed that line.</p>
           </div>
 

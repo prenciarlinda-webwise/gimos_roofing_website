@@ -41,6 +41,9 @@ const nextConfig = {
       { source: '/financing', destination: '/roof-financing-florida', permanent: true },
       { source: '/roof-financing', destination: '/roof-financing-florida', permanent: true },
 
+      // Gambrel guide retired -> homepage (client direction 2026-07-09)
+      { source: '/blog/gambrel-roof-guide', destination: '/', permanent: true },
+
       // Old WordPress URL patterns
       { source: '/feed', destination: '/blog', permanent: true },
       { source: '/comments/feed', destination: '/blog', permanent: true },

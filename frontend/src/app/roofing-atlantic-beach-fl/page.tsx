@@ -107,6 +107,9 @@ export default function AtlanticBeachPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Your Atlantic Beach Coastal Roofing Experts</h2>
           <p className="text-gray-600 mb-4">
+            <strong>Gimo&apos;s Roofing is a licensed roofing contractor (FL CCC1332453) serving Atlantic Beach, FL,</strong> offering roof replacement, roof repair, and storm damage repair for homes throughout ZIP code 32233. The team specializes in salt-resistant, coastal-grade materials built for direct Atlantic exposure, with 24/7 emergency response and HOA-compliant installation for Selva Marina and Atlantic Beach Country Club. <a href={estimateUrl} id="cta-snippet-atlanticbeach-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free roof estimate</a> or call <a href={`tel:+1${phone.replace(/\D/g, '')}`} id="cta-snippet-atlanticbeach-call" className="text-primary font-semibold hover:underline">{phone}</a>.
+          </p>
+          <p className="text-gray-600 mb-4">
             Atlantic Beach sits at the northern end of the Beaches communities, stretching from the Mayport Naval Station boundary at the north down to the Neptune Beach line at Atlantic Boulevard. With around 14,000 residents spread across the historic Beach Avenue district, the gated Selva Marina and Atlantic Beach Country Club communities, and the established Royal Palms, Saltair, and Sevilla neighborhoods west of Mayport Road, Atlantic Beach offers a quieter, more residential feel than its Jacksonville Beach neighbor  --  with the same brutal salt air and coastal exposure.
           </p>
           <p className="text-gray-600 mb-4">

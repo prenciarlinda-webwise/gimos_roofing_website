@@ -87,14 +87,17 @@ export default function Header() {
               </span>
             </div>
             <div className="flex items-center gap-4">
-              <a href="https://www.facebook.com/gimosrenovation/" target="_blank" rel="noopener noreferrer" title="Gimo's Roofing on Facebook" className="hover:text-primary transition-colors" aria-label="Facebook">
+              <a href="https://www.facebook.com/gimosroofing" target="_blank" rel="noopener noreferrer" title="Gimo's Roofing on Facebook" className="hover:text-primary transition-colors" aria-label="Facebook">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.77,7.46H14.5v-1.9c0-.9.6-1.1,1-1.1h3V.5L14.5.5C10.6.5,9.77,3.3,9.77,5.47V7.46H7v4h2.77v10h4.73v-10h3.19l.38-4Z"/></svg>
               </a>
               <a href="https://www.instagram.com/gimosroofing/" target="_blank" rel="noopener noreferrer" title="Gimo's Roofing on Instagram" className="hover:text-primary transition-colors" aria-label="Instagram">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12,2.16c3.2,0,3.58,0,4.85.07,3.25.15,4.77,1.69,4.92,4.92.06,1.27.07,1.65.07,4.85s0,3.58-.07,4.85c-.15,3.23-1.66,4.77-4.92,4.92-1.27.06-1.65.07-4.85.07s-3.58,0-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.65-.07-4.85s0-3.58.07-4.85C2.38,3.92,3.9,2.38,7.15,2.23,8.42,2.18,8.8,2.16,12,2.16ZM12,0C8.74,0,8.33,0,7.05.07c-4.35.2-6.78,2.62-7,7C0,8.33,0,8.74,0,12s0,3.67.07,4.95c.2,4.36,2.62,6.78,7,7C8.33,24,8.74,24,12,24s3.67,0,4.95-.07c4.35-.2,6.78-2.62,7-7C24,15.67,24,15.26,24,12s0-3.67-.07-4.95c-.2-4.35-2.62-6.78-7-7C15.67,0,15.26,0,12,0Zm0,5.84A6.16,6.16,0,1,0,18.16,12,6.16,6.16,0,0,0,12,5.84ZM12,16a4,4,0,1,1,4-4A4,4,0,0,1,12,16ZM18.41,4.15a1.44,1.44,0,1,0,1.44,1.44A1.44,1.44,0,0,0,18.41,4.15Z"/></svg>
               </a>
-              <a href="https://www.yelp.com/biz/gimos-roofing-jacksonville" target="_blank" rel="noopener noreferrer" title="Gimo's Roofing on Yelp" className="hover:text-primary transition-colors" aria-label="Yelp">
+              <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener noreferrer" title="Gimo's Roofing on Yelp" className="hover:text-primary transition-colors" aria-label="Yelp">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.16,12.73l-3.88.67a.63.63,0,0,0-.37,1l2.45,3.12a.62.62,0,0,0,1-.07l1.41-3.72A.62.62,0,0,0,20.16,12.73Zm-1.54,6.27-2.34-3a.63.63,0,0,0-1.06.18l-1.3,3.77a.62.62,0,0,0,.69.83l3.64-.68A.63.63,0,0,0,18.62,19Zm-6.48,1.44L11,16.77a.62.62,0,0,0-1-.27l-2.9,2.56a.62.62,0,0,0,.27,1.06l3.72.67A.62.62,0,0,0,12.14,20.44ZM8.23,15.25l1.33-3.77a.63.63,0,0,0-.65-.84l-3.84.57a.62.62,0,0,0-.36,1l2.46,3.24A.62.62,0,0,0,8.23,15.25Zm1.68-8.08,2.48,7.23a.62.62,0,0,0,1,.27L19,9.49a.62.62,0,0,0-.28-1.06L10.6,6.72A.62.62,0,0,0,9.91,7.17Z"/></svg>
+              </a>
+              <a href="https://www.youtube.com/channel/UC-Vq8SO3cVfOnWExWnt3K0w" target="_blank" rel="noopener noreferrer" title="Gimo's Roofing on YouTube" className="hover:text-primary transition-colors" aria-label="YouTube">
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a2.994 2.994 0 0 0-2.107-2.117C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.391.524A2.994 2.994 0 0 0 .502 6.186 31.35 31.35 0 0 0 0 12a31.35 31.35 0 0 0 .502 5.814 2.994 2.994 0 0 0 2.107 2.117c1.886.524 9.391.524 9.391.524s7.505 0 9.391-.524a2.994 2.994 0 0 0 2.107-2.117A31.35 31.35 0 0 0 24 12a31.35 31.35 0 0 0-.502-5.814zM9.75 15.568V8.432L15.818 12 9.75 15.568z"/></svg>
               </a>
             </div>
           </div>

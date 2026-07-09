@@ -153,10 +153,12 @@ const structuredData = {
     "hurricane roof straps"
   ],
   "sameAs": [
-    "https://www.facebook.com/gimosrenovation/",
+    "https://www.facebook.com/gimosroofing",
     "https://www.instagram.com/gimosroofing/",
-    "https://www.yelp.com/biz/gimos-roofing-jacksonville",
-    "https://www.linkedin.com/company/gimo-s-renovation-roofing/"
+    "https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville",
+    "https://www.linkedin.com/company/gimo-s-renovation-roofing/",
+    "https://www.youtube.com/channel/UC-Vq8SO3cVfOnWExWnt3K0w",
+    "https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103"
   ],
   "hasMap": "https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA",
   "founder": {

@@ -178,7 +178,7 @@ export default function EmergencyRoofRepairPage() {
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">24/7 Emergency Roofing Response</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Roof emergencies don&apos;t wait for business hours, and neither do we. Licensed, insured, and local, Gimo&apos;s Roofing delivers emergency roof repair in Jacksonville FL and the surrounding Northeast Florida communities whenever the storm hits, weekends and holidays included.
+              <strong>Gimo&apos;s Roofing provides emergency roof repair in Jacksonville, FL, 24 hours a day, including weekends and holidays.</strong> Licensed and insured, the team responds to active leaks, storm damage, and urgent roofing issues across Duval, St. Johns, Clay, and Nassau counties with rapid tarping and same-day repairs whenever the storm hits. <a href={estimateUrl} id="cta-snippet-emergency-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-emergency-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a> now.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -213,10 +213,10 @@ export default function EmergencyRoofRepairPage() {
               <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" title="View Gimo's Roofing Google Reviews">
                 <Image src="/google-logo.png" alt="Read Gimo's Roofing reviews on Google" title="Google Reviews" width={80} height={28} className="h-7 w-auto object-contain" />
               </a>
-              <a href="https://www.yelp.com/biz/gimos-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
+              <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
                 <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
               </a>
-              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+              <a href="https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
@@ -387,7 +387,7 @@ export default function EmergencyRoofRepairPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Jacksonville Storm Damage Specialists</h2>
-              <p className="text-gray-600">Living in Northeast Florida means preparing for severe weather. Our team has extensive experience with storm damage repair, from minor <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Jacksonville FL</Link> to full <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link> when damage is severe.</p>
+              <p className="text-gray-600 mb-3"><strong>Gimo&apos;s Roofing is a Jacksonville storm damage roofing company handling hurricane, wind, and hail damage repair</strong> from minor <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Jacksonville FL</Link> to full <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link> when damage is severe. <a href={estimateUrl} id="cta-snippet-stormdamage-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-stormdamage-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
               <Image src="/images/roof-leak-emergency-repair.webp" alt="Emergency roof leak repair in Jacksonville FL" title="Emergency roof leak repair in Jacksonville FL" fill className="object-cover" />

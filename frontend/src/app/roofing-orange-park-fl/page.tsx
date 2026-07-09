@@ -105,6 +105,9 @@ export default function OrangeParkPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Your {location} Roofing Experts</h2>
           <p className="text-gray-600 mb-4">
+            <strong>Gimo&apos;s Roofing is a licensed roofing contractor serving Orange Park, FL and Clay County,</strong> offering roof replacement, roof repair, and emergency storm damage service for homes throughout ZIP codes 32065 and 32073. <a href={estimateUrl} id="cta-snippet-orangepark-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href={`tel:+1${phone.replace(/\D/g, '')}`} id="cta-snippet-orangepark-call" className="text-primary font-semibold hover:underline">{phone}</a>.
+          </p>
+          <p className="text-gray-600 mb-4">
             Orange Park is the heart of Clay County and one of Northeast Florida&apos;s most established family communities. From the neighborhoods surrounding Orange Park Town Center to the residential streets along Kingsley Avenue and Blanding Boulevard, this area is home to thousands of families who value quality, affordability, and honest service. With homes built across several decades, from the 1960s through the 2010s, {location} has a diverse housing stock that requires experienced roofers who understand each era&apos;s construction methods.
           </p>
           <p className="text-gray-600 mb-4">

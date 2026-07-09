@@ -53,6 +53,7 @@ const locationPages = [
 const now = new Date().toISOString()
 const blogPosts = allBlogPosts
   .filter(post => {
+    if (post.slug === 'gambrel-roof-guide') return false // redirected to homepage, see nginx.conf
     if (!post.publishDate) return true
     const pubDate = post.publishDate.includes('T') ? post.publishDate : post.publishDate + 'T00:00'
     return pubDate <= now

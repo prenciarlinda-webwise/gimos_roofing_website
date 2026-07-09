@@ -234,10 +234,10 @@ export default function Home() {
               <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" title="View Gimo's Roofing Google Reviews">
                 <Image src="/google-logo.png" alt="Read Gimo's Roofing reviews on Google" title="Google Reviews" width={80} height={28} className="h-7 w-auto object-contain" />
               </a>
-              <a href="https://www.yelp.com/biz/gimos-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
+              <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
                 <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
               </a>
-              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+              <a href="https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
@@ -251,6 +251,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Roofing Jacksonville FL</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Professional Roofing & Siding Services in Northeast Florida</h2>
+            <p className="text-base text-gray-600 max-w-2xl mx-auto mb-4"><strong>Gimo&apos;s Roofing offers roofing services in Jacksonville, FL including roof replacement, roof repair, new construction roofing, commercial roofing, metal roofing, gutter installation, and roof waterproofing</strong>, plus siding installation and repair. Every job is backed by manufacturer warranties, financing options, and free estimates. <a href={estimateUrl} id="cta-snippet-services-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-services-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
             <p className="text-base text-gray-600 max-w-2xl mx-auto">Among roofing companies in Jacksonville FL, Gimo&apos;s Roofing stands apart. As a licensed Jacksonville FL roofing company, we deliver quality craftsmanship for residential roofing Jacksonville FL homeowners trust, plus commercial properties across Northeast Florida. From roof repairs to complete replacements, our team is backed by manufacturer warranties and 24/7 <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link> for storm damage and active leaks.</p>
           </div>
 
@@ -375,7 +376,7 @@ export default function Home() {
             <div>
               <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Why Choose Us</span>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Why Homeowners Trust Our Jacksonville Roofing Company</h2>
-              <p className="text-base text-gray-600 mb-6">When you need a Jacksonville roofer you can count on, Gimo&apos;s Roofing delivers. As one of the most trusted roofing companies in Jacksonville FL, our team provides exceptional quality, transparent pricing, and outstanding customer service on every project. Our roofing contractors treat every home like their own.</p>
+              <p className="text-base text-gray-600 mb-6"><strong>Gimo&apos;s Roofing is a licensed, locally owned roofing contractor in Jacksonville, FL with a 5.0-star rating across 500+ completed roofs.</strong> Among roofing companies and contractors in Jacksonville, our team is known for transparent pricing, manufacturer-backed warranties, and clear communication on every project, from a single repair to a full replacement.</p>
               <div className="grid sm:grid-cols-2 gap-4">
                 {whyChooseUs.map((item) => (
                   <div key={item.title} className="flex gap-3">
@@ -494,7 +495,7 @@ export default function Home() {
             <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Customer Reviews</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Gimo&apos;s Roofing Reviews from Jacksonville Homeowners</h2>
           </div>
-          <TrustindexWidget src="https://cdn.trustindex.io/loader.js?7b53eae6954d6576bf866c88e17" />
+          <TrustindexWidget src="https://cdn.trustindex.io/loader.js?bb29f2a7656c255c6a16cfadafe" />
         </div>
       </section>
 

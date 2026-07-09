@@ -157,10 +157,10 @@ export default function RoofReplacementPage() {
               <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" title="View Gimo's Roofing Google Reviews">
                 <Image src="/google-logo.png" alt="Read Gimo's Roofing reviews on Google" title="Google Reviews" width={80} height={28} className="h-7 w-auto object-contain" />
               </a>
-              <a href="https://www.yelp.com/biz/gimos-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
+              <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
                 <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
               </a>
-              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+              <a href="https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
@@ -294,6 +294,7 @@ export default function RoofReplacementPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Replacement Costs in Jacksonville</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto mb-4"><strong>A new roof in Jacksonville, FL typically costs $8,000-$20,000 for asphalt shingles, $15,000-$35,000 for metal, and $18,000-$50,000+ for tile,</strong> depending on roof size, pitch, and material. Every estimate is a detailed written quote with no hidden fees, and financing is available. <a href={estimateUrl} id="cta-snippet-replacement-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-replacement-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
             <p className="text-gray-600 max-w-3xl mx-auto">Transparent roof replacement cost Jacksonville FL pricing with detailed written estimates. No hidden fees. Financing available. For a deeper breakdown, read our <Link href="/blog/roof-replacement-cost-jacksonville-fl" className="text-primary hover:underline">Jacksonville roof replacement cost guide</Link>.</p>
           </div>
 

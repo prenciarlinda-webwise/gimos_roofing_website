@@ -62,6 +62,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Blog pages - only include published posts (not future-scheduled)
   const now = new Date().toISOString()
   const publishedPosts = blogPosts.filter(post => {
+    if (post.slug === 'gambrel-roof-guide') return false // redirected to homepage, see nginx.conf
     if (!post.publishDate) return true
     const pubDate = post.publishDate.includes('T') ? post.publishDate : post.publishDate + 'T00:00'
     return pubDate <= now

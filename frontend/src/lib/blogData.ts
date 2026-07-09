@@ -2030,9 +2030,11 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">What Causes Yellow Spots on Ceiling?</h2>
 
-<p class="text-gray-600 mb-4">Yellow and brown ceiling stains are almost always caused by water. The discoloration comes from minerals and contaminants in the water that get left behind when the moisture evaporates. Common causes include:</p>
+<p class="text-gray-600 mb-4"><strong>Yellow spots, marks, or dots on a ceiling are almost always mineral deposits left behind by water, not mold growth itself.</strong> The four most common sources are a roof leak, attic condensation from poor ventilation, an HVAC condensate line or drain pan issue, and a plumbing leak in the wall or floor above. The yellow-brown color comes from tannins, dirt, and minerals carried in the water, not pigment from mold.</p>
 
-<p class="text-gray-600 mb-6">Need a <a href="/roofing-ponte-vedra-beach-fl" class="text-primary font-semibold hover:underline">roof estimate in Ponte Vedra Beach</a>? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+<p class="text-gray-600 mb-4">Common causes include:</p>
+
+<p class="text-gray-600 mb-6">Need a <a href="/roofing-ponte-vedra-beach-fl" class="text-primary font-semibold hover:underline">roof estimate in Ponte Vedra Beach</a>? Call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-yellowspots-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Roof Leaks (Most Common)</h3>
 <p class="text-gray-600 mb-4">The most frequent cause of ceiling stains in Jacksonville homes. Water enters through damaged shingles, worn flashing, or failed seals around roof penetrations, then travels along rafters before dripping onto your ceiling.</p>
@@ -2146,7 +2148,10 @@ export const blogPosts: BlogPost[] = [
       { question: "What causes yellow spots on ceiling?", answer: "Yellow or brown ceiling stains are almost always caused by water, not mold itself. The discoloration comes from minerals left behind when water evaporates. The most common sources are roof leaks, attic condensation from poor ventilation, HVAC condensate issues, or plumbing leaks above the ceiling." },
       { question: "Is a ceiling stain always a roof leak?", answer: "Not always, but roof leaks are the most common cause, especially on top-floor ceilings. Other causes include HVAC condensation from clogged drain lines, plumbing leaks in walls, and attic ventilation problems that allow moisture to condense on the underside of roof decking." },
       { question: "Should I paint over ceiling water stains?", answer: "Never paint over water stains without first identifying and fixing the source. Painting hides the symptom but doesn't solve the problem. The stain will return, often larger, and the underlying damage from water intrusion will continue getting worse and more costly to repair." },
-      { question: "How serious is a water stain on my ceiling?", answer: "Water stains indicate ongoing or past water intrusion and should be taken seriously. Even dried stains mean water reached your ceiling at some point. Left unfixed, this leads to mold growth within 24-48 hours, structural wood rot, and potential electrical hazards. Get it inspected promptly." }
+      { question: "How serious is a water stain on my ceiling?", answer: "Water stains indicate ongoing or past water intrusion and should be taken seriously. Even dried stains mean water reached your ceiling at some point. Left unfixed, this leads to mold growth within 24-48 hours, structural wood rot, and potential electrical hazards. Get it inspected promptly." },
+      { question: "I have a yellow stain on my ceiling but no active leak. What does that mean?", answer: "A yellow stain with no dripping or wetness is usually a dried, past leak rather than an active one. The water that caused it may have come from a storm that has since passed, or the source has been intermittent. It still needs inspection, since the same weak point (flashing, shingles, or a pipe boot) will leak again during the next heavy rain." },
+      { question: "Why are there yellow spots specifically on my bathroom ceiling?", answer: "Bathroom ceiling stains are more likely to come from HVAC condensation, a leaking exhaust fan duct, or a bathtub or shower pan leak than from the roof, especially if the bathroom is not directly under the roofline. If the bathroom is on the top floor, check for roof leaks first since that is still the most common cause in Jacksonville homes." },
+      { question: "What does early stage yellow mold on a ceiling look like?", answer: "What looks like early mold is usually a fresh water stain: a soft-edged yellow or tan discoloration, sometimes with a faint ring where the water spread and dried. True mold growth typically appears darker (green, black, or gray) and fuzzy or textured. If a yellow stain feels damp or is actively spreading, treat it as a leak needing repair, not just a cosmetic mold issue." }
     ]
   },
   {
@@ -3218,7 +3223,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Before diving into costs, let's clarify the terminology. A "square" in roofing equals 100 square feet of roof area. So a 2,000 sq ft roof is 20 squares. Contractors quote materials and sometimes labor by the square because it standardizes pricing across different roof sizes.</p>
 
-<p class="text-gray-600 mb-6">Get a <a href="/roofing-neptune-beach-fl" class="text-primary font-semibold hover:underline">free roof quote in Neptune Beach</a> by calling Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+<p class="text-gray-600 mb-6">Get a <a href="/roofing-neptune-beach-fl" class="text-primary font-semibold hover:underline">free roof quote in Neptune Beach</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-laborcost-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">Jacksonville Roofing Labor Rates (2026)</h2>
 
@@ -3346,7 +3351,9 @@ export const blogPosts: BlogPost[] = [
       { question: "How much does roofing labor cost per square?", answer: "In Jacksonville, roofing labor costs $75-$150 per square (100 sq ft) for architectural shingles, $200-$400 per square for standing seam metal, and $300-$500 per square for tile. These are labor-only rates; materials, permits, and disposal add to the total cost." },
       { question: "What percentage of a roofing job is labor?", answer: "Labor typically accounts for 40-45% of a total roofing project cost. Materials make up 40-50%, with the remaining 10-15% covering permits, disposal, insurance, and contractor overhead. This ratio varies based on material type and roof complexity." },
       { question: "Why is roofing labor so expensive in Florida?", answer: "Florida roofing labor costs more due to hurricane-rated installation requirements, year-round high demand, extreme heat that slows work, and specialized training needed for Florida Building Code compliance. Skilled roofers command premium wages in this market." },
-      { question: "How long does it take to roof a 2,000 sq ft house?", answer: "A professional crew can typically complete a 2,000 sq ft residential roof in 1-3 days for shingles, 2-4 days for metal, or 3-5 days for tile. Weather delays, complex roof designs, and unexpected repairs can extend timelines." }
+      { question: "How long does it take to roof a 2,000 sq ft house?", answer: "A professional crew can typically complete a 2,000 sq ft residential roof in 1-3 days for shingles, 2-4 days for metal, or 3-5 days for tile. Weather delays, complex roof designs, and unexpected repairs can extend timelines." },
+      { question: "What is roofing labor cost per square foot?", answer: "Roofing labor in Jacksonville runs $0.75-$1.50 per square foot for architectural shingles, $2.00-$4.00 per square foot for standing seam metal, and $3.00-$5.00 per square foot for tile. Multiply by your roof's square footage for a labor-only estimate, then add materials, permits, and disposal for the full project cost." },
+      { question: "What is the roofing labor cost per hour in Jacksonville?", answer: "Individual roofing crew members typically earn $25-$45 per hour in the Jacksonville market, but contractors quote by the square or square foot rather than an hourly rate because job duration varies with pitch, complexity, and material. A 20-square architectural shingle roof usually represents $1,500-$3,000 in total labor." }
     ]
   },
   {
@@ -3382,7 +3389,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">From the insurer's perspective, a 20-year-old roof represents significantly higher risk than a 5-year-old roof. That's why they're increasingly strict about coverage.</p>
 
-<p class="text-gray-600 mb-6">Ready to talk numbers? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a <a href="/roofing-orange-park-fl" class="text-primary font-semibold hover:underline">roof estimate in Orange Park</a>.</p>
+<p class="text-gray-600 mb-6">Ready to talk numbers? Call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-insuranceage-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a <a href="/roofing-orange-park-fl" class="text-primary font-semibold hover:underline">roof estimate in Orange Park</a>.</p>
 
 <h2 id="age-rules" class="text-2xl font-bold text-secondary mt-10 mb-4">Florida's Roof Age Insurance Rules</h2>
 
@@ -3433,7 +3440,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="age-25" class="text-2xl font-bold text-secondary mt-10 mb-4">Will Insurance Cover a 25-Year-Old Roof?</h2>
 
-<p class="text-gray-600 mb-4">Almost certainly not at this age, except for metal or tile roofs in excellent condition. For asphalt shingles, a 25-year-old roof in Florida has exceeded its expected service life. Private insurers will refuse to write new policies. Existing policies are usually non-renewed, often with 30-90 days notice. Citizens may cover, but increasingly Citizens has tightened its own age rules too, and a passing four-point inspection becomes mandatory.</p>
+<p class="text-gray-600 mb-4"><strong>Almost certainly not at this age, except for metal or tile roofs in excellent condition.</strong> For asphalt shingles, a 25-year-old roof in Florida has exceeded its expected service life. Private insurers will refuse to write new policies. Existing policies are usually non-renewed, often with 30-90 days notice. Citizens may cover, but increasingly Citizens has tightened its own age rules too, and a passing four-point inspection becomes mandatory.</p>
 
 <p class="text-gray-600 mb-6">Metal roofs at 25 years are still in good standing if the original installation was quality and there's no visible damage. Tile roofs (clay or concrete) often go 50+ years with proper underlayment replacement. The 25-year cutoff really applies to asphalt shingles in Florida's UV and humidity environment.</p>
 
@@ -3542,7 +3549,8 @@ export const blogPosts: BlogPost[] = [
       { question: "At what age do insurance companies reject roofs in Florida?", answer: "Most Florida insurers scrutinize roofs at 15 years and many decline coverage at 20 years. However, roof condition matters more than age alone, a well-maintained 18-year-old roof that passes inspection is more insurable than a neglected 12-year-old roof. Hard age cutoffs vary by carrier, with Citizens typically the most lenient." },
       { question: "How much does it cost to replace a roof in Florida?", answer: "The average cost to replace a roof in Florida is $14,000-$22,000 on a typical 2,000 sq ft home for asphalt shingles. Metal roofs run $18,000-$35,000, and tile roofs $25,000-$50,000+. Cost varies by home size, roof complexity, pitch, tear-off scope, and material quality. Pricing in Jacksonville is similar to the state average." },
       { question: "Can I get insurance if my roof is too old?", answer: "Yes, options exist. Get a roof certification showing remaining life, shop different insurers with varying age policies, or apply to Citizens Property Insurance (Florida's state-backed insurer of last resort). For roofs past 20 years, replacement is often the most cost-effective long-term solution because the insurance savings, wind mitigation credits, and reduced non-renewal risk add up." },
-      { question: "How long does a roof last in Florida?", answer: "Asphalt shingles typically last 15-20 years in Florida (shorter than the 25-30 years in cooler climates) due to intense UV exposure and hurricane stress. Metal roofs last 40-60 years, and tile roofs can exceed 50 years with proper underlayment replacement. Lifespan varies with installation quality, ventilation, and maintenance." }
+      { question: "How long does a roof last in Florida?", answer: "Asphalt shingles typically last 15-20 years in Florida (shorter than the 25-30 years in cooler climates) due to intense UV exposure and hurricane stress. Metal roofs last 40-60 years, and tile roofs can exceed 50 years with proper underlayment replacement. Lifespan varies with installation quality, ventilation, and maintenance." },
+      { question: "How does roof age affect insurance in Florida?", answer: "Roof age is one of the biggest factors Florida insurers weigh. Most start scrutinizing roofs at 15 years, many require a passing inspection or non-renew at 20 years, and asphalt shingle roofs over 25 years are almost impossible to insure with a private carrier. Age matters less if a certified inspection shows 5+ years of remaining life, and matters less for metal or tile roofs since they age more slowly than shingles." }
     ]
   },
   // ============================================
@@ -3595,7 +3603,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">The good news is that choosing the right material, ensuring proper installation, and maintaining your roof consistently can help you maximize the lifespan of whatever roofing system you choose. And when the time does come for replacement, knowing the expected lifespan helps you evaluate whether <a href="/blog/roof-repair-vs-replacement-jacksonville" class="text-primary hover:underline">repair or replacement</a> is the smarter financial move.</p>
 
-<p class="text-gray-600 mb-6">Looking for a <a href="/roofing-jacksonville-beach-fl" class="text-primary font-semibold hover:underline">roof quote in Jacksonville Beach</a>? Gimo's Roofing is one call away at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+<p class="text-gray-600 mb-6">Looking for a <a href="/roofing-jacksonville-beach-fl" class="text-primary font-semibold hover:underline">roof quote in Jacksonville Beach</a>? Gimo's Roofing is one call away at <a href="tel:+19046065313" id="cta-snippet-lifespan-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
 <p class="font-bold text-secondary mb-2">Not Sure How Much Life Your Roof Has Left?</p>
@@ -3782,7 +3790,11 @@ export const blogPosts: BlogPost[] = [
       { question: "How long do asphalt shingles last in Florida?", answer: "Standard 3-tab shingles last 12-15 years in Florida. Architectural shingles last 15-20 years. Premium shingles may reach 20-25 years. This is 5-10 years shorter than the same shingles would last in northern states." },
       { question: "What type of roof lasts longest in Florida?", answer: "Clay tile roofs last longest in Florida, potentially exceeding 50-100 years. Metal roofs are second at 40-60 years. Both handle Florida's climate and hurricanes better than asphalt shingles, though they cost more upfront." },
       { question: "How can I make my Florida roof last longer?", answer: "Ensure proper attic ventilation, get annual professional inspections, keep the roof clean of debris and algae, maintain gutters, trim overhanging trees, and address repairs promptly. These steps can extend your roof's life by 5+ years." },
-      { question: "When should I replace my roof in Florida?", answer: "Replace your Florida roof when it reaches 80% of its expected lifespan, has multiple recurring leaks, shows widespread granule loss or curling shingles, or when repair costs exceed 30% of replacement cost. Insurance non-renewal threats also signal replacement time." }
+      { question: "When should I replace my roof in Florida?", answer: "Replace your Florida roof when it reaches 80% of its expected lifespan, has multiple recurring leaks, shows widespread granule loss or curling shingles, or when repair costs exceed 30% of replacement cost. Insurance non-renewal threats also signal replacement time." },
+      { question: "How long do metal roofs last in Florida?", answer: "Standing seam steel roofs last 40-60 years in Florida, and aluminum standing seam lasts 50-70 years since it never rusts, even in coastal salt air. Metal is the best-performing material for Florida's UV, humidity, and hurricane winds among steep-slope roofing options." },
+      { question: "How long do tile roofs last in Florida?", answer: "Clay tile roofs can last 50-100+ years in Florida, and concrete tile lasts 40-60 years. The tiles themselves often outlast the underlayment beneath them, which typically needs replacement around year 20-30 even though the tiles remain intact." },
+      { question: "How long does a flat roof last in Florida?", answer: "Flat and low-slope roofs in Florida typically last 15-25 years. TPO membrane lasts 15-25 years, EPDM rubber lasts 20-25 years, and modified bitumen lasts 15-20 years. Proper drainage is critical since standing water shortens the lifespan of any flat roofing system." },
+      { question: "How often should a roof be replaced in Florida?", answer: "Most Florida homeowners replace their roof every 15-25 years depending on material: 15-20 years for asphalt shingles, 40-60 years for metal, and 50+ years for tile. Replace sooner if repair costs exceed 30% of a new roof or if an insurer flags the roof for non-renewal." }
     ]
   },
   {
@@ -3980,6 +3992,7 @@ export const blogPosts: BlogPost[] = [
       { id: "tile-roofing", title: "Tile Roofing" },
       { id: "flat-roofing", title: "Flat Roofing (TPO/EPDM)" },
       { id: "comparison-table", title: "Side-by-Side Comparison" },
+      { id: "small-structures", title: "Waterproof Options for Small Structures" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
     content: `<p class="text-lg font-semibold text-secondary mb-6">The best roofing material for Florida depends on your budget, home style, and how long you plan to stay. Metal roofing offers the best hurricane protection and longevity at 40-60 years. Tile provides unmatched durability at 50+ years for homes that can support the weight. Architectural asphalt shingles deliver the best value at 15-20 years for most budgets. Whether you are planning a <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> or building a new home, understanding how each material performs specifically in Florida's climate helps you make the right investment.</p>
@@ -4168,6 +4181,18 @@ export const blogPosts: BlogPost[] = [
 <li><strong>If insurance savings matter:</strong> Impact-rated shingles or metal roofing with full <a href="/blog/hurricane-straps-roof-jacksonville" class="text-primary hover:underline">wind mitigation features</a> can earn $500-$2,000+ per year in <a href="/blog/storm-damage-roofing-insurance" class="text-primary hover:underline">insurance premium reductions</a></li>
 </ul>
 
+<h2 id="small-structures" class="text-2xl font-bold text-secondary mt-10 mb-4">Waterproof Roofing Options for Treehouses, Sheds, and Small Structures in Florida</h2>
+
+<p class="text-gray-600 mb-6"><strong>For a treehouse or other small outdoor structure in Florida, the most waterproof roofing options are corrugated metal panels, EPDM rubber roofing membrane, and standard asphalt shingles.</strong> Metal panels shed heavy rain fastest and hold up best to UV and wind, EPDM membrane is the simplest fully sealed option for a low-slope or flat treehouse roof, and asphalt shingles are the cheapest choice if the structure has enough pitch to shed water. Not sure which fits your project? Call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-treehouse-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a free quote.</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Corrugated or standing seam metal:</strong> Lightweight, ships in small panels that are easy to handle at height, and resists Florida's UV and afternoon storms better than any other small-structure option</li>
+<li><strong>EPDM rubber membrane:</strong> A single waterproof sheet with no seams to fail, ideal for flat or nearly flat treehouse roofs where shingles would not shed water properly</li>
+<li><strong>Asphalt shingles:</strong> The lowest-cost option and fine for a treehouse with at least a 3:12 pitch, though they need more maintenance in Florida's heat than metal or EPDM</li>
+</ul>
+
+<p class="text-gray-600 mb-6">The same waterproofing principles that apply to a full-size home roof apply to a treehouse: proper underlayment, sealed penetrations, and a slope steep enough to shed water fast during Florida's heavy summer rain. If a small structure has a flat or low-slope design, the same <a href="/services/roof-waterproofing" class="text-primary hover:underline">roof waterproofing</a> approach used on flat home roofs works well.</p>
+
 <div class="bg-secondary rounded-xl p-6 my-8 text-center">
 <p class="text-white text-lg font-bold mb-2">Not Sure Which Material Is Right?</p>
 <p class="text-gray-300 text-sm mb-4">Gimo's Roofing brings full-size material samples to your home and walks you through the pros, cons, and costs for your specific roof.</p>
@@ -4207,7 +4232,10 @@ export const blogPosts: BlogPost[] = [
       { question: "What roof lasts the longest in Florida?", answer: "Clay tile roofs last the longest in Florida, potentially 50-100+ years for the tiles themselves. Metal roofs are second at 40-60 years. Both significantly outlast asphalt shingles (15-20 years) in Florida's climate." },
       { question: "Is a metal roof worth it in Florida?", answer: "Yes, for homeowners planning to stay long-term. Metal roofs cost 2-3x more upfront but last 3-4x longer, handle hurricanes better, and reduce cooling costs. The total cost of ownership is often lower than replacing shingles multiple times." },
       { question: "What type of roof is best for hurricanes in Florida?", answer: "Standing seam metal roofing with concealed fasteners offers the best hurricane protection, rated for 140-150+ mph winds. Properly installed tile roofs also perform well due to their weight. High-wind-rated architectural shingles (130+ mph) are the affordable option." },
-      { question: "How much does a new roof cost in Florida?", answer: "In Jacksonville, asphalt shingle roofs start at $7,900, metal roofs range from $15,000-$35,000, and tile roofs cost $20,000-$50,000+. Actual cost depends on roof size, pitch, complexity, and material chosen." }
+      { question: "How much does a new roof cost in Florida?", answer: "In Jacksonville, asphalt shingle roofs start at $7,900, metal roofs range from $15,000-$35,000, and tile roofs cost $20,000-$50,000+. Actual cost depends on roof size, pitch, complexity, and material chosen." },
+      { question: "What roofing options are waterproof for a treehouse or small structure in Florida?", answer: "Corrugated or standing seam metal panels, EPDM rubber roofing membrane, and standard asphalt shingles are the most waterproof options for a treehouse or shed in Florida. Metal handles UV and wind best, EPDM is the simplest fully sealed choice for a flat or low-slope roof, and asphalt shingles work if the structure has at least a 3:12 pitch to shed water." },
+      { question: "What are the best shingles for Florida homes?", answer: "Architectural (dimensional) shingles with algae-resistant granules and a 130+ mph wind rating are the best shingle choice for Florida, offering 15-20 years of service for a moderate price. Premium impact-rated shingles last 20-25 years and often qualify for insurance discounts. Basic 3-tab shingles are the cheapest but rated for only 60-70 mph wind and are no longer recommended for new installs in Florida." },
+      { question: "What is the top rated roofing material overall?", answer: "Metal roofing, specifically standing seam, is generally rated the best overall roofing material for Florida homes when longevity and hurricane performance are the priority, lasting 40-60 years with wind ratings up to 140-150+ mph. Clay or concrete tile rates highest for lifespan alone (50-100+ years). Architectural asphalt shingles rate highest for value, balancing a lower upfront cost against a shorter 15-20 year lifespan." }
     ]
   },
   {
@@ -7710,7 +7738,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">These are separate warranties with different coverage, terms, and claim processes. You need both for complete protection.</p>
 
-<p class="text-gray-600 mb-6">For a <a href="/roofing-ponte-vedra-beach-fl" class="text-primary font-semibold hover:underline">free roof estimate in Ponte Vedra Beach</a>, call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+<p class="text-gray-600 mb-6">For a <a href="/roofing-ponte-vedra-beach-fl" class="text-primary font-semibold hover:underline">free roof estimate in Ponte Vedra Beach</a>, call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-warranty-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <h2 id="manufacturer" class="text-2xl font-bold text-secondary mt-10 mb-4">Understanding Manufacturer Warranties</h2>
 
@@ -7747,6 +7775,8 @@ export const blogPosts: BlogPost[] = [
 </div>
 </div>
 <h2 id="workmanship" class="text-2xl font-bold text-secondary mt-10 mb-4">Understanding Workmanship Warranties</h2>
+
+<p class="text-gray-600 mb-6"><strong>A Florida roofing company with a strong workmanship guarantee backs its installation for at least 5-10 years, separate from the manufacturer's material warranty.</strong> Gimo's Roofing provides a 5-year workmanship warranty on repairs and stands behind every full roof installation, since the vast majority of roof problems in Florida come from installation errors rather than defective materials.</p>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Why Workmanship Warranties Matter Most</h3>
 
@@ -10287,7 +10317,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6"><strong>Fascia is the vertical board behind your gutter; soffit is the underside of the roof overhang.</strong> Together they protect rafters from weather and pests while providing ventilation. Damage is usually from water intrusion, pest activity, or age. Repairs cost $15-30 per linear foot for fascia and $6-12 per square foot for soffit.</p>
 
-<p class="text-gray-600 mb-6">Want a <a href="/roofing-neptune-beach-fl" class="text-primary font-semibold hover:underline">roof quote in Neptune Beach</a>? Reach Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+<p class="text-gray-600 mb-6">Want a <a href="/roofing-neptune-beach-fl" class="text-primary font-semibold hover:underline">roof quote in Neptune Beach</a>? Reach Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-fasciasoffit-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Fascia and Soffit Functions:</p>
@@ -11522,7 +11552,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">For landlords and property managers across Northeast Florida, a roof is both a major capital asset and a daily liability. A failing roof on a 12-unit building can damage dozens of tenant possessions at once and idle rental income. Whether you own a single duplex or a portfolio of apartment buildings, our <a href="/services/commercial-roofing" class="text-primary hover:underline">commercial roofing</a> team approaches multi-family work as a system: the right membrane or shingle, a phasing plan that keeps tenants in place, and documentation that protects you with insurers and the county. This guide covers material choices, tenant coordination, phasing, slope decisions, budgeting, and the Florida Building Code wind requirements that govern every multi-family roof in the state.</p>
 
-<p class="text-gray-600 mb-6">Get a fast <a href="/roofing-st-augustine-fl" class="text-primary font-semibold hover:underline">roof quote in St. Augustine</a> — call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+<p class="text-gray-600 mb-6">Get a fast <a href="/roofing-st-augustine-fl" class="text-primary font-semibold hover:underline">roof quote in St. Augustine</a> — call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-multifamily-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Multi-Family Roofing Priorities:</p>
@@ -11705,7 +11735,8 @@ export const blogPosts: BlogPost[] = [
       { question: "What roofing is best for rental properties?", answer: "Choose low-maintenance, durable options. Metal roofing offers the best long-term value despite higher upfront cost. TPO is excellent for flat roofs. Architectural shingles provide good balance of cost and performance. Avoid materials requiring frequent maintenance." },
       { question: "How do I handle tenant complaints during roofing?", answer: "Provide advance written notice, communicate work schedule, ensure reasonable work hours, and address legitimate concerns promptly. Most tenants understand necessary maintenance. Document tenant communications and any accommodation requests." },
       { question: "Can I pass roofing costs to tenants?", answer: "Generally not directly, roof replacement is a capital expense, not an operating expense that can be charged to tenants. However, you may be able to justify rent increases after significant property improvements. Consult your lease agreements and local landlord-tenant law." },
-      { question: "Should I replace roofs on all buildings at once?", answer: "It depends on your budget and building conditions. Replacing all at once may get volume discount and ensures uniform quality. Phasing across years spreads budget impact. Prioritize based on roof condition, replace the worst first to prevent costly damage." }
+      { question: "Should I replace roofs on all buildings at once?", answer: "It depends on your budget and building conditions. Replacing all at once may get volume discount and ensures uniform quality. Phasing across years spreads budget impact. Prioritize based on roof condition, replace the worst first to prevent costly damage." },
+      { question: "What does a multi-family roof replacement involve?", answer: "A multi-family roof replacement typically involves tear-off or overlay of the existing system, structural and deck inspection, installation of new membrane or shingles rated for the building's slope, and phased scheduling so occupied units keep working roof coverage throughout. Commercial flat-roof buildings usually move to TPO or modified bitumen, while low-rise duplexes and triplexes use standard residential materials and timelines." }
     ]
   },
   {
@@ -12109,7 +12140,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">In Jacksonville's climate, flashing earns its keep. Wind-driven rain pushes water sideways and uphill against every seam, while relentless UV bakes the sealants and rubber gaskets that hold those seams tight. A roof can have premium shingles and still leak within a few years if the flashing was rushed or reused. Understanding the types of flashing helps you spot trouble early and know when a quick <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof repair</a> will hold versus when it is time for a full <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a>.</p>
 
-<p class="text-gray-600 mb-6">Need a <a href="/roofing-mandarin-fl" class="text-primary font-semibold hover:underline">roof estimate in Mandarin</a>? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+<p class="text-gray-600 mb-6">Need a <a href="/roofing-mandarin-fl" class="text-primary font-semibold hover:underline">roof estimate in Mandarin</a>? Call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-flashing-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Flashing Essentials:</p>
@@ -12128,6 +12159,8 @@ export const blogPosts: BlogPost[] = [
 <p class="text-gray-600 mb-6">The National Roofing Contractors Association notes that the majority of low-slope and steep-slope leaks originate at flashings and penetrations rather than in the open field of the roof. You can read more about flashing standards at the <a href="https://www.nrca.net" target="_blank" rel="noopener" class="text-primary hover:underline">National Roofing Contractors Association</a>. The lesson for homeowners is simple. When a roof leaks, the smart money looks at the metal joints first, not the shingles.</p>
 
 <h2 id="flashing-types" class="text-2xl font-bold text-secondary mt-10 mb-4">Types of Roof Flashing</h2>
+
+<p class="text-gray-600 mb-6"><strong>The main types of roof flashing are drip edge, step flashing, counter flashing, valley flashing, vent and pipe boot flashing, chimney flashing, and kickout (diverter) flashing.</strong> Each is shaped and positioned for a specific transition point on the roof, and using the wrong type, or skipping one, is the most common cause of a leak that has nothing to do with the shingles themselves.</p>
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Drip Edge</h3>
 <p class="text-gray-600 mb-6">Drip edge is L-shaped metal installed along the eaves and rakes, tucked under the underlayment at the eaves and over it at the rakes. It directs runoff into the gutter and away from the fascia, and it stops water from wicking backward under the first course of shingles. Florida building code requires drip edge on shingle roofs, with a typical fascia leg of 1.5 to 3 inches and overlapping pieces of at least 2 inches at the joints. Aluminum drip edge in 0.019 inch thickness is the common standard. Learn the details in our <a href="/blog/drip-edge-installation-florida" class="text-primary hover:underline">drip edge installation guide</a>.</p>
@@ -12227,7 +12260,9 @@ export const blogPosts: BlogPost[] = [
       { question: "How long does roof flashing last?", answer: "Quality flashing can last 20-30 years or match your roof's lifespan. Rubber pipe boots typically fail sooner (10-15 years). Sealant may need reapplication every 5-10 years. Flashing is often replaced during reroofing even if not failed." },
       { question: "What are signs of flashing failure?", answer: "Look for visible rust, lifted edges, missing sealant, or gaps between flashing and surfaces. Inside, water stains near chimneys, walls, or vents suggest flashing problems. Leaks during wind-driven rain often indicate flashing issues." },
       { question: "Should flashing be replaced with new roof?", answer: "Generally yes, especially step flashing and counter flashing which integrate with shingle courses. Valley flashing in good condition may be reusable. Pipe boots should always be replaced during reroofing. New flashing ensures leak-free integration with new roofing." },
-      { question: "What's the best flashing material?", answer: "Aluminum is the standard, rust-proof, affordable, and adequate for most applications. Copper is premium with 50+ year life and attractive aging. Galvanized steel is strong but can rust. Material should match or exceed expected roof life." }
+      { question: "What's the best flashing material?", answer: "Aluminum is the standard, rust-proof, affordable, and adequate for most applications. Copper is premium with 50+ year life and attractive aging. Galvanized steel is strong but can rust. Material should match or exceed expected roof life." },
+      { question: "What is step flashing on a roof?", answer: "Step flashing is a series of small L-shaped metal pieces, usually about 4 by 4 inches, installed where a sloped roof meets a vertical wall or dormer. Each piece is woven into a shingle course so it overlaps the piece below it, creating a stair-step pattern that carries water down onto the shingles instead of behind the wall." },
+      { question: "What is counter flashing and how is it different from step flashing?", answer: "Counter flashing is a separate piece of metal set into the masonry or wall above step flashing, overlapping it by at least 2 inches so water sheds over the top instead of running in behind it. Step flashing does the primary water diversion at the roof line; counter flashing caps it. Chimneys need both working together to stay watertight." }
     ]
   },
   {
@@ -12827,7 +12862,7 @@ export const blogPosts: BlogPost[] = [
       { id: "ridge-cap-cost", title: "Ridge Cap Cost" },
       { id: "spring-ridge-cap-inspection", title: "Spring Ridge Cap Inspection Tips" }
     ],
-    content: `<p class="text-lg text-gray-700 mb-6"><strong>A ridge cap is a specially shaped shingle or covering installed along the peak (ridge) of your roof where two sloping sides meet.</strong> It seals the gap at the highest point of your roof, preventing rain, wind, and debris from entering your attic. Without a properly installed ridge cap, every rainstorm pushes water directly into the most vulnerable point of your roofing system. If your ridge caps look damaged or worn, <a href="/services/roof-repair" class="text-primary hover:underline">Gimo's Roofing offers free inspections</a> and can assess whether repair or replacement is needed. <a href="https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing" class="text-primary hover:underline" target="_blank" rel="noopener">Get a free estimate here</a>.</p>
+    content: `<p class="text-lg text-gray-700 mb-6"><strong>A ridge cap is a specially shaped shingle or covering installed along the peak (ridge) of your roof where two sloping sides meet.</strong> It seals the gap at the highest point of your roof, preventing rain, wind, and debris from entering your attic. Without a properly installed ridge cap, every rainstorm pushes water directly into the most vulnerable point of your roofing system. If your ridge caps look damaged or worn, <a href="/services/roof-repair" class="text-primary hover:underline">Gimo's Roofing offers free inspections</a> and can assess whether repair or replacement is needed. <a href="https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing" id="cta-snippet-ridgecap-estimate" class="text-primary hover:underline" target="_blank" rel="noopener">Get a free estimate here</a> or call <a href="tel:+19046065313" id="cta-snippet-ridgecap-call" class="text-primary hover:underline">(904) 606-5313</a>.</p>
 
 <p class="text-gray-600 mb-6">Most homeowners never think about their ridge caps until something goes wrong. But this single component sits at the very top of your roof, exposed to more wind, sun, and weather than almost any other part of your roofing system. Understanding what ridge caps do, what they look like when they fail, and when to replace them can save you from expensive water damage that starts at the peak and works its way down through your entire home.</p>
 
@@ -12898,6 +12933,8 @@ export const blogPosts: BlogPost[] = [
 <p class="text-gray-600 mb-6">If your roof currently has cut three-tab shingles along the ridge instead of purpose-built ridge caps, consider having them replaced during your next <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a>. Gimo's Roofing always uses manufacturer-matched ridge cap shingles to ensure warranty compliance and maximum performance.</p>
 
 <h2 id="types-of-ridge-caps" class="text-2xl font-bold text-secondary mt-10 mb-4">Types of Ridge Caps</h2>
+
+<p class="text-gray-600 mb-6"><strong>There are four main types of ridge caps: asphalt ridge cap shingles, metal ridge caps, tile ridge caps, and hip caps.</strong> The right type depends on your roof's primary material. Asphalt roofs use purpose-built ridge shingles, standing seam and corrugated metal roofs use formed metal caps, and clay or concrete tile roofs use shaped V-ridge or barrel ridge tiles set in mortar or adhesive.</p>
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Asphalt Ridge Cap Shingles</h3>
 
@@ -13082,7 +13119,8 @@ export const blogPosts: BlogPost[] = [
       { question: "How much does it cost to replace ridge caps?", answer: "Ridge cap replacement typically costs $8 to $16 per linear foot installed. For an average Jacksonville home with 40 to 60 linear feet of ridge, total cost ranges from $350 to $900. This is significantly less than a full roof replacement and is well worth the investment to prevent leaks." },
       { question: "Can you use regular shingles as ridge caps?", answer: "While some contractors cut three-tab shingles into thirds and use them as ridge caps, this is not recommended. Purpose-built ridge cap shingles are thicker, pre-scored for clean bending, wider for better coverage, and have tested wind ratings. Using cut regular shingles may also void your roof warranty." },
       { question: "How often should ridge caps be replaced?", answer: "Ridge caps typically last 15 to 25 years, but in Florida's intense UV and heat, they often deteriorate faster than field shingles. Inspect them annually, especially after storm season. If you see cracking, curling, missing pieces, or granule loss, it is time for replacement regardless of age." },
-      { question: "Why do ridge caps blow off first in storms?", answer: "Ridge caps sit at the highest point of the roof where wind speeds are greatest. Wind accelerating over the peak creates uplift forces underneath the cap edges. This is why enhanced nailing patterns and proper adhesive sealing are critical for ridge caps in hurricane-prone areas like Florida." }
+      { question: "Why do ridge caps blow off first in storms?", answer: "Ridge caps sit at the highest point of the roof where wind speeds are greatest. Wind accelerating over the peak creates uplift forces underneath the cap edges. This is why enhanced nailing patterns and proper adhesive sealing are critical for ridge caps in hurricane-prone areas like Florida." },
+      { question: "What are the different types of ridge caps?", answer: "There are four main types: asphalt ridge cap shingles for standard shingle roofs, metal ridge caps formed to match standing seam or corrugated panels, tile ridge caps (V-ridge or barrel ridge tiles) for clay and concrete tile roofs, and hip caps, which are the same product installed along a hip roof's angled ridge lines instead of the main peak." }
     ]
   },
   {
@@ -13330,7 +13368,7 @@ export const blogPosts: BlogPost[] = [
       { id: "other-factors", title: "Other Factors That Matter More Than Color" },
       { id: "choosing-your-color", title: "How to Choose the Right Roof Color" }
     ],
-    content: `<p class="text-lg text-gray-700 mb-6"><strong>The best roof color for energy efficiency in hot climates like Florida is a light or medium tone, such as light gray, tan, beige, or white.</strong> Light-colored roofs reflect more solar radiation and can reduce attic temperatures by 20 to 30 degrees compared to dark roofs, which translates to 10% to 25% lower cooling costs depending on your home's insulation and HVAC system. Planning a <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a>? Gimo's Roofing can help you choose the right color and material for maximum savings. <a href="https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing" class="text-primary hover:underline" target="_blank" rel="noopener">Get a free estimate</a>.</p>
+    content: `<p class="text-lg text-gray-700 mb-6"><strong>The best roof color for energy efficiency in hot climates like Florida is a light or medium tone, such as light gray, tan, beige, or white.</strong> Light-colored roofs reflect more solar radiation and can reduce attic temperatures by 20 to 30 degrees compared to dark roofs, which translates to 10% to 25% lower cooling costs depending on your home's insulation and HVAC system. Planning a <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a>? Gimo's Roofing can help you choose the right color and material for maximum savings. <a href="https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing" id="cta-snippet-roofcolor-estimate" class="text-primary hover:underline" target="_blank" rel="noopener">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-roofcolor-call" class="text-primary hover:underline">(904) 606-5313</a>.</p>
 
 <p class="text-gray-600 mb-6">Roof color is one of those decisions that seems purely cosmetic until you get your first summer electricity bill. In Florida, where air conditioning accounts for a large portion of your energy costs, the color of your roof has a measurable impact on how hard your AC has to work. But the answer is not as simple as "go with white." Insulation, ventilation, roof material, and even your neighborhood's HOA rules all play a role in the best choice for your specific home.</p>
 
@@ -14826,7 +14864,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Composition roofing accounts for roughly 80 percent of all residential roofs in America. Its popularity is easy to understand once you see the full picture. It is affordable, available in dozens of colors and styles, straightforward to install, and performs well across a wide range of climates. For Florida homeowners specifically, understanding composition roofing is essential because most homes in Jacksonville, St. Augustine, Orange Park, and the surrounding areas already have some form of composition shingle on them. Whether you are planning a <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> or simply trying to understand what is currently on your house, Gimo's Roofing is here to walk you through every detail.</p>
 
-<p class="text-gray-600 mb-6">Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a> to schedule a <a href="/roofing-riverside-fl" class="text-primary font-semibold hover:underline">roof estimate in Riverside</a>.</p>
+<p class="text-gray-600 mb-6">Call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-composition-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a> to schedule a <a href="/roofing-riverside-fl" class="text-primary font-semibold hover:underline">roof estimate in Riverside</a>.</p>
 
 <h2 id="what-is-composition-roof" class="text-2xl font-bold text-secondary mt-10 mb-4">What Is a Composition Roof</h2>
 
@@ -15085,7 +15123,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">In Jacksonville and across Northeast Florida, dormers are found on many residential architectural styles, from historic homes in <a href="/roofing-riverside-fl" class="text-primary hover:underline">Riverside</a> and <a href="/roofing-san-marco-fl" class="text-primary hover:underline">San Marco</a> to newer construction in <a href="/roofing-nocatee-fl" class="text-primary hover:underline">Nocatee</a> and <a href="/roofing-ponte-vedra-beach-fl" class="text-primary hover:underline">Ponte Vedra Beach</a>. Whether you are considering adding a dormer, need <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> around an existing one, or are planning a full <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> that includes dormer work, this guide covers everything you need to know.</p>
 
-<p class="text-gray-600 mb-6">For a <a href="/roofing-san-marco-fl" class="text-primary font-semibold hover:underline">free roof estimate in San Marco</a>, call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+<p class="text-gray-600 mb-6">For a <a href="/roofing-san-marco-fl" class="text-primary font-semibold hover:underline">free roof estimate in San Marco</a>, call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-dormer-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Quick Dormer Facts</p>
@@ -15100,7 +15138,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="dormer-types" class="text-2xl font-bold text-secondary mt-10 mb-4">Types of Roof Dormers</h2>
 
-<p class="text-gray-600 mb-6">Understanding the different types of dormers helps you choose the right style for your home's architecture, your budget, and the amount of space you want to add. Each dormer type has distinct structural characteristics, roofing requirements, and visual appeal.</p>
+<p class="text-gray-600 mb-6"><strong>The five main types of roof dormers are the gable dormer, shed dormer, hip dormer, eyebrow dormer, and flat roof dormer.</strong> Each has a different roof shape and cost, from the simple two-slope gable dormer common on Jacksonville homes to the sweeping, curved eyebrow dormer used mostly as an architectural accent. The right type depends on your home's architecture, budget, and how much interior space you want to add.</p>
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Gable Dormer (Doghouse Dormer)</h3>
 
@@ -15345,7 +15383,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6"><strong>K-style gutters are the most popular choice for Jacksonville homes because they hold more water, cost less, and match modern home styles.</strong> Half-round gutters are the better choice for historic homes, Spanish-style architecture, and homeowners who prioritize easy cleaning over maximum capacity. Both styles work well in Florida when properly sized and installed.</p>
 
-<p class="text-gray-600 mb-6">Want a <a href="/roofing-southside-jax-fl" class="text-primary font-semibold hover:underline">roof quote in Southside Jacksonville</a>? Reach Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+<p class="text-gray-600 mb-6">Want a <a href="/roofing-southside-jax-fl" class="text-primary font-semibold hover:underline">roof quote in Southside Jacksonville</a>? Reach Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-gutterstyle-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Quick Comparison</p>
@@ -15459,7 +15497,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="cost-comparison" class="text-2xl font-bold text-secondary mt-10 mb-4">Gutter Costs in Jacksonville FL - 2026 Pricing</h2>
 
-<p class="text-gray-600 mb-6">For a typical Jacksonville home with 150 to 200 linear feet of gutter, here is what you can expect to pay for professional installation including downspouts, hangers, end caps, and corners.</p>
+<p class="text-gray-600 mb-6"><strong>Half-round gutters cost roughly 30-35% more than K-style at every size and material tier</strong> because they require more metal and specialized hangers. For a typical Jacksonville home with 150 to 200 linear feet of gutter, here is what you can expect to pay for professional installation including downspouts, hangers, end caps, and corners.</p>
 
 <div class="bg-gray-100 rounded-lg p-6 my-8">
 <p class="text-secondary font-semibold mb-4">Jacksonville Gutter Installation Costs (2026)</p>
@@ -15795,6 +15833,7 @@ export const blogPosts: BlogPost[] = [
     tableOfContents: [
       { id: "quick-answer", title: "Quick Answer" },
       { id: "why-heavy-rain", title: "Why Leaks Only Appear in Heavy Rain" },
+      { id: "metal-roof-heavy-rain", title: "Why Metal Roofs Leak in Heavy Rain" },
       { id: "cause-1", title: "Damaged or Missing Shingles" },
       { id: "cause-2", title: "Cracked or Deteriorated Flashing" },
       { id: "cause-3", title: "Clogged Gutters Causing Backup" },
@@ -15844,6 +15883,20 @@ export const blogPosts: BlogPost[] = [
 <a href="/contact" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Schedule Free Inspection</a>
 </div>
 </div>
+
+<h2 id="metal-roof-heavy-rain" class="text-2xl font-bold text-secondary mt-10 mb-4">Why Does a Metal Roof Leak in Heavy Rain?</h2>
+
+<p class="text-gray-600 mb-6"><strong>A metal roof usually leaks in heavy rain because of fastener backout, failed sealant at panel seams and screws, or a slope that falls below the manufacturer's minimum, which lets water pond instead of shedding.</strong> The panels themselves are watertight, so almost every metal roof leak traces back to a penetration point, seam, or fastener where wind-driven rain overwhelms a worn seal rather than the metal itself failing. Not sure which one is causing yours? Call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-metal-leak-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a free metal roof leak inspection.</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Fastener backout:</strong> Exposed-fastener screws use a rubber washer that hardens and cracks in Florida heat and UV; once it degrades, water tracks down the screw shaft during heavy downpours</li>
+<li><strong>Seam and lap failures:</strong> Standing-seam and overlap joints depend on sealant that dries out over years; wind-driven heavy rain finds any gap that has opened up</li>
+<li><strong>Low-slope ponding:</strong> Metal panels installed below the manufacturer's minimum pitch let water pool instead of draining, and standing water finds any small imperfection</li>
+<li><strong>Penetration flashing:</strong> Vent, skylight, and chimney flashing on a metal roof fails the same way it does on shingles, often faster since metal expands and contracts more with heat</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Because metal roof leaks are almost always at a seam, fastener, or penetration rather than the panel field, a professional inspection can usually pinpoint the source in a single visit. Our <a href="/services/metal-roofing" class="text-primary hover:underline">metal roofing service</a> covers both leak repair and re-fastening for existing metal roofs across Jacksonville.</p>
+
 <h2 id="cause-1" class="text-2xl font-bold text-secondary mt-10 mb-4">Cause 1 - Damaged or Missing Shingles</h2>
 
 <p class="text-gray-600 mb-6">Shingles are your roof's first line of defense, and any area where they are cracked, curled, missing, or have lost their granule coating is a potential entry point for water. In light rain, the <a href="/blog/roof-underlayment-types-florida" class="text-primary hover:underline">underlayment</a> beneath the shingles may handle the small amount of water that gets through. In heavy rain, the volume overwhelms that backup layer.</p>
@@ -16052,7 +16105,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6"><strong>Your roof is a system of interconnected components that work together to keep water out, manage airflow, and protect your home's structure.</strong> Understanding roof anatomy helps you communicate effectively with contractors, understand repair estimates, and make informed decisions about your roof. Here is every major component explained in plain language.</p>
 
-<p class="text-gray-600 mb-6">Need a <a href="/roofing-st-augustine-fl" class="text-primary font-semibold hover:underline">roof estimate in St. Augustine</a>? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+<p class="text-gray-600 mb-6">Need a <a href="/roofing-st-augustine-fl" class="text-primary font-semibold hover:underline">roof estimate in St. Augustine</a>? Call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-anatomy-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Roof Layers From Top to Bottom</p>
@@ -16975,7 +17028,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">3-Tab Shingles</h3>
 
-<p class="text-gray-600 mb-6"><a href="/blog/architectural-shingles-vs-3-tab-jacksonville" class="text-primary hover:underline">3-tab shingles</a> are single-layer shingles with three tabs per strip. Each strip is 12 inches tall and 36 inches wide. A bundle of 3-tab shingles typically contains 26 shingle strips, and 3 bundles cover one square (100 square feet).</p>
+<p class="text-gray-600 mb-6"><strong><a href="/blog/architectural-shingles-vs-3-tab-jacksonville" class="text-primary hover:underline">3-tab shingles</a> are flat, single-layer asphalt shingles cut into three tabs per strip, each strip 12 inches tall and 36 inches wide.</strong> They are the lightest, most affordable shingle style, though lower wind ratings (60-70 mph) mean most Florida roofers, including Gimo's Roofing, no longer recommend them for new installs here. A bundle of 3-tab shingles typically contains 26 shingle strips, and 3 bundles cover one square (100 square feet).</p>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Shingles per bundle:</strong> 26 strips</li>
@@ -17165,7 +17218,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<p class="text-gray-600 mb-6">Need help calculating materials for your roofing project? Gimo's Roofing provides detailed, transparent estimates that include exact material quantities so you know exactly what you are paying for. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> estimate in Jacksonville and throughout Northeast Florida.</p>`,
+<p class="text-gray-600 mb-6">Need help calculating materials for your roofing project? Gimo's Roofing provides detailed, transparent estimates that include exact material quantities so you know exactly what you are paying for. Call <a href="tel:+19046065313" id="cta-snippet-shinglebundle-call" class="text-primary hover:underline">(904) 606-5313</a> for a free <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> estimate in Jacksonville and throughout Northeast Florida.</p>`,
     faqs: [
       { question: "How many shingles are in a bundle?", answer: "A bundle of standard 3-tab shingles contains 26 individual shingle strips. A bundle of architectural (dimensional) shingles contains 15-25 pieces, varying by manufacturer and product line. Despite the different piece counts, most bundles are designed to cover approximately 33.3 square feet. Always check the bundle wrapper for exact coverage specifications for the specific product you are using." },
       { question: "How many bundles of shingles do I need for a 2000 sq ft roof?", answer: "For a 2,000 square foot roof, you need approximately 60 bundles of standard shingles (at 3 bundles per square) plus 10-15% for waste, which brings the total to about 66-69 bundles. You also need 2-3 bundles of starter strip shingles and 2-3 bundles of ridge cap shingles. However, 2,000 square feet of floor space does not equal 2,000 square feet of roof area. Roof pitch adds surface area, so have a contractor measure your actual roof area for an accurate count." },
@@ -17867,7 +17920,9 @@ export const blogPosts: BlogPost[] = [
       { id: "roi-home-value", title: "ROI and Home Value Impact" },
       { id: "getting-estimates", title: "How to Get Accurate Estimates" }
     ],
-    content: `<p class="text-lg text-gray-700 mb-6">Roof replacement cost in Jacksonville FL is one of the most common questions homeowners ask when they realize their roof is nearing the end of its life. In 2026, the average cost to replace a roof in the Jacksonville metro area ranges from $8,500 to $28,000 or more depending on the size of your home, the material you choose, and the complexity of your roof. This guide provides detailed pricing data based on current Jacksonville market rates to help you budget accurately for your roofing project.</p>
+    content: `<p class="text-lg text-gray-700 mb-6"><strong>A new roof in Jacksonville, FL costs $8,500 to $28,000 or more in 2026,</strong> depending on the size of your home, the material you choose, and the complexity of your roof. This guide provides detailed pricing data based on current Jacksonville market rates to help you budget accurately for your roofing project.</p>
+
+<p class="text-gray-600 mb-6">Need a <a href="/roofing-southside-jax-fl" class="text-primary font-semibold hover:underline">roof estimate in Southside Jacksonville</a>? Call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-replacementcost-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
 <p class="text-gray-600 mb-6">Understanding what drives roofing costs empowers you to make better decisions, evaluate contractor estimates with confidence, and avoid overpaying or being lured by suspiciously low bids. Whether you are planning a proactive replacement, dealing with storm damage, or trying to decide between repair and replacement, this pricing guide from <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">Gimo's Roofing in Jacksonville FL</a> gives you the information you need.</p>
 
@@ -18586,7 +18641,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6"><strong>The most reliable way to find out exactly how old your roof is in Florida is to pull the permit history from your county building department. Roofing permits are public records, free to access, and they show the exact date the roof was installed and the contractor who pulled the permit. In Duval County (Jacksonville), this is done through the City of Jacksonville's online permit portal. St. Johns, Clay, and Nassau counties have similar online systems. If a permit search comes up empty, your next best option is the closing documents from when you bought the home, followed by the previous owner's records or visual age estimates from a licensed roofing inspector.</strong></p>
 
-<p class="text-gray-600 mb-6">Ready to talk numbers? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a <a href="/roofing-atlantic-beach-fl" class="text-primary font-semibold hover:underline">roof estimate in Atlantic Beach</a>.</p>
+<p class="text-gray-600 mb-6">Ready to talk numbers? Call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-roofage-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a <a href="/roofing-atlantic-beach-fl" class="text-primary font-semibold hover:underline">roof estimate in Atlantic Beach</a>.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">The Five Methods Ranked by Reliability</p>
