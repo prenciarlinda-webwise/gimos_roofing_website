@@ -41,9 +41,6 @@ const nextConfig = {
       { source: '/financing', destination: '/roof-financing-florida', permanent: true },
       { source: '/roof-financing', destination: '/roof-financing-florida', permanent: true },
 
-      // Gambrel guide retired -> homepage (client direction 2026-07-09)
-      { source: '/blog/gambrel-roof-guide', destination: '/', permanent: true },
-
       // Old WordPress URL patterns
       { source: '/feed', destination: '/blog', permanent: true },
       { source: '/comments/feed', destination: '/blog', permanent: true },
@@ -52,61 +49,12 @@ const nextConfig = {
       { source: '/form/free-estimate-request-form', destination: '/contact', permanent: true },
     ]
   },
-  async headers() {
-    return [
-      {
-        source: '/:path*',
-        headers: [
-          {
-            key: 'X-DNS-Prefetch-Control',
-            value: 'on'
-          },
-          {
-            key: 'Strict-Transport-Security',
-            value: 'max-age=63072000; includeSubDomains; preload'
-          },
-          {
-            key: 'X-Frame-Options',
-            value: 'SAMEORIGIN'
-          },
-          {
-            key: 'X-Content-Type-Options',
-            value: 'nosniff'
-          },
-          {
-            key: 'X-XSS-Protection',
-            value: '1; mode=block'
-          },
-          {
-            key: 'Referrer-Policy',
-            value: 'strict-origin-when-cross-origin'
-          },
-          {
-            key: 'Permissions-Policy',
-            value: 'camera=(), microphone=(), geolocation=(self), interest-cohort=()'
-          },
-        ],
-      },
-      {
-        source: '/images/:path*',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
-          },
-        ],
-      },
-      {
-        source: '/_next/static/:path*',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
-          },
-        ],
-      },
-    ]
-  },
+  // Note: a custom headers() function previously lived here. It never did anything in production
+  // (output: 'export' ignores next.config.js headers entirely - nginx.conf already sends the
+  // equivalent security + Cache-Control headers for the real site), and its only live effect was
+  // on `next dev`, where it immutably cached JS chunks for a year and made local changes appear
+  // to not show up. Removed 2026-07-25. If a future non-export deploy target needs these headers
+  // again, restore them from git history instead of re-adding blindly.
 }
 
 module.exports = nextConfig

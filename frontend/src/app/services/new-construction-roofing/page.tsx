@@ -151,7 +151,7 @@ export default function NewConstructionRoofingPage() {
               <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
                 <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
               </a>
-              <a href="https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
@@ -316,6 +316,34 @@ export default function NewConstructionRoofingPage() {
               <div className="w-14 h-14 bg-primary text-secondary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
               <p className="font-bold text-secondary mb-2">Inspection &amp; Warranty</p>
               <p className="text-gray-600 text-sm">We coordinate required inspections, ensure code compliance, and register manufacturer warranties. You receive all documentation for your records.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Common New-Construction Roofing Mistakes */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Common New-Construction Roofing Mistakes</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">A new roof should be the easiest roof to get right, since nothing is fighting you on access or existing damage. These are the shortcuts that still show up on new builds when a crew is racing a closing date.</p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-3">Fastening Shortcuts Under Schedule Pressure</h3>
+              <p className="text-gray-600">Skipping the manufacturer-required nail pattern to move faster toward a move-in date is one of the most common corners cut on new builds. It&apos;s invisible at final walkthrough and shows up the first time real wind hits the roof.</p>
+            </div>
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-3">Skipping Ice-and-Water Shield at Valleys and Eaves</h3>
+              <p className="text-gray-600">A rushed crew sometimes treats this peel-and-stick membrane as optional. It&apos;s the difference between a roof that handles Florida&apos;s wind-driven rain at the vulnerable points and one that doesn&apos;t.</p>
+            </div>
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-3">Ventilation Left as an Afterthought</h3>
+              <p className="text-gray-600">Attic ventilation gets designed correctly on paper but isn&apos;t always verified in the field. Poor ventilation shortens shingle life before the home is even occupied.</p>
+            </div>
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-3">Poor Trade Coordination</h3>
+              <p className="text-gray-600">HVAC, plumbing, and electrical subs cutting new penetrations into the roof after the roofing crew has already left the job is a common source of first-year leaks on new builds. We coordinate directly with the builder&apos;s trade schedule to catch this before it happens.</p>
             </div>
           </div>
         </div>

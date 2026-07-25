@@ -108,7 +108,7 @@ export default function RiversidePage() {
             Riverside is one of Jacksonville&apos;s most treasured historic neighborhoods, established in 1868 and renowned for its stunning craftsman bungalows, prairie-style homes, and Tudor revival architecture. Stretching along the St. Johns River from Five Points through Avondale, this walkable urban district is home to Memorial Park, the Cummer Museum of Art, and the vibrant Riverside Arts Market. With homes spanning over a century of architectural styles, roofing in Riverside demands more than a standard approach.
           </p>
           <p className="text-gray-600 mb-4">
-            Properties in ZIP codes 32204 and 32205 include everything from meticulously preserved 1920s bungalows along Riverside Avenue to modern condominiums near Park and King streets. Each building type presents unique roofing challenges, which is why homeowners trust roofing contractors in Riverside Jacksonville FL who understand both historic preservation and modern building codes.
+            Properties in ZIP codes 32204 and 32205 include everything from meticulously preserved 1920s bungalows along Riverside Avenue to modern condominiums near Park and King streets. Each building type presents unique roofing challenges, which is why homeowners trust roofing contractors in Riverside Jacksonville FL who understand both historic preservation and modern building codes. Riverside and Avondale fall within Duval County Public Schools, and the neighborhood&apos;s walkability keeps many families here for multiple home generations.
           </p>
           <p className="text-gray-600">
             At Gimo&apos;s Roofing, we&apos;ve protected Riverside&apos;s architectural heritage with quality roofing for years. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a full roof replacement</Link> on a craftsman bungalow, <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link> on a Tudor revival, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency storm repair</Link> after a summer thunderstorm, our team delivers results that honor your home&apos;s character.
@@ -211,6 +211,10 @@ export default function RiversidePage() {
             <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm">
               <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
               <p className="text-gray-600 text-sm">Roof coatings, flashing sealing, and membrane systems for the flat and low-slope roof sections found on renovated bungalows and Riverside condos.</p>
+            </Link>
+            <Link href="/services/chimney-repair" className="bg-white p-5 rounded-lg shadow-sm">
+              <h4 className="font-bold text-secondary mb-2">Chimney Repair</h4>
+              <p className="text-gray-600 text-sm">Chimney repointing, crown repair, and cap replacement for Riverside's historic brick bungalows and Craftsman homes, where decades-old mortar joints are often the real source of a slow leak.</p>
             </Link>
           </div>
         </div>

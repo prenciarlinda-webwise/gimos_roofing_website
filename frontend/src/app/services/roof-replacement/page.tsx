@@ -160,7 +160,7 @@ export default function RoofReplacementPage() {
               <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
                 <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
               </a>
-              <a href="https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
@@ -391,6 +391,34 @@ export default function RoofReplacementPage() {
               <div className="w-14 h-14 bg-primary text-secondary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
               <p className="font-bold text-secondary mb-2">Final Inspection</p>
               <p className="text-gray-600 text-sm">Thorough cleanup, final walkthrough, warranty registration, and permit inspection.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Replacements Fail */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Why Roof Replacements Fail</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">Not all replacements are equal. We regularly get called out to fix roofs another crew installed within the last few years. Here&apos;s what usually went wrong.</p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-3">Skipping the Tear-Off</h3>
+              <p className="text-gray-600">Nailing new shingles over an old layer is faster and cheaper, but it traps moisture between the layers, hides deck damage, and voids most manufacturer warranties outright. We tear off to the deck on every replacement.</p>
+            </div>
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-3">Wrong Nail Pattern</h3>
+              <p className="text-gray-600">A 4-nail pattern is faster to install than the 6-nail pattern Florida&apos;s wind zones actually require. That difference is invisible at handoff and becomes obvious the first time a storm rolls through.</p>
+            </div>
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-3">Skipping Ice-and-Water Shield at Valleys</h3>
+              <p className="text-gray-600">Florida doesn&apos;t get ice, but the same peel-and-stick membrane is critical protection against wind-driven rain at valleys and eaves. Skipping it to save material cost is a common corner cut that shows up as a leak within a year or two.</p>
+            </div>
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-3">Ignoring Attic Ventilation</h3>
+              <p className="text-gray-600">A brand-new roof installed over a poorly ventilated attic still traps heat and moisture underneath it, which shortens the life of the shingles just installed. We check and correct ventilation as part of every replacement, not as an upsell after the fact.</p>
             </div>
           </div>
         </div>

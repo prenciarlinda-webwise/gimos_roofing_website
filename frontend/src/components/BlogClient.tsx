@@ -14,7 +14,6 @@ export default function BlogClient() {
   // Filter by publishDate (only show published posts), sort by date (newest first), then filter by category
   const now = new Date().toISOString()
   const publishedPosts = blogPosts.filter(post => {
-    if (post.slug === 'gambrel-roof-guide') return false // redirected to homepage, see nginx.conf
     if (!post.publishDate) return true
     // Support both "YYYY-MM-DD" and "YYYY-MM-DDTHH:MM" formats
     const pubDate = post.publishDate.includes('T') ? post.publishDate : post.publishDate + 'T00:00'

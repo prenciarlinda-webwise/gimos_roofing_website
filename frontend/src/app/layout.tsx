@@ -115,7 +115,8 @@ const structuredData = {
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siding Repair", "url": "https://www.gimosroofing.com/services/siding-repair" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Metal Roofing", "url": "https://www.gimosroofing.com/services/metal-roofing" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Installation, Repair and Replacement", "url": "https://www.gimosroofing.com/services/roof-gutter" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Waterproofing", "url": "https://www.gimosroofing.com/services/roof-waterproofing" } }
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Waterproofing", "url": "https://www.gimosroofing.com/services/roof-waterproofing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chimney Repair and Cap Replacement", "url": "https://www.gimosroofing.com/services/chimney-repair" } }
     ]
   },
   "aggregateRating": {
@@ -127,7 +128,7 @@ const structuredData = {
   },
   "priceRange": "$$",
   "paymentAccepted": ["Cash", "Credit Card", "Financing Available"],
-  "description": "Gimo's Roofing is a licensed, family-operated roofing contractor in Jacksonville, FL (license CCC1332453, CertainTeed Certified) with 500+ roofs completed and a 5.0-star rating. We provide roof replacement, roof repair, emergency and storm damage repair, roof leak repair, metal roofing, gutters, roof waterproofing, new construction roofing, commercial roofing, and siding across Jacksonville, the Beaches, Ponte Vedra, St. Augustine, Orange Park, Fernandina Beach, and Nocatee.",
+  "description": "Gimo's Roofing is a licensed, family-operated roofing contractor in Jacksonville, FL (license CCC1332453, CertainTeed Certified) with 500+ roofs completed and a 5.0-star rating. We provide roof replacement, roof repair, emergency and storm damage repair, roof leak repair, metal roofing, gutters, roof waterproofing, chimney repair, new construction roofing, commercial roofing, and siding across Jacksonville, the Beaches, Ponte Vedra, St. Augustine, Orange Park, Fernandina Beach, and Nocatee.",
   "knowsAbout": [
     "roofing",
     "roof replacement",
@@ -148,6 +149,8 @@ const structuredData = {
     "roof waterproofing",
     "gutter installation",
     "gutter repair",
+    "chimney repair",
+    "chimney cap replacement",
     "siding installation",
     "insurance claim roofing",
     "hurricane roof straps"
@@ -158,7 +161,7 @@ const structuredData = {
     "https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville",
     "https://www.linkedin.com/company/gimo-s-renovation-roofing/",
     "https://www.youtube.com/channel/UC-Vq8SO3cVfOnWExWnt3K0w",
-    "https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103"
+    "https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237"
   ],
   "hasMap": "https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA",
   "founder": {

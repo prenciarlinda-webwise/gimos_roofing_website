@@ -212,6 +212,10 @@ export default function MandarinPage() {
               <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
               <p className="text-gray-600 text-sm">Protective roof coatings and flashing sealing that keep moisture out where Mandarin&apos;s shaded, humid roof slopes stay wet long after the rain stops.</p>
             </Link>
+            <Link href="/services/chimney-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Chimney Repair</h4>
+              <p className="text-gray-600 text-sm">Chimney cap replacement and flashing repair for Mandarin homes under heavy oak canopy, where shade keeps chimney masonry damp long after storms pass and accelerates mortar breakdown.</p>
+            </Link>
           </div>
         </div>
       </section>
@@ -250,7 +254,7 @@ export default function MandarinPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Roofing in 32223, 32257, and 32258 - Mandarin ZIP Codes</h2>
           <p className="text-gray-600 mb-4">
-            ZIP codes 32223, 32257, and 32258 cover Mandarin and the surrounding St. Johns River residential communities in southern Duval County. 32223 is the heart of Mandarin including the older established neighborhoods along Mandarin Road, San Jose Boulevard, and the streets near Mandarin Park. 32257 covers the western and southern stretches including parts of the Loretto and Beauclerc areas. 32258 covers the southernmost edge bordering St. Johns County. The dense live oak canopy throughout all three ZIPs is the single biggest factor affecting roof life here, followed by the high humidity from the river.
+            ZIP codes 32223, 32257, and 32258 cover Mandarin and the surrounding St. Johns River residential communities in southern Duval County. 32223 is the heart of Mandarin including the older established neighborhoods along Mandarin Road, San Jose Boulevard, and the streets near Mandarin Park. 32257 covers the western and southern stretches including parts of the Loretto and Beauclerc areas. 32258 covers the southernmost edge bordering St. Johns County. The dense live oak canopy throughout all three ZIPs is the single biggest factor affecting roof life here, followed by the high humidity from the river. All three Mandarin ZIP codes fall within Duval County Public Schools.
           </p>
         </div>
       </section>

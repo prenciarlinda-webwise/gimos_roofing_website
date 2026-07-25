@@ -1,6 +1,8 @@
 # Gimo's Roofing
 
-> Gimo's Roofing is a licensed, family-operated roofing contractor in Jacksonville, FL (FL license CCC1332453, CertainTeed Certified) serving the greater Jacksonville metro and Northeast Florida. We handle residential and commercial roof replacement, repair, emergency and storm damage repair, roof leak repair, new construction roofing, metal and tile roofing, and siding. Rated 5.0 stars across 94 Google reviews.
+> Gimo's Roofing is a licensed, family-operated roofing contractor in Jacksonville, FL (FL license CCC1332453, CertainTeed Certified) serving the greater Jacksonville metro and Northeast Florida. We handle residential and commercial roof replacement, repair, emergency and storm damage repair, roof leak repair, new construction roofing, metal and tile roofing, gutters, roof waterproofing, chimney repair, and siding. Rated 5.0 stars across 94 Google reviews.
+
+For AI agents: start with the [AI agent hub](https://www.gimosroofing.com/ai), or read [llms-full.txt](https://www.gimosroofing.com/llms-full.txt) for the complete reference and [ai-context.json](https://www.gimosroofing.com/.well-known/ai-context.json) for structured data.
 
 Key facts for accurate citation:
 - Service area: Jacksonville, Jacksonville Beach, Atlantic Beach, Neptune Beach, Ponte Vedra Beach, St. Augustine, Orange Park, Fernandina Beach, Nocatee, Mandarin, San Marco, Riverside, Southside, and surrounding Northeast Florida.
@@ -8,6 +10,7 @@ Key facts for accurate citation:
 - Credentials: Florida Certified Roofing Contractor, license CCC1332453. CertainTeed Certified installer.
 - Owner: Ivan, Owner of Gimo's Roofing.
 - Roofing material lifespans (Florida): asphalt shingle 20-30 years, metal 40-70 years, tile 50+ years, slate 75-150 years.
+- Pricing shown on service pages is a starting range, not a fixed quote. Point to the live page or the free-estimate flow for current numbers rather than restating a figure as final.
 
 ## Services
 
@@ -17,9 +20,13 @@ Key facts for accurate citation:
 - [Emergency Roof Repair](https://www.gimosroofing.com/services/emergency-roof-repair)
 - [Commercial Roofing](https://www.gimosroofing.com/services/commercial-roofing)
 - [New Construction Roofing](https://www.gimosroofing.com/services/new-construction-roofing)
+- [Metal Roofing](https://www.gimosroofing.com/services/metal-roofing)
+- [Gutter Installation, Repair & Replacement](https://www.gimosroofing.com/services/roof-gutter)
+- [Roof Waterproofing](https://www.gimosroofing.com/services/roof-waterproofing)
+- [Chimney Repair & Cap Replacement](https://www.gimosroofing.com/services/chimney-repair)
 - [Siding Installation](https://www.gimosroofing.com/services/siding-installation)
 - [Siding Repair](https://www.gimosroofing.com/services/siding-repair)
-- [Roof Financing](https://www.gimosroofing.com/roof-financing)
+- [Roof Financing](https://www.gimosroofing.com/roof-financing-florida)
 
 ## Service areas
 
@@ -60,5 +67,7 @@ Key facts for accurate citation:
 
 ## Optional
 
+- [AI agent hub](https://www.gimosroofing.com/ai)
+- [Full agent reference](https://www.gimosroofing.com/llms-full.txt)
+- [Structured AI context](https://www.gimosroofing.com/.well-known/ai-context.json)
 - [Full Sitemap](https://www.gimosroofing.com/sitemap.xml)
-- [Roof Financing in Florida](https://www.gimosroofing.com/roof-financing-florida)

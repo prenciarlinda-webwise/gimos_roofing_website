@@ -15,6 +15,7 @@ const mainPages = [
   { title: "Service Areas", href: "/service-areas" },
   { title: "Contact", href: "/contact" },
   { title: "Blog", href: "/blog" },
+  { title: "For AI Agents", href: "/ai" },
 ]
 
 const servicePages = [
@@ -28,6 +29,7 @@ const servicePages = [
   { title: "Metal Roofing", href: "/services/metal-roofing" },
   { title: "Gutter Installation, Repair & Replacement", href: "/services/roof-gutter" },
   { title: "Roof Waterproofing", href: "/services/roof-waterproofing" },
+  { title: "Chimney Repair", href: "/services/chimney-repair" },
   { title: "Roof Financing Florida", href: "/roof-financing-florida" },
 ]
 
@@ -53,7 +55,6 @@ const locationPages = [
 const now = new Date().toISOString()
 const blogPosts = allBlogPosts
   .filter(post => {
-    if (post.slug === 'gambrel-roof-guide') return false // redirected to homepage, see nginx.conf
     if (!post.publishDate) return true
     const pubDate = post.publishDate.includes('T') ? post.publishDate : post.publishDate + 'T00:00'
     return pubDate <= now

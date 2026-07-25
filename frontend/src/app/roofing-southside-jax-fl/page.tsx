@@ -121,7 +121,7 @@ export default function SouthsideJaxPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Your {location} Roofing Experts</h2>
           <p className="text-gray-600 mb-4">
-            Southside Jacksonville is the commercial heart of Northeast Florida, home to the St. Johns Town Center, The Avenues Mall, and hundreds of office buildings, retail centers, and restaurants along Gate Parkway, Baymeadows Road, and Southside Boulevard. But the Southside is far more than a business district. Established residential neighborhoods in Baymeadows, Deerwood, Tinseltown, and the University Boulevard area house tens of thousands of families across ZIP codes 32216, 32246, and 32256.
+            Southside Jacksonville is the commercial heart of Northeast Florida, home to the St. Johns Town Center, The Avenues Mall, and hundreds of office buildings, retail centers, and restaurants along Gate Parkway, Baymeadows Road, and Southside Boulevard. But the Southside is far more than a business district. Established residential neighborhoods in Baymeadows, Deerwood, Tinseltown, and the University Boulevard area house tens of thousands of families across ZIP codes 32216, 32246, and 32256, all zoned into Duval County Public Schools.
           </p>
           <p className="text-gray-600 mb-4">
             This mix of residential and commercial properties creates the highest concentration of diverse roofing needs in the Jacksonville metro area. From flat TPO roofs on shopping centers to aging shingle roofs on 1980s and 1990s subdivision homes, the Southside demands a roofing contractor who can handle it all.
@@ -227,6 +227,10 @@ export default function SouthsideJaxPage() {
             <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
               <p className="text-gray-600 text-sm">Reflective roof coatings and flashing sealing for the flat and low-slope TPO and modified bitumen roofs common on Gate Parkway and Town Center commercial buildings.</p>
+            </Link>
+            <Link href="/services/chimney-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Chimney Repair</h4>
+              <p className="text-gray-600 text-sm">Chimney and rooftop flue flashing repair for Southside properties, fixing the aging penetration seals that are a common source of interior leaks near Gate Parkway and Town Center.</p>
             </Link>
           </div>
         </div>

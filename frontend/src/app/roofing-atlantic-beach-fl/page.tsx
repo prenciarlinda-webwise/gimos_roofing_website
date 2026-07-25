@@ -221,6 +221,10 @@ export default function AtlanticBeachPage() {
               <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
               <p className="text-gray-600 text-sm">Roof coatings and flashing sealing that lock out wind-driven rain and salt moisture on Atlantic Beach homes, including the low-slope sections vulnerable to coastal surge overwash.</p>
             </Link>
+            <Link href="/services/chimney-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Chimney Repair</h4>
+              <p className="text-gray-600 text-sm">Chimney cap and flashing repair for Atlantic Beach homes exposed to constant salt spray and wind-driven rain. We reflash and reseal the chimney-to-roof seam so coastal humidity cannot find a way in.</p>
+            </Link>
           </div>
         </div>
       </section>
@@ -235,7 +239,7 @@ export default function AtlanticBeachPage() {
               ))}
             </div>
             <h2 className="text-2xl font-bold text-secondary mb-3">5-Star Rated by Atlantic Beach Homeowners</h2>
-            <p className="text-gray-600 mb-6">From oceanfront homes on Beach Avenue to the gated Selva Marina community, our crew has earned 5-star reviews across the Atlantic Beach community.</p>
+            <p className="text-gray-600 mb-6">From oceanfront homes on Beach Avenue to the gated Selva Marina community, our crew has earned 5-star reviews across the Atlantic Beach community. Atlantic Beach families are zoned into Duval County Public Schools, one of the reasons the community attracts young families alongside longtime retirees.</p>
             <a href="https://www.google.com/search?q=Gimo%27s+Roofing+Jacksonville+reviews" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition">Read Our Reviews</a>
           </div>
         </div>

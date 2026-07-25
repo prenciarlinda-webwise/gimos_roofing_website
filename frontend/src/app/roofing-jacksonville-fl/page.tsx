@@ -212,6 +212,10 @@ export default function RoofingJacksonvilleFLPage() {
               <h3 className="font-bold text-secondary mb-2">Roof Waterproofing</h3>
               <p className="text-gray-600 text-sm">Roof coatings, leak sealing, and flashing repair for flat and low-slope Jacksonville roofs. We stop water intrusion at valleys, penetrations, and parapet walls before it reaches your decking.</p>
             </Link>
+            <Link href="/services/chimney-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="font-bold text-secondary mb-2">Chimney Repair</h3>
+              <p className="text-gray-600 text-sm">Chimney cap replacement, flashing repair, and repointing for Jacksonville homes. We stop the leaks that start where a chimney meets the roof deck, one of the most common hidden leak sources we find in Duval County.</p>
+            </Link>
           </div>
         </div>
       </section>
@@ -450,7 +454,7 @@ export default function RoofingJacksonvilleFLPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Roofing in All Jacksonville ZIP Codes Across Duval County</h2>
           <p className="text-gray-600 mb-4">
-            We serve every ZIP code across Duval County and the City of Jacksonville. The most-active ZIPs in our service area are 32202 and 32206 in downtown and Springfield, 32204 and 32205 in Riverside and Avondale, 32207 in San Marco and St. Nicholas, 32210 and 32220 in the Westside, 32216, 32246, and 32256 across Southside and Deerwood, 32217 and 32257 in San Jose and Beauclerc, 32223 and 32258 in Mandarin, 32224, 32225, 32226, and 32227 across the Arlington and Intracoastal stretches, 32233 in Atlantic Beach, 32250 in Jacksonville Beach, and 32266 in Neptune Beach. Roofs in every Jacksonville ZIP face Florida heat, hurricane wind, and high humidity, but the closer to the coast you sit, the more aggressive the salt exposure becomes.
+            We serve every ZIP code across Duval County and the City of Jacksonville. The most-active ZIPs in our service area are 32202 and 32206 in downtown and Springfield, 32204 and 32205 in Riverside and Avondale, 32207 in San Marco and St. Nicholas, 32210 and 32220 in the Westside, 32216, 32246, and 32256 across Southside and Deerwood, 32217 and 32257 in San Jose and Beauclerc, 32223 and 32258 in Mandarin, 32224, 32225, 32226, and 32227 across the Arlington and Intracoastal stretches, 32233 in Atlantic Beach, 32250 in Jacksonville Beach, and 32266 in Neptune Beach. Roofs in every Jacksonville ZIP face Florida heat, hurricane wind, and high humidity, but the closer to the coast you sit, the more aggressive the salt exposure becomes. Every ZIP code in our service area falls within Duval County Public Schools, Florida&apos;s sixth-largest school district, which keeps many of these neighborhoods popular with growing families.
           </p>
         </div>
       </section>

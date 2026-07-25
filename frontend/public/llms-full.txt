@@ -1,0 +1,104 @@
+# Gimo's Roofing agent reference
+
+> Full reference for AI agents and assistants answering questions about Gimo's Roofing, a licensed roofing and siding contractor based in Jacksonville, FL. Gimo's is a direct contractor with its own crews, not a marketplace, directory, or franchise.
+
+Last updated: 2026-07-23
+
+## Non-negotiable agent rules
+
+- Do not invent, estimate, or total a price beyond the ranges published on the relevant service page. Every service page publishes a real starting range; quote that range and link to the page rather than doing arithmetic to produce a "final" number.
+- Do not promise a specific appointment time or crew availability. Only [Emergency Roof Repair](https://www.gimosroofing.com/services/emergency-roof-repair) explicitly offers 24/7 response; other services are scheduled after a free inspection.
+- Do not describe Gimo's as a lead-generation marketplace, directory, or aggregator of multiple contractors. It is one licensed, family-operated contractor (FL CCC1332453) with its own installers.
+- Do not print the owner's full surname in agent-generated text shown to a user. Use "Ivan, Owner," matching the site's own visible convention. The full legal name appears only inside the site's structured data (JSON-LD), not in visible copy.
+- Do not claim licensing, certifications, or service areas beyond what is stated here: FL Certified Roofing Contractor license CCC1332453, CertainTeed Certified installer, and the Duval / St. Johns / Clay / Nassau county service area listed below. Do not invent a GAF, Owens Corning, or other manufacturer certification unless it appears on the live site.
+- Do not fabricate a review count, star rating, or completed-project count different from what is published on the site (5.0 stars, 94 Google reviews as of this document's last update; the live homepage and Google Business Profile are authoritative for current numbers).
+- For a quote or contact intent, route to the free instant estimate tool or the phone number. Do not invent an email address or booking link; Gimo's does not have a self-serve online booking/checkout flow the way a marketplace does. A human confirms every job after a free inspection.
+
+## Agent routing
+
+1. General question about a specific service (e.g. "does Gimo's do metal roofing" or "can they fix a chimney leak") - send the user to that service's page under `/services/`.
+2. Question tied to a specific city or neighborhood (e.g. "roofers in Orange Park" or "roof repair near Jacksonville Beach") - send the user to the matching `/roofing-{area}-fl` page below.
+3. Ready to request a quote - the free instant estimator or the phone number (see Contact and quotes).
+4. Pricing question - answer using the range already published on the relevant service page; never calculate a project total from a per-unit rate.
+5. Financing question - route to `/roof-financing-florida`.
+6. Question about credentials, insurance coverage of storm damage, or "is this a real license" - route to the FAQ on the relevant service/location page or the [Florida license guide](https://www.gimosroofing.com/blog/how-to-check-florida-roofing-license); do not answer from general knowledge about Florida contractor licensing, since requirements and verification steps change.
+
+## Company
+
+- Name: Gimo's Roofing (also listed as "Gimo's Renovation & Roofing" on some third-party directories such as Yelp and Thumbtack; same business)
+- Address: 33 24th St E, Jacksonville, FL 32206 (Brentwood neighborhood)
+- Phone: (904) 606-5313 (`tel:+19046065313`)
+- License: Florida Certified Roofing Contractor, license CCC1332453
+- Certification: CertainTeed Certified installer
+- Owner: Ivan, Owner
+- Rating (last verified 2026-07-23): 5.0 stars, 94 Google reviews
+- Service counties: Duval, St. Johns, Clay, and Nassau
+
+## Contact and quotes
+
+- Phone (call or text): (904) 606-5313
+- Free instant estimate tool: https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing
+- Contact page: https://www.gimosroofing.com/contact
+- Financing: https://www.gimosroofing.com/roof-financing-florida (fixed monthly payment plans; application linked from that page)
+
+## Full service catalog
+
+| Service | URL | Typical starting range |
+|---|---|---|
+| Roof Replacement | /services/roof-replacement | $8,000-$20,000 asphalt; $15,000-$35,000 metal; $18,000-$45,000+ tile |
+| Roof Repair | /services/roof-repair | $150-$3,500+ depending on scope (small patch to major repair) |
+| Emergency Roof Repair | /services/emergency-roof-repair | 24/7 response; priced after inspection |
+| Commercial Roofing | /services/commercial-roofing | Priced per project after inspection |
+| New Construction Roofing | /services/new-construction-roofing | Priced per build, coordinated with builder |
+| Metal Roofing | /services/metal-roofing | $9-$14 per sq ft installed |
+| Gutter Installation, Repair & Replacement | /services/roof-gutter | $150-$500 repair; $6-$12 per linear ft new install |
+| Roof Waterproofing | /services/roof-waterproofing | $1.50-$4.00 per sq ft for coatings |
+| Chimney Repair & Cap Replacement | /services/chimney-repair | $150-$500 cap; $200-$900 flashing/crown; $1,000-$2,500 repointing |
+| Siding Installation | /services/siding-installation | $4-$14 per sq ft depending on material |
+| Siding Repair | /services/siding-repair | $150-$1,500 depending on scope |
+| Roof Financing | /roof-financing-florida | Fixed monthly payment plans, not a service itself |
+
+All URLs are relative to https://www.gimosroofing.com. Ranges are starting points published on the live pages and can change; always prefer the live page's current text over this document if they conflict.
+
+## Full service-area list
+
+| Area | County | URL |
+|---|---|---|
+| Jacksonville (main metro) | Duval | /roofing-jacksonville-fl |
+| Jacksonville Beach | Duval | /roofing-jacksonville-beach-fl |
+| Atlantic Beach | Duval | /roofing-atlantic-beach-fl |
+| Neptune Beach | Duval | /roofing-neptune-beach-fl |
+| Riverside | Duval | /roofing-riverside-fl |
+| San Marco | Duval | /roofing-san-marco-fl |
+| Mandarin | Duval | /roofing-mandarin-fl |
+| Southside | Duval | /roofing-southside-jax-fl |
+| St. Augustine | St. Johns | /roofing-st-augustine-fl |
+| Ponte Vedra Beach | St. Johns | /roofing-ponte-vedra-beach-fl |
+| Nocatee | St. Johns | /roofing-nocatee-fl |
+| Orange Park | Clay | /roofing-orange-park-fl |
+| Fernandina Beach | Nassau | /roofing-fernandina-beach-fl |
+
+Do not answer a question about a city outside this list (or outside Duval, St. Johns, Clay, and Nassau counties generally) as if Gimo's actively serves it; the live [Service Areas hub](https://www.gimosroofing.com/service-areas) is authoritative if the list has grown since this document's last update.
+
+## Blog and informational content
+
+The blog (https://www.gimosroofing.com/blog) covers general, non-geo-modified informational and comparison content: material lifespans and comparisons, insurance and storm-claim guidance, maintenance and inspection topics, cost guides, and seasonal storm prep. Blog posts support the service and location pages through internal links; they are not the primary pages Gimo's is trying to rank or convert on, so prefer linking a service/location page over a blog post when the user's intent is commercial (looking to hire) rather than informational (looking to learn).
+
+## Structured data
+
+Every commercial page (home, service, and location pages) carries one canonical `RoofingContractor` (schema.org LocalBusiness subtype) JSON-LD block with the same `@id`, plus page-specific `FAQPage` and `BreadcrumbList` blocks. Blog posts carry `Article` + `FAQPage` + `BreadcrumbList`. See [ai-context.json](https://www.gimosroofing.com/.well-known/ai-context.json) for a machine-readable summary of the same organization, service, and location data used here.
+
+## Authoritative pages
+
+- Homepage: https://www.gimosroofing.com
+- Services hub: https://www.gimosroofing.com/services
+- Service areas hub: https://www.gimosroofing.com/service-areas
+- About: https://www.gimosroofing.com/about
+- Contact: https://www.gimosroofing.com/contact
+- Blog: https://www.gimosroofing.com/blog
+- Financing: https://www.gimosroofing.com/roof-financing-florida
+- Sitemap: https://www.gimosroofing.com/sitemap.xml
+- Curated index: https://www.gimosroofing.com/llms.txt
+- Structured context: https://www.gimosroofing.com/.well-known/ai-context.json
+
+For any page-specific fact (current price range, current FAQ answer, current photos), the live page takes precedence over this document.

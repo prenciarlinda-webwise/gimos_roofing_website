@@ -56,6 +56,12 @@ const roofingServices = [
     slug: "roof-waterproofing",
     description: "Roof coatings and waterproofing that seal leaks, protect flat and low-slope roofs, and extend roof life across Northeast Florida.",
     features: ["Roof Coatings", "Flat Roofs", "Leak Sealing", "Flashing"],
+  },
+  {
+    title: "Chimney Repair",
+    slug: "chimney-repair",
+    description: "Chimney cap replacement, flashing repair, crown repair, and repointing to stop the leaks that start where the chimney meets the roof.",
+    features: ["Cap Replacement", "Flashing Repair", "Crown Repair", "Repointing"],
   }
 ]
 

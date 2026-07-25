@@ -108,7 +108,7 @@ export default function NocateePage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Your {location} Roofing Experts</h2>
           <p className="text-gray-600 mb-4">
-            Nocatee is one of the fastest-growing master-planned communities in the United States, spanning portions of {county} and Duval County in Northeast Florida. Since development began in 2006, Nocatee has grown to include over 15,000 homes across dozens of distinct neighborhoods including Twenty Mile, Crosswater, Addison Park, Del Webb Nocatee, Tidewater, Greenleaf Village, Willowcove, Austin Park, and Timberland Ridge.
+            Nocatee is one of the fastest-growing master-planned communities in the United States, spanning portions of {county} and Duval County in Northeast Florida. Since development began in 2006, Nocatee has grown to include over 15,000 homes across dozens of distinct neighborhoods including Twenty Mile, Crosswater, Addison Park, Del Webb Nocatee, Tidewater, Greenleaf Village, Willowcove, Austin Park, and Timberland Ridge. The St. Johns County portion of Nocatee falls within the St. Johns County School District, routinely ranked Florida&apos;s top public school district and a major draw for the families moving into the community.
           </p>
           <p className="text-gray-600 mb-4">
             With the oldest Nocatee homes now approaching 20 years old and thousands more in the 5-15 year range, a growing wave of homeowners are facing their first major roof maintenance decisions. Builder warranties are expiring, builder-grade materials are showing their age, and Florida&apos;s heat, UV exposure, and storm activity are taking their toll. Many homeowners who moved into brand-new construction have never needed to think about their roof until now.
@@ -235,6 +235,10 @@ export default function NocateePage() {
             <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
               <p className="text-gray-600 text-sm">Roof coatings, flashing sealing, and membrane systems for flat and low-slope roof sections and lanai covers across Nocatee&apos;s planned communities.</p>
+            </Link>
+            <Link href="/services/chimney-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Chimney Repair</h4>
+              <p className="text-gray-600 text-sm">Chimney cap replacement and flashing repair for Nocatee homes, protecting the chimney-to-roof seam against the frequent summer thunderstorms that roll through Nocatee&apos;s planned communities.</p>
             </Link>
           </div>
         </div>

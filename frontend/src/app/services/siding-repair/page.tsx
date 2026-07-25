@@ -148,7 +148,7 @@ export default function SidingRepairPage() {
               <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
                 <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
               </a>
-              <a href="https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
@@ -514,6 +514,26 @@ export default function SidingRepairPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Siding Repair FAQ</h2>
           </div>
           <FAQ faqs={faqs} />
+        </div>
+      </section>
+
+      {/* Related Resources */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Siding Resources</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">Learn more about siding materials and how our warranty works.</p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            <Link href="/blog/how-to-choose-siding-for-florida-home" className="card p-6 group">
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">How to Choose Siding for Florida</h3>
+              <p className="text-gray-600 text-sm">A complete guide to comparing vinyl, fiber cement, and other siding materials.</p>
+            </Link>
+            <Link href="/blog/roof-warranty-guide-florida" className="card p-6 group">
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Understanding Warranties</h3>
+              <p className="text-gray-600 text-sm">What manufacturer and workmanship warranties actually cover, and what can void them.</p>
+            </Link>
+          </div>
         </div>
       </section>
 

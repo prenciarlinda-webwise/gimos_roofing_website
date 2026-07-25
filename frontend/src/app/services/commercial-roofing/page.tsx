@@ -149,7 +149,7 @@ export default function CommercialRoofingPage() {
               <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
                 <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
               </a>
-              <a href="https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
@@ -312,6 +312,34 @@ export default function CommercialRoofingPage() {
             <div className="card p-6">
               <h3 className="font-bold text-secondary mb-2">Emergency Services</h3>
               <p className="text-gray-600 text-sm">24/7 <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair in Jacksonville FL</Link> for storm damage and active leaks. Tarping, temporary repairs, and damage documentation for insurance.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Commercial Roofs Fail Early */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Why Commercial Roofs Fail Early</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">Most premature commercial roof failures we see trace back to one of a handful of preventable causes. Knowing them helps you evaluate a bid, not just the price on it.</p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-3">Improper Drainage</h3>
+              <p className="text-gray-600">Flat and low-slope commercial roofs need true positive slope, not just a flat membrane. Florida Building Code requires roofs to drain within 48 hours of rainfall. Ponding water is the single biggest cause of premature membrane failure we see on commercial buildings.</p>
+            </div>
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-3">Recovering Over a Failed Layer</h3>
+              <p className="text-gray-600">Florida code limits roofs to a single recover layer; once that layer already exists, a full tear-off is required. Recovering over a roof that&apos;s already been recovered traps moisture between layers and hides the deck damage underneath.</p>
+            </div>
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-3">Bad Seam Welding</h3>
+              <p className="text-gray-600">TPO seams that aren&apos;t properly hot-air welded open within a few years of installation. Seam failure is the most common cause of leaks we find on commercial roofs that are otherwise still within their expected service life.</p>
+            </div>
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-3">Deferred Maintenance</h3>
+              <p className="text-gray-600">A small puncture from rooftop equipment or foot traffic left unaddressed for a season becomes a full section replacement. Scheduled inspections catch these while they&apos;re still a $200 repair instead of a $20,000 one.</p>
             </div>
           </div>
         </div>

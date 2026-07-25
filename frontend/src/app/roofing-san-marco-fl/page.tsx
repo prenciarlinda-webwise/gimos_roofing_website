@@ -111,7 +111,7 @@ export default function SanMarcoPage() {
             San Marco is one of Jacksonville&apos;s most architecturally distinctive neighborhoods, developed primarily in the 1920s through 1940s with a strong Mediterranean Revival influence. The neighborhood&apos;s signature barrel tile roofs, stucco facades, and arched entryways give it a character that&apos;s unmatched anywhere else in Northeast Florida. From the boutiques of San Marco Square to the riverfront estates along the St. Johns River, these homes represent both significant history and substantial investment.
           </p>
           <p className="text-gray-600 mb-4">
-            Maintaining the barrel tile roofs that define {location}&apos;s Mediterranean character requires the kind of specialized expertise that only dedicated roofing contractors in San Marco Jacksonville FL can deliver. Tile roofing is fundamentally different from shingle work, requiring knowledge of underlayment systems, tile profiles, fastening methods, and the specific challenges of working with clay and concrete barrel tiles on homes that are 80-100 years old.
+            Maintaining the barrel tile roofs that define {location}&apos;s Mediterranean character requires the kind of specialized expertise that only dedicated roofing contractors in San Marco Jacksonville FL can deliver. Tile roofing is fundamentally different from shingle work, requiring knowledge of underlayment systems, tile profiles, fastening methods, and the specific challenges of working with clay and concrete barrel tiles on homes that are 80-100 years old. San Marco falls within Duval County Public Schools, and its walkable streets around San Marco Square keep multiple generations of the same families in the neighborhood.
           </p>
           <p className="text-gray-600">
             At Gimo&apos;s Roofing, we&apos;re tile roofing specialists who understand what makes {location} homes unique. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete barrel tile replacement</Link>, <Link href="/services/roof-repair" className="text-primary hover:underline">targeted tile repairs</Link>, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency storm damage repair</Link>, our team delivers results that honor your home&apos;s architectural heritage while providing modern waterproofing protection.
@@ -218,6 +218,10 @@ export default function SanMarcoPage() {
             <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
               <p className="text-gray-600 text-sm">Roof coatings, flashing sealing, and membrane systems for the hidden flat and low-slope sections behind the parapets on San Marco&apos;s Mediterranean homes.</p>
+            </Link>
+            <Link href="/services/chimney-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Chimney Repair</h4>
+              <p className="text-gray-600 text-sm">Chimney flashing, crown repair, and cap replacement for San Marco&apos;s Mediterranean-style homes, where masonry chimneys behind tile roofs and parapet walls are a common hidden leak source.</p>
             </Link>
           </div>
         </div>

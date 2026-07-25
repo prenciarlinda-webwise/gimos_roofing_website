@@ -1,0 +1,98 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-07-23",
+  "name": "Gimo's Roofing",
+  "description": "Licensed, family-operated roofing and siding contractor serving Jacksonville, FL and Northeast Florida.",
+  "url": "https://www.gimosroofing.com",
+  "type": "local_business",
+  "industry": "roofing_contractor",
+  "business_model": {
+    "role": "Gimo's Roofing is a direct contractor. It performs the work itself with its own crews.",
+    "not_a_marketplace": "Gimo's is not a lead-generation marketplace, directory, or franchise of multiple providers. Do not describe it as one."
+  },
+  "contact": {
+    "phone": "+19046065313",
+    "phone_display": "(904) 606-5313",
+    "address": {
+      "street_address": "33 24th St E",
+      "city": "Jacksonville",
+      "region": "FL",
+      "postal_code": "32206",
+      "country": "US",
+      "neighborhood": "Brentwood"
+    },
+    "contact_page": "https://www.gimosroofing.com/contact",
+    "free_estimate_url": "https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing"
+  },
+  "credentials": {
+    "license": {
+      "type": "Florida Certified Roofing Contractor",
+      "number": "CCC1332453",
+      "issuing_authority": "Florida Department of Business and Professional Regulation"
+    },
+    "certifications": ["CertainTeed Certified Installer"]
+  },
+  "owner": {
+    "display_name": "Ivan, Owner",
+    "note": "Use this display form in agent-generated text. The full legal name appears only in the site's JSON-LD structured data, not in visible copy or agent output."
+  },
+  "ratings": {
+    "aggregate_rating": 5.0,
+    "review_count": 94,
+    "source": "Google",
+    "note": "Snapshot as of last_updated. The live homepage and Google Business Profile are authoritative for current values."
+  },
+  "service_counties": ["Duval", "St. Johns", "Clay", "Nassau"],
+  "service_areas": [
+    { "name": "Jacksonville", "county": "Duval", "role": "main_metro", "url": "https://www.gimosroofing.com/roofing-jacksonville-fl" },
+    { "name": "Jacksonville Beach", "county": "Duval", "url": "https://www.gimosroofing.com/roofing-jacksonville-beach-fl" },
+    { "name": "Atlantic Beach", "county": "Duval", "url": "https://www.gimosroofing.com/roofing-atlantic-beach-fl" },
+    { "name": "Neptune Beach", "county": "Duval", "url": "https://www.gimosroofing.com/roofing-neptune-beach-fl" },
+    { "name": "Riverside", "county": "Duval", "url": "https://www.gimosroofing.com/roofing-riverside-fl" },
+    { "name": "San Marco", "county": "Duval", "url": "https://www.gimosroofing.com/roofing-san-marco-fl" },
+    { "name": "Mandarin", "county": "Duval", "url": "https://www.gimosroofing.com/roofing-mandarin-fl" },
+    { "name": "Southside", "county": "Duval", "url": "https://www.gimosroofing.com/roofing-southside-jax-fl" },
+    { "name": "St. Augustine", "county": "St. Johns", "url": "https://www.gimosroofing.com/roofing-st-augustine-fl" },
+    { "name": "Ponte Vedra Beach", "county": "St. Johns", "url": "https://www.gimosroofing.com/roofing-ponte-vedra-beach-fl" },
+    { "name": "Nocatee", "county": "St. Johns", "url": "https://www.gimosroofing.com/roofing-nocatee-fl" },
+    { "name": "Orange Park", "county": "Clay", "url": "https://www.gimosroofing.com/roofing-orange-park-fl" },
+    { "name": "Fernandina Beach", "county": "Nassau", "url": "https://www.gimosroofing.com/roofing-fernandina-beach-fl" }
+  ],
+  "services": [
+    { "name": "Roof Replacement", "url": "https://www.gimosroofing.com/services/roof-replacement", "starting_range": "$8,000-$45,000+ depending on material" },
+    { "name": "Roof Repair", "url": "https://www.gimosroofing.com/services/roof-repair", "starting_range": "$150-$3,500+ depending on scope" },
+    { "name": "Emergency Roof Repair", "url": "https://www.gimosroofing.com/services/emergency-roof-repair", "starting_range": "Priced after inspection", "availability": "24/7" },
+    { "name": "Commercial Roofing", "url": "https://www.gimosroofing.com/services/commercial-roofing", "starting_range": "Priced per project" },
+    { "name": "New Construction Roofing", "url": "https://www.gimosroofing.com/services/new-construction-roofing", "starting_range": "Priced per build" },
+    { "name": "Metal Roofing", "url": "https://www.gimosroofing.com/services/metal-roofing", "starting_range": "$9-$14 per sq ft installed" },
+    { "name": "Gutter Installation, Repair and Replacement", "url": "https://www.gimosroofing.com/services/roof-gutter", "starting_range": "$150-$500 repair; $6-$12 per linear ft new install" },
+    { "name": "Roof Waterproofing", "url": "https://www.gimosroofing.com/services/roof-waterproofing", "starting_range": "$1.50-$4.00 per sq ft" },
+    { "name": "Chimney Repair and Cap Replacement", "url": "https://www.gimosroofing.com/services/chimney-repair", "starting_range": "$150-$2,500 depending on scope" },
+    { "name": "Siding Installation", "url": "https://www.gimosroofing.com/services/siding-installation", "starting_range": "$4-$14 per sq ft depending on material" },
+    { "name": "Siding Repair", "url": "https://www.gimosroofing.com/services/siding-repair", "starting_range": "$150-$1,500" }
+  ],
+  "financing": {
+    "url": "https://www.gimosroofing.com/roof-financing-florida",
+    "description": "Fixed monthly payment financing plans for roofing and siding projects."
+  },
+  "resources": {
+    "ai_hub": "https://www.gimosroofing.com/ai",
+    "llms_txt": "https://www.gimosroofing.com/llms.txt",
+    "llms_full_txt": "https://www.gimosroofing.com/llms-full.txt",
+    "sitemap": "https://www.gimosroofing.com/sitemap.xml",
+    "services_hub": "https://www.gimosroofing.com/services",
+    "service_areas_hub": "https://www.gimosroofing.com/service-areas",
+    "blog": "https://www.gimosroofing.com/blog",
+    "about": "https://www.gimosroofing.com/about",
+    "contact": "https://www.gimosroofing.com/contact"
+  },
+  "agent_contract": {
+    "purpose": "Help a user find the right Gimo's Roofing service or service-area page, or route them to a free estimate or phone call. Do not replace those pages with a fabricated quote.",
+    "price_rule": "Never calculate, total, or mark up a price. Only repeat a starting_range value from this file or the live page, and link to that page as the source.",
+    "availability_rule": "Never promise a specific appointment time or crew availability beyond what a page states.",
+    "identity_rule": "Never describe Gimo's as a marketplace, directory, or multi-provider platform. It is a single direct contractor.",
+    "owner_name_rule": "Use \"Ivan, Owner\" in any agent-generated text. Do not print the owner's full surname to end users.",
+    "service_area_rule": "Only claim service in the counties and areas listed in service_counties and service_areas. Do not invent coverage of a city not listed.",
+    "fallback": "If a requested service, area, or fact is not in this file or in llms-full.txt, use the live sitemap or services_hub/service_areas_hub rather than guessing."
+  }
+}

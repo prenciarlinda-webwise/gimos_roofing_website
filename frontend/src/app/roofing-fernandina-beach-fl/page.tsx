@@ -212,6 +212,10 @@ export default function FernandinaBeachPage() {
               <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
               <p className="text-gray-600 text-sm">Protective roof coatings, flashing sealing, and membrane systems for the flat and low-slope sections common on coastal Fernandina Beach properties.</p>
             </Link>
+            <Link href="/services/chimney-repair" className="bg-white p-5 rounded-lg shadow-sm">
+              <h4 className="font-bold text-secondary mb-2">Chimney Repair</h4>
+              <p className="text-gray-600 text-sm">Chimney cap replacement, flashing, and repointing for Fernandina Beach&apos;s historic downtown homes and coastal properties, where salt air and nor&apos;easters accelerate mortar and metal corrosion.</p>
+            </Link>
           </div>
         </div>
       </section>
@@ -250,7 +254,7 @@ export default function FernandinaBeachPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Roofing in 32034 and 32035 - Fernandina Beach and Amelia Island ZIP Codes</h2>
           <p className="text-gray-600 mb-4">
-            ZIP codes 32034 and 32035 cover Fernandina Beach and Amelia Island, with 32034 containing nearly all of the residential and commercial properties on the island and 32035 reserved for P.O. boxes. 32034 includes the Victorian historic downtown along Centre Street, the resort communities of Amelia Island Plantation and Summer Beach, the oceanfront stretches along Fletcher Avenue, the American Beach historic community, and Fort Clinch at the northern tip. Every roof in these ZIPs sits on a barrier island and needs marine-grade hardware regardless of distance from the dunes.
+            ZIP codes 32034 and 32035 cover Fernandina Beach and Amelia Island, with 32034 containing nearly all of the residential and commercial properties on the island and 32035 reserved for P.O. boxes. 32034 includes the Victorian historic downtown along Centre Street, the resort communities of Amelia Island Plantation and Summer Beach, the oceanfront stretches along Fletcher Avenue, the American Beach historic community, and Fort Clinch at the northern tip. Every roof in these ZIPs sits on a barrier island and needs marine-grade hardware regardless of distance from the dunes. Fernandina Beach and Amelia Island are served by the Nassau County School District.
           </p>
         </div>
       </section>

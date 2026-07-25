@@ -126,7 +126,7 @@ export default function JacksonvilleBeachPage() {
               <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
                 <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
               </a>
-              <a href="https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
@@ -260,6 +260,10 @@ export default function JacksonvilleBeachPage() {
               <h3 className="font-bold text-secondary mb-2">Roof Waterproofing</h3>
               <p className="text-gray-600 text-sm">Roof coatings and leak sealing for flat and low-slope beach homes. We seal flashing and penetrations against wind-driven coastal rain so salt-laden moisture never reaches the deck.</p>
             </Link>
+            <Link href="/services/chimney-repair" className="card p-5">
+              <h3 className="font-bold text-secondary mb-2">Chimney Repair</h3>
+              <p className="text-gray-600 text-sm">Chimney cap replacement and flashing repair built for salt air. Galvanized caps corrode fast a block from the ocean, so we recommend stainless steel or copper caps that hold up on Jacksonville Beach roofs.</p>
+            </Link>
           </div>
         </div>
       </section>
@@ -274,7 +278,7 @@ export default function JacksonvilleBeachPage() {
               ))}
             </div>
             <h2 className="text-2xl font-bold text-secondary mb-3">5-Star Rated by Jacksonville Beach Homeowners</h2>
-            <p className="text-gray-600 mb-6">From oceanfront homes on 1st Street to the older bungalows along South Beach Parkway, our crew has earned 5-star reviews across the Jacksonville Beach community.</p>
+            <p className="text-gray-600 mb-6">From oceanfront homes on 1st Street to the older bungalows along South Beach Parkway, our crew has earned 5-star reviews across the Jacksonville Beach community. The Beaches fall within Duval County Public Schools, a draw for the year-round families who make up much of Jacksonville Beach's population.</p>
             <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition">Read Our Reviews</a>
           </div>
         </div>

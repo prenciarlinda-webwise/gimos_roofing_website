@@ -215,6 +215,10 @@ export default function NeptuneBeachPage() {
               <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
               <p className="text-gray-600 text-sm">Protective roof coatings and flashing sealing that block wind-driven rain and salt-air moisture, including the low-slope flat sections on Beaches Town Center buildings.</p>
             </Link>
+            <Link href="/services/chimney-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Chimney Repair</h4>
+              <p className="text-gray-600 text-sm">Chimney cap replacement, flashing, and crown repair for Neptune Beach and Beaches Town Center homes, where salt air corrodes galvanized caps and flashing years faster than inland Jacksonville.</p>
+            </Link>
           </div>
         </div>
       </section>
@@ -229,7 +233,7 @@ export default function NeptuneBeachPage() {
               ))}
             </div>
             <h2 className="text-2xl font-bold text-secondary mb-3">5-Star Rated by Neptune Beach Homeowners</h2>
-            <p className="text-gray-600 mb-6">From oceanfront homes on 1st Street to the bungalows along Forest Avenue and Cherry Street, our crew has earned 5-star reviews across the Neptune Beach community.</p>
+            <p className="text-gray-600 mb-6">From oceanfront homes on 1st Street to the bungalows along Forest Avenue and Cherry Street, our crew has earned 5-star reviews across the Neptune Beach community. Like the rest of the Beaches, Neptune Beach falls within Duval County Public Schools.</p>
             <a href="https://www.google.com/search?q=Gimo%27s+Roofing+Jacksonville+reviews" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition">Read Our Reviews</a>
           </div>
         </div>

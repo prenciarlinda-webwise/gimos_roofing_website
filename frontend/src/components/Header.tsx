@@ -21,15 +21,18 @@ const roofingLinks = [
   { name: "Roof Replacement", href: "/services/roof-replacement", title: "Roof Replacement Jacksonville FL" },
   { name: "Roof Repair", href: "/services/roof-repair", title: "Roof Repair Jacksonville FL" },
   { name: "Commercial Roofing", href: "/services/commercial-roofing", title: "Commercial Roofing Jacksonville FL" },
+  { name: "Metal Roofing", href: "/services/metal-roofing", title: "Metal Roofing Jacksonville FL" },
+  { name: "Roof Waterproofing", href: "/services/roof-waterproofing", title: "Roof Waterproofing Jacksonville FL" },
+  { name: "Chimney Repair", href: "/services/chimney-repair", title: "Chimney Repair & Cap Replacement Jacksonville FL" },
+]
+
+const gutterLinks = [
+  { name: "Gutters", href: "/services/roof-gutter", title: "Gutter Installation & Repair Jacksonville FL" },
 ]
 
 const sidingLinks = [
   { name: "Siding Installation", href: "/services/siding-installation", title: "Siding Installation Jacksonville FL" },
   { name: "Siding Repair", href: "/services/siding-repair", title: "Siding Repair Jacksonville FL" },
-]
-
-const financingLinks = [
-  { name: "Roof Financing", href: "/roof-financing-florida", title: "Roof Financing Florida" },
 ]
 
 const locationLinks = [
@@ -137,22 +140,28 @@ export default function Header() {
                       )}
                     </Link>
                     {link.hasDropdown && link.name === "Services" && (
-                      <div className="absolute top-full left-0 w-56 bg-white shadow-xl rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
-                        <div className="px-4 py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Roofing</div>
-                        {roofingLinks.map((service) => (
-                          <Link key={service.name} href={service.href} title={service.title} className="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors">{service.name}</Link>
-                        ))}
-                        <div className="border-t border-gray-100 my-2"></div>
-                        <div className="px-4 py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Siding</div>
-                        {sidingLinks.map((service) => (
-                          <Link key={service.name} href={service.href} title={service.title} className="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors">{service.name}</Link>
-                        ))}
+                      <div className="absolute top-full left-0 w-[560px] bg-white shadow-xl rounded-lg py-4 px-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 grid grid-cols-2 gap-x-6">
+                        <div>
+                          <div className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Roofing</div>
+                          {roofingLinks.map((service) => (
+                            <Link key={service.name} href={service.href} title={service.title} className="block px-2 py-2 rounded text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors">{service.name}</Link>
+                          ))}
+                        </div>
+                        <div>
+                          <div className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Gutters</div>
+                          {gutterLinks.map((service) => (
+                            <Link key={service.name} href={service.href} title={service.title} className="block px-2 py-2 rounded text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors">{service.name}</Link>
+                          ))}
+                          <div className="border-t border-gray-100 my-2"></div>
+                          <div className="px-2 py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Siding</div>
+                          {sidingLinks.map((service) => (
+                            <Link key={service.name} href={service.href} title={service.title} className="block px-2 py-2 rounded text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors">{service.name}</Link>
+                          ))}
+                        </div>
                       </div>
                     )}
                     {link.hasDropdown && link.name === "Service Areas" && (
                       <div className="absolute top-full left-0 w-56 bg-white shadow-xl rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 max-h-[70vh] overflow-y-auto">
-                        <Link href="/service-areas" title="View All Service Areas" className="block px-4 py-2 text-primary font-semibold hover:bg-primary/10 transition-colors">All Service Areas</Link>
-                        <div className="border-t border-gray-100 my-1"></div>
                         {locationLinks.map((loc) => (
                           <Link key={loc.name} href={loc.href} title={loc.title} className="block px-4 py-2 text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors">{loc.name}</Link>
                         ))}
@@ -211,6 +220,10 @@ export default function Header() {
                     <div className="pl-4">
                       <div className="py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Roofing</div>
                       {roofingLinks.map((service) => (
+                        <Link key={service.name} href={service.href} title={service.title} className="block py-2 text-gray-600 hover:text-primary text-sm" onClick={() => setMobileMenuOpen(false)}>{service.name}</Link>
+                      ))}
+                      <div className="py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider mt-2">Gutters</div>
+                      {gutterLinks.map((service) => (
                         <Link key={service.name} href={service.href} title={service.title} className="block py-2 text-gray-600 hover:text-primary text-sm" onClick={() => setMobileMenuOpen(false)}>{service.name}</Link>
                       ))}
                       <div className="py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider mt-2">Siding</div>

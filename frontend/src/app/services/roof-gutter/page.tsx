@@ -155,7 +155,7 @@ export default function RoofGutterPage() {
               <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
                 <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
               </a>
-              <a href="https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
@@ -493,6 +493,34 @@ export default function RoofGutterPage() {
             <Link href="/roof-financing-florida" className="card p-6 group">
               <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Roofing Financing</h3>
               <p className="text-gray-600 text-sm">Fixed monthly payment options so gutter and roof work can move forward without waiting for damage to spread.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Resources */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Gutter Resources</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">Learn more about gutter systems, profiles, and guards for Florida homes.</p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link href="/blog/gutter-systems-roofing-florida" className="card p-6 group">
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Gutter Systems Guide</h3>
+              <p className="text-gray-600 text-sm">A complete Florida homeowner&apos;s guide to how gutters protect your roof and foundation.</p>
+            </Link>
+            <Link href="/blog/sectional-vs-seamless-gutters-florida" className="card p-6 group">
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Sectional vs Seamless Gutters</h3>
+              <p className="text-gray-600 text-sm">Which type holds up better against Florida&apos;s heavy rain and humidity.</p>
+            </Link>
+            <Link href="/blog/k-style-vs-half-round-gutters-jacksonville" className="card p-6 group">
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">K-Style vs Half-Round Gutters</h3>
+              <p className="text-gray-600 text-sm">Which profile is the better fit for your Jacksonville home.</p>
+            </Link>
+            <Link href="/blog/gutter-guards-jacksonville-canopy" className="card p-6 group">
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Are Gutter Guards Worth It?</h3>
+              <p className="text-gray-600 text-sm">Types, cost, and whether guards make sense under Jacksonville&apos;s tree canopy.</p>
             </Link>
           </div>
         </div>

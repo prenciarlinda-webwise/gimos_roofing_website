@@ -111,7 +111,7 @@ export default function OrangeParkPage() {
             Orange Park is the heart of Clay County and one of Northeast Florida&apos;s most established family communities. From the neighborhoods surrounding Orange Park Town Center to the residential streets along Kingsley Avenue and Blanding Boulevard, this area is home to thousands of families who value quality, affordability, and honest service. With homes built across several decades, from the 1960s through the 2010s, {location} has a diverse housing stock that requires experienced roofers who understand each era&apos;s construction methods.
           </p>
           <p className="text-gray-600 mb-4">
-            Many Orange Park homeowners are military families stationed at nearby NAS Jacksonville or veterans who chose Clay County for its excellent schools and lower cost of living. We understand that budget matters, and we&apos;re committed to delivering the best roofing value in the area without cutting corners on quality. Whether your home is in Lakeside, near Doctors Lake, or along the Blanding Blvd corridor, you deserve a roofer who respects both your home and your budget.
+            Many Orange Park homeowners are military families stationed at nearby NAS Jacksonville or veterans who chose Clay County for the Clay County School District, one of the state's higher-performing districts, and the area's lower cost of living. We understand that budget matters, and we&apos;re committed to delivering the best roofing value in the area without cutting corners on quality. Whether your home is in Lakeside, near Doctors Lake, or along the Blanding Blvd corridor, you deserve a roofer who respects both your home and your budget.
           </p>
           <p className="text-gray-600">
             At Gimo&apos;s Roofing, we&apos;ve built a strong reputation throughout Clay County for competitive pricing, expert craftsmanship, and fast project completion. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link>, <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link>, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency storm damage service</Link>, our team delivers results that last. Learn more about <Link href="/blog/best-roofing-materials-florida" className="text-primary hover:underline">the best roofing materials for Florida homes</Link>.
@@ -217,6 +217,10 @@ export default function OrangeParkPage() {
             <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
               <p className="text-gray-600 text-sm">Roof coatings, leak sealing, and flashing repair for flat and low-slope roofs on Orange Park and Fleming Island homes. We seal vulnerable penetrations and valleys before clay-soil settling opens new leak points.</p>
+            </Link>
+            <Link href="/services/chimney-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Chimney Repair</h4>
+              <p className="text-gray-600 text-sm">Chimney repointing, cap replacement, and flashing repair for Orange Park and Fleming Island homes, where settling on Clay County&apos;s clay soil can open mortar joints and flashing seams over time.</p>
             </Link>
           </div>
         </div>

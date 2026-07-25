@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/service-areas`, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/privacy-policy`, changeFrequency: 'yearly' as const, priority: 0.3 },
     { url: `${baseUrl}/terms-of-service`, changeFrequency: 'yearly' as const, priority: 0.3 },
+    { url: `${baseUrl}/ai`, changeFrequency: 'monthly' as const, priority: 0.3 },
   ]
 
   // Service pages
@@ -31,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/services/metal-roofing`, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/services/roof-gutter`, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/services/roof-waterproofing`, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/services/chimney-repair`, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${baseUrl}/roof-financing-florida`, changeFrequency: 'monthly' as const, priority: 0.8 },
   ]
 
@@ -62,7 +64,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Blog pages - only include published posts (not future-scheduled)
   const now = new Date().toISOString()
   const publishedPosts = blogPosts.filter(post => {
-    if (post.slug === 'gambrel-roof-guide') return false // redirected to homepage, see nginx.conf
     if (!post.publishDate) return true
     const pubDate = post.publishDate.includes('T') ? post.publishDate : post.publishDate + 'T00:00'
     return pubDate <= now

@@ -10,6 +10,7 @@ const roofingLinks = [
   { name: "Metal Roofing", href: "/services/metal-roofing", title: "Metal Roofing Jacksonville FL" },
   { name: "Gutters", href: "/services/roof-gutter", title: "Gutter Installation & Repair Jacksonville FL" },
   { name: "Roof Waterproofing", href: "/services/roof-waterproofing", title: "Roof Waterproofing Jacksonville FL" },
+  { name: "Chimney Repair", href: "/services/chimney-repair", title: "Chimney Repair & Cap Replacement Jacksonville FL" },
 ]
 
 const sidingLinks = [
@@ -232,6 +233,9 @@ export default function Footer() {
               </div>
             </div>
             <div className="text-center mt-4 pt-4 border-t border-white/5">
+              <p className="text-gray-500 text-xs mb-2">
+                For AI agents: <Link href="/ai" className="text-gray-400 hover:text-primary transition-colors">/ai</Link> &middot; <a href="/llms.txt" className="text-gray-400 hover:text-primary transition-colors">llms.txt</a> &middot; <a href="/llms-full.txt" className="text-gray-400 hover:text-primary transition-colors">llms-full.txt</a> &middot; <a href="/.well-known/ai-context.json" className="text-gray-400 hover:text-primary transition-colors">ai-context.json</a>
+              </p>
               <p className="text-gray-500 text-xs">
                 Built by <a href="https://bytriad.com/" target="_blank" rel="noopener" title="Triad - Digital Marketing Agency" className="text-primary hover:underline">Triad</a>
               </p>

@@ -216,7 +216,7 @@ export default function EmergencyRoofRepairPage() {
               <a href="https://www.yelp.com/biz/gimos-renovation-and-roofing-jacksonville" target="_blank" rel="noopener" title="View Gimo's Roofing Yelp Reviews">
                 <Image src="/yelp-logo.svg" alt="Read Gimo's Roofing reviews on Yelp" title="Yelp Reviews" width={70} height={28} className="h-7 w-auto object-contain" unoptimized />
               </a>
-              <a href="https://www.thumbtack.com/fl/pompano-beach/roofing/gimos-roofing/service/490737400306180103" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
+              <a href="https://www.thumbtack.com/fl/jacksonville/roofing/gimos-renovation-roofing/service/478820963508404237" target="_blank" rel="noopener" title="View Gimo's Roofing Thumbtack Reviews">
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
@@ -521,6 +521,34 @@ export default function EmergencyRoofRepairPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Emergency Roof Repair FAQ</h2>
           </div>
           <FAQ faqs={faqs} />
+        </div>
+      </section>
+
+      {/* Related Resources */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Storm and Emergency Resources</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">What to do before, during, and after storm damage hits your roof.</p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link href="/blog/emergency-roof-repair-what-to-do" className="card p-6 group">
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">What to Do When Your Roof Is Leaking</h3>
+              <p className="text-gray-600 text-sm">Immediate steps to limit damage while you wait for a crew.</p>
+            </Link>
+            <Link href="/blog/hurricane-roof-damage-signs-florida" className="card p-6 group">
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Signs of Hurricane Roof Damage</h3>
+              <p className="text-gray-600 text-sm">What to check on your roof after any named storm.</p>
+            </Link>
+            <Link href="/blog/hurricane-season-roof-prep-checklist-florida" className="card p-6 group">
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Hurricane Season Prep Checklist</h3>
+              <p className="text-gray-600 text-sm">How to get your roof ready before storm season starts.</p>
+            </Link>
+            <Link href="/blog/storm-damage-roofing-insurance" className="card p-6 group">
+              <h3 className="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">What Your Adjuster Isn&apos;t Telling You</h3>
+              <p className="text-gray-600 text-sm">What to know before your insurance adjuster inspects storm damage.</p>
+            </Link>
+          </div>
         </div>
       </section>
 

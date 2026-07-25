@@ -111,7 +111,7 @@ export default function StAugustinePage() {
             Founded in 1565, {location} holds the distinction of being the oldest continuously occupied European settlement in the United States. From the coquina walls of the Castillo de San Marcos to the Spanish Colonial homes lining St. George Street, the city&apos;s architecture tells a story spanning nearly five centuries. Roofing in {location} demands more than standard skills  --  it requires an understanding of historical materials, preservation standards, and the unique challenges of maintaining structures that define America&apos;s oldest city.
           </p>
           <p className="text-gray-600 mb-4">
-            Anastasia Island and the barrier beaches add a second layer of complexity. Properties in Davis Shores, {location} Beach, and along the Matanzas River face relentless salt spray, coastal winds, and direct hurricane exposure. The combination of historic preservation requirements downtown and harsh coastal conditions on the islands means {location} homeowners face roofing challenges found nowhere else in Northeast Florida.
+            Anastasia Island and the barrier beaches add a second layer of complexity. Properties in Davis Shores, {location} Beach, and along the Matanzas River face relentless salt spray, coastal winds, and direct hurricane exposure. The combination of historic preservation requirements downtown and harsh coastal conditions on the islands means {location} homeowners face roofing challenges found nowhere else in Northeast Florida. {location} and Anastasia Island fall within the St. Johns County School District, consistently ranked among Florida&apos;s top-performing districts.
           </p>
           <p className="text-gray-600">
             As a trusted roofing contractor in St Augustine FL, Gimo&apos;s Roofing serves all of {location}, from the Historic District and Lincolnville to Palencia and World Golf Village. Among roofing companies in St Augustine FL, we stand out for our historic preservation expertise and metal roofing St Augustine FL homeowners rely on for coastal durability. Whether your home needs <Link href="/services/roof-replacement" className="text-primary hover:underline">a period-appropriate roof replacement</Link>, <Link href="/services/roof-repair" className="text-primary hover:underline">barrel tile repair</Link>, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency storm damage repair</Link> on Anastasia Island, our team delivers craftsmanship that respects both your home&apos;s character and {county}&apos;s building codes.
@@ -218,6 +218,10 @@ export default function StAugustinePage() {
             <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
               <p className="text-gray-600 text-sm">Roof coatings and leak sealing for the flat and low-slope roofs on downtown commercial buildings and historic additions. We seal flashing and tile valleys against the wind-driven rain that nor&apos;easters push under ridge caps.</p>
+            </Link>
+            <Link href="/services/chimney-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Chimney Repair</h4>
+              <p className="text-gray-600 text-sm">Chimney repointing, crown repair, and cap replacement for St. Augustine&apos;s historic downtown homes, where old masonry and nor&apos;easter-driven rain make chimney flashing a frequent source of hidden leaks.</p>
             </Link>
           </div>
         </div>

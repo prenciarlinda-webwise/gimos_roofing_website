@@ -42,12 +42,15 @@ export const blogPosts: BlogPost[] = [
     category: "Roofing Guide",
     date: "2026-05-12",
     publishDate: "2026-05-12",
-    readTime: "11 min read",
+    dateModified: "2026-07-23",
+    readTime: "13 min read",
+    image: "/images/gambrel-roof-jacksonville-completed.webp",
+    imageAlt: "Completed gambrel roof re-shingling project by Gimo's Roofing on a historic Jacksonville home",
     author: "Gimo's Roofing Team",
     tableOfContents: [
       { id: "quick-answer", title: "What Is a Gambrel Roof?" },
       { id: "anatomy", title: "Anatomy and Design" },
-      { id: "history", title: "Dutch Colonial Origins" },
+      { id: "history", title: "Farmhouse and Barn Origins" },
       { id: "pros", title: "Pros of a Gambrel Roof" },
       { id: "cons", title: "Cons of a Gambrel Roof" },
       { id: "vs-other", title: "Gambrel vs Gable vs Mansard" },
@@ -58,17 +61,19 @@ export const blogPosts: BlogPost[] = [
       { id: "modern", title: "Modern Gambrel Homes" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<p class="text-lg font-semibold text-secondary mb-6">A gambrel roof is a two-pitch roof style with two sloped sections on each side, a shallow upper pitch and a steeper lower pitch, creating four roof planes total. It's the classic "barn roof" silhouette, originally associated with Dutch Colonial architecture in 17th-century North America. The design maximizes attic and second-floor headroom under a relatively short roofline, which is why it spread from barns to homes. Today gambrels are most common in the Northeast and Midwest, on agricultural buildings, and on barndominiums, and they're notably rare in Florida.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">A gambrel roof is a two-pitch roof style with two sloped sections on each side, a shallow upper pitch and a steeper lower pitch, creating four roof planes total. It's the classic "barn roof" silhouette, long associated with farmhouses and agricultural buildings across rural America. The design maximizes attic and second-floor headroom under a relatively short roofline, which is why it spread from barns to farmhouses. Today gambrels are most common in the Northeast and Midwest, on agricultural buildings, and on barndominiums, and they're notably rare on typical Florida subdivisions, though the style still shows up on working farms and farmhouse-style builds across rural Northeast Florida.</p>
 
-<p class="text-gray-600 mb-6">This guide covers what a gambrel actually is, how it's built, what it costs, the real pros and cons, and why you almost never see one in Jacksonville. Note up front: gambrel roofs are specialty work most Jacksonville roofers (us included) don't actively install on new builds, the design is heavily structural and the regional demand is essentially zero. If you have an existing gambrel home that needs material work like shingle replacement or repair, our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement service</a> can usually handle that even though new-build gambrels are outside our scope.</p>
+<p class="text-gray-600 mb-6">Planning a farmhouse-style build with a gambrel roofline? Get a free roof quote in <a href="/roofing-orange-park-fl" class="text-primary font-semibold hover:underline">Orange Park</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-gambrel-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<p class="text-gray-600 mb-6">This guide covers what a gambrel actually is, how it's built, what it costs, the real pros and cons, and why you almost never see one in Jacksonville. Note up front: gambrel roofs are specialty work most Jacksonville roofers (us included) don't actively install on new builds, the design is heavily structural and the regional demand is essentially zero. If you have an existing gambrel home or farmhouse that needs material work like shingle replacement or repair, our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement service</a> can usually handle that even though new-build gambrels are outside our scope.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Gambrel roof at a glance</p>
 <table class="w-full text-sm">
 <tr><td class="py-1"><strong>Profile:</strong></td><td>Two pitches per side, four roof planes total</td></tr>
-<tr><td class="py-1"><strong>Also called:</strong></td><td>Barn roof, Dutch roof, Dutch Colonial roof</td></tr>
-<tr><td class="py-1"><strong>Origin:</strong></td><td>17th-century Dutch Colonial architecture, North America</td></tr>
-<tr><td class="py-1"><strong>Common use:</strong></td><td>Barns, sheds, Dutch Colonial homes, modern barndominiums</td></tr>
+<tr><td class="py-1"><strong>Also called:</strong></td><td>Barn roof, farmhouse roof</td></tr>
+<tr><td class="py-1"><strong>Origin:</strong></td><td>Traditional American barns and farmhouses</td></tr>
+<tr><td class="py-1"><strong>Common use:</strong></td><td>Barns, sheds, farmhouses, modern barndominiums</td></tr>
 <tr><td class="py-1"><strong>Typical cost (home):</strong></td><td>$15,000-$45,000 depending on size and material</td></tr>
 <tr><td class="py-1"><strong>Florida prevalence:</strong></td><td>Rare, hurricane code and architectural tradition both discourage it</td></tr>
 </table>
@@ -78,7 +83,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">A gambrel roof is a symmetrical two-sided roof where each side has two slopes: a shallow upper slope near the ridge and a steeper lower slope toward the eave. Where the two slopes meet on each side is the "knuckle" or breakpoint, the defining visual feature of the style. The result looks like a flattened-top barn roof viewed from the side.</p>
 
-<p class="text-gray-600 mb-6">The design's purpose is structural efficiency: the steeper lower slope creates more usable interior space (especially in the upper floor or attic) than a single-pitch gable roof of the same footprint and overall height. That's why early Dutch settlers used the form for both barns (more hay storage) and homes (more upstairs headroom).</p>
+<p class="text-gray-600 mb-6">The design's purpose is structural efficiency: the steeper lower slope creates more usable interior space (especially in the upper floor or attic) than a single-pitch gable roof of the same footprint and overall height. That's why early American farmers used the form for both barns (more hay storage) and farmhouses (more upstairs headroom).</p>
 
 <h2 id="anatomy" class="text-2xl font-bold text-secondary mt-10 mb-4">Anatomy and Design of a Gambrel Roof</h2>
 
@@ -95,17 +100,17 @@ export const blogPosts: BlogPost[] = [
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Traditional barn gambrel:</strong> 30° upper, 60° lower (steep, dramatic)</li>
-<li><strong>Dutch Colonial home gambrel:</strong> 15°-22° upper, 70°-75° lower (more livable upstairs)</li>
+<li><strong>Farmhouse gambrel:</strong> 15°-22° upper, 70°-75° lower (more livable upstairs)</li>
 <li><strong>Modern asymmetric gambrel:</strong> Custom angles, often used in contemporary barndominiums</li>
 </ul>
 
 <p class="text-gray-600 mb-6">Truss-built gambrels are the modern standard. Most are framed with pre-engineered gambrel trusses delivered to site, which speeds construction compared to stick-framing the rafters by hand. Stick-framing is still common on custom homes and historical restorations.</p>
 
-<h2 id="history" class="text-2xl font-bold text-secondary mt-10 mb-4">The Dutch Colonial Origin Story</h2>
+<h2 id="history" class="text-2xl font-bold text-secondary mt-10 mb-4">Gambrel's Farmhouse and Barn Origins</h2>
 
-<p class="text-gray-600 mb-4">The gambrel form arrived in North America with Dutch settlers in the 1600s, particularly in the Hudson River Valley, Long Island, and New Jersey. Dutch farmers used the shape on barns to maximize hay storage in the upper level (the steep lower slope let them stack hay nearly to the eaves without losing space to a low ceiling). The form transferred to homes for the same reason: more usable upstairs floor space under the same overall height.</p>
+<p class="text-gray-600 mb-4">The gambrel form has deep roots in early American farm architecture, especially across the Northeast and Midwest. Farmers used the shape on barns to maximize hay storage in the upper level (the steep lower slope let them stack hay nearly to the eaves without losing space to a low ceiling). The form transferred to farmhouses for the same reason: more usable upstairs floor space under the same overall height, which is why "barn roof" and "farmhouse roof" became interchangeable names for the style.</p>
 
-<p class="text-gray-600 mb-6">By the 18th and 19th centuries, gambrels were strongly associated with Dutch Colonial Revival architecture, the style of formal two-story homes with symmetric facades, central doors, and steep lower roof slopes flaring out at the eaves. The Dutch Colonial Revival movement of the early 1900s spread the gambrel from the Northeast across the Midwest. Florida's architectural traditions (Spanish/Mediterranean Revival, Florida Cracker, Mid-Century Modern) developed without significant Dutch influence, which is one reason gambrels are uncommon in the state to this day.</p>
+<p class="text-gray-600 mb-6">By the 18th and 19th centuries, gambrels were a fixture of working farms across the Northeast and Midwest, barns, outbuildings, and the farmhouses built alongside them. The style spread with American agriculture rather than any single architectural movement, which is why it still reads as "farm" before it reads as anything else. Florida's traditional architectural styles (Spanish/Mediterranean Revival, Florida Cracker, Mid-Century Modern) grew up around a different climate and building code, which is one reason gambrels stayed uncommon in the state, outside of rural farm properties, to this day.</p>
 
 <h2 id="pros" class="text-2xl font-bold text-secondary mt-10 mb-4">Pros of a Gambrel Roof</h2>
 
@@ -115,7 +120,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Distinctive Classic Look</h3>
 
-<p class="text-gray-600 mb-6">Gambrels are immediately recognizable and historically loaded. For Dutch Colonial restorations, modern barndominiums, and "farmhouse-style" new builds, the silhouette is a feature, not a compromise. It's also one of the few traditional roof forms that reads as both rural and architecturally sophisticated.</p>
+<p class="text-gray-600 mb-6">Gambrels are immediately recognizable and historically loaded. For farmhouse-style new builds, working farm buildings, and modern barndominiums, the silhouette is a feature, not a compromise. It's also one of the few traditional roof forms that reads as both rural and architecturally sophisticated.</p>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Material-Efficient Framing</h3>
 
@@ -143,7 +148,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">The shallow upper pitch can accumulate significant snow load in heavy-snow regions, requiring engineering for snow weight that a steeper roof wouldn't need. Not a Florida problem, but worth knowing for buyers considering gambrels in northern climates.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Resale Ceiling in Non-Dutch-Colonial Neighborhoods</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Resale Ceiling Outside Farm-Style Neighborhoods</h3>
 
 <p class="text-gray-600 mb-6">Outside of regions where gambrels are traditional, the style can read as "out of place" to buyers. A gambrel home in a sea of ranch or contemporary homes may take longer to sell or comp at a discount.</p>
 
@@ -164,7 +169,7 @@ export const blogPosts: BlogPost[] = [
 </thead>
 <tbody>
 <tr><td class="p-2 border-b align-top"><strong>Gable</strong></td><td class="p-2 border-b align-top">1</td><td class="p-2 border-b align-top">2</td><td class="p-2 border-b align-top">Universal</td><td class="p-2 border-b align-top">Most homes; simple, cost-effective</td></tr>
-<tr><td class="p-2 border-b align-top"><strong>Gambrel</strong></td><td class="p-2 border-b align-top">2</td><td class="p-2 border-b align-top">2</td><td class="p-2 border-b align-top">Dutch Colonial</td><td class="p-2 border-b align-top">Barns, Dutch Colonial homes, attic conversion</td></tr>
+<tr><td class="p-2 border-b align-top"><strong>Gambrel</strong></td><td class="p-2 border-b align-top">2</td><td class="p-2 border-b align-top">2</td><td class="p-2 border-b align-top">American farmhouses</td><td class="p-2 border-b align-top">Barns, farmhouses, attic conversion</td></tr>
 <tr><td class="p-2 border-b align-top"><strong>Mansard</strong></td><td class="p-2 border-b align-top">2</td><td class="p-2 border-b align-top">4</td><td class="p-2 border-b align-top">French (17th c.)</td><td class="p-2 border-b align-top">Urban infill, maximum top-floor space</td></tr>
 </tbody>
 </table>
@@ -212,9 +217,9 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">Gambrels show up in three main applications, each with different design considerations:</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Dutch Colonial Homes</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Farmhouses and Farm-Style Homes</h3>
 
-<p class="text-gray-600 mb-6">The most architecturally formal gambrel. Two-story symmetric facades with a steep lower roof slope flaring at the eaves, central doors, dormers piercing the upper slope. Common in the Northeast, parts of the Midwest, and in some Florida historic neighborhoods (rarely). New-construction Dutch Colonials are uncommon today.</p>
+<p class="text-gray-600 mb-6">The classic farmhouse gambrel: two-story homes with a steep lower roof slope flaring at the eaves, simple symmetric facades, and dormers piercing the upper slope for extra light and headroom upstairs. Common on working farms and rural properties across the Northeast and Midwest, and increasingly requested on Florida's farmhouse-style new construction, especially on larger rural and equestrian lots in Clay, Nassau, Putnam, and outer St. Johns counties.</p>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Barns and Outbuildings</h3>
 
@@ -238,7 +243,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Architectural Heritage</h3>
 
-<p class="text-gray-600 mb-6">Florida's traditional architectural styles, Spanish/Mediterranean Revival, Florida Cracker, Old Florida vernacular, Mid-Century Modern, developed without Dutch Colonial influence. There's no regional tradition pulling builders, designers, or buyers toward gambrel. Even Florida's "farmhouse style" new construction trends toward gable forms with farm-style finishes, not actual barn-style rooflines.</p>
+<p class="text-gray-600 mb-6">Florida's traditional architectural styles, Spanish/Mediterranean Revival, Florida Cracker, Old Florida vernacular, Mid-Century Modern, don't have a gambrel tradition the way the Northeast and Midwest do. Most of Florida's "farmhouse style" new construction still leans on gable forms with farm-style finishes rather than an actual barn-style roofline. Where gambrel does show up is on genuine working farms and rural farmhouse builds, mainly outside the coastal metro areas, where the barn silhouette is the point rather than a finish detail.</p>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Insurance and Resale Economics</h3>
 
@@ -250,7 +255,7 @@ export const blogPosts: BlogPost[] = [
 <li>Rural barns and outbuildings on agricultural properties in Clay, Nassau, Putnam, and outer St. Johns counties</li>
 <li>Storage sheds in backyards (no wind certification required)</li>
 <li>Barndominiums on rural lots, growing market</li>
-<li>Historic Dutch Colonial homes (rare, mostly in older neighborhoods)</li>
+<li>Farmhouse-style homes on rural and equestrian properties</li>
 <li>Pole barns and equestrian buildings</li>
 </ul>
 
@@ -270,7 +275,7 @@ export const blogPosts: BlogPost[] = [
 <h2 id="key-takeaways" class="text-xl font-bold text-secondary mb-4">Key Takeaways</h2>
 <ul class="text-gray-700 space-y-2">
 <li>• <strong>What it is:</strong> A two-pitch roof with shallow upper and steep lower slopes on each side, four planes total</li>
-<li>• <strong>Origin:</strong> 17th-century Dutch Colonial architecture, North America</li>
+<li>• <strong>Origin:</strong> Traditional American barns and farmhouses</li>
 <li>• <strong>Pros:</strong> Maximum interior headroom for the roofline, distinctive look, easy to retrofit attic space</li>
 <li>• <strong>Cons:</strong> Wind vulnerability, complex flashing at the knuckle, harder to insulate, resale ceiling in non-traditional regions</li>
 <li>• <strong>Cost:</strong> $1,500-$10,000 (shed), $20,000-$45,000 (barn), $15,000-$30,000+ (home), about 10-20% more than a gable of the same footprint</li>
@@ -281,14 +286,15 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">If you have an existing gambrel home or barn in the Jacksonville area that needs shingle replacement, leak repair, or storm-damage assessment, our <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> and <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> services cover material work on most gambrel structures. New-construction gambrels are specialty framing we typically refer to specialist crews, but for material work on existing gambrels, <a href="/contact" class="text-primary hover:underline">contact us</a> at <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
     faqs: [
-      { question: "What is a gambrel roof?", answer: "A gambrel roof is a two-pitch roof style with two sloped sections on each side, a shallow upper pitch and a steeper lower pitch, creating four roof planes total. It's the classic barn-roof silhouette, originally associated with 17th-century Dutch Colonial architecture in North America. The design maximizes attic and second-floor headroom under a relatively short roofline." },
-      { question: "What is the purpose of a gambrel roof?", answer: "The primary purpose is to maximize usable interior space under the roofline. The steep lower slope creates near-full-ceiling headroom in the upper floor or attic, giving you 25-40% more usable square footage than a gable roof of the same footprint and overall height. That's why early Dutch settlers used the form for both barns (more hay storage) and homes (more upstairs living space)." },
+      { question: "What is a gambrel roof?", answer: "A gambrel roof is a two-pitch roof style with two sloped sections on each side, a shallow upper pitch and a steeper lower pitch, creating four roof planes total. It's the classic barn-roof silhouette, long associated with traditional American barns and farmhouses. The design maximizes attic and second-floor headroom under a relatively short roofline." },
+      { question: "What is the purpose of a gambrel roof?", answer: "The primary purpose is to maximize usable interior space under the roofline. The steep lower slope creates near-full-ceiling headroom in the upper floor or attic, giving you 25-40% more usable square footage than a gable roof of the same footprint and overall height. That's why early American farmers used the form for both barns (more hay storage) and farmhouses (more upstairs living space)." },
       { question: "What are the disadvantages of a gambrel roof?", answer: "Main disadvantages: wind vulnerability (the steep lower slope catches significant uplift), complex flashing at the knuckle where the two pitches meet, harder to insulate well because the upper floor is bounded by sloped ceilings rather than a flat attic, snow load concerns in cold climates, and resale ceiling in neighborhoods where gambrels are uncommon. In Florida specifically, hurricane code makes gambrels more expensive to build to standard." },
-      { question: "What is another name for a gambrel roof?", answer: "A gambrel roof is also called a barn roof, a Dutch roof, or a Dutch Colonial roof. The form is most strongly associated with traditional American barns (especially red barns in the Northeast and Midwest) and with Dutch Colonial Revival residential architecture. Some shed manufacturers also call it a barn-style shed roof." },
+      { question: "What is another name for a gambrel roof?", answer: "A gambrel roof is also called a barn roof or a farmhouse roof. The form is most strongly associated with traditional American barns (especially red barns in the Northeast and Midwest) and with farmhouse-style residential architecture. Some shed manufacturers also call it a barn-style shed roof." },
       { question: "What does a gambrel roof look like?", answer: "A gambrel roof has two sloped sections on each side of the ridge, a shallow upper slope and a steeper lower slope. Viewed from the gable end, the profile looks like an inverted bell or a flattened-top barn roof. The breakpoint where the two slopes meet is called the knuckle. The American red barn is the iconic gambrel form." },
       { question: "How do you shingle a gambrel roof?", answer: "Shingle a gambrel from eave to ridge in standard course, with a critical custom flashing detail at the knuckle (the breakpoint between the two pitches). The lower slope is shingled first, then a transition course handles the pitch change, then the upper slope is shingled up to the ridge cap. Most asphalt shingle manufacturers (GAF, Tamko, IKO, CertainTeed) cover gambrel applications in their installation manuals." },
       { question: "How much does a gambrel roof cost?", answer: "Costs range widely by application: $1,500-$4,500 for a DIY storage shed, $4,000-$10,000 for a turnkey shed, $20,000-$45,000 for a barn or pole barn roof, and $15,000-$30,000+ for a gambrel-style home roof on a 1,800-2,500 sq ft house. Gambrel framing typically adds 10-20% to the roof cost compared to a standard gable on the same footprint due to more complex truss design and knuckle detailing." },
-      { question: "Are gambrel roofs common in Florida?", answer: "No. Gambrels are rare in Florida for three reasons: hurricane wind performance (hip roofs significantly outperform gambrels in high wind), architectural tradition (Florida's heritage styles are Spanish/Mediterranean, Cracker, and Mid-Century Modern, not Dutch Colonial), and insurance economics (Florida insurers price gambrel coverage higher or refuse to write it). You'll mainly see gambrels on storage sheds, rural barns, and barndominiums in Northeast Florida." }
+      { question: "Are gambrel roofs common in Florida?", answer: "No. Gambrels are rare in Florida for three reasons: hurricane wind performance (hip roofs significantly outperform gambrels in high wind), architectural tradition (Florida's heritage styles are Spanish/Mediterranean, Cracker, and Mid-Century Modern rather than the barn-and-farmhouse tradition that made gambrels common up north), and insurance economics (Florida insurers price gambrel coverage higher or refuse to write it). You'll mainly see gambrels on storage sheds, rural barns, farmhouses, and barndominiums in Northeast Florida." },
+      { question: "Do people build gambrel roofs on Florida farmhouses?", answer: "Yes, though it's still a niche choice. Gambrel rooflines show up on genuine working farms and farmhouse-style new builds in rural Northeast Florida, especially on larger equestrian and agricultural lots in Clay, Nassau, Putnam, and outer St. Johns counties, where the barn silhouette is the point rather than a finish detail. It remains far less common than in the Northeast and Midwest because of Florida's hurricane wind requirements and insurance pricing." }
     ]
   },
   {

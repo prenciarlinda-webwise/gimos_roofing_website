@@ -109,7 +109,7 @@ export default function PonteVedraBeachPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Your {location} Premium Roofing Experts</h2>
           <p className="text-gray-600 mb-4">
-            Ponte Vedra Beach is one of Northeast Florida&apos;s most prestigious addresses, home to world-renowned TPC Sawgrass and THE PLAYERS Championship. Spanning ZIP codes 32082 and 32081 across {county}, the community features some of the highest property values in the Jacksonville metropolitan area, with homes ranging from $500,000 to well over $5 million. From the gated estates of Marsh Landing to the golf villas surrounding Sawgrass Country Club, every property here demands roofing that matches its caliber.
+            Ponte Vedra Beach is one of Northeast Florida&apos;s most prestigious addresses, home to world-renowned TPC Sawgrass and THE PLAYERS Championship. Spanning ZIP codes 32082 and 32081 across {county}, the community features some of the highest property values in the Jacksonville metropolitan area, with homes ranging from $500,000 to well over $5 million. {location} falls within the St. Johns County School District, routinely ranked the top public school district in Florida, one more reason property values here stay high. From the gated estates of Marsh Landing to the golf villas surrounding Sawgrass Country Club, every property here demands roofing that matches its caliber.
           </p>
           <p className="text-gray-600 mb-4">
             Unlike standard subdivisions, {location} homes present unique roofing challenges: larger roof areas averaging 3,000-6,000+ square feet, complex multi-level designs with dormers, hips, and valleys, strict HOA and architectural review board requirements, and premium material expectations from discerning homeowners. Homeowners searching for roofing near Ponte Vedra Beach FL know that a roof on a Marsh Landing estate isn&apos;t just weather protection, it&apos;s a visible investment that directly impacts curb appeal and resale value. That&apos;s why choosing from established roofing companies in Ponte Vedra Beach FL matters.
@@ -215,6 +215,10 @@ export default function PonteVedraBeachPage() {
             <Link href="/services/roof-waterproofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h4 className="font-bold text-secondary mb-2">Roof Waterproofing</h4>
               <p className="text-gray-600 text-sm">Roof coatings, leak sealing, and flashing repair for the flat sections, balconies, and tile valleys common on Ponte Vedra estates. We seal chimney and skylight penetrations against coastal salt air and wind-driven rain.</p>
+            </Link>
+            <Link href="/services/chimney-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-secondary mb-2">Chimney Repair</h4>
+              <p className="text-gray-600 text-sm">Chimney cap replacement, flashing repair, and crown repair for Ponte Vedra estates, where coastal salt air and wind-driven rain corrode caps and open flashing seams faster than inland homes.</p>
             </Link>
           </div>
         </div>
