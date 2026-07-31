@@ -19942,6 +19942,133 @@ export const blogPosts: BlogPost[] = [
       { question: "What triggers a full commercial roof replacement instead of a repair?", answer: "The most common triggers are exceeding the 25 percent repair threshold within 12 months, a roof that already has one recover layer and needs another, structural deck damage, a roof built before the 2007 Florida Building Code with no updated permit history, or storm damage extensive enough that a patch repair is not cost-effective compared to a full system replacement." }
     ]
   },
+  {
+    slug: "how-to-compare-roofing-quotes",
+    title: "How to Compare Roofing Quotes: A Homeowner's Side-by-Side Guide (2026)",
+    metaTitle: "How to Compare Roofing Quotes: Complete 2026 Guide",
+    excerpt: "Two roofing quotes for the same job can differ by thousands of dollars. Here is how to compare scope of work, warranty terms, license verification, and payment schedules so you know what you are actually paying for.",
+    date: "2026-07-29",
+    publishDate: "2026-07-29",
+    dateModified: "2026-07-29",
+    author: "Gimo's Roofing Team",
+    image: "/images/roofing-quotes-comparison-jacksonville.webp",
+    imageAlt: "Homeowner reviewing a written roofing quote with a contractor in Jacksonville, FL",
+    category: "Homeowner Tips",
+    readTime: "8 min read",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Answer" },
+      { id: "why-quotes-vary", title: "Why Roofing Quotes for the Same Job Vary" },
+      { id: "scope-of-work", title: "Compare the Scope of Work" },
+      { id: "warranty-types", title: "Manufacturer Warranty vs Workmanship Warranty" },
+      { id: "license-insurance", title: "Verify License and Insurance" },
+      { id: "permits-payment", title: "Permits and Payment Schedule" },
+      { id: "red-flags", title: "Red Flags in a Lowball Quote" },
+      { id: "comparison-checklist", title: "Side-by-Side Comparison Checklist" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - How to Compare Roofing Quotes</h2>
+
+<p class="text-gray-600 mb-6"><strong>Two roofing quotes for the identical job can differ by $5,000 or more, and price alone will not tell you why.</strong> The gap usually comes down to five things: what scope of work is actually included, what warranty backs the labor versus the materials, whether the contractor's license and insurance are current and verifiable, how the payment schedule is structured, and who is responsible for cleanup and disposal. Line up every quote against those five categories before you compare the bottom-line number. A properly licensed <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">roofing company in Jacksonville</a> should be able to explain every line item without hesitation.</p>
+
+<p class="text-gray-600 mb-6">Ready to see how a real bid stacks up? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a <a href="/roofing-ponte-vedra-beach-fl" class="text-primary font-semibold hover:underline">roof quote in Ponte Vedra Beach</a> and compare it line by line against what you've already been offered.</p>
+
+<h2 id="why-quotes-vary" class="text-2xl font-bold text-secondary mt-10 mb-4">Why roofing quotes for the same job can vary by thousands of dollars</h2>
+
+<p class="text-gray-600 mb-6">Homeowners often assume a wide spread between quotes means one contractor is padding the price or another is cutting corners. Sometimes that's true, but more often the quotes simply aren't describing the same project. One bid might include a full tear-off to the deck, new underlayment rated for Florida's wind zone, and a 25-year manufacturer warranty. Another might be a recover over the existing shingles with a builder-grade underlayment and a standard 10-year warranty. Both are legitimate ways to roof a house. They aren't, however, the same job, and comparing their prices side by side without reading the scope means comparing the wrong numbers.</p>
+
+<p class="text-gray-600 mb-6">Labor cost is only part of the total. Material grade, deck repair allowances, disposal fees, permit fees, and warranty tier all move the number independently of each other. Our breakdown of <a href="/blog/roofing-labor-cost-per-square" class="text-primary hover:underline">roofing labor cost per square</a> walks through how labor and materials typically split on a Jacksonville job, which is a useful baseline before you start comparing bids.</p>
+
+<h2 id="scope-of-work" class="text-2xl font-bold text-secondary mt-10 mb-4">Compare the scope of work line by line</h2>
+
+<p class="text-gray-600 mb-6">Before comparing dollar figures, put every quote's scope of work side by side. At minimum, each quote should specify:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Full tear-off to the deck versus a recover over existing shingles, and whether Florida code even allows a recover on this particular roof</li>
+<li>Deck repair, listed as either an included allowance (for example, up to 4 sheets of plywood) or a per-sheet price if damage is found once the old roofing comes off</li>
+<li>Underlayment type, since a self-adhering or synthetic underlayment performs differently in wind-driven rain than 15-pound felt</li>
+<li>Nailing pattern and fastener count, which affects both wind resistance and whether the roof will qualify for a wind mitigation insurance discount</li>
+<li>Flashing scope, including whether valleys, chimneys, and pipe boots are being replaced or reused</li>
+<li>Ventilation, including whether existing ridge or soffit vents are being kept, replaced, or added</li>
+</ul>
+
+<p class="text-gray-600 mb-6">In Florida specifically, the nailing pattern and secondary water barrier matter enough to affect your homeowner's insurance premium through the wind mitigation credit. A quote that stays silent on fastener spec is a quote you can't fully evaluate yet. Our guide to <a href="/blog/wind-mitigation-vs-4-point-inspection-florida" class="text-primary hover:underline">wind mitigation versus a 4-point inspection</a> covers how these installation details translate into insurance savings.</p>
+
+<h2 id="warranty-types" class="text-2xl font-bold text-secondary mt-10 mb-4">Manufacturer warranty versus workmanship warranty</h2>
+
+<p class="text-gray-600 mb-6">Every roofing quote should list two separate warranties, and they aren't the same thing. The manufacturer warranty covers defects in the shingles or roofing material itself, typically 25 to 30 years on a standard architectural asphalt shingle. The workmanship warranty covers the contractor's installation labor, and this is where quotes diverge the most. A budget contractor may only offer 1 to 2 years on labor. A contractor certified by the shingle manufacturer can often register an enhanced warranty that extends labor coverage to match the material warranty, sometimes 25 years or more, because the manufacturer trusts that installer's training record.</p>
+
+<p class="text-gray-600 mb-6">Ask each contractor two direct questions: what's the length of the workmanship warranty in writing, and is the manufacturer warranty a standard limited warranty or an enhanced, installer-backed version. Gimo's Roofing is CertainTeed Certified, which is the manufacturer credential that qualifies a job for CertainTeed's enhanced warranty tiers. For more on what these warranty terms actually cover and how they transfer if you sell the home, see our <a href="/blog/roof-warranty-guide-florida" class="text-primary hover:underline">Florida roof warranty guide</a>.</p>
+
+<h2 id="license-insurance" class="text-2xl font-bold text-secondary mt-10 mb-4">Verify the license and insurance on every quote</h2>
+
+<p class="text-gray-600 mb-6">Every quote should list a Florida contractor license number, and you should verify it yourself rather than take it on faith. Certified roofing contractor licenses in Florida use the prefix CCC followed by seven digits, for example Gimo's Roofing's license number, FL CCC1332453. A registered contractor's license uses the prefix RC or RF instead, and registered contractors are restricted to the county where they're registered, unlike a certified license, which is valid statewide. You can confirm any Florida contractor's license status directly through the state's <a href="https://www.myfloridalicense.com/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">DBPR license search</a> in under a minute.</p>
+
+<p class="text-gray-600 mb-6">Ask for a current certificate of insurance showing both general liability and workers' compensation coverage, not just a verbal assurance. If a roofing crew is injured on your property and the contractor isn't carrying workers' compensation, the homeowner can be held liable. Our guide on <a href="/blog/how-to-choose-roofing-contractor-jacksonville" class="text-primary hover:underline">how to choose a roofing contractor in Jacksonville</a> covers how to request and read that certificate.</p>
+
+<h2 id="permits-payment" class="text-2xl font-bold text-secondary mt-10 mb-4">Permits, payment schedule, and deposit terms</h2>
+
+<p class="text-gray-600 mb-6">A roof replacement in Jacksonville requires a building permit, and the quote should state plainly whether the permit fee is included in the price or billed separately. A contractor who tells you a permit isn't necessary isn't a contractor to hire. Permits also create a public inspection record, which matters later if you ever need to prove the age or code compliance of the roof for an insurance or resale question.</p>
+
+<p class="text-gray-600 mb-6">Compare the payment schedule as closely as the price. A standard structure is a modest deposit at signing, a progress payment once materials are delivered or the tear-off begins, and a final payment due only after a completed final inspection. Florida law caps how much a residential contractor can require as an upfront deposit, so treat a request for the full amount before work starts as a red flag, not a discount. If cash flow is a factor, our <a href="/roof-financing-florida" class="text-primary hover:underline">roof financing</a> page covers payment plan options that spread the cost without requiring a large deposit up front.</p>
+
+<h2 id="red-flags" class="text-2xl font-bold text-secondary mt-10 mb-4">Red flags that separate a lowball quote from a real bid</h2>
+
+<p class="text-gray-600 mb-6">A quote priced well below every other bid you received isn't automatically a bargain. Watch for these patterns:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>No license number on the written quote, or a license number that doesn't match the business name when checked</li>
+<li>Pressure to sign the same day, especially paired with a "storm damage special" pitch right after a weather event</li>
+<li>A verbal-only warranty with nothing written into the contract</li>
+<li>No mention of permits, or a claim that the job is too small to need one</li>
+<li>A deposit request for the full contract amount before any work begins</li>
+<li>A quote that's missing a scope of work entirely, just a single price with no line items</li>
+</ul>
+
+<p class="text-gray-600 mb-6">The fastest way to catch these gaps is to ask direct questions before you sign anything. Our list of <a href="/blog/questions-to-ask-roofing-contractor" class="text-primary hover:underline">questions to ask a roofing contractor</a> during the estimate covers exactly what to ask and what a legitimate answer sounds like.</p>
+
+<h2 id="comparison-checklist" class="text-2xl font-bold text-secondary mt-10 mb-4">Side-by-side comparison checklist</h2>
+
+<p class="text-gray-600 mb-6">Print this table, or copy it into a notes app, and fill in one column per quote you receive. A quote that leaves several rows blank is a quote you should call the contractor back about before deciding anything.</p>
+
+<table class="w-full text-sm border-collapse my-6">
+<thead>
+<tr class="border-b-2 border-gray-300">
+<th class="text-left py-2 pr-4">Category</th>
+<th class="text-left py-2 pr-4">What to confirm</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">Scope of work</td><td class="py-2 pr-4">Tear-off vs recover, underlayment type, nailing pattern, flashing and ventilation included</td></tr>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">Materials</td><td class="py-2 pr-4">Brand and product line named specifically, not just "architectural shingle"</td></tr>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">Manufacturer warranty</td><td class="py-2 pr-4">Standard limited or enhanced installer-backed version, and coverage length in years</td></tr>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">Workmanship warranty</td><td class="py-2 pr-4">Length in years, and whether it's written into the contract</td></tr>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">License</td><td class="py-2 pr-4">CCC or RC number listed and verified through DBPR</td></tr>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">Insurance</td><td class="py-2 pr-4">Current certificate showing general liability and workers' compensation</td></tr>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">Permit</td><td class="py-2 pr-4">Included in price and pulled by the contractor, not the homeowner</td></tr>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">Payment schedule</td><td class="py-2 pr-4">Deposit amount, progress payments, and final payment tied to inspection</td></tr>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">Cleanup and disposal</td><td class="py-2 pr-4">Magnetic nail sweep and dumpster or haul-away included in price</td></tr>
+<tr class="border-b border-gray-200"><td class="py-2 pr-4">Timeline</td><td class="py-2 pr-4">Start date and estimated number of working days to completion</td></tr>
+</tbody>
+</table>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>A price difference between quotes almost always traces back to a difference in scope, materials, or warranty, not just labor cost</li>
+<li>Manufacturer warranty and workmanship warranty are separate coverages, and an enhanced, installer-backed warranty requires manufacturer certification</li>
+<li>Verify every license number through Florida's DBPR search before signing, it takes less than a minute</li>
+<li>A full deposit demanded before work starts, a missing permit, or a same-day-signature pitch are the three most common red flags</li>
+<li>Get at least two, ideally three, written quotes with a full scope of work before comparing price alone</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Once you have quotes in hand, a <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">licensed Jacksonville roofing contractor</a> can walk through them with you and explain where the numbers diverge. Gimo's Roofing is FL licensed CCC1332453 and CertainTeed Certified, and every written estimate lists scope of work, warranty terms, and payment schedule up front.</p>`,
+    faqs: [
+      { question: "Is the cheapest roofing quote always the worst choice?", answer: "Not necessarily, but a quote priced well below the others usually means something is missing from the scope, such as a thinner underlayment, a recover instead of a full tear-off, or a shorter workmanship warranty. Compare the scope of work line by line before assuming a low price is a red flag or a bargain, since the gap usually comes from what's included, not the labor rate." },
+      { question: "Should every roofing quote cover the same scope of work?", answer: "No, and that's exactly why comparing bottom-line prices alone is misleading. One contractor might quote a full tear-off with premium underlayment and a 25-year enhanced warranty, while another quotes a recover with standard materials and a 10-year workmanship warranty. Ask each contractor for a written, itemized scope so you can compare the same categories side by side rather than two different projects." },
+      { question: "What's a normal workmanship warranty length for a roof replacement in Florida?", answer: "Workmanship warranties commonly range from 1 to 10 years among standard contractors, but manufacturer-certified installers can often register enhanced warranties that extend labor coverage to 25 years or more, matching the material warranty. Always get the workmanship warranty length in writing in the contract, since a verbal promise about warranty coverage isn't enforceable if a dispute comes up later." },
+      { question: "How many roofing quotes should I get before choosing a contractor?", answer: "Most homeowners should collect at least two, and ideally three, written quotes with a full scope of work before deciding. Three quotes give you enough range to spot outliers, whether unusually high or suspiciously low, and enough detail to confirm the contractors are genuinely bidding on the same project rather than three different versions of the job." }
+    ]
+  },
 
 ]
 

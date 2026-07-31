@@ -51,6 +51,27 @@ const galleryVideos = [
     description: "Another completed shingle re-roof by Gimo's Roofing in Jacksonville, FL.",
     uploadDate: "2024-12-15",
     duration: "PT24S"
+  },
+  {
+    id: "B6A8iC7iC3o",
+    title: "Roofing Contractors in Jacksonville FL",
+    description: "A look at Gimo's Roofing, licensed roofing contractors serving Jacksonville, FL and the surrounding area.",
+    uploadDate: "2026-07-29",
+    duration: "PT1M"
+  },
+  {
+    id: "syUgpECQhn4",
+    title: "A Day on the Roof with Gimo's Roofing",
+    description: "Behind the scenes with the Gimo's Roofing crew on a Jacksonville-area roofing project.",
+    uploadDate: "2026-07-29",
+    duration: "PT1M"
+  },
+  {
+    id: "UZGv05NUV9k",
+    title: "Roof Replacement in Jacksonville, FL",
+    description: "A look at a completed roof replacement project by Gimo's Roofing in Jacksonville, FL.",
+    uploadDate: "2026-07-29",
+    duration: "PT30S"
   }
 ]
 
