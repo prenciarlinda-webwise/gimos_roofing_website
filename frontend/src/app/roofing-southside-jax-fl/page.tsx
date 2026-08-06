@@ -127,7 +127,7 @@ export default function SouthsideJaxPage() {
             This mix of residential and commercial properties creates the highest concentration of diverse roofing needs in the Jacksonville metro area. From flat TPO roofs on shopping centers to aging shingle roofs on 1980s and 1990s subdivision homes, the Southside demands a roofing contractor who can handle it all.
           </p>
           <p className="text-gray-600">
-            As a roofing company Southside Jacksonville FL homeowners and businesses rely on, Gimo&apos;s Roofing serves both residential homeowners and commercial property managers throughout the Southside. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link> for your Deerwood home, <Link href="/services/commercial-roofing" className="text-primary hover:underline">commercial roofing</Link> for your office building, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link> after a storm, our team delivers quality work with minimal disruption.
+            As a roofing company Southside Jacksonville FL homeowners and businesses rely on, Gimo&apos;s Roofing serves both residential homeowners and commercial property managers throughout the Southside. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link> for your Deerwood home, <Link href="/services/commercial-roofing" className="text-primary hover:underline">commercial roofing</Link> for your office building, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair in Southside Jacksonville, FL</Link> after a storm, our team delivers quality work with minimal disruption.
           </p>
         </div>
       </section>
@@ -205,11 +205,11 @@ export default function SouthsideJaxPage() {
               <p className="text-gray-600 text-sm">TPO, EPDM, modified bitumen, and metal systems for offices, retail, and restaurants. Minimal business disruption.</p>
             </Link>
             <Link href="/services/roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Roof Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Roof Repair in Southside Jacksonville, FL</h4>
               <p className="text-gray-600 text-sm">Fast residential and commercial repairs for leaks, storm damage, and aging materials. Same-week scheduling available.</p>
             </Link>
             <Link href="/services/emergency-roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Emergency Storm Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Emergency Roof Repair in Southside Jacksonville, FL</h4>
               <p className="text-gray-600 text-sm">24/7 emergency response for hurricane and storm damage. Tarping, leak containment, and insurance claim assistance.</p>
             </Link>
             <Link href="/services/metal-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">

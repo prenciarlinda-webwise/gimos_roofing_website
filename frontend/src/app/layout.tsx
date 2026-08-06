@@ -116,7 +116,9 @@ const structuredData = {
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Metal Roofing", "url": "https://www.gimosroofing.com/services/metal-roofing" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Installation, Repair and Replacement", "url": "https://www.gimosroofing.com/services/roof-gutter" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Waterproofing", "url": "https://www.gimosroofing.com/services/roof-waterproofing" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chimney Repair and Cap Replacement", "url": "https://www.gimosroofing.com/services/chimney-repair" } }
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chimney Repair and Cap Replacement", "url": "https://www.gimosroofing.com/services/chimney-repair" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Inspection", "url": "https://www.gimosroofing.com/services/roof-inspection" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Skylight Installation and Repair", "url": "https://www.gimosroofing.com/services/skylight-installation" } }
     ]
   },
   "aggregateRating": {
@@ -128,7 +130,7 @@ const structuredData = {
   },
   "priceRange": "$$",
   "paymentAccepted": ["Cash", "Credit Card", "Financing Available"],
-  "description": "Gimo's Roofing is a licensed, family-operated roofing contractor in Jacksonville, FL (license CCC1332453, CertainTeed Certified) with 500+ roofs completed and a 5.0-star rating. We provide roof replacement, roof repair, emergency and storm damage repair, roof leak repair, metal roofing, gutters, roof waterproofing, chimney repair, new construction roofing, commercial roofing, and siding across Jacksonville, the Beaches, Ponte Vedra, St. Augustine, Orange Park, Fernandina Beach, and Nocatee.",
+  "description": "Gimo's Roofing is a licensed, family-operated roofing contractor in Jacksonville, FL (license CCC1332453, CertainTeed Certified) with 500+ roofs completed and a 5.0-star rating. We provide roof replacement, roof repair, roof inspections, emergency and storm damage repair, roof leak repair, metal roofing, gutters, roof waterproofing, chimney repair, skylight installation, new construction roofing, commercial roofing, and siding across Jacksonville, the Beaches, Ponte Vedra, St. Augustine, Orange Park, Fernandina Beach, and Nocatee.",
   "knowsAbout": [
     "roofing",
     "roof replacement",
@@ -151,6 +153,10 @@ const structuredData = {
     "gutter repair",
     "chimney repair",
     "chimney cap replacement",
+    "4-point inspection",
+    "wind mitigation inspection",
+    "skylight installation",
+    "skylight repair",
     "siding installation",
     "insurance claim roofing",
     "hurricane roof straps"

@@ -208,8 +208,25 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         </div>
       </header>
 
-      {/* Featured Image (only when post has one) */}
-      {post.image && (
+      {/* Featured Video (takes priority over the static image when set) */}
+      {post.featuredVideoEmbedUrl ? (
+        <section className="relative">
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="aspect-video relative rounded-xl overflow-hidden shadow-xl -mt-6 max-w-4xl">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src={post.featuredVideoEmbedUrl}
+                title={post.title}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                loading="eager"
+              />
+            </div>
+          </div>
+        </section>
+      ) : post.image && (
         <section className="relative">
           <div className="max-w-6xl mx-auto px-4">
             <div className="aspect-video relative rounded-xl overflow-hidden shadow-xl -mt-6 max-w-4xl">

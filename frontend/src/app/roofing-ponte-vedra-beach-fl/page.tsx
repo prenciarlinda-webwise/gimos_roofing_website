@@ -115,7 +115,7 @@ export default function PonteVedraBeachPage() {
             Unlike standard subdivisions, {location} homes present unique roofing challenges: larger roof areas averaging 3,000-6,000+ square feet, complex multi-level designs with dormers, hips, and valleys, strict HOA and architectural review board requirements, and premium material expectations from discerning homeowners. Homeowners searching for roofing near Ponte Vedra Beach FL know that a roof on a Marsh Landing estate isn&apos;t just weather protection, it&apos;s a visible investment that directly impacts curb appeal and resale value. That&apos;s why choosing from established roofing companies in Ponte Vedra Beach FL matters.
           </p>
           <p className="text-gray-600">
-            As a leading roofing contractor in Ponte Vedra Beach FL, Gimo&apos;s Roofing specializes in the premium craftsmanship that {location} properties require. Whether you need a <Link href="/services/roof-replacement" className="text-primary hover:underline">full roof replacement</Link> on a 5,000 sq ft estate, <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link> to storm-damaged tile, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link> after a hurricane, our experienced crews deliver results that satisfy both homeowners and HOA boards. We understand the standards expected in Ponte Vedra&apos;s finest neighborhoods.
+            As a leading roofing contractor in Ponte Vedra Beach FL, Gimo&apos;s Roofing specializes in the premium craftsmanship that {location} properties require. Whether you need a <Link href="/services/roof-replacement" className="text-primary hover:underline">full roof replacement</Link> on a 5,000 sq ft estate, a <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Ponte Vedra Beach, FL</Link> for storm-damaged tile, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair in Ponte Vedra Beach, FL</Link> after a hurricane, our experienced crews deliver results that satisfy both homeowners and HOA boards. We understand the standards expected in Ponte Vedra&apos;s finest neighborhoods.
           </p>
         </div>
       </section>
@@ -189,11 +189,11 @@ export default function PonteVedraBeachPage() {
               <p className="text-gray-600 text-sm">Complete tear-off and replacement with HOA-approved premium materials. Engineered for large-scale homes with complex roof designs. Starting at $15,000.</p>
             </Link>
             <Link href="/services/emergency-roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Storm Damage Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Emergency Roof Repair in Ponte Vedra Beach, FL</h4>
               <p className="text-gray-600 text-sm">24/7 emergency response for hurricane and tropical storm damage. Rapid tarping, structural assessment, and full insurance claim documentation for high-value properties.</p>
             </Link>
             <Link href="/services/roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Premium Roof Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Roof Repair in Ponte Vedra Beach, FL</h4>
               <p className="text-gray-600 text-sm">Targeted repairs for tile, slate, metal, and architectural shingle roofs. We match existing materials to maintain your home&apos;s appearance and HOA compliance.</p>
             </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">

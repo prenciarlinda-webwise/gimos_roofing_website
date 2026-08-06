@@ -111,7 +111,7 @@ export default function RiversidePage() {
             Properties in ZIP codes 32204 and 32205 include everything from meticulously preserved 1920s bungalows along Riverside Avenue to modern condominiums near Park and King streets. Each building type presents unique roofing challenges, which is why homeowners trust roofing contractors in Riverside Jacksonville FL who understand both historic preservation and modern building codes. Riverside and Avondale fall within Duval County Public Schools, and the neighborhood&apos;s walkability keeps many families here for multiple home generations.
           </p>
           <p className="text-gray-600">
-            At Gimo&apos;s Roofing, we&apos;ve protected Riverside&apos;s architectural heritage with quality roofing for years. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a full roof replacement</Link> on a craftsman bungalow, <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link> on a Tudor revival, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency storm repair</Link> after a summer thunderstorm, our team delivers results that honor your home&apos;s character.
+            At Gimo&apos;s Roofing, we&apos;ve protected Riverside&apos;s architectural heritage with quality roofing for years. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a full roof replacement</Link> on a craftsman bungalow, <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Riverside</Link> on a Tudor revival, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair in Riverside, FL</Link> after a summer thunderstorm, our team delivers results that honor your home&apos;s character.
           </p>
         </div>
       </section>
@@ -185,11 +185,11 @@ export default function RiversidePage() {
               <p className="text-gray-600 text-sm">Complete tear-off with period-appropriate materials for craftsman bungalows, Tudor revivals, and prairie-style homes. Preservation-compliant.</p>
             </Link>
             <Link href="/services/roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Roof Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Roof Repair in Riverside, FL</h4>
               <p className="text-gray-600 text-sm">Targeted repairs for leaks, storm damage, and aging materials on Riverside&apos;s older homes. We match existing materials for seamless results.</p>
             </Link>
             <Link href="/services/emergency-roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Emergency Storm Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Emergency Roof Repair in Riverside, FL</h4>
               <p className="text-gray-600 text-sm">24/7 emergency response for hurricane and storm damage. Tarping, temporary repairs, and insurance claim assistance for Riverside homeowners.</p>
             </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">

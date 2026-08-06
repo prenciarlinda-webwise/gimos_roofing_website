@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: "Service Areas - Roofing Company Jacksonville & NE Florida",
-  description: "Call (904) 606-5313. Gimo's Roofing serves Jacksonville, Ponte Vedra, St. Augustine, Orange Park & all of Northeast Florida.",
+  description: "Call (904) 606-5313. Gimo's Roofing serves Jacksonville, Ponte Vedra, St. Augustine, Orange Park & all of Northeast Florida.",
 }
 
 const estimateUrl = 'https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing'
@@ -168,7 +168,7 @@ export default function ServiceAreasPage() {
             </Link>
             <Link href="/services/roof-repair" className="group bg-gray-50 rounded-xl p-6 hover:bg-primary/5 transition-colors">
               <h3 className="text-lg font-bold text-secondary group-hover:text-primary mb-2">Roof Repair</h3>
-              <p className="text-gray-600 text-sm">Fast, reliable repairs for leaks, storm damage, and general wear. 24/7 emergency service.</p>
+              <p className="text-gray-600 text-sm">Roof repair Jacksonville FL homeowners trust for leaks, storm damage, and general wear. 24/7 emergency service.</p>
             </Link>
             <Link href="/services/new-construction-roofing" className="group bg-gray-50 rounded-xl p-6 hover:bg-primary/5 transition-colors">
               <h3 className="text-lg font-bold text-secondary group-hover:text-primary mb-2">New Construction Roofing</h3>

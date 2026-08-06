@@ -26,3 +26,15 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Raw/oversized client video originals - compressed versions are committed instead
+public/images/IMG_5542.MOV
+public/images/In progress re-roof.MOV
+public/images/New construction (1).mp4
+public/images/New construction .mp4
+public/images/St Paul’s church production day.mp4
+public/images/roofersjacksonville.mov
+public/images/roofingcontractorsjacksonvillefl.mp4
+public/images/roofingservicesjacksonville.mp4
+public/images/roofreplacementinjacksonvillefl.MOV
+public/images/roofreplacementinjacksonvillefl.mp4

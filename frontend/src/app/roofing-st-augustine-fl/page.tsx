@@ -114,7 +114,7 @@ export default function StAugustinePage() {
             Anastasia Island and the barrier beaches add a second layer of complexity. Properties in Davis Shores, {location} Beach, and along the Matanzas River face relentless salt spray, coastal winds, and direct hurricane exposure. The combination of historic preservation requirements downtown and harsh coastal conditions on the islands means {location} homeowners face roofing challenges found nowhere else in Northeast Florida. {location} and Anastasia Island fall within the St. Johns County School District, consistently ranked among Florida&apos;s top-performing districts.
           </p>
           <p className="text-gray-600">
-            As a trusted roofing contractor in St Augustine FL, Gimo&apos;s Roofing serves all of {location}, from the Historic District and Lincolnville to Palencia and World Golf Village. Among roofing companies in St Augustine FL, we stand out for our historic preservation expertise and metal roofing St Augustine FL homeowners rely on for coastal durability. Whether your home needs <Link href="/services/roof-replacement" className="text-primary hover:underline">a period-appropriate roof replacement</Link>, <Link href="/services/roof-repair" className="text-primary hover:underline">barrel tile repair</Link>, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency storm damage repair</Link> on Anastasia Island, our team delivers craftsmanship that respects both your home&apos;s character and {county}&apos;s building codes.
+            As a trusted roofing contractor in St Augustine FL, Gimo&apos;s Roofing serves all of {location}, from the Historic District and Lincolnville to Palencia and World Golf Village. Among roofing companies in St Augustine FL, we stand out for our historic preservation expertise and metal roofing St Augustine FL homeowners rely on for coastal durability. Whether your home needs <Link href="/services/roof-replacement" className="text-primary hover:underline">a period-appropriate roof replacement</Link>, <Link href="/services/roof-repair" className="text-primary hover:underline">barrel tile roof repair in St. Augustine</Link>, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair in St. Augustine, FL</Link>, on Anastasia Island, our team delivers craftsmanship that respects both your home&apos;s character and {county}&apos;s building codes.
           </p>
         </div>
       </section>
@@ -188,11 +188,11 @@ export default function StAugustinePage() {
               <p className="text-gray-600 text-sm">Complete tear-off and replacement with materials suited to your home&apos;s style  --  barrel tile for historic homes, coastal-grade shingles for Anastasia Island, or metal for modern properties.</p>
             </Link>
             <Link href="/services/emergency-roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Storm Damage Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Emergency Roof Repair in St. Augustine, FL</h4>
               <p className="text-gray-600 text-sm">24/7 emergency response for hurricane and nor&apos;easter damage. Tarping, structural repairs, and full insurance claim assistance for {location} properties.</p>
             </Link>
             <Link href="/services/roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Roof Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Roof Repair in St. Augustine, FL</h4>
               <p className="text-gray-600 text-sm">Barrel tile repair, salt-corroded flashing replacement, leak repair, and shingle restoration. We match existing materials to maintain your home&apos;s appearance.</p>
             </Link>
             <Link href="/services/commercial-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">

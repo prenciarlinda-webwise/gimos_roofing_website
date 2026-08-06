@@ -4,11 +4,11 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: "Roof Repair - Gimo's Roofing" },
-  description: "Professional roof repair from Gimo's Roofing. Leak repair, shingle repair, roof flashing repair, and storm damage repair with same-day service. Call (904) 606-5313.",
+  title: { absolute: "Roof Repair Jacksonville FL - Fast Repairs - Gimo's Roofing" },
+  description: "Need roof repair in Jacksonville, FL? Gimo's Roofing fixes leaks, shingles, flashing, and flat roof repair fast, with same-day service. Call (904) 606-5313.",
   openGraph: {
-    title: "Roof Repair - Gimo's Roofing",
-    description: "Fast roof repair for leaks, shingles, and flashing. Same-day service and insurance help. Call (904) 606-5313.",
+    title: "Roof Repair Jacksonville FL - Gimo's Roofing",
+    description: "Fast roof repair in Jacksonville, FL for leaks, shingles, flashing, and flat roofs. Same-day service and insurance help. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com/services/roof-repair",
   },
   alternates: { canonical: "https://www.gimosroofing.com/services/roof-repair" },
@@ -43,9 +43,11 @@ const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAr
 }, {})
 
 const faqs = [
+  { question: "How do I find a reliable roofer near me in Jacksonville?", answer: "Look for a licensed, locally based contractor with real reviews, not just a low bid. Gimo's Roofing is FL licensed (CCC1332453), CertainTeed Certified, and based in Jacksonville, not a lead-gen call center or an out-of-town storm chaser. Free estimates, honest assessments, call (904) 606-5313." },
+  { question: "Can I get a free roof estimate near me?", answer: "Yes. We provide free, no-obligation roof repair estimates throughout Jacksonville and Northeast Florida. We inspect the damage, explain what we find, and give you a firm written quote before any work starts." },
   { question: "How quickly can you repair my roof?", answer: "For emergencies like active leaks, we offer same-day or next-day service. Standard repairs are typically scheduled within 2-5 business days of your inspection. Our response time depends on current demand and weather conditions." },
   { question: "What is the most common roof repair?", answer: "Roof flashing repair and shingle replacement are the most common services we perform. About 80% of roof leaks occur around penetrations like chimneys, vents, and skylights where flashing has failed. Shingle damage from wind and age is the second most common issue." },
-  { question: "How much does roof repair cost in Jacksonville?", answer: "Minor repairs typically cost $150-$600, including small leak patches and replacing a few shingles. Medium repairs run $600-$1,500 for larger areas or flashing work. Major repairs can cost $1,500-$3,500+ depending on extent of damage and materials needed." },
+  { question: "How much does roof repair cost in Jacksonville FL?", answer: "Roof repair Jacksonville FL pricing typically starts at $150-$600 for minor repairs like small leak patches and replacing a few shingles. Medium repairs run $600-$1,500 for larger areas or flashing work. Major repairs can cost $1,500-$3,500+ depending on extent of damage and materials needed." },
   { question: "Is it worth repairing an old roof?", answer: "It depends on roof age and damage extent. If your roof is under 15 years old with localized damage, repairs make sense. If it's over 20 years with multiple problem areas, replacement is often more cost-effective long-term. We provide honest assessments." },
   { question: "Do you work with insurance companies?", answer: "Yes. We work with all major insurance companies on storm damage claims. We document damage thoroughly, provide detailed estimates, and can meet with adjusters on-site. We've helped hundreds of Jacksonville homeowners navigate the claims process." },
   { question: "What if you find more damage during the repair?", answer: "We contact you immediately before proceeding. We'll show you photos, explain the additional damage, and provide a revised estimate. We never do extra work without your explicit approval." },
@@ -56,7 +58,8 @@ const faqs = [
   { question: "What's the difference between a patch and a proper repair?", answer: "A patch is a temporary fix using sealant or tar. A proper repair involves removing damaged materials, addressing underlying issues, installing new materials correctly, and ensuring waterproof integrity. We do proper repairs, not patches." },
   { question: "Can you match my existing shingles?", answer: "In most cases, yes. We stock common shingle colors and can order specific matches. However, existing shingles fade over time, so a perfect match isn't always possible. We'll discuss options during your estimate." },
   { question: "How much does it cost to fix a roof leak in Jacksonville?", answer: "Most roof leak repairs in Jacksonville fall between about $400 and $1,500, depending on the source of the leak, roof height and pitch, and how much underlying decking or flashing is damaged. Minor flashing or pipe-boot repairs sit at the low end, while widespread water damage costs more. We trace the leak to its source and give a firm price before starting." },
-  { question: "How can I get my roof repaired if I have no money?", answer: "You have options. Storm or sudden-event damage is often covered by homeowners insurance, and we help document and file the claim. For out-of-pocket repairs, we offer financing with low monthly payments so you can stop the damage now and pay over time, rather than letting a small leak become a costly structural problem." }
+  { question: "How can I get my roof repaired if I have no money?", answer: "You have options. Storm or sudden-event damage is often covered by homeowners insurance, and we help document and file the claim. For out-of-pocket repairs, we offer financing with low monthly payments so you can stop the damage now and pay over time, rather than letting a small leak become a costly structural problem." },
+  { question: "Do you offer flat roof repair in Jacksonville FL?", answer: "Yes. We provide flat roof repair Jacksonville FL homeowners and businesses need for TPO, EPDM, modified bitumen, and other low-slope roofing systems, including seam repairs, patching, and leak diagnosis. Flat roofs need different repair techniques than shingle roofs. Typical flat roof repairs run $300-$1,200 depending on damage size and roofing material." }
 ]
 
 const breadcrumbSchema = {
@@ -97,9 +100,10 @@ export default function RoofRepairPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Roof Repair</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Roof Repair - Leaks, Shingles &amp; Flashing</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-2">Roof Repair Jacksonville FL</h1>
+              <h2 className="text-xl md:text-2xl font-semibold text-primary mb-4">Leaks, Shingles &amp; Flashing</h2>
               <p className="text-lg text-gray-200 mb-6">
-                Looking for Jacksonville roof repair nearby? Gimo&apos;s Roofing fixes roof leaks, damaged shingles, and failed flashing across Duval, St. Johns, Clay, and Nassau counties. Same-day emergency response is available for roof repair Jacksonville homeowners need fast, and most repairs are completed in one visit with materials we stock on our trucks.
+                Searching for roof repair near me in Jacksonville? Gimo&apos;s Roofing fixes roof leaks, damaged shingles, failed flashing, and flat roof repair across Duval, St. Johns, Clay, and Nassau counties. Same-day emergency response is available for roof repair Jacksonville FL homeowners need fast, and most repairs are completed in one visit with materials we stock on our trucks.
               </p>
               <ul className="text-gray-200 mb-6 space-y-2">
                 <li className="flex items-center gap-2"><span className="text-primary">&#10003;</span> Licensed, insured, and locally owned</li>
@@ -167,8 +171,9 @@ export default function RoofRepairPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Repair Services We Provide</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto mb-4"><strong>Gimo&apos;s roof repair service covers everything from minor shingle repairs starting at $250 to major storm damage restoration</strong>, including leak repair, flashing repair, and same-day emergency response across Jacksonville and Northeast Florida. Most repairs are completed in a single visit using materials stocked on the truck. <a href={estimateUrl} id="cta-snippet-roofrepair-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-roofrepair-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
-            <p className="text-gray-600 max-w-3xl mx-auto">Gimo&apos;s Roofing delivers Jacksonville FL roof repair and roofing repair Jacksonville FL homeowners trust for every common issue, from minor shingle replacements to complex flashing repairs. Whether you need roof leak repair Jacksonville FL or a full section replacement, our crews carry materials on their trucks for same-day service across Northeast Florida whenever possible.</p>
+            <p className="text-gray-600 max-w-3xl mx-auto mb-4"><strong>Gimo&apos;s roof repair service covers everything from minor shingle repairs starting at $250 to major storm damage restoration</strong>, including leak repair, flashing repair, flat roof repair, and same-day emergency response across Jacksonville and Northeast Florida. Most repairs are completed in a single visit using materials stocked on the truck. <a href={estimateUrl} id="cta-snippet-roofrepair-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-roofrepair-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+            <p className="text-gray-600 max-w-3xl mx-auto mb-4">Gimo&apos;s Roofing delivers roof repair Jacksonville FL homeowners trust for every common issue, from minor shingle replacements to complex flashing repairs. Whether you need roof leak repair Jacksonville FL, flat roof repair Jacksonville FL, or a full section replacement, our crews carry materials on their trucks for same-day service across Northeast Florida whenever possible.</p>
+            <p className="text-gray-600 max-w-3xl mx-auto">Have a flat or low-slope roof? Flat roof repair Jacksonville FL projects typically run $300-$1,200 for seam and patch work. For full flat roof replacement or coatings, see our <Link href="/services/roof-waterproofing" className="text-primary hover:underline">roof waterproofing services</Link>.</p>
           </div>
 
           <div className="space-y-8">

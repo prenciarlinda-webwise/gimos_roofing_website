@@ -114,7 +114,7 @@ export default function NocateePage() {
             With the oldest Nocatee homes now approaching 20 years old and thousands more in the 5-15 year range, a growing wave of homeowners are facing their first major roof maintenance decisions. Builder warranties are expiring, builder-grade materials are showing their age, and Florida&apos;s heat, UV exposure, and storm activity are taking their toll. Many homeowners who moved into brand-new construction have never needed to think about their roof until now.
           </p>
           <p className="text-gray-600">
-            At Gimo&apos;s Roofing, we specialize in helping Nocatee homeowners navigate this critical transition. Whether you need a <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair</Link> to address early wear, a full <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link> with upgraded materials, or a professional inspection before your builder warranty expires, our team understands the unique needs of Nocatee&apos;s planned communities. We work with HOAs throughout the area and carry pre-approved materials for streamlined project approvals.
+            At Gimo&apos;s Roofing, we specialize in helping Nocatee homeowners navigate this critical transition. Whether you need a <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Nocatee, FL</Link> to address early wear, a full <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link> with upgraded materials, or a professional inspection before your builder warranty expires, our team understands the unique needs of Nocatee&apos;s planned communities. We work with HOAs throughout the area and carry pre-approved materials for streamlined project approvals.
           </p>
         </div>
       </section>
@@ -205,11 +205,11 @@ export default function NocateePage() {
               <p className="text-gray-600 text-sm">Full tear-off and replacement with premium materials that outlast builder-grade shingles. HOA-approved colors and profiles for every Nocatee community.</p>
             </Link>
             <Link href="/services/roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Roof Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Roof Repair in Nocatee, FL</h4>
               <p className="text-gray-600 text-sm">Fix leaks, damaged shingles, flashing failures, and ventilation issues. Targeted repairs to extend the life of your existing roof.</p>
             </Link>
             <Link href="/services/emergency-roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Emergency Storm Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Emergency Roof Repair in Nocatee, FL</h4>
               <p className="text-gray-600 text-sm">24/7 emergency response for hurricane and storm damage. Tarping, temporary repairs, and insurance claim assistance for Nocatee homeowners.</p>
             </Link>
             <Link href="/services/new-construction-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">

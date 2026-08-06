@@ -24,6 +24,8 @@ const roofingLinks = [
   { name: "Metal Roofing", href: "/services/metal-roofing", title: "Metal Roofing Jacksonville FL" },
   { name: "Roof Waterproofing", href: "/services/roof-waterproofing", title: "Roof Waterproofing Jacksonville FL" },
   { name: "Chimney Repair", href: "/services/chimney-repair", title: "Chimney Repair & Cap Replacement Jacksonville FL" },
+  { name: "Roof Inspection", href: "/services/roof-inspection", title: "Roof Inspection Jacksonville FL" },
+  { name: "Skylight Installation", href: "/services/skylight-installation", title: "Skylight Installation & Repair Jacksonville FL" },
 ]
 
 const gutterLinks = [
@@ -54,6 +56,7 @@ const locationLinks = [
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [mobileExpanded, setMobileExpanded] = useState<string | null>(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -208,16 +211,30 @@ export default function Header() {
             <div className="px-4 py-2">
               {navLinks.map((link) => (
                 <div key={link.name}>
-                  <Link
-                    href={link.href}
-                    title={link.title}
-                    className="block py-3 text-gray-700 hover:text-primary font-medium border-b border-gray-100"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {link.name}
-                  </Link>
-                  {link.hasDropdown && link.name === "Services" && (
-                    <div className="pl-4">
+                  {link.hasDropdown ? (
+                    <button
+                      type="button"
+                      className="w-full flex items-center justify-between py-3 text-gray-700 hover:text-primary font-medium border-b border-gray-100"
+                      onClick={() => setMobileExpanded(mobileExpanded === link.name ? null : link.name)}
+                      aria-expanded={mobileExpanded === link.name}
+                    >
+                      {link.name}
+                      <svg className={`w-4 h-4 transition-transform ${mobileExpanded === link.name ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+                  ) : (
+                    <Link
+                      href={link.href}
+                      title={link.title}
+                      className="block py-3 text-gray-700 hover:text-primary font-medium border-b border-gray-100"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      {link.name}
+                    </Link>
+                  )}
+                  {link.hasDropdown && link.name === "Services" && mobileExpanded === "Services" && (
+                    <div className="pl-4 pb-2">
                       <div className="py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Roofing</div>
                       {roofingLinks.map((service) => (
                         <Link key={service.name} href={service.href} title={service.title} className="block py-2 text-gray-600 hover:text-primary text-sm" onClick={() => setMobileMenuOpen(false)}>{service.name}</Link>
@@ -232,8 +249,8 @@ export default function Header() {
                       ))}
                     </div>
                   )}
-                  {link.hasDropdown && link.name === "Service Areas" && (
-                    <div className="pl-4">
+                  {link.hasDropdown && link.name === "Service Areas" && mobileExpanded === "Service Areas" && (
+                    <div className="pl-4 pb-2 max-h-64 overflow-y-auto">
                       {locationLinks.map((loc) => (
                         <Link key={loc.name} href={loc.href} title={loc.title} className="block py-2 text-gray-600 hover:text-primary text-sm" onClick={() => setMobileMenuOpen(false)}>{loc.name}</Link>
                       ))}

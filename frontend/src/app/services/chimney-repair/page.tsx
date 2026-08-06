@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Chimney Repair & Cap Replacement in Jacksonville FL - Gimo's Roofing",
     description: "Chimney repair, cap replacement, and flashing service in Jacksonville FL. Repointing, crown repair, and leak fixes. Free estimates. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com/services/chimney-repair",
-    images: ["https://www.gimosroofing.com/images/roof-repair-in-progress-jacksonville.webp"],
+    images: ["https://www.gimosroofing.com/images/chimney-cap-flashing-jacksonville-fl-2.webp"],
   },
   alternates: { canonical: "https://www.gimosroofing.com/services/chimney-repair" },
 }
@@ -110,7 +110,7 @@ export default function ChimneyRepairPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/roof-repair-in-progress-jacksonville.webp" alt="Chimney flashing and cap repair on a Jacksonville FL roof" title="Chimney repair in Jacksonville FL" fill sizes="100vw" className="object-cover" priority />
+              <Image src="/images/chimney-cap-flashing-jacksonville-fl-2.webp" alt="Chimney vent cap and flashing repair on a Jacksonville FL roof" title="Chimney repair in Jacksonville FL" fill sizes="100vw" className="object-cover" priority />
             </div>
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function ChimneyRepairPage() {
               <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Why Chimneys Fail Faster in Jacksonville</h2>
               <p className="text-gray-600 mb-4">A chimney is a masonry or metal structure sitting exposed on top of your roof, taking direct sun, driving rain, and salt air with no shingle or membrane protecting it the way the rest of the roof is protected. Jacksonville&apos;s combination of high humidity, more than 50 inches of annual rain, and a coastal air corridor that reaches well inland accelerates mortar breakdown, brick spalling, and corrosion on caps and flashing far faster than in drier climates.</p>
               <p className="text-gray-600 mb-4">Most of the chimney leaks we diagnose are not coming from the flue itself. They come from a missing or rusted-through cap, a cracked crown, or flashing that has pulled away from the masonry at the roofline. Those leaks often show up as a stain on the ceiling or wall several feet from the actual chimney, which is why chimney problems get misdiagnosed as roof leaks, and roof leaks near the chimney get misdiagnosed as chimney problems, until someone traces the water to its actual source.</p>
-              <p className="text-gray-600">We treat chimney and roof flashing as one system. If your leak is at the chimney, we check the cap, crown, mortar, and flashing together rather than guessing at one component, the same way we trace hidden leak sources during <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Jacksonville</Link>.</p>
+              <p className="text-gray-600">We treat chimney and roof flashing as one system. If your leak is at the chimney, we check the cap, crown, mortar, and flashing together rather than guessing at one component, the same way we trace hidden leak sources during <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Jacksonville, FL</Link>.</p>
             </div>
             <div className="bg-gray-50 rounded-xl p-8">
               <h3 className="text-xl font-bold text-secondary mb-4">Where Chimney Leaks Start</h3>
@@ -268,6 +268,27 @@ export default function ChimneyRepairPage() {
 
           <div className="mt-8 card p-6 bg-gray-50 text-center">
             <p className="text-gray-600"><strong>Typical masonry repair cost:</strong> Crown repair or recoating runs $300 to $900. Full repointing on a typical residential chimney runs $1,000 to $2,500 depending on height and how much mortar has failed. We give a firm price after inspecting the chimney in person.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Recent Chimney Work */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Recent Chimney Work in Jacksonville</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">Chimney cap and flashing repairs completed on Jacksonville-area roofs.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/chimney-cap-replacement-jacksonville-fl.webp" alt="New chimney vent cap installed on a Jacksonville FL roof" title="Chimney cap replacement in Jacksonville FL" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+            </div>
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/chimney-cap-replacement-jacksonville-fl-2.webp" alt="Stainless steel chimney cap replacement in Jacksonville FL" title="Chimney cap replacement in Jacksonville FL" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+            </div>
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/chimney-cap-flashing-jacksonville-fl.webp" alt="Chimney flashing repair on a Jacksonville FL home" title="Chimney flashing repair in Jacksonville FL" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+            </div>
           </div>
         </div>
       </section>

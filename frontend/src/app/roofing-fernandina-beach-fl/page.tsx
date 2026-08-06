@@ -111,7 +111,7 @@ export default function FernandinaBeachPage() {
             That unique character creates unique roofing challenges. Barrier island exposure means salt spray from multiple directions, direct Atlantic hurricane paths, and relentless ocean winds that inland communities simply don&apos;t experience. Add in the preservation requirements of the historic district and the high standards of resort communities like American Beach and Old Town, and you need a roofer who understands every dimension of island roofing.
           </p>
           <p className="text-gray-600">
-            At Gimo&apos;s Roofing, we&apos;ve served {location} homeowners across every neighborhood on Amelia Island. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link> on a Victorian gem, <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link> on a beachfront property, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency storm repair</Link> after a hurricane, our team delivers solutions built for barrier island conditions.
+            At Gimo&apos;s Roofing, we&apos;ve served {location} homeowners across every neighborhood on Amelia Island. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link> on a Victorian gem, <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Fernandina Beach</Link> on a beachfront property, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency storm repair in Fernandina Beach</Link> after a hurricane, our team delivers solutions built for barrier island conditions.
           </p>
         </div>
       </section>
@@ -185,11 +185,11 @@ export default function FernandinaBeachPage() {
               <p className="text-gray-600 text-sm">Complete tear-off with barrier island-grade materials rated for salt exposure and 130+ mph winds. Starting at $8,500.</p>
             </Link>
             <Link href="/services/emergency-roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Storm Damage Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Emergency Roof Repair in Fernandina Beach, FL</h4>
               <p className="text-gray-600 text-sm">24/7 emergency response for hurricane and nor&apos;easter damage. Tarping, repairs, and insurance claim assistance across Amelia Island.</p>
             </Link>
             <Link href="/services/roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Coastal Roof Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Roof Repair in Fernandina Beach, FL</h4>
               <p className="text-gray-600 text-sm">Fix salt-corroded flashing, wind-lifted shingles, leaks, and UV damage with materials built for barrier island conditions.</p>
             </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">

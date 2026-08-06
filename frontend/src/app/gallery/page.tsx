@@ -72,6 +72,20 @@ const galleryVideos = [
     description: "A look at a completed roof replacement project by Gimo's Roofing in Jacksonville, FL.",
     uploadDate: "2026-07-29",
     duration: "PT30S"
+  },
+  {
+    id: "VDioDNEiR4I",
+    title: "Commercial Roof Replacement on a Jacksonville Hotel",
+    description: "Aerial footage of the completed commercial roof replacement at Hotel Palms, a boutique hotel in Atlantic Beach, FL.",
+    uploadDate: "2026-07-29",
+    duration: "PT1M"
+  },
+  {
+    id: "xu2wsK0ZkV0",
+    title: "New Construction Roofing in Jacksonville, FL",
+    description: "A quick look at new construction roofing work by Gimo's Roofing in the Jacksonville, FL area.",
+    uploadDate: "2026-07-29",
+    duration: "PT30S"
   }
 ]
 

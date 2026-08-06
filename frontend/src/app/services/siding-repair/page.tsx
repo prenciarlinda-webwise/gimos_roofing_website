@@ -188,7 +188,7 @@ export default function SidingRepairPage() {
                 <div className="md:col-span-2">
                   <h3 className="text-xl font-bold text-secondary mb-3">Storm Damage Repair</h3>
                   <p className="text-gray-600 mb-4">Jacksonville&apos;s severe weather (hurricanes, thunderstorms, and high winds) takes a toll on siding. Storm damage can range from minor dents and scratches to complete panel blow-offs. Flying debris during storms often punctures siding, creating entry points for water and pests.</p>
-                  <p className="text-gray-600 mb-4">We respond quickly to storm damage, providing temporary protection if needed and permanent repairs once conditions allow. We document all damage thoroughly for insurance claims and work directly with adjusters. If storm damage also affected your roof, our <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link> crews can address both at once.</p>
+                  <p className="text-gray-600 mb-4">We respond quickly to storm damage, providing temporary protection if needed and permanent repairs once conditions allow. We document all damage thoroughly for insurance claims and work directly with adjusters. If storm damage also affected your roof, our <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">Jacksonville FL emergency roof repair</Link> crews can address both at once.</p>
                   <p className="text-gray-600"><strong>Typical cost:</strong> Varies widely based on damage extent. Insurance typically covers storm damage minus your deductible.</p>
                 </div>
                 <div className="card p-6">

@@ -303,7 +303,7 @@ export default function RoofWaterproofingPage() {
                 <li>&#8226; The roof is under 15 years old overall</li>
                 <li>&#8226; Storm damage is confined and insurable</li>
               </ul>
-              <p className="text-gray-600 text-sm mt-3">See our <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair services</Link> for leak, shingle, and flashing repair.</p>
+              <p className="text-gray-600 text-sm mt-3">See our <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair services in Jacksonville FL</Link> for leak, shingle, and flashing repair.</p>
             </div>
             <div className="card p-6">
               <h3 className="text-lg font-bold text-red-600 mb-3">Replacement Fits When</h3>

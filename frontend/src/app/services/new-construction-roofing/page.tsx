@@ -117,14 +117,14 @@ export default function NewConstructionRoofingPage() {
             </div>
             <div className="space-y-3">
               <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-                <Image src="/images/new-roof-installation-blue-house-florida.webp" alt="New construction roofing in Jacksonville FL" title="New construction roofing in Jacksonville FL" fill className="object-cover" priority />
+                <Image src="/images/new-construction-roofing-jacksonville-fl-2.webp" alt="New construction roofing in Jacksonville FL" title="New construction roofing in Jacksonville FL" fill className="object-cover" priority />
               </div>
               <div className="grid grid-cols-2 gap-3">
                 <div className="rounded-xl aspect-[4/3] overflow-hidden shadow-lg relative">
-                  <Image src="/images/new-roof-company.webp" alt="New home roof installation Jacksonville" title="New home roof installation in Jacksonville" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" />
+                  <Image src="/images/new-construction-roofing-jacksonville-fl-3.webp" alt="New home roof installation in Jacksonville FL" title="New home roof installation in Jacksonville" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" />
                 </div>
                 <div className="rounded-xl aspect-[4/3] overflow-hidden shadow-lg relative">
-                  <Image src="/images/metal-roof-construction-site.webp" alt="Metal roof new construction jobsite" title="Metal roof new construction in Jacksonville" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" />
+                  <Image src="/images/new-construction-roofing-jacksonville-fl-4.webp" alt="New construction roofing jobsite in Jacksonville FL" title="New construction roofing jobsite in Jacksonville" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" />
                 </div>
               </div>
             </div>
