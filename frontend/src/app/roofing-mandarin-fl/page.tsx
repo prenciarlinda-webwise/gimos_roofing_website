@@ -114,7 +114,7 @@ export default function MandarinPage() {
             That beautiful tree canopy comes with a cost to your roof. Mandarin&apos;s towering oaks and dense shade create a unique set of roofing challenges that inland neighborhoods without heavy canopy simply don&apos;t face. Persistent shade traps moisture, fallen branches cause impact damage, and leaf debris clogs gutters and valleys. Combined with an aging housing stock where many original roofs are now 25-40 years old, {location} homeowners face roofing decisions that require local expertise.
           </p>
           <p className="text-gray-600">
-            As a trusted roofing company in Mandarin FL, Gimo&apos;s Roofing has served homeowners throughout the San Jose Boulevard corridor and surrounding neighborhoods for years. As an experienced roofing contractor in Mandarin FL, we understand the specific challenges that come with roofing under heavy canopy and know which materials perform best in shaded, moisture-prone environments. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a full roof replacement</Link> on a 1980s home or <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link> from the last storm, our team delivers reliable results. <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">Emergency roof repair</Link> is available 24/7 throughout {location}.
+            As a trusted roofing company in Mandarin FL, Gimo&apos;s Roofing has served homeowners throughout the San Jose Boulevard corridor and surrounding neighborhoods for years. As an experienced roofing contractor in Mandarin FL, we understand the specific challenges that come with roofing under heavy canopy and know which materials perform best in shaded, moisture-prone environments. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a full roof replacement</Link> on a 1980s home or <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Mandarin</Link> from the last storm, our team delivers reliable results. <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">Emergency roof repair in Mandarin, FL</Link> is available 24/7 throughout {location}.
           </p>
         </div>
       </section>
@@ -185,11 +185,11 @@ export default function MandarinPage() {
               <p className="text-gray-600 text-sm">Complete tear-off and replacement with modern architectural shingles or metal. Ideal for Mandarin&apos;s aging 1980s-2000s roofs. Starting at $7,500.</p>
             </Link>
             <Link href="/services/emergency-roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Tree Damage & Storm Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Emergency Roof Repair in Mandarin, FL</h4>
               <p className="text-gray-600 text-sm">24/7 emergency response for fallen branches, storm damage, and tarping. Insurance claim assistance included.</p>
             </Link>
             <Link href="/services/roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Roof Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Roof Repair in Mandarin, FL</h4>
               <p className="text-gray-600 text-sm">Fix leaks, replace damaged shingles, repair flashing, and address moss or algae damage on Mandarin&apos;s shaded roofs.</p>
             </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">

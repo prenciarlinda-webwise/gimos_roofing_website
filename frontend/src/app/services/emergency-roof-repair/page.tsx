@@ -4,11 +4,11 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: "Emergency Roof Repair - Gimo's Roofing" },
-  description: "Need an emergency roof repair nearby? Gimo's Roofing delivers fast 24/7 emergency roof services for storm damage, active leaks, and urgent repairs. Call (904) 606-5313.",
+  title: { absolute: "24/7 Emergency Roof Repair Jacksonville FL - Gimo's Roofing" },
+  description: "Need emergency roof repair in Jacksonville, FL? Gimo's Roofing responds 24/7 to active leaks and storm damage with same-day tarping. Call (904) 606-5313.",
   openGraph: {
-    title: "Emergency Roof Repair - Gimo's Roofing",
-    description: "24/7 emergency roof repair for storm damage and active leaks. Fast response. Call (904) 606-5313.",
+    title: "Emergency Roof Repair Jacksonville FL - Gimo's Roofing",
+    description: "24/7 emergency roof repair in Jacksonville FL for storm damage and active leaks. Fast response. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com/services/emergency-roof-repair",
   },
   alternates: { canonical: "https://www.gimosroofing.com/services/emergency-roof-repair" },
@@ -50,6 +50,8 @@ const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAr
 }, {})
 
 const faqs = [
+  { question: "Where can I find emergency roof repair near me in Jacksonville?", answer: "Gimo's Roofing is a local, FL-licensed emergency roofing company based in Jacksonville, serving Duval, St. Johns, Clay, and Nassau counties including Arlington, Riverside, San Marco, the Beaches, and Orange Park. Search \"emergency roof repair near me\" and you'll find us because we're actually local, not an out-of-town crew. Call (904) 606-5313 any time." },
+  { question: "Is there emergency roofing near me that responds the same day?", answer: "Yes. Gimo's Roofing responds same-day to active leaks and storm damage anywhere in our Jacksonville service area. We're licensed (FL CCC1332453), local, and answer the phone, which is what separates real emergency roofing near you from a call center that books you for next week." },
   { question: "Do you offer 24/7 emergency roof repair in Jacksonville?", answer: "Yes, Gimos Roofing provides emergency roof repair services in Jacksonville FL. We respond quickly to active leaks, storm damage, and urgent roofing situations. Call (904) 606-5313 for immediate assistance." },
   { question: "What qualifies as a roofing emergency?", answer: "Roofing emergencies include active water leaks entering your home, significant storm or wind damage, fallen trees or debris on your roof, and structural damage that poses safety risks. If water is entering your home or your roof is compromised, that's an emergency." },
   { question: "Will my insurance cover emergency roof repairs?", answer: "Most homeowner insurance policies cover roof damage caused by storms, wind, hail, and fallen trees. We document all damage thoroughly and can work with your insurance company on claims. You're typically responsible for your deductible." },
@@ -62,51 +64,10 @@ const faqs = [
   { question: "How long do emergency repairs last?", answer: "Temporary repairs like tarping last 30-90 days. Permanent repairs are designed to last the remaining life of your roof (10-20+ years). We'll advise if damage is severe enough that full replacement is the better option." }
 ]
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@id": "https://www.gimosroofing.com/services/emergency-roof-repair#service",
-  "@type": "Service",
-  "name": "Emergency Roof Repair in Jacksonville FL",
-  "serviceType": "Emergency Roof Repair",
-  "description": "24/7 emergency roof repair in Jacksonville FL for storm damage, active leaks, tarping, and urgent roofing issues across Duval, St. Johns, Clay, and Nassau counties.",
-  "url": "https://www.gimosroofing.com/services/emergency-roof-repair",
-  "provider": { "@id": "https://www.gimosroofing.com/#organization" },
-  "areaServed": [
-    { "@type": "City", "name": "Jacksonville, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville,_Florida" },
-    { "@type": "City", "name": "Jacksonville Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" },
-    { "@type": "City", "name": "Atlantic Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Atlantic_Beach,_Florida" },
-    { "@type": "City", "name": "Neptune Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Neptune_Beach,_Florida" },
-    { "@type": "City", "name": "St. Augustine, FL", "sameAs": "https://en.wikipedia.org/wiki/St._Augustine,_Florida" },
-    { "@type": "City", "name": "Ponte Vedra Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" },
-    { "@type": "City", "name": "Nocatee, FL", "sameAs": "https://en.wikipedia.org/wiki/Nocatee,_Florida" },
-    { "@type": "City", "name": "Orange Park, FL", "sameAs": "https://en.wikipedia.org/wiki/Orange_Park,_Florida" },
-    { "@type": "City", "name": "Fernandina Beach, FL", "sameAs": "https://en.wikipedia.org/wiki/Fernandina_Beach,_Florida" }
-  ],
-  "hoursAvailable": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-    "opens": "00:00",
-    "closes": "23:59"
-  },
-  "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "priceCurrency": "USD",
-    "priceSpecification": {
-      "@type": "PriceSpecification",
-      "minPrice": "300",
-      "maxPrice": "3500",
-      "priceCurrency": "USD"
-    }
-  }
-
-}
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@id": "https://www.gimosroofing.com/services/emergency-roof-repair#faq",
   "@type": "FAQPage",
-  "about": { "@id": "https://www.gimosroofing.com/services/emergency-roof-repair#service" },
   "mainEntityOfPage": "https://www.gimosroofing.com/services/emergency-roof-repair",
   "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
   "mainEntity": faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
@@ -126,7 +87,6 @@ const breadcrumbSchema = {
 export default function EmergencyRoofRepairPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -142,9 +102,10 @@ export default function EmergencyRoofRepairPage() {
                 <span className="mx-2 text-gray-400">/</span>
                 <span className="text-primary">Emergency Roof Repair</span>
               </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Emergency Roof Repair - 24/7 Response</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-2">Emergency Roof Repair Jacksonville FL</h1>
+              <h2 className="text-xl md:text-2xl font-semibold text-primary mb-4">24/7 Response</h2>
               <p className="text-lg text-gray-200 mb-6">
-                Searching for emergency roof repair near me? Gimo&apos;s Roofing responds fast to active leaks, storm damage, and urgent roofing issues across Duval, St. Johns, Clay, and Nassau counties. Call the moment something goes wrong and we&apos;ll secure your home before the damage spreads.
+                Searching for emergency roof repair near me in Jacksonville? Gimo&apos;s Roofing is the local emergency roofing company that actually answers, responding fast to active leaks, storm damage, and urgent roofing issues across Duval, St. Johns, Clay, and Nassau counties, including Arlington, Riverside, San Marco, and every neighborhood in between. Call the moment something goes wrong and we&apos;ll secure your home before the damage spreads.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href={`tel:+19046065313`} className="btn btn-primary w-full sm:w-auto text-center font-bold">
@@ -178,7 +139,7 @@ export default function EmergencyRoofRepairPage() {
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">24/7 Emergency Roofing Response</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              <strong>Gimo&apos;s Roofing provides emergency roof repair in Jacksonville, FL, 24 hours a day, including weekends and holidays.</strong> Licensed and insured, the team responds to active leaks, storm damage, and urgent roofing issues across Duval, St. Johns, Clay, and Nassau counties with rapid tarping and same-day repairs whenever the storm hits. <a href={estimateUrl} id="cta-snippet-emergency-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-emergency-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a> now.
+              <strong>Gimo&apos;s Roofing provides emergency roof repair Jacksonville FL homeowners can call day or night, 24 hours a day, including weekends and holidays.</strong> If you searched for emergency roofing near me or emergency roofers near me, this is the local, licensed and insured crew that shows up. We respond to active leaks, storm damage, and urgent roofing issues across Duval, St. Johns, Clay, and Nassau counties with rapid tarping and same-day repairs whenever the storm hits. <a href={estimateUrl} id="cta-snippet-emergency-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-emergency-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a> now.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -273,110 +234,80 @@ export default function EmergencyRoofRepairPage() {
         </div>
       </section>
 
-      {/* What to Do During a Roof Emergency */}
+      {/* Why Jacksonville Homeowners Call Us First */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">What to Do During a Roof Emergency</h2>
-              <p className="text-gray-600 mb-6">While waiting for our emergency team, there are steps you can take to minimize damage and protect your family.</p>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Why Jacksonville Homeowners Call Us First</h2>
+              <p className="text-gray-600 mb-6">When water is coming through your ceiling, you need a crew that actually shows up, not a call center that books you for next week. Here&apos;s what sets our emergency response apart.</p>
 
               <div className="space-y-4">
                 <div className="card p-6">
-                  <h3 className="font-bold text-secondary mb-2">Ensure Safety First</h3>
-                  <p className="text-gray-600 text-sm">If there&apos;s active water entering near electrical outlets, turn off power to affected areas. Don&apos;t attempt to climb on a damaged roof yourself - wet or damaged roofs are extremely dangerous.</p>
+                  <h3 className="font-bold text-secondary mb-2">Licensed, Local, and On the Job Fast</h3>
+                  <p className="text-gray-600 text-sm">We&apos;re FL License #CCC1332453 and CertainTeed Certified, based right here in Jacksonville, not an out-of-town crew passing through after a storm. Same-day response is standard for active emergencies.</p>
                 </div>
                 <div className="card p-6">
-                  <h3 className="font-bold text-secondary mb-2">Contain Water Intrusion</h3>
-                  <p className="text-gray-600 text-sm">Place buckets, bins, or trash cans under active leaks. Lay plastic sheeting or towels to protect flooring. If you have safe attic access, consider placing tarps over insulation to redirect water.</p>
+                  <h3 className="font-bold text-secondary mb-2">Insurance Documentation Handled for You</h3>
+                  <p className="text-gray-600 text-sm">Every emergency call includes photo and video documentation of the damage, the kind adjusters actually want to see, so your claim has the evidence it needs from day one.</p>
                 </div>
                 <div className="card p-6">
-                  <h3 className="font-bold text-secondary mb-2">Move Valuables</h3>
-                  <p className="text-gray-600 text-sm">Relocate furniture, electronics, and personal belongings away from the leak area. Water damage can happen quickly - items don&apos;t need to be directly under a leak to be damaged by spreading moisture.</p>
-                </div>
-                <div className="card p-6">
-                  <h3 className="font-bold text-secondary mb-2">Document Everything</h3>
-                  <p className="text-gray-600 text-sm">Take photos and videos of the damage, both inside and outside if safe to do so. Document the date and time. This documentation is essential for insurance claims.</p>
+                  <h3 className="font-bold text-secondary mb-2">One Contractor, Start to Finish</h3>
+                  <p className="text-gray-600 text-sm">The crew that tarps your roof is the same crew that handles the permanent repair. No handoff to a subcontractor, no re-explaining the damage to someone new.</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-red-50 border-l-4 border-red-500 rounded-xl p-8">
-              <h3 className="text-xl font-bold text-red-700 mb-4">What NOT to Do</h3>
-              <ul className="space-y-4 text-gray-700">
-                <li className="flex items-start gap-3">
-                  <span className="text-red-500 font-bold mt-1">✕</span>
-                  <span><strong>Don&apos;t climb on the roof</strong> - Damaged, wet roofs are extremely dangerous. Let professionals handle roof access.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-red-500 font-bold mt-1">✕</span>
-                  <span><strong>Don&apos;t ignore small leaks</strong> - Even minor leaks cause significant damage over time. Mold can develop within 24-48 hours.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-red-500 font-bold mt-1">✕</span>
-                  <span><strong>Don&apos;t make permanent repairs yourself</strong> - DIY roof repairs often cause more damage and can void warranties and insurance coverage.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-red-500 font-bold mt-1">✕</span>
-                  <span><strong>Don&apos;t delay calling</strong> - The longer water enters your home, the more extensive (and expensive) the damage becomes.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-red-500 font-bold mt-1">✕</span>
-                  <span><strong>Don&apos;t hire storm chasers</strong> - Out-of-town contractors who appear after storms often do poor work and disappear. Use local, licensed contractors.</span>
-                </li>
-              </ul>
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/emergency-roof-repair-jacksonville-fl.webp" alt="Emergency roof repair completed by Gimo's Roofing in Jacksonville FL" title="Emergency roof repair in Jacksonville FL" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
             </div>
+          </div>
+
+          <div className="mt-12 bg-red-50 border-l-4 border-red-500 rounded-xl p-8 max-w-4xl mx-auto">
+            <h3 className="text-xl font-bold text-red-700 mb-3">Watch Out for Storm Chasers</h3>
+            <p className="text-gray-700">After major storms, out-of-town contractors often go door to door in Jacksonville neighborhoods, collect a deposit, and disappear before the work is done, or do repairs sloppy enough to void your insurance coverage. Ask any contractor for their FL license number before signing anything. We&apos;re FL CCC1332453, and we&apos;ll still be here next year for your warranty, not just for storm season.</p>
           </div>
         </div>
       </section>
 
-      {/* Emergency Tarping Details */}
+      {/* Emergency Tarping, Backed by Real Work */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Emergency Roof Tarping</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">Emergency tarping provides critical protection while permanent repairs are planned. Here&apos;s what to expect from our tarping services.</p>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Emergency Tarping, Included in Every Response</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">Heavy-duty tarps, properly secured with wood battens and fasteners rather than just weights, buy time for a permanent repair to be planned right instead of rushed.</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="card p-6">
-              <h3 className="font-bold text-secondary mb-3">What We Do</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li className="flex items-start gap-2">
-                  <span className="text-primary">&#10003;</span>
-                  <span>Heavy-duty UV-resistant tarps sized for your damage area</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary">&#10003;</span>
-                  <span>Proper securing with wood battens and fasteners (not just weights)</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary">&#10003;</span>
-                  <span>Coverage extending beyond damage for complete protection</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary">&#10003;</span>
-                  <span>Documentation photos for insurance claims</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary">&#10003;</span>
-                  <span>Assessment of underlying damage extent</span>
-                </li>
-              </ul>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 max-w-4xl mx-auto">
+            <div className="card p-4 text-center">
+              <p className="text-2xl font-bold text-primary">$300-800</p>
+              <p className="text-gray-600 text-sm">Typical tarping cost</p>
             </div>
+            <div className="card p-4 text-center">
+              <p className="text-2xl font-bold text-primary">Same-Day</p>
+              <p className="text-gray-600 text-sm">Response for most emergencies</p>
+            </div>
+            <div className="card p-4 text-center">
+              <p className="text-2xl font-bold text-primary">30-90 Days</p>
+              <p className="text-gray-600 text-sm">Typical tarp lifespan</p>
+            </div>
+            <div className="card p-4 text-center">
+              <p className="text-2xl font-bold text-primary">Usually Covered</p>
+              <p className="text-gray-600 text-sm">By homeowners insurance</p>
+            </div>
+          </div>
 
-            <div className="card p-6">
-              <h3 className="font-bold text-secondary mb-3">Tarping Details</h3>
-              <ul className="space-y-3 text-gray-600">
-                <li><strong>Cost:</strong> Typically $300-800 depending on damage size and roof access</li>
-                <li><strong>Duration:</strong> Properly installed tarps last 30-90 days through normal weather</li>
-                <li><strong>Timing:</strong> Same-day service for most emergencies</li>
-                <li><strong>Insurance:</strong> Tarping costs are typically covered as part of your claim</li>
-              </ul>
-              <div className="mt-4 p-4 bg-yellow-50 rounded-lg">
-                <p className="text-sm text-yellow-800"><strong>Important:</strong> Tarping is temporary protection, not a permanent fix. Plan for permanent repairs within 30-60 days to prevent further damage.</p>
-              </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/roof-work-in-progress.webp" alt="Roofing crew mid-repair on a Jacksonville FL roof" title="Emergency roof repair crew at work" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
             </div>
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/residential-shingle-reroof-in-progress-jacksonville-fl.webp" alt="Residential roof repair in progress in Jacksonville FL" title="Roof repair in progress" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+            </div>
+          </div>
+
+          <div className="mt-8 card p-6 bg-yellow-50 max-w-3xl mx-auto text-center border border-yellow-200">
+            <p className="text-sm text-yellow-800"><strong>Tarping is temporary protection, not a permanent fix.</strong> We schedule the permanent repair within 30-60 days of tarping so the temporary fix never becomes the long-term one.</p>
           </div>
         </div>
       </section>
@@ -422,7 +353,7 @@ export default function EmergencyRoofRepairPage() {
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Jacksonville Emergency Roof Repair Service Areas</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              We provide emergency roofing services across Duval, St. Johns, Clay, and Nassau counties.
+              We provide emergency roofing services across Duval, St. Johns, Clay, and Nassau counties, including <Link href="/roofing-southside-jax-fl" className="text-primary hover:underline">Arlington</Link> and every neighborhood listed below.
             </p>
           </div>
           <div className="space-y-8">

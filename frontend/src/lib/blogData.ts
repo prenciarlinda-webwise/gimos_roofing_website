@@ -22,6 +22,7 @@ export interface BlogPost {
   content: string
   image?: string
   imageAlt?: string
+  featuredVideoEmbedUrl?: string // full YouTube embed src (video or playlist, with autoplay/mute params) - when set, renders as an autoplaying video in the hero slot instead of the static image
   category: string
   date: string
   dateModified?: string
@@ -20067,6 +20068,365 @@ export const blogPosts: BlogPost[] = [
       { question: "Should every roofing quote cover the same scope of work?", answer: "No, and that's exactly why comparing bottom-line prices alone is misleading. One contractor might quote a full tear-off with premium underlayment and a 25-year enhanced warranty, while another quotes a recover with standard materials and a 10-year workmanship warranty. Ask each contractor for a written, itemized scope so you can compare the same categories side by side rather than two different projects." },
       { question: "What's a normal workmanship warranty length for a roof replacement in Florida?", answer: "Workmanship warranties commonly range from 1 to 10 years among standard contractors, but manufacturer-certified installers can often register enhanced warranties that extend labor coverage to 25 years or more, matching the material warranty. Always get the workmanship warranty length in writing in the contract, since a verbal promise about warranty coverage isn't enforceable if a dispute comes up later." },
       { question: "How many roofing quotes should I get before choosing a contractor?", answer: "Most homeowners should collect at least two, and ideally three, written quotes with a full scope of work before deciding. Three quotes give you enough range to spot outliers, whether unusually high or suspiciously low, and enough detail to confirm the contractors are genuinely bidding on the same project rather than three different versions of the job." }
+    ]
+  },
+
+  {
+    slug: "watch-our-roofing-projects-youtube",
+    title: "Watch Our Roofing Projects in Action on YouTube",
+    metaTitle: "Gimo's Roofing Videos - Watch Our Projects on YouTube",
+    excerpt: "See real Jacksonville roofing and siding jobs from the drone, the roof, and the ground. Subscribe to Gimo's Roofing on YouTube for new project videos as we post them.",
+    category: "Project Spotlight",
+    date: "2026-08-05",
+    publishDate: "2026-08-05",
+    dateModified: "2026-08-05",
+    readTime: "3 min read",
+    image: "/images/aerial-roof-inspection-jacksonville-fl-2.webp",
+    imageAlt: "Aerial drone view of a completed roof in Jacksonville FL, the kind of footage featured on Gimo's Roofing's YouTube channel",
+    featuredVideoEmbedUrl: "https://www.youtube.com/embed/videoseries?list=UU-Vq8SO3cVfOnWExWnt3K0w&autoplay=1&mute=1&playsinline=1",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "quick-answer", title: "Why We Film Our Jobs" },
+      { id: "what-you-will-see", title: "What You Will See" },
+      { id: "recent-projects", title: "Recent Projects on Camera" },
+      { id: "subscribe", title: "Subscribe for New Videos" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6" id="quick-answer">We post real footage from our Jacksonville roofing and siding jobs, drone flyovers, tear-offs, underlayment and shingle installs, and finished results, on our YouTube channel, <a href="https://www.youtube.com/@GimosRoofing" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline font-semibold">Gimo's Roofing</a>. The player above always shows our most recent upload, so check back here anytime to see the latest job.</p>
+
+<p class="text-gray-600 mb-6">Considering a re-roof of your own? Get a free roof estimate in <a href="/roofing-fernandina-beach-fl" class="text-primary font-semibold hover:underline">Fernandina Beach</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-youtube-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<p class="text-gray-600 mb-6">Roofing is one of the largest investments most homeowners make in their property, and most of the work happens somewhere you cannot easily see it, on top of the house. Drone footage and jobsite video let you see exactly how a tear-off, underlayment, and shingle or metal install actually happens before you commit to a contractor. It is also the most honest way to show the finished product, from ground level and from the air, on real homes and commercial properties across Jacksonville.</p>
+
+<p class="text-gray-600 mb-6">Our <a href="/services/commercial-roofing" class="text-primary hover:underline">commercial roofing</a> and residential re-roof projects both show up on the channel, along with siding jobs, chimney work, and storm repairs as we complete them.</p>
+
+<img src="/images/roofing-crew-shingle-installation-jacksonville-fl.webp" alt="Gimo's Roofing crew installing shingles on a Jacksonville FL roof" title="Gimo's Roofing crew at work" class="w-full rounded-xl shadow-lg my-6" loading="lazy" width="1600" height="900" />
+
+<h2 id="what-you-will-see" class="text-2xl font-bold text-secondary mt-10 mb-4">What You Will See</h2>
+
+<p class="text-gray-600 mb-4">Every job is different, but here is the kind of footage that shows up on the channel regularly:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Drone flyovers</strong> of finished roofs, useful for seeing overall workmanship and clean lines you cannot get from the ground</li>
+<li><strong>Tear-offs and underlayment installs</strong> showing the parts of a re-roof that get covered up and never seen again once shingles go down</li>
+<li><strong>Commercial projects</strong> including hotel, office, and multi-unit property roof replacements</li>
+<li><strong>Before and after</strong> comparisons on residential re-roofs and siding jobs</li>
+</ul>
+
+<div class="grid grid-cols-2 gap-4 my-6">
+<img src="/images/aerial-roof-inspection-jacksonville-fl-1.webp" alt="Aerial drone shot of a completed roof in Jacksonville FL" title="Aerial roof footage" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+<img src="/images/commercial-roofing-crew-installing-underlayment-florida.webp" alt="Commercial roofing crew installing underlayment on a Florida property" title="Commercial roofing crew at work" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+</div>
+
+<h2 id="recent-projects" class="text-2xl font-bold text-secondary mt-10 mb-4">Recent Projects on Camera</h2>
+
+<p class="text-gray-600 mb-6">Some of our recent jobs have their own dedicated video and write-up. Watch our <a href="/blog/commercial-roof-replacement-hotel-palms-video" class="text-primary hover:underline">Hotel Palms commercial roof replacement</a> in Atlantic Beach, <a href="/blog/day-on-the-roof-with-gimos-roofing" class="text-primary hover:underline">a day on the roof with our crew</a>, or a <a href="/blog/shingle-reroof-project-video" class="text-primary hover:underline">recent shingle re-roof project</a>.</p>
+
+<h2 id="subscribe" class="text-2xl font-bold text-secondary mt-10 mb-4">Subscribe for New Videos</h2>
+
+<p class="text-gray-600 mb-6">We add new project footage regularly. Subscribe on <a href="https://www.youtube.com/@GimosRoofing" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">YouTube</a> to see new jobs as we post them, or if you want to see your own project on camera, mention it when you request your estimate.</p>
+
+<p class="text-gray-600 mb-6">Ready to get your project started? See our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement service</a> for pricing and process, or call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free estimate.</p>`,
+    faqs: [
+      { question: "Where can I watch Gimo's Roofing project videos?", answer: "All of our project videos, including drone flyovers, tear-offs, installs, and finished results, are posted on our YouTube channel at youtube.com/@GimosRoofing. We post both full-length videos and short clips." },
+      { question: "Can Gimo's Roofing film my roofing project?", answer: "Often, yes. If you would like your project featured, mention it when you request your free estimate and we can discuss filming as part of the job." },
+      { question: "How often does Gimo's Roofing post new videos?", answer: "We post new footage regularly as jobs are completed. Subscribing on YouTube is the best way to see new project videos as soon as they go up." }
+    ]
+  },
+
+  {
+    slug: "church-roof-replacement-project",
+    title: "Church Roof Replacement: A Recent Jacksonville Project",
+    metaTitle: "Church Roof Replacement Project - Gimo's Roofing",
+    excerpt: "A look at a recent church roof replacement completed by Gimo's Roofing, from tear-off through a finished dimensional shingle roof, plus what churches and other religious buildings should know before re-roofing.",
+    category: "Project Spotlight",
+    date: "2026-08-05",
+    publishDate: "2026-08-05",
+    dateModified: "2026-08-05",
+    readTime: "4 min read",
+    image: "/images/church-roof-replacement-jacksonville-fl-aerial.webp",
+    imageAlt: "Aerial view of a completed church roof replacement in the Jacksonville FL area, new dimensional shingles installed by Gimo's Roofing",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Answer" },
+      { id: "the-project", title: "The Project" },
+      { id: "why-churches-are-different", title: "Why Church Roofs Are Different" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Gimo's Roofing recently completed a full roof replacement on a church in the Jacksonville area, tearing off the old roof and installing a new dimensional shingle system across the main sanctuary roof and the adjoining sections. Church and religious-building roofs come with their own set of considerations, larger, more complex rooflines, steeples and other penetrations, and a building that often needs to stay in use during construction, and this project is a good example of how we approach that work.</p>
+
+<p class="text-gray-600 mb-6">Managing a re-roof on a religious or community building in Northeast Florida? Get a free roof estimate in <a href="/roofing-st-augustine-fl" class="text-primary font-semibold hover:underline">St. Augustine</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-church-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-10 mb-4">The Project</h2>
+
+<p class="text-gray-600 mb-4">This project involved a complete tear-off of the existing roof down to the deck, followed by new underlayment and a new dimensional (architectural) asphalt shingle system across the church's main roof planes, including the sections around the steeple. Aerial photography before and after the job let us document the full roofline clearly, something that is harder to do from the ground on a building with this much roof area and multiple roof pitches.</p>
+
+<p class="text-gray-600 mb-4">Like most of our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> projects, the work followed the same core sequence: tear-off and deck inspection, repair of any damaged decking found underneath the old roofing, new underlayment for weatherproofing, and then the finish shingle layer, flashed and finished around every penetration and roof-to-wall transition.</p>
+
+<h2 id="why-churches-are-different" class="text-2xl font-bold text-secondary mt-10 mb-4">Why Church Roofs Are Different</h2>
+
+<p class="text-gray-600 mb-4">Churches and other religious buildings often present a few challenges that a typical residential re-roof does not:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Larger, more complex rooflines.</strong> Multiple intersecting roof planes, steeples, and cupolas mean more valleys, hips, and flashing details than a standard home.</li>
+<li><strong>Steeples and towers.</strong> These features have their own flashing and weatherproofing needs where they meet the main roof, a common source of leaks if not detailed correctly.</li>
+<li><strong>Occupied buildings.</strong> Many churches need to stay in use for services and events during construction, which affects scheduling and how work is staged.</li>
+<li><strong>Older construction.</strong> Many church buildings are older structures, so deck condition and structural inspection matter as much as the new roofing material itself.</li>
+</ul>
+
+<p class="text-gray-600 mb-6">We handle <a href="/services/commercial-roofing" class="text-primary hover:underline">commercial and institutional roofing</a> projects like this one throughout Jacksonville and Northeast Florida, and we work with church boards and building committees on scheduling and budgeting the same way we would with any commercial property owner.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Church and religious-building roofs typically involve more complex rooflines and penetrations than residential roofs</li>
+<li>A full tear-off with new underlayment gives the most reliable long-term result on an older building</li>
+<li>Steeples, towers, and roof-to-wall transitions need careful flashing detail to prevent leaks</li>
+<li>We can often phase or schedule work around a congregation's regular use of the building</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Have a church, school, or other community building that needs a roof inspection or replacement? Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free estimate.</p>`,
+    faqs: [
+      { question: "Do you replace roofs on churches and other religious buildings?", answer: "Yes. We handle roof replacement and repair on churches, community centers, and other religious or institutional buildings throughout Jacksonville and Northeast Florida, including buildings with complex rooflines, steeples, and other architectural features." },
+      { question: "Can a church stay open during a roof replacement?", answer: "Often, yes. We work with church boards and building committees to schedule and phase work around regular services and events wherever possible, the same way we coordinate with any commercial property that needs to stay operational during construction." },
+      { question: "What roofing material is best for a church roof?", answer: "Dimensional (architectural) asphalt shingles are a common, cost-effective choice for church main roofs in Florida, offering a strong wind rating and a long warranty. Metal roofing is another popular option for steeples, towers, and accent roofs due to its durability and distinctive look." }
+    ]
+  },
+
+  {
+    slug: "commercial-roof-replacement-hotel-palms-video",
+    title: "Watch: Commercial Roof Replacement at Hotel Palms in Atlantic Beach",
+    metaTitle: "Hotel Palms Commercial Roof Replacement Video - Gimo's Roofing",
+    excerpt: "Video of the commercial roof replacement Gimo's Roofing completed at Hotel Palms, a retro-chic 1947 motor court boutique hotel in Atlantic Beach, FL.",
+    category: "Project Spotlight",
+    date: "2026-08-05",
+    publishDate: "2026-08-05",
+    dateModified: "2026-08-05",
+    readTime: "3 min read",
+    image: "/images/hotel-palms-commercial-roof-replacement-atlantic-beach-fl.webp",
+    imageAlt: "Aerial view of the completed commercial roof replacement at Hotel Palms, a boutique hotel in Atlantic Beach FL",
+    featuredVideoEmbedUrl: "https://www.youtube.com/embed/VDioDNEiR4I?autoplay=1&mute=1&playsinline=1",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "the-project", title: "The Project" },
+      { id: "in-progress", title: "Tear-Off and Install" },
+      { id: "why-it-matters", title: "Why This Job Was Different" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6" id="the-project">Gimo's Roofing replaced the roof at Hotel Palms, a retro-chic, refurbished 1947 motor court boutique hotel in Atlantic Beach, just three blocks from the ocean and adjacent to Beaches Town Center. The video above shows the completed commercial roof replacement from the air.</p>
+
+<p class="text-gray-600 mb-6">Need a roof quote for your own property in Atlantic Beach? Call Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-hotelpalms-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a free estimate in <a href="/roofing-atlantic-beach-fl" class="text-primary font-semibold hover:underline">Atlantic Beach</a>.</p>
+
+<p class="text-gray-600 mb-6">Hotel Palms is a motor court style property, individual guest room doors open directly onto the courtyard and pool area rather than an interior hallway, which is part of what gives it that retro 1947 character. That layout also shapes how a re-roof like this gets staged: crews work section by section across the connected room wings so guest access and the pool deck stay usable throughout the job.</p>
+
+<h2 id="in-progress" class="text-2xl font-bold text-secondary mt-10 mb-4">Tear-Off and Install</h2>
+
+<p class="text-gray-600 mb-4">Before the finished aerial shots, the job started with a full tear-off down to the deck across each roof section, new underlayment, and a fresh shingle install, the same core process behind every <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> we do, scaled up for a multi-section commercial building.</p>
+
+<div class="grid grid-cols-2 gap-4 my-6">
+<img src="/images/commercial-motel-roof-replacement-in-progress-florida.webp" alt="Hotel Palms commercial roof replacement in progress in Atlantic Beach FL" title="Hotel Palms re-roof in progress" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+<img src="/images/commercial-roofing-crew-installing-underlayment-florida.webp" alt="Roofing crew installing underlayment during the Hotel Palms roof replacement" title="Installing underlayment at Hotel Palms" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+</div>
+
+<img src="/images/chimney-flashing-worker-commercial-roof-florida.webp" alt="Roofer performing chimney flashing work at Hotel Palms in Atlantic Beach FL" title="Chimney flashing work at Hotel Palms" class="w-full rounded-xl shadow-lg my-6" loading="lazy" width="1600" height="900" />
+
+<h2 id="why-it-matters" class="text-2xl font-bold text-secondary mt-10 mb-4">Why This Job Was Different</h2>
+
+<p class="text-gray-600 mb-4">Hotel Palms is an occupied, operating boutique hotel, so the roof replacement had to be scheduled and staged around guests, staff, and the property's pool and courtyard areas, the same kind of coordination we handle on any <a href="/services/commercial-roofing" class="text-primary hover:underline">commercial roofing</a> project. Being three blocks from the ocean also means the roofing system has to hold up to constant salt air, one reason coastal commercial properties in Atlantic Beach, Jacksonville Beach, and Neptune Beach need materials and fasteners specified for that environment rather than a generic inland spec.</p>
+
+<p class="text-gray-600 mb-6">See more of our commercial work on <a href="https://www.youtube.com/@GimosRoofing" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">our YouTube channel</a>, or browse our <a href="/gallery" class="text-primary hover:underline">project gallery</a> for more completed jobs.</p>`,
+    faqs: [
+      { question: "Do you replace roofs on operating hotels and businesses?", answer: "Yes. We coordinate commercial roof replacements around a business's operating hours, guests, and staff, and can phase or schedule work to minimize disruption." },
+      { question: "What roofing considerations matter most for coastal Atlantic Beach properties?", answer: "Salt air accelerates corrosion on bare metal and fasteners, so coastal commercial and residential roofs near Atlantic Beach, Jacksonville Beach, and Neptune Beach need corrosion-resistant materials and fasteners specified for that exposure." }
+    ]
+  },
+
+  {
+    slug: "day-on-the-roof-with-gimos-roofing",
+    title: "A Day on the Roof with Gimo's Roofing",
+    metaTitle: "A Day on the Roof with Gimo's Roofing - Video",
+    excerpt: "Go behind the scenes with the Gimo's Roofing crew on a real Jacksonville-area jobsite, plus a look at who we are as a roofing contractor.",
+    category: "Project Spotlight",
+    date: "2026-08-05",
+    publishDate: "2026-08-05",
+    dateModified: "2026-08-05",
+    readTime: "3 min read",
+    image: "/images/roofing-crew-shingle-installation-jacksonville-fl.webp",
+    imageAlt: "Gimo's Roofing crew installing shingles on a Jacksonville FL roof",
+    featuredVideoEmbedUrl: "https://www.youtube.com/embed/syUgpECQhn4?autoplay=1&mute=1&playsinline=1",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "the-video", title: "A Day on the Roof" },
+      { id: "what-a-day-looks-like", title: "What a Day on the Roof Looks Like" },
+      { id: "who-we-are", title: "Who We Are" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6" id="the-video">This video follows the Gimo's Roofing crew through a day on a real Jacksonville-area jobsite, from setup to shingle installation. It's an honest look at how we actually work, not a produced highlight reel.</p>
+
+<p class="text-gray-600 mb-6">Ready to see our crew on your roof? Get a free roof estimate in <a href="/roofing-nocatee-fl" class="text-primary font-semibold hover:underline">Nocatee</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-dayontheroof-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<h2 id="what-a-day-looks-like" class="text-2xl font-bold text-secondary mt-10 mb-4">What a Day on the Roof Looks Like</h2>
+
+<p class="text-gray-600 mb-4">A typical re-roof day starts early: staging materials, setting up fall protection, and tearing off the old roofing before the Florida sun gets too hot to work comfortably. From there the crew moves through deck inspection and repair, underlayment, and shingle installation, working section by section across the roof. Debris comes off the roof throughout the day, which is why you'll usually see an on-site dumpster, on this job rented from <a href="https://www.904dumpster.com/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">904 Dumpster</a>, a local Jacksonville dumpster rental company we work with for roofing debris removal.</p>
+
+<img src="/images/aerial-roof-inspection-jacksonville-fl-3.webp" alt="Aerial drone view of a Gimo's Roofing crew working on a Jacksonville FL roof" title="A day on the roof, aerial view" class="w-full rounded-xl shadow-lg my-6" loading="lazy" width="1600" height="900" />
+
+<div class="grid grid-cols-2 gap-4 my-6">
+<img src="/images/residential-shingle-reroof-in-progress-jacksonville-fl.webp" alt="Roofing crew mid-installation on a residential re-roof in Jacksonville FL" title="Re-roof in progress" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+<img src="/images/roof-work-in-progress.webp" alt="Roofing crew mid-project in Jacksonville FL" title="Roof work in progress" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+</div>
+
+<h2 id="who-we-are" class="text-2xl font-bold text-secondary mt-10 mb-4">Who We Are</h2>
+
+<p class="text-gray-600 mb-4">Gimo's Roofing is a Jacksonville-based roofing and siding contractor, FL License #CCC1332453 and CertainTeed Certified, handling <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a>, <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a>, and siding work across Duval, St. Johns, Clay, and Nassau counties. We film jobsite video like this one so homeowners can see our actual crew and workmanship before hiring, not just finished photos.</p>
+
+<div class="rounded-2xl overflow-hidden shadow-xl my-6">
+<div class="relative aspect-video">
+<iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/B6A8iC7iC3o" title="Roofing Contractors in Jacksonville FL - Gimo's Roofing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+</div>
+</div>
+
+<p class="text-gray-600 mb-6">Want to see more? Subscribe on <a href="https://www.youtube.com/@GimosRoofing" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">our YouTube channel</a> for new jobsite videos as we post them.</p>`,
+    faqs: [
+      { question: "Does Gimo's Roofing film its own jobs?", answer: "Yes. We post real jobsite footage, drone flyovers, crew video, and finished results, on our YouTube channel so homeowners can see our actual work before hiring." },
+      { question: "What areas does Gimo's Roofing serve?", answer: "We serve Jacksonville and the surrounding Northeast Florida area, including Duval, St. Johns, Clay, and Nassau counties." }
+    ],
+    partners: [
+      { name: "904 Dumpster", url: "https://www.904dumpster.com/", role: "Dumpster rental for roofing debris removal" }
+    ]
+  },
+
+  {
+    slug: "shingle-reroof-project-video",
+    title: "Watch: Another Shingle Re-Roof Project",
+    metaTitle: "Shingle Re-Roof Project Video - Gimo's Roofing",
+    excerpt: "Video of a shingle re-roof completed by Gimo's Roofing, from tear-off to finished dimensional shingle roof.",
+    category: "Project Spotlight",
+    date: "2026-08-05",
+    publishDate: "2026-08-05",
+    dateModified: "2026-08-05",
+    readTime: "3 min read",
+    image: "/images/shingle-roof-replacement-project.webp",
+    imageAlt: "Completed shingle roof replacement project in Jacksonville FL",
+    featuredVideoEmbedUrl: "https://www.youtube.com/embed/vwdklCHAHds?autoplay=1&mute=1&playsinline=1",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "the-video", title: "The Re-Roof" },
+      { id: "the-process", title: "Tear-Off to Finished Roof" },
+      { id: "more-clips", title: "More Project Clips" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6" id="the-video">This video shows a full shingle re-roof completed by Gimo's Roofing, from tear-off through the finished dimensional shingle roof. It's a good look at what the process actually involves on a typical Jacksonville-area home.</p>
+
+<p class="text-gray-600 mb-6">Planning a re-roof of your own? Get a free roof estimate in <a href="/roofing-ponte-vedra-beach-fl" class="text-primary font-semibold hover:underline">Ponte Vedra Beach</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-shinglereroof-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<h2 id="the-process" class="text-2xl font-bold text-secondary mt-10 mb-4">Tear-Off to Finished Roof</h2>
+
+<p class="text-gray-600 mb-4">A shingle re-roof like this one follows the same core sequence every time: full tear-off down to the deck, repair of any damaged decking found underneath, new underlayment for weatherproofing, and then the dimensional shingle layer, flashed and finished at every penetration and roof-to-wall transition.</p>
+
+<div class="grid grid-cols-2 gap-4 my-6">
+<img src="/images/roofing-crew-shingle-installation-jacksonville-fl.webp" alt="Roofing crew installing shingles during a re-roof in Jacksonville FL" title="Shingle installation" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+<img src="/images/aerial-roof-inspection-jacksonville-fl-6.webp" alt="Aerial drone view of a completed shingle re-roof in Jacksonville FL" title="Completed shingle re-roof, aerial view" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+</div>
+
+<h2 id="more-clips" class="text-2xl font-bold text-secondary mt-10 mb-4">More Project Clips</h2>
+
+<p class="text-gray-600 mb-4">For the full process breakdown of what a shingle re-roof involves, see our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement service</a> page. We also post shorter clips from active jobsites on YouTube, including quick looks at individual steps like tear-off and underlayment.</p>
+
+<div class="rounded-2xl overflow-hidden shadow-xl my-6 max-w-sm mx-auto">
+<div class="relative" style="aspect-ratio: 9/16;">
+<iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/xu2wsK0ZkV0" title="Gimo's Roofing project short" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+</div>
+</div>
+
+<p class="text-gray-600 mb-6">See the full library, including all of our short-form clips, on <a href="https://www.youtube.com/@GimosRoofing" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">our YouTube channel</a>.</p>`,
+    faqs: [
+      { question: "How long does a shingle re-roof take?", answer: "Most residential shingle re-roofs in Jacksonville take one to three days from tear-off to finished roof, depending on the size and complexity of the roof and weather conditions." },
+      { question: "What's included in a shingle re-roof?", answer: "A full shingle re-roof includes tear-off of the old roofing down to the deck, repair of any damaged decking, new underlayment, and installation of new shingles with flashing at all penetrations and roof-to-wall transitions." }
+    ]
+  },
+
+  {
+    slug: "chimney-cap-replacement-cost-florida",
+    title: "How Much Does It Cost to Replace a Chimney Cap?",
+    metaTitle: "Chimney Cap Replacement Cost Guide - Florida",
+    excerpt: "A breakdown of what chimney cap replacement actually costs, the material options, and why a missing or rusted-out cap is one of the cheapest roof problems to fix relative to the damage it prevents.",
+    category: "Costs",
+    date: "2026-08-06",
+    publishDate: "2026-08-06",
+    dateModified: "2026-08-06",
+    readTime: "6 min read",
+    image: "/images/chimney-cap-replacement-jacksonville-fl-2.webp",
+    imageAlt: "New stainless steel chimney cap installed on a Jacksonville FL roof",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Answer" },
+      { id: "cost-factors", title: "What Drives the Cost" },
+      { id: "materials", title: "Cap Materials Compared" },
+      { id: "diy-vs-pro", title: "DIY vs Professional Installation" },
+      { id: "why-it-matters", title: "Why a Cap Matters More Than It Looks" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Chimney cap replacement typically costs $150 to $500 installed, depending on chimney size, material, and whether the flue needs a single or multi-flue cap. Galvanized steel sits at the low end, stainless steel and copper cost more upfront but resist corrosion far longer, especially in humid or coastal climates. It's one of the least expensive roof-related repairs relative to the water damage a missing cap can cause.</p>
+
+<p class="text-gray-600 mb-6">Noticed a missing or rusted-out cap on your chimney? Get a free roof estimate in <a href="/roofing-neptune-beach-fl" class="text-primary font-semibold hover:underline">Neptune Beach</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-chimneycapcost-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
+<p class="font-bold text-secondary mb-2">Chimney cap cost at a glance</p>
+<table class="w-full text-sm">
+<tr><td class="py-1"><strong>Galvanized steel:</strong></td><td>$150-$250 installed, shortest lifespan</td></tr>
+<tr><td class="py-1"><strong>Stainless steel:</strong></td><td>$250-$400 installed, best corrosion resistance for the price</td></tr>
+<tr><td class="py-1"><strong>Copper:</strong></td><td>$350-$500+ installed, premium look, very long life</td></tr>
+<tr><td class="py-1"><strong>Multi-flue cap:</strong></td><td>Add $100-$200 for combined chimney systems</td></tr>
+</table>
+</div>
+
+<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-10 mb-4">What Drives the Cost</h2>
+
+<p class="text-gray-600 mb-4">Three things determine what a chimney cap replacement actually costs on your home:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Chimney size:</strong> A standard single-flue residential chimney costs less than a large or multi-flue masonry stack.</li>
+<li><strong>Material:</strong> Galvanized steel is the budget option; stainless steel and copper cost more but last decades longer, especially near the coast.</li>
+<li><strong>Access:</strong> Roof pitch and chimney height affect labor time. A steep roof or unusually tall chimney adds to the price.</li>
+</ul>
+
+<p class="text-gray-600 mb-6">We inspect the chimney in person before quoting, since a cap that looks like a simple swap sometimes reveals flashing or crown damage that needs to be addressed at the same time. See our full <a href="/services/chimney-repair" class="text-primary hover:underline">chimney repair service</a> for the complete range of chimney work and pricing.</p>
+
+<h2 id="cost-factors" class="text-2xl font-bold text-secondary mt-10 mb-4">Cap Materials Compared</h2>
+
+<div class="overflow-x-auto mb-6">
+<table class="w-full text-sm border-collapse">
+<tr class="border-b border-gray-200"><th class="text-left py-2 pr-4">Material</th><th class="text-left py-2 pr-4">Typical Cost</th><th class="text-left py-2 pr-4">Lifespan</th><th class="text-left py-2">Best For</th></tr>
+<tr class="border-b border-gray-100"><td class="py-2 pr-4">Galvanized steel</td><td class="py-2 pr-4">$150-$250</td><td class="py-2 pr-4">10-15 years</td><td class="py-2">Budget-conscious inland homes</td></tr>
+<tr class="border-b border-gray-100"><td class="py-2 pr-4">Stainless steel</td><td class="py-2 pr-4">$250-$400</td><td class="py-2 pr-4">20-25+ years</td><td class="py-2">Most homes, especially coastal</td></tr>
+<tr><td class="py-2 pr-4">Copper</td><td class="py-2 pr-4">$350-$500+</td><td class="py-2 pr-4">30-50+ years</td><td class="py-2">Premium look, long-term value</td></tr>
+</table>
+</div>
+
+<p class="text-gray-600 mb-6">We see galvanized steel caps rust through after 10 to 15 years in Florida's humidity and salt air. For homes near the coast or a river, stainless steel or copper usually pays for itself by avoiding a second replacement within 10 to 15 years.</p>
+
+<h2 id="materials" class="text-2xl font-bold text-secondary mt-10 mb-4">DIY vs Professional Installation</h2>
+
+<p class="text-gray-600 mb-4">A chimney cap is technically a simple part, but installing one safely means working on a roof at height, near a chimney, often on a steep pitch. Beyond the safety risk, an improperly sized or sealed cap can let water in around the edges, which defeats the purpose of replacing it in the first place. Professional installation also means the person on your roof can spot related issues, cracked crown, failing flashing, deteriorated mortar, that a cap-only DIY job would miss entirely.</p>
+
+<h2 id="diy-vs-pro" class="text-2xl font-bold text-secondary mt-10 mb-4">Why a Cap Matters More Than It Looks</h2>
+
+<p class="text-gray-600 mb-4">A chimney cap keeps rain, wind-driven debris, birds, and other animals out of the flue. Without one, water runs straight down the interior of the chimney, saturating the masonry from the inside where you cannot see it happening until spalling brick or interior water stains show up. On a wood-burning chimney, the cap's mesh sides also act as a spark arrestor. A missing or damaged cap is one of the most common sources of chimney leaks we diagnose in Jacksonville, and one of the cheapest to prevent.</p>
+
+<p class="text-gray-600 mb-6">If your chimney is leaking and you are not sure whether the cap, flashing, or crown is the source, a <a href="/services/roof-inspection" class="text-primary hover:underline">roof inspection</a> will identify the actual cause before you pay for the wrong fix.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Chimney cap replacement typically costs $150 to $500 installed depending on material and chimney size</li>
+<li>Stainless steel and copper cost more upfront but resist Florida's humidity and salt air far longer than galvanized steel</li>
+<li>A missing cap is one of the most common, and most preventable, causes of chimney leaks</li>
+<li>Professional installation catches related flashing or crown issues a DIY cap swap would miss</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Have a missing or rusted chimney cap? Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free inspection and firm quote.</p>`,
+    faqs: [
+      { question: "How much does it cost to replace a chimney cap?", answer: "Chimney cap replacement typically costs $150 to $500 installed, depending on chimney size, material, and whether it is a single-flue or multi-flue cap. Galvanized steel is the least expensive option; stainless steel and copper cost more but last significantly longer." },
+      { question: "How long does a chimney cap last?", answer: "Galvanized steel caps typically last 10 to 15 years, especially in humid or coastal climates. Stainless steel caps last 20 to 25 years or more, and copper caps can last 30 to 50 years or longer with minimal maintenance." },
+      { question: "Can I replace a chimney cap myself?", answer: "It's possible but not recommended. Chimney cap installation requires working safely at height near a chimney, and an improperly sized or sealed cap can let water in around the edges. A professional installer can also spot related flashing or crown issues during the same visit." },
+      { question: "Do all chimneys need a cap?", answer: "Yes. Every chimney flue should have a cap to keep out rain, debris, and animals. A chimney without a cap is one of the most common sources of water damage and leaks that we diagnose in older Jacksonville homes." }
     ]
   },
 

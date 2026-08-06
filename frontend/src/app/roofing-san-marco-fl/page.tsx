@@ -114,7 +114,7 @@ export default function SanMarcoPage() {
             Maintaining the barrel tile roofs that define {location}&apos;s Mediterranean character requires the kind of specialized expertise that only dedicated roofing contractors in San Marco Jacksonville FL can deliver. Tile roofing is fundamentally different from shingle work, requiring knowledge of underlayment systems, tile profiles, fastening methods, and the specific challenges of working with clay and concrete barrel tiles on homes that are 80-100 years old. San Marco falls within Duval County Public Schools, and its walkable streets around San Marco Square keep multiple generations of the same families in the neighborhood.
           </p>
           <p className="text-gray-600">
-            At Gimo&apos;s Roofing, we&apos;re tile roofing specialists who understand what makes {location} homes unique. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete barrel tile replacement</Link>, <Link href="/services/roof-repair" className="text-primary hover:underline">targeted tile repairs</Link>, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency storm damage repair</Link>, our team delivers results that honor your home&apos;s architectural heritage while providing modern waterproofing protection.
+            At Gimo&apos;s Roofing, we&apos;re tile roofing specialists who understand what makes {location} homes unique. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete barrel tile replacement</Link>, <Link href="/services/roof-repair" className="text-primary hover:underline">tile roof repair in San Marco</Link>, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair in San Marco, FL</Link>, our team delivers results that honor your home&apos;s architectural heritage while providing modern waterproofing protection.
           </p>
         </div>
       </section>
@@ -188,11 +188,11 @@ export default function SanMarcoPage() {
               <p className="text-gray-600 text-sm">Complete barrel tile roof replacement with matching clay or concrete tiles. New underlayment, flashing, and waterproofing for lasting protection.</p>
             </Link>
             <Link href="/services/roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Tile Roof Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Tile Roof Repair in San Marco, FL</h4>
               <p className="text-gray-600 text-sm">Individual tile replacement, ridge cap repair, and mortar resealing. We source matching tiles to preserve your home&apos;s Mediterranean character.</p>
             </Link>
             <Link href="/services/emergency-roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Emergency Storm Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Emergency Roof Repair in San Marco, FL</h4>
               <p className="text-gray-600 text-sm">24/7 emergency response for hurricane and storm damage. Tarping, tile securing, and insurance claim assistance for {location} homeowners.</p>
             </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">

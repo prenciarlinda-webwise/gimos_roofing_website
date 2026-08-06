@@ -114,7 +114,7 @@ export default function OrangeParkPage() {
             Many Orange Park homeowners are military families stationed at nearby NAS Jacksonville or veterans who chose Clay County for the Clay County School District, one of the state's higher-performing districts, and the area's lower cost of living. We understand that budget matters, and we&apos;re committed to delivering the best roofing value in the area without cutting corners on quality. Whether your home is in Lakeside, near Doctors Lake, or along the Blanding Blvd corridor, you deserve a roofer who respects both your home and your budget.
           </p>
           <p className="text-gray-600">
-            At Gimo&apos;s Roofing, we&apos;ve built a strong reputation throughout Clay County for competitive pricing, expert craftsmanship, and fast project completion. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link>, <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link>, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency storm damage service</Link>, our team delivers results that last. Learn more about <Link href="/blog/best-roofing-materials-florida" className="text-primary hover:underline">the best roofing materials for Florida homes</Link>.
+            At Gimo&apos;s Roofing, we&apos;ve built a strong reputation throughout Clay County for competitive pricing, expert craftsmanship, and fast project completion. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link>, <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Orange Park</Link>, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair in Orange Park, FL</Link>, our team delivers results that last. Learn more about <Link href="/blog/best-roofing-materials-florida" className="text-primary hover:underline">the best roofing materials for Florida homes</Link>.
           </p>
         </div>
       </section>
@@ -191,11 +191,11 @@ export default function OrangeParkPage() {
               <p className="text-gray-600 text-sm">Complete tear-off and replacement with quality materials at competitive Clay County pricing. Starting at $7,000 with financing available.</p>
             </Link>
             <Link href="/services/roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Roof Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Roof Repair in Orange Park, FL</h4>
               <p className="text-gray-600 text-sm">Fast, reliable repairs for leaks, missing shingles, damaged flashing, and storm damage. Same-week service for most Orange Park homes.</p>
             </Link>
             <Link href="/services/emergency-roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Emergency Storm Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Emergency Roof Repair in Orange Park, FL</h4>
               <p className="text-gray-600 text-sm">24/7 emergency response for Clay County. Tarping, temporary repairs, and full insurance claim assistance after any storm.</p>
             </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">

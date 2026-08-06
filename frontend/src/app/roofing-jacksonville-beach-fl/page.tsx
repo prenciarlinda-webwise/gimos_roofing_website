@@ -159,7 +159,7 @@ export default function JacksonvilleBeachPage() {
             Most Jax Beach homes sit within 1-3 miles of the Atlantic Ocean, meaning every roof in ZIP codes 32250 and 32240 faces accelerated deterioration compared to inland Jacksonville properties. Standard roofing materials that last 25 years in Mandarin may only last 15-18 years on a beachside home along 3rd Street.
           </p>
           <p className="text-gray-600">
-            As a trusted roofing company Jacksonville Beach FL homeowners rely on, Gimo&apos;s Roofing has completed hundreds of coastal projects throughout {location}. As a roofing contractor Jacksonville Beach FL families recommend, we understand which materials hold up in the salt-air environment and which fail prematurely. Whether you need residential roofing Jacksonville Beach FL or roofing replacement Jacksonville Beach FL, our team is ready. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link> or <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link>, our team delivers solutions built to withstand beach conditions. <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">Emergency roof repair</Link> is available 24/7 throughout the Beaches.
+            As a trusted roofing company Jacksonville Beach FL homeowners rely on, Gimo&apos;s Roofing has completed hundreds of coastal projects throughout {location}. As a roofing contractor Jacksonville Beach FL families recommend, we understand which materials hold up in the salt-air environment and which fail prematurely. Whether you need residential roofing Jacksonville Beach FL or roofing replacement Jacksonville Beach FL, our team is ready. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link> or <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Jacksonville Beach</Link>, our team delivers solutions built to withstand beach conditions. <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">Emergency roof repair in Jacksonville Beach, FL</Link> is available 24/7 throughout the Beaches.
           </p>
         </div>
       </section>
@@ -233,11 +233,11 @@ export default function JacksonvilleBeachPage() {
               <p className="text-gray-600 text-sm">Complete tear-off with coastal-grade materials rated for salt exposure and 130+ mph winds. Starting at $8,500.</p>
             </Link>
             <Link href="/services/emergency-roof-repair" className="card p-5">
-              <h3 className="font-bold text-secondary mb-2">Storm Damage Repair</h3>
+              <h3 className="font-bold text-secondary mb-2">Emergency Roof Repair in Jacksonville Beach, FL</h3>
               <p className="text-gray-600 text-sm">24/7 emergency response for hurricane and tropical storm damage. Tarping, repairs, and insurance claim assistance.</p>
             </Link>
             <Link href="/services/roof-repair" className="card p-5">
-              <h3 className="font-bold text-secondary mb-2">Coastal Roof Repair</h3>
+              <h3 className="font-bold text-secondary mb-2">Roof Repair in Jacksonville Beach, FL</h3>
               <p className="text-gray-600 text-sm">Fix salt-corroded flashing, wind-lifted shingles, leaks, and UV damage with materials built for beach conditions.</p>
             </Link>
             <Link href="/services/metal-roofing" className="card p-5">

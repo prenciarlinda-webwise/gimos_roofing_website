@@ -12,7 +12,7 @@ const roofingServices = [
   {
     title: "Emergency Roof Repair",
     slug: "emergency-roof-repair",
-    description: "24/7 emergency roof repair for active leaks, storm damage, and urgent roofing situations. Same-day response throughout Jacksonville.",
+    description: "24/7 emergency roof repair Jacksonville FL homeowners call for active leaks, storm damage, and urgent roofing situations. Same-day response throughout Jacksonville.",
     features: ["24/7 Response", "Storm Damage", "Active Leaks", "Insurance Help"],
   },
   {
@@ -30,7 +30,7 @@ const roofingServices = [
   {
     title: "Roof Repair",
     slug: "roof-repair",
-    description: "Fast, reliable roof repairs for leaks, storm damage, and general wear. We diagnose issues quickly and provide lasting solutions.",
+    description: "Roof repair Jacksonville FL homeowners trust for leaks, storm damage, and general wear. We diagnose issues quickly and provide lasting solutions.",
     features: ["Leak Detection", "Storm Damage", "Shingle Repair", "Emergency Service"],
   },
   {
@@ -62,6 +62,18 @@ const roofingServices = [
     slug: "chimney-repair",
     description: "Chimney cap replacement, flashing repair, crown repair, and repointing to stop the leaks that start where the chimney meets the roof.",
     features: ["Cap Replacement", "Flashing Repair", "Crown Repair", "Repointing"],
+  },
+  {
+    title: "Roof Inspection",
+    slug: "roof-inspection",
+    description: "Free general roof inspections plus 4-point, wind mitigation, and pre-purchase inspections with photo documentation for insurance and peace of mind.",
+    features: ["Free Inspections", "4-Point Reports", "Wind Mitigation", "Insurance Docs"],
+  },
+  {
+    title: "Skylight Installation",
+    slug: "skylight-installation",
+    description: "Skylight installation and leak repair with roofer-grade flashing, the detail that actually determines whether a skylight leaks.",
+    features: ["New Installation", "Leak Repair", "Impact-Rated Glass", "Proper Flashing"],
   }
 ]
 

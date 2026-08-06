@@ -110,7 +110,7 @@ export default function NeptuneBeachPage() {
             Living within a half-mile of the Atlantic in 32266 means every roof here faces accelerated deterioration compared to inland Jacksonville properties. Standard 3-tab shingles that last 25 years in Mandarin only last 12-15 years on a Neptune Beach home. The salt corrosion attacks metal flashing and fasteners, the wind drives rain into any gap in the seal, and the constant humidity feeds algae and underlayment breakdown.
           </p>
           <p className="text-gray-600">
-            As a trusted roofing contractor in Neptune Beach FL, Gimo&apos;s Roofing has completed coastal projects across every part of Neptune Beach. When it comes to roofing repairs in Neptune Beach FL, we understand which materials hold up in 32266&apos;s salt-air environment and which fail prematurely. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link> on a 1st Street oceanfront or <Link href="/services/roof-repair" className="text-primary hover:underline">targeted repairs</Link> on a Forest Avenue bungalow, our team delivers solutions built for barrier-island conditions. <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">Emergency roof repair</Link> is available 24/7 throughout the Beaches.
+            As a trusted roofing contractor in Neptune Beach FL, Gimo&apos;s Roofing has completed coastal projects across every part of Neptune Beach. When it comes to roofing repairs in Neptune Beach FL, we understand which materials hold up in 32266&apos;s salt-air environment and which fail prematurely. Whether you need <Link href="/services/roof-replacement" className="text-primary hover:underline">a complete roof replacement</Link> on a 1st Street oceanfront or <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Neptune Beach</Link> on a Forest Avenue bungalow, our team delivers solutions built for barrier-island conditions. <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">Emergency roof repair in Neptune Beach, FL</Link> is available 24/7 throughout the Beaches.
           </p>
         </div>
       </section>
@@ -184,11 +184,11 @@ export default function NeptuneBeachPage() {
               <p className="text-gray-600 text-sm">Complete tear-off with coastal-grade materials rated for salt exposure and 130+ mph winds. Starting at $11,000 for Neptune Beach homes.</p>
             </Link>
             <Link href="/services/emergency-roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Storm Damage Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Emergency Roof Repair in Neptune Beach, FL</h4>
               <p className="text-gray-600 text-sm">24/7 emergency response for hurricane and tropical storm damage. Tarping, repairs, and full insurance claim assistance throughout 32266.</p>
             </Link>
             <Link href="/services/roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-secondary mb-2">Coastal Roof Repair</h4>
+              <h4 className="font-bold text-secondary mb-2">Coastal Roof Repair in Neptune Beach, FL</h4>
               <p className="text-gray-600 text-sm">Fix salt-corroded flashing, wind-lifted shingles, leaks, and UV damage with materials built for Neptune Beach conditions.</p>
             </Link>
             <div className="bg-white p-5 rounded-lg shadow-sm">

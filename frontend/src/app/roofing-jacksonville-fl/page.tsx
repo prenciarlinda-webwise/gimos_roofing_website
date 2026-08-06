@@ -165,7 +165,7 @@ export default function RoofingJacksonvilleFLPage() {
             What sets us apart from other Jacksonville roofing companies? Every project gets our owner&apos;s personal attention. We don&apos;t use subcontractors or day laborers. Our crews are trained, experienced roofers who take pride in their craft. We use premium materials from <strong>GAF</strong> and <strong>Owens Corning</strong>, and we back every installation with manufacturer warranties plus our own workmanship guarantee. We also offer <Link href="/roof-financing-florida" className="text-primary hover:underline">flexible roof financing</Link> starting at $99/month.
           </p>
           <p className="text-gray-600">
-            Whether you need a simple <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair</Link>, a complete <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link>, <Link href="/services/new-construction-roofing" className="text-primary hover:underline">new construction roofing</Link>, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">24/7 emergency roof repair</Link>, Jacksonville homeowners trust Gimo&apos;s Roofing to get the job done right the first time.
+            Whether you need a simple <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair Jacksonville FL</Link> project, a complete <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link>, <Link href="/services/new-construction-roofing" className="text-primary hover:underline">new construction roofing</Link>, or <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair Jacksonville FL</Link> service, Jacksonville homeowners trust Gimo&apos;s Roofing to get the job done right the first time.
           </p>
         </div>
       </section>
@@ -181,11 +181,11 @@ export default function RoofingJacksonvilleFLPage() {
               <p className="text-gray-600 text-sm">Complete tear-off and replacement with premium materials. Shingle, metal, and tile options. Starting at $7,900 with financing available.</p>
             </Link>
             <Link href="/services/roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-secondary mb-2">Roof Repair</h3>
+              <h3 className="font-bold text-secondary mb-2">Roof Repair Jacksonville FL</h3>
               <p className="text-gray-600 text-sm">Fast, reliable repairs for leaks, missing shingles, storm damage, and general wear. Same-week scheduling for most repairs. Starting at $500.</p>
             </Link>
             <Link href="/services/emergency-roof-repair" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-secondary mb-2">Emergency Roof Repair</h3>
+              <h3 className="font-bold text-secondary mb-2">Emergency Roof Repair Jacksonville FL</h3>
               <p className="text-gray-600 text-sm">24/7 emergency response for active leaks, storm damage, and fallen trees. Rapid tarping and temporary repairs to protect your home.</p>
             </Link>
             <Link href="/services/new-construction-roofing" className="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow">

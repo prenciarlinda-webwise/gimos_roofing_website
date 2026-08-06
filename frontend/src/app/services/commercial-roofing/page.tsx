@@ -52,6 +52,7 @@ const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAr
 }, {})
 
 const faqs = [
+  { question: "How do I find commercial roofers near me in Jacksonville?", answer: "Gimo's Roofing is a local, FL-licensed commercial roofing contractor (CCC1332453) serving businesses across Duval, St. Johns, Clay, and Nassau counties. We're not a national franchise dispatching subcontractors, we're the Jacksonville crew that shows up and stands behind the work. Call (904) 606-5313." },
   { question: "Do you work on large commercial buildings?", answer: "Yes, we handle commercial roofing projects of all sizes, from small retail spaces to large warehouses and industrial facilities throughout Jacksonville." },
   { question: "Can you work around our business hours?", answer: "Absolutely. We understand that business disruption means lost revenue. We can schedule work during off-hours, weekends, or in phases to minimize impact on your operations." },
   { question: "Do you offer commercial roof maintenance plans?", answer: "Yes, we offer customized maintenance plans to extend your roof's lifespan and catch potential issues before they become costly problems. Plans include regular inspections, minor repairs, and priority emergency service." },
@@ -106,7 +107,7 @@ export default function CommercialRoofingPage() {
               </nav>
               <h1 className="text-3xl md:text-4xl font-bold mb-4">Commercial Roofing - TPO, Metal &amp; Flat Roof Systems</h1>
               <p className="text-lg text-gray-200 mb-6">
-                Need a commercial roofing contractor Jacksonville businesses trust? Gimo&apos;s Roofing serves businesses across Duval, St. Johns, Clay, and Nassau counties with TPO, EPDM, metal, and modified bitumen roofing. Installation, commercial roof repair Jacksonville, and long-term maintenance contracts available.
+                Searching for commercial roofers near me in Jacksonville? Gimo&apos;s Roofing is the local commercial roofing contractor businesses across Duval, St. Johns, Clay, and Nassau counties trust, with TPO, EPDM, metal, and modified bitumen roofing. Installation, commercial roof repair Jacksonville, and long-term maintenance contracts available.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-full sm:w-auto">Get Free Estimate</a>
@@ -115,14 +116,14 @@ export default function CommercialRoofingPage() {
             </div>
             <div className="space-y-3">
               <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-                <Image src="/images/commercial-roofing-services.webp" alt="Commercial roofing in Jacksonville FL" title="Commercial roofing in Jacksonville FL" fill className="object-cover" priority />
+                <Image src="/images/post-office-commercial-roofing-project-jacksonville-fl.webp" alt="Completed commercial roofing project at a Jacksonville FL Post Office" title="Commercial roofing in Jacksonville FL" fill className="object-cover" priority />
               </div>
               <div className="grid grid-cols-2 gap-3">
                 <div className="rounded-xl aspect-[4/3] overflow-hidden shadow-lg relative">
-                  <Image src="/images/jacksonville-commercial-roofing.webp" alt="Jacksonville commercial roofing project" title="Jacksonville commercial roofing project" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" />
+                  <Image src="/images/hotel-palms-commercial-roof-replacement-atlantic-beach-fl.webp" alt="Hotel Palms, a retro-chic 1947 motor court boutique hotel in Atlantic Beach FL, after a commercial roof replacement" title="Commercial hospitality roof replacement in Atlantic Beach FL" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" />
                 </div>
                 <div className="rounded-xl aspect-[4/3] overflow-hidden shadow-lg relative">
-                  <Image src="/images/flat-metal-roof-installation.webp" alt="Flat metal commercial roof installation" title="Flat metal commercial roof installation in Jacksonville" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" />
+                  <Image src="/images/commercial-motel-roof-replacement-in-progress-florida.webp" alt="Commercial motel roof replacement in progress in Florida" title="Commercial roof replacement in progress" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" />
                 </div>
               </div>
             </div>
@@ -427,7 +428,28 @@ export default function CommercialRoofingPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/jacksonville-commercial-roofing.webp" alt="Commercial roofing services in Jacksonville FL" title="Commercial roofing services in Jacksonville FL" fill className="object-cover" />
+              <Image src="/images/commercial-flat-roof-coating-project-florida.webp" alt="Commercial flat roof coating project in Florida" title="Commercial flat roof coating in Florida" fill className="object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Recent Commercial Projects */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Recent Commercial Projects</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">Real commercial roof replacements completed by our crews across Jacksonville and Northeast Florida.</p>
+          </div>
+          <div className="card p-6 mb-8 max-w-3xl mx-auto text-center">
+            <p className="text-gray-600"><strong>Featured project: Hotel Palms, Atlantic Beach.</strong> We replaced the roof on Hotel Palms, a retro-chic, refurbished 1947 motor court boutique hotel just three blocks from the ocean and adjacent to Beaches Town Center. See our work in <Link href="/roofing-atlantic-beach-fl" className="text-primary font-semibold hover:underline">Atlantic Beach</Link>.</p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/commercial-roofing-crew-installing-underlayment-florida.webp" alt="Commercial roofing crew installing underlayment on a Florida property" title="Commercial roofing crew at work in Florida" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+            </div>
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/chimney-flashing-worker-commercial-roof-florida.webp" alt="Roofer performing chimney flashing work on a commercial roof in Florida" title="Commercial chimney flashing work in Florida" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
             </div>
           </div>
         </div>

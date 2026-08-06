@@ -44,8 +44,8 @@ const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAr
 }, {})
 
 const sidingTypes = [
-  { name: "Vinyl Siding", description: "The most popular siding choice. Affordable, low-maintenance, and available in countless colors and styles.", benefits: ["Affordable", "Low maintenance", "Many color options", "Weather resistant"], image: "/images/siding-installation-jacksonville-home.webp" },
-  { name: "Fiber Cement Siding", description: "Premium siding that mimics wood grain. Extremely durable and resistant to rot, fire, and insects.", benefits: ["Fire resistant", "Rot proof", "Insect proof", "Long lasting"], image: "/images/siding-project-closeup.webp" },
+  { name: "Vinyl Siding", description: "The most popular siding choice. Affordable, low-maintenance, and available in countless colors and styles.", benefits: ["Affordable", "Low maintenance", "Many color options", "Weather resistant"], image: "/images/vinyl-siding-installation-jacksonville-fl.webp" },
+  { name: "Fiber Cement Siding", description: "Premium siding that mimics wood grain. Extremely durable and resistant to rot, fire, and insects.", benefits: ["Fire resistant", "Rot proof", "Insect proof", "Long lasting"], image: "/images/hardie-board-siding-installation-jacksonville-fl.webp" },
   { name: "Wood Siding", description: "Classic, natural beauty that adds character to your home. Available in various profiles and species.", benefits: ["Natural beauty", "Customizable", "Eco-friendly", "Insulating"], image: "/images/yellow-siding-home-renovation.webp" },
   { name: "Engineered Wood", description: "Combines the beauty of wood with enhanced durability. Resists moisture, rot, and insects.", benefits: ["Wood appearance", "Enhanced durability", "Moisture resistant", "Cost-effective"], image: "/images/siding-installation-worker-ladder.webp" }
 ]
@@ -179,6 +179,27 @@ export default function SidingInstallationPage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Recent Siding Projects */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Recent Siding Projects in Jacksonville</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">Board and batten, lap, and cement board siding installed on Jacksonville-area homes.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/board-and-batten-siding-jacksonville-fl.webp" alt="Board and batten siding installation on a Jacksonville FL home" title="Board and batten siding in Jacksonville FL" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+            </div>
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/lap-siding-cement-board-jacksonville-fl.webp" alt="Lap cement board siding installation on a Jacksonville FL home" title="Lap cement board siding in Jacksonville FL" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+            </div>
+            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
+              <Image src="/images/cement-board-siding-jacksonville-fl.webp" alt="Cement board siding close-up on a Jacksonville FL home" title="Cement board siding in Jacksonville FL" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+            </div>
           </div>
         </div>
       </section>

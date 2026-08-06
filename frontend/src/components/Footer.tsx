@@ -11,6 +11,8 @@ const roofingLinks = [
   { name: "Gutters", href: "/services/roof-gutter", title: "Gutter Installation & Repair Jacksonville FL" },
   { name: "Roof Waterproofing", href: "/services/roof-waterproofing", title: "Roof Waterproofing Jacksonville FL" },
   { name: "Chimney Repair", href: "/services/chimney-repair", title: "Chimney Repair & Cap Replacement Jacksonville FL" },
+  { name: "Roof Inspection", href: "/services/roof-inspection", title: "Roof Inspection Jacksonville FL" },
+  { name: "Skylight Installation", href: "/services/skylight-installation", title: "Skylight Installation & Repair Jacksonville FL" },
 ]
 
 const sidingLinks = [

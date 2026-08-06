@@ -30,6 +30,8 @@ const servicePages = [
   { title: "Gutter Installation, Repair & Replacement", href: "/services/roof-gutter" },
   { title: "Roof Waterproofing", href: "/services/roof-waterproofing" },
   { title: "Chimney Repair", href: "/services/chimney-repair" },
+  { title: "Roof Inspection", href: "/services/roof-inspection" },
+  { title: "Skylight Installation", href: "/services/skylight-installation" },
   { title: "Roof Financing Florida", href: "/roof-financing-florida" },
 ]
 
