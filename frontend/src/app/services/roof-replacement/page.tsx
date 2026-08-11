@@ -433,7 +433,7 @@ export default function RoofReplacementPage() {
               <p className="text-gray-600">Not sure if you need a replacement? Here are common indicators that your roof has reached the end of its lifespan. If most issues are minor, our <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair service in Jacksonville, FL</Link> may be the better fit.</p>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/roof-replacement.webp" alt="Roof replacement project in Jacksonville FL" title="Roof replacement project in Jacksonville FL" fill className="object-cover" />
+              <Image src="/images/residential-shingle-reroof-in-progress-jacksonville-fl.webp" alt="Shingle roof replacement in progress on a Jacksonville FL home" title="Shingle roof replacement in progress in Jacksonville FL" fill className="object-cover" />
             </div>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -476,7 +476,7 @@ export default function RoofReplacementPage() {
               </div>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/two-story-home-roof-replacement.webp" alt="Complete roof replacement on two-story home" title="Complete roof replacement on two-story home" fill className="object-cover" />
+              <Image src="/images/residential-shingle-reroof-dumpster-jacksonville-fl.webp" alt="Completed shingle roof replacement on a Jacksonville FL home" title="Completed roof replacement in Jacksonville FL" fill className="object-cover" />
             </div>
           </div>
         </div>

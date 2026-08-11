@@ -41,8 +41,8 @@ const roofingServices = [
 ]
 
 const sidingServices = [
-  { title: 'Siding Installation', description: 'Transform your home with professional siding installation. Vinyl, fiber cement & more.', href: '/services/siding-installation', image: '/images/home-page-siding-services.webp', alt: 'Siding Installation in Jacksonville FL', imgTitle: 'Siding Installation in Jacksonville FL' },
-  { title: 'Siding Repair', description: 'Expert siding repairs to restore protection and curb appeal to your home.', href: '/services/siding-repair', image: '/images/siding-project-closeup.webp', alt: 'Siding Repair in Jacksonville FL', imgTitle: 'Siding Repair in Jacksonville FL' }
+  { title: 'Siding Installation', description: 'Transform your home with professional siding installation. Vinyl, fiber cement & more.', href: '/services/siding-installation', image: '/images/siding-installation-close-up-jacksonville-fl.webp', alt: 'Siding Installation in Jacksonville FL', imgTitle: 'Siding Installation in Jacksonville FL' },
+  { title: 'Siding Repair', description: 'Expert siding repairs to restore protection and curb appeal to your home.', href: '/services/siding-repair', image: '/images/hardie-board-siding-close-up-jacksonville-fl.webp', alt: 'Siding Repair in Jacksonville FL', imgTitle: 'Siding Repair in Jacksonville FL' }
 ]
 
 
@@ -411,35 +411,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Local Context Section */}
-      <section className="py-14 bg-white border-t border-gray-100">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-10 items-center">
-            <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Top-Rated Roofing Company Near Jacksonville</h3>
-              <p className="text-base text-gray-600 leading-relaxed mb-4">
-                From the historic streets of <a href="https://en.wikipedia.org/wiki/Riverside,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">Riverside</a> and <a href="https://en.wikipedia.org/wiki/San_Marco,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">San Marco</a> to beachside homes near <a href="https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Jacksonville Beach</a> and <a href="https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Ponte Vedra</a>, Northeast Florida roofs take a beating from summer thunderstorms, year-round humidity, and salt air drifting off the Atlantic. Our crews understand how hurricane season, intense UV exposure, and coastal winds, from downtown along the <a href="https://en.wikipedia.org/wiki/St._Johns_River" target="_blank" rel="noopener" className="text-primary hover:underline">St. Johns River</a> out toward <a href="https://www.flyjacksonville.com/" target="_blank" rel="noopener" className="text-primary hover:underline">Jacksonville International Airport (JAX)</a> and <a href="https://cnrse.cnic.navy.mil/Installations/NAS-Jacksonville/" target="_blank" rel="noopener" className="text-primary hover:underline">NAS Jacksonville</a>, wear down shingles and flashing faster than in most Florida markets. That local knowledge shapes how we install and repair every roof.
-              </p>
-              <p className="text-base text-gray-600 leading-relaxed">
-                You can <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" className="text-primary hover:underline">read our reviews on Google</a> to see what Jacksonville homeowners have to say about working with us.
-              </p>
-            </div>
-            <div className="rounded-2xl overflow-hidden shadow-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.7159054447884!2d-81.65529292381676!3d30.35902290359657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e44b1e311da61b%3A0xe141a9eec11ad009!2sGimo&#39;s%20Roofing!5e0!3m2!1sen!2s!4v1776240784782!5m2!1sen!2s"
-                width="100%"
-                height="400"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Gimo's Roofing location on Google Maps"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Service Areas Section */}
       <section className="relative py-16 text-white overflow-hidden bg-secondary">
         <div className="absolute inset-0">
@@ -519,6 +490,38 @@ export default function Home() {
             <a href={estimateUrl} id="cta-home-bottom-estimate" target="_blank" rel="noopener" title="Get a Free Roofing Estimate Online" className="btn bg-secondary text-white hover:bg-secondary-light px-6 py-3 w-full sm:w-auto">Get Free Estimate</a>
             <a href="tel:+19046065313" id="cta-home-bottom-call" title="Call Gimo's Roofing Jacksonville" className="btn bg-white text-secondary hover:bg-gray-100 px-6 py-3 w-full sm:w-auto">Call (904) 606-5313</a>
             <a href={financingUrl} target="_blank" rel="noopener" title="Apply for Roofing Financing" className="btn bg-transparent border-2 border-secondary text-secondary hover:bg-secondary hover:text-white px-6 py-3 w-full sm:w-auto">Apply for Financing</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Local Context Section — last thing on the page before the footer */}
+      <section className="py-14 bg-white border-t border-gray-100">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-10 items-center">
+            <div>
+              <h3 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Top-Rated Roofing Company Near Jacksonville</h3>
+              <p className="text-base text-gray-600 leading-relaxed mb-4">
+                Gimo&apos;s Roofing has called Jacksonville home since 2001, with our office at 33 24th St E in the Brentwood neighborhood, close to I-95 and just north of downtown. That location puts most of Duval County within easy reach, whether your roofing job is scheduled or an emergency.
+              </p>
+              <p className="text-base text-gray-600 leading-relaxed mb-4">
+                From our Brentwood base we cover <a href="https://en.wikipedia.org/wiki/Riverside,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">Riverside</a>, <a href="https://en.wikipedia.org/wiki/San_Marco,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">San Marco</a>, and Mandarin, out to the beaches near <a href="https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Jacksonville Beach</a> and <a href="https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Ponte Vedra</a>, along with downtown neighborhoods like Springfield and Avondale. Beyond roof replacement and repair, we provide siding, gutter, and chimney services across Northeast Florida, residential and commercial alike.
+              </p>
+              <p className="text-base text-gray-600 leading-relaxed">
+                We&apos;re in the office Monday through Saturday and run 24/7 emergency roof repair the rest of the time, backed by a 5.0 rating across 104 <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" className="text-primary hover:underline">Google reviews</a>. Call <a href="tel:+19046065313" className="text-primary hover:underline">(904) 606-5313</a> any time for a free, honest assessment of your roof.
+              </p>
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.7159054447884!2d-81.65529292381676!3d30.35902290359657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e44b1e311da61b%3A0xe141a9eec11ad009!2sGimo&#39;s%20Roofing!5e0!3m2!1sen!2s!4v1776240784782!5m2!1sen!2s"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Gimo's Roofing location on Google Maps"
+              />
+            </div>
           </div>
         </div>
       </section>

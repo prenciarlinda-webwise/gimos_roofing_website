@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import FAQ from '@/components/FAQ'
+import HeroQuoteForm from '@/components/HeroQuoteForm'
 
 export const metadata: Metadata = {
   title: { absolute: "Roofing Ponte Vedra Beach FL - Gimo's Roofing" },
@@ -68,27 +69,31 @@ export default function PonteVedraBeachPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      {/* Hero */}
-      <section className="bg-secondary py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center text-white">
-          <p className="text-primary font-semibold mb-3">Serving {location} &amp; {county}</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Ponte Vedra Beach FL</h1>
-          <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
-            Luxury home roofing specialists for TPC Sawgrass, Marsh Landing, and Ponte Vedra Beach&apos;s premier communities. HOA-compliant materials, meticulous craftsmanship, and protection for properties valued at $500K to $5M+.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4 mb-6">
-            <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary px-6 py-3 font-semibold">Get Free Estimate</a>
-            <a href={`tel:+1${phone.replace(/\D/g, '')}`} className="btn bg-white text-secondary hover:bg-gray-100 px-6 py-3 font-semibold">{phone}</a>
-          </div>
-          <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-300">
-            <span>&#10003; Licensed &amp; Insured</span>
-            <span>&#10003; 5-Star Rated</span>
-            <span>&#10003; Luxury Home Specialists</span>
-          </div>
-          <div className="mt-10 max-w-4xl mx-auto px-4">
-            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/best-roofing-contractor-near-me.webp" alt="Expert roofing contractor in Ponte Vedra Beach FL" title="Expert roofing contractor in Ponte Vedra Beach FL" fill className="object-cover" priority />
+      {/* Hero — full-bleed photo background, text over a gradient scrim on the left, quote form on the right */}
+      <section className="relative overflow-hidden bg-secondary">
+        <div className="absolute inset-0">
+          <Image src="/images/best-roofing-contractor-near-me.webp" alt="Expert roofing contractor in Ponte Vedra Beach FL" title="Expert roofing contractor in Ponte Vedra Beach FL" fill className="object-cover" priority />
+          <div className="absolute inset-0 bg-secondary/70 lg:bg-gradient-to-r lg:from-secondary lg:via-secondary/85 lg:to-secondary/40" />
+        </div>
+        <div className="relative max-w-6xl mx-auto px-4 py-16 lg:py-24">
+          <div className="grid lg:grid-cols-2 gap-10 items-center">
+            <div className="text-white">
+              <p className="text-primary font-semibold mb-3">Serving {location} &amp; {county}</p>
+              <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Ponte Vedra Beach FL</h1>
+              <p className="text-lg text-gray-300 mb-8">
+                Luxury home roofing specialists for TPC Sawgrass, Marsh Landing, and Ponte Vedra Beach&apos;s premier communities. HOA-compliant materials, meticulous craftsmanship, and protection for properties valued at $500K to $5M+.
+              </p>
+              <div className="flex flex-wrap gap-4 mb-6">
+                <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary px-6 py-3 font-semibold">Get Free Estimate</a>
+                <a href={`tel:+1${phone.replace(/\D/g, '')}`} className="btn bg-white text-secondary hover:bg-gray-100 px-6 py-3 font-semibold">{phone}</a>
+              </div>
+              <div className="flex flex-wrap gap-4 text-sm text-gray-300">
+                <span>&#10003; Licensed &amp; Insured</span>
+                <span>&#10003; 5-Star Rated</span>
+                <span>&#10003; Luxury Home Specialists</span>
+              </div>
             </div>
+            <HeroQuoteForm location={location} />
           </div>
         </div>
       </section>
@@ -100,6 +105,27 @@ export default function PonteVedraBeachPage() {
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
             <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
+          </div>
+        </div>
+      </section>
+
+      {/* Local Elements: Map + Service Area (moved right after hero/stats, matching the Jacksonville reference pattern) */}
+      <section className="py-14">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-10 items-center">
+            <div>
+              <h3 className="text-2xl font-bold text-secondary mb-4">Top-Rated Roofing in Ponte Vedra Beach, FL</h3>
+              <p className="text-gray-600 mb-4">
+                Gimo&apos;s Roofing serves homeowners across Ponte Vedra Beach, from TPC Sawgrass and Marsh Landing to Sawgrass Players Club and The Plantation. From <Link href="/services/roof-replacement" className="text-primary hover:underline">luxury roof replacement</Link> and <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Ponte Vedra Beach, FL</Link> to <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link>, <Link href="/services/metal-roofing" className="text-primary hover:underline">standing seam metal roofing</Link>, and <Link href="/services/roof-gutter" className="text-primary hover:underline">gutter installation</Link>, our crews are the same local team on every job, not subcontractors.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Proudly serving Ponte Vedra Beach, TPC Sawgrass, Marsh Landing, and all of {county}. Call Gimo&apos;s Roofing at <a href={`tel:+1${phone.replace(/\D/g, '')}`} className="text-primary font-semibold hover:underline">{phone}</a> for a free estimate!
+              </p>
+              <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary px-6 py-3 font-semibold inline-block">Get Your Free Estimate</a>
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-lg">
+              <iframe src="https://maps.google.com/maps?q=Ponte+Vedra+Beach,+FL+32082&t=&z=12&ie=UTF8&iwloc=&output=embed" width="100%" height="400" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Gimo's Roofing Service Area - Ponte Vedra Beach FL"></iframe>
+            </div>
           </div>
         </div>
       </section>
@@ -242,27 +268,6 @@ export default function PonteVedraBeachPage() {
         </div>
       </section>
 
-      {/* Google Maps */}
-      <section className="py-14 bg-gray-50">
-        <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-secondary mb-6 text-center">Find Gimo&apos;s Roofing</h2>
-          <p className="text-gray-600 text-center mb-6">Proudly serving Ponte Vedra Beach, TPC Sawgrass, Marsh Landing, and all of {county}.</p>
-          <div className="rounded-xl overflow-hidden shadow-lg">
-            <iframe src="https://maps.google.com/maps?q=Ponte+Vedra+Beach,+FL+32082&t=&z=12&ie=UTF8&iwloc=&output=embed" width="100%" height="400" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Gimo's Roofing Service Area - Ponte Vedra Beach FL"></iframe>
-          </div>
-        </div>
-      </section>
-
-      {/* ZIP Code Coverage */}
-      <section className="py-14">
-        <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-secondary mb-4">Roofing in 32082 and 32081 - Ponte Vedra Beach ZIP Codes</h2>
-          <p className="text-gray-600 mb-4">
-            ZIP codes 32082 and 32081 cover Ponte Vedra Beach across St. Johns County. 32082 is the older oceanfront and east side of A1A, including Old Ponte Vedra, Sawgrass Country Club, The Plantation at Ponte Vedra, and most of Marsh Landing Country Club. 32081 covers the newer Palm Valley side and the western edge bordering Nocatee. Roofs here range from architectural shingle in Sawgrass Players Club to concrete S-tile in The Plantation to standing seam metal on the estate homes off Ponte Vedra Boulevard. Architectural review board approval is required in nearly every gated community in both ZIPs.
-          </p>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <section className="py-14">
         <div className="max-w-3xl mx-auto px-4">
@@ -271,27 +276,45 @@ export default function PonteVedraBeachPage() {
         </div>
       </section>
 
-      {/* Nearby Areas */}
+      {/* Nearby Areas & ZIP Coverage (merged — was two separate "where we serve" sections saying the same thing) */}
       <section className="py-14 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-6 text-center">Nearby Service Areas</h2>
-          <div className="flex flex-wrap justify-center gap-3">
+          <div className="flex flex-wrap justify-center gap-3 mb-8">
             {nearbyAreas.map((area) => (
               <Link key={area.href} href={area.href} className="px-4 py-2 bg-white rounded-full shadow-sm text-gray-600 hover:text-primary hover:shadow-md transition-all">
                 {area.name}
               </Link>
             ))}
           </div>
+          <p className="text-gray-600 max-w-3xl mx-auto">
+            ZIP codes 32082 and 32081 cover Ponte Vedra Beach across St. Johns County. 32082 is the older oceanfront and east side of A1A, including Old Ponte Vedra, Sawgrass Country Club, The Plantation at Ponte Vedra, and most of Marsh Landing Country Club. 32081 covers the newer Palm Valley side and the western edge bordering Nocatee. Roofs here range from architectural shingle in Sawgrass Players Club to concrete S-tile in The Plantation to standing seam metal on the estate homes off Ponte Vedra Boulevard. Architectural review board approval is required in nearly every gated community in both ZIPs.
+          </p>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-16 bg-primary">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Ready for a Free Estimate?</h2>
-          <p className="text-secondary/80 mb-6">Contact us today for premium roofing services in {location} and {county}.</p>
+      {/* CTA — real Gimo's job-site footage as a desktop background; mobile keeps the poster frame as a static image, same pattern as the homepage hero */}
+      <section className="relative overflow-hidden bg-secondary py-16">
+        <div className="absolute inset-0">
+          <Image src="/images/in-progress-reroof-jacksonville-fl-bg-poster.webp" alt="Gimo's Roofing crew reroofing a Jacksonville FL home" fill className="object-cover" />
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="none"
+            poster="/images/in-progress-reroof-jacksonville-fl-bg-poster.webp"
+            className="absolute inset-0 w-full h-full object-cover hidden lg:block"
+          >
+            <source src="/images/in-progress-reroof-jacksonville-fl-bg.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-secondary/75" />
+        </div>
+        <div className="relative max-w-4xl mx-auto px-4 text-center text-white">
+          <h2 className="text-2xl md:text-3xl font-bold mb-3">Ready for a Free Estimate?</h2>
+          <p className="text-gray-300 mb-6">Contact us today for premium roofing services in {location} and {county}.</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn bg-secondary text-white hover:bg-secondary/90">Get Your Free Estimate</a>
+            <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary font-semibold">Get Your Free Estimate</a>
             <a href={`tel:+1${phone.replace(/\D/g, '')}`} className="btn bg-white text-secondary hover:bg-gray-100">Call {phone}</a>
           </div>
         </div>

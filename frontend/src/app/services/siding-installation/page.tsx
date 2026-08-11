@@ -45,9 +45,9 @@ const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAr
 
 const sidingTypes = [
   { name: "Vinyl Siding", description: "The most popular siding choice. Affordable, low-maintenance, and available in countless colors and styles.", benefits: ["Affordable", "Low maintenance", "Many color options", "Weather resistant"], image: "/images/vinyl-siding-installation-jacksonville-fl.webp" },
-  { name: "Fiber Cement Siding", description: "Premium siding that mimics wood grain. Extremely durable and resistant to rot, fire, and insects.", benefits: ["Fire resistant", "Rot proof", "Insect proof", "Long lasting"], image: "/images/hardie-board-siding-installation-jacksonville-fl.webp" },
+  { name: "Fiber Cement Siding", description: "Premium siding that mimics wood grain. Extremely durable and resistant to rot, fire, and insects.", benefits: ["Fire resistant", "Rot proof", "Insect proof", "Long lasting"], image: "/images/lap-siding-cement-board-jacksonville-fl.webp" },
   { name: "Wood Siding", description: "Classic, natural beauty that adds character to your home. Available in various profiles and species.", benefits: ["Natural beauty", "Customizable", "Eco-friendly", "Insulating"], image: "/images/yellow-siding-home-renovation.webp" },
-  { name: "Engineered Wood", description: "Combines the beauty of wood with enhanced durability. Resists moisture, rot, and insects.", benefits: ["Wood appearance", "Enhanced durability", "Moisture resistant", "Cost-effective"], image: "/images/siding-installation-worker-ladder.webp" }
+  { name: "Engineered Wood", description: "Combines the beauty of wood with enhanced durability. Resists moisture, rot, and insects.", benefits: ["Wood appearance", "Enhanced durability", "Moisture resistant", "Cost-effective"], image: "/images/cement-board-siding-jacksonville-fl.webp" }
 ]
 
 const benefits = [
@@ -100,29 +100,28 @@ export default function SidingInstallationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-secondary to-secondary/90 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <nav className="text-sm mb-4">
-                <Link href="/" className="text-gray-300 hover:text-primary">Home</Link>
-                <span className="mx-2 text-gray-400">/</span>
-                <Link href="/services" className="text-gray-300 hover:text-primary">Services</Link>
-                <span className="mx-2 text-gray-400">/</span>
-                <span className="text-primary">Siding Installation</span>
-              </nav>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Siding Installation - Vinyl, Hardie &amp; Fiber Cement</h1>
-              <p className="text-lg text-gray-200 mb-6">
-                Looking for siding Jacksonville FL homeowners recommend? Gimo&apos;s Roofing is a licensed team of siding contractors Jacksonville FL homeowners trust for vinyl siding, Hardie board, fiber cement, and engineered wood installations across Duval, St. Johns, Clay, and Nassau counties.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-full sm:w-auto">Get Free Estimate</a>
-                <a href="tel:+19046065313" className="btn bg-white text-secondary hover:bg-gray-100 w-full sm:w-auto">(904) 606-5313</a>
-              </div>
-            </div>
-            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/siding-installation-jacksonville-home.webp" alt="Siding installation on Jacksonville home" title="Siding installation on Jacksonville home" fill sizes="100vw" className="object-cover" priority />
+      {/* Hero Section — full-bleed photo background, single row, text over a gradient scrim on the left, photo visible on the right */}
+      <section className="relative overflow-hidden bg-secondary">
+        <div className="absolute inset-0">
+          <Image src="/images/vinyl-siding-installation-jacksonville-fl-2.webp" alt="Vinyl siding installation on a Jacksonville FL home" title="Siding installation Jacksonville FL" fill sizes="100vw" className="object-cover" priority />
+          <div className="absolute inset-0 bg-secondary/70 lg:bg-gradient-to-r lg:from-secondary lg:via-secondary/85 lg:to-secondary/20" />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 py-16 lg:py-24">
+          <div className="max-w-xl text-white">
+            <nav className="text-sm mb-4">
+              <Link href="/" className="text-gray-300 hover:text-primary">Home</Link>
+              <span className="mx-2 text-gray-400">/</span>
+              <Link href="/services" className="text-gray-300 hover:text-primary">Services</Link>
+              <span className="mx-2 text-gray-400">/</span>
+              <span className="text-primary">Siding Installation</span>
+            </nav>
+            <h1 className="text-3xl md:text-4xl font-bold mb-4">Siding Installation - Vinyl, Hardie &amp; Fiber Cement</h1>
+            <p className="text-lg text-gray-200 mb-6">
+              Looking for siding Jacksonville FL homeowners recommend? Gimo&apos;s Roofing is a licensed team of siding contractors Jacksonville FL homeowners trust for vinyl siding, Hardie board, fiber cement, and engineered wood installations across Duval, St. Johns, Clay, and Nassau counties.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+              <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-full sm:w-auto">Get Free Estimate</a>
+              <a href="tel:+19046065313" className="btn bg-white text-secondary hover:bg-gray-100 w-full sm:w-auto">(904) 606-5313</a>
             </div>
           </div>
         </div>
@@ -179,27 +178,6 @@ export default function SidingInstallationPage() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Recent Siding Projects */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Recent Siding Projects in Jacksonville</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">Board and batten, lap, and cement board siding installed on Jacksonville-area homes.</p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/board-and-batten-siding-jacksonville-fl.webp" alt="Board and batten siding installation on a Jacksonville FL home" title="Board and batten siding in Jacksonville FL" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
-            </div>
-            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/lap-siding-cement-board-jacksonville-fl.webp" alt="Lap cement board siding installation on a Jacksonville FL home" title="Lap cement board siding in Jacksonville FL" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
-            </div>
-            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/cement-board-siding-jacksonville-fl.webp" alt="Cement board siding close-up on a Jacksonville FL home" title="Cement board siding in Jacksonville FL" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
-            </div>
           </div>
         </div>
       </section>
