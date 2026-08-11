@@ -321,7 +321,7 @@ export default function EmergencyRoofRepairPage() {
               <p className="text-gray-600 mb-3"><strong>Gimo&apos;s Roofing is a Jacksonville storm damage roofing company handling hurricane, wind, and hail damage repair</strong> from minor <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Jacksonville FL</Link> to full <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link> when damage is severe. <a href={estimateUrl} id="cta-snippet-stormdamage-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-stormdamage-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/roof-leak-emergency-repair.webp" alt="Emergency roof leak repair in Jacksonville FL" title="Emergency roof leak repair in Jacksonville FL" fill className="object-cover" />
+              <Image src="/images/roof-leak-repair-jacksonville-fl-2.webp" alt="Storm damage roof leak repair completed in Jacksonville FL" title="Storm damage roof leak repair in Jacksonville FL" fill className="object-cover" />
             </div>
           </div>
 

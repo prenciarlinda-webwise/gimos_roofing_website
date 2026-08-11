@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import FAQ from '@/components/FAQ'
+import HeroQuoteForm from '@/components/HeroQuoteForm'
 
 export const metadata: Metadata = {
   title: { absolute: "Roofing Jacksonville Beach FL - Gimo's Roofing" },
@@ -71,27 +72,31 @@ export default function JacksonvilleBeachPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      {/* Hero */}
-      <section className="bg-secondary py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center text-white">
-          <p className="text-primary font-semibold mb-3">Serving {location} & The Beaches</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Jacksonville Beach FL</h1>
-          <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto">
-            Coastal roofing specialists for Jax Beach homes. Salt-resistant materials, 130+ mph wind-rated installation, and 24/7 storm response protecting properties in ZIP codes 32250 and 32240.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4 mb-6">
-            <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary px-6 py-3 font-semibold">Get Free Estimate</a>
-            <a href={`tel:+1${phone.replace(/\D/g, '')}`} className="btn bg-white text-secondary hover:bg-gray-100 px-6 py-3 font-semibold">{phone}</a>
-          </div>
-          <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-300">
-            <span>✓ Licensed & Insured</span>
-            <span>✓ 5-Star Rated</span>
-            <span>✓ Coastal Specialists</span>
-          </div>
-          <div className="mt-10 max-w-4xl mx-auto px-4">
-            <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/jacksonville-roofer.webp" alt="Professional roofing services in Jacksonville Beach FL" title="Professional roofing services in Jacksonville Beach FL" fill className="object-cover" priority />
+      {/* Hero — full-bleed photo background, single row, text over a gradient scrim on the left, quote form on the right */}
+      <section className="relative overflow-hidden bg-secondary">
+        <div className="absolute inset-0">
+          <Image src="/images/jacksonville-roofer.webp" alt="Professional roofing services in Jacksonville Beach FL" title="Professional roofing services in Jacksonville Beach FL" fill className="object-cover" priority />
+          <div className="absolute inset-0 bg-secondary/70 lg:bg-gradient-to-r lg:from-secondary lg:via-secondary/85 lg:to-secondary/40" />
+        </div>
+        <div className="relative max-w-6xl mx-auto px-4 py-16 lg:py-24">
+          <div className="grid lg:grid-cols-2 gap-10 items-center">
+            <div className="text-white">
+              <p className="text-primary font-semibold mb-3">Serving {location} & The Beaches</p>
+              <h1 className="text-4xl md:text-5xl font-bold mb-5">Roofing Jacksonville Beach FL</h1>
+              <p className="text-lg text-gray-300 mb-8">
+                Coastal roofing specialists for Jax Beach homes. Salt-resistant materials, 130+ mph wind-rated installation, and 24/7 storm response protecting properties in ZIP codes 32250 and 32240.
+              </p>
+              <div className="flex flex-wrap gap-4 mb-6">
+                <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary px-6 py-3 font-semibold">Get Free Estimate</a>
+                <a href={`tel:+1${phone.replace(/\D/g, '')}`} className="btn bg-white text-secondary hover:bg-gray-100 px-6 py-3 font-semibold">{phone}</a>
+              </div>
+              <div className="flex flex-wrap gap-4 text-sm text-gray-300">
+                <span>✓ Licensed & Insured</span>
+                <span>✓ 5-Star Rated</span>
+                <span>✓ Coastal Specialists</span>
+              </div>
             </div>
+            <HeroQuoteForm location="Jacksonville Beach" />
           </div>
         </div>
       </section>
@@ -103,6 +108,27 @@ export default function JacksonvilleBeachPage() {
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
             <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
+          </div>
+        </div>
+      </section>
+
+      {/* Find Gimo's Roofing / Google Maps (moved right after hero/stats per client direction, matching the Jacksonville reference pattern) */}
+      <section className="py-14">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-10 items-center">
+            <div>
+              <h3 className="text-2xl font-bold text-secondary mb-4">Top-Rated Roofing in Jacksonville Beach, FL</h3>
+              <p className="text-gray-600 mb-4">
+                Gimo&apos;s Roofing serves homeowners and businesses across Jacksonville Beach and the surrounding coastal communities. From <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link> and <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Jacksonville Beach</Link> to <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link>, <Link href="/services/metal-roofing" className="text-primary hover:underline">metal roofing</Link>, and <Link href="/services/roof-gutter" className="text-primary hover:underline">gutter installation</Link>, our crews are the same local team on every job, not subcontractors.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Proudly serving Jacksonville Beach and all of Northeast Florida&apos;s coastal communities. Call Gimo&apos;s Roofing at <a href={`tel:+1${phone.replace(/\D/g, '')}`} className="text-primary font-semibold hover:underline">{phone}</a> for a free estimate!
+              </p>
+              <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary px-6 py-3 font-semibold inline-block">Get Your Free Estimate</a>
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-lg">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.71590544476!2d-81.65529292427262!3d30.359022903597385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e44b1e311da61b%3A0xe141a9eec11ad009!2sGimo&#39;s%20Roofing!5e0!3m2!1sen!2s!4v1771230427854!5m2!1sen!2s" width="100%" height="400" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Gimo's Roofing Location"></iframe>
+            </div>
           </div>
         </div>
       </section>
@@ -284,27 +310,6 @@ export default function JacksonvilleBeachPage() {
         </div>
       </section>
 
-      {/* Google Maps */}
-      <section className="py-14 bg-gray-50">
-        <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-secondary mb-6 text-center">Find Gimo&apos;s Roofing</h2>
-          <p className="text-gray-600 text-center mb-6">Proudly serving Jacksonville Beach and all of Northeast Florida&apos;s coastal communities.</p>
-          <div className="rounded-xl overflow-hidden shadow-lg">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.71590544476!2d-81.65529292427262!3d30.359022903597385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e44b1e311da61b%3A0xe141a9eec11ad009!2sGimo&#39;s%20Roofing!5e0!3m2!1sen!2s!4v1771230427854!5m2!1sen!2s" width="100%" height="400" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Gimo's Roofing Location"></iframe>
-          </div>
-        </div>
-      </section>
-
-      {/* ZIP Code Coverage */}
-      <section className="py-14">
-        <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-secondary mb-4">Roofing in 32250 and 32240 - Jacksonville Beach ZIP Codes</h2>
-          <p className="text-gray-600 mb-4">
-            ZIP codes <a href="https://www.unitedstateszipcodes.org/32250/" target="_blank" rel="noopener" className="text-primary hover:underline">32250</a> and <a href="https://www.unitedstateszipcodes.org/32240/" target="_blank" rel="noopener" className="text-primary hover:underline">32240</a> cover all of <a href="https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Jacksonville Beach</a>, from the oceanfront homes along 1st Street to the residential streets west of Penman Road. 32250 contains the bulk of the city, including South Beach Parkway, the <a href="https://en.wikipedia.org/wiki/Beaches_Town_Center" target="_blank" rel="noopener" className="text-primary hover:underline">Beaches Town Center</a> area, and the residential streets between 3rd Street and Penman, while 32240 is the smaller P.O. box ZIP. Roofs in both ZIPs face the same brutal salt air, hurricane wind, and reflected UV that defines coastal Florida roofing. Architectural shingle with stainless hardware and aluminum standing seam metal are the two materials we install most often here, both engineered to meet the <a href="https://www.floridabuilding.org/" target="_blank" rel="noopener" className="text-primary hover:underline">Florida Building Code</a> wind requirements for coastal Duval County.
-          </p>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <section className="py-14">
         <div className="max-w-3xl mx-auto px-4">
@@ -316,27 +321,45 @@ export default function JacksonvilleBeachPage() {
         </div>
       </section>
 
-      {/* Nearby Areas */}
+      {/* Nearby Areas & ZIP Coverage (merged — was two separate "where we serve" sections saying the same thing) */}
       <section className="py-14 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-6 text-center">Nearby Service Areas</h2>
-          <div className="flex flex-wrap justify-center gap-3">
+          <div className="flex flex-wrap justify-center gap-3 mb-8">
             {nearbyAreas.map((area) => (
               <Link key={area.href} href={area.href} className="px-4 py-2 bg-white rounded-full shadow-sm text-gray-600 hover:text-primary hover:shadow-md transition-all">
                 {area.name}
               </Link>
             ))}
           </div>
+          <p className="text-gray-600 max-w-3xl mx-auto">
+            ZIP codes <a href="https://www.unitedstateszipcodes.org/32250/" target="_blank" rel="noopener" className="text-primary hover:underline">32250</a> and <a href="https://www.unitedstateszipcodes.org/32240/" target="_blank" rel="noopener" className="text-primary hover:underline">32240</a> cover all of <a href="https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Jacksonville Beach</a>, from the oceanfront homes along 1st Street to the residential streets west of Penman Road. 32250 contains the bulk of the city, including South Beach Parkway, the <a href="https://en.wikipedia.org/wiki/Beaches_Town_Center" target="_blank" rel="noopener" className="text-primary hover:underline">Beaches Town Center</a> area, and the residential streets between 3rd Street and Penman, while 32240 is the smaller P.O. box ZIP. Roofs in both ZIPs face the same brutal salt air, hurricane wind, and reflected UV that defines coastal Florida roofing. Architectural shingle with stainless hardware and aluminum standing seam metal are the two materials we install most often here, both engineered to meet the <a href="https://www.floridabuilding.org/" target="_blank" rel="noopener" className="text-primary hover:underline">Florida Building Code</a> wind requirements for coastal Duval County.
+          </p>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-16 bg-primary">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Ready for a Free Estimate?</h2>
-          <p className="text-secondary/80 mb-6">Contact us today for expert coastal roofing services in {location}.</p>
+      {/* CTA — real Gimo's job-site footage as a desktop background; mobile keeps the poster frame as a static image, same pattern as the homepage hero */}
+      <section className="relative overflow-hidden bg-secondary py-16">
+        <div className="absolute inset-0">
+          <Image src="/images/in-progress-reroof-jacksonville-fl-bg-poster.webp" alt="Gimo's Roofing crew reroofing a Jacksonville FL home" fill className="object-cover" />
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="none"
+            poster="/images/in-progress-reroof-jacksonville-fl-bg-poster.webp"
+            className="absolute inset-0 w-full h-full object-cover hidden lg:block"
+          >
+            <source src="/images/in-progress-reroof-jacksonville-fl-bg.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-secondary/75" />
+        </div>
+        <div className="relative max-w-4xl mx-auto px-4 text-center text-white">
+          <h2 className="text-2xl md:text-3xl font-bold mb-3">Ready for a Free Estimate?</h2>
+          <p className="text-gray-300 mb-6">Contact us today for expert coastal roofing services in {location}.</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn bg-secondary text-white hover:bg-secondary/90">Get Your Free Estimate</a>
+            <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary font-semibold">Get Your Free Estimate</a>
             <a href={`tel:+1${phone.replace(/\D/g, '')}`} className="btn bg-white text-secondary hover:bg-gray-100">Call {phone}</a>
           </div>
         </div>
