@@ -22,8 +22,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Service pages
   const servicePages = [
     { url: `${baseUrl}/services`, changeFrequency: 'monthly' as const, priority: 0.9 },
-    { url: `${baseUrl}/services/emergency-roof-repair`, changeFrequency: 'monthly' as const, priority: 0.9 },
-    { url: `${baseUrl}/services/roof-replacement`, changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/services/emergency-roof-repair`, changeFrequency: 'monthly' as const, priority: 0.9, images: [`${baseUrl}/images/roof-repair-in-progress-jacksonville.webp`, `${baseUrl}/images/storm-damage-roof-repair.webp`, `${baseUrl}/images/roof-leak-repair-jacksonville-fl-2.webp`] },
+    { url: `${baseUrl}/services/roof-replacement`, changeFrequency: 'monthly' as const, priority: 0.9, images: [`${baseUrl}/images/residential-roofing-services-page.webp`, `${baseUrl}/images/roof-replacement.webp`, `${baseUrl}/images/two-story-home-roof-replacement.webp`, `${baseUrl}/images/residential-shingle-reroof-in-progress-jacksonville-fl.webp`, `${baseUrl}/images/residential-shingle-reroof-dumpster-jacksonville-fl.webp`] },
     { url: `${baseUrl}/services/roof-repair`, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/services/new-construction-roofing`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/new-construction-roofing-jacksonville-fl-2.webp`, `${baseUrl}/images/new-construction-roofing-jacksonville-fl-3.webp`, `${baseUrl}/images/new-construction-roofing-jacksonville-fl-4.webp`] },
     { url: `${baseUrl}/services/commercial-roofing`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/post-office-commercial-roofing-project-jacksonville-fl.webp`, `${baseUrl}/images/hotel-palms-commercial-roof-replacement-atlantic-beach-fl.webp`, `${baseUrl}/images/commercial-motel-roof-replacement-in-progress-florida.webp`] },
@@ -40,27 +40,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Jacksonville main page (highest priority location)
   const jacksonvilleMainPage = [
-    { url: `${baseUrl}/roofing-jacksonville-fl`, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/roofing-jacksonville-fl`, changeFrequency: 'weekly' as const, priority: 0.9, images: [`${baseUrl}/images/roofing-jacksonville-fl.webp`, `${baseUrl}/images/best-roof-repair-near-me-jacksonville-fl.webp`, `${baseUrl}/images/roofing-contractor-jacksonville.webp`, `${baseUrl}/images/in-progress-reroof-jacksonville-fl-bg-poster.webp`] },
   ]
 
-  // Location pages
-  const locationPages = [
-    'jacksonville-beach',
-    'ponte-vedra-beach',
-    'st-augustine',
-    'orange-park',
-    'fernandina-beach',
-    'nocatee',
-    'riverside',
-    'san-marco',
-    'mandarin',
-    'southside-jax',
-    'atlantic-beach',
-    'neptune-beach',
-  ].map((location) => ({
+  // Location pages — each page's own hero image plus the shared CTA job-site photo
+  const locationHeroImages: Record<string, string> = {
+    'jacksonville-beach': 'jacksonville-roofer.webp',
+    'ponte-vedra-beach': 'best-roofing-contractor-near-me.webp',
+    'st-augustine': 'roofing-contractor-fl.webp',
+    'orange-park': 'roofer-near-me.webp',
+    'fernandina-beach': 'top-rated-roofer-jacksonville.webp',
+    'nocatee': 'nocatee-roofer.webp',
+    'riverside': 'roofing-company-in-jacksonville.webp',
+    'san-marco': '5-star-roofer.webp',
+    'mandarin': 'gimos-roofing-jacksonville.webp',
+    'southside-jax': 'jacksonville-roofing-company.webp',
+    'atlantic-beach': 'jacksonville-roofer.webp',
+    'neptune-beach': 'jacksonville-roofer.webp',
+  }
+
+  const locationPages = Object.entries(locationHeroImages).map(([location, heroImage]) => ({
     url: `${baseUrl}/roofing-${location}-fl`,
     changeFrequency: 'monthly' as const,
     priority: 0.8,
+    images: [`${baseUrl}/images/${heroImage}`, `${baseUrl}/images/in-progress-reroof-jacksonville-fl-bg-poster.webp`],
   }))
 
   // Blog pages - only include published posts (not future-scheduled)
