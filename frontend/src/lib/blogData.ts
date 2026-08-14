@@ -20430,6 +20430,382 @@ export const blogPosts: BlogPost[] = [
     ]
   },
 
+  {
+    slug: "new-construction-roofing-project-spotlight",
+    title: "New Construction Roofing: A Recent Jacksonville Project",
+    metaTitle: "New Construction Roofing Project - Gimo's Roofing",
+    excerpt: "A look at a recent new-build roofing project Gimo's Roofing completed in the Jacksonville area, and how new construction roofing differs from a re-roof.",
+    category: "Project Spotlight",
+    date: "2026-08-07",
+    publishDate: "2026-08-07",
+    dateModified: "2026-08-07",
+    readTime: "3 min read",
+    image: "/images/new-construction-roofing-jacksonville-fl-2.webp",
+    imageAlt: "New construction roofing project in Jacksonville FL with fresh underlayment installed by Gimo's Roofing",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "the-project", title: "The Project" },
+      { id: "how-its-different", title: "How New Construction Roofing Is Different" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6" id="the-project">Gimo's Roofing recently worked a new-build home in the Jacksonville area, installing underlayment and roofing on a home framed and decked but not yet occupied. New construction roofing is a different job than a re-roof: there's no old material to tear off, but the roofing has to be sequenced correctly with the rest of the build so trades aren't working over each other.</p>
+
+<p class="text-gray-600 mb-6">Building in or around Nocatee and need a roofer who works with builders? Get a free roof estimate in <a href="/roofing-nocatee-fl" class="text-primary font-semibold hover:underline">Nocatee</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-newconstruction-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<div class="grid grid-cols-2 gap-4 my-6">
+<img src="/images/new-construction-roofing-jacksonville-fl-3.webp" alt="New construction roofing project in progress in Jacksonville FL" title="New construction roofing in progress" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+<img src="/images/new-construction-roofing-jacksonville-fl-4.webp" alt="New construction home roof deck and underlayment in Jacksonville FL" title="New construction roof deck and underlayment" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+</div>
+
+<h2 id="how-its-different" class="text-2xl font-bold text-secondary mt-10 mb-4">How New Construction Roofing Is Different</h2>
+
+<p class="text-gray-600 mb-4">On a <a href="/services/new-construction-roofing" class="text-primary hover:underline">new construction roofing</a> project, we're working straight off the deck the framing crew built, checking it for proper nailing and spacing before anything goes on top. From there it's the same core weatherproofing sequence as a re-roof, underlayment first, then the finish roofing material, but timed around the builder's schedule so the house can get dried in and the interior trades can start.</p>
+
+<p class="text-gray-600 mb-6">We partner directly with builders and general contractors throughout Jacksonville and Northeast Florida on new-build roofing, and we coordinate with the same site superintendent and schedule the rest of the crew is working from, rather than treating it as a standalone job.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>New construction roofing starts from a bare deck, no tear-off required</li>
+<li>Deck nailing and spacing gets checked before underlayment goes on</li>
+<li>Work is sequenced around the builder's schedule so the home can dry in on time</li>
+<li>We coordinate directly with builders, general contractors, and site superintendents</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Building a new home and need a roofer who works well with your GC? Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free estimate.</p>`,
+    faqs: [
+      { question: "Do you work directly with home builders and general contractors?", answer: "Yes. We partner with builders and general contractors on new construction roofing throughout Jacksonville and Northeast Florida, coordinating our schedule with the rest of the build." },
+      { question: "How is new construction roofing different from a re-roof?", answer: "New construction roofing starts on a bare deck with no old material to remove, but the work has to be sequenced with the builder's schedule so the home can be dried in and interior trades can start on time." }
+    ]
+  },
+
+  {
+    slug: "metal-roof-installation-project-spotlight",
+    title: "Metal Roof Installation: Two Recent Jacksonville Projects",
+    metaTitle: "Metal Roof Installation Projects - Gimo's Roofing",
+    excerpt: "A look at two recent standing seam metal roof installations Gimo's Roofing completed in the Jacksonville area, and what makes standing seam a strong long-term choice in Florida.",
+    category: "Project Spotlight",
+    date: "2026-08-08",
+    publishDate: "2026-08-08",
+    dateModified: "2026-08-08",
+    readTime: "3 min read",
+    image: "/images/metal-roof-installation-jacksonville-fl-2.webp",
+    imageAlt: "Aerial view of a completed standing seam metal roof installation in the Jacksonville FL area",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "the-projects", title: "The Projects" },
+      { id: "why-standing-seam", title: "Why Standing Seam Holds Up in Florida" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6" id="the-projects">Two recent standing seam metal roof installs from our crew: a brown standing seam roof on a wooded lot, and a green standing seam roof on another Jacksonville-area home. Both show the same clean panel lines and factory finish that make standing seam a popular upgrade from shingles.</p>
+
+<p class="text-gray-600 mb-6">Thinking about metal for your next roof? Get a free roof estimate in <a href="/roofing-fernandina-beach-fl" class="text-primary font-semibold hover:underline">Fernandina Beach</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-metalroof-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<div class="grid grid-cols-2 gap-4 my-6">
+<img src="/images/metal-roof-installation-jacksonville-fl-3.webp" alt="Close-up of standing seam metal roof panels installed by Gimo's Roofing in Jacksonville FL" title="Standing seam metal roof panel detail" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+<img src="/images/metal-roof-close-up-jacksonville-fl.webp" alt="Aerial view of a green standing seam metal roof installed on a Jacksonville FL home" title="Green standing seam metal roof, aerial view" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+</div>
+
+<h2 id="why-standing-seam" class="text-2xl font-bold text-secondary mt-10 mb-4">Why Standing Seam Holds Up in Florida</h2>
+
+<p class="text-gray-600 mb-4">Standing seam panels use concealed fasteners under raised, interlocking seams instead of exposed screws through the panel face, which is one of the main reasons they resist wind uplift and leaks better than exposed-fastener metal roofing over time. Combined with a 40-60 year lifespan and strong reflectivity that helps with summer cooling costs, it's a material we install often for homeowners planning to stay put for the long haul.</p>
+
+<p class="text-gray-600 mb-6">See the full breakdown of panel types, costs, and colors on our <a href="/services/metal-roofing" class="text-primary hover:underline">metal roofing service</a> page, or read about <a href="/blog/standing-seam-metal-roof-pros-cons" class="text-primary hover:underline">standing seam pros and cons</a> if you're still comparing it to shingles.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Standing seam metal roofing uses concealed fasteners for better wind and leak resistance</li>
+<li>Typical lifespan is 40-60 years, far longer than asphalt shingles</li>
+<li>Available in a range of colors, including the brown and green shown here</li>
+<li>A strong long-term option for homeowners planning to stay in their home</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Considering a metal roof upgrade? Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free estimate.</p>`,
+    faqs: [
+      { question: "How long does a standing seam metal roof last?", answer: "Standing seam metal roofing typically lasts 40 to 60 years, significantly longer than asphalt shingles, thanks to its concealed-fastener design and durable factory finish." },
+      { question: "What colors does standing seam metal roofing come in?", answer: "Standing seam is available in a wide range of factory finishes, including the brown and green shown in these two projects. We can walk you through color options during your estimate." }
+    ]
+  },
+
+  {
+    slug: "tile-roof-installation-project-spotlight",
+    title: "Tile Roof Installation: A Recent Jacksonville-Area Project",
+    metaTitle: "Tile Roof Installation Project - Gimo's Roofing",
+    excerpt: "A look at a recent concrete tile roof installation Gimo's Roofing completed on a Jacksonville-area home, and why tile remains a top choice for Florida's Mediterranean and coastal-style homes.",
+    category: "Project Spotlight",
+    date: "2026-08-09",
+    publishDate: "2026-08-09",
+    dateModified: "2026-08-09",
+    readTime: "3 min read",
+    image: "/images/tile-roof-installation-jacksonville-fl.webp",
+    imageAlt: "Aerial view of a completed concrete tile roof installation on a large Jacksonville-area home by Gimo's Roofing",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "the-project", title: "The Project" },
+      { id: "why-tile", title: "Why Homeowners Choose Tile" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6" id="the-project">This concrete tile roof shows off the kind of detail work tile allows, multiple hips and valleys, a turret with a standing seam metal accent roof, and clean tile coursing across a large, complex roofline. It's the kind of project where the roofline is as much a part of the home's architecture as the walls.</p>
+
+<p class="text-gray-600 mb-6">Have a Mediterranean or coastal-style home that calls for tile? Get a free roof estimate in <a href="/roofing-ponte-vedra-beach-fl" class="text-primary font-semibold hover:underline">Ponte Vedra Beach</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-tileroof-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<h2 id="why-tile" class="text-2xl font-bold text-secondary mt-10 mb-4">Why Homeowners Choose Tile</h2>
+
+<p class="text-gray-600 mb-4">Concrete and clay tile bring a classic, high-end look that suits Mediterranean, Spanish, and coastal architecture across Northeast Florida, and it holds up to the job: tile typically lasts 40 to 50 years or more, resists wind well when properly fastened, and stands up to Florida's UV exposure without the granule loss shingles experience over time. On a roofline this complex, correctly cutting and fitting tile around hips, valleys, and turrets like the copper-toned accent roof shown here takes real experience.</p>
+
+<p class="text-gray-600 mb-6">Read more about <a href="/blog/concrete-tile-roof-pros-cons-florida" class="text-primary hover:underline">concrete tile pros and cons</a>, or see our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement service</a> page for material options if you're comparing tile to shingles or metal.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Concrete tile typically lasts 40-50+ years with proper installation and maintenance</li>
+<li>Tile suits Mediterranean, Spanish, and coastal-style architecture well</li>
+<li>Complex rooflines with turrets, hips, and valleys require experienced tile installation</li>
+<li>Tile resists Florida's UV exposure without the granule loss shingles experience</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Considering a tile roof for your home? Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free estimate.</p>`,
+    faqs: [
+      { question: "How long does a concrete tile roof last?", answer: "Concrete tile roofs typically last 40 to 50 years or more with proper installation and periodic maintenance, making it one of the longest-lasting roofing materials available." },
+      { question: "Is tile a good choice for Florida homes?", answer: "Yes. Tile resists Florida's intense UV exposure and, when properly fastened, performs well in high winds. It's especially popular on Mediterranean, Spanish, and coastal-style homes throughout Northeast Florida." }
+    ]
+  },
+
+  {
+    slug: "flat-roof-replacement-project-spotlight",
+    title: "Flat Roof Replacement: Recent Jacksonville Projects",
+    metaTitle: "Flat Roof Replacement Projects - Gimo's Roofing",
+    excerpt: "A look at recent flat and low-slope roof replacements Gimo's Roofing completed in the Jacksonville area, and what to expect from a flat roof tear-off and replacement.",
+    category: "Project Spotlight",
+    date: "2026-08-10",
+    publishDate: "2026-08-10",
+    dateModified: "2026-08-10",
+    readTime: "3 min read",
+    image: "/images/flat-roof-replacement-residential-jacksonville-fl.webp",
+    imageAlt: "Freshly replaced flat roof on a residential home in Jacksonville FL by Gimo's Roofing",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "the-projects", title: "The Projects" },
+      { id: "what-to-expect", title: "What to Expect from a Flat Roof Replacement" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6" id="the-projects">Two flat and low-slope roof projects from recent jobs: a fresh white membrane roof on a rear addition, and a low-slope roof on an older brick ranch home before replacement. Flat roofs are common on additions, porches, and older Jacksonville homes, and they need a different approach than a pitched shingle roof.</p>
+
+<p class="text-gray-600 mb-6">Dealing with ponding water or an aging flat roof? Get a free roof estimate in <a href="/roofing-orange-park-fl" class="text-primary font-semibold hover:underline">Orange Park</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-flatroof-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<div class="grid grid-cols-2 gap-4 my-6">
+<img src="/images/flat-roof-close-up-jacksonville-fl.webp" alt="Aging low-slope flat roof on a Jacksonville FL brick ranch home before replacement" title="Low-slope roof before replacement" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+<img src="/images/flat-roof-replacement-residential-jacksonville-fl-2.webp" alt="Completed flat roof replacement on a residential home in Jacksonville FL" title="Completed flat roof replacement" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+</div>
+
+<h2 id="what-to-expect" class="text-2xl font-bold text-secondary mt-10 mb-4">What to Expect from a Flat Roof Replacement</h2>
+
+<p class="text-gray-600 mb-4">Flat and low-slope roofs rely on a continuous waterproof membrane and correct drainage rather than shingles shedding water downhill, so the tear-off and install process looks different: old roofing and any wet insulation come off down to the deck, the deck gets inspected and repaired as needed, and a new membrane system goes down with attention to drainage at every roof edge, penetration, and transition.</p>
+
+<p class="text-gray-600 mb-6">See our full <a href="/services/roof-waterproofing" class="text-primary hover:underline">roof waterproofing service</a> page for coating and membrane options if your flat roof just needs sealing rather than a full replacement, or our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement service</a> page for a full tear-off and replace.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Flat and low-slope roofs rely on membrane and drainage rather than shingle overlap</li>
+<li>A full replacement includes tear-off, deck inspection and repair, then a new membrane system</li>
+<li>Ponding water or an aging membrane are common signs a flat roof needs attention</li>
+<li>Common on additions, porches, and older Jacksonville-area homes</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Have a flat roof showing its age? Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free estimate.</p>`,
+    faqs: [
+      { question: "How long does a flat roof last?", answer: "A flat or low-slope roof typically lasts 15 to 25 years depending on the membrane material and maintenance, though ponding water and UV exposure can shorten that lifespan without regular upkeep." },
+      { question: "What's the difference between flat roof repair and replacement?", answer: "Repair or coating can extend the life of a flat roof that's mostly sound but has isolated issues. A full replacement is the better choice once the membrane is widely deteriorated, the deck has water damage, or repairs are becoming frequent." }
+    ]
+  },
+
+  {
+    slug: "board-and-batten-siding-project-spotlight",
+    title: "Board and Batten Siding: A Recent Jacksonville Project",
+    metaTitle: "Board and Batten Siding Project - Gimo's Roofing",
+    excerpt: "A look at a recent board and batten siding installation Gimo's Roofing completed on a Jacksonville-area home, and what the vertical panel-and-strip look offers homeowners.",
+    category: "Project Spotlight",
+    date: "2026-08-11",
+    publishDate: "2026-08-11",
+    dateModified: "2026-08-11",
+    readTime: "3 min read",
+    image: "/images/board-and-batten-siding-jacksonville-fl.webp",
+    imageAlt: "Completed board and batten siding installation on a Jacksonville FL home by Gimo's Roofing",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "the-project", title: "The Project" },
+      { id: "why-board-and-batten", title: "Why Homeowners Choose Board and Batten" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6" id="the-project">This full-home siding job shows the board and batten look start to finish, wide vertical panels with narrow battens covering the seams, installed over house wrap for a clean, modern-farmhouse exterior. The photos below show the same home from a few different angles as the siding went up.</p>
+
+<p class="text-gray-600 mb-6">Considering board and batten for your next siding project? Get a free roof and siding estimate in <a href="/roofing-st-augustine-fl" class="text-primary font-semibold hover:underline">St. Augustine</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-boardbatten-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<div class="grid grid-cols-2 gap-4 my-6">
+<img src="/images/hardie-board-siding-installation-jacksonville-fl-2.webp" alt="Board and batten siding installation on a Jacksonville FL home, rear view" title="Board and batten siding installation, rear view" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+<img src="/images/hardie-board-siding-close-up-jacksonville-fl.webp" alt="Close-up of board and batten siding installation on a Jacksonville FL home" title="Board and batten siding close-up" class="w-full rounded-xl shadow-lg" loading="lazy" width="800" height="450" />
+</div>
+
+<h2 id="why-board-and-batten" class="text-2xl font-bold text-secondary mt-10 mb-4">Why Homeowners Choose Board and Batten</h2>
+
+<p class="text-gray-600 mb-4">Board and batten gives a home a distinct vertical-line look that stands out from standard horizontal lap siding, and it's a popular choice on farmhouse and modern-farmhouse style homes throughout Northeast Florida. Installed with fiber cement panels over a proper weather-resistant barrier like the house wrap visible in these photos, it holds up well to Florida's humidity and rain while giving a clean, low-maintenance finish once painted.</p>
+
+<p class="text-gray-600 mb-6">See our full <a href="/services/siding-installation" class="text-primary hover:underline">siding installation service</a> page for board and batten, lap, and vinyl options, or read our guide on <a href="/blog/how-to-choose-siding-for-florida-home" class="text-primary hover:underline">choosing siding for a Florida home</a>.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Board and batten uses wide panels with narrow battens covering the seams for a vertical look</li>
+<li>Popular on farmhouse and modern-farmhouse style Florida homes</li>
+<li>A weather-resistant barrier underneath the siding is essential in Florida's humidity</li>
+<li>Fiber cement board and batten holds up well to rain and gives a low-maintenance finish</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Thinking about a siding upgrade? Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free estimate.</p>`,
+    faqs: [
+      { question: "What is board and batten siding?", answer: "Board and batten siding uses wide vertical panels with narrow strips, called battens, covering the seams between them, giving a distinct vertical-line look that's popular on farmhouse and modern-farmhouse style homes." },
+      { question: "Does board and batten siding hold up in Florida's climate?", answer: "Yes, when installed correctly over a proper weather-resistant barrier and using fiber cement panels. Fiber cement resists Florida's humidity, rain, and insects far better than untreated wood board and batten." }
+    ]
+  },
+
+  {
+    slug: "vinyl-siding-installation-project-spotlight",
+    title: "Vinyl Siding Installation: Two Recent Jacksonville Projects",
+    metaTitle: "Vinyl Siding Installation Projects - Gimo's Roofing",
+    excerpt: "A look at two recent vinyl siding installations Gimo's Roofing completed on Jacksonville-area homes, and why vinyl remains the most popular siding choice for homeowners on a budget.",
+    category: "Project Spotlight",
+    date: "2026-08-12",
+    publishDate: "2026-08-12",
+    dateModified: "2026-08-12",
+    readTime: "3 min read",
+    image: "/images/vinyl-siding-installation-jacksonville-fl.webp",
+    imageAlt: "Completed vinyl siding installation on a Jacksonville FL home by Gimo's Roofing",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "the-projects", title: "The Projects" },
+      { id: "why-vinyl", title: "Why Vinyl Remains the Most Popular Choice" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6" id="the-projects">Two recent vinyl siding installs: a light gray horizontal lap job on one Jacksonville-area home, and a full vinyl re-side on another, both installed over house wrap for proper weatherproofing. Vinyl remains our most requested siding material, and these two projects show why it holds up as a go-to choice.</p>
+
+<p class="text-gray-600 mb-6">Ready to upgrade your home's siding? Get a free estimate in <a href="/roofing-atlantic-beach-fl" class="text-primary font-semibold hover:underline">Atlantic Beach</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-vinylsiding-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<img src="/images/vinyl-siding-installation-jacksonville-fl-2.webp" alt="Second recent vinyl siding installation project completed by Gimo's Roofing in Jacksonville FL" title="Vinyl siding installation, second project" class="w-full rounded-xl shadow-lg my-6" loading="lazy" width="1600" height="900" />
+
+<h2 id="why-vinyl" class="text-2xl font-bold text-secondary mt-10 mb-4">Why Vinyl Remains the Most Popular Choice</h2>
+
+<p class="text-gray-600 mb-4">Vinyl siding is the most affordable siding material we install, requires essentially no maintenance beyond an occasional wash, and never needs painting. Modern vinyl panels come in a wide range of colors and profiles, and when installed correctly over a proper weather barrier like the house wrap visible in these projects, it holds up well to Florida's humidity, rain, and sun without warping or fading prematurely the way older, thinner vinyl sometimes did.</p>
+
+<p class="text-gray-600 mb-6">See our full <a href="/services/siding-installation" class="text-primary hover:underline">siding installation service</a> page for vinyl, fiber cement, and board and batten options, or our <a href="/services/siding-repair" class="text-primary hover:underline">siding repair service</a> if you just need damaged panels replaced.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Vinyl is the most affordable siding material and requires virtually no maintenance</li>
+<li>Never needs painting and comes in a wide range of colors and profiles</li>
+<li>Proper installation over a weather-resistant barrier is key to performance in Florida's climate</li>
+<li>A good fit for homeowners who want a full exterior refresh on a budget</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Thinking about vinyl siding for your home? Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free estimate.</p>`,
+    faqs: [
+      { question: "Is vinyl siding a good choice for Florida homes?", answer: "Yes, when installed correctly over a proper weather-resistant barrier. Modern vinyl siding holds up well to Florida's humidity, rain, and sun, and it's the most affordable, lowest-maintenance siding material we install." },
+      { question: "How much does vinyl siding cost?", answer: "Vinyl siding typically runs $4 to $8 per square foot installed, with premium insulated vinyl running $6 to $10 per square foot. See our siding installation page for a full cost breakdown." }
+    ]
+  },
+
+  {
+    slug: "aerial-roof-inspection-project-spotlight",
+    title: "Aerial Roof Inspections: How Drone Photos Help Catch Problems Early",
+    metaTitle: "Aerial Roof Inspection Photos - Gimo's Roofing",
+    excerpt: "A look at how Gimo's Roofing uses drone photography for aerial roof inspections in Jacksonville, and why an aerial view catches issues a ground-level look can miss.",
+    category: "Project Spotlight",
+    date: "2026-08-13",
+    publishDate: "2026-08-13",
+    dateModified: "2026-08-13",
+    readTime: "3 min read",
+    image: "/images/aerial-roof-inspection-jacksonville-fl-7.webp",
+    imageAlt: "Aerial drone photo of a roof inspection performed by Gimo's Roofing in Jacksonville FL",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "the-photos", title: "The Photos" },
+      { id: "why-aerial", title: "Why an Aerial View Matters" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6" id="the-photos">We use drone photography as part of many of our roof inspections, giving us, and the homeowner, a clear view of the entire roof plane at once rather than piecing it together from a ladder. These two aerial shots are examples of what that documentation looks like on a real Jacksonville-area inspection.</p>
+
+<p class="text-gray-600 mb-6">Want a full roof inspection with photo documentation? Get a free roof estimate in <a href="/roofing-san-marco-fl" class="text-primary font-semibold hover:underline">San Marco</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-aerialinspection-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<img src="/images/aerial-roof-inspection-jacksonville-fl-8.webp" alt="Second aerial drone photo from a roof inspection performed by Gimo's Roofing in Jacksonville FL" title="Aerial roof inspection, second photo" class="w-full rounded-xl shadow-lg my-6" loading="lazy" width="1600" height="900" />
+
+<h2 id="why-aerial" class="text-2xl font-bold text-secondary mt-10 mb-4">Why an Aerial View Matters</h2>
+
+<p class="text-gray-600 mb-4">A drone photo shows the whole roof at once, every plane, valley, and penetration, which makes it easier to spot patchy granule loss, damaged flashing, or storm damage that might not be obvious walking the roof or looking up from the ground. It also gives homeowners a clear before-and-after record, useful for insurance documentation as well as simply seeing the finished work.</p>
+
+<p class="text-gray-600 mb-6">Aerial documentation is part of our standard <a href="/services/roof-inspection" class="text-primary hover:underline">roof inspection</a> process on many jobs, and it's especially useful after storms. See our guide on <a href="/blog/roof-inspection-what-to-expect-florida" class="text-primary hover:underline">what to expect from a roof inspection</a> for the full process.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Drone photography lets us document an entire roof plane in a single clear shot</li>
+<li>Aerial views catch damage patterns that are hard to see from a ladder or the ground</li>
+<li>Photo documentation is useful for insurance claims as well as homeowner records</li>
+<li>Part of our standard inspection process on many Jacksonville-area jobs</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Want a free roof inspection with aerial photo documentation? Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+    faqs: [
+      { question: "Do you use drones for roof inspections?", answer: "Yes. We use drone photography as part of many roof inspections in Jacksonville, giving a clear view of the entire roof plane and documenting the condition of the roof before and after work." },
+      { question: "Is a drone inspection useful for insurance claims?", answer: "Yes. Aerial photo documentation gives a clear, dated record of roof condition that can support an insurance claim, particularly after storm damage." }
+    ]
+  },
+
+  {
+    slug: "completed-roof-replacement-project-spotlight",
+    title: "Completed Roof Replacement: A Recent Jacksonville-Area Project",
+    metaTitle: "Completed Roof Replacement Project - Gimo's Roofing",
+    excerpt: "A look at a recently completed architectural shingle roof replacement Gimo's Roofing finished on a Jacksonville-area home.",
+    category: "Project Spotlight",
+    date: "2026-08-14",
+    publishDate: "2026-08-14",
+    dateModified: "2026-08-14",
+    readTime: "3 min read",
+    image: "/images/best-roof-repair-near-me-jacksonville-fl.webp",
+    imageAlt: "Completed architectural shingle roof replacement on a brick home in the Jacksonville FL area by Gimo's Roofing",
+    author: "Gimo's Roofing Team",
+    tableOfContents: [
+      { id: "the-project", title: "The Project" },
+      { id: "the-finished-look", title: "The Finished Look" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<p class="text-lg font-semibold text-secondary mb-6" id="the-project">A finished shot from a recent architectural shingle roof replacement on a brick home in the Jacksonville area, new dark shingles, clean ridge lines, and fresh flashing throughout. It's the kind of straightforward, well-executed re-roof that makes up most of our day-to-day work.</p>
+
+<p class="text-gray-600 mb-6">Ready for a roof replacement of your own? Get a free roof estimate in <a href="/roofing-riverside-fl" class="text-primary font-semibold hover:underline">Riverside</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-completedreplacement-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<h2 id="the-finished-look" class="text-2xl font-bold text-secondary mt-10 mb-4">The Finished Look</h2>
+
+<p class="text-gray-600 mb-4">A brick home's roofline is a big part of its curb appeal, and a dark architectural shingle against red or tan brick is one of the most popular combinations we install in Jacksonville. Beyond the look, architectural shingles offer a stronger wind rating and a longer warranty than older 3-tab shingles, which is why they've become the default choice for most <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> projects we complete.</p>
+
+<p class="text-gray-600 mb-6">Not sure whether your roof needs a repair or a full replacement? Read our guide on <a href="/blog/signs-you-need-new-roof-florida" class="text-primary hover:underline">signs you need a new roof</a>, or see our <a href="/services/roof-repair" class="text-primary hover:underline">roof repair service</a> if the damage is more limited.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Architectural shingles are the most common material we install on roof replacements</li>
+<li>Dark shingles against brick is one of the most popular color combinations in Jacksonville</li>
+<li>Architectural shingles offer a stronger wind rating and longer warranty than 3-tab shingles</li>
+<li>A clean, finished roofline is a meaningful part of a home's curb appeal</li>
+</ul>
+
+<p class="text-gray-600 mb-6">Ready to talk about your own roof replacement? Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free estimate.</p>`,
+    faqs: [
+      { question: "What roofing material is most popular for Jacksonville homes?", answer: "Architectural (dimensional) asphalt shingles are the most common choice for Jacksonville roof replacements, offering a stronger wind rating, longer warranty, and better appearance than older 3-tab shingles." },
+      { question: "How do I know if I need a roof replacement instead of a repair?", answer: "Widespread shingle wear, granule loss, multiple leak points, or a roof approaching the end of its material lifespan usually point to replacement being the better long-term value over repeated repairs." }
+    ]
+  },
+
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
