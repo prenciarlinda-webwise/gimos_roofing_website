@@ -5,10 +5,10 @@ import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
   title: { absolute: "24/7 Emergency Roof Repair Jacksonville FL - Gimo's Roofing" },
-  description: "Need emergency roof repair in Jacksonville, FL? Gimo's Roofing responds 24/7 to active leaks and storm damage with same-day tarping. Call (904) 606-5313.",
+  description: "Need emergency roof repair near me in Jacksonville, FL? Gimo's Roofing offers 24/7 emergency roofing for active leaks and storm damage. Call (904) 606-5313.",
   openGraph: {
     title: "Emergency Roof Repair Jacksonville FL - Gimo's Roofing",
-    description: "24/7 emergency roof repair in Jacksonville FL for storm damage and active leaks. Fast response. Call (904) 606-5313.",
+    description: "24/7 emergency roof repair in Jacksonville FL. Same-day tarping for storm damage and active leaks. Licensed FL CCC1332453. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com/services/emergency-roof-repair",
   },
   alternates: { canonical: "https://www.gimosroofing.com/services/emergency-roof-repair" },
@@ -23,7 +23,7 @@ const StarIcon = () => (
 
 const emergencyTypes = [
   { title: "Storm Damage Roof Repair", description: "Jacksonville's severe weather can cause significant roof damage. High winds, heavy rain, and hail can tear off shingles, damage flashing, and create vulnerabilities that lead to leaks. Our emergency team responds quickly to assess and repair storm damage before it causes further problems inside your home." },
-  { title: "Active Roof Leak Repair", description: "An active leak is a true emergency. Water entering your home can damage ceilings, walls, insulation, and personal belongings within hours. We prioritize active leak calls and can often provide same-day temporary protection while planning permanent repairs." },
+  { title: "Emergency Roof Leak Repair", description: "An active leak is a true emergency. Water entering your home can damage ceilings, walls, insulation, and personal belongings within hours. Emergency roof leak repair is one of our most common calls, and we prioritize it, often providing same-day temporary protection while the permanent fix is planned." },
   { title: "Fallen Tree and Debris Damage", description: "Trees and large debris can cause catastrophic roof damage. Whether it's a branch through your roof or an entire tree, we respond quickly to secure your home, remove debris safely, and begin the repair process." },
   { title: "Hurricane and Wind Damage", description: "Living in Jacksonville means preparing for hurricane season. When storms hit, we're ready to respond with emergency tarping, damage assessment, and repairs. We help protect your home from further damage while working with your insurance company." }
 ]
@@ -52,14 +52,17 @@ const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAr
 const faqs = [
   { question: "Where can I find emergency roof repair near me in Jacksonville?", answer: "Gimo's Roofing is a local, FL-licensed emergency roofing company based in Jacksonville, serving Duval, St. Johns, Clay, and Nassau counties including Arlington, Riverside, San Marco, the Beaches, and Orange Park. Search \"emergency roof repair near me\" and you'll find us because we're actually local, not an out-of-town crew. Call (904) 606-5313 any time." },
   { question: "Is there emergency roofing near me that responds the same day?", answer: "Yes. Gimo's Roofing responds same-day to active leaks and storm damage anywhere in our Jacksonville service area. We're licensed (FL CCC1332453), local, and answer the phone, which is what separates real emergency roofing near you from a call center that books you for next week." },
-  { question: "Do you offer 24/7 emergency roof repair in Jacksonville?", answer: "Yes, Gimos Roofing provides emergency roof repair services in Jacksonville FL. We respond quickly to active leaks, storm damage, and urgent roofing situations. Call (904) 606-5313 for immediate assistance." },
+  { question: "What's the difference between an emergency roofer and a regular roofing contractor?", answer: "An emergency roofer prioritizes active leaks and storm damage over scheduled work, often arriving same-day with tarping equipment on hand. Gimo's Roofing is both: a licensed general roofing contractor (FL CCC1332453) that also runs same-day emergency dispatch, so the emergency roofer who tarps your roof today can handle the permanent repair too, without bringing in a separate crew." },
+  { question: "Do you offer 24 hour emergency roof repair in Jacksonville?", answer: "Yes, Gimo's Roofing provides 24 hour emergency roof repair services in Jacksonville FL, including nights, weekends, and holidays. We respond quickly to active leaks, storm damage, and urgent roofing situations. Call (904) 606-5313 for immediate assistance." },
   { question: "What qualifies as a roofing emergency?", answer: "Roofing emergencies include active water leaks entering your home, significant storm or wind damage, fallen trees or debris on your roof, and structural damage that poses safety risks. If water is entering your home or your roof is compromised, that's an emergency." },
   { question: "Will my insurance cover emergency roof repairs?", answer: "Most homeowner insurance policies cover roof damage caused by storms, wind, hail, and fallen trees. We document all damage thoroughly and can work with your insurance company on claims. You're typically responsible for your deductible." },
   { question: "How quickly can you respond to a roof emergency in Jacksonville?", answer: "We prioritize emergency calls and typically respond same-day for urgent situations in Jacksonville and surrounding areas. For active leaks, we can often provide temporary protection within hours." },
-  { question: "What should I do while waiting for emergency roof repair?", answer: "Move valuables away from the leak area. Place buckets to catch water. If safe, access your attic to place tarps over insulation. Turn off electricity in affected areas if water is near wiring. Document damage with photos for insurance." },
+  { question: "What temporary roof repair steps should I take while waiting for a crew?", answer: "Move valuables away from the leak area. Place buckets to catch water. If safe, access your attic to place tarps over insulation. Turn off electricity in affected areas if water is near wiring. Document damage with photos for insurance." },
   { question: "How much does emergency roof repair cost?", answer: "Emergency tarping typically costs $300-800 depending on roof access and damage extent. Permanent repairs vary based on damage - minor repairs run $150-600, while major repairs cost $1,500-3,500+. Storm damage is often covered by insurance." },
   { question: "Do you provide emergency tarping services?", answer: "Yes, we provide emergency tarping to prevent further water damage while permanent repairs are planned. Tarps are secured properly to withstand additional weather and typically remain effective for 30-90 days." },
+  { question: "Can I get emergency roof tarping near me the same day?", answer: "In most cases, yes. Gimo's Roofing responds same-day to active leaks and storm openings anywhere in our Jacksonville service area with heavy-duty tarps secured by wood battens and fasteners, not just weights. Search emergency roof tarping near me and call (904) 606-5313 instead of waiting on a call center to route your request." },
   { question: "Can you help with insurance claims for storm damage?", answer: "Absolutely. We document all damage with detailed photos and reports, provide itemized estimates for adjusters, and can meet with your insurance company's adjuster on-site. We've helped hundreds of homeowners navigate claims successfully." },
+  { question: "Do you provide emergency commercial roof repair in Jacksonville?", answer: "Yes. We dispatch for emergency commercial roof repair on flat and low-slope roofs, including TPO and EPDM membrane leaks, HVAC curb failures, and storm damage to office, retail, and warehouse properties. We coordinate with property managers to work around business hours and provide documentation for facility and insurance records. Call (904) 606-5313." },
   { question: "What if the storm damaged my roof at night?", answer: "Call us immediately at (904) 606-5313. We respond to after-hours emergencies for active leaks and severe damage. For damage that isn't actively leaking, we can assess first thing in the morning." },
   { question: "How long do emergency repairs last?", answer: "Temporary repairs like tarping last 30-90 days. Permanent repairs are designed to last the remaining life of your roof (10-20+ years). We'll advise if damage is severe enough that full replacement is the better option." }
 ]
@@ -103,7 +106,7 @@ export default function EmergencyRoofRepairPage() {
                 <span className="text-primary">Emergency Roof Repair</span>
               </nav>
               <h1 className="text-3xl md:text-4xl font-bold mb-2">Emergency Roof Repair Jacksonville FL</h1>
-              <h2 className="text-xl md:text-2xl font-semibold text-primary mb-4">24/7 Response</h2>
+              <h2 className="text-xl md:text-2xl font-semibold text-primary mb-4">24-Hour Emergency Roofer Response</h2>
               <p className="text-lg text-gray-200 mb-6">
                 Searching for emergency roof repair near me in Jacksonville? Gimo&apos;s Roofing is the local emergency roofing company that actually answers, responding fast to active leaks, storm damage, and urgent roofing issues across Duval, St. Johns, Clay, and Nassau counties, including Arlington, Riverside, San Marco, and every neighborhood in between. Call the moment something goes wrong and we&apos;ll secure your home before the damage spreads.
               </p>
@@ -139,7 +142,7 @@ export default function EmergencyRoofRepairPage() {
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">24/7 Emergency Roofing Response</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              <strong>Gimo&apos;s Roofing provides emergency roof repair Jacksonville FL homeowners can call day or night, 24 hours a day, including weekends and holidays.</strong> If you searched for emergency roofing near me or emergency roofers near me, this is the local, licensed and insured crew that shows up. We respond to active leaks, storm damage, and urgent roofing issues across Duval, St. Johns, Clay, and Nassau counties with rapid tarping and same-day repairs whenever the storm hits. <a href={estimateUrl} id="cta-snippet-emergency-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-emergency-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a> now.
+              <strong>Gimo&apos;s Roofing provides emergency roof repair Jacksonville FL homeowners can call day or night, 24 hours a day, including weekends and holidays.</strong> If you searched for emergency roofing near me, emergency roofers near me, or urgent roof repair, this is the local, licensed and insured crew that actually answers. Our emergency roofing services cover active leaks, storm damage, and any urgent roofing situation across Duval, St. Johns, Clay, and Nassau counties, with rapid tarping and same-day repairs whenever the storm hits. <a href={estimateUrl} id="cta-snippet-emergency-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-emergency-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a> now.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -147,7 +150,7 @@ export default function EmergencyRoofRepairPage() {
               { title: "Rapid Response", description: "Quick response to urgent calls throughout Jacksonville and surrounding areas" },
               { title: "Temporary Tarping", description: "Immediate protection to prevent further water damage to your home" },
               { title: "Prevent Water Damage", description: "Fast action to stop leaks before they damage ceilings, walls, and belongings" },
-              { title: "Weekend & Holiday Service", description: "Available when you need us, including weekends and holidays" }
+              { title: "Weekend & Holiday Service", description: "Available day and night for 24 hour roof repair, including weekends and holidays" }
             ].map((item, index) => (
               <div key={index} className="card p-6 text-center">
                 <p className="font-bold text-secondary mb-2">{item.title}</p>
@@ -312,6 +315,34 @@ export default function EmergencyRoofRepairPage() {
         </div>
       </section>
 
+      {/* Temporary Roof Repair While You Wait */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center mb-10">
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Temporary Roof Repair Options While You Wait</h2>
+            <p className="text-gray-600">
+              <strong>Temporary roof repair means covering an active leak or storm opening well enough to stop water intrusion until a crew arrives, not fixing the roof for good.</strong> A tarp, a sheet of plywood, or roofing cement over a small puncture can buy hours, not weeks. Anything more than a short-term patch should wait for a licensed crew so the fix doesn&apos;t void a manufacturer warranty or complicate an insurance claim.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8 items-start">
+            <div>
+              <h3 className="font-bold text-secondary mb-3">Safe Steps Before We Arrive</h3>
+              <ul className="space-y-2 text-gray-600 text-sm">
+                <li>• Move furniture, electronics, and valuables away from the leak</li>
+                <li>• Place a bucket or container to catch dripping water</li>
+                <li>• Relieve a sagging, water-filled ceiling bulge in a controlled spot rather than letting it collapse on its own</li>
+                <li>• From inside the attic only, lay a tarp over wet insulation if it&apos;s safe to access</li>
+                <li>• Photograph the damage from a safe distance for your insurance claim</li>
+              </ul>
+            </div>
+            <div className="card p-6 bg-red-50 border border-red-200">
+              <h3 className="font-bold text-red-700 mb-2">Skip the Ladder</h3>
+              <p className="text-gray-700 text-sm">Do not climb onto a wet or storm-damaged roof to attempt a temporary roof repair yourself. Roofing material gets slick when wet, and structural damage from a storm may not be visible from the surface. Call <a href="tel:+19046065313" className="text-primary font-semibold hover:underline">{phone}</a> and we&apos;ll handle the roof so you can focus on protecting what&apos;s inside.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Storm Damage Specific */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
@@ -342,6 +373,36 @@ export default function EmergencyRoofRepairPage() {
               <h3 className="font-bold text-secondary mb-3">Hail Damage</h3>
               <p className="text-gray-600 text-sm mb-3">Jacksonville occasionally experiences hail that can damage roofing materials. Hail creates dents in shingles that compromise their waterproofing ability. Damage may not leak immediately but shortens roof life.</p>
               <p className="text-gray-600 text-sm"><strong>Common issues:</strong> Dented shingles, granule loss, cracked tiles, damaged vents and flashing</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Emergency Commercial Roof Repair */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Emergency Commercial Roof Repair in Jacksonville</h2>
+              <p className="text-gray-600 mb-4">
+                A flat or low-slope commercial roof fails differently than a residential shingle roof. Ponding water, a punctured membrane, or a failed seam around an HVAC curb can flood a warehouse floor or retail space fast, and downtime costs more than the repair itself. Gimo&apos;s Roofing dispatches for emergency commercial roof repair across Jacksonville, coordinating with property managers and facility staff so the building stays operational while we work.
+              </p>
+              <ul className="space-y-2 text-gray-600 text-sm mb-6">
+                <li>• Flat and low-slope leak response, including <Link href="/services/roof-waterproofing" className="text-primary hover:underline">TPO and EPDM roof waterproofing</Link></li>
+                <li>• Emergency patching around HVAC curbs, drains, and roof penetrations</li>
+                <li>• After-hours response scheduled around business operating hours</li>
+                <li>• Full <Link href="/services/commercial-roofing" className="text-primary hover:underline">commercial roofing Jacksonville</Link> assessment and repair plan once the leak is stopped</li>
+              </ul>
+              <a href="tel:+19046065313" id="cta-snippet-commercial-call" className="text-primary font-semibold hover:underline">Call (904) 606-5313 for emergency commercial roof repair</a>
+            </div>
+            <div className="card p-8 bg-white">
+              <h3 className="text-xl font-bold text-secondary mb-4">Built for Property Managers</h3>
+              <ul className="space-y-2 text-gray-600 text-sm">
+                <li>• Single point of contact from the emergency call through the final repair</li>
+                <li>• Photo and video damage reports formatted for facility and insurance records</li>
+                <li>• FL License #CCC1332453, CertainTeed Certified</li>
+                <li>• Serving offices, retail centers, warehouses, and multi-family properties across Duval, St. Johns, Clay, and Nassau counties</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -424,7 +485,7 @@ export default function EmergencyRoofRepairPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Why Choose Gimos Roofing for Emergency Service</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Why Choose Gimo&apos;s Roofing for Emergency Service</h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
