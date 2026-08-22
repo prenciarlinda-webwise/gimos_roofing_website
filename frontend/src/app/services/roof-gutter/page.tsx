@@ -100,7 +100,7 @@ export default function RoofGutterPage() {
               </nav>
               <h1 className="text-3xl md:text-4xl font-bold mb-4">Gutter Installation, Repair &amp; Replacement - Roof Gutter Jacksonville, FL</h1>
               <p className="text-lg text-gray-200 mb-6">
-                Gimo&apos;s Roofing installs, repairs, and replaces gutters across Jacksonville and Northeast Florida. Jacksonville gets more than 50 inches of rain a year, with daily summer thunderstorms and a hurricane season that runs June through November, so gutters that move water away from your roof, fascia, and foundation are not optional. We fabricate seamless aluminum gutters on-site to fit your home and serve Duval, St. Johns, Clay, and Nassau counties.
+                Gimo&apos;s Roofing is a <Link href="/roofing-jacksonville-fl" className="text-primary font-semibold hover:underline">Jacksonville roofing company</Link> that installs, repairs, and replaces gutters across Jacksonville and Northeast Florida. Jacksonville gets more than 50 inches of rain a year, with daily summer thunderstorms and a hurricane season that runs June through November, so gutters that move water away from your roof, fascia, and foundation are not optional. We fabricate seamless aluminum gutters on-site to fit your home and serve Duval, St. Johns, Clay, and Nassau counties.
               </p>
               <ul className="text-gray-200 mb-6 space-y-2">
                 <li className="flex items-center gap-2"><span className="text-primary">&#10003;</span> Licensed FL CCC1332453 and insured</li>

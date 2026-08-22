@@ -258,7 +258,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             </div>
             <div>
               <p className="font-semibold text-secondary">Written by {post.author}</p>
-              <p className="text-sm text-gray-600">Jacksonville&apos;s trusted roofing experts with 24 years of experience.</p>
+              <p className="text-sm text-gray-600">Jacksonville&apos;s trusted roofing experts with 25 years of experience.</p>
             </div>
           </div>
         </div>

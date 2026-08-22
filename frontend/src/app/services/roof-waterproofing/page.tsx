@@ -97,7 +97,7 @@ export default function RoofWaterproofingPage() {
               </nav>
               <h1 className="text-3xl md:text-4xl font-bold mb-4">Roof Waterproofing - Coatings, Sealant &amp; Membranes</h1>
               <p className="text-lg text-gray-200 mb-6">
-                Searching for roof waterproofing services near me? Gimo&apos;s Roofing seals leak-prone, flat, and low-slope roofs across Duval, St. Johns, Clay, and Nassau counties. With roughly 50 inches of rain a year and a long hurricane season, Jacksonville roofs take a beating, and the right waterproofing system stops water before it reaches your insulation, drywall, and framing.
+                Searching for roof waterproofing services near me? Gimo&apos;s Roofing, a <Link href="/roofing-jacksonville-fl" className="text-primary font-semibold hover:underline">licensed roofing contractor in Jacksonville FL</Link>, seals leak-prone, flat, and low-slope roofs across Duval, St. Johns, Clay, and Nassau counties. With roughly 50 inches of rain a year and a long hurricane season, Jacksonville roofs take a beating, and the right waterproofing system stops water before it reaches your insulation, drywall, and framing.
               </p>
               <ul className="text-gray-200 mb-6 space-y-2">
                 <li className="flex items-center gap-2"><span className="text-primary">&#10003;</span> Licensed, insured, and locally owned</li>

@@ -103,7 +103,7 @@ export default function RoofRepairPage() {
               <h1 className="text-3xl md:text-4xl font-bold mb-2">Roof Repair Jacksonville FL</h1>
               <h2 className="text-xl md:text-2xl font-semibold text-primary mb-4">Leaks, Shingles &amp; Flashing</h2>
               <p className="text-lg text-gray-200 mb-6">
-                Searching for roof repair near me in Jacksonville? Gimo&apos;s Roofing fixes roof leaks, damaged shingles, failed flashing, and flat roof repair across Duval, St. Johns, Clay, and Nassau counties. Same-day emergency response is available for roof repair Jacksonville FL homeowners need fast, and most repairs are completed in one visit with materials we stock on our trucks.
+                Searching for roof repair near me in Jacksonville? Gimo&apos;s Roofing, a <Link href="/roofing-jacksonville-fl" className="text-primary font-semibold hover:underline">roofing company in Jacksonville FL</Link> homeowners have trusted since 2001, fixes roof leaks, damaged shingles, failed flashing, and flat roof repair across Duval, St. Johns, Clay, and Nassau counties. Same-day emergency response is available for roof repair Jacksonville FL homeowners need fast, and most repairs are completed in one visit with materials we stock on our trucks.
               </p>
               <ul className="text-gray-200 mb-6 space-y-2">
                 <li className="flex items-center gap-2"><span className="text-primary">&#10003;</span> Licensed, insured, and locally owned</li>

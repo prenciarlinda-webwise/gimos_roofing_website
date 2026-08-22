@@ -103,7 +103,7 @@ export default function PonteVedraBeachPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-10 text-secondary">
             <div className="text-center"><span className="text-3xl font-bold">500+</span><span className="text-sm ml-2">Roofs</span></div>
-            <div className="text-center"><span className="text-3xl font-bold">24</span><span className="text-sm ml-2">Years</span></div>
+            <div className="text-center"><span className="text-3xl font-bold">25</span><span className="text-sm ml-2">Years</span></div>
             <div className="text-center"><span className="text-3xl font-bold">5.0</span><span className="text-sm ml-2">Star Rating</span></div>
           </div>
         </div>
@@ -182,7 +182,7 @@ export default function PonteVedraBeachPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Common Roofing Concerns in Ponte Vedra Beach</h2>
           <p className="text-gray-600 mb-6">
-            Working with {location} homeowners for over 24 years, we consistently address these four roofing challenges unique to the area&apos;s luxury communities:
+            Working with {location} homeowners for over 25 years, we consistently address these four roofing challenges unique to the area&apos;s luxury communities:
           </p>
           <div className="grid sm:grid-cols-2 gap-4 mb-6">
             <div className="bg-gray-50 p-5 rounded-lg">

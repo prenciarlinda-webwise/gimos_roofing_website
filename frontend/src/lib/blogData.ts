@@ -62,7 +62,7 @@ export const blogPosts: BlogPost[] = [
       { id: "modern", title: "Modern Gambrel Homes" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<p class="text-lg font-semibold text-secondary mb-6">A gambrel roof is a two-pitch roof style with two sloped sections on each side, a shallow upper pitch and a steeper lower pitch, creating four roof planes total. It's the classic "barn roof" silhouette, long associated with farmhouses and agricultural buildings across rural America. The design maximizes attic and second-floor headroom under a relatively short roofline, which is why it spread from barns to farmhouses. Today gambrels are most common in the Northeast and Midwest, on agricultural buildings, and on barndominiums, and they're notably rare on typical Florida subdivisions, though the style still shows up on working farms and farmhouse-style builds across rural Northeast Florida.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">A gambrel roof is a two-pitch roof style with two sloped sections on each side, a shallow upper pitch and a steeper lower pitch, creating four roof planes total. It's the classic "barn roof" silhouette, long associated with farmhouses and agricultural buildings across rural America. The design maximizes attic and second-floor headroom under a relatively short roofline, which is why it spread from barns to farmhouses. Today gambrels are most common in the Northeast and Midwest, on agricultural buildings, and on barndominiums, and they're notably rare on typical Florida subdivisions, though the style still shows up on working farms and farmhouse-style builds across rural Northeast Florida. As <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">trusted Jacksonville FL roofers</a>, we get asked about this shape often enough that it's worth a full breakdown of what it actually involves.</p>
 
 <p class="text-gray-600 mb-6">Planning a farmhouse-style build with a gambrel roofline? Get a free roof quote in <a href="/roofing-orange-park-fl" class="text-primary font-semibold hover:underline">Orange Park</a> by calling Gimo's Roofing at <a href="tel:+19046065313" id="cta-snippet-gambrel-call" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
@@ -2026,7 +2026,7 @@ export const blogPosts: BlogPost[] = [
     title: "Yellow Mold or Roof Leak? A Visual Guide to Ceiling Stains",
     metaTitle: "Yellow Spots on Ceiling and What Causes Brown Water Stains",
     excerpt: "Is that ceiling stain yellow mold or a roof leak? This visual guide helps Jacksonville homeowners identify ceiling discoloration causes and know when to call a roofer.",
-    content: `<p class="text-lg text-gray-700 mb-6">You're lying in bed, scrolling through your phone, when you notice it: a yellowish-brown stain on the ceiling that definitely wasn't there before. Or maybe it was, and it's getting bigger.</p>
+    content: `<p class="text-lg text-gray-700 mb-6">You're lying in bed, scrolling through your phone, when you notice it: a yellowish-brown stain on the ceiling that definitely wasn't there before. Or maybe it was, and it's getting bigger. Before you panic, know that the team at <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">Gimo's Roofing in Jacksonville, FL</a> sees this exact stain on local homes every week, and it's usually a fixable problem once you catch it early.</p>
 
 <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 my-8">
 <p class="text-secondary font-bold mb-2">Is It Mold or a Roof Leak?</p>
@@ -3219,7 +3219,7 @@ export const blogPosts: BlogPost[] = [
     title: "Roofing Labor Cost Per Square in Jacksonville: What Contractors Actually Charge",
     metaTitle: "Roofing Labor Cost Per Square in Florida for 2026",
     excerpt: "What do Jacksonville roofers charge for labor alone? Get the real breakdown of roofing labor costs per square, what affects pricing, and how to spot inflated quotes.",
-    content: `<p class="text-lg text-gray-700 mb-6">When you get a roofing quote, you see a total number. But what does that actually include? Understanding the labor component helps you evaluate quotes, compare contractors fairly, and know if you're getting a good deal,or getting overcharged.</p>
+    content: `<p class="text-lg text-gray-700 mb-6">When you get a roofing quote, you see a total number. But what does that actually include? Understanding the labor component helps you evaluate quotes, compare contractors fairly, and know if you're getting a good deal,or getting overcharged. At <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">Gimo's Roofing, a trusted Jacksonville roofing company</a>, we break down labor costs on every quote so homeowners know exactly what they're paying for.</p>
 
 <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 my-8">
 <p class="text-secondary font-bold mb-2">Roofing Labor Cost Per Square</p>
@@ -3586,7 +3586,7 @@ export const blogPosts: BlogPost[] = [
       { id: "replacement-signs", title: "When to Replace Your Roof" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<p class="text-lg font-semibold text-secondary mb-6">Florida roofs typically last 15-50+ years depending on the material. Asphalt shingles last 15-20 years, significantly shorter than northern states due to intense UV exposure and hurricane stress. Metal roofs last 40-60 years. Tile roofs can exceed 50 years with proper maintenance. Whether you are planning a <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> or just trying to understand how much life your current roof has left, this guide covers everything Jacksonville homeowners need to know about roof lifespan in Florida's demanding climate.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Florida roofs typically last 15-50+ years depending on the material. Asphalt shingles last 15-20 years, significantly shorter than northern states due to intense UV exposure and hurricane stress. Metal roofs last 40-60 years. Tile roofs can exceed 50 years with proper maintenance. Whether you are planning a <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> or just trying to understand how much life your current roof has left, this guide covers everything Jacksonville homeowners need to know about roof lifespan in Florida's demanding climate. Gimo's Roofing, a <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">Jacksonville roofing company</a> with decades of local experience, sees the effects of this climate firsthand on every job.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Quick Answer - Florida Roof Lifespans</p>
@@ -7925,7 +7925,7 @@ export const blogPosts: BlogPost[] = [
       { id: "what-not-to-do", title: "What Not to Do" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<p class="text-lg font-semibold text-secondary mb-6">When your roof is actively leaking: (1) Move valuables away from the leak, (2) Place buckets or containers to catch water, (3) Document the damage with photos, (4) Call an <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof repair</a> professional immediately. Do not attempt to climb on a wet roof. Emergency roof repair services can typically respond within hours to prevent further damage.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">When your roof is actively leaking: (1) Move valuables away from the leak, (2) Place buckets or containers to catch water, (3) Document the damage with photos, (4) Call an <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof repair</a> professional immediately. Do not attempt to climb on a wet roof. Emergency roof repair services can typically respond within hours to prevent further damage. In the Jacksonville area, <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">Gimo's Roofing crew in Jacksonville</a> is available around the clock for exactly this kind of situation.</p>
 
 <div class="bg-red-50 border-l-4 border-red-500 p-6 my-8">
 <p class="text-red-700 font-semibold mb-2">Roof Emergency? Call Now</p>
@@ -9164,7 +9164,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "3 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Attic Insulation in Florida</h2>
 
-<p class="text-gray-600 mb-6"><strong>Florida homes need R-30 to R-60 attic insulation to meet energy code and optimize efficiency.</strong> Proper insulation keeps conditioned air in your home, reduces HVAC workload, and prevents moisture problems that can damage roofing. It works hand in hand with <a href="/blog/energy-efficient-roofing-florida" class="text-primary hover:underline">energy efficient roofing</a> to lower cooling costs in Florida's climate. Most Florida homes are under-insulated, adding insulation typically pays for itself in 2-4 years through energy savings.</p>
+<p class="text-gray-600 mb-6"><strong>Florida homes need R-30 to R-60 attic insulation to meet energy code and optimize efficiency.</strong> Proper insulation keeps conditioned air in your home, reduces HVAC workload, and prevents moisture problems that can damage roofing. It works hand in hand with <a href="/blog/energy-efficient-roofing-florida" class="text-primary hover:underline">energy efficient roofing</a> to lower cooling costs in Florida's climate. Most Florida homes are under-insulated, adding insulation typically pays for itself in 2-4 years through energy savings. A roof inspection from <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">Gimo's Roofing in the Jacksonville area</a> can confirm whether your attic ventilation and insulation are working together the way they should.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Florida Insulation Facts:</p>
@@ -11555,7 +11555,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Multi-Family Roofing</h2>
 
-<p class="text-gray-600 mb-6"><strong>Multi-family properties require roofing that balances durability, cost-effectiveness, and minimal tenant disruption.</strong> Material choice depends on building type, flat-roof apartments typically use commercial membrane systems while duplexes and small multi-family may use residential materials. Coordination with tenants and proper insurance documentation are essential. Most apartment re-roofs fall under <a href="/services/commercial-roofing" class="text-primary hover:underline">commercial roofing</a> systems built for low slopes.</p>
+<p class="text-gray-600 mb-6"><strong>Multi-family properties require roofing that balances durability, cost-effectiveness, and minimal tenant disruption.</strong> Material choice depends on building type, flat-roof apartments typically use commercial membrane systems while duplexes and small multi-family may use residential materials. Coordination with tenants and proper insurance documentation are essential. Most apartment re-roofs fall under <a href="/services/commercial-roofing" class="text-primary hover:underline">commercial roofing</a> systems built for low slopes, and property managers across the metro rely on <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">our Jacksonville roofing team</a> for that kind of multi-building coordination.</p>
 
 <p class="text-gray-600 mb-6">For landlords and property managers across Northeast Florida, a roof is both a major capital asset and a daily liability. A failing roof on a 12-unit building can damage dozens of tenant possessions at once and idle rental income. Whether you own a single duplex or a portfolio of apartment buildings, our <a href="/services/commercial-roofing" class="text-primary hover:underline">commercial roofing</a> team approaches multi-family work as a system: the right membrane or shingle, a phasing plan that keeps tenants in place, and documentation that protects you with insurers and the county. This guide covers material choices, tenant coordination, phasing, slope decisions, budgeting, and the Florida Building Code wind requirements that govern every multi-family roof in the state.</p>
 
@@ -12143,7 +12143,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Roof Flashing</h2>
 
-<p class="text-gray-600 mb-6"><strong>Flashing is thin metal installed at roof intersections and penetrations to direct water away from vulnerable joints.</strong> It is the first line of defense against leaks at chimneys, walls, valleys, vents, and edges. Poor or missing flashing is the leading cause of roof leaks, which is why most <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> calls in Jacksonville trace back to a failed flashing detail. Common materials include aluminum, galvanized steel, copper, and lead.</p>
+<p class="text-gray-600 mb-6"><strong>Flashing is thin metal installed at roof intersections and penetrations to direct water away from vulnerable joints.</strong> It is the first line of defense against leaks at chimneys, walls, valleys, vents, and edges. Poor or missing flashing is the leading cause of roof leaks, which is why most <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> calls in Jacksonville trace back to a failed flashing detail. Common materials include aluminum, galvanized steel, copper, and lead. <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">Our Jacksonville roofing team</a> inspects flashing on every service call, since it's often the real source of a leak that looks like a shingle problem.</p>
 
 <p class="text-gray-600 mb-6">In Jacksonville's climate, flashing earns its keep. Wind-driven rain pushes water sideways and uphill against every seam, while relentless UV bakes the sealants and rubber gaskets that hold those seams tight. A roof can have premium shingles and still leak within a few years if the flashing was rushed or reused. Understanding the types of flashing helps you spot trouble early and know when a quick <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof repair</a> will hold versus when it is time for a full <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a>.</p>
 
@@ -12871,6 +12871,8 @@ export const blogPosts: BlogPost[] = [
     ],
     content: `<p class="text-lg text-gray-700 mb-6"><strong>A ridge cap is a specially shaped shingle or covering installed along the peak (ridge) of your roof where two sloping sides meet.</strong> It seals the gap at the highest point of your roof, preventing rain, wind, and debris from entering your attic. Without a properly installed ridge cap, every rainstorm pushes water directly into the most vulnerable point of your roofing system. If your ridge caps look damaged or worn, <a href="/services/roof-repair" class="text-primary hover:underline">Gimo's Roofing offers free inspections</a> and can assess whether repair or replacement is needed. <a href="https://app.roofr.com/instant-estimator/4db598a1-7ca9-4594-a916-031741fecbfc/GimosRoofing" id="cta-snippet-ridgecap-estimate" class="text-primary hover:underline" target="_blank" rel="noopener">Get a free estimate here</a> or call <a href="tel:+19046065313" id="cta-snippet-ridgecap-call" class="text-primary hover:underline">(904) 606-5313</a>.</p>
 
+<p class="text-gray-600 mb-6"><a href="/roofing-jacksonville-fl" class="text-primary hover:underline">Gimo's Roofing in Jacksonville</a> has replaced ridge caps on hundreds of local homes, and we know exactly what Florida's wind and sun do to them over time.</p>
+
 <p class="text-gray-600 mb-6">Most homeowners never think about their ridge caps until something goes wrong. But this single component sits at the very top of your roof, exposed to more wind, sun, and weather than almost any other part of your roofing system. Understanding what ridge caps do, what they look like when they fail, and when to replace them can save you from expensive water damage that starts at the peak and works its way down through your entire home.</p>
 
 <h2 id="what-is-ridge-cap" class="text-2xl font-bold text-secondary mt-10 mb-4">What Is a Ridge Cap</h2>
@@ -13589,7 +13591,7 @@ export const blogPosts: BlogPost[] = [
       { id: "other-algae-prevention-methods", title: "Other Ways to Prevent Roof Algae" },
       { id: "spring-algae-prevention", title: "Spring Algae Prevention Tips" }
     ],
-    content: `<p class="text-lg text-gray-700 mb-6"><strong>Algae resistant roof shingles contain copper or zinc granules embedded in the surface that slowly leach out over time, creating a hostile environment for Gloeocapsa magma, the bacteria responsible for those ugly black streaks on Florida roofs.</strong> These shingles typically provide 10 to 15 years of effective algae protection and cost about 10 to 15 percent more than standard shingles. In a humid climate like Florida, that premium pays for itself by eliminating the need for repeated roof cleaning and preventing the premature aging that algae causes.</p>
+    content: `<p class="text-lg text-gray-700 mb-6"><strong>Algae resistant roof shingles contain copper or zinc granules embedded in the surface that slowly leach out over time, creating a hostile environment for Gloeocapsa magma, the bacteria responsible for those ugly black streaks on Florida roofs.</strong> These shingles typically provide 10 to 15 years of effective algae protection and cost about 10 to 15 percent more than standard shingles. In a humid climate like Florida, that premium pays for itself by eliminating the need for repeated roof cleaning and preventing the premature aging that algae causes. Homeowners working with a <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">roofing company in Jacksonville FL</a> can expect algae resistant granules on nearly every architectural shingle line quoted today.</p>
 
 <p class="text-gray-600 mb-6">If you have ever noticed dark streaks running down a roof in your neighborhood, you have seen what Gloeocapsa magma does to standard shingles. In Northeast Florida, our combination of high humidity, warm temperatures, and frequent rainfall creates perfect conditions for algae colonization. Without protection, most roofs in the Jacksonville area will develop visible algae staining within 3 to 5 years of installation.</p>
 
@@ -15854,7 +15856,7 @@ export const blogPosts: BlogPost[] = [
     ],
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - Why Your Roof Leaks in Heavy Rain</h2>
 
-<p class="text-gray-600 mb-6"><strong>Roofs that leak only during heavy rain typically have minor vulnerabilities that light rain does not expose.</strong> Heavy rain increases water volume, wind drives water sideways under shingles, and overwhelmed gutters force water backward under the roof edge. The most common causes are damaged flashing, worn pipe boots, clogged gutters, and compromised shingle areas that only fail under heavy water flow.</p>
+<p class="text-gray-600 mb-6"><strong>Roofs that leak only during heavy rain typically have minor vulnerabilities that light rain does not expose.</strong> Heavy rain increases water volume, wind drives water sideways under shingles, and overwhelmed gutters force water backward under the roof edge. The most common causes are damaged flashing, worn pipe boots, clogged gutters, and compromised shingle areas that only fail under heavy water flow. If you're dealing with an active leak, <a href="/roofing-jacksonville-fl" class="text-primary hover:underline">our Jacksonville, FL roofing crew</a> can diagnose the exact entry point before it causes further damage.</p>
 
 <p class="text-gray-600 mb-6">Get a fast <a href="/roofing-nocatee-fl" class="text-primary font-semibold hover:underline">roof quote in Nocatee</a> — call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
@@ -20071,6 +20073,214 @@ export const blogPosts: BlogPost[] = [
     ]
   },
 
+  {
+    slug: "roofing-scams-red-flags-florida",
+    title: "Roofing Scams in Florida: How to Spot the Red Flags (2026)",
+    metaTitle: "Roofing Scams in Florida: How to Spot the Red Flags (2026)",
+    excerpt: "How to recognize a roofing scam in Florida before you sign: storm chaser tactics, insurance fraud, license fraud, and what to do if you've already been scammed.",
+    date: "2026-08-21",
+    publishDate: "2026-08-21",
+    dateModified: "2026-08-21",
+    author: "Gimo's Roofing Team",
+    image: "/images/roof-inspection-in-jacksonville-fl-2.webp",
+    imageAlt: "Aerial view of a completed roof inspection in Jacksonville FL, the kind of documentation a legitimate roofing contractor provides",
+    category: "Homeowner Tips",
+    readTime: "9 min read",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Answer" },
+      { id: "storm-chaser-tactics", title: "Storm Chaser Tactics After a Florida Storm" },
+      { id: "insurance-fraud-red-flags", title: "Insurance Fraud Red Flags" },
+      { id: "license-identity-fraud", title: "License and Identity Fraud" },
+      { id: "disappearing-contractor", title: "The Disappearing Contractor Pattern" },
+      { id: "legitimate-process", title: "What a Legitimate Roofing Process Looks Like" },
+      { id: "already-scammed", title: "If You've Already Been Scammed" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - How to Spot a Roofing Scam</h2>
+
+<p class="text-gray-600 mb-6"><strong>Most roofing scams in Florida follow one of four patterns: a storm chaser pressuring you to sign the same day, a pitch to waive your insurance deductible, a license that doesn't hold up to a two-minute check, or a large deposit followed by a contractor who stops answering the phone.</strong> None of these require special expertise to catch, they just require slowing down long enough to verify what you're being told. A <a href="/services/roof-inspection" class="text-primary hover:underline">free roof inspection</a> from a real, licensed local contractor costs you nothing and gives you a second opinion before you sign anything with someone else.</p>
+
+<p class="text-gray-600 mb-6">Looking for a <a href="/roofing-fernandina-beach-fl" class="text-primary font-semibold hover:underline">roof quote in Fernandina Beach</a>? Gimo's Roofing is one call away at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+
+<h2 id="storm-chaser-tactics" class="text-2xl font-bold text-secondary mt-10 mb-4">Storm chaser tactics after a Florida storm</h2>
+
+<p class="text-gray-600 mb-6">A storm chaser is an out-of-town crew that follows hurricane and hail damage across the country, canvassing neighborhoods door to door in the days right after a storm. They're gone before the year is out, which matters more than it sounds like it should, because a roof problem that shows up two years later has nobody to call. The tactics are recognizable once you know what to look for: a knock on the door claiming to have "noticed damage" from the street or a drone flyover, a same-visit contract with pressure to sign before they leave, and a request for a large cash deposit with no local address or Florida license number on the paperwork.</p>
+
+<p class="text-gray-600 mb-6">Real storm damage is common enough in Northeast Florida that you don't need someone showing up uninvited to find it for you. If a hurricane or severe wind event has passed through, a local, licensed contractor can document the damage and walk you through the timeline honestly, without the same-day urgency. Our <a href="/blog/hurricane-roof-damage-signs-florida" class="text-primary hover:underline">guide to hurricane roof damage signs</a> covers what real storm damage actually looks like, which is useful context before anyone tells you your roof needs to be replaced immediately.</p>
+
+<p class="text-gray-600 mb-6">A common version of this scenario plays out the same way across the state after every named storm: a crew in an unmarked truck knocks on doors along a street, claims to have already inspected several roofs nearby, and offers to climb up and "check for free" before you've called anyone. Once they're on the roof, minor wear that was already there gets described as storm damage, and the contract comes out before they climb back down. A homeowner who says they want to get a second opinion or call their own roofer first is often met with more pressure, not less, which is itself a signal worth paying attention to.</p>
+
+<h2 id="insurance-fraud-red-flags" class="text-2xl font-bold text-secondary mt-10 mb-4">Insurance fraud red flags</h2>
+
+<p class="text-gray-600 mb-6">The single clearest insurance-related red flag is a contractor who offers to waive, pay, or rebate your insurance deductible in exchange for the job. It sounds like a discount. It's a felony. Under <a href="https://www.flsenate.gov/Laws/Statutes/2025/489.147" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Florida Statute 489.147</a>, a contractor who knowingly waives or rebates a property insurance deductible with intent to defraud is committing insurance fraud, a third-degree felony, and can face a state administrative fine of up to $10,000 per violation. The law also requires every residential roofing contract to include a written notice that this practice is prohibited. If that notice is missing from your contract, you have the right to void the contract within 10 days of signing it.</p>
+
+<p class="text-gray-600 mb-6">A related pitch is a contractor who inflates the damage on paper to push your claim past what your policy would otherwise cover, or one who pressures you to sign an assignment of benefits before an adjuster has even seen the roof. A legitimate contractor documents the damage that's actually there and lets your insurance company and its adjuster make the coverage decision. If a sales pitch leans harder on "how much we can get your insurance to pay" than on the actual condition of your roof, that's the moment to get a second opinion.</p>
+
+<p class="text-gray-600 mb-6">An assignment of benefits, or AOB, transfers your right to negotiate and collect an insurance payout directly to the contractor, which can be legitimate in the right circumstances but also removes you from a conversation about your own claim. Read anything labeled AOB carefully before signing it, and know that signing one is never required to get a roof repaired. If a contractor pushes an AOB before they've even inspected the roof, treat that sequence as backward and ask why.</p>
+
+<h2 id="license-identity-fraud" class="text-2xl font-bold text-secondary mt-10 mb-4">License and identity fraud</h2>
+
+<p class="text-gray-600 mb-6">Florida certified roofing contractor licenses use the prefix CCC followed by seven digits, Gimo's Roofing's license is CCC1332453, and you can verify any Florida license in under a minute at the state's <a href="https://www2.myfloridalicense.com/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">DBPR license search</a>. Two specific fraud patterns show up around licensing. The first is "license lending," where an unlicensed crew operates under a licensed contractor's name and permit, sometimes with that contractor's knowledge and sometimes without it. The second is a crew claiming a license number that either doesn't exist, belongs to a different company, or is listed as delinquent or revoked when you actually search it.</p>
+
+<p class="text-gray-600 mb-6">The license search tells you more than whether a number is real. It also shows the license type, certified versus registered, and certified licenses are valid statewide while registered licenses are restricted to the county where they're registered. It will also show any disciplinary action, complaint history, or an expired or delinquent status, none of which shows up just by asking the crew standing in your driveway. Our guide on <a href="/blog/how-to-choose-roofing-contractor-jacksonville" class="text-primary hover:underline">how to choose a roofing contractor in Jacksonville</a> covers what to check beyond the license itself, including insurance certificates and local references.</p>
+
+<p class="text-gray-600 mb-6">License lending is worth understanding because it's often invisible from the homeowner's side. A legitimately licensed contractor allows an unrelated crew, sometimes a company that couldn't get licensed on its own, to pull permits and sign contracts under that license for a fee. The homeowner sees a real, verifiable license number and assumes the crew on the roof is the same business that holds it. If the work fails or the crew disappears, the license holder can claim they never performed the work themselves, leaving the homeowner with a real license number attached to work nobody licensed actually stands behind. Asking whether the crew on your roof is the same company listed on the permit, and confirming the name matches what you searched on DBPR, closes this gap.</p>
+
+<h2 id="disappearing-contractor" class="text-2xl font-bold text-secondary mt-10 mb-4">The disappearing contractor pattern</h2>
+
+<p class="text-gray-600 mb-6">This is the scam that does the most financial damage, and it's simple: collect a large deposit, maybe start some demolition work to look legitimate, then stop returning calls. Florida law limits how much a residential roofing contractor can require as an upfront deposit, so a demand for the full contract amount before any work begins is already outside normal practice, not just a risk to weigh. Once a deposit that size is gone, recovering it usually means a civil claim or a criminal fraud report rather than a phone call that gets it back.</p>
+
+<p class="text-gray-600 mb-6">The pattern is easiest to catch before you pay anything. A written, itemized scope of work, a payment schedule tied to project milestones rather than paid up front, and a permit pulled in the contractor's name are the three things that separate a real project from this one. Our <a href="/blog/how-to-compare-roofing-quotes" class="text-primary hover:underline">guide to comparing roofing quotes</a> walks through exactly what a legitimate payment schedule and scope of work should include, line by line, before you sign anything.</p>
+
+<h2 id="legitimate-process" class="text-2xl font-bold text-secondary mt-10 mb-4">What a legitimate roofing process looks like</h2>
+
+<p class="text-gray-600 mb-6">A real roofing project has a paper trail at every step: a written scope of work, a Florida license number you can verify, a certificate showing current general liability and workers' compensation insurance, a permit pulled before work starts, photo documentation of the damage and the completed job, and both a manufacturer warranty and a workmanship warranty in writing. Gimo's Roofing is FL licensed CCC1332453 and CertainTeed Certified, and every estimate our owner, Ivan, and his crew provide includes photo documentation and a written scope before any work begins, which is the same standard a homeowner should hold any contractor to.</p>
+
+<div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
+<p class="font-bold text-secondary mb-2">Want a Second Opinion Before You Sign?</p>
+<p class="text-gray-600 mb-4">A free inspection from a licensed local roofer costs nothing and takes less time than reading through a contract you're not sure about.</p>
+<div class="flex flex-col sm:flex-row gap-3">
+<a href="tel:+19046065313" class="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition text-sm">Call (904) 606-5313</a>
+<a href="/services/roof-inspection" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Free Roof Inspection</a>
+</div>
+</div>
+
+<h2 id="already-scammed" class="text-2xl font-bold text-secondary mt-10 mb-4">If you've already been scammed</h2>
+
+<p class="text-gray-600 mb-6">If you've already paid a deposit to a contractor who disappeared, or you suspect the work you paid for was fraudulent, there are four places to go, and doing all four improves your odds of recovering something:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>File a complaint with Florida's Department of Business and Professional Regulation at <a href="https://www2.myfloridalicense.com/file-a-complaint/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">myfloridalicense.com/file-a-complaint</a>, or call the DBPR Customer Contact Center at 850-487-1395. Complaints against unlicensed contractors specifically are not protected by the confidentiality rules that apply to licensed ones</li>
+<li>Report it to your local police or sheriff's non-emergency line as fraud or theft, especially if a deposit was taken and no work was performed</li>
+<li>File a complaint with the Better Business Bureau, which won't recover money directly but creates a public record that can help other homeowners and sometimes prompts a response a phone call didn't</li>
+<li>Notify your insurance company if the fraud touched an insurance claim, since a fraudulent claim filed in your name can affect your policy even if you didn't file it yourself</li>
+</ul>
+
+<p class="text-gray-600 mb-6">If you paid by credit card, a chargeback through your card issuer is often the fastest path to getting money back, faster than any of the four steps above, and it doesn't prevent you from also filing the DBPR and police reports.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>A contractor offering to waive or pay your insurance deductible is committing a felony under Florida law, not offering you a deal</li>
+<li>Verify any Florida contractor's license in under a minute through the state's DBPR license search before signing anything</li>
+<li>A full deposit demanded before work starts is outside normal Florida contracting practice, not just a risk worth weighing</li>
+<li>Storm chasers rely on same-day urgency. A legitimate local contractor will give you time to think it over</li>
+<li>If you've already been scammed, file with DBPR, report it to local law enforcement, notify the BBB, and contact your card issuer for a chargeback if you paid by card</li>
+</ul>`,
+    faqs: [
+      { question: "Is it illegal for a roofing contractor to waive my insurance deductible in Florida?", answer: "Yes. Under Florida Statute 489.147, a contractor who knowingly waives, pays, or rebates a homeowner's insurance deductible with intent to defraud is committing insurance fraud, a third-degree felony, and can face a state fine of up to $10,000 per violation. Contracts must include a written notice that this practice is illegal, and homeowners can void a contract within 10 days if that notice is missing." },
+      { question: "How can I verify a roofing contractor's Florida license?", answer: "Search the contractor's license number through Florida's DBPR license search at myfloridalicense.com, which takes under a minute and shows whether the license is active, its type, and whether any disciplinary action is on file. Florida certified roofing contractor licenses start with CCC followed by seven digits and are valid statewide, while registered licenses start with RC or RF and are restricted to a single county." },
+      { question: "What is a storm chaser roofing scam?", answer: "A storm chaser is an out-of-town crew that canvasses neighborhoods door to door right after a hurricane or hail event, pressuring homeowners to sign a contract the same day, often with a large cash deposit and no verifiable local address or license. They're typically gone before problems with the work show up, leaving the homeowner with no one to call for warranty repairs." },
+      { question: "What should I do if I already paid a roofing contractor who disappeared?", answer: "File a complaint with Florida's DBPR at myfloridalicense.com or by calling 850-487-1395, report it to local police as fraud or theft, file a complaint with the Better Business Bureau, and notify your insurance company if an insurance claim was involved. If you paid by credit card, a chargeback through your card issuer is often the fastest way to recover the money." }
+    ]
+  },
+  {
+    slug: "home-remodel-order-of-operations-roof-first",
+    title: "Home Remodel Order of Operations: Start With the Roof (2026)",
+    metaTitle: "Home Remodel Order of Operations: Start With the Roof (2026)",
+    excerpt: "Planning a multi-project home remodel? Here is the right order of operations, why the roof and envelope should come before cosmetic work, and how to budget it.",
+    date: "2026-08-21",
+    publishDate: "2026-08-21",
+    dateModified: "2026-08-21",
+    author: "Gimo's Roofing Team",
+    image: "/images/roofing-services-project-jacksonville-fl-2.webp",
+    imageAlt: "Aerial view of a Jacksonville FL home mid-renovation with new roof underlayment installed and a material lift on site",
+    category: "Homeowner Tips",
+    readTime: "8 min read",
+    tableOfContents: [
+      { id: "quick-answer", title: "Quick Answer" },
+      { id: "envelope-before-cosmetic", title: "Fix the Envelope Before the Cosmetic Work" },
+      { id: "why-roof-first", title: "Why the Roof Specifically Goes First" },
+      { id: "the-order", title: "A Practical Order of Operations" },
+      { id: "budgeting-around-the-roof", title: "Budgeting a Remodel Around Roof Condition" },
+      { id: "common-mistakes", title: "Common Sequencing Mistakes" },
+      { id: "when-to-skip-the-line", title: "When It's Fine to Start With Cosmetic Work" },
+      { id: "key-takeaways", title: "Key Takeaways" }
+    ],
+    content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - Home Remodel Order of Operations</h2>
+
+<p class="text-gray-600 mb-6"><strong>Fix the building envelope, roof, exterior walls, windows, and any active leaks, before you start cosmetic remodeling like kitchens, bathrooms, or flooring.</strong> A remodel done in the wrong order means paying twice: once for the new cabinets or hardwood, and again when a roof problem you knew about, or didn't check for, ruins them. A <a href="/services/roof-inspection" class="text-primary hover:underline">free roof inspection</a> before you finalize any remodel budget tells you in one visit whether the roof is a line item you need to plan around.</p>
+
+<p class="text-gray-600 mb-6">Ready to talk numbers? Call Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a> for a <a href="/roofing-nocatee-fl" class="text-primary font-semibold hover:underline">roof estimate in Nocatee</a>.</p>
+
+<h2 id="envelope-before-cosmetic" class="text-2xl font-bold text-secondary mt-10 mb-4">Fix the envelope before the cosmetic work</h2>
+
+<p class="text-gray-600 mb-6">Contractors across every trade tend to agree on one sequencing rule even when they disagree on everything else: address the building envelope, the roof, exterior walls, windows, and foundation, before you touch interior finishes. The envelope is what keeps water, humidity, and pests out of the house. Cosmetic work, kitchens, bathrooms, flooring, paint, doesn't protect anything, it just makes the inside of the house nicer to look at. If the envelope fails after the cosmetic work is done, the cosmetic work is what pays the price.</p>
+
+<p class="text-gray-600 mb-6">This isn't just a roofer's opinion. It shows up constantly in homeowner discussions about renovation order, and the pattern is always the same: someone finishes a beautiful kitchen or primary suite, then a roof leak or a rotted window sill shows up months later and the new finish has to be torn out to fix the underlying problem. Planning the sequence backward from that scenario, envelope first, is cheaper than living through it.</p>
+
+<p class="text-gray-600 mb-6">The financial logic is straightforward once you write it out. A kitchen remodel that costs $35,000 and a roof replacement that costs $15,000 are two separate line items if the roof is done first or ruled out entirely. If the roof fails after the kitchen is finished, you're not just paying $15,000 for the roof, you're also paying to replace whatever the water damaged, cabinets, hardwood or engineered flooring, drywall, sometimes insulation and framing if it went undetected for a while. A repair that would have cost a few hundred dollars caught early can turn into a five-figure combined loss once it's caught late, entirely because of the order the work happened in.</p>
+
+<h2 id="why-roof-first" class="text-2xl font-bold text-secondary mt-10 mb-4">Why the roof specifically goes first</h2>
+
+<p class="text-gray-600 mb-6">Among envelope items, the roof gets top priority for a practical reason: it's the hardest one to inspect casually, and the damage from a failure travels the farthest. A cracked exterior wall is visible from the driveway. A failing roof can leak for months into an attic before a stain ever reaches a ceiling you'd notice, and by the time it does, insulation, decking, and drywall are all affected, along with whatever room is directly below. If that room was the kitchen or primary bath you just remodeled, the new work absorbs the damage first.</p>
+
+<p class="text-gray-600 mb-6">Roof age also affects two things that determine whether the rest of your remodel is even financeable: insurance and lending. Many Florida insurers require a roof condition report for homes over 15 to 20 years old before renewing or writing a policy, and a lender financing a larger renovation may require the same before releasing funds. Settling the roof question early keeps those two pieces from surfacing as a surprise mid-project. Our guide on <a href="/blog/what-are-the-best-ways-to-increase-home-value" class="text-primary hover:underline">what actually increases home value</a> breaks down the ROI math on a roof replacement specifically, which is useful if you're weighing whether to include it in the budget at all.</p>
+
+<p class="text-gray-600 mb-6">There's also a practical scheduling reason. A tear-off and reroof involves a crew on ladders, a dumpster in the driveway, and materials staged on the lawn or roof deck for a few days. None of that plays well with an active interior remodel, workers in and out through the same doors, dust protection over finished floors, deliveries competing for driveway space. Sequencing the roof first, before the interior crews are on site, avoids two trades tripping over each other and keeps a freshly finished interior protected from roofing debris and foot traffic.</p>
+
+<h2 id="the-order" class="text-2xl font-bold text-secondary mt-10 mb-4">A practical order of operations</h2>
+
+<p class="text-gray-600 mb-6">For a homeowner planning several projects at once, this is the sequence that avoids redoing finished work:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Roof and envelope:</strong> roof repair or replacement, siding, window and door flashing, any active leak, addressed and fully dried out before anything else starts</li>
+<li><strong>Structural and major systems:</strong> foundation issues, electrical panel upgrades, plumbing repipes, HVAC replacement, all of which are easier and cheaper to access before walls and floors are finished</li>
+<li><strong>Structural changes to the interior:</strong> removing or adding walls, additions, and anything requiring a permit that touches the framing</li>
+<li><strong>Cosmetic finishes:</strong> kitchens, bathrooms, flooring, paint, trim, and fixtures</li>
+<li><strong>Exterior cosmetic and landscaping:</strong> the garage door, entry updates, and landscaping that typically show up on a home value ROI list</li>
+</ul>
+
+<p class="text-gray-600 mb-6">If you're planning a second-story addition specifically, the roof isn't just something to check first, it's part of the structural scope itself. Our guide to <a href="/blog/second-story-addition-roofing" class="text-primary hover:underline">roofing for a second-story addition</a> covers how an addition changes roof load, drainage, and tie-in points, which needs to be worked out before the framing crew shows up.</p>
+
+<h2 id="budgeting-around-the-roof" class="text-2xl font-bold text-secondary mt-10 mb-4">Budgeting a remodel around roof condition</h2>
+
+<p class="text-gray-600 mb-6">Get the roof inspected before you finalize a remodel budget, even if nothing seems wrong. A roof with 3 to 5 years of remaining life left off the budget entirely can force an unplanned expense right in the middle of a kitchen or addition project, competing for the same funds. Three outcomes are possible once you know the roof's real condition: it needs full replacement and gets budgeted as line one, it needs a repair that buys several years and gets scheduled before the cosmetic work, or it's sound and gets crossed off the list entirely, freeing up both budget and peace of mind for the rest of the project.</p>
+
+<p class="text-gray-600 mb-6">A financing structure that works well for a multi-project remodel is to separate the roof into its own line with its own timeline, rather than folding it into a single lump-sum renovation loan where a roof cost overrun eats into the kitchen or bathroom budget. Roof replacement financing is often available on its own terms, sometimes with promotional no-interest periods, which keeps it from competing dollar for dollar against the interior work you're actually excited about. Our <a href="/roof-financing-florida" class="text-primary hover:underline">roof financing</a> page covers what those payment plans look like in practice.</p>
+
+<h2 id="common-mistakes" class="text-2xl font-bold text-secondary mt-10 mb-4">Common sequencing mistakes homeowners make</h2>
+
+<p class="text-gray-600 mb-6">A few patterns show up repeatedly in remodels that end up costing more than planned:</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li><strong>Assuming a roof is fine because there's no visible stain yet.</strong> Attic leaks can travel along rafters and drip several feet from the actual entry point, so the absence of a ceiling stain doesn't confirm the roof is sound</li>
+<li><strong>Scheduling the roof and the interior crews in the same week to save time.</strong> This usually costs more in protection materials, cleanup, and coordination than it saves in calendar days</li>
+<li><strong>Skipping the roof inspection because the remodel budget is already tight.</strong> A free inspection costs nothing and either confirms the roof isn't a budget item or catches a problem while it's still a repair instead of a full replacement</li>
+<li><strong>Not telling the roofing contractor about planned interior work.</strong> If a kitchen addition or skylight is part of the plan, the roofer needs that information before finalizing roof scope, since it can change decking, flashing, or ventilation requirements</li>
+</ul>
+
+<div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
+<p class="font-bold text-secondary mb-2">Starting a Remodel? Rule the Roof In or Out First</p>
+<p class="text-gray-600 mb-4">A free inspection tells you exactly where your roof stands before you finalize a renovation budget, no obligation.</p>
+<div class="flex flex-col sm:flex-row gap-3">
+<a href="tel:+19046065313" class="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition text-sm">Call (904) 606-5313</a>
+<a href="/services/roof-inspection" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Free Roof Inspection</a>
+</div>
+</div>
+
+<h2 id="when-to-skip-the-line" class="text-2xl font-bold text-secondary mt-10 mb-4">When it's fine to start with cosmetic work</h2>
+
+<p class="text-gray-600 mb-6">This order of operations isn't a rule for its own sake, it's about not paying twice. If a licensed inspection confirms the roof, siding, and windows are sound with no active leaks, there's no envelope risk hanging over a kitchen or bathroom remodel, and starting with the cosmetic project you actually want is perfectly reasonable. The point isn't that every remodel has to start with a new roof. It's that you should know the answer before you start, rather than find out the hard way partway through.</p>
+
+<p class="text-gray-600 mb-6">A roof that's mid-life, not new, but not urgent either, is the case that trips people up most. In that situation, ask for a written estimate of remaining life along with the inspection, not just a pass or fail. A roof with a confirmed 8 to 10 years left rarely needs to jump the line ahead of a kitchen remodel. One with 2 to 3 years left probably should, even if it isn't leaking yet, since the odds of it becoming a mid-remodel problem go up the longer it sits at the bottom of the priority list.</p>
+
+<h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key takeaways</h2>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
+<li>Fix the building envelope, roof, exterior walls, windows, before starting cosmetic remodeling, since envelope failures damage finished work first</li>
+<li>The roof gets top priority because leaks can go unnoticed for months and roof age affects insurance and financing for the rest of the project</li>
+<li>A practical sequence is envelope and roof, then major systems, then structural interior changes, then cosmetic finishes, then exterior cosmetic work</li>
+<li>Get a roof inspection before finalizing any remodel budget, even if nothing seems wrong, so an unplanned roof expense doesn't compete with the rest of the project</li>
+<li>If the roof and envelope are confirmed sound, there's no reason to delay the cosmetic project you actually want</li>
+</ul>`,
+    faqs: [
+      { question: "Should I replace my roof before or after remodeling my kitchen?", answer: "Before, or at minimum get it inspected first. A roof leak after a kitchen remodel is complete can damage new cabinets, flooring, and drywall, forcing you to redo finished work. If an inspection confirms the roof is sound, there's no need to replace it first, but skipping that check is what leads to paying for the same room twice." },
+      { question: "What is the right order of operations for a whole-home renovation?", answer: "Start with the building envelope and roof, then major systems like electrical, plumbing, and HVAC, then structural interior changes such as removing walls or adding square footage, then cosmetic finishes like kitchens and bathrooms, and finally exterior cosmetic work like the garage door and landscaping. This order keeps water and structural risk resolved before you invest in finishes that risk could damage." },
+      { question: "How do I know if my roof needs attention before I start a remodel?", answer: "A licensed roof inspection is the only reliable way to know, since many leaks and areas of wear aren't visible from the ground or even from inside the attic without a trained eye. Gimo's Roofing offers free roof inspections in Jacksonville, which typically take under an hour and give you a clear answer before you finalize a renovation budget." },
+      { question: "Does roof age affect financing for a home renovation?", answer: "It can. Many lenders financing a larger renovation, and many Florida homeowner insurance policies, require a roof condition report for homes over 15 to 20 years old. Settling the roof question early in the planning process avoids a surprise requirement showing up mid-project when funds are already committed elsewhere." }
+    ]
+  },
   {
     slug: "watch-our-roofing-projects-youtube",
     title: "Watch Our Roofing Projects in Action on YouTube",
