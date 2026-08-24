@@ -46,21 +46,26 @@ export const metadata: Metadata = {
   },
 }
 
-// WebSite schema (baseline entity/site signal). NOTE: intentionally does NOT include a
-// SearchAction/sitelinks-searchbox block. That specific schema requires a real, working
-// on-site search endpoint behind it (Google's guidelines: the target URL must actually
-// perform the search) - this site has no search feature anywhere, so adding SearchAction
-// without one would be fake structured data. Regular sitelinks (sub-page links under the
-// main SERP result) are unaffected by this - those are algorithmic, driven by site
-// structure/authority/breadcrumbs, not a schema block. Building a real search endpoint
-// is a separate, larger feature to build first if the searchbox specifically is wanted.
+// WebSite schema with SearchAction, the mechanism Google uses to enable the sitelinks
+// search box. /search is a real, working client-side search page (frontend/src/app/search)
+// built against frontend/src/lib/searchIndex.ts, the same page/service/location/blog index
+// used by the visible /sitemap page, so the target URL actually performs the search rather
+// than being decorative schema.
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": "https://www.gimosroofing.com/#website",
   "url": "https://www.gimosroofing.com",
   "name": "Gimo's Roofing",
-  "publisher": { "@id": "https://www.gimosroofing.com/#organization" }
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.gimosroofing.com/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
 }
 
 const structuredData = {

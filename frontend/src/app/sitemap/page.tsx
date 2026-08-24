@@ -1,67 +1,11 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { blogPosts as allBlogPosts } from '@/lib/blogData'
+import { mainPages, servicePages, locationPages, blogSearchEntries as blogPosts } from '@/lib/searchIndex'
 
 export const metadata: Metadata = {
   title: "Sitemap | Gimo's Roofing Jacksonville FL",
   description: "Complete sitemap for Gimo's Roofing website. Find all our pages including services, locations, and blog posts.",
 }
-
-const mainPages = [
-  { title: "Home", href: "/" },
-  { title: "About Us", href: "/about" },
-  { title: "Services", href: "/services" },
-  { title: "Gallery", href: "/gallery" },
-  { title: "Service Areas", href: "/service-areas" },
-  { title: "Contact", href: "/contact" },
-  { title: "Blog", href: "/blog" },
-  { title: "For AI Agents", href: "/ai" },
-]
-
-const servicePages = [
-  { title: "Emergency Roof Repair", href: "/services/emergency-roof-repair" },
-  { title: "Roof Replacement", href: "/services/roof-replacement" },
-  { title: "Roof Repair", href: "/services/roof-repair" },
-  { title: "New Construction Roofing", href: "/services/new-construction-roofing" },
-  { title: "Commercial Roofing", href: "/services/commercial-roofing" },
-  { title: "Siding Installation", href: "/services/siding-installation" },
-  { title: "Siding Repair", href: "/services/siding-repair" },
-  { title: "Metal Roofing", href: "/services/metal-roofing" },
-  { title: "Gutter Installation, Repair & Replacement", href: "/services/roof-gutter" },
-  { title: "Roof Waterproofing", href: "/services/roof-waterproofing" },
-  { title: "Chimney Repair", href: "/services/chimney-repair" },
-  { title: "Roof Inspection", href: "/services/roof-inspection" },
-  { title: "Skylight Installation", href: "/services/skylight-installation" },
-  { title: "Roof Financing Florida", href: "/roof-financing-florida" },
-]
-
-const locationPages = [
-  { title: "Jacksonville", href: "/roofing-jacksonville-fl" },
-  { title: "Jacksonville Beach", href: "/roofing-jacksonville-beach-fl" },
-  { title: "Atlantic Beach", href: "/roofing-atlantic-beach-fl" },
-  { title: "Neptune Beach", href: "/roofing-neptune-beach-fl" },
-  { title: "Ponte Vedra Beach", href: "/roofing-ponte-vedra-beach-fl" },
-  { title: "Nocatee", href: "/roofing-nocatee-fl" },
-  { title: "St. Augustine", href: "/roofing-st-augustine-fl" },
-  { title: "Orange Park", href: "/roofing-orange-park-fl" },
-  { title: "Fernandina Beach", href: "/roofing-fernandina-beach-fl" },
-  { title: "Riverside", href: "/roofing-riverside-fl" },
-  { title: "San Marco", href: "/roofing-san-marco-fl" },
-  { title: "Mandarin", href: "/roofing-mandarin-fl" },
-  { title: "Southside Jacksonville", href: "/roofing-southside-jax-fl" },
-  { title: "Atlantic Beach", href: "/roofing-atlantic-beach-fl" },
-  { title: "Neptune Beach", href: "/roofing-neptune-beach-fl" },
-]
-
-// Dynamically get published blog posts
-const now = new Date().toISOString()
-const blogPosts = allBlogPosts
-  .filter(post => {
-    if (!post.publishDate) return true
-    const pubDate = post.publishDate.includes('T') ? post.publishDate : post.publishDate + 'T00:00'
-    return pubDate <= now
-  })
-  .map(post => ({ title: post.title, href: `/blog/${post.slug}` }))
 
 export default function SitemapPage() {
   return (
