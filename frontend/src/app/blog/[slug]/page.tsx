@@ -109,6 +109,25 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     } : {})
   } : null
 
+  // VideoObject schema for posts with a single embedded YouTube video (skips playlist
+  // embeds like "embed/videoseries?list=..." since a playlist isn't one indexable video).
+  // uploadDate is a best-effort proxy from the post's publish date; the true YouTube
+  // upload date may differ slightly and can be corrected if that ever matters for a
+  // specific video.
+  const videoIdMatch = post.featuredVideoEmbedUrl?.match(/embed\/([a-zA-Z0-9_-]{11})(?:\?|$)/)
+  const videoId = videoIdMatch && videoIdMatch[1] !== "videoseries" ? videoIdMatch[1] : null
+  const videoSchema: Record<string, unknown> | null = videoId ? {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": post.title,
+    "description": post.excerpt,
+    "thumbnailUrl": `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
+    "uploadDate": `${post.date}T08:00:00.000Z`,
+    "contentUrl": `https://www.youtube.com/watch?v=${videoId}`,
+    "embedUrl": `https://www.youtube.com/embed/${videoId}`,
+    "publisher": { "@id": "https://www.gimosroofing.com/#organization" }
+  } : null
+
   const articleSchema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -174,6 +193,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       {faqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      )}
+      {videoSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }} />
       )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

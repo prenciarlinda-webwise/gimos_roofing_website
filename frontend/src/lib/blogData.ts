@@ -4256,7 +4256,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "4 min read",
     author: "Gimo's Roofing Team",
     image: "/images/roof-repair.webp",
-    imageAlt: "Comparison of architectural and 3-tab shingles on Jacksonville roof",
+    imageAlt: "Side-by-side comparison of architectural shingles vs 3 tab shingles on a Jacksonville roof",
     tableOfContents: [
       { id: "quick-answer", title: "Quick Comparison" },
       { id: "what-is-difference", title: "What's the Difference?" },
@@ -4266,7 +4266,7 @@ export const blogPosts: BlogPost[] = [
       { id: "which-to-choose", title: "Which Should You Choose?" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<p class="text-lg font-semibold text-secondary mb-6">Architectural shingles are better than 3-tab for Jacksonville homes. They cost 20-30% more but last 5-7 years longer (15-20 years vs 12-15 years), offer higher wind ratings (130 mph vs 60-70 mph), and provide better curb appeal. For Florida's harsh climate and hurricane exposure, architectural shingles offer significantly better value despite the higher upfront cost.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Of the two most common roof shingles types, architectural shingles are better than 3-tab for Jacksonville homes. They cost 20-30% more but last 5-7 years longer (15-20 years vs 12-15 years), offer higher wind ratings (130 mph vs 60-70 mph), and provide better curb appeal. For Florida's harsh climate and hurricane exposure, architectural shingles offer significantly better value despite the higher upfront cost.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Architectural vs 3-Tab in Florida</p>
@@ -4284,11 +4284,13 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">The only situations where 3-tab might make sense are rental properties, homes you plan to sell soon, or extremely tight budgets where the upfront cost difference is prohibitive.</p>
 
-<h2 id="what-is-difference" class="text-2xl font-bold text-secondary mt-10 mb-4">What Is the Difference Between Architectural and 3-Tab Shingles?</h2>
+<h2 id="what-is-difference" class="text-2xl font-bold text-secondary mt-10 mb-4">Architectural Shingles vs 3-Tab: What Is the Difference?</h2>
+
+<p class="text-gray-600 mb-4">Jacksonville homes are covered by several types of roofing shingles, but two shingle types make up nearly every re-roof we quote: 3-tab and architectural (also called dimensional or laminated) shingles.</p>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">3-Tab Shingles</h3>
 
-<p class="text-gray-600 mb-4">3-tab shingles are the traditional, basic asphalt shingle. Key characteristics:</p>
+<p class="text-gray-600 mb-4">3-tab shingles are the traditional, basic asphalt shingle, one of the simplest types of shingles on the market. Key characteristics:</p>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Single layer of asphalt with fiberglass mat</li>
@@ -4300,7 +4302,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Architectural Shingles (Dimensional/Laminated)</h3>
 
-<p class="text-gray-600 mb-4">Architectural shingles are the modern standard. Key characteristics:</p>
+<p class="text-gray-600 mb-4">An architectural asphalt shingle (also called dimensional or laminated) is the modern standard. Key characteristics:</p>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li>Two or more layers laminated together</li>
@@ -4321,7 +4323,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 <h2 id="durability" class="text-2xl font-bold text-secondary mt-10 mb-4">How Do Architectural and 3-Tab Shingles Compare for Durability?</h2>
 
-<p class="text-gray-600 mb-4">Durability is where architectural shingles clearly win, especially in Florida:</p>
+<p class="text-gray-600 mb-4">Durability is where these two shingle types diverge the most, and architectural shingles clearly win, especially in Florida:</p>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Lifespan in Florida</h3>
 
@@ -4362,7 +4364,7 @@ export const blogPosts: BlogPost[] = [
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>3-Tab:</strong> Roughly 20-30% less than architectural</li>
-<li><strong>Architectural:</strong> Higher material cost, similar labor cost</li>
+<li><strong>Architectural:</strong> Higher material cost for the extra layers in an architectural asphalt shingle, similar labor cost</li>
 </ul>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Cost per Year of Life (True Value)</h3>
@@ -4376,7 +4378,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Architectural shingles actually cost <strong>less per year</strong> despite higher upfront cost. Plus, you avoid the hassle and expense of replacing your roof sooner.</p>
 
-<h2 id="which-to-choose" class="text-2xl font-bold text-secondary mt-10 mb-4">Which Shingle Type Should You Choose?</h2>
+<h2 id="which-to-choose" class="text-2xl font-bold text-secondary mt-10 mb-4">3-Tab Shingles vs Architectural: Which Shingle Type Should You Choose?</h2>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Choose Architectural Shingles If:</h3>
 
@@ -4397,7 +4399,7 @@ export const blogPosts: BlogPost[] = [
 <li>The structure is temporary or will be demolished</li>
 </ul>
 
-<p class="text-gray-600 mb-6">At Gimo's Roofing, we install both types but recommend architectural shingles for most Jacksonville homeowners. The additional cost is typically $1,000-$2,000 on an average home, worth it for 5+ extra years of life and better storm protection. Our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> services start at $7,900.</p>
+<p class="text-gray-600 mb-6">At Gimo's Roofing, we install both options, but when it comes down to architectural shingles vs 3 tab for a Jacksonville roof, we recommend architectural for most homeowners. The additional cost is typically $1,000-$2,000 on an average home, worth it for 5+ extra years of life and better storm protection. Our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a> services start at $7,900.</p>
 
 
 
@@ -4430,7 +4432,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<p class="text-gray-600 mb-6">Ready to compare options for your Jacksonville home? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free estimate. We'll show you samples, explain the differences, and provide honest pricing for both options. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+<p class="text-gray-600 mb-6">Ready to compare options for your Jacksonville home? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free estimate. We'll show you samples of both types of shingles, explain the differences, and provide honest pricing for both options. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
     faqs: [
       { question: "What is the difference between architectural and 3-tab shingles?", answer: "3-tab shingles are single-layer with a flat appearance, while architectural shingles have multiple laminated layers creating a dimensional look. Architectural shingles are thicker, heavier, more durable, and have higher wind ratings." },
       { question: "How much longer do architectural shingles last than 3-tab?", answer: "In Florida, architectural shingles last 15-20 years versus 12-15 years for 3-tab, about 5-7 years longer. The thicker construction better resists Florida's UV radiation and thermal cycling." },
@@ -4689,7 +4691,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "10 min read",
     author: "Gimo's Roofing Team",
     image: "/images/green-metal-roof-residential.webp",
-    imageAlt: "Aerial view of a green standing seam metal roof on a residential home showing the vertical raised seams running ridge to eave",
+    imageAlt: "Aerial view of a green standing seam metal roof, one of several types of metal roofs installed on Jacksonville homes, showing the vertical raised seams running ridge to eave",
     tableOfContents: [
       { id: "quick-answer", title: "Is It Worth It?" },
       { id: "what-is", title: "What Is Standing Seam?" },
@@ -4702,9 +4704,9 @@ export const blogPosts: BlogPost[] = [
       { id: "best-for", title: "Who Should Choose It?" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<p class="text-lg font-semibold text-secondary mb-6">A standing seam metal roof is a metal roofing system where vertical panels are joined by raised seams that interlock above the panel surface, with fasteners concealed beneath. Panels run continuously from ridge to eave, eliminating horizontal seams. It costs $18,000-$35,000 installed on a typical 2,000 sq ft home, lasts 50-60+ years, and handles winds up to 160 mph, making it the longest-lasting and most hurricane-resistant residential roofing option available.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Among the various metal roof types, a standing seam metal roof is a metal roofing system where vertical panels are joined by raised seams that interlock above the panel surface, with fasteners concealed beneath. Panels run continuously from ridge to eave, eliminating horizontal seams. It costs $18,000-$35,000 installed on a typical 2,000 sq ft home, lasts 50-60+ years, and handles winds up to 160 mph, making it the longest-lasting and most hurricane-resistant residential roofing option available.</p>
 
-<p class="text-gray-600 mb-6">At Gimo's Roofing we install standing seam systems as part of our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement service</a> across Jacksonville and the surrounding beaches. The rest of this guide walks through what these roofs actually cost, the differences between panel types, how installation works, and when standing seam genuinely beats shingles, and when it doesn't.</p>
+<p class="text-gray-600 mb-6">At Gimo's Roofing we install standing seam systems as part of our <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement service</a> across Jacksonville and the surrounding beaches. The rest of this guide walks through what these roofs actually cost, the different types of metal roof panels available, how installation works, and when standing seam genuinely beats shingles, and when it doesn't.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Standing Seam Metal Roof at a Glance</p>
@@ -4729,7 +4731,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-4">A standing seam metal roof uses long vertical panels joined by raised seams that "stand" 1-2 inches above the flat pan surface. The seams either snap together over hidden clips or are mechanically folded shut on-site. Because the fasteners that attach the system to the deck sit beneath those seams, no screws are visible on the finished roof.</p>
 
-<p class="text-gray-600 mb-4">Defining characteristics:</p>
+<p class="text-gray-600 mb-4">Key metal roof components and defining characteristics:</p>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Raised seams:</strong> 1-2 inches above the flat panel</li>
@@ -4739,11 +4741,11 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Material options:</strong> Galvalume steel, aluminum, copper, or zinc. Aluminum is preferred for coastal Florida</li>
 </ul>
 
-<p class="text-gray-600 mb-6">This is different from exposed-fastener metal roofing (sometimes called R-panel or 5V-crimp), where screws go through the panel face. Exposed-fastener systems are cheaper but rely on rubber washers that fail over time and become leak points. Standing seam eliminates that failure mode entirely.</p>
+<p class="text-gray-600 mb-6">This is different from exposed-fastener metal roofing (sometimes called R-panel or 5V-crimp), one of the more affordable metal roof types, where screws go through the panel face. Exposed-fastener systems are cheaper but rely on rubber washers that fail over time and become leak points. Standing seam eliminates that failure mode entirely.</p>
 
 <h2 id="panel-types" class="text-2xl font-bold text-secondary mt-10 mb-4">Standing Seam Panel Types, Snap-Lock vs Mechanical Lock</h2>
 
-<p class="text-gray-600 mb-4">"Standing seam" is a category, not a single product. The three profiles you'll be quoted differ in how the seam closes, which affects price, performance in high wind, and which roof pitches they suit.</p>
+<p class="text-gray-600 mb-4">"Standing seam" is a category, not a single product, and it's just one of several types of metal roof panels homeowners get quoted. The three profiles you'll be quoted differ in how the seam closes, which affects price, performance in high wind, and which roof pitches they suit.</p>
 
 <p class="text-gray-600 mb-4">When homeowners compare snap-lock vs mechanical lock standing seam, the trade-off is simple: snap-lock is faster to install and cheaper, while mechanical lock costs more but gives you the strongest weather seal and the best low-slope performance. On a typical 4:12 or steeper Jacksonville roof inland, snap-lock is plenty. If your roof is below 3:12, sits on the Intracoastal or oceanfront, or you live in a community that's seen direct hurricane damage in the last decade, mechanical lock is the smarter spend.</p>
 
@@ -4822,7 +4824,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="cons" class="text-2xl font-bold text-secondary mt-10 mb-4">Standing Seam Metal Roof Cons</h2>
 
-<p class="text-gray-600 mb-6">The main disadvantages of a standing seam roof are high upfront cost (2-3x shingles), potential noise during heavy rain without proper insulation, cosmetic denting from severe hail, color-match difficulty for future panel replacements, limited DIY repair feasibility, and possible HOA restrictions. None of these affect structural performance, but they're real trade-offs to weigh.</p>
+<p class="text-gray-600 mb-6">The main disadvantages of standing seam roofs are high upfront cost (2-3x shingles), potential noise during heavy rain without proper insulation, cosmetic denting from severe hail, color-match difficulty for future panel replacements, limited DIY repair feasibility, and possible HOA restrictions. None of these affect structural performance, but they're real trade-offs to weigh.</p>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">High Upfront Cost</h3>
 
@@ -4840,9 +4842,9 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">If a panel ever needs replacement, exact color match is hard because coatings fade over time. Most homeowners never face this, but it's worth knowing before you commit to an unusual color.</p>
 
-<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Limited DIY Repair</h3>
+<h3 class="text-lg font-bold text-secondary mt-6 mb-3">Limited DIY Repair (Metal Roof Repairs)</h3>
 
-<p class="text-gray-600 mb-6">Standing seam repair needs specialized tools (seamers, panel benders) and knowledge of clip systems and thermal expansion. Use a contractor with documented metal experience, not a generalist shingle roofer.</p>
+<p class="text-gray-600 mb-6">Metal roof repairs on a standing seam system need specialized tools (seamers, panel benders) and knowledge of clip systems and thermal expansion. Use a contractor with documented metal experience, not a generalist shingle roofer. Gimo's Roofing handles <a href="/services/metal-roofing" class="text-primary hover:underline">metal roofing</a> installation and repair throughout Jacksonville.</p>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">HOA Restrictions</h3>
 
@@ -4885,7 +4887,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="installation" class="text-2xl font-bold text-secondary mt-10 mb-4">How a Standing Seam Metal Roof Is Installed</h2>
 
-<p class="text-gray-600 mb-4">Installation is more involved than shingles and requires a crew trained on metal systems. The high-level sequence on a typical residential job:</p>
+<p class="text-gray-600 mb-4">Installing standing seam roofs is more involved than shingles and requires a crew trained on metal systems. The high-level sequence on a typical residential job:</p>
 
 <ol class="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Tear off the existing roof and inspect the deck.</strong> Rotten or delaminated plywood is replaced. A sealed-deck membrane is often added at this stage for hurricane mitigation credit.</li>
@@ -4900,7 +4902,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="vs-other" class="text-2xl font-bold text-secondary mt-10 mb-4">Standing Seam vs Other Metal Roofs</h2>
 
-<p class="text-gray-600 mb-4">"Metal roofing" is a broad category. Here's how standing seam compares to the alternatives homeowners commonly consider:</p>
+<p class="text-gray-600 mb-4">"Metal roofing" is a broad category, and knowing the types of metal roofs on the market helps explain why standing seam costs more than the alternatives. Here's how standing seam compares to the alternatives homeowners commonly consider:</p>
 
 <p class="text-gray-600 mb-4">The most common direct comparison we get asked about is stone-coated vs standing seam metal roofing. Stone-coated steel (Decra, Boral, Roser) uses pressed steel panels coated in stone granules to mimic the look of clay tile or wood shake, it solves an aesthetic problem standing seam doesn't, while keeping most of metal's wind and lifespan benefits. Standing seam wins on raw weather resistance, concealed-fastener leak protection, and modern architectural look. Stone-coated wins on traditional curb appeal, hail resistance from the granular cushion, and HOA approval in communities that ban "metal-looking" roofs. Cost is similar between the two; the choice is almost entirely about what you want the roof to look like from the street.</p>
 
@@ -4920,12 +4922,12 @@ export const blogPosts: BlogPost[] = [
 <tr><td class="p-2 border-b align-top">Exposed-fastener (R-panel, 5V)</td><td class="p-2 border-b align-top">$$</td><td class="p-2 border-b align-top">25-40 yrs</td><td class="p-2 border-b align-top">Exposed</td><td class="p-2 border-b align-top">Cheaper, washers fail at 10-15 yrs</td></tr>
 <tr><td class="p-2 border-b align-top">Stone-coated steel (Decra, Boral)</td><td class="p-2 border-b align-top">$$$</td><td class="p-2 border-b align-top">40-50 yrs</td><td class="p-2 border-b align-top">Concealed</td><td class="p-2 border-b align-top">Looks like tile/shake, holds up to hail</td></tr>
 <tr><td class="p-2 border-b align-top">Metal shingles (Tamko MetalWorks, Matterhorn)</td><td class="p-2 border-b align-top">$$$</td><td class="p-2 border-b align-top">40-50 yrs</td><td class="p-2 border-b align-top">Concealed</td><td class="p-2 border-b align-top">Shingle-style appearance, modular</td></tr>
-<tr><td class="p-2 border-b align-top">Corrugated metal</td><td class="p-2 border-b align-top">$</td><td class="p-2 border-b align-top">20-40 yrs</td><td class="p-2 border-b align-top">Exposed</td><td class="p-2 border-b align-top">Mostly agricultural/outbuilding</td></tr>
+<tr><td class="p-2 border-b align-top">Corrugated steel</td><td class="p-2 border-b align-top">$</td><td class="p-2 border-b align-top">20-40 yrs</td><td class="p-2 border-b align-top">Exposed</td><td class="p-2 border-b align-top">Mostly agricultural/outbuilding</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="text-gray-600 mb-6">For more on metal options that mimic shingles or tile, see our <a href="/blog/benefits-metal-roofing-florida" class="text-primary hover:underline">benefits of metal roofing in Florida</a> guide.</p>
+<p class="text-gray-600 mb-6">Corrugated steel is the panel style most people picture on a barn or outbuilding rather than a house, exposed fasteners and a wavy profile that trades longevity and looks for the lowest cost per square foot of any type of metal roof panel. For more on metal options that mimic shingles or tile, see our <a href="/blog/benefits-metal-roofing-florida" class="text-primary hover:underline">benefits of metal roofing in Florida</a> guide.</p>
 
 <h2 id="best-for" class="text-2xl font-bold text-secondary mt-10 mb-4">Who Should Choose Standing Seam (and Who Shouldn't)</h2>
 
@@ -6191,7 +6193,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "5 min read",
     author: "Gimo's Roofing Team",
     image: "/images/storm-damage-roof-repair.webp",
-    imageAlt: "Hurricane damage inspection on Jacksonville roof",
+    imageAlt: "Storm damage roof inspection after a hurricane in Jacksonville, FL",
     tableOfContents: [
       { id: "when-to-check", title: "When to Check" },
       { id: "exterior-signs", title: "10 Exterior Signs" },
@@ -6201,7 +6203,7 @@ export const blogPosts: BlogPost[] = [
       { id: "insurance-claim", title: "Filing a Claim" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<p class="text-lg font-semibold text-secondary mb-6">After a hurricane, immediately check for: missing or displaced shingles, lifted edges and creasing, granule accumulation in gutters, damaged flashing, dents in metal components, debris impact marks, and water stains in your attic. Document all damage with photos before any cleanup. File insurance claims promptly, Florida law gives insurers limited time to respond once notified.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">After a hurricane, immediately check your roof for storm damage: missing or displaced shingles, lifted edges and creasing, granule accumulation in gutters, damaged flashing, dents in metal components, debris impact marks, and water stains in your attic. This storm damage roof checklist applies after any of Florida's damaging storms, not just hurricanes, since severe thunderstorms and hail events cause the same warning signs. Document all damage with photos before any cleanup. File insurance claims promptly, Florida law gives insurers limited time to respond once notified.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Post-Hurricane Roof Check: Quick List</p>
@@ -6233,6 +6235,8 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <h2 id="exterior-signs" class="text-2xl font-bold text-secondary mt-10 mb-4">10 Signs of Hurricane Roof Damage (Exterior)</h2>
+
+<p class="text-gray-600 mb-4">Storm damage to a roof is not always obvious from the ground. Walk the perimeter of your home and look for these signs of a storm damaged roof, all of which are common after hurricanes, tropical storms, and other damaging storms in Northeast Florida.</p>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Missing Shingles</h3>
 
@@ -6277,7 +6281,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
 <p class="font-bold text-secondary mb-2">Need Professional Help?</p>
-<p class="text-gray-600 mb-4">Gimo's Roofing offers free inspections and estimates throughout Jacksonville and Northeast Florida.</p>
+<p class="text-gray-600 mb-4">Gimo's Roofing offers free storm damage roofing inspections and estimates throughout Jacksonville and Northeast Florida.</p>
 <div class="flex flex-col sm:flex-row gap-3">
 <a href="tel:+19046065313" class="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition text-sm">Call (904) 606-5313</a>
 <a href="/contact" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Schedule Free Inspection</a>
@@ -6321,7 +6325,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="document-damage" class="text-2xl font-bold text-secondary mt-10 mb-4">How to Document Roof Damage for Insurance</h2>
 
-<p class="text-gray-600 mb-4">Proper documentation is crucial for insurance claims:</p>
+<p class="text-gray-600 mb-4">Proper documentation is crucial for insurance claims. Insurers want clear photo evidence of storm damage on roof surfaces and around the property, not just written descriptions.</p>
 
 <h3 class="text-lg font-bold text-secondary mt-6 mb-3">Photo Documentation</h3>
 
@@ -6401,13 +6405,15 @@ export const blogPosts: BlogPost[] = [
 </ul>
 </div>
 
-<p class="text-gray-600 mb-6">Need a post-hurricane roof inspection? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free assessment. We'll document damage, work with your insurance, and get your roof repaired quickly. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
+<p class="text-gray-600 mb-6">Need a post-hurricane storm damage roofing inspection? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a> for a free assessment. We'll document damage, work with your insurance, and get your roof repaired quickly. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
     faqs: [
       { question: "How do I know if my roof is damaged after a hurricane?", answer: "Look for missing or displaced shingles, lifted edges, granules in gutters, damaged flashing, dents in metal components, and debris impact marks. Inside, check the attic for water stains, daylight through the roof, and wet insulation." },
       { question: "Should I get on my roof after a hurricane to check for damage?", answer: "No. It's safer to inspect from the ground with binoculars, check inside the attic, and walk the perimeter looking for debris. Have a professional roofer conduct the actual roof inspection, they have proper safety equipment and training." },
       { question: "How long do I have to file an insurance claim for hurricane damage in Florida?", answer: "Florida law typically requires claims to be filed within 3 years of the loss, but policies may have shorter requirements. File as soon as possible, fresh damage is easier to document and attribute to the specific storm. Report damage promptly to meet notice requirements." },
       { question: "What if my insurance company denies my roof damage claim?", answer: "You can dispute denied claims. Options include: getting an independent estimate from a licensed roofer, requesting re-inspection, hiring a public adjuster to represent you, or consulting an attorney for significant disputes. Document everything." },
-      { question: "Can I make temporary repairs before the insurance adjuster comes?", answer: "Yes, you should prevent further damage with temporary repairs (tarping, etc.). Document the damage with photos first, keep receipts for materials, and don't make permanent repairs until after the adjuster visits. Emergency repairs are expected and covered." }
+      { question: "Can I make temporary repairs before the insurance adjuster comes?", answer: "Yes, you should prevent further damage with temporary repairs (tarping, etc.). Document the damage with photos first, keep receipts for materials, and don't make permanent repairs until after the adjuster visits. Emergency repairs are expected and covered." },
+      { question: "What is considered storm damage to a roof?", answer: "Storm damage to a roof includes any wind, hail, or debris impact that compromises shingles, flashing, decking, or gutters, whether the cause was a hurricane, a tropical storm, or a severe thunderstorm. Common signs of a storm damaged roof include missing or lifted shingles, granule loss in the gutters, dented vents or flashing, and water stains inside the attic. If you're unsure whether what you're seeing qualifies, a free inspection from Gimo's Roofing will confirm whether it counts as storm damage roof insurance coverage under your policy." },
+      { question: "What should you do if you have roof storm damage?", answer: "If you have roof storm damage, stop further water intrusion first: tarp any active leaks or exposed decking, then photograph everything before you clean up debris or make permanent repairs. Contact your insurance company to open a claim, then call a licensed roofer for a written estimate you can compare against the adjuster's settlement. Gimo's Roofing provides free storm damage roof inspections across Jacksonville and Northeast Florida and can help document the damage for your claim." }
     ]
   },
   {
@@ -9318,11 +9324,14 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-04-12",
     author: "Gimo's Roofing Team",
     image: "/images/gimos-roofing-jacksonville.webp",
+    imageAlt: "Gimo's Roofing crew providing gutter service and roof gutter installation in Jacksonville FL",
     category: "Roof Care",
     readTime: "3 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Gutters and Your Roof</h2>
 
 <p class="text-gray-600 mb-6"><strong>Gutters channel water away from your roof, fascia, foundation, and landscaping.</strong> In Florida's climate with 50+ inches of annual rainfall, properly sized and maintained gutters prevent water damage, soil erosion, and foundation problems. Most Florida homes need 6-inch K-style gutters with 3x4-inch downspouts to handle heavy rain events.</p>
+
+<p class="text-gray-600 mb-6">If you're searching for a gutter service near me because a simple cleaning isn't cutting it anymore, that usually means the gutters themselves need attention, not just the debris inside them: sagging sections, leaking seams, or a system that overflows even when it's clear. That's the point where a roofing contractor like <a href="/services/roof-gutter" class="text-primary hover:underline">Gimo's Roofing gutter installation and repair service</a> takes over from a general cleaning service.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Florida Gutter Facts:</p>
@@ -9408,6 +9417,8 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Detachment:</strong> Fascia rot causes gutters to pull away</li>
 </ul>
 
+<p class="text-gray-600 mb-6">Most of the searches for gutter cleaning and repair near me are really two different jobs bundled into one. Clearing debris is routine maintenance. Sagging, leaking, or detached gutters are a repair, and that's where it's worth calling a roofing contractor instead of a cleaning-only service, since a gutter that's failing is often a sign the fascia behind it needs a look too.</p>
+
 <h2 id="maintenance" class="text-2xl font-bold text-secondary mt-10 mb-4">Gutter Maintenance Schedule</h2>
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Cleaning Frequency</h3>
@@ -9416,6 +9427,8 @@ export const blogPosts: BlogPost[] = [
 <li><strong>With Trees:</strong> Clean after each leaf-drop season</li>
 <li><strong>After Storms:</strong> Check for debris after major storms</li>
 </ul>
+
+<p class="text-gray-600 mb-6">Rain gutter cleaning near me searches usually point homeowners toward a general cleaning company, and for a straightforward debris clear-out, that's often the right call. Roof and gutter cleaning becomes a roofing contractor's job instead when the cleaning turns up a bigger problem underneath it, a pulled fastener, a cracked seam, or fascia that's starting to soften.</p>
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">What to Check</h3>
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
@@ -9441,6 +9454,8 @@ export const blogPosts: BlogPost[] = [
 <p class="text-gray-600 mb-6"><strong>Pros:</strong> Reduce cleaning frequency, prevent clogs, extend gutter life</p>
 <p class="text-gray-600 mb-6"><strong>Cons:</strong> Upfront cost, still need some maintenance, can void gutter warranty, some reduce water capacity</p>
 
+<p class="text-gray-600 mb-6">Homeowners who search for a gutter cleaner near me every few months, or type "gutters cleaning" into Google more often than they'd like, are usually the best candidates for guards. They don't eliminate roof gutter cleaning entirely, but they stretch the interval out enough that the search happens once a year instead of four times.</p>
+
 
 
 <div class="bg-secondary rounded-xl p-6 my-8 text-center">
@@ -9456,7 +9471,7 @@ export const blogPosts: BlogPost[] = [
 <p class="font-bold text-secondary mb-3">You Might Also Read</p>
 <ul class="space-y-2">
 <li><a href="/blog/roof-maintenance-tips-florida-homeowners" class="text-primary hover:underline font-medium">Roof Maintenance Tips for Florida</a> - <span class="text-gray-500 text-sm">Extend your roof lifespan</span></li>
-<li><a href="/blog/gutter-systems-roofing-florida" class="text-primary hover:underline font-medium">Gutter Systems for Florida</a> - <span class="text-gray-500 text-sm">Protect your roof and foundation</span></li>
+<li><a href="/blog/sectional-vs-seamless-gutters-florida" class="text-primary hover:underline font-medium">Sectional vs Seamless Gutters</a> - <span class="text-gray-500 text-sm">Which type holds up better in Florida</span></li>
 <li><a href="/blog/roof-replacement-cost-jacksonville-fl" class="text-primary hover:underline font-medium">Roof Replacement Cost Jacksonville</a> - <span class="text-gray-500 text-sm">2026 pricing guide</span></li>
 </ul>
 </div>
@@ -9473,6 +9488,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Need gutter repair or replacement? <a href="/contact" class="text-primary hover:underline">Contact Gimo's Roofing</a>, we install and repair gutters as part of complete roofing services. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a>.</p>`,
     faqs: [
+      { question: "Should I call a gutter service near me or a roofing contractor?", answer: "For a routine debris clean-out, a general gutter service near me search usually works fine. Call a roofing contractor instead when the gutters themselves need work: sagging sections, leaking seams, detachment, or guard installation. A roofer can also spot fascia or roof problems while working on the gutters that a cleaning-only service typically isn't looking for." },
       { question: "What size gutters do I need in Florida?", answer: "6-inch K-style gutters with 3x4-inch downspouts are recommended for most Florida homes. Standard 5-inch gutters often overflow during heavy Florida thunderstorms. Larger roof areas may need 7-inch gutters or additional downspouts." },
       { question: "How often should gutters be cleaned in Florida?", answer: "At minimum 2-4 times per year. If you have trees near your home, clean after each leaf-drop season and after major storms. Clogged gutters cause water to back up under roofing, damaging fascia and potentially causing interior water damage." },
       { question: "Are gutter guards worth the investment?", answer: "It depends on your situation. If you have many trees and frequently clogged gutters, gutter guards reduce maintenance significantly. However, they still require occasional cleaning and add upfront cost. For homes without nearby trees, regular cleaning may be more cost-effective." },
@@ -14749,6 +14765,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Gimo's Roofing recommends that homeowners leave roof cleaning to professionals, especially for two-story homes and roofs with steep pitches. The combination of safety risks, chemical handling requirements, and the potential for accidental damage makes professional cleaning a smarter investment than attempting it yourself.</p>
 
+<p class="text-gray-600 mb-6">If you're searching for a roof cleaning service in Jacksonville FL, vet it the same way you'd vet any roofing contractor. Ask whether they use soft washing or pressure washing (soft wash only), request proof of insurance, and check that they carry liability coverage in case landscaping or gutters are damaged during the job. Local roof cleaners who also handle general roof work tend to be better positioned to catch damage or a repair need while they're already up there, rather than a cleaning-only outfit with no roofing background.</p>
+
 <h2 id="when-cleaning-is-necessary" class="text-2xl font-bold text-secondary mt-10 mb-4">When Roof Cleaning Is Actually Necessary</h2>
 
 <p class="text-gray-600 mb-6">Not every roof needs cleaning, and cleaning too frequently can cause its own problems from repeated chemical exposure and foot traffic. Here are the situations where roof cleaning provides genuine value.</p>
@@ -14772,6 +14790,8 @@ export const blogPosts: BlogPost[] = [
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">When Cleaning Is Not Necessary</h3>
 
 <p class="text-gray-600 mb-6">If your roof has only minor discoloration that is not visible from the street, cleaning is optional. Normal weathering and slight color changes are expected over time and do not indicate a problem. Similarly, if your roof is approaching the end of its useful life and you plan to replace it within the next few years, spending money on cleaning provides little value. A thorough <a href="/services/roof-repair" class="text-primary hover:underline">roof inspection from Gimo's Roofing</a> can help you determine whether cleaning or replacement makes more sense for your situation.</p>
+
+<p class="text-gray-600 mb-6">A local roof cleaning company that's actually a roofing contractor can also fold cleaning and repair into a single visit when both are needed, instead of a separate call for each. If a cleaning crew flags a soft spot, a lifted shingle, or a section of exposed underlayment while they're up there, that's worth a follow-up inspection rather than waiting for it to show up as a leak. Watch for the same red flags covered in our guide to <a href="/blog/roofing-scams-red-flags-florida" class="text-primary hover:underline">spotting a roofing scam in Florida</a>, since storm-chaser tactics sometimes show up disguised as a cheap roof cleaning offer too.</p>
 
 <h2 id="spring-cleaning-tips" class="text-2xl font-bold text-secondary mt-10 mb-4">Spring Roof Cleaning Tips</h2>
 
@@ -14800,7 +14820,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">How Much Does Professional Roof Cleaning Cost in Florida?</h3>
 
-<p class="text-gray-600 mb-6">Professional soft wash roof cleaning in Florida typically costs between $300 and $600 for a standard single-family home. Factors that affect the price include roof size, pitch or steepness, severity of algae growth, accessibility, and whether any repairs are needed. Two-story homes and steep roofs cost more due to the additional safety equipment and time required.</p>
+<p class="text-gray-600 mb-6">Professional soft wash roof cleaning in Florida typically costs between $300 and $600 for a standard single-family home. Factors that affect the price include roof size, pitch or steepness, severity of algae growth, accessibility, and whether any repairs are needed. Two-story homes and steep roofs cost more due to the additional safety equipment and time required. Roof cleaning in Jacksonville tends to land toward the higher end of that range on homes shaded by mature oak canopy, since heavier algae growth takes more solution and time to treat properly.</p>
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Can I Use a Garden Hose to Clean My Roof?</h3>
 
@@ -16143,6 +16163,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">The ridge is the horizontal peak where two sloping roof planes meet at the top. In rafter construction, a ridge board (typically a 1x or 2x board) runs along this peak, providing a nailing surface where the tops of opposing rafters meet. Some designs use a structural ridge beam, a heavy timber or engineered beam that actually supports the weight of the rafters. The ridge is the highest point on your roof and is where the <a href="/blog/roof-ridge-cap-guide" class="text-primary hover:underline">ridge cap</a> shingles or ridge vent are installed.</p>
 
+<p class="text-gray-600 mb-6">How steeply those two planes drop from the ridge down to the eaves is a separate measurement called pitch. Our <a href="/blog/roof-pitch-guide-understanding-slopes" class="text-primary hover:underline">roof pitch guide</a> explains how to read that rise-over-run ratio and why it affects material choice and labor cost.</p>
+
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Roof Decking (Sheathing)</h3>
 
 <p class="text-gray-600 mb-6"><a href="/blog/what-is-roof-sheathing" class="text-primary hover:underline">Roof decking</a>, also called sheathing, is the flat surface that covers the rafters or trusses and provides the base for everything above it. Modern roofs use 7/16-inch or 1/2-inch OSB (oriented strand board) or plywood panels. Older Jacksonville homes may have original plank sheathing, which consists of individual boards nailed across the rafters.</p>
@@ -16231,6 +16253,8 @@ export const blogPosts: BlogPost[] = [
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Rake</h3>
 
 <p class="text-gray-600 mb-6">The rake is the sloped edge of the roof at the gable end, the diagonal line from the eave to the ridge. Rake trim covers the edge of the roofing material and protects the decking edge from weather. The rake is a vulnerable point for wind damage because wind can catch under the shingle edges and lift them.</p>
+
+<p class="text-gray-600 mb-6">The rake and eave lines look different depending on which of the <a href="/blog/gable-roof-types" class="text-primary hover:underline">gable roof types</a> your home has, from a simple standard gable to a more complex Dutch or cross gable with multiple intersecting rakes.</p>
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Eave</h3>
 
@@ -17246,7 +17270,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-03-29",
     author: "Gimo's Roofing Team",
     image: "/images/roofing-jacksonville-fl.webp",
-    imageAlt: "Aerial view showing roof pitch and slope measurements on a Jacksonville FL home",
+    imageAlt: "Aerial view showing roof pitch and roof slopes on a Jacksonville FL home",
     category: "Roofing Basics",
     readTime: "7 min read",
     tableOfContents: [
@@ -17263,6 +17287,8 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6"><strong>Roof pitch is the steepness of your roof, expressed as a ratio of vertical rise to horizontal run.</strong> A 4/12 pitch means the roof rises 4 inches for every 12 inches of horizontal distance. Pitch affects everything from material choices to labor costs to how well your roof sheds water. Most Jacksonville homes have a 4/12 to 8/12 pitch, which is considered standard for residential construction.</p>
 
+<p class="text-gray-600 mb-6">Anything below about 4/12 is generally called a low slope roof pitch, and it needs different materials or installation methods than the standard range, which we cover in detail below.</p>
+
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Pitch Categories</p>
 <ul class="text-gray-700 mt-2 space-y-1">
@@ -17277,20 +17303,22 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Roof pitch is one of the most important characteristics of your roof. It determines which roofing materials can be used, how well water sheds off the surface, how much the roof costs to install, and even how your home looks from the street. Understanding pitch helps you communicate with contractors, understand estimates, and make informed decisions about your roof.</p>
 
+<p class="text-gray-600 mb-6">You will see this described a few different ways. Some homeowners search for pitch roof instead of roof pitch, others ask what is a pitched roof in general terms, and others want to know the typical roof pitch or normal roof pitch for a house like theirs. All of these point to the same measurement. A pitched roof is simply a roof built with a deliberate slope rather than a flat plane, and the standard roof pitch on most homes falls somewhere in the 4/12 to 8/12 range covered below.</p>
+
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">How Pitch Is Expressed</h3>
 
 <p class="text-gray-600 mb-6">Pitch is written as a ratio like 4/12, 6/12, or 10/12. The first number is the vertical rise (in inches), and the second number is always 12 (representing 12 inches of horizontal run). So a 6/12 pitch means the roof rises 6 inches for every 12 inches (one foot) of horizontal distance.</p>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>4/12 pitch:</strong> Rises 4 inches per foot. This is the minimum pitch for standard asphalt shingles</li>
-<li><strong>6/12 pitch:</strong> Rises 6 inches per foot. The most common residential pitch in Jacksonville</li>
+<li><strong>6/12 pitch:</strong> Rises 6 inches per foot. This is the most common roof pitch in Jacksonville residential construction</li>
 <li><strong>8/12 pitch:</strong> Rises 8 inches per foot. Moderately steep, common on two-story homes</li>
 <li><strong>12/12 pitch:</strong> Rises 12 inches per foot, creating a 45-degree angle. Steep, often seen on Victorian or Gothic-style homes</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Pitch vs Slope</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Pitch vs Roof Slopes</h3>
 
-<p class="text-gray-600 mb-6">Technically, pitch and slope have different mathematical definitions in construction, but in everyday roofing conversation, the terms are used interchangeably. When your contractor says "6 pitch" or "6/12 slope," they mean the same thing: the roof rises 6 inches for every 12 inches of horizontal distance.</p>
+<p class="text-gray-600 mb-6">Technically, pitch and slope have different mathematical definitions in construction, but in everyday roofing conversation, the terms are used interchangeably. When your contractor says "6 pitch" or "6/12 slope," they mean the same thing: the roof rises 6 inches for every 12 inches of horizontal distance. Whether you call them roof slopes or roof pitches, the math stays the same.</p>
 
 
 <div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
@@ -17355,7 +17383,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="materials-by-pitch" class="text-2xl font-bold text-secondary mt-10 mb-4">Which Roofing Materials Work for Each Pitch Range</h2>
 
-<p class="text-gray-600 mb-6">Not every roofing material works on every pitch. The minimum pitch requirement exists because water does not drain fast enough on low slopes, causing it to pool, back up under overlaps, or penetrate through the material. Choosing the wrong material for your pitch is a guaranteed leak.</p>
+<p class="text-gray-600 mb-6">Not every roofing material works on every pitch. The minimum pitch requirement exists because water does not drain fast enough on a low slope roof pitch, causing it to pool, back up under overlaps, or penetrate through the material. Choosing the wrong material for your pitch is a guaranteed leak.</p>
 
 <h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Flat to Very Low Slope (0/12 to 2/12)</h3>
 
@@ -17365,7 +17393,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Common on:</strong> <a href="/blog/flat-roof-options-florida" class="text-primary hover:underline">Flat-roofed</a> commercial buildings, modern homes, porch roofs, <a href="/blog/what-is-a-roof-dormer-types-costs" class="text-primary hover:underline">shed dormers</a></li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Low Slope (2/12 to 4/12)</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Low Slope Roof Pitch (2/12 to 4/12)</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Suitable materials:</strong> <a href="/blog/standing-seam-metal-roof-pros-cons" class="text-primary hover:underline">Standing seam metal</a> (2/12 minimum), asphalt shingles with special installation (3/12-4/12 with double underlayment), membrane roofing</li>
@@ -17373,7 +17401,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Special requirements:</strong> Shingles installed on 3/12-4/12 slopes require additional underlayment and may have limited or voided wind warranties</li>
 </ul>
 
-<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Standard Slope (4/12 to 8/12)</h3>
+<h3 class="text-xl font-semibold text-secondary mt-8 mb-4">Standard Roof Pitch (4/12 to 8/12)</h3>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
 <li><strong>Suitable materials:</strong> <a href="/blog/best-roofing-materials-florida" class="text-primary hover:underline">All roofing materials</a> including asphalt shingles, metal (standing seam and screw-down), clay and concrete tile, synthetic products</li>
@@ -17415,7 +17443,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="common-pitches" class="text-2xl font-bold text-secondary mt-10 mb-4">Common Roof Pitches on Jacksonville Homes</h2>
 
-<p class="text-gray-600 mb-6">Jacksonville's mix of home styles creates a range of roof pitches across the city. Here is what is most common in our area.</p>
+<p class="text-gray-600 mb-6">Jacksonville's mix of home styles creates a range of roof pitches across the city, though a few common roof pitch ranges show up again and again. Here is what is most common in our area.</p>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-3">
 <li><strong>Ranch homes (4/12 to 5/12):</strong> Single-story ranches throughout <a href="/roofing-mandarin-fl" class="text-primary hover:underline">Mandarin</a>, <a href="/roofing-orange-park-fl" class="text-primary hover:underline">Orange Park</a>, and <a href="/roofing-southside-jax-fl" class="text-primary hover:underline">Southside</a> typically have moderate pitches that are economical to reroof</li>
@@ -17453,12 +17481,13 @@ export const blogPosts: BlogPost[] = [
 <li>- <strong>Pitches above 7/12-8/12</strong> add a steep labor premium of 15-35%</li>
 <li>- <strong>Low-slope roofs (under 3/12)</strong> require membrane or special materials</li>
 <li>- <strong>Pitch multipliers help calculate</strong> actual roof area from building footprint</li>
-<li>- <strong>Most Jacksonville homes</strong> have 4/12 to 8/12 pitch</li>
+<li>- <strong>The most common roof pitch range</strong> in Jacksonville is 4/12 to 8/12</li>
 </ul>
 </div>
 
 <p class="text-gray-600 mb-6">Not sure about your roof's pitch or which materials are right for your slope? Gimo's Roofing provides free <a href="/blog/roof-inspection-what-to-expect-florida" class="text-primary hover:underline">roof inspections</a> that include pitch measurement and material recommendations. Call <a href="tel:+19046065313" class="text-primary hover:underline">(904) 606-5313</a> for a free consultation in Jacksonville and the surrounding areas.</p>`,
     faqs: [
+      { question: "What counts as a low slope roof pitch?", answer: "A low slope roof pitch is generally anything under 4/12, and roofs under 2/12 are considered flat or near-flat rather than pitched at all. Standard asphalt shingles are only rated down to 4/12 with extra underlayment and 2/12 with special modifications, so most roofs below that range need a membrane or built-up roofing system instead of shingles. Flat and low-slope sections are common on additions, porches, and commercial buildings across Jacksonville." },
       { question: "What is the most common roof pitch?", answer: "The most common residential roof pitch in the United States is between 4/12 and 6/12. In Jacksonville and Northeast Florida, 5/12 and 6/12 are the most common, providing a good balance of water shedding, material compatibility, attic space, and cost-effective installation. Newer subdivisions tend toward 5/12 to 7/12, while older and historic homes may have steeper pitches of 8/12 to 12/12." },
       { question: "What is a 4/12 roof pitch?", answer: "A 4/12 roof pitch means the roof rises 4 inches for every 12 inches of horizontal distance, creating an approximately 18.4-degree angle. This is considered the minimum pitch for standard asphalt shingle installation. At 4/12, water drains adequately but not as quickly as on steeper roofs. Homes with a 4/12 pitch are economical to reroof because the moderate slope allows workers to walk the surface without special equipment." },
       { question: "How does roof pitch affect cost?", answer: "Roof pitch affects cost in two ways. First, steeper pitches create more roof surface area over the same footprint, requiring more materials. A 12/12 pitch has 41% more area than a flat roof. Second, pitches above 7/12 to 8/12 require additional safety equipment and slower work, adding a 15-35% labor premium. A very steep roof (12/12 or above) can cost 35-50% more for labor than a standard 5/12 pitch." },
@@ -18800,7 +18829,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-04-08",
     author: "Gimo's Roofing Team",
     image: "/images/top-rated-roofer-jacksonville.webp",
-    imageAlt: "Florida home with cross gable roof showing multiple gable intersections",
+    imageAlt: "Florida home with a cross gable roof showing multiple roof gable intersections",
     category: "Roof Design",
     readTime: "9 min read",
     tableOfContents: [
@@ -18812,18 +18841,20 @@ export const blogPosts: BlogPost[] = [
       { id: "dutch", title: "Dutch Gable" },
       { id: "jerkinhead", title: "Jerkinhead (Clipped) Gable" },
       { id: "saltbox", title: "Saltbox Gable" },
-      { id: "florida", title: "Gable Roofs and Florida Hurricane Wind" },
+      { id: "florida", title: "Gable Roof Shape and Florida Hurricane Wind" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
     content: `<h2 id="what-is-gable" class="text-2xl font-bold text-secondary mt-8 mb-4">What Is a Gable Roof?</h2>
 
 <p class="text-gray-600 mb-6">A gable roof is the simple triangular roof shape that almost every child draws when they sketch a house. It has two sloped sides that meet at a ridge running along the top of the home, creating a triangular wall (called the gable) at each end. Gables are the most common roof type in the United States and one of the most common in Florida construction, especially on homes built before the 1990s when hip roofs became dominant for hurricane resistance.</p>
 
+<p class="text-gray-600 mb-6">People search for this roof shape in different ways online, including "what's a gable," "what are gables," "what is gable roof," and even "roof gable" as a reversal of the more common "gable roof." All of them point to the same feature: a roof gable is the flat triangular wall formed where two roof slopes meet at the ridge, and a gable roof, or gable roof shape, is any roof built around that triangular profile at one or both ends of the home.</p>
+
 <p class="text-gray-600 mb-6">Within the gable family there are several distinct variations, each with different costs, aesthetics, and performance in Florida's hurricane wind environment. If you are planning a <a href="/services/new-construction-roofing" class="text-primary hover:underline">new construction roof</a>, an addition, or evaluating your existing home for <a href="/services/roof-replacement" class="text-primary hover:underline">roof replacement</a>, understanding the gable type you have - or want - matters for budget, code compliance, and insurance.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">The Florida Hurricane Caveat</p>
-<p class="text-gray-700 mt-2">Gable roofs perform less well in hurricane winds than hip roofs because the flat triangular gable wall catches wind like a sail. In Florida, gable-roofed homes typically pay higher insurance premiums than hip-roofed homes because of this. The performance difference can be partially offset with proper bracing and modern fastener patterns - but you cannot turn a gable into a hip without rebuilding the roof.</p>
+<p class="text-gray-700 mt-2">Gable roofs perform less well in hurricane winds than hip roofs because the flat triangular roof gable wall catches wind like a sail. In Florida, gable-roofed homes typically pay higher insurance premiums than hip-roofed homes because of this. The performance difference can be partially offset with proper bracing and modern fastener patterns - but you cannot turn a gable into a hip without rebuilding the roof.</p>
 </div>
 
 <h2 id="standard" class="text-2xl font-bold text-secondary mt-10 mb-4">Standard Open Gable</h2>
@@ -18875,9 +18906,9 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6"><strong>Florida considerations:</strong> Cross gables have multiple valleys, and valleys are common leak points. Proper valley flashing - either open metal valleys or closed-cut woven shingle valleys - is critical. We strongly prefer open metal valleys for Florida cross gables because the high rainfall volume in Northeast Florida overwhelms shingle valleys faster than open metal does.</p>
 
-<h2 id="dutch" class="text-2xl font-bold text-secondary mt-10 mb-4">Dutch Gable</h2>
+<h2 id="dutch" class="text-2xl font-bold text-secondary mt-10 mb-4">Dutch Gable (Hip and Gable Roof)</h2>
 
-<p class="text-gray-600 mb-6">A Dutch gable is a hybrid between a gable and a hip roof. The bottom portion of the roof end is hipped (sloped from the eave up to a point partway up the roof), and the top portion is a small gable. The result looks like a hip roof with a gable "cap" sitting on top of the hipped section. This gives you most of the wind resistance of a hip roof while still showing a triangular gable face for architectural interest.</p>
+<p class="text-gray-600 mb-6">A Dutch gable is a hybrid between a gable and a hip roof. The bottom portion of the roof end is hipped (sloped from the eave up to a point partway up the roof), and the top portion is a small gable. The result looks like a hip roof with a gable "cap" sitting on top of the hipped section. This hip and gable roof combination gives you most of the wind resistance of a hip roof while still showing a triangular gable face for architectural interest.</p>
 
 <p class="text-gray-600 mb-6"><strong>Best for:</strong> Homes that want both the hurricane performance of a hip roof and the visual character of a gable. Dutch gables are popular on upscale homes in <a href="/roofing-ponte-vedra-beach-fl" class="text-primary hover:underline">Ponte Vedra Beach</a>, Marsh Landing, and the <a href="/roofing-nocatee-fl" class="text-primary hover:underline">Nocatee communities</a> where homeowners want a high-end aesthetic without sacrificing wind insurance credits.</p>
 
@@ -18905,11 +18936,11 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6"><strong>Florida considerations:</strong> Saltbox roofs are uncommon in Florida construction because the asymmetric profile is more associated with cold-climate New England design. Where they do exist, they have the same hurricane vulnerability as any other gable shape.</p>
 
-<h2 id="florida" class="text-2xl font-bold text-secondary mt-10 mb-4">Gable Roofs and Florida Hurricane Wind Performance</h2>
+<h2 id="florida" class="text-2xl font-bold text-secondary mt-10 mb-4">Gable Roof Shape and Florida Hurricane Wind Performance</h2>
 
 <p class="text-gray-600 mb-6">Here is the most important fact about gable roofs in Florida: they perform measurably worse than hip roofs in hurricane winds. The flat triangular gable end wall acts like a sail, catching wind and transmitting massive uplift forces into the roof structure and the wall framing below it. Hip roofs, by contrast, slope on all four sides and let wind flow over them with much less uplift.</p>
 
-<p class="text-gray-600 mb-6">This performance difference is reflected directly in Florida insurance premiums. The wind mitigation inspection form (OIR-B1-1802) includes a "roof shape" credit, and hip-dominant roofs qualify for a significant premium discount that gable roofs do not. On a typical $3,500 annual Florida homeowner premium, the hip vs. gable difference can be $300-$700 per year - every year, for the life of the policy.</p>
+<p class="text-gray-600 mb-6">This performance difference is reflected directly in Florida insurance premiums. The wind mitigation inspection form (OIR-B1-1802) includes a "roof shape" credit, and hip-dominant roofs qualify for a significant premium discount that a gable roof shape does not. On a typical $3,500 annual Florida homeowner premium, the hip vs. gable difference can be $300-$700 per year - every year, for the life of the policy.</p>
 
 <p class="text-gray-600 mb-6">If you have a gable roof, three things help close the gap on hurricane performance:</p>
 
@@ -18924,7 +18955,7 @@ export const blogPosts: BlogPost[] = [
 <h2 id="key-takeaways" class="text-2xl font-bold text-secondary mt-10 mb-4">Key Takeaways</h2>
 
 <ul class="list-disc pl-6 mb-6 text-gray-600 space-y-2">
-<li>Gable roofs come in seven main variations: standard, box, front, cross, Dutch, jerkinhead, and saltbox.</li>
+<li>Roof gable styles come in seven main variations: standard, box, front, cross, Dutch, jerkinhead, and saltbox.</li>
 <li>Standard and box gables are the cheapest to build; Dutch gables and cross gables are the most expensive.</li>
 <li>Cross gables are very common on larger Northeast Florida homes with L-shaped or T-shaped floor plans.</li>
 <li>Dutch gables can qualify for the hip roof wind mitigation credit if the hipped portion is dominant.</li>
@@ -18935,13 +18966,14 @@ export const blogPosts: BlogPost[] = [
 
 <div class="bg-primary/5 border border-primary/20 rounded-xl p-6 my-8">
 <p class="font-bold text-secondary mb-2">Free Roof Estimate in Northeast Florida</p>
-<p class="text-gray-600 mb-4">Whether your home has a simple standard gable or a complex cross gable with multiple valleys, Gimo's Roofing has installed it before. Free written estimates throughout Jacksonville, the Beaches, Ponte Vedra, St. Augustine, Orange Park, and Fernandina Beach.</p>
+<p class="text-gray-600 mb-4">Whether your home has a simple standard roof gable or a complex cross gable with multiple valleys, Gimo's Roofing has installed it before. Free written estimates throughout Jacksonville, the Beaches, Ponte Vedra, St. Augustine, Orange Park, and Fernandina Beach.</p>
 <div class="flex flex-col sm:flex-row gap-3">
 <a href="tel:+19046065313" class="inline-flex items-center justify-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition text-sm">Call (904) 606-5313</a>
 <a href="/contact" class="inline-flex items-center justify-center border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg hover:bg-primary/5 transition text-sm">Schedule Free Inspection</a>
 </div>
 </div>`,
     faqs: [
+      { question: "What is a gable roof?", answer: "A gable roof, sometimes searched as a roof gable or asked as what's a gable, is a roof with two sloped planes that meet at a central ridge, forming a triangular wall section, the gable, at each end of the building. It's the simplest and most common roof shape in the United States, including across Florida, because it sheds water efficiently and costs less to frame than more complex shapes like a hip roof." },
       { question: "What is the most common gable roof type in Florida?", answer: "The cross gable is by far the most common gable variant on Florida homes built since the 1980s, because most floor plans are L-shaped or T-shaped rather than simple rectangles. Standard open gables are common on simple ranch homes and additions. Dutch gables are increasingly popular on upscale homes in Ponte Vedra and Nocatee for their hurricane performance benefits." },
       { question: "Why do gable roofs cost less than hip roofs?", answer: "Gable roofs have simpler framing - just two sloped planes meeting at a ridge - so they require less labor and less material than hip roofs with their four sloped planes meeting at multiple hips. The savings is typically 10-20% on a residential project, but the savings are offset over time by higher hurricane insurance premiums in Florida." },
       { question: "Can I convert my gable roof to a hip roof?", answer: "Yes, but it is essentially a roof tear-off and rebuild from the framing up - not a simple modification. The framing has to be redesigned and rebuilt to accommodate the new hip planes, the wall heights at the gable ends need to be lowered, and the entire roof system gets replaced. The cost of converting a gable to a hip is typically 3-5 times the cost of just re-roofing the existing gable, so most homeowners are better off keeping the gable and adding gable end bracing instead." },

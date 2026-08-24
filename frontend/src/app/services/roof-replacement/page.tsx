@@ -26,7 +26,7 @@ const signs = [
   { title: "Age of Roof", description: "Most roofs last 20-25 years. If yours is approaching this age, it may be time for replacement." },
   { title: "Missing Shingles", description: "Multiple missing or damaged shingles indicate your roof is failing and needs attention." },
   { title: "Sagging Roof Deck", description: "A sagging roof is a serious structural issue that requires immediate replacement." },
-  { title: "Frequent Leaks", description: "If you're constantly repairing leaks, a full replacement may be more cost-effective." },
+  { title: "Frequent Leaks", description: "If your leaking roof repair cost keeps climbing, a full replacement may be more cost-effective." },
   { title: "Storm Damage", description: "Severe storm damage often necessitates complete roof replacement rather than repairs." },
   { title: "Rising Energy Bills", description: "Poor roof insulation causes higher heating/cooling costs, a new roof improves efficiency." }
 ]
@@ -60,7 +60,7 @@ const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAr
 }, {})
 
 const faqs = [
-  { question: "How do I know if I need a roof replacement vs. repair?", answer: "Generally, if repairs exceed 30% of a new roof's cost, or if your roof is over 20 years old with multiple issues, replacement is more cost-effective. We provide honest assessments during our free inspections." },
+  { question: "How do I know if I need a roof replacement vs. repair?", answer: "Generally, if your roofing repairs cost exceeds 30% of a new roof's cost, or if your roof is over 20 years old with multiple issues, replacement is more cost-effective. We provide honest assessments during our free inspections." },
   { question: "What is the most expensive part of replacing a roof?", answer: "While shingles are the most visible cost, labor and structural decking repair are often the most expensive components. In Jacksonville, replacing rotted plywood (sheathing) damaged by humidity can significantly increase the total investment." },
   { question: "What is the cheapest way to replace a roof in Florida?", answer: "Opting for 3-tab asphalt shingles is the most budget-friendly option. However, for Florida weather, architectural shingles offer better wind resistance and long-term value for a slightly higher upfront cost." },
   { question: "How long does a typical roof replacement take?", answer: "Most residential roof replacements in Jacksonville take 1 to 3 days, depending on the roof's size and complexity. Weather delays (common in North Florida) can extend this timeframe." },
@@ -294,8 +294,8 @@ export default function RoofReplacementPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Replacement Costs in Jacksonville</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto mb-4"><strong>A new roof in Jacksonville, FL typically costs $8,000-$20,000 for asphalt shingles, $15,000-$35,000 for metal, and $18,000-$50,000+ for tile,</strong> depending on roof size, pitch, and material. Every estimate is a detailed written quote with no hidden fees, and financing is available. <a href={estimateUrl} id="cta-snippet-replacement-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-replacement-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
-            <p className="text-gray-600 max-w-3xl mx-auto">Transparent roof replacement cost Jacksonville FL pricing with detailed written estimates. No hidden fees. Financing available. For a deeper breakdown, read our <Link href="/blog/roof-replacement-cost-jacksonville-fl" className="text-primary hover:underline">Jacksonville roof replacement cost guide</Link>.</p>
+            <p className="text-gray-600 max-w-3xl mx-auto mb-4"><strong>A new roof in Jacksonville, FL typically costs $8,000-$20,000 for asphalt shingles, $15,000-$35,000 for metal, and $18,000-$50,000+ for tile,</strong> depending on roof size, pitch, and material. Every one of our roof estimates is a detailed written quote with no hidden fees, and financing is available. <a href={estimateUrl} id="cta-snippet-replacement-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-replacement-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+            <p className="text-gray-600 max-w-3xl mx-auto">Transparent roof replacement cost Jacksonville FL pricing with detailed written roof estimates. No hidden fees. Financing available. For a deeper breakdown, read our <Link href="/blog/roof-replacement-cost-jacksonville-fl" className="text-primary hover:underline">Jacksonville roof replacement cost guide</Link>.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -370,7 +370,7 @@ export default function RoofReplacementPage() {
             <div className="text-center">
               <div className="w-14 h-14 bg-primary text-secondary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
               <p className="font-bold text-secondary mb-2">Inspection</p>
-              <p className="text-gray-600 text-sm">Free roof inspection, measurements, and detailed written estimate with material options.</p>
+              <p className="text-gray-600 text-sm">Free roof inspection, measurements, and detailed written roof estimate with material options.</p>
             </div>
             <div className="text-center">
               <div className="w-14 h-14 bg-primary text-secondary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
@@ -430,7 +430,7 @@ export default function RoofReplacementPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Signs You Need a Roof Replacement</h2>
-              <p className="text-gray-600">Not sure if you need a replacement? Here are common indicators that your roof has reached the end of its lifespan. If most issues are minor, our <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair service in Jacksonville, FL</Link> may be the better fit.</p>
+              <p className="text-gray-600">Not sure if you need a replacement? Here are common indicators that your roof has reached the end of its lifespan. If most issues are minor, comparing your roof repair price against the full replacement cost can help you decide, and our <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair service in Jacksonville, FL</Link> may be the better fit.</p>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
               <Image src="/images/residential-shingle-reroof-in-progress-jacksonville-fl.webp" alt="Shingle roof replacement in progress on a Jacksonville FL home" title="Shingle roof replacement in progress in Jacksonville FL" fill className="object-cover" />
@@ -488,7 +488,7 @@ export default function RoofReplacementPage() {
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Replacement Service Areas in Northeast Florida</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              We provide roof replacement across Duval, St. Johns, Clay, and Nassau counties.
+              Searching for free roof estimates near me? We provide roof replacement across Duval, St. Johns, Clay, and Nassau counties.
             </p>
           </div>
           <div className="space-y-8">
@@ -559,7 +559,7 @@ export default function RoofReplacementPage() {
       <section className="py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Ready for a New Roof?</h2>
-          <p className="text-secondary/80 mb-6">Get a free, no-obligation estimate for your roof replacement project today.</p>
+          <p className="text-secondary/80 mb-6">Get a free, no-obligation roof estimate for your roof replacement project today.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn bg-secondary text-white hover:bg-secondary/90">Get Your Free Estimate</a>
             <a href={financingUrl} target="_blank" rel="noopener noreferrer" className="btn bg-white text-secondary hover:bg-gray-100">Apply for Financing</a>

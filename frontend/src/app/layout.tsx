@@ -46,6 +46,23 @@ export const metadata: Metadata = {
   },
 }
 
+// WebSite schema (baseline entity/site signal). NOTE: intentionally does NOT include a
+// SearchAction/sitelinks-searchbox block. That specific schema requires a real, working
+// on-site search endpoint behind it (Google's guidelines: the target URL must actually
+// perform the search) - this site has no search feature anywhere, so adding SearchAction
+// without one would be fake structured data. Regular sitelinks (sub-page links under the
+// main SERP result) are unaffected by this - those are algorithmic, driven by site
+// structure/authority/breadcrumbs, not a schema block. Building a real search endpoint
+// is a separate, larger feature to build first if the searchbox specifically is wanted.
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://www.gimosroofing.com/#website",
+  "url": "https://www.gimosroofing.com",
+  "name": "Gimo's Roofing",
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" }
+}
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
@@ -225,6 +242,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
 
         {/* Google Tag Manager */}

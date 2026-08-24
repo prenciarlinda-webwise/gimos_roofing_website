@@ -224,3 +224,7 @@ tmpclaude-*-cwd
 CLAUDE.md
 *-CLAUDE.md
 .claude-conversations/
+
+# Client-supplied keyword/ranking exports (SEMrush, Ahrefs, etc.) - never commit raw data pulls
+*.xlsx
+*.xls

@@ -165,7 +165,7 @@ export default function RoofWaterproofingPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">What Roof Waterproofing Is</h2>
-            <p className="text-gray-600 mb-4"><strong>Gimo&apos;s Roofing is a licensed roofing and waterproofing company serving Jacksonville and Northeast Florida,</strong> offering coatings, membranes, and flashing repair as complete waterproofing solutions for flat, low-slope, and leak-prone roofs. <a href={estimateUrl} id="cta-snippet-waterproofing-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-waterproofing-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+            <p className="text-gray-600 mb-4"><strong>Gimo&apos;s Roofing is a licensed roofing and waterproofing company serving Jacksonville and Northeast Florida,</strong> offering coatings, membranes, and flashing repair as complete waterproofing solutions for flat, low-slope, and leak-prone roofs. Unlike waterproofing contractors who only apply a coating, we are roof waterproofing contractors who diagnose and repair the roof underneath it first. <a href={estimateUrl} id="cta-snippet-waterproofing-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-waterproofing-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
             <p className="text-gray-600 mb-4">Roof waterproofing is the process of sealing a roof so water cannot pass through it. Instead of replacing the whole roof, we add a continuous water-tight layer over a surface that is still structurally sound. That layer can be a liquid-applied coating, a single-ply membrane, fresh flashing and sealant at penetrations, or a moisture barrier below the roof deck. The result is one connected surface that sheds water rather than letting it find a path inside.</p>
             <p className="text-gray-600 mb-4">As a locally owned <Link href="/" className="text-primary hover:underline">Jacksonville roofing company</Link>, we treat waterproofing as a system, not a single product. A coating only performs if the roof beneath it is clean, dry, and repaired first. We inspect the roof, trace any active leaks to their source, repair the damage, then apply the waterproofing system across the whole surface so water has nowhere to enter.</p>
             <p className="text-gray-600">Waterproofing matters here because Jacksonville averages about 50 inches of rain a year, sits in a humid coastal climate, and faces wind-driven rain from June through November. Water that gets past a tired roof does not stay in one spot. It tracks along framing, soaks insulation, and shows up as a stain on a ceiling far from where it actually entered.</p>
@@ -178,7 +178,7 @@ export default function RoofWaterproofingPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Waterproofing Methods We Use</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">There is no single best waterproofing product. We match the method to your roof type, slope, and the source of the problem. Most Jacksonville projects combine two or three of the systems below.</p>
+            <p className="text-gray-600 max-w-3xl mx-auto">There is no single best waterproofing product. If you searched for roof coating near me, the specific product matters more than the search term. We match the method to your roof type, slope, and the source of the problem as your roof coating contractor, not a one-size product sold the same way to every roof. Most Jacksonville projects combine two or three of the systems below.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -241,7 +241,7 @@ export default function RoofWaterproofingPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Benefits of Waterproofing Your Roof</h2>
-              <p className="text-gray-600 mb-4">Waterproofing is one of the highest-value steps you can take on a sound roof. It protects the structure, lowers cooling costs, and buys years of additional service life.</p>
+              <p className="text-gray-600 mb-4">Waterproofing is one of the highest-value steps you can take on a sound roof. It protects the structure, lowers cooling costs, and buys years of additional service life. Professional roof waterproofing services do more than DIY sealant in a caulk tube, correct surface prep and the right product for your roof type are what make the difference last.</p>
 
               <div className="space-y-4">
                 <div>
@@ -313,7 +313,7 @@ export default function RoofWaterproofingPage() {
                 <li>&#8226; Damage and wear appear across the whole roof</li>
                 <li>&#8226; Repair costs approach a third of replacement</li>
               </ul>
-              <p className="text-gray-600 text-sm mt-3">Coating a failing roof only traps moisture. We will tell you honestly when replacement is the better value.</p>
+              <p className="text-gray-600 text-sm mt-3">Coating a failing roof only traps moisture. We will tell you honestly when replacement is the better value. Explore our <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement service in Jacksonville, FL</Link> for full tear-off and installation options.</p>
             </div>
           </div>
         </div>

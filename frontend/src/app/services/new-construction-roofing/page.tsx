@@ -31,7 +31,7 @@ const benefits = [
 const roofTypes = [
   { name: "Asphalt Shingles", description: "The most popular choice for new construction. Affordable, durable, and available in many colors and architectural styles.", lifespan: "25-30 years", features: ["Cost-effective", "Wide color selection", "Architectural styles", "Quick installation"] },
   { name: "Metal Roofing", description: "Premium choice for new Florida homes. Standing seam and metal tiles provide superior hurricane protection and energy efficiency.", lifespan: "50-70 years", features: ["Hurricane rated", "Energy efficient", "Low maintenance", "Modern aesthetics"] },
-  { name: "Tile Roofing", description: "Classic choice for Mediterranean and Spanish-style new construction. Concrete and clay tiles add timeless beauty.", lifespan: "50+ years", features: ["Fire resistant", "Timeless appeal", "Highly durable", "Increases home value"] }
+  { name: "Tile Roof Installation", description: "Classic choice for Mediterranean and Spanish-style new construction. Concrete and clay tiles add timeless beauty.", lifespan: "50+ years", features: ["Fire resistant", "Timeless appeal", "Highly durable", "Increases home value"] }
 ]
 
 const serviceAreas = [
@@ -263,8 +263,8 @@ export default function NewConstructionRoofingPage() {
             <div className="card p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="md:col-span-2">
-                  <h3 className="text-xl font-bold text-secondary mb-3">Tile Roofing for New Construction</h3>
-                  <p className="text-gray-600 mb-4">Tile roofing provides a distinctive Mediterranean or Spanish aesthetic that&apos;s popular in upscale Jacksonville communities. Concrete and clay tiles can last 50-100 years, making them a true lifetime investment for your new home.</p>
+                  <h3 className="text-xl font-bold text-secondary mb-3">Tile Roof Installation for New Construction</h3>
+                  <p className="text-gray-600 mb-4">Tile roof installation provides a distinctive Mediterranean or Spanish aesthetic that&apos;s popular in upscale Jacksonville communities. Concrete and clay tiles can last 50-100 years, making them a true lifetime investment for your new home. Concrete tile roof installation is typically more affordable than clay while still delivering that same durability and Mediterranean look.</p>
                   <p className="text-gray-600 mb-4">New construction is the ideal time to choose tile because the roof structure can be designed to support the additional weight (900-1,200 lbs per 100 sq ft). Retrofitting tile onto an existing home often requires expensive structural reinforcement.</p>
                   <p className="text-gray-600"><strong>New construction cost:</strong> $10-20 per square foot, or $20,000-40,000 for typical homes.</p>
                 </div>
@@ -292,7 +292,7 @@ export default function NewConstructionRoofingPage() {
               <p className="text-gray-600">Here&apos;s how we work with builders and homeowners to ensure your new roof is installed correctly from the start.</p>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
-              <Image src="/images/new-roof-company.webp" alt="New construction roofing in Jacksonville FL" title="New construction roofing in Jacksonville FL" fill className="object-cover" />
+              <Image src="/images/new-roof-company.webp" alt="New construction roof install in Jacksonville FL" title="New construction roof install in Jacksonville FL" fill className="object-cover" />
             </div>
           </div>
 
@@ -305,7 +305,7 @@ export default function NewConstructionRoofingPage() {
             <div className="text-center">
               <div className="w-14 h-14 bg-primary text-secondary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
               <p className="font-bold text-secondary mb-2">Scheduling</p>
-              <p className="text-gray-600 text-sm">We coordinate with your builder&apos;s timeline. Roofing typically happens after framing and decking, before interior work begins. We&apos;re flexible to keep your project on schedule.</p>
+              <p className="text-gray-600 text-sm">We coordinate with your builder&apos;s timeline. The roof install typically happens after framing and decking, before interior work begins. We&apos;re flexible to keep your project on schedule.</p>
             </div>
             <div className="text-center">
               <div className="w-14 h-14 bg-primary text-secondary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
@@ -331,7 +331,7 @@ export default function NewConstructionRoofingPage() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card p-8">
               <h3 className="text-xl font-bold text-secondary mb-3">Fastening Shortcuts Under Schedule Pressure</h3>
-              <p className="text-gray-600">Skipping the manufacturer-required nail pattern to move faster toward a move-in date is one of the most common corners cut on new builds. It&apos;s invisible at final walkthrough and shows up the first time real wind hits the roof.</p>
+              <p className="text-gray-600">Skipping the manufacturer-required nail pattern to move faster toward a move-in date is one of the most common corners cut during a rushed roof install. It&apos;s invisible at final walkthrough and shows up the first time real wind hits the roof.</p>
             </div>
             <div className="card p-8">
               <h3 className="text-xl font-bold text-secondary mb-3">Skipping Ice-and-Water Shield at Valleys and Eaves</h3>
@@ -459,7 +459,7 @@ export default function NewConstructionRoofingPage() {
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">New Construction Roofing Service Areas in Northeast Florida</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              We install new construction roofing across Duval, St. Johns, Clay, and Nassau counties. If you need work on an existing roof instead, see our <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement service</Link>.
+              We install new construction roofing across Duval, St. Johns, Clay, and Nassau counties. If you need reroofing (also called re-roofing or a re-roof) on an existing home instead, see our <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement service</Link>, which covers full re-roofing services for shingle, metal, and tile roofs.
             </p>
           </div>
           <div className="space-y-8">

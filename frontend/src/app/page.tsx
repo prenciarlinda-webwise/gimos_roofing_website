@@ -60,8 +60,9 @@ const faqs = [
   { question: 'How long does a roof replacement take?', answer: 'Most residential roof replacements are completed within 1-3 days, depending on size and complexity.' },
   { question: 'Do you offer emergency roof repair services?', answer: 'Yes! We offer 24/7 emergency roof repair services throughout Jacksonville for storm damage and active leaks. Visit our emergency roof repair page or call (904) 606-5313 for immediate assistance.' },
   { question: 'What types of roofing materials do you install?', answer: 'We install asphalt shingles, metal roofing, tile roofing, and various commercial roofing systems.' },
-  { question: 'Are you licensed and insured?', answer: 'Yes, Gimos Roofing is fully licensed and insured in Florida with comprehensive liability and workers comp coverage.' },
-  { question: 'Do you provide warranties on your work?', answer: 'Yes! We provide manufacturer warranties on materials and our own workmanship warranty.' }
+  { question: 'Are you licensed and insured?', answer: "Yes, Gimo's Roofing is fully licensed and insured in Florida with comprehensive liability and workers comp coverage." },
+  { question: 'Do you provide warranties on your work?', answer: 'Yes! We provide manufacturer warranties on materials and our own workmanship warranty.' },
+  { question: 'How do I find a reliable roofer in Jacksonville FL?', answer: "Verify the license at myfloridalicense.com, confirm liability and workers comp insurance, and check local reviews before hiring. Gimo's Roofing is FL licensed CCC1332453, CertainTeed Certified, and rated 5.0 stars across 104+ reviews, the kind of track record that separates an established local roofer in Jacksonville FL from an out-of-town crew passing through after a storm." }
 ]
 
 const serviceAreasWithUrls = [
@@ -414,7 +415,7 @@ export default function Home() {
       {/* Service Areas Section */}
       <section className="relative py-16 text-white overflow-hidden bg-secondary">
         <div className="absolute inset-0">
-          <Image src="/images/gimos-roofing-jacksonville.webp" alt="Gimos Roofing serving Jacksonville FL neighborhoods" title="Gimo's Roofing - Serving Jacksonville FL Neighborhoods" fill sizes="100vw" className="object-cover opacity-30" loading="lazy" />
+          <Image src="/images/gimos-roofing-jacksonville.webp" alt="Gimo's Roofing serving Jacksonville FL neighborhoods" title="Gimo's Roofing - Serving Jacksonville FL Neighborhoods" fill sizes="100vw" className="object-cover opacity-30" loading="lazy" />
           <div className="absolute inset-0 bg-secondary/80"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4">
@@ -507,7 +508,7 @@ export default function Home() {
                 From our Brentwood base we cover <a href="https://en.wikipedia.org/wiki/Riverside,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">Riverside</a>, <a href="https://en.wikipedia.org/wiki/San_Marco,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">San Marco</a>, and Mandarin, out to the beaches near <a href="https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Jacksonville Beach</a> and <a href="https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Ponte Vedra</a>, along with downtown neighborhoods like Springfield and Avondale. Beyond roof replacement and repair, we provide siding, gutter, and chimney services across Northeast Florida, residential and commercial alike.
               </p>
               <p className="text-base text-gray-600 leading-relaxed">
-                We&apos;re in the office Monday through Saturday and run 24/7 emergency roof repair the rest of the time, backed by a 5.0 rating across 104 <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" className="text-primary hover:underline">Google reviews</a>. Call <a href="tel:+19046065313" className="text-primary hover:underline">(904) 606-5313</a> any time for a free, honest assessment of your roof.
+                We&apos;re in the office Monday through Saturday and run 24/7 emergency roof repair the rest of the time, backed by a 5.0 rating across 104 <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" className="text-primary hover:underline">Google reviews</a>, the track record homeowners look for when they&apos;re trying to find the best roofer in Jacksonville rather than just the first name that shows up. Call <a href="tel:+19046065313" className="text-primary hover:underline">(904) 606-5313</a> any time for a free, honest assessment of your roof.
               </p>
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg">

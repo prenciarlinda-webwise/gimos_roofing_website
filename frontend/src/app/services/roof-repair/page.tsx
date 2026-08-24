@@ -206,7 +206,7 @@ export default function RoofRepairPage() {
                 <div className="md:col-span-2">
                   <h3 className="text-xl font-bold text-secondary mb-3">Shingle Roof Repair</h3>
                   <p className="text-gray-600 mb-4">Shingle damage is extremely common in Jacksonville due to our combination of intense sun, high humidity, and hurricane-force winds. Damaged shingles expose your roof deck to water and accelerate deterioration of surrounding shingles.</p>
-                  <p className="text-gray-600 mb-4">We repair cracked, curled, missing, and wind-damaged shingles. For best results, we replace damaged shingles with matching products rather than using sealants or patches. We stock common shingle colors on our trucks for immediate repairs.</p>
+                  <p className="text-gray-600 mb-4">We repair cracked, curled, missing, and wind-damaged shingles. For best results, we replace damaged shingles with matching products rather than using sealants or patches. We stock common shingle colors on our trucks for immediate repairs. Not sure which type your roof has? See our <Link href="/blog/architectural-shingles-vs-3-tab-jacksonville" className="text-primary hover:underline">architectural shingles vs 3 tab comparison</Link> to identify it before repairs.</p>
                   <p className="text-gray-600"><strong>Typical cost:</strong> $150-$400 for small areas (1-10 shingles). Larger areas with multiple damaged sections run $400-$1,200.</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">

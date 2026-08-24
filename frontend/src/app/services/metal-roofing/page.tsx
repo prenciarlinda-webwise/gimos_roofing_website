@@ -168,7 +168,7 @@ export default function MetalRoofingPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Types of Metal Roofing We Install</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">As a locally owned <Link href="/" className="text-primary hover:underline">Jacksonville roofing company</Link>, Gimo&apos;s Roofing installs every major metal roof system used in Northeast Florida. The right choice depends on your roof pitch, budget, how close you live to salt water, and the look you want. Here are the metal roofing options we install and replace most often.</p>
+            <p className="text-gray-600 max-w-3xl mx-auto">As a locally owned <Link href="/" className="text-primary hover:underline">Jacksonville roofing company</Link>, Gimo&apos;s Roofing installs every major metal roof system used in Northeast Florida, whether you&apos;re replacing an existing roof or building new. Builders and custom home owners often choose metal for <Link href="/services/new-construction-roofing" className="text-primary hover:underline">new construction roofing</Link> projects because of its durability and hurricane performance. The right choice depends on your roof pitch, budget, how close you live to salt water, and the look you want. Here are the metal roofing options we install and replace most often.</p>
           </div>
 
           <div className="space-y-8">
@@ -179,7 +179,8 @@ export default function MetalRoofingPage() {
                   <h3 className="text-xl font-bold text-secondary mb-3">Standing Seam Metal Roof</h3>
                   <p className="text-gray-600 mb-4">Standing seam is the premium metal roof system. Vertical panels lock together with raised seams and concealed clips, so no fasteners penetrate the surface where water runs. That makes it the most weathertight metal roof you can buy and the longest lasting, with a clean modern look that suits both contemporary and coastal Jacksonville homes.</p>
                   <p className="text-gray-600 mb-4">We install standing seam in steel and aluminum with factory-applied finishes. For homes near salt water at the Beaches, Ponte Vedra Beach, and Fernandina Beach, we typically specify aluminum because it does not rust. Standing seam also handles low-slope sections that exposed-fastener panels cannot.</p>
-                  <p className="text-gray-600"><strong>Best for:</strong> Long-term homeowners, coastal properties, and anyone wanting the most durable roof with the fewest future maintenance points.</p>
+                  <p className="text-gray-600 mb-4"><strong>Best for:</strong> Long-term homeowners, coastal properties, and anyone wanting the most durable roof with the fewest future maintenance points.</p>
+                  <p className="text-gray-600">For real installed pricing and an honest breakdown of when it is and isn&apos;t worth the extra cost, see our <Link href="/blog/standing-seam-metal-roof-pros-cons" className="text-primary hover:underline">standing seam metal roof pros and cons</Link> guide.</p>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
                   <h4 className="font-bold text-secondary mb-3">Standing Seam Strengths</h4>

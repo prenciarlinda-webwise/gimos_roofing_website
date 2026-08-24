@@ -149,6 +149,9 @@ export default function RoofFinancingFloridaPage() {
             <p className="text-gray-600 max-w-3xl mx-auto">
               A roof is a major investment, but it shouldn&apos;t drain your savings. Our roof financing Florida plans let you protect your home today and pay over time with predictable monthly payments. With roofing financing available for every project type, whether you need roof replacement financing, a repair after storm damage, or a full new construction project, we have programs to fit every budget and credit profile.
             </p>
+            <p className="text-gray-600 max-w-3xl mx-auto mt-4">
+              Searching for roofing companies with financing or roofing companies near me that finance the actual work, not just the pitch? Gimo&apos;s Roofing is a licensed contractor first, financing partner second: we do the roof, and EnerBank handles the loan, so there&apos;s one crew accountable for the work whether you pay cash or finance it.
+            </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="card p-6 text-center">
@@ -199,7 +202,7 @@ export default function RoofFinancingFloridaPage() {
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Roof Financing Plans We Offer</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              We partner with EnerBank, one of the most reputable roof financing companies in the country, to bring Florida homeowners flexible plans. Actual rates, promotions, and term lengths depend on credit and loan amount, but here&apos;s a snapshot of what&apos;s typically available.
+              We partner with EnerBank, one of the most reputable roof financing companies in the country, to bring Florida homeowners flexible plans. Actual rates, promotions, and term lengths depend on credit and loan amount, but here&apos;s a snapshot of what&apos;s typically available. If you searched for new roof financing near me or roofing companies that finance near me, the plans below are the same ones our own crews use when a customer wants to finance a roof near me instead of paying up front.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -250,7 +253,7 @@ export default function RoofFinancingFloridaPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Link href="/services/roof-replacement" className="card p-6 block">
               <h3 className="font-bold text-secondary mb-2 hover:text-primary">Roof Replacement Financing</h3>
-              <p className="text-gray-600 text-sm">Full tear-off and replacement with shingle, metal, or tile roofing. Financing a roof replacement lets you upgrade materials without a large upfront cost.</p>
+              <p className="text-gray-600 text-sm">Full tear-off and replacement with shingle, metal, or tile roofing. Roof replacement financing near me search results usually lead to a broker; here it&apos;s the same contractor doing the install.</p>
             </Link>
             <Link href="/services/roof-repair" className="card p-6 block">
               <h3 className="font-bold text-secondary mb-2 hover:text-primary">Roof Repair Financing</h3>
