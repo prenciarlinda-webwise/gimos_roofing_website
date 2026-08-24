@@ -76,21 +76,20 @@ const breadcrumbSchema = {
   ]
 }
 
-const reviewSchema = {
-  "@context": "https://schema.org",
-  "@type": "Review",
-  "itemReviewed": { "@id": "https://www.gimosroofing.com/#organization" },
-  "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-  "author": { "@type": "Person", "name": "Mark Jackson" },
-  "reviewBody": "Gimo's roofing company did a fantastic job for me from start to finish. There was a whole crew at my house at 0700 sharp. They completed my roof in one day and it looks great! They paid attention to every detail I requested and when they were finished, they cleaned up like they were never there. Great job!"
-}
+// NOTE: a standalone Review schema block (itemReviewed -> the org @id) previously lived
+// here. Removed 2026-08-24: it's the only page on the site with its own Review node
+// separate from the canonical RoofingContractor's aggregateRating (from layout.tsx, present
+// on every page), and Google Search Console flagged exactly this combination as invalid
+// ("Review has multiple aggregate ratings"), since the same @id ends up carrying both an
+// aggregateRating and a standalone Review on one page. The visible "Mark Jackson" review
+// stays in the Customer Reviews section below; this page still gets full review-snippet
+// eligibility from the inherited aggregateRating alone, same as every other page.
 
 export default function RoofingJacksonvilleFLPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero — full-bleed photo background, single row, text over a gradient scrim on the left, quote form on the right */}
       <section className="relative overflow-hidden bg-secondary">
