@@ -34,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/services/roof-waterproofing`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/roof-leak-emergency-repair.webp`, `${baseUrl}/images/residential-roof-inspection-aerial.webp`] },
     { url: `${baseUrl}/services/chimney-repair`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/chimney-cap-flashing-jacksonville-fl-2.webp`, `${baseUrl}/images/chimney-cap-replacement-jacksonville-fl.webp`, `${baseUrl}/images/chimney-cap-replacement-jacksonville-fl-2.webp`, `${baseUrl}/images/chimney-cap-flashing-jacksonville-fl.webp`] },
     { url: `${baseUrl}/services/roof-inspection`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/roof-inspection-project-jacksonville-fl.webp`, `${baseUrl}/images/roof-inspection-and-repair-near-me-jacksonville-fl.webp`, `${baseUrl}/images/roof-inspection-near-me-jacksonville-fl.webp`] },
-    { url: `${baseUrl}/services/skylight-installation`, changeFrequency: 'monthly' as const, priority: 0.7, images: [`${baseUrl}/images/two-story-home-skylights-roof.webp`] },
+    { url: `${baseUrl}/services/skylight-installation`, changeFrequency: 'monthly' as const, priority: 0.7, images: [`${baseUrl}/images/two-story-home-skylights-roof.webp`, `${baseUrl}/images/skylight-fix-jacksonville.webp`, `${baseUrl}/images/skylight-installation-jacksonville.webp`] },
     { url: `${baseUrl}/roof-financing-florida`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/residential-roofing-services-page.webp`] },
   ]
 

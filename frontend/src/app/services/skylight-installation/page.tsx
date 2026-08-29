@@ -181,6 +181,37 @@ export default function SkylightInstallationPage() {
         </div>
       </section>
 
+      {/* Real Skylight Jobs */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Real Jobs</span>
+            <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Skylight Repair and Installation in Jacksonville, FL</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">A look at the kind of skylight failures and installs we handle on Jacksonville roofs.</p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="rounded-xl overflow-hidden shadow-md">
+              <div className="aspect-video relative">
+                <Image src="/images/skylight-fix-jacksonville.webp" alt="Cracked skylight dome needing repair on a Jacksonville FL roof" title="Skylight repair in Jacksonville FL" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+              </div>
+              <div className="p-4 bg-gray-50">
+                <p className="font-bold text-secondary mb-1">Cracked skylight dome</p>
+                <p className="text-gray-600 text-sm">A shattered dome like this lets rain straight into the attic. We inspect the flashing underneath before deciding between a repair and a full replacement.</p>
+              </div>
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-md">
+              <div className="aspect-video relative">
+                <Image src="/images/skylight-installation-jacksonville.webp" alt="Skylight opening cut and framed into a Jacksonville FL roof deck during installation" title="Skylight installation in Jacksonville FL" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+              </div>
+              <div className="p-4 bg-gray-50">
+                <p className="font-bold text-secondary mb-1">Opening framed for a new skylight</p>
+                <p className="text-gray-600 text-sm">Old unit removed, deck checked for water damage, and the opening framed before we step-flash the new skylight into the surrounding shingles.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing + CTA */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
