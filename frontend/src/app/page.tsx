@@ -168,7 +168,7 @@ export default function Home() {
             poster="/images/roofing-jacksonville-hero.webp"
             className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           >
-            <source src="/images/roof-underlayment-installation-jacksonville-fl-hero.mp4" type="video/mp4" />
+            <source src="/images/roofing-crew-in-action-jacksonville-fl-hero.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="absolute inset-0 bg-secondary/70"></div>
