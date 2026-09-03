@@ -185,7 +185,7 @@ export default function RoofingJacksonvilleFLPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">Why Gimo&apos;s Roofing is Jacksonville&apos;s Best Roofing Company</h2>
           <p className="text-gray-600 mb-4">
-            Jacksonville homeowners have hundreds of roofing companies to choose from, but few deliver the combination of quality workmanship, transparent pricing, and genuine customer care that Gimo&apos;s Roofing provides. As a locally owned and operated <Link href="/" className="text-primary hover:underline">Jacksonville roofing company</Link>, we&apos;ve built our reputation one roof at a time since 2001. Homeowners searching for the best roofing companies Jacksonville FL trusts, or simply a roofer Jacksonville FL homeowners recommend by name, consistently choose us for residential roofing Jacksonville projects of every size.
+            Jacksonville homeowners have hundreds of roofing companies to choose from, but few deliver the combination of quality workmanship, transparent pricing, and genuine customer care that Gimo&apos;s Roofing provides. As a locally owned and operated <Link href="/" className="text-primary hover:underline">Jacksonville roofing company</Link>, we&apos;ve built our reputation one roof at a time since 2001. Homeowners searching for the best roofing contractors in Jacksonville FL, the best roofing companies Jacksonville FL trusts, or simply a roofer Jacksonville FL homeowners recommend by name, consistently choose us for residential roofing Jacksonville projects of every size.
           </p>
           <p className="text-gray-600 mb-4">
             What sets us apart from other Jacksonville roofing companies? Every project gets our owner&apos;s personal attention. We don&apos;t use subcontractors or day laborers. Our crews are trained, experienced roofers who take pride in their craft. We use premium materials from <strong>GAF</strong> and <strong>Owens Corning</strong>, and we back every installation with manufacturer warranties plus our own workmanship guarantee. We also offer <Link href="/roof-financing-florida" className="text-primary hover:underline">flexible roof financing</Link> starting at $99/month.
@@ -255,7 +255,7 @@ export default function RoofingJacksonvilleFLPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-secondary mb-4">What to Look for in a Jacksonville Roofer</h2>
           <p className="text-gray-600 mb-6">
-            Jacksonville&apos;s roofing market has no shortage of contractors, but not all local roofing companies in Jacksonville are created equal. After a major storm, out-of-state &ldquo;storm chasers&rdquo; flood the market with low prices and empty promises. Here&apos;s what separates the licensed roofing experts in Jacksonville FL from the rest:
+            Jacksonville&apos;s roofing market has no shortage of contractors, but not all local roofing companies in Jacksonville are created equal, and finding the best roofers in Jacksonville takes more than a quick search. After a major storm, out-of-state &ldquo;storm chasers&rdquo; flood the market with low prices and empty promises. Here&apos;s what separates the licensed roofing experts in Jacksonville FL from the rest:
           </p>
           <div className="grid sm:grid-cols-2 gap-4 mb-6">
             <div className="bg-gray-50 p-5 rounded-lg">

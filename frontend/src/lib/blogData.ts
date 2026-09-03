@@ -2313,6 +2313,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Quick Answer - Hurricane Straps</p>
+<p class="text-gray-700 mb-3">A hurricane strap is a metal connector that ties your roof framing to your wall framing so wind cannot lift the roof off the house during a storm.</p>
 <ul class="text-gray-700 space-y-1">
 <li><strong>What they are:</strong> Metal connectors tying your roof to your walls</li>
 <li><strong>Why they matter:</strong> Prevent your roof from lifting off in hurricanes</li>
@@ -2489,6 +2490,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "11 min read",
     author: "Gimo's Roofing Team",
     faqs: [
+      { question: "What is a hurricane strap?", answer: "A hurricane strap is a metal connector, also called a hurricane tie or wind clip, that physically ties your roof framing (the rafters or trusses) to your wall framing (the top plate). It resists the wind uplift forces that try to peel a roof off during a hurricane, creating a continuous load path from the roof down through the walls to the foundation." },
       { question: "What are hurricane straps for roofs?", answer: "Hurricane straps (also called hurricane ties or wind clips) are metal connectors that physically tie your roof framing to your wall framing. They resist wind uplift forces that try to lift your roof off during hurricanes and high winds." },
       { question: "Do hurricane straps lower insurance in Florida?", answer: "Yes, significantly. A wind mitigation inspection documenting proper hurricane straps can reduce your homeowner's insurance premium by 15-45% or more. The inspection typically costs $75-150 but can save hundreds annually." },
       { question: "Can you add hurricane straps to an existing home?", answer: "Yes, but it's challenging and more expensive than new construction. Access is usually through the attic, and every connection point must be individually reinforced. This is most cost-effective when done during a roof replacement." },
