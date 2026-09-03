@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import GalleryClient from '@/components/GalleryClient'
 import LiteYouTube from '@/components/LiteYouTube'
 import ProjectsMapLoader from '@/components/ProjectsMapLoader'
+import { projects } from '@/lib/galleryProjects'
 
 export const metadata: Metadata = {
   title: "Roofing Project Gallery - Jacksonville FL Photos",
@@ -86,6 +87,84 @@ const galleryVideos = [
     description: "A quick look at new construction roofing work by Gimo's Roofing in the Jacksonville, FL area.",
     uploadDate: "2026-07-29",
     duration: "PT30S"
+  },
+  {
+    id: "r0hSvbJmf90",
+    title: "Roof Installation in Progress in Jacksonville, FL",
+    description: "The Gimo's Roofing crew mid-installation on a residential roofing project in Jacksonville, FL.",
+    uploadDate: "2026-08-03"
+  },
+  {
+    id: "Wk7LDbbIAPY",
+    title: "Installing a New Construction Roof in Jacksonville, FL",
+    description: "The Gimo's Roofing crew installing a roof on a new construction home in Jacksonville, FL.",
+    uploadDate: "2026-08-10"
+  },
+  {
+    id: "3QM0FXKMaBM",
+    title: "New Roof Installation: Aerial Drone Footage",
+    description: "Aerial drone footage of a new roof installation completed by Gimo's Roofing in Jacksonville, FL.",
+    uploadDate: "2026-08-12"
+  },
+  {
+    id: "FAlDiM7FEUM",
+    title: "Roof Replacement Production Day at St Paul's Church",
+    description: "A production day during a church roof replacement project completed by Gimo's Roofing in Jacksonville, FL.",
+    uploadDate: "2026-08-14"
+  },
+  {
+    id: "c0-LaZqbMfc",
+    title: "Roof Underlayment Installation in Jacksonville, FL",
+    description: "Aerial footage of the Gimo's Roofing crew installing underlayment during a roof replacement in Jacksonville, FL.",
+    uploadDate: "2026-08-14"
+  },
+  {
+    id: "QK72esTbgFc",
+    title: "Jacksonville FL Roof Repair",
+    description: "A look at a roof repair project completed by Gimo's Roofing in Jacksonville, FL.",
+    uploadDate: "2026-08-17"
+  },
+  {
+    id: "i5lOMsP9eGA",
+    title: "Multi Family Roof Installation in Jacksonville, FL",
+    description: "The Gimo's Roofing crew installing a roof on a multi-family property in Jacksonville, FL.",
+    uploadDate: "2026-08-19"
+  },
+  {
+    id: "LKTCCn2yUB0",
+    title: "New Roof in Jacksonville, FL: Shingles Staged for Installation",
+    description: "Shingles staged and ready for installation on a new roof project in Jacksonville, FL.",
+    uploadDate: "2026-08-21"
+  },
+  {
+    id: "SRtzugnJfOY",
+    title: "Roof Installation in Jacksonville, FL: Drone Footage",
+    description: "Aerial drone footage of a roof installation completed by Gimo's Roofing in Jacksonville, FL.",
+    uploadDate: "2026-08-24"
+  },
+  {
+    id: "J830R_ykNRo",
+    title: "Underlayment Installation in Jacksonville, FL",
+    description: "The Gimo's Roofing crew installing underlayment during a roof replacement in Jacksonville, FL.",
+    uploadDate: "2026-08-28"
+  },
+  {
+    id: "T4H1-Ws7pxI",
+    title: "Roof Replacement in Progress in Jacksonville, FL",
+    description: "Behind the scenes on an active roof replacement project in Jacksonville, FL by the Gimo's Roofing crew.",
+    uploadDate: "2026-08-31"
+  },
+  {
+    id: "exGXjAurZys",
+    title: "Roof Installation From Start to Finish",
+    description: "A full look at a roof installation from start to finish, completed by the Gimo's Roofing crew in Jacksonville, FL.",
+    uploadDate: "2026-09-02"
+  },
+  {
+    id: "VnooVN2tVYw",
+    title: "Roofing Services in Jacksonville, FL",
+    description: "An overview of the roofing services Gimo's Roofing provides to homeowners across Jacksonville, FL.",
+    uploadDate: "2026-09-02"
   }
 ]
 
@@ -96,7 +175,20 @@ const gallerySchema = {
   "name": "Gimo's Roofing Project Gallery",
   "description": "Photos of completed roofing and siding projects in Jacksonville, FL and Northeast Florida",
   "url": "https://www.gimosroofing.com/gallery",
-  "publisher": { "@id": "https://www.gimosroofing.com/#organization" }
+  "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
+  "associatedMedia": projects.map((p) => ({
+    "@type": "ImageObject",
+    "contentUrl": `https://www.gimosroofing.com${p.image}`,
+    "url": `https://www.gimosroofing.com${p.image}`,
+    "name": p.imgTitle,
+    "description": p.alt,
+    "representativeOfPage": false,
+    "contentLocation": {
+      "@type": "Place",
+      "name": p.location
+    },
+    "publisher": { "@id": "https://www.gimosroofing.com/#organization" }
+  }))
 }
 
 const videoSchema = {
