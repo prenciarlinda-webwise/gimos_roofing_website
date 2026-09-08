@@ -30,7 +30,7 @@ export default function NotFound() {
       <div className="max-w-3xl mx-auto px-4 text-center">
         <p className="text-primary font-bold text-sm uppercase tracking-widest mb-3">Error 404</p>
         <h1 className="text-4xl md:text-5xl font-bold text-secondary mb-4">
-          Oops, looks like Triad needs a call for this 404 page
+          Oops, looks like Web Wise needs a call for this 404 page
         </h1>
         <p className="text-gray-600 text-lg mb-2 max-w-xl mx-auto">
           The link you followed slipped through the cracks. While we sort that out, here&apos;s where to go next.
@@ -79,26 +79,26 @@ export default function NotFound() {
           <p>
             Spotted a broken link?{' '}
             <a
-              href="https://bytriad.com/"
+              href="https://www.websiteandseoagency.com/"
               target="_blank"
               rel="noopener"
-              title="Report broken link to Triad - Digital Marketing Agency"
+              title="Report broken link to Web Wise - Website & SEO Agency"
               className="text-primary hover:underline font-medium"
             >
-              Report it to Triad
+              Report it to Web Wise
             </a>{' '}
             so the team can fix it fast.
           </p>
           <p>
             Need marketing services for your own business?{' '}
             <a
-              href="https://bytriad.com/"
+              href="https://www.websiteandseoagency.com/"
               target="_blank"
               rel="noopener"
-              title="Triad - Digital Marketing Agency"
+              title="Web Wise - Website & SEO Agency"
               className="text-primary hover:underline font-medium"
             >
-              Reach out to Triad
+              Reach out to Web Wise
             </a>{' '}
             for websites, SEO, and growth.
           </p>

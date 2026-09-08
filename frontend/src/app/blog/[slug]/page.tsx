@@ -87,8 +87,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   const relatedPosts = getRelatedPosts(slug, 3)
 
-  // Organization is defined canonically in root layout.tsx via @id: https://www.gimosroofing.com/#organization
-  // All publisher/author references below reference it by @id to avoid duplication.
+  // Organization is defined canonically in root layout.tsx via @id: https://www.gimosroofing.com/#organization.
+  // Publisher references it by @id to avoid duplication. Article author is an embedded Person
+  // block for Ivan (E-E-A-T authorship signal) per the CLAUDE.md schema strategy; full surname
+  // is schema-only, the visible byline below uses first name only.
 
   const partnerOrganizations = (post.partners || []).map(p => ({
     "@type": "Organization",
@@ -140,7 +142,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     ...(imageSchema ? { "image": imageSchema } : {}),
     "datePublished": `${post.date}T08:00:00.000Z`,
     "dateModified": `${post.dateModified || post.date}T08:00:00.000Z`,
-    "author": { "@id": "https://www.gimosroofing.com/#organization" },
+    "author": {
+      "@type": "Person",
+      "name": "Ivan Hysaj",
+      "jobTitle": "Owner",
+      "worksFor": { "@id": "https://www.gimosroofing.com/#organization" }
+    },
     "publisher": { "@id": "https://www.gimosroofing.com/#organization" },
     "articleSection": post.category,
     // Speakable signals to Google AI Overview / voice assistants which sections are most "quotable"
@@ -279,8 +286,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               />
             </div>
             <div>
-              <p className="font-semibold text-secondary">Written by {post.author}</p>
-              <p className="text-sm text-gray-600">Jacksonville&apos;s trusted roofing experts with 25 years of experience.</p>
+              <p className="font-semibold text-secondary">Written by Ivan, Owner - Gimo&apos;s Roofing</p>
+              <p className="text-sm text-gray-600">FL License #CCC1332453 &middot; CertainTeed Certified &middot; 25 years of Jacksonville roofing experience.</p>
             </div>
           </div>
         </div>
