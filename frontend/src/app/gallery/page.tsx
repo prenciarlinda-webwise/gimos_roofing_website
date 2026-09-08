@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import GalleryHero from '@/components/GalleryHero'
 import GalleryClient from '@/components/GalleryClient'
 import LiteYouTube from '@/components/LiteYouTube'
 import ProjectsMapLoader from '@/components/ProjectsMapLoader'
@@ -225,7 +226,7 @@ export default function GalleryPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gallerySchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <GalleryClient />
+      <GalleryHero />
 
       <section id="videos" className="py-16 bg-gray-50 scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4">
@@ -247,6 +248,8 @@ export default function GalleryPage() {
           </div>
         </div>
       </section>
+
+      <GalleryClient />
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4">
