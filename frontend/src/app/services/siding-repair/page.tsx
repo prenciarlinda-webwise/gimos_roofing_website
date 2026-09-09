@@ -63,6 +63,7 @@ const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAr
 }, {})
 
 const faqs = [
+  { question: "How do I find reliable siding repair services in Jacksonville?", answer: "A repair that doesn't address the underlying cause, often flashing or house wrap, just fails again at the next storm. Gimo's Roofing is FL licensed (CCC1332453) and CertainTeed Certified, has repaired storm-damaged and worn siding across Jacksonville since 2001, and diagnoses the root cause rather than patching over it. Call (904) 606-5313." },
   { question: "Can you match my existing siding color?", answer: "In most cases, yes. We carry a wide range of siding colors and can often find exact or very close matches. For older siding, we may source from specialty suppliers or recommend replacing larger sections for uniformity." },
   { question: "How quickly can you repair storm damage?", answer: "For emergency storm damage, we offer priority scheduling. We can typically assess damage within 24-48 hours and begin repairs as soon as materials are available." },
   { question: "Is it better to repair or replace my siding?", answer: "It depends on the extent of damage and siding age. Small areas of damage on newer siding are worth repairing. Extensive damage or aging siding (15+ years) may be more cost-effective to replace entirely." },

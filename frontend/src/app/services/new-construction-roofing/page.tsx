@@ -56,6 +56,7 @@ const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAr
 }, {})
 
 const faqs = [
+  { question: "How do I find a reliable new construction roofer in Jacksonville?", answer: "Builders need a roofer who shows up on schedule and passes inspection the first time. Gimo's Roofing is FL licensed (CCC1332453) and CertainTeed Certified, and we coordinate directly with builders and general contractors across Jacksonville rather than working through a subcontractor layer. Call (904) 606-5313 to talk timelines." },
   { question: "When should roofing be installed during new construction?", answer: "Roofing is typically installed after the framing is complete and the roof decking is in place, but before interior work begins. We coordinate with your builder to ensure proper timing and protect the structure from weather." },
   { question: "Do you work with home builders and general contractors?", answer: "Yes! We regularly partner with home builders and general contractors throughout Jacksonville. We understand construction schedules and coordinate our work to keep your project on track." },
   { question: "What roofing materials are best for new construction in Florida?", answer: "For Florida's climate, we recommend asphalt architectural shingles for budget-friendly projects, metal roofing for maximum durability and energy efficiency, or tile for a classic Florida aesthetic." },

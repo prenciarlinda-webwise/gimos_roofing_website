@@ -81,7 +81,7 @@ export default function NotFound() {
             <a
               href="https://www.websiteandseoagency.com/"
               target="_blank"
-              rel="noopener"
+              rel="nofollow noopener"
               title="Report broken link to Web Wise - Website & SEO Agency"
               className="text-primary hover:underline font-medium"
             >
@@ -94,7 +94,7 @@ export default function NotFound() {
             <a
               href="https://www.websiteandseoagency.com/"
               target="_blank"
-              rel="noopener"
+              rel="nofollow noopener"
               title="Web Wise - Website & SEO Agency"
               className="text-primary hover:underline font-medium"
             >

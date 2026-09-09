@@ -60,6 +60,7 @@ const benefits = [
 ]
 
 const faqs = [
+  { question: "How do I choose the best siding contractor in Jacksonville?", answer: "Look for a licensed contractor who removes and inspects the sheathing underneath rather than installing over old siding. Gimo's Roofing is FL licensed (CCC1332453) and CertainTeed Certified, has installed vinyl, Hardie board, and fiber cement siding across Duval, St. Johns, Clay, and Nassau counties, and gives a written estimate with material specifics before any work starts. Call (904) 606-5313." },
   { question: "How long does siding installation take?", answer: "Most home siding installations take 1-2 weeks depending on home size and siding type. A 2,000 sq ft home typically takes 5-7 days. Larger homes or complex designs may take 2-3 weeks. We work efficiently while ensuring quality installation." },
   { question: "What's the best siding for Florida's climate?", answer: "Vinyl and fiber cement siding are excellent choices for Jacksonville's humid climate. Both resist moisture, won't rot, and hold up well in our weather. Fiber cement (Hardie board) offers superior durability and fire resistance, while vinyl is more budget-friendly." },
   { question: "Do you remove and dispose of old siding?", answer: "Yes, our installation includes complete removal and disposal of your old siding. We carefully remove existing materials, inspect sheathing for damage, make necessary repairs, and dispose of old materials responsibly." },

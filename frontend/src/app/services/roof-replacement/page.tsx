@@ -60,6 +60,7 @@ const serviceAreasByCounty = serviceAreas.reduce<Record<string, typeof serviceAr
 }, {})
 
 const faqs = [
+  { question: "How do I choose a reliable roof replacement contractor in Jacksonville?", answer: "A full reroof is the biggest roofing decision most homeowners make, so verify licensing before anything else. Gimo's Roofing is FL licensed (CCC1332453) and CertainTeed Certified, has replaced roofs across Jacksonville since 2001, and backs every install with manufacturer and workmanship warranties instead of a handshake promise. Call (904) 606-5313 for a free inspection." },
   { question: "How do I know if I need a roof replacement vs. repair?", answer: "Generally, if your roofing repairs cost exceeds 30% of a new roof's cost, or if your roof is over 20 years old with multiple issues, replacement is more cost-effective. We provide honest assessments during our free inspections." },
   { question: "What is the most expensive part of replacing a roof?", answer: "While shingles are the most visible cost, labor and structural decking repair are often the most expensive components. In Jacksonville, replacing rotted plywood (sheathing) damaged by humidity can significantly increase the total investment." },
   { question: "What is the cheapest way to replace a roof in Florida?", answer: "Opting for 3-tab asphalt shingles is the most budget-friendly option. However, for Florida weather, architectural shingles offer better wind resistance and long-term value for a slightly higher upfront cost." },
