@@ -156,11 +156,15 @@ export default function Home() {
       <section className="relative min-h-[85vh] flex items-center overflow-hidden pt-24 md:pt-0">
         <div className="absolute inset-0">
           <Image src="/images/roofing-jacksonville-hero.webp" alt="Professional roofing services in Jacksonville FL - Gimo's Roofing" title="Professional roofing services in Jacksonville FL" fill sizes="100vw" className="object-cover" priority />
-          {/* Background video now plays on all breakpoints (source is a light 3.3MB
-              muted clip, unlike the original 78MB file that forced the desktop-only
+          {/* Background video plays on all breakpoints (source is an 8.8MB muted
+              clip, unlike the original 78MB file that forced the desktop-only
               split). preload="none" keeps the video out of the critical path so the
               Image above still resolves LCP; poster falls back to the hero image if
-              autoplay is blocked. Client direction 2026-09-02: enable on mobile. */}
+              autoplay is blocked. Client direction 2026-09-02: enable on mobile.
+              Source is the full, untrimmed crew tear-off/reroof clip (2026-09-15,
+              client direction: use the whole video, no cuts) - object-cover
+              center-crops the 16:9 source on narrow/portrait viewports, and the
+              action stays reasonably centered in frame throughout. */}
           <video
             autoPlay
             muted
@@ -170,7 +174,7 @@ export default function Home() {
             poster="/images/roofing-jacksonville-hero.webp"
             className="absolute inset-0 w-full h-full object-cover"
           >
-            <source src="/images/roofing-crew-in-action-jacksonville-fl-hero.mp4" type="video/mp4" />
+            <source src="/images/reroof-tear-off-crew-jacksonville-fl-hero.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="absolute inset-0 bg-secondary/70"></div>
