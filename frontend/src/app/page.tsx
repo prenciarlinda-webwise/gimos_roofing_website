@@ -366,29 +366,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Recent Projects Map */}
+      {/* Recent Projects: Map + Videos */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-8">
             <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Recent Projects</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">See Our Work Across <span className="text-primary">Northeast Florida</span></h2>
-            <p className="text-base text-gray-600 max-w-2xl mx-auto">Click on a pin to see photos from our completed roofing projects.</p>
+            <p className="text-base text-gray-600 max-w-2xl mx-auto">Hover an address or click a pin to see photos from our completed roofing projects, then watch our crews install and repair roofs across Jacksonville and Northeast Florida.</p>
           </div>
           <ProjectsMapLoader />
-          <div className="text-center mt-6">
-            <Link href="/gallery" title="View Our Roofing Project Gallery" className="text-primary font-semibold hover:underline">View Full Gallery &rarr;</Link>
-          </div>
-        </div>
-      </section>
 
-      {/* Project Videos Section */}
-      <section className="pb-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-10">
-            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Our Work</span>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Watch Gimo&apos;s Roofing Projects in Action</h2>
-            <p className="text-base text-gray-600 max-w-2xl mx-auto">See our crews install and repair roofs across Jacksonville and Northeast Florida.</p>
-          </div>
+          <h3 className="text-xl md:text-2xl font-bold text-secondary text-center mt-12 mb-6">Watch Our Crews in Action</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="aspect-video rounded-xl overflow-hidden shadow-md">
               <LiteYouTube id="aXKje0SbdD0" title="Compilation of re-roof jobs!" />
@@ -400,8 +388,9 @@ export default function Home() {
               <LiteYouTube id="MLenaCM8LyQ" title="Re-roof process" />
             </div>
           </div>
-          <div className="text-center mt-8">
-            <Link href="/gallery#videos" title="View more Gimo's Roofing project videos" className="btn btn-primary px-6 py-3">View More Videos</Link>
+          <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mt-8">
+            <Link href="/gallery" title="View Our Roofing Project Gallery" className="btn btn-primary px-6 py-3 text-center">View Full Gallery</Link>
+            <Link href="/gallery#videos" title="View more Gimo's Roofing project videos" className="btn btn-secondary px-6 py-3 text-center">View More Videos</Link>
           </div>
         </div>
       </section>

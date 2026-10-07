@@ -6,12 +6,18 @@ export default function TrustindexWidget({ src }: { src: string }) {
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    if (!ref.current) return
+    const container = ref.current
+    if (!container) return
+    // Guard against double injection (React strict mode / remounts) which renders the widget twice
+    container.innerHTML = ''
     const script = document.createElement('script')
     script.src = src
     script.async = true
     script.defer = true
-    ref.current.appendChild(script)
+    container.appendChild(script)
+    return () => {
+      container.innerHTML = ''
+    }
   }, [src])
 
   return <div ref={ref} />
