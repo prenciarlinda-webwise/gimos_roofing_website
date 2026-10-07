@@ -238,6 +238,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* AI-optimized services overview */}
+      <section className="py-14 bg-white" id="overview">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-8">
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Roofing Jacksonville FL</span>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Professional Roofing Services in Jacksonville, FL</h2>
+          </div>
+          <p className="text-lg text-gray-700 mb-4"><strong>Gimo&apos;s Roofing is a licensed roofing contractor in Jacksonville, FL (FL CCC1332453), in business since 2001.</strong> We handle <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link>, <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair</Link>, <Link href="/services/new-construction-roofing" className="text-primary hover:underline">new construction roofing</Link>, <Link href="/services/commercial-roofing" className="text-primary hover:underline">commercial roofing</Link>, <Link href="/services/metal-roofing" className="text-primary hover:underline">metal roofing</Link>, <Link href="/services/roof-gutter" className="text-primary hover:underline">gutter installation</Link>, and <Link href="/services/roof-waterproofing" className="text-primary hover:underline">roof waterproofing</Link>, plus <Link href="/services/siding-installation" className="text-primary hover:underline">siding installation</Link> and <Link href="/services/siding-repair" className="text-primary hover:underline">siding repair</Link>.</p>
+          <p className="text-base text-gray-600 mb-6">Among roofing companies in Jacksonville FL, Gimo&apos;s Roofing stands apart for residential roofing Jacksonville FL homeowners trust and for commercial properties across Northeast Florida. Every job is backed by manufacturer warranties, and we run 24/7 <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link> for storm damage and active leaks. <a href={estimateUrl} id="cta-snippet-services-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-services-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+          <dl className="grid sm:grid-cols-2 gap-x-8 gap-y-3 bg-gray-50 rounded-2xl p-6 text-sm">
+            <div><dt className="font-semibold text-secondary">Licensed and certified</dt><dd className="text-gray-600">FL CCC1332453, CertainTeed Certified</dd></div>
+            <div><dt className="font-semibold text-secondary">Rating</dt><dd className="text-gray-600">5.0 stars across 104 Google reviews</dd></div>
+            <div><dt className="font-semibold text-secondary">Starting prices</dt><dd className="text-gray-600">Roof repair from $500, roof replacement from $7,900</dd></div>
+            <div><dt className="font-semibold text-secondary">Estimates and financing</dt><dd className="text-gray-600">Free estimates, financing available</dd></div>
+            <div><dt className="font-semibold text-secondary">Office</dt><dd className="text-gray-600">33 24th St E, Jacksonville, FL 32206</dd></div>
+            <div><dt className="font-semibold text-secondary">Hours</dt><dd className="text-gray-600">Mon to Sat 8:00 AM to 5:30 PM, 24/7 emergency service</dd></div>
+            <div className="sm:col-span-2"><dt className="font-semibold text-secondary">Service area</dt><dd className="text-gray-600">Duval, St. Johns, Clay, and Nassau counties, including Jacksonville, the Beaches, St. Augustine, Orange Park, and Fernandina Beach</dd></div>
+          </dl>
+        </div>
+      </section>
+
       {/* Review Ribbon */}
       <section className="bg-white border-b border-gray-200 py-4">
         <div className="max-w-7xl mx-auto px-4">
@@ -290,22 +311,15 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-16 bg-gray-50" id="services">
+      <section className="py-16 bg-white" id="services">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Roofing Jacksonville FL</span>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Professional Roofing Services in Jacksonville, FL</h2>
-            <p className="text-base text-gray-600 max-w-2xl mx-auto mb-4"><strong>Gimo&apos;s Roofing offers roofing services in Jacksonville, FL including roof replacement, roof repair, new construction roofing, commercial roofing, metal roofing, gutter installation, and roof waterproofing</strong>, plus siding installation and repair. Every job is backed by manufacturer warranties, financing options, and free estimates. <a href={estimateUrl} id="cta-snippet-services-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-services-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
-            <p className="text-base text-gray-600 max-w-2xl mx-auto">Among roofing companies in Jacksonville FL, Gimo&apos;s Roofing stands apart. As a licensed Jacksonville FL roofing company, we deliver quality craftsmanship for residential roofing Jacksonville FL homeowners trust, plus commercial properties across Northeast Florida. From roof repairs to complete replacements, our team is backed by manufacturer warranties and 24/7 <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link> for storm damage and active leaks.</p>
-          </div>
-
           {/* Roofing Services */}
           <div className="mb-12">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
                 <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
               </div>
-              <h3 className="text-xl font-bold text-secondary">Roofing Services</h3>
+              <h2 className="text-xl font-bold text-secondary">Our Roofing Services</h2>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {roofingServices.map((service) => (
@@ -350,10 +364,37 @@ export default function Home() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
 
-          <div className="mt-12 max-w-3xl mx-auto bg-white rounded-2xl shadow-md p-6 md:p-8">
-            <h3 className="text-xl font-bold text-secondary mb-3">FAQ: What to Expect from Jacksonville FL Roofing Services</h3>
-            <p className="text-gray-600">As licensed Florida contractors (FL License #CCC1332453), our roofing services in Jacksonville, FL cover everything from emergency storm leak patches starting at $500 to full shingle and metal installations starting at $7,900. Every project is backed by manufacturer warranties, and we are CertainTeed Certified. <a href="tel:+19046065313" id="cta-snippet-expect-call" className="text-primary font-semibold hover:underline">Call (904) 606-5313</a> for a free estimate.</p>
+      {/* Local Context Section */}
+      <section className="py-14 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-10 items-center">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Top-Rated Roofing Company Near Jacksonville</h2>
+              <p className="text-base text-gray-600 leading-relaxed mb-4">
+                Gimo&apos;s Roofing has called Jacksonville home since 2001, with our office at 33 24th St E in the Brentwood neighborhood, close to I-95 and just north of downtown. That location puts most of Duval County within easy reach, whether your roofing job is scheduled or an emergency.
+              </p>
+              <p className="text-base text-gray-600 leading-relaxed mb-4">
+                From our Brentwood base we cover <a href="https://en.wikipedia.org/wiki/Riverside,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">Riverside</a>, <a href="https://en.wikipedia.org/wiki/San_Marco,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">San Marco</a>, and Mandarin, out to the beaches near <a href="https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Jacksonville Beach</a> and <a href="https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Ponte Vedra</a>, along with downtown neighborhoods like Springfield and Avondale. Beyond roof replacement and repair, we provide siding, gutter, and chimney services across Northeast Florida, residential and commercial alike.
+              </p>
+              <p className="text-base text-gray-600 leading-relaxed">
+                We&apos;re in the office Monday through Saturday and run 24/7 emergency roof repair the rest of the time, backed by a 5.0 rating across 104 <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" className="text-primary hover:underline">Google reviews</a>, the track record homeowners look for when they&apos;re trying to find the best roofer in Jacksonville rather than just the first name that shows up. Call <a href="tel:+19046065313" className="text-primary hover:underline">(904) 606-5313</a> any time for a free, honest assessment of your roof.
+              </p>
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.7159054447884!2d-81.65529292381676!3d30.35902290359657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e44b1e311da61b%3A0xe141a9eec11ad009!2sGimo&#39;s%20Roofing!5e0!3m2!1sen!2s!4v1776240784782!5m2!1sen!2s"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Gimo's Roofing location on Google Maps"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -531,39 +572,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Local Context Section — last thing on the page before the footer */}
-      <section className="py-14 bg-white border-t border-gray-100">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-10 items-center">
-            <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Top-Rated Roofing Company Near Jacksonville</h3>
-              <p className="text-base text-gray-600 leading-relaxed mb-4">
-                Gimo&apos;s Roofing has called Jacksonville home since 2001, with our office at 33 24th St E in the Brentwood neighborhood, close to I-95 and just north of downtown. That location puts most of Duval County within easy reach, whether your roofing job is scheduled or an emergency.
-              </p>
-              <p className="text-base text-gray-600 leading-relaxed mb-4">
-                From our Brentwood base we cover <a href="https://en.wikipedia.org/wiki/Riverside,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">Riverside</a>, <a href="https://en.wikipedia.org/wiki/San_Marco,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">San Marco</a>, and Mandarin, out to the beaches near <a href="https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Jacksonville Beach</a> and <a href="https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Ponte Vedra</a>, along with downtown neighborhoods like Springfield and Avondale. Beyond roof replacement and repair, we provide siding, gutter, and chimney services across Northeast Florida, residential and commercial alike.
-              </p>
-              <p className="text-base text-gray-600 leading-relaxed">
-                We&apos;re in the office Monday through Saturday and run 24/7 emergency roof repair the rest of the time, backed by a 5.0 rating across 104 <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" className="text-primary hover:underline">Google reviews</a>, the track record homeowners look for when they&apos;re trying to find the best roofer in Jacksonville rather than just the first name that shows up. Call <a href="tel:+19046065313" className="text-primary hover:underline">(904) 606-5313</a> any time for a free, honest assessment of your roof.
-              </p>
-            </div>
-            <div className="rounded-2xl overflow-hidden shadow-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.7159054447884!2d-81.65529292381676!3d30.35902290359657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e44b1e311da61b%3A0xe141a9eec11ad009!2sGimo&#39;s%20Roofing!5e0!3m2!1sen!2s!4v1776240784782!5m2!1sen!2s"
-                width="100%"
-                height="400"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Gimo's Roofing location on Google Maps"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
     </>
   )
 }
