@@ -226,18 +226,16 @@ export default function Home() {
       </section>
 
       {/* Financing Banner */}
-      <section className="py-10 bg-secondary text-white" id="financing">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="rounded-2xl bg-gradient-to-r from-primary to-primary-dark text-secondary p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
-            <div className="text-center md:text-left">
-              <span className="inline-block font-semibold text-xs uppercase tracking-wider mb-2">Roof Financing Available</span>
-              <h2 className="text-2xl md:text-4xl font-bold mb-3">Get Your New Roof Now. Pay Over Time.</h2>
-              <p className="text-base md:text-lg text-secondary/80 max-w-2xl">Flexible financing with Gimo&apos;s Roofing makes a roof replacement or repair in Jacksonville fit your budget. Quick online application, no surprises. <Link href="/roof-financing-florida" title="Roof Financing in Florida" className="font-semibold underline">See financing details</Link>.</p>
-            </div>
-            <div className="flex flex-col sm:flex-row md:flex-col gap-3 w-full md:w-auto shrink-0">
-              <a href={financingUrl} id="cta-home-financing-banner-apply" target="_blank" rel="noopener" title="Apply for Roofing Financing" className="btn bg-secondary text-white hover:bg-secondary-light px-8 py-3 text-center">Apply for Financing</a>
-              <a href="tel:+19046065313" id="cta-home-financing-banner-call" title="Call Gimo's Roofing about financing" className="btn bg-white text-secondary hover:bg-gray-100 px-8 py-3 text-center">Call (904) 606-5313</a>
-            </div>
+      <section className="py-12 md:py-16 bg-gradient-to-r from-primary to-primary-dark text-secondary" id="financing">
+        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="text-center md:text-left">
+            <span className="inline-block font-semibold text-xs uppercase tracking-wider mb-2">Roof Financing Available</span>
+            <h2 className="text-2xl md:text-4xl font-bold mb-3">Get Your New Roof Now. Pay Over Time.</h2>
+            <p className="text-base md:text-lg text-secondary/80 max-w-2xl">Flexible financing with Gimo&apos;s Roofing makes a roof replacement or repair in Jacksonville fit your budget. Quick online application, no surprises. <Link href="/roof-financing-florida" title="Roof Financing in Florida" className="font-semibold underline">See financing details</Link>.</p>
+          </div>
+          <div className="flex flex-col sm:flex-row md:flex-col gap-3 w-full md:w-auto shrink-0">
+            <a href={financingUrl} id="cta-home-financing-banner-apply" target="_blank" rel="noopener" title="Apply for Roofing Financing" className="btn bg-secondary text-white hover:bg-secondary-light px-8 py-3 text-center">Apply for Financing</a>
+            <a href="tel:+19046065313" id="cta-home-financing-banner-call" title="Call Gimo's Roofing about financing" className="btn bg-white text-secondary hover:bg-gray-100 px-8 py-3 text-center">Call (904) 606-5313</a>
           </div>
         </div>
       </section>
