@@ -124,6 +124,7 @@ export default function ProjectsMapCompact() {
           <div class="title">${p.title}</div>
           <div class="address">${p.address}</div>
           <img src="${p.images[0]}" alt="Roofing project on ${p.address} by Gimo's Roofing" loading="lazy" />
+          <a class="gallery-link" href="/gallery">See more projects in the gallery</a>
         </div>`
         const marker = L.marker([p.lat, p.lng], { icon: makeIcon(false) }).addTo(map).bindPopup(popup, { maxWidth: 250 })
         marker.on('mouseover', () => setActiveIndex(i))
@@ -189,6 +190,13 @@ export default function ProjectsMapCompact() {
           font-size: 0.75rem;
           color: #666;
           padding: 0 10px 8px;
+        }
+        .project-popup-compact .gallery-link {
+          display: block;
+          font-size: 0.75rem;
+          font-weight: 600;
+          color: #b8960f;
+          padding: 6px 10px 10px;
         }
         .leaflet-popup-content {
           margin: 0;

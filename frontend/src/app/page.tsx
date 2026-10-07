@@ -7,10 +7,10 @@ import ProjectsMapLoader from '@/components/ProjectsMapLoader'
 import TrustindexWidget from '@/components/TrustindexWidget'
 
 export const metadata: Metadata = {
-  title: { absolute: "Jacksonville Roofing Company - Gimo's Roofing" },
-  description: "Gimo's Roofing is a trusted Jacksonville roofing company with 500+ roofs completed, 5-star reviews, and expert roofers Jacksonville FL homeowners rely on. Call (904) 606-5313.",
+  title: { absolute: "Roofing Jacksonville FL - 5-Star Roofers - Gimo's Roofing" },
+  description: "Looking for trusted roofing companies in Jacksonville FL? Gimo's Roofing delivers 5-star roof replacement & repair. Free estimates. Call (904) 606-5313!",
   openGraph: {
-    title: "Jacksonville Roofing Company - Gimo's Roofing",
+    title: "Roofing Jacksonville FL - 5-Star Roofers - Gimo's Roofing",
     description: "Trusted roofer Jacksonville homeowners rely on. 500+ roofs completed, 5-star reviews, roof repair in Jacksonville FL. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com",
     images: [
@@ -146,6 +146,13 @@ const videoSchema = {
   ]
 }
 
+const regionalZones = [
+  { name: 'The Beaches', areas: [['Jacksonville Beach', '/roofing-jacksonville-beach-fl'], ['Atlantic Beach', '/roofing-atlantic-beach-fl'], ['Neptune Beach', '/roofing-neptune-beach-fl'], ['Ponte Vedra Beach', '/roofing-ponte-vedra-beach-fl']], text: 'Salt air corrodes fasteners and flashing faster near the ocean, and coastal wind exposure is higher. Roofs here call for corrosion-resistant materials and carefully fastened, wind-rated installs.' },
+  { name: 'Historic Core', areas: [['Riverside', '/roofing-riverside-fl'], ['San Marco', '/roofing-san-marco-fl']], text: 'Older homes often have aging decking, multiple past roof layers, and complex rooflines. A proper inspection and a full tear-off matter more here than a quick overlay.' },
+  { name: 'Suburban Southside and Westbank', areas: [['Mandarin', '/roofing-mandarin-fl'], ['Southside', '/roofing-southside-jax-fl'], ['Orange Park', '/roofing-orange-park-fl']], text: 'Mature oak canopies drop debris and hold moisture, which speeds algae growth and wears shingles. Many roofs installed in the 1990s and 2000s are now reaching the end of their service life.' },
+  { name: 'St. Johns and Nassau Counties', areas: [['St. Augustine', '/roofing-st-augustine-fl'], ['Nocatee', '/roofing-nocatee-fl'], ['Fernandina Beach', '/roofing-fernandina-beach-fl']], text: 'Newer communities often require HOA approval for color and material, while historic districts add their own review steps. We handle the paperwork along with the roof.' },
+]
+
 export default function Home() {
   return (
     <>
@@ -155,7 +162,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[85vh] flex items-center overflow-hidden pt-24 md:pt-0">
         <div className="absolute inset-0">
-          <Image src="/images/roofing-jacksonville-hero.webp" alt="Professional roofing services in Jacksonville FL - Gimo's Roofing" title="Professional roofing services in Jacksonville FL" fill sizes="100vw" className="object-cover" priority />
+          <Image src="/images/roofing-jacksonville-hero.webp" alt="Professional roofing team installing residential shingles for roofing in Jacksonville FL" title="Professional roofing services in Jacksonville FL" fill sizes="100vw" className="object-cover" priority />
           {/* Background video plays on all breakpoints (source is an 8.8MB muted
               clip, unlike the original 78MB file that forced the desktop-only
               split). preload="none" keeps the video out of the critical path so the
@@ -182,7 +189,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-10 items-center">
             <div className="text-white">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4"><span className="text-primary">Jacksonville Roofing Company</span> - Trusted Roofers in Jacksonville FL</h1>
-              <p className="text-base text-gray-300 mb-6 leading-relaxed max-w-lg">Looking for a reliable roofer Jacksonville homeowners trust? Gimo&apos;s Roofing has delivered 500+ completed roofs with 5-star reviews, offering <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link>, <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair</Link>, and new installations across <Link href="/roofing-jacksonville-fl" className="text-primary hover:underline">Jacksonville</Link> and Northeast Florida.</p>
+              <p className="text-base text-gray-300 mb-6 leading-relaxed max-w-lg">Looking for a reliable roofer Jacksonville homeowners trust? Gimo&apos;s Roofing is a premier provider of <Link href="/roofing-jacksonville-fl" className="text-primary hover:underline">roofing in Jacksonville, FL</Link>, delivering 500+ completed roofs with 5-star reviews. From <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link> to precision <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Jacksonville FL</Link>, we offer licensed residential and commercial solutions across Northeast Florida.</p>
 
               <div className="flex flex-wrap items-center gap-2 mb-6">
                 <span className="bg-white/10 backdrop-blur-sm rounded-lg px-3 py-1.5 text-xs font-medium">Licensed & Insured</span>
@@ -258,31 +265,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Service Areas Section */}
-      <section className="relative py-16 text-white overflow-hidden bg-secondary">
-        <div className="absolute inset-0">
-          <Image src="/images/gimos-roofing-jacksonville.webp" alt="Gimo's Roofing serving Jacksonville FL neighborhoods" title="Gimo's Roofing - Serving Jacksonville FL Neighborhoods" fill sizes="100vw" className="object-cover opacity-30" loading="lazy" />
-          <div className="absolute inset-0 bg-secondary/80"></div>
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Jacksonville Roofing Service Areas</span>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Local Roofing Contractor Serving <span className="text-primary">Northeast Florida</span></h2>
-            <p className="text-base text-gray-300 max-w-2xl mx-auto">Proudly serving Duval, St. Johns, Clay, and Nassau counties. Among Jacksonville FL roofing companies, Gimo&apos;s is the name families across Northeast Florida recommend most.</p>
+      {/* Regional Expertise Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-10">
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Local Expertise</span>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">How Roofing Needs Change Across Jacksonville</h2>
+            <p className="text-base text-gray-600 max-w-2xl mx-auto">From our Brentwood office, we reach every zone of Northeast Florida. Each one puts different demands on a roof.</p>
           </div>
-          <div className="space-y-10">
-            {Object.entries(serviceAreasByCounty).map(([county, areas]) => (
-              <div key={county}>
-                <h3 className="text-lg md:text-xl font-bold text-primary mb-4 text-center md:text-left">{county} County</h3>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-                  {areas.map((area) => (
-                    <Link key={area.slug} href={`/${area.slug}`} title={`Roofing Services in ${area.name}, FL`} className="group bg-white/10 backdrop-blur-sm hover:bg-primary rounded-xl p-4 text-center transition-all">
-                      <svg className="w-6 h-6 mx-auto mb-2 text-primary group-hover:text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-                      </svg>
-                      <span className="block text-sm font-semibold group-hover:text-secondary">{area.name}</span>
-                    </Link>
+          <div className="grid md:grid-cols-2 gap-6">
+            {regionalZones.map((zone) => (
+              <div key={zone.name} className="card p-6">
+                <h3 className="text-lg font-bold text-secondary mb-2">{zone.name}</h3>
+                <p className="text-gray-600 text-sm mb-4">{zone.text}</p>
+                <div className="flex flex-wrap gap-2">
+                  {zone.areas.map(([label, href]) => (
+                    <Link key={href} href={href} title={`Roofing in ${label}, FL`} className="bg-primary/10 text-secondary text-xs font-medium rounded-full px-3 py-1.5 hover:bg-primary/20 transition-colors">{label}</Link>
                   ))}
                 </div>
               </div>
@@ -296,7 +294,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Roofing Jacksonville FL</span>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Professional Roofing Services in Northeast Florida</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Professional Roofing Services in Jacksonville, FL</h2>
             <p className="text-base text-gray-600 max-w-2xl mx-auto mb-4"><strong>Gimo&apos;s Roofing offers roofing services in Jacksonville, FL including roof replacement, roof repair, new construction roofing, commercial roofing, metal roofing, gutter installation, and roof waterproofing</strong>, plus siding installation and repair. Every job is backed by manufacturer warranties, financing options, and free estimates. <a href={estimateUrl} id="cta-snippet-services-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-services-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
             <p className="text-base text-gray-600 max-w-2xl mx-auto">Among roofing companies in Jacksonville FL, Gimo&apos;s Roofing stands apart. As a licensed Jacksonville FL roofing company, we deliver quality craftsmanship for residential roofing Jacksonville FL homeowners trust, plus commercial properties across Northeast Florida. From roof repairs to complete replacements, our team is backed by manufacturer warranties and 24/7 <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link> for storm damage and active leaks.</p>
           </div>
@@ -351,6 +349,11 @@ export default function Home() {
                 </Link>
               ))}
             </div>
+          </div>
+
+          <div className="mt-12 max-w-3xl mx-auto bg-white rounded-2xl shadow-md p-6 md:p-8">
+            <h3 className="text-xl font-bold text-secondary mb-3">FAQ: What to Expect from Jacksonville FL Roofing Services</h3>
+            <p className="text-gray-600">As licensed Florida contractors (FL License #CCC1332453), our roofing services in Jacksonville, FL cover everything from emergency storm leak patches starting at $500 to full shingle and metal installations starting at $7,900. Every project is backed by manufacturer warranties, and we are CertainTeed Certified. <a href="tel:+19046065313" id="cta-snippet-expect-call" className="text-primary font-semibold hover:underline">Call (904) 606-5313</a> for a free estimate.</p>
           </div>
         </div>
       </section>
@@ -480,6 +483,39 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Roofing FAQ</h2>
           </div>
           <FAQ faqs={faqs} />
+        </div>
+      </section>
+
+      {/* Service Areas Section */}
+      <section className="relative py-16 text-white overflow-hidden bg-secondary">
+        <div className="absolute inset-0">
+          <Image src="/images/gimos-roofing-jacksonville.webp" alt="Gimo's Roofing serving Jacksonville FL neighborhoods" title="Gimo's Roofing - Serving Jacksonville FL Neighborhoods" fill sizes="100vw" className="object-cover opacity-30" loading="lazy" />
+          <div className="absolute inset-0 bg-secondary/80"></div>
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Jacksonville Roofing Service Areas</span>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Proudly Serving <span className="text-primary">Duval, St. Johns, Clay, and Nassau Counties</span></h2>
+            <p className="text-base text-gray-300 max-w-2xl mx-auto">Proudly serving Duval, St. Johns, Clay, and Nassau counties. Among Jacksonville FL roofing companies, Gimo&apos;s is the name families across Northeast Florida recommend most.</p>
+          </div>
+          <div className="space-y-10">
+            {Object.entries(serviceAreasByCounty).map(([county, areas]) => (
+              <div key={county}>
+                <h3 className="text-lg md:text-xl font-bold text-primary mb-4 text-center md:text-left">{county} County</h3>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                  {areas.map((area) => (
+                    <Link key={area.slug} href={`/${area.slug}`} title={`Roofing Services in ${area.name}, FL`} className="group bg-white/10 backdrop-blur-sm hover:bg-primary rounded-xl p-4 text-center transition-all">
+                      <svg className="w-6 h-6 mx-auto mb-2 text-primary group-hover:text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                      </svg>
+                      <span className="block text-sm font-semibold group-hover:text-secondary">{area.name}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
