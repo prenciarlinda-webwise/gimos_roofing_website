@@ -258,39 +258,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Service Areas Section */}
-      <section className="relative py-16 text-white overflow-hidden bg-secondary">
-        <div className="absolute inset-0">
-          <Image src="/images/gimos-roofing-jacksonville.webp" alt="Gimo's Roofing serving Jacksonville FL neighborhoods" title="Gimo's Roofing - Serving Jacksonville FL Neighborhoods" fill sizes="100vw" className="object-cover opacity-30" loading="lazy" />
-          <div className="absolute inset-0 bg-secondary/80"></div>
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Jacksonville Roofing Service Areas</span>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Local Roofing Contractor Serving <span className="text-primary">Northeast Florida</span></h2>
-            <p className="text-base text-gray-300 max-w-2xl mx-auto">Proudly serving Duval, St. Johns, Clay, and Nassau counties. Among Jacksonville FL roofing companies, Gimo&apos;s is the name families across Northeast Florida recommend most.</p>
-          </div>
-          <div className="space-y-10">
-            {Object.entries(serviceAreasByCounty).map(([county, areas]) => (
-              <div key={county}>
-                <h3 className="text-lg md:text-xl font-bold text-primary mb-4 text-center md:text-left">{county} County</h3>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-                  {areas.map((area) => (
-                    <Link key={area.slug} href={`/${area.slug}`} title={`Roofing Services in ${area.name}, FL`} className="group bg-white/10 backdrop-blur-sm hover:bg-primary rounded-xl p-4 text-center transition-all">
-                      <svg className="w-6 h-6 mx-auto mb-2 text-primary group-hover:text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-                      </svg>
-                      <span className="block text-sm font-semibold group-hover:text-secondary">{area.name}</span>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Services Section */}
       <section className="py-16 bg-gray-50" id="services">
         <div className="max-w-7xl mx-auto px-4">
@@ -511,6 +478,39 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Service Areas Section */}
+      <section className="relative py-16 text-white overflow-hidden bg-secondary">
+        <div className="absolute inset-0">
+          <Image src="/images/gimos-roofing-jacksonville.webp" alt="Gimo's Roofing serving Jacksonville FL neighborhoods" title="Gimo's Roofing - Serving Jacksonville FL Neighborhoods" fill sizes="100vw" className="object-cover opacity-30" loading="lazy" />
+          <div className="absolute inset-0 bg-secondary/80"></div>
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Jacksonville Roofing Service Areas</span>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Local Roofing Contractor Serving <span className="text-primary">Northeast Florida</span></h2>
+            <p className="text-base text-gray-300 max-w-2xl mx-auto">Proudly serving Duval, St. Johns, Clay, and Nassau counties. Among Jacksonville FL roofing companies, Gimo&apos;s is the name families across Northeast Florida recommend most.</p>
+          </div>
+          <div className="space-y-10">
+            {Object.entries(serviceAreasByCounty).map(([county, areas]) => (
+              <div key={county}>
+                <h3 className="text-lg md:text-xl font-bold text-primary mb-4 text-center md:text-left">{county} County</h3>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                  {areas.map((area) => (
+                    <Link key={area.slug} href={`/${area.slug}`} title={`Roofing Services in ${area.name}, FL`} className="group bg-white/10 backdrop-blur-sm hover:bg-primary rounded-xl p-4 text-center transition-all">
+                      <svg className="w-6 h-6 mx-auto mb-2 text-primary group-hover:text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                      </svg>
+                      <span className="block text-sm font-semibold group-hover:text-secondary">{area.name}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
