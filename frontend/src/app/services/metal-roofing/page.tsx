@@ -436,7 +436,7 @@ export default function MetalRoofingPage() {
                 </div>
                 <div className="bg-white rounded-lg p-4">
                   <h3 className="font-bold text-secondary">Clear Debris and Check After Storms</h3>
-                  <p className="text-gray-600 text-sm">Remove leaves and branches from valleys and gutters, and schedule a post-storm inspection after any named system so small issues get caught early.</p>
+                  <p className="text-gray-600 text-sm">Remove leaves and branches from valleys and gutters, and schedule a post-storm inspection after any named system so small issues get caught early. If a storm does damage a panel, our team offers <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair in Jacksonville</Link> around the clock.</p>
                 </div>
               </div>
             </div>

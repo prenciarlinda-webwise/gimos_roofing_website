@@ -5,7 +5,7 @@ import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
   title: { absolute: "24/7 Emergency Roof Repair Jacksonville FL - Gimo's Roofing" },
-  description: "Need emergency roof repair near me in Jacksonville, FL? Gimo's Roofing offers 24/7 emergency roofing for active leaks and storm damage. Call (904) 606-5313.",
+  description: "Need a 24 hour roofer near me in Jacksonville, FL? Gimo's Roofing offers emergency roof repair 24/7 for active leaks and storm damage. Call (904) 606-5313.",
   openGraph: {
     title: "Emergency Roof Repair Jacksonville FL - Gimo's Roofing",
     description: "24/7 emergency roof repair in Jacksonville FL. Same-day tarping for storm damage and active leaks. Licensed FL CCC1332453. Call (904) 606-5313.",
@@ -54,6 +54,8 @@ const faqs = [
   { question: "Is there emergency roofing near me that responds the same day?", answer: "Yes. Gimo's Roofing responds same-day to active leaks and storm damage anywhere in our Jacksonville service area. We're licensed (FL CCC1332453), local, and answer the phone, which is what separates real emergency roofing near you from a call center that books you for next week." },
   { question: "What's the difference between an emergency roofer and a regular roofing contractor?", answer: "An emergency roofer prioritizes active leaks and storm damage over scheduled work, often arriving same-day with tarping equipment on hand. Gimo's Roofing is both: a licensed general roofing contractor (FL CCC1332453) that also runs same-day emergency dispatch, so the emergency roofer who tarps your roof today can handle the permanent repair too, without bringing in a separate crew." },
   { question: "Do you offer 24 hour emergency roof repair in Jacksonville?", answer: "Yes, Gimo's Roofing provides 24 hour emergency roof repair services in Jacksonville FL, including nights, weekends, and holidays. We respond quickly to active leaks, storm damage, and urgent roofing situations. Call (904) 606-5313 for immediate assistance." },
+  { question: "Do you offer same day roof repair in Jacksonville?", answer: "Yes. Gimo's Roofing offers same day roof repair in Jacksonville for active leaks, storm openings, and urgent damage. We call ahead, inspect, and tarp or repair the same day whenever access and weather allow. Larger permanent repairs are scheduled right after, so you are protected immediately. Call (904) 606-5313 for same day service." },
+  { question: "Are you a hail damage roofing company in Jacksonville?", answer: "Yes. As a hail damage roofing company serving Jacksonville, we inspect for dented shingles, granule loss, and cracked tiles, document everything with photos for your insurance adjuster, and complete the repair or replacement. Hail is less common here than wind, so damage is often missed. A free inspection tells you for certain." },
   { question: "What qualifies as a roofing emergency?", answer: "Roofing emergencies include active water leaks entering your home, significant storm or wind damage, fallen trees or debris on your roof, and structural damage that poses safety risks. If water is entering your home or your roof is compromised, that's an emergency." },
   { question: "Will my insurance cover emergency roof repairs?", answer: "Most homeowner insurance policies cover roof damage caused by storms, wind, hail, and fallen trees. We document all damage thoroughly and can work with your insurance company on claims. You're typically responsible for your deductible." },
   { question: "How quickly can you respond to a roof emergency in Jacksonville?", answer: "We prioritize emergency calls and typically respond same-day for urgent situations in Jacksonville and surrounding areas. For active leaks, we can often provide temporary protection within hours." },
@@ -142,7 +144,7 @@ export default function EmergencyRoofRepairPage() {
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">24/7 Emergency Roofing Response</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              <strong>Gimo&apos;s Roofing provides emergency roof repair Jacksonville FL homeowners can call day or night, 24 hours a day, including weekends and holidays.</strong> If you searched for emergency roofing near me, emergency roofers near me, or urgent roof repair, this is the local, licensed and insured crew that actually answers. Our emergency roofing services cover active leaks, storm damage, and any urgent roofing situation across Duval, St. Johns, Clay, and Nassau counties, with rapid tarping and same-day repairs whenever the storm hits. <a href={estimateUrl} id="cta-snippet-emergency-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-emergency-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a> now.
+              <strong>Gimo&apos;s Roofing provides emergency roof repair Jacksonville FL homeowners can call day or night, 24 hours a day, including weekends and holidays.</strong> If you searched for 24 hour roofers near me, 24 hour roofing near me, emergency roofers near me, or urgent roof repair, this is the local, licensed and insured crew that actually answers. As a 24-hour roofing contractor, our 24 hour emergency roof services cover active leaks, storm damage, and any urgent roofing situation, and our emergency roof repair services in Jacksonville extend across North Florida: Duval, St. Johns, Clay, and Nassau counties, with rapid tarping and same day roof repair whenever the storm hits. Need a 24 hour roofer tonight? We answer the phone. <a href={estimateUrl} id="cta-snippet-emergency-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-emergency-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a> now.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -349,7 +351,7 @@ export default function EmergencyRoofRepairPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-3">Jacksonville Storm Damage Specialists</h2>
-              <p className="text-gray-600 mb-3"><strong>Gimo&apos;s Roofing is a Jacksonville storm damage roofing company handling hurricane, wind, and hail damage repair</strong> from minor <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Jacksonville FL</Link> to full <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link> when damage is severe. <a href={estimateUrl} id="cta-snippet-stormdamage-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-stormdamage-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
+              <p className="text-gray-600 mb-3"><strong>Gimo&apos;s Roofing is a Jacksonville storm damage roofing company handling hurricane, wind, and hail damage repair</strong>. Whether you need wind damage roof repair in Jacksonville or a hail damage roofing company to document and fix dented shingles, we handle everything from minor <Link href="/services/roof-repair" className="text-primary hover:underline">roof repair in Jacksonville FL</Link> to full <Link href="/services/roof-replacement" className="text-primary hover:underline">roof replacement</Link> when damage is severe. <a href={estimateUrl} id="cta-snippet-stormdamage-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-stormdamage-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
             </div>
             <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
               <Image src="/images/roof-leak-repair-jacksonville-fl-2.webp" alt="Storm damage roof leak repair completed in Jacksonville FL" title="Storm damage roof leak repair in Jacksonville FL" fill className="object-cover" />
@@ -365,13 +367,13 @@ export default function EmergencyRoofRepairPage() {
 
             <div className="card p-6">
               <h3 className="font-bold text-secondary mb-3">Wind Damage</h3>
-              <p className="text-gray-600 text-sm mb-3">Even non-hurricane winds can damage roofs. Gusts over 50 mph can lift shingles, break seals, and create entry points for water. Wind damage is often subtle and may not be visible from the ground.</p>
+              <p className="text-gray-600 text-sm mb-3">Even non-hurricane winds can damage roofs, and wind damage roof repair in Jacksonville is one of our most common storm calls. Gusts over 50 mph can lift shingles, break seals, and create entry points for water. Wind damage is often subtle and may not be visible from the ground.</p>
               <p className="text-gray-600 text-sm"><strong>Common issues:</strong> Lifted shingles, broken tab seals, exposed underlayment, ridge cap damage</p>
             </div>
 
             <div className="card p-6">
               <h3 className="font-bold text-secondary mb-3">Hail Damage</h3>
-              <p className="text-gray-600 text-sm mb-3">Jacksonville occasionally experiences hail that can damage roofing materials. Hail creates dents in shingles that compromise their waterproofing ability. Damage may not leak immediately but shortens roof life.</p>
+              <p className="text-gray-600 text-sm mb-3">Jacksonville occasionally experiences hail, and hail damage roof repair in Jacksonville starts with an honest inspection and photo documentation for your claim. Hail creates dents in shingles that compromise their waterproofing ability. Damage may not leak immediately but shortens roof life.</p>
               <p className="text-gray-600 text-sm"><strong>Common issues:</strong> Dented shingles, granule loss, cracked tiles, damaged vents and flashing</p>
             </div>
           </div>

@@ -3044,7 +3044,7 @@ export const blogPosts: BlogPost[] = [
     ],
     content: `<p class="text-lg text-gray-700 mb-6">Every month, Jacksonville homeowners receive letters that make their hearts sink: "We are unable to renew your homeowner's insurance policy due to the age of your roof."</p>
 
-<p class="text-gray-600 mb-6">If you haven't received this letter yet and your roof is over 10 years old, it's likely coming. Florida's insurance crisis has made roof age one of the biggest factors in coverage decisions. Here's what you need to know.</p>
+<p class="text-gray-600 mb-6">If you haven't received this letter yet and your roof is over 10 years old, it's likely coming. Florida's insurance crisis has made roof age one of the biggest factors in coverage decisions. Here's what you need to know. If a storm hits before your roof is replaced, our <a href="/services/emergency-roof-repair" class="text-primary font-semibold hover:underline">emergency roof repair services in Jacksonville</a> are available around the clock.</p>
 
 <h2 id="age-limits" class="text-2xl font-bold text-secondary mt-10 mb-4">Current Insurance Age Limits in Florida</h2>
 
@@ -8209,7 +8209,7 @@ export const blogPosts: BlogPost[] = [
       { id: "prevention", title: "Prevention Tips" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<p class="text-lg font-semibold text-secondary mb-6">Most roof leaks in Jacksonville are caused by damaged flashing, worn or missing shingles, or clogged gutters, not necessarily a failing roof. Simple repairs cost $150-$400, while more complex issues run $500-$1,000+. Finding the leak source is often harder than fixing it, as water can travel far from the entry point before dripping into your home.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Most roof leaks in Jacksonville are caused by damaged flashing, worn or missing shingles, or clogged gutters, not necessarily a failing roof. Simple repairs cost $150-$400, while more complex issues run $500-$1,000+. Finding the leak source is often harder than fixing it, as water can travel far from the entry point before dripping into your home. If water is coming in right now, skip the guide and call our <a href="/services/emergency-roof-repair" class="text-primary font-semibold hover:underline">24 hour roofers in Jacksonville</a> for same-day tarping.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Roof Leak Repair: Quick Facts</p>
@@ -8429,7 +8429,7 @@ export const blogPosts: BlogPost[] = [
       { id: "disputes", title: "Disputing Decisions" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<p class="text-lg font-semibold text-secondary mb-6">To file a Florida roof insurance claim: document all damage with photos/videos immediately, contact your insurance company within 24-48 hours, get a professional inspection for documentation, be present during the adjuster's visit, and get your own repair estimate to compare. Florida law gives insurers limited time to respond and pay valid claims.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">To file a Florida roof insurance claim: document all damage with photos/videos immediately, contact your insurance company within 24-48 hours, get a professional inspection for documentation, be present during the adjuster's visit, and get your own repair estimate to compare. Florida law gives insurers limited time to respond and pay valid claims. While you wait on the adjuster, <a href="/services/emergency-roof-repair" class="text-primary font-semibold hover:underline">emergency roof tarping in Jacksonville</a> stops further water damage and protects your claim.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Roof Insurance Claim: Key Timelines</p>
@@ -8634,7 +8634,7 @@ export const blogPosts: BlogPost[] = [
       { id: "prevention", title: "Prevention Tips" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
-    content: `<p class="text-lg font-semibold text-secondary mb-6">Wind damage to Florida roofs includes lifted shingles, torn flashing, exposed underlayment, and structural stress. Damage isn't always obvious from the ground, professional inspection is recommended after any storm with 50+ mph winds. Repair costs range from $200 for minor shingle repair to $10,000+ for extensive damage, with most wind damage covered by homeowner's insurance.</p>
+    content: `<p class="text-lg font-semibold text-secondary mb-6">Wind damage to Florida roofs includes lifted shingles, torn flashing, exposed underlayment, and structural stress. Damage isn't always obvious from the ground, professional inspection is recommended after any storm with 50+ mph winds. Repair costs range from $200 for minor shingle repair to $10,000+ for extensive damage, with most wind damage covered by homeowner's insurance. If a storm has already opened your roof, our crew offers <a href="/services/emergency-roof-repair" class="text-primary font-semibold hover:underline">emergency roof repair in Jacksonville FL</a> any hour of the day.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="font-bold text-secondary mb-2">Wind Damage: Quick Facts</p>
@@ -8844,7 +8844,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "3 min read",
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Hail Damage to Florida Roofs</h2>
 
-<p class="text-gray-600 mb-6"><strong>Hail damage appears as dents, cracks, or granule loss on roofing materials.</strong> On asphalt shingles, look for dark spots, exposed fiberglass mat, or soft spots when touched. Metal shows dents. Tile cracks or chips. Even small hail (1" diameter) can damage roofs, especially with high wind velocity. Most hail damage is covered by homeowner's insurance with standard deductible.</p>
+<p class="text-gray-600 mb-6"><strong>Hail damage appears as dents, cracks, or granule loss on roofing materials.</strong> On asphalt shingles, look for dark spots, exposed fiberglass mat, or soft spots when touched. Metal shows dents. Tile cracks or chips. Even small hail (1" diameter) can damage roofs, especially with high wind velocity. Most hail damage is covered by homeowner's insurance with standard deductible. Need it checked fast? Gimo's Roofing handles <a href="/services/emergency-roof-repair" class="text-primary font-semibold hover:underline">hail damage roof repair in Jacksonville</a> through our emergency line.</p>
 
 <div class="bg-primary/10 border-l-4 border-primary p-6 my-8">
 <p class="text-secondary font-semibold">Key Facts About Hail Damage:</p>
@@ -21770,7 +21770,7 @@ export const blogPosts: BlogPost[] = [
     ],
     content: `<h2 id="quick-answer" class="text-2xl font-bold text-secondary mt-8 mb-4">Quick Answer - Finding a Roof Leak Without Rain</h2>
 
-<p class="text-gray-600 mb-6"><strong>The most reliable way to find a roof leak when it is not raining is to search your attic with a flashlight for staining, mold, or water trails and trace them uphill along the framing, since water almost always travels sideways before it drips and the wet spot on your ceiling is rarely directly under the actual entry point.</strong> Roof penetrations such as chimneys, vent pipes, and skylights fail far more often than open shingle field, so check those points first. If the trail runs cold, or the roof is steep, multi-story, or otherwise unsafe to walk, a professional <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> crew can run a controlled water test and pinpoint the entry point without the guesswork.</p>
+<p class="text-gray-600 mb-6"><strong>The most reliable way to find a roof leak when it is not raining is to search your attic with a flashlight for staining, mold, or water trails and trace them uphill along the framing, since water almost always travels sideways before it drips and the wet spot on your ceiling is rarely directly under the actual entry point.</strong> Roof penetrations such as chimneys, vent pipes, and skylights fail far more often than open shingle field, so check those points first. If the trail runs cold, or the roof is steep, multi-story, or otherwise unsafe to walk, a professional <a href="/services/roof-repair" class="text-primary hover:underline">roof repair</a> crew can run a controlled water test and pinpoint the entry point without the guesswork. If you do find active water, our <a href="/services/emergency-roof-repair" class="text-primary font-semibold hover:underline">same day roof repair in Jacksonville</a> team can tarp it fast.</p>
 
 <p class="text-gray-600 mb-6">Dealing with a mystery leak and want it tracked down for good? Get a free <a href="/roofing-jacksonville-beach-fl" class="text-primary font-semibold hover:underline">roof estimate in Jacksonville Beach</a> by calling Gimo's Roofing at <a href="tel:+19046065313" class="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
 
