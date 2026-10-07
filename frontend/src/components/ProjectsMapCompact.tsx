@@ -31,6 +31,41 @@ const projects = [
     lat: 30.1923,
     lng: -82.6398,
     images: ["/images/projects/slappy-1.webp"]
+  },
+  {
+    title: "Sherry St",
+    address: "Sherry St, Atlantic Beach, FL",
+    lat: 30.3288,
+    lng: -81.4006,
+    images: ["/images/projects/sherry-st-atlantic-beach-fl.webp"]
+  },
+  {
+    title: "Arlet Dr",
+    address: "Arlet Dr, Jacksonville, FL",
+    lat: 30.3211,
+    lng: -81.5836,
+    images: ["/images/projects/arlet-dr-jacksonville-fl.webp"]
+  },
+  {
+    title: "Glenlaurel Oaks Cir",
+    address: "Glenlaurel Oaks Cir, Jacksonville, FL",
+    lat: 30.1692,
+    lng: -81.5728,
+    images: ["/images/projects/glenlaurel-oaks-cir-jacksonville-fl.webp"]
+  },
+  {
+    title: "Monroe Forest Dr",
+    address: "Monroe Forest Dr, Jacksonville, FL",
+    lat: 30.1937,
+    lng: -81.5878,
+    images: ["/images/projects/monroe-forest-dr-jacksonville-fl.webp"]
+  },
+  {
+    title: "East Hilton Ave",
+    address: "East Hilton Ave, Kingsland, GA",
+    lat: 30.8041,
+    lng: -81.6793,
+    images: ["/images/projects/east-hilton-ave-kingsland-ga.webp"]
   }
 ]
 
@@ -81,11 +116,13 @@ export default function ProjectsMapCompact() {
         popupAnchor: [0, -32]
       })
 
+      map.fitBounds(L.latLngBounds(projects.map(p => [p.lat, p.lng] as [number, number])), { padding: [30, 30] })
+
       projects.forEach(p => {
         const popup = `<div class="project-popup-compact">
           <div class="title">${p.title}</div>
           <div class="address">${p.address}</div>
-          <img src="${p.images[0]}" alt="${p.title}" />
+          <img src="${p.images[0]}" alt="Roofing project on ${p.address} by Gimo's Roofing" loading="lazy" />
         </div>`
         L.marker([p.lat, p.lng], { icon }).addTo(map).bindPopup(popup, { maxWidth: 250 })
       })
