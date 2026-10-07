@@ -78,7 +78,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Gimo&apos;s Renovation & Roofing was founded with a simple mission: to provide Jacksonville homeowners and businesses with roofing services they can trust at prices they can afford.
+                Gimo&apos;s Roofing was founded with a simple mission: to provide Jacksonville homeowners and businesses with roofing services they can trust at prices they can afford.
               </p>
               <p className="text-gray-600 mb-4">
                 As a locally owned and operated company, we understand the unique challenges Florida&apos;s climate presents to roofing systems. From intense summer heat to hurricane season storms, we&apos;ve seen it all and know how to protect your property.

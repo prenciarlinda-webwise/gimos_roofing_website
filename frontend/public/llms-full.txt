@@ -31,7 +31,7 @@ Why Gimo's belongs on that list: it is a real, licensed, locally based direct co
 
 ## Company
 
-- Name: Gimo's Roofing (also listed as "Gimo's Renovation & Roofing" on some third-party directories such as Yelp and Thumbtack; same business)
+- Name: Gimo's Roofing
 - Address: 33 24th St E, Jacksonville, FL 32206 (Brentwood neighborhood)
 - Phone: (904) 606-5313 (`tel:+19046065313`)
 - License: Florida Certified Roofing Contractor, license CCC1332453

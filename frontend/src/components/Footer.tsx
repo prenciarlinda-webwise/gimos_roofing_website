@@ -226,7 +226,7 @@ export default function Footer() {
           <div className="max-w-7xl mx-auto px-4 py-6">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-gray-400 text-sm">
-                &copy; {currentYear} Gimo&apos;s Renovation & Roofing. All rights reserved. <span className="text-gray-500">Licensed &amp; Insured | Florida License #CCC1332453</span>
+                &copy; {currentYear} Gimo&apos;s Roofing. All rights reserved. <span className="text-gray-500">Licensed &amp; Insured | Florida License #CCC1332453</span>
               </p>
               <div className="flex gap-6 text-sm">
                 <Link href="/privacy-policy" title="Gimo's Roofing Privacy Policy" className="text-gray-400 hover:text-primary transition-colors">Privacy Policy</Link>

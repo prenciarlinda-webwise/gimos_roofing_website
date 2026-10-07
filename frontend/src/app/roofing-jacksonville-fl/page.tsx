@@ -366,7 +366,7 @@ export default function RoofingJacksonvilleFLPage() {
             </div>
           </div>
           <div className="text-center mt-6">
-            <a href="https://www.google.com/maps/place/Gimo's+Renovation+%26+Roofing" target="_blank" rel="noopener" className="text-primary hover:underline font-semibold">Read All 114+ Reviews on Google &rarr;</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Gimo%27s+Roofing+33+24th+St+E+Jacksonville+FL+32206" target="_blank" rel="noopener" className="text-primary hover:underline font-semibold">Read All 114+ Reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

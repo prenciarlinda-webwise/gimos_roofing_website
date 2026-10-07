@@ -45,7 +45,7 @@ export default function TermsOfServicePage() {
           <div className="prose prose-lg max-w-none prose-headings:text-secondary">
             <h2>Agreement to Terms</h2>
             <p>
-              By accessing or using the website of Gimo&apos;s Renovation & Roofing (&quot;Company,&quot; &quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) at gimosroofing.com, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use our website.
+              By accessing or using the website of Gimo&apos;s Roofing (&quot;Company,&quot; &quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) at gimosroofing.com, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use our website.
             </p>
 
             <h2>Services Description</h2>
@@ -74,7 +74,7 @@ export default function TermsOfServicePage() {
 
             <h2>Licensing and Insurance</h2>
             <p>
-              Gimo&apos;s Renovation & Roofing is a licensed roofing contractor in the State of Florida. We maintain comprehensive general liability insurance and workers&apos; compensation coverage. Proof of licensing and insurance is available upon request.
+              Gimo&apos;s Roofing is a licensed roofing contractor in the State of Florida. We maintain comprehensive general liability insurance and workers&apos; compensation coverage. Proof of licensing and insurance is available upon request.
             </p>
 
             <h2>Contracts and Agreements</h2>
@@ -102,7 +102,7 @@ export default function TermsOfServicePage() {
 
             <h2>Intellectual Property</h2>
             <p>
-              All content on this website, including text, images, logos, and design, is the property of Gimo&apos;s Renovation & Roofing and is protected by copyright laws. You may not reproduce, distribute, or use our content without written permission.
+              All content on this website, including text, images, logos, and design, is the property of Gimo&apos;s Roofing and is protected by copyright laws. You may not reproduce, distribute, or use our content without written permission.
             </p>
 
             <h2>Website Use</h2>
@@ -122,7 +122,7 @@ export default function TermsOfServicePage() {
 
             <h2>Limitation of Liability</h2>
             <p>
-              To the fullest extent permitted by law, Gimo&apos;s Renovation & Roofing shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the website or our services.
+              To the fullest extent permitted by law, Gimo&apos;s Roofing shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the website or our services.
             </p>
 
             <h2>Dispute Resolution</h2>

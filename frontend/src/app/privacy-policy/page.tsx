@@ -45,7 +45,7 @@ export default function PrivacyPolicyPage() {
           <div className="prose prose-lg max-w-none prose-headings:text-secondary">
             <h2>Introduction</h2>
             <p>
-              Gimo&apos;s Renovation & Roofing (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website gimosroofing.com or use our services.
+              Gimo&apos;s Roofing (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website gimosroofing.com or use our services.
             </p>
 
             <h2>Information We Collect</h2>
