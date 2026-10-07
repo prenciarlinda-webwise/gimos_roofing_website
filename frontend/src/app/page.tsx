@@ -186,7 +186,6 @@ export default function Home() {
 
               <div className="flex flex-wrap items-center gap-2 mb-6">
                 <span className="bg-white/10 backdrop-blur-sm rounded-lg px-3 py-1.5 text-xs font-medium">Licensed & Insured</span>
-                <a href={financingUrl} target="_blank" rel="noopener" title="Apply for Roofing Financing" className="bg-white/10 backdrop-blur-sm rounded-lg px-3 py-1.5 text-xs font-medium hover:bg-white/20 transition-colors">Financing Available</a>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
@@ -212,12 +211,6 @@ export default function Home() {
                     <p className="text-gray-500 text-sm mb-2">Or call us directly</p>
                     <a href="tel:+19046065313" title="Call Gimo's Roofing Jacksonville" className="text-xl font-bold text-secondary hover:text-primary transition-colors">(904) 606-5313</a>
                   </div>
-                  <div className="border-t pt-4">
-                    <a href={financingUrl} target="_blank" rel="noopener" title="Apply for Roofing Financing" className="flex items-center justify-center gap-2 text-primary hover:text-primary-dark transition-colors text-sm font-medium">
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                      Apply for Financing
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -229,13 +222,11 @@ export default function Home() {
       <section className="py-12 md:py-16 bg-gradient-to-r from-primary to-primary-dark text-secondary" id="financing">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
-            <span className="inline-block font-semibold text-xs uppercase tracking-wider mb-2">Roof Financing Available</span>
-            <h2 className="text-2xl md:text-4xl font-bold mb-3">Get Your New Roof Now. Pay Over Time.</h2>
+            <h2 className="text-2xl md:text-4xl font-bold mb-3">Roof Financing Florida</h2>
             <p className="text-base md:text-lg text-secondary/80 max-w-2xl">Flexible financing with Gimo&apos;s Roofing makes a roof replacement or repair in Jacksonville fit your budget. Quick online application, no surprises. <Link href="/roof-financing-florida" title="Roof Financing in Florida" className="font-semibold underline">See financing details</Link>.</p>
           </div>
-          <div className="flex flex-col sm:flex-row md:flex-col gap-3 w-full md:w-auto shrink-0">
+          <div className="w-full md:w-auto shrink-0">
             <a href={financingUrl} id="cta-home-financing-banner-apply" target="_blank" rel="noopener" title="Apply for Roofing Financing" className="btn bg-secondary text-white hover:bg-secondary-light px-8 py-3 text-center">Apply for Financing</a>
-            <a href="tel:+19046065313" id="cta-home-financing-banner-call" title="Call Gimo's Roofing about financing" className="btn bg-white text-secondary hover:bg-gray-100 px-8 py-3 text-center">Call (904) 606-5313</a>
           </div>
         </div>
       </section>
