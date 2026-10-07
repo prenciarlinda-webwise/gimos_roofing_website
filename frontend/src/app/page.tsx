@@ -258,6 +258,39 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Service Areas Section */}
+      <section className="relative py-16 text-white overflow-hidden bg-secondary">
+        <div className="absolute inset-0">
+          <Image src="/images/gimos-roofing-jacksonville.webp" alt="Gimo's Roofing serving Jacksonville FL neighborhoods" title="Gimo's Roofing - Serving Jacksonville FL Neighborhoods" fill sizes="100vw" className="object-cover opacity-30" loading="lazy" />
+          <div className="absolute inset-0 bg-secondary/80"></div>
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Jacksonville Roofing Service Areas</span>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Local Roofing Contractor Serving <span className="text-primary">Northeast Florida</span></h2>
+            <p className="text-base text-gray-300 max-w-2xl mx-auto">Proudly serving Duval, St. Johns, Clay, and Nassau counties. Among Jacksonville FL roofing companies, Gimo&apos;s is the name families across Northeast Florida recommend most.</p>
+          </div>
+          <div className="space-y-10">
+            {Object.entries(serviceAreasByCounty).map(([county, areas]) => (
+              <div key={county}>
+                <h3 className="text-lg md:text-xl font-bold text-primary mb-4 text-center md:text-left">{county} County</h3>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                  {areas.map((area) => (
+                    <Link key={area.slug} href={`/${area.slug}`} title={`Roofing Services in ${area.name}, FL`} className="group bg-white/10 backdrop-blur-sm hover:bg-primary rounded-xl p-4 text-center transition-all">
+                      <svg className="w-6 h-6 mx-auto mb-2 text-primary group-hover:text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                      </svg>
+                      <span className="block text-sm font-semibold group-hover:text-secondary">{area.name}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section className="py-16 bg-gray-50" id="services">
         <div className="max-w-7xl mx-auto px-4">
@@ -322,8 +355,66 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Project Videos Section */}
+      {/* Local Context Section */}
+      <section className="py-14 bg-white border-t border-gray-100">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-10 items-center">
+            <div>
+              <h3 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Top-Rated Roofing Company Near Jacksonville</h3>
+              <p className="text-base text-gray-600 leading-relaxed mb-4">
+                Gimo&apos;s Roofing has called Jacksonville home since 2001, with our office at 33 24th St E in the Brentwood neighborhood, close to I-95 and just north of downtown. That location puts most of Duval County within easy reach, whether your roofing job is scheduled or an emergency.
+              </p>
+              <p className="text-base text-gray-600 leading-relaxed mb-4">
+                From our Brentwood base we cover <a href="https://en.wikipedia.org/wiki/Riverside,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">Riverside</a>, <a href="https://en.wikipedia.org/wiki/San_Marco,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">San Marco</a>, and Mandarin, out to the beaches near <a href="https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Jacksonville Beach</a> and <a href="https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Ponte Vedra</a>, along with downtown neighborhoods like Springfield and Avondale. Beyond roof replacement and repair, we provide siding, gutter, and chimney services across Northeast Florida, residential and commercial alike.
+              </p>
+              <p className="text-base text-gray-600 leading-relaxed">
+                We&apos;re in the office Monday through Saturday and run 24/7 emergency roof repair the rest of the time, backed by a 5.0 rating across 104 <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" className="text-primary hover:underline">Google reviews</a>, the track record homeowners look for when they&apos;re trying to find the best roofer in Jacksonville rather than just the first name that shows up. Call <a href="tel:+19046065313" className="text-primary hover:underline">(904) 606-5313</a> any time for a free, honest assessment of your roof.
+              </p>
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.7159054447884!2d-81.65529292381676!3d30.35902290359657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e44b1e311da61b%3A0xe141a9eec11ad009!2sGimo&#39;s%20Roofing!5e0!3m2!1sen!2s!4v1776240784782!5m2!1sen!2s"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Gimo's Roofing location on Google Maps"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reviews Widget Section */}
       <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center mb-10">
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Customer Reviews</span>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Gimo&apos;s Roofing Reviews from Jacksonville Homeowners</h2>
+          </div>
+          <TrustindexWidget src="https://cdn.trustindex.io/loader.js?bb29f2a7656c255c6a16cfadafe" />
+        </div>
+      </section>
+
+      {/* Recent Projects Map */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-8">
+            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Recent Projects</span>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">See Our Work Across <span className="text-primary">Northeast Florida</span></h2>
+            <p className="text-base text-gray-600 max-w-2xl mx-auto">Click on a pin to see photos from our completed roofing projects.</p>
+          </div>
+          <ProjectsMapLoader />
+          <div className="text-center mt-6">
+            <Link href="/gallery" title="View Our Roofing Project Gallery" className="text-primary font-semibold hover:underline">View Full Gallery &rarr;</Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Project Videos Section */}
+      <section className="pb-16 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-10">
             <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Our Work</span>
@@ -424,65 +515,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Service Areas Section */}
-      <section className="relative py-16 text-white overflow-hidden bg-secondary">
-        <div className="absolute inset-0">
-          <Image src="/images/gimos-roofing-jacksonville.webp" alt="Gimo's Roofing serving Jacksonville FL neighborhoods" title="Gimo's Roofing - Serving Jacksonville FL Neighborhoods" fill sizes="100vw" className="object-cover opacity-30" loading="lazy" />
-          <div className="absolute inset-0 bg-secondary/80"></div>
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Jacksonville Roofing Service Areas</span>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Local Roofing Contractor Serving <span className="text-primary">Northeast Florida</span></h2>
-            <p className="text-base text-gray-300 max-w-2xl mx-auto">Proudly serving Duval, St. Johns, Clay, and Nassau counties. Among Jacksonville FL roofing companies, Gimo&apos;s is the name families across Northeast Florida recommend most.</p>
-          </div>
-          <div className="space-y-10">
-            {Object.entries(serviceAreasByCounty).map(([county, areas]) => (
-              <div key={county}>
-                <h3 className="text-lg md:text-xl font-bold text-primary mb-4 text-center md:text-left">{county} County</h3>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-                  {areas.map((area) => (
-                    <Link key={area.slug} href={`/${area.slug}`} title={`Roofing Services in ${area.name}, FL`} className="group bg-white/10 backdrop-blur-sm hover:bg-primary rounded-xl p-4 text-center transition-all">
-                      <svg className="w-6 h-6 mx-auto mb-2 text-primary group-hover:text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-                      </svg>
-                      <span className="block text-sm font-semibold group-hover:text-secondary">{area.name}</span>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Recent Projects Map */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-8">
-            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Recent Projects</span>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">See Our Work Across <span className="text-primary">Northeast Florida</span></h2>
-            <p className="text-base text-gray-600 max-w-2xl mx-auto">Click on a pin to see photos from our completed roofing projects.</p>
-          </div>
-          <ProjectsMapLoader />
-          <div className="text-center mt-6">
-            <Link href="/gallery" title="View Our Roofing Project Gallery" className="text-primary font-semibold hover:underline">View Full Gallery &rarr;</Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Reviews Widget Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-10">
-            <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Customer Reviews</span>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Gimo&apos;s Roofing Reviews from Jacksonville Homeowners</h2>
-          </div>
-          <TrustindexWidget src="https://cdn.trustindex.io/loader.js?bb29f2a7656c255c6a16cfadafe" />
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <section className="py-16 bg-gray-50" id="faq">
         <div className="max-w-3xl mx-auto px-4">
@@ -507,37 +539,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Local Context Section — last thing on the page before the footer */}
-      <section className="py-14 bg-white border-t border-gray-100">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-10 items-center">
-            <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Top-Rated Roofing Company Near Jacksonville</h3>
-              <p className="text-base text-gray-600 leading-relaxed mb-4">
-                Gimo&apos;s Roofing has called Jacksonville home since 2001, with our office at 33 24th St E in the Brentwood neighborhood, close to I-95 and just north of downtown. That location puts most of Duval County within easy reach, whether your roofing job is scheduled or an emergency.
-              </p>
-              <p className="text-base text-gray-600 leading-relaxed mb-4">
-                From our Brentwood base we cover <a href="https://en.wikipedia.org/wiki/Riverside,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">Riverside</a>, <a href="https://en.wikipedia.org/wiki/San_Marco,_Jacksonville" target="_blank" rel="noopener" className="text-primary hover:underline">San Marco</a>, and Mandarin, out to the beaches near <a href="https://en.wikipedia.org/wiki/Jacksonville_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Jacksonville Beach</a> and <a href="https://en.wikipedia.org/wiki/Ponte_Vedra_Beach,_Florida" target="_blank" rel="noopener" className="text-primary hover:underline">Ponte Vedra</a>, along with downtown neighborhoods like Springfield and Avondale. Beyond roof replacement and repair, we provide siding, gutter, and chimney services across Northeast Florida, residential and commercial alike.
-              </p>
-              <p className="text-base text-gray-600 leading-relaxed">
-                We&apos;re in the office Monday through Saturday and run 24/7 emergency roof repair the rest of the time, backed by a 5.0 rating across 104 <a href="https://maps.app.goo.gl/hC3XuE5pKA2ypPAQA" target="_blank" rel="noopener" className="text-primary hover:underline">Google reviews</a>, the track record homeowners look for when they&apos;re trying to find the best roofer in Jacksonville rather than just the first name that shows up. Call <a href="tel:+19046065313" className="text-primary hover:underline">(904) 606-5313</a> any time for a free, honest assessment of your roof.
-              </p>
-            </div>
-            <div className="rounded-2xl overflow-hidden shadow-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.7159054447884!2d-81.65529292381676!3d30.35902290359657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e44b1e311da61b%3A0xe141a9eec11ad009!2sGimo&#39;s%20Roofing!5e0!3m2!1sen!2s!4v1776240784782!5m2!1sen!2s"
-                width="100%"
-                height="400"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Gimo's Roofing location on Google Maps"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   )
 }
