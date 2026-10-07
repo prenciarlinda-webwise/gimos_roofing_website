@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import { blogPosts } from '@/lib/blogData'
+import { galleryVideos } from '@/lib/galleryVideos'
 
 // Required for static export
 export const dynamic = 'force-static'
@@ -7,12 +8,22 @@ export const dynamic = 'force-static'
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.gimosroofing.com'
 
+  // Video sitemap entries (YouTube embeds) for the gallery page
+  const videos = galleryVideos.map(v => ({
+    title: v.title,
+    thumbnail_loc: `https://img.youtube.com/vi/${v.id}/hqdefault.jpg`,
+    description: v.description,
+    player_loc: `https://www.youtube.com/embed/${v.id}`,
+    publication_date: v.uploadDate,
+  }))
+  const lastEdit = new Date('2026-10-07')
+
   // Main pages
   const mainPages = [
-    { url: baseUrl, changeFrequency: 'weekly' as const, priority: 1.0, images: [`${baseUrl}/images/roofing-jacksonville-hero.webp`, `${baseUrl}/images/roofing-crew-installation-action.webp`] },
+    { url: baseUrl, lastModified: lastEdit, changeFrequency: 'weekly' as const, priority: 1.0, images: [`${baseUrl}/images/roofing-jacksonville-hero.webp`, `${baseUrl}/images/roofing-crew-installation-action.webp`] },
     { url: `${baseUrl}/about`, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${baseUrl}/contact`, changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${baseUrl}/gallery`, changeFrequency: 'weekly' as const, priority: 0.7, images: [`${baseUrl}/images/church-roof-replacement-jacksonville-fl-aerial.webp`, `${baseUrl}/images/hotel-palms-commercial-roof-replacement-atlantic-beach-fl.webp`, `${baseUrl}/images/tile-roof-installation-jacksonville-fl.webp`] },
+    { url: `${baseUrl}/gallery`, changeFrequency: 'weekly' as const, priority: 0.7, lastModified: new Date(), videos, images: [`${baseUrl}/images/church-roof-replacement-jacksonville-fl-aerial.webp`, `${baseUrl}/images/hotel-palms-commercial-roof-replacement-atlantic-beach-fl.webp`, `${baseUrl}/images/tile-roof-installation-jacksonville-fl.webp`] },
     { url: `${baseUrl}/service-areas`, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/privacy-policy`, changeFrequency: 'yearly' as const, priority: 0.3 },
     { url: `${baseUrl}/terms-of-service`, changeFrequency: 'yearly' as const, priority: 0.3 },
@@ -22,16 +33,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Service pages
   const servicePages = [
     { url: `${baseUrl}/services`, changeFrequency: 'monthly' as const, priority: 0.9 },
-    { url: `${baseUrl}/services/emergency-roof-repair`, changeFrequency: 'monthly' as const, priority: 0.9, images: [`${baseUrl}/images/roof-repair-in-progress-jacksonville.webp`, `${baseUrl}/images/storm-damage-roof-repair.webp`, `${baseUrl}/images/roof-leak-repair-jacksonville-fl-2.webp`] },
+    { url: `${baseUrl}/services/emergency-roof-repair`, lastModified: lastEdit, changeFrequency: 'monthly' as const, priority: 0.9, images: [`${baseUrl}/images/roof-repair-in-progress-jacksonville.webp`, `${baseUrl}/images/storm-damage-roof-repair.webp`, `${baseUrl}/images/roof-leak-repair-jacksonville-fl-2.webp`] },
     { url: `${baseUrl}/services/roof-replacement`, changeFrequency: 'monthly' as const, priority: 0.9, images: [`${baseUrl}/images/residential-roofing-services-page.webp`, `${baseUrl}/images/roof-replacement.webp`, `${baseUrl}/images/two-story-home-roof-replacement.webp`, `${baseUrl}/images/residential-shingle-reroof-in-progress-jacksonville-fl.webp`, `${baseUrl}/images/residential-shingle-reroof-dumpster-jacksonville-fl.webp`] },
     { url: `${baseUrl}/services/roof-repair`, changeFrequency: 'monthly' as const, priority: 0.9, images: [`${baseUrl}/images/roof-repair-in-progress-jacksonville.webp`, `${baseUrl}/images/residential-roof-inspection-aerial.webp`] },
     { url: `${baseUrl}/services/new-construction-roofing`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/new-construction-roofing-jacksonville-fl-2.webp`, `${baseUrl}/images/new-construction-roofing-jacksonville-fl-3.webp`, `${baseUrl}/images/new-construction-roofing-jacksonville-fl-4.webp`] },
     { url: `${baseUrl}/services/commercial-roofing`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/post-office-commercial-roofing-project-jacksonville-fl.webp`, `${baseUrl}/images/hotel-palms-commercial-roof-replacement-atlantic-beach-fl.webp`, `${baseUrl}/images/commercial-motel-roof-replacement-in-progress-florida.webp`] },
     { url: `${baseUrl}/services/siding-installation`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/board-and-batten-siding-jacksonville-fl.webp`, `${baseUrl}/images/lap-siding-cement-board-jacksonville-fl.webp`, `${baseUrl}/images/cement-board-siding-jacksonville-fl.webp`, `${baseUrl}/images/vinyl-siding-installation-jacksonville-fl.webp`] },
     { url: `${baseUrl}/services/siding-repair`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/siding-installation-worker-ladder.webp`, `${baseUrl}/images/siding-project-closeup.webp`] },
-    { url: `${baseUrl}/services/metal-roofing`, changeFrequency: 'monthly' as const, priority: 0.9, images: [`${baseUrl}/images/green-metal-roof-residential.webp`, `${baseUrl}/images/flat-metal-roof-installation.webp`, `${baseUrl}/images/metal-roof-construction-site.webp`] },
-    { url: `${baseUrl}/services/roof-gutter`, changeFrequency: 'monthly' as const, priority: 0.9, images: [`${baseUrl}/images/completed-roof-project-jacksonville.webp`] },
-    { url: `${baseUrl}/services/roof-waterproofing`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/roof-leak-emergency-repair.webp`, `${baseUrl}/images/residential-roof-inspection-aerial.webp`] },
+    { url: `${baseUrl}/services/metal-roofing`, lastModified: lastEdit, changeFrequency: 'monthly' as const, priority: 0.9, images: [`${baseUrl}/images/green-metal-roof-residential.webp`, `${baseUrl}/images/flat-metal-roof-installation.webp`, `${baseUrl}/images/metal-roof-construction-site.webp`] },
+    { url: `${baseUrl}/services/roof-gutter`, lastModified: lastEdit, changeFrequency: 'monthly' as const, priority: 0.9, images: [`${baseUrl}/images/completed-roof-project-jacksonville.webp`] },
+    { url: `${baseUrl}/services/roof-waterproofing`, lastModified: lastEdit, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/roof-leak-emergency-repair.webp`, `${baseUrl}/images/residential-roof-inspection-aerial.webp`] },
     { url: `${baseUrl}/services/chimney-repair`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/chimney-cap-flashing-jacksonville-fl-2.webp`, `${baseUrl}/images/chimney-cap-replacement-jacksonville-fl.webp`, `${baseUrl}/images/chimney-cap-replacement-jacksonville-fl-2.webp`, `${baseUrl}/images/chimney-cap-flashing-jacksonville-fl.webp`] },
     { url: `${baseUrl}/services/roof-inspection`, changeFrequency: 'monthly' as const, priority: 0.8, images: [`${baseUrl}/images/roof-inspection-project-jacksonville-fl.webp`, `${baseUrl}/images/roof-inspection-and-repair-near-me-jacksonville-fl.webp`, `${baseUrl}/images/roof-inspection-near-me-jacksonville-fl.webp`] },
     { url: `${baseUrl}/services/skylight-installation`, changeFrequency: 'monthly' as const, priority: 0.7, images: [`${baseUrl}/images/two-story-home-skylights-roof.webp`, `${baseUrl}/images/skylight-fix-jacksonville.webp`, `${baseUrl}/images/skylight-installation-jacksonville.webp`] },
