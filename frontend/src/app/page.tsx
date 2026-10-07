@@ -272,7 +272,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <span className="inline-block text-primary font-semibold text-xs uppercase tracking-wider mb-3">Roofing Jacksonville FL</span>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Professional Roofing & Siding Services in Northeast Florida</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-4">Professional Roofing Services in Northeast Florida</h2>
             <p className="text-base text-gray-600 max-w-2xl mx-auto mb-4"><strong>Gimo&apos;s Roofing offers roofing services in Jacksonville, FL including roof replacement, roof repair, new construction roofing, commercial roofing, metal roofing, gutter installation, and roof waterproofing</strong>, plus siding installation and repair. Every job is backed by manufacturer warranties, financing options, and free estimates. <a href={estimateUrl} id="cta-snippet-services-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-services-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a>.</p>
             <p className="text-base text-gray-600 max-w-2xl mx-auto">Among roofing companies in Jacksonville FL, Gimo&apos;s Roofing stands apart. As a licensed Jacksonville FL roofing company, we deliver quality craftsmanship for residential roofing Jacksonville FL homeowners trust, plus commercial properties across Northeast Florida. From roof repairs to complete replacements, our team is backed by manufacturer warranties and 24/7 <Link href="/services/emergency-roof-repair" className="text-primary hover:underline">emergency roof repair</Link> for storm damage and active leaks.</p>
           </div>
@@ -309,7 +309,7 @@ export default function Home() {
               <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
                 <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
               </div>
-              <h3 className="text-xl font-bold text-secondary">Siding Services</h3>
+              <h2 className="text-xl font-bold text-secondary">Siding Services in Jacksonville, FL</h2>
             </div>
             <div className="grid md:grid-cols-2 gap-6">
               {sidingServices.map((service) => (
