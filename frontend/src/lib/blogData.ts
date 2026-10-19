@@ -15860,7 +15860,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Why does your roof leak only during heavy rain? Learn the 7 most common causes of rain leaks, emergency steps to take, and when to call a professional roofer in Jacksonville.",
     date: "2026-03-23",
     publishDate: "2026-03-23",
-    dateModified: "2026-03-23",
+    dateModified: "2026-10-19",
     author: "Gimo's Roofing Team",
     image: "/images/roof-near-me.webp",
     imageAlt: "Roof leak during heavy rainstorm on a Jacksonville FL home",
@@ -15878,6 +15878,7 @@ export const blogPosts: BlogPost[] = [
       { id: "cause-6", title: "Wind-Driven Rain at Vulnerable Points" },
       { id: "cause-7", title: "Improper Roof Slope or Ponding" },
       { id: "emergency-steps", title: "Emergency Steps During a Leak" },
+      { id: "forum-advice", title: "Forum Advice: What Holds Up and What Does Not" },
       { id: "when-to-call-pro", title: "When to Call a Professional" },
       { id: "key-takeaways", title: "Key Takeaways" }
     ],
@@ -16058,6 +16059,22 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-gray-600 mb-6">Once the storm passes, call a professional roofer for an <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof repair</a> assessment. Temporary tarping can prevent further damage until a permanent repair is scheduled.</p>
 
+<h2 id="forum-advice" class="text-2xl font-bold text-secondary mt-10 mb-4">Forum Advice About Roof Leaks: What Holds Up and What Does Not</h2>
+
+<p class="text-gray-600 mb-6">Homeowner forums are full of roof leak threads, and a lot of the advice is genuinely good. Some of it, though, can turn a $300 repair into a $5,000 one. Here is how the most repeated tips hold up in the field.</p>
+
+<ul class="list-disc pl-6 mb-6 text-gray-600 space-y-3">
+<li><strong>"Catch the water and call your insurance." Mostly right.</strong> Insurance typically will not pay for the roof itself when the leak comes from age or wear, but it may cover emergency tarping and interior damage from a sudden storm event. Call early and keep your photos</li>
+<li><strong>"Just dry out the drywall and paint over the stain." Risky.</strong> If the source is not fixed, the stain returns. If the insulation and drywall stay wet, mold can start within a day or two in Florida humidity. Fix the roof first, then remove wet insulation and damaged drywall</li>
+<li><strong>"Smear roof cement or caulk over the spot." Short-term at best.</strong> Sealant on a wet or dirty surface rarely bonds, and it can trap water under the shingle. It also hides the real entry point, which is often several feet uphill from the stain</li>
+<li><strong>"The stain shows exactly where the hole is." Usually wrong.</strong> Water travels along decking, rafters, and underlayment before it drips. The entry point is typically uphill from the visible stain, most often at flashing, a pipe boot, or a valley</li>
+<li><strong>"Go up and tarp it during the storm." Do not.</strong> Wet shingles and wind cause serious falls. Wait for dry conditions or have a crew do <a href="/services/emergency-roof-repair" class="text-primary hover:underline">emergency roof leak repair</a> and tarping</li>
+</ul>
+
+<h3 class="text-xl font-bold text-secondary mt-8 mb-3">How to Stop a Roof Leak From the Inside</h3>
+
+<p class="text-gray-600 mb-6">You cannot truly stop a roof leak from inside the house, but you can limit damage until the rain ends. Contain the drip with a bucket, relieve a bulging ceiling with a small drain hole, move furniture and electronics, and shut off power to the room if water is near fixtures. If you can safely reach the attic, look for dark, wet decking or dripping insulation to help a roofer locate the entry point. Then book a <a href="/services/roof-repair" class="text-primary hover:underline">roof leak repair</a> visit for the first dry window.</p>
+
 <h2 id="when-to-call-pro" class="text-2xl font-bold text-secondary mt-10 mb-4">When to Call a Professional Roofer</h2>
 
 <p class="text-gray-600 mb-6">Some roof leak situations require immediate professional attention. Call a <a href="/blog/how-to-choose-roofing-contractor-jacksonville" class="text-primary hover:underline">licensed roofing contractor</a> right away if you experience any of these situations.</p>
@@ -16111,7 +16128,10 @@ export const blogPosts: BlogPost[] = [
       { question: "How much does it cost to fix a roof leak in Jacksonville?", answer: "Minor roof leak repairs in Jacksonville typically cost $150-600 for issues like pipe boot replacement, small flashing repairs, or individual shingle replacement. Moderate repairs such as valley flashing replacement or larger shingle sections cost $600-1,500. Major repairs involving structural damage, large flashing projects, or extensive shingle replacement cost $1,500-3,500+. Emergency tarping for active leaks costs $300-800." },
       { question: "Should I put a tarp on my roof if it is leaking?", answer: "If your roof is actively leaking and more rain is expected, a temporary tarp is a good idea to prevent further water damage. However, never attempt to tarp a roof during active rain or wind, wet roofs are extremely dangerous. Wait for dry conditions or call a professional roofing company for emergency tarping service. A properly secured tarp can protect your home for weeks until a permanent repair is completed." },
       { question: "Is a roof leak covered by homeowners insurance?", answer: "Roof leaks caused by sudden events like storms, fallen trees, or hail damage are typically covered by homeowners insurance. Leaks caused by gradual wear, aging, or lack of maintenance are generally not covered. The key distinction is sudden damage versus gradual deterioration. If your leak started during a specific storm, document the damage with photos, file a claim promptly, and have a licensed roofer provide a damage assessment for your insurance company." },
-      { question: "Why would a brand new roof leak during heavy rain?", answer: "A newly installed or recently recovered roof that leaks during heavy rain almost always points to an installation defect rather than material wear, since a new roof has not had time to age or deteriorate. Common causes include a flashing detail that was missed or improperly lapped, nail placement that punctured the underlayment, a pipe boot that was not properly sealed, or a valley that was not tied in correctly. This should be treated as a workmanship issue and addressed under the installer's warranty, not as normal wear and tear." }
+      { question: "Why would a brand new roof leak during heavy rain?", answer: "A newly installed or recently recovered roof that leaks during heavy rain almost always points to an installation defect rather than material wear, since a new roof has not had time to age or deteriorate. Common causes include a flashing detail that was missed or improperly lapped, nail placement that punctured the underlayment, a pipe boot that was not properly sealed, or a valley that was not tied in correctly. This should be treated as a workmanship issue and addressed under the installer's warranty, not as normal wear and tear." },
+      { question: "How do I stop a roof leak from the inside?", answer: "You cannot permanently stop a roof leak from inside, but you can limit the damage. Place a bucket under the drip, poke a small drain hole in a bulging ceiling so the water releases in a controlled way, move furniture and electronics, and turn off power to the room if water is near fixtures or outlets. Photograph everything for your insurance claim, then have a roofer find and repair the entry point once the rain stops." },
+      { question: "Can I fix a roof leak myself in the rain?", answer: "No. Working on a wet roof is one of the most common causes of serious falls, and sealant does not bond to wet shingles. During the storm, stay inside and contain the water. Once the roof is dry, a small temporary patch or tarp can hold, but the real entry point is often uphill from the stain and needs a proper repair by a licensed roofer." },
+      { question: "Where does a roof leak usually start if the stain is on my ceiling?", answer: "Usually uphill and to the side of the stain. Water follows the underlayment, decking, and rafters before it drips through the ceiling, so the stain can sit several feet from the actual hole. The most common entry points are chimney or wall flashing, plumbing vent boots, valleys, and skylights." }
     ]
   },
   {

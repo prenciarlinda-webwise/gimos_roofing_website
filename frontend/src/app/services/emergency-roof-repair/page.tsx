@@ -5,10 +5,10 @@ import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
   title: { absolute: "24/7 Emergency Roof Repair Jacksonville FL - Gimo's Roofing" },
-  description: "Need a 24 hour roofer near me in Jacksonville, FL? Gimo's Roofing offers emergency roof repair 24/7 for active leaks and storm damage. Call (904) 606-5313.",
+  description: "24 hour roofer near me in Jacksonville, FL? Emergency roof repair 24/7 with $0-down roof financing for leaks and storm damage. Call (904) 606-5313.",
   openGraph: {
     title: "Emergency Roof Repair Jacksonville FL - Gimo's Roofing",
-    description: "24/7 emergency roof repair in Jacksonville FL. Same-day tarping for storm damage and active leaks. Licensed FL CCC1332453. Call (904) 606-5313.",
+    description: "24/7 emergency roof repair in Jacksonville FL. Same-day tarping, $0-down roof financing, free estimates. Licensed FL CCC1332453. Call (904) 606-5313.",
     url: "https://www.gimosroofing.com/services/emergency-roof-repair",
   },
   alternates: { canonical: "https://www.gimosroofing.com/services/emergency-roof-repair" },
@@ -66,6 +66,8 @@ const faqs = [
   { question: "Can you help with insurance claims for storm damage?", answer: "Absolutely. We document all damage with detailed photos and reports, provide itemized estimates for adjusters, and can meet with your insurance company's adjuster on-site. We've helped hundreds of homeowners navigate claims successfully." },
   { question: "Do you provide emergency commercial roof repair in Jacksonville?", answer: "Yes. We dispatch for emergency commercial roof repair on flat and low-slope roofs, including TPO and EPDM membrane leaks, HVAC curb failures, and storm damage to office, retail, and warehouse properties. We coordinate with property managers to work around business hours and provide documentation for facility and insurance records. Call (904) 606-5313." },
   { question: "What if the storm damaged my roof at night?", answer: "Call us immediately at (904) 606-5313. We respond to after-hours emergencies for active leaks and severe damage. For damage that isn't actively leaking, we can assess first thing in the morning." },
+  { question: "Can I finance an emergency roof repair in Florida?", answer: "Yes. Gimo's Roofing offers roof financing in Florida for emergency repairs and replacements, with $0-down options, monthly payments starting around $99 for qualified buyers, and approval decisions in minutes. Rates and terms depend on credit and loan amount, and there is no prepayment penalty. We can stop the leak first and you pay over time instead of letting water damage grow." },
+  { question: "What if I can't pay for an emergency roof repair right now?", answer: "Call (904) 606-5313 and we will start with emergency tarping to protect your home. Sudden storm damage may be covered by homeowners insurance, and for out-of-pocket work we offer roof financing so you do not have to delay the permanent repair. Waiting on a small leak usually costs more than fixing it." },
   { question: "How long do emergency repairs last?", answer: "Temporary repairs like tarping last 30-90 days. Permanent repairs are designed to last the remaining life of your roof (10-20+ years). We'll advise if damage is severe enough that full replacement is the better option." }
 ]
 
@@ -96,11 +98,11 @@ export default function EmergencyRoofRepairPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-secondary to-secondary/90 text-white py-16">
+      <section className="bg-gradient-to-br from-secondary to-secondary/90 text-white pt-24 pb-10 md:py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <nav className="text-sm mb-4">
+              <nav className="hidden md:block text-sm mb-4">
                 <Link href="/" className="text-gray-300 hover:text-primary">Home</Link>
                 <span className="mx-2 text-gray-400">/</span>
                 <Link href="/services" className="text-gray-300 hover:text-primary">Services</Link>
@@ -110,18 +112,21 @@ export default function EmergencyRoofRepairPage() {
               <h1 className="text-3xl md:text-4xl font-bold mb-2">Emergency Roof Repair Jacksonville FL</h1>
               <h2 className="text-xl md:text-2xl font-semibold text-primary mb-4">24-Hour Emergency Roofer Response</h2>
               <p className="text-lg text-gray-200 mb-6">
-                Searching for emergency roof repair near me in Jacksonville? Gimo&apos;s Roofing is the local emergency roofing company that actually answers, responding fast to active leaks, storm damage, and urgent roofing issues across Duval, St. Johns, Clay, and Nassau counties, including Arlington, Riverside, San Marco, and every neighborhood in between. Call the moment something goes wrong and we&apos;ll secure your home before the damage spreads.
+                Active leak or storm damage? Gimo&apos;s Roofing is your 24/7 emergency roofer near you in Jacksonville. Call now and we&apos;ll protect your home fast.
+              </p>
+              <p className="text-base font-semibold text-primary mb-6">
+                $0-down roof financing available. <Link href="/roof-financing-florida" className="underline">See options</Link>
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href={`tel:+19046065313`} className="btn btn-primary w-full sm:w-auto text-center font-bold">
                   Call Now: {phone}
                 </a>
-                <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn bg-white text-secondary hover:bg-gray-100 w-full sm:w-auto text-center">
-                  Get Free Estimate
-                </a>
+                <Link href="/roof-financing-florida" className="btn bg-white text-secondary hover:bg-gray-100 w-full sm:w-auto text-center">
+                  Apply for Financing
+                </Link>
               </div>
             </div>
-            <div className="space-y-3">
+            <div className="hidden lg:block space-y-3">
               <div className="rounded-2xl aspect-video overflow-hidden shadow-xl relative">
                 <Image src="/images/roof-repair-in-progress-jacksonville.webp" alt="Emergency roof repair in progress in Jacksonville FL" title="Emergency roof repair in progress in Jacksonville FL" fill className="object-cover" priority />
               </div>
@@ -147,12 +152,13 @@ export default function EmergencyRoofRepairPage() {
               <strong>Gimo&apos;s Roofing provides emergency roof repair Jacksonville FL homeowners can call day or night, 24 hours a day, including weekends and holidays.</strong> If you searched for 24 hour roofers near me, 24 hour roofing near me, emergency roofers near me, or urgent roof repair, this is the local, licensed and insured crew that actually answers. As a 24-hour roofing contractor, our 24 hour emergency roof services cover active leaks, storm damage, and any urgent roofing situation, and our emergency roof repair services in Jacksonville extend across North Florida: Duval, St. Johns, Clay, and Nassau counties, with rapid tarping and same day roof repair whenever the storm hits. Need a 24 hour roofer tonight? We answer the phone. <a href={estimateUrl} id="cta-snippet-emergency-estimate" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">Get a free estimate</a> or call <a href="tel:+19046065313" id="cta-snippet-emergency-call" className="text-primary font-semibold hover:underline">(904) 606-5313</a> now.
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             {[
               { title: "Rapid Response", description: "Quick response to urgent calls throughout Jacksonville and surrounding areas" },
               { title: "Temporary Tarping", description: "Immediate protection to prevent further water damage to your home" },
               { title: "Prevent Water Damage", description: "Fast action to stop leaks before they damage ceilings, walls, and belongings" },
-              { title: "Weekend & Holiday Service", description: "Available day and night for 24 hour roof repair, including weekends and holidays" }
+              { title: "Weekend & Holiday Service", description: "Available day and night for 24 hour roof repair, including weekends and holidays" },
+              { title: "Financing Available", description: "Roof financing in Florida with $0-down options so cost never delays an emergency repair" }
             ].map((item, index) => (
               <div key={index} className="card p-6 text-center">
                 <p className="font-bold text-secondary mb-2">{item.title}</p>
@@ -186,6 +192,20 @@ export default function EmergencyRoofRepairPage() {
                 <Image src="/thumbtack-logo.svg" alt="Read Gimo's Roofing reviews on Thumbtack" title="Thumbtack Reviews" width={36} height={36} className="h-7 w-auto object-contain" unoptimized />
               </a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Financing Banner */}
+      <section className="bg-primary text-secondary py-6">
+        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
+          <div>
+            <p className="text-xl font-bold">Emergency Roof Repair With Financing in Jacksonville</p>
+            <p className="text-sm md:text-base">$0-down options, approval in minutes, no prepayment penalty. Stop the leak today and pay over time.</p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+            <a href="tel:+19046065313" className="btn bg-secondary text-white hover:bg-secondary/90">Call {phone}</a>
+            <Link href="/roof-financing-florida" className="btn bg-white text-secondary hover:bg-gray-100">Roof Financing Florida</Link>
           </div>
         </div>
       </section>
@@ -225,7 +245,7 @@ export default function EmergencyRoofRepairPage() {
               { step: "2", title: "Rapid Assessment", description: "We arrive quickly to assess the damage" },
               { step: "3", title: "Temporary Protection", description: "Tarping and protection if needed" },
               { step: "4", title: "Documentation", description: "Thorough damage documentation for insurance" },
-              { step: "5", title: "Repair Plan", description: "Permanent repair plan and estimate" }
+              { step: "5", title: "Repair Plan and Financing", description: "Permanent repair plan, estimate, and $0-down financing options" }
             ].map((item, index) => (
               <div key={index} className="text-center">
                 <div className="w-12 h-12 bg-primary text-secondary font-bold rounded-full flex items-center justify-center mx-auto mb-3 text-xl">
@@ -483,6 +503,38 @@ export default function EmergencyRoofRepairPage() {
         </div>
       </section>
 
+      {/* Roof Financing */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-4">Roof Financing in Florida for Emergency Repairs</h2>
+              <p className="text-gray-600 mb-4">
+                <strong>An emergency roof repair does not have to wait on your savings.</strong> Gimo&apos;s Roofing offers roof financing in Florida with $0-down options, payments from around $99 a month for qualified buyers, and approval decisions in minutes, so we can stop the leak now and you can pay over time.
+              </p>
+              <p className="text-gray-600 mb-4">
+                Financing is useful when the damage is not covered by insurance, when you are waiting on a claim or a deductible, or when a repair turns into a full replacement. Rates, terms, and promotions depend on credit and loan amount, and there is no prepayment penalty.
+              </p>
+              <p className="text-gray-600 mb-6">
+                See plans, terms, and how to apply on our <Link href="/roof-financing-florida" className="text-primary hover:underline">roof financing Florida</Link> page, or call <a href="tel:+19046065313" className="text-primary font-semibold hover:underline">{phone}</a> and we will walk you through it while we schedule the emergency visit.
+              </p>
+              <Link href="/roof-financing-florida" className="btn btn-primary">
+                Explore Roof Financing
+              </Link>
+            </div>
+            <div className="card p-8">
+              <h3 className="text-xl font-bold text-secondary mb-4">When Homeowners Use Financing</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>• Leak or storm damage that insurance will not cover</li>
+                <li>• Covering a deductible while a claim is pending</li>
+                <li>• Upgrading from a repair to a full replacement</li>
+                <li>• Avoiding a larger bill from waiting on a small leak</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
@@ -551,7 +603,7 @@ export default function EmergencyRoofRepairPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Need Emergency Roof Repair in Jacksonville?</h2>
           <p className="text-gray-300 mb-8 text-lg">
-            Call {phone} now. We respond quickly to protect your home from further damage.
+            Call {phone} now. We respond quickly to protect your home from further damage, and roof financing is available so cost never has to delay the repair.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+19046065313" className="btn btn-primary text-lg px-8 py-4">
@@ -560,6 +612,9 @@ export default function EmergencyRoofRepairPage() {
             <a href={estimateUrl} target="_blank" rel="noopener noreferrer" className="btn bg-white text-secondary hover:bg-gray-100 text-lg px-8 py-4">
               Get Free Estimate
             </a>
+            <Link href="/roof-financing-florida" className="btn bg-primary text-secondary hover:bg-primary/90 text-lg px-8 py-4">
+              Roof Financing
+            </Link>
           </div>
         </div>
       </section>
