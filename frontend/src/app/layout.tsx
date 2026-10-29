@@ -3,7 +3,7 @@ import { Inter, Poppins } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import WhatsAppWidget from '@/components/WhatsAppWidget'
+import FinancingBot from '@/components/FinancingBot'
 import { Analytics } from '@/components/Analytics'
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || 'GTM-T4W2HMRZ'
@@ -315,7 +315,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <WhatsAppWidget />
+        <FinancingBot />
       </body>
     </html>
   )
