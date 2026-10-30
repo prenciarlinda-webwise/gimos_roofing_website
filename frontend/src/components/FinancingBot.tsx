@@ -214,7 +214,7 @@ export default function FinancingBot() {
       className={`fixed z-[60] pointer-events-none flex ${
         open
           ? 'inset-x-0 bottom-24 lg:bottom-10 flex-col items-center gap-1'
-          : 'left-3 sm:left-6 bottom-28 lg:bottom-16 items-end gap-2'
+          : 'right-3 sm:right-6 bottom-28 lg:bottom-6 items-end gap-2'
       }`}
     >
       <style>{`
